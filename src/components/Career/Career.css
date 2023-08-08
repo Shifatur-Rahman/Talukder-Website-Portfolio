@@ -1,0 +1,49 @@
+.experience{
+    background-color: #17a2b8;
+    font-size: 16px;
+    padding: 20px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.experience::before {
+    content: "\201C"; 
+    font-size: 2em;
+    margin-right: 0.25em;
+  }
+
+  .careerText{
+    font-family: "Raleway",sans-serif;
+    text-align: justify;
+    color: #999999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 3rem;
+  }
+
+  .careerHeader{
+    color: #17a2b8 ;
+    font-size: 25px;
+  }
+
+  @media (max-width:768px){
+    .careerHeader{
+      color: #17a2b8 ;
+      font-size: 20px;
+    }
+    .experience{
+      font-size: 16px;
+    }
+  }
+
+  
+  @media (max-width:480px){
+    .careerHeader{
+      color: #17a2b8 ;
+      font-size: 16px;
+    }
+    .experience{
+      font-size: 14px;
+    }
+  }

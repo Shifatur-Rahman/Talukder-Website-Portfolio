@@ -1,0 +1,178 @@
+/* ================================
+our service section strats here 
+=================================== */
+
+.serviceTitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.our_service_section {
+    padding: 0px 0px 120px;
+    position: relative;
+    overflow: hidden;
+}
+.our_service_section .vector img{
+    position: absolute;
+    bottom: calc(18%);
+    left: calc(13% - 150px);
+}
+.ourService_title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.our_service_section .ourService_title p {
+    font-family: 'Montserrat',sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.our_service_section .ourService_title h2 {
+    color: #282f41;
+    margin-bottom: 0px;
+    font-family: "tt-b";
+}
+.ourService_section_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.single_service_section {
+    text-align: center;
+    padding: 47px 42px;
+    box-shadow: 0 0 11px 0 #e1e1e1;
+}
+.single_service_section:hover
+ {
+    background: url("../../asset/images/Services/our_service_graphics.png") #1dc6ad;
+    transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    cursor: pointer;
+ }
+.single_service_section:hover h4,
+.single_service_section:hover p{
+    color: #fff;
+}
+.single_service_section:hover .content a img,
+ .content a img{
+    filter: brightness(100);
+}
+.single_service_section .service_section_img img {
+    margin-bottom: 20px;
+}
+.single_service_section .content h4 {
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    font-family: "tt-b";
+}
+.single_service_section .content p {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.single_service_section .content a {
+    display: inline-block;
+}
+.single_service_section .content a img {
+    max-width: 100%;
+    transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+.single_service_section .content a img:hover {
+    transform: rotate(340deg);
+}
+
+
+/* *************************************
+SERVICE PAGE RESPONSIVE
+************************************* */
+@media screen and (max-width: 1400px){
+ 
+    /*********************** 
+    1.4-1400 services area here
+    ***********************/
+    .services_single1 .vector img,
+    .services_single3 .vector img,
+    .services_single5 .vector img,
+    .portfolio .vector img:nth-child(2),
+    .blog_home .vector img:nth-child(3),
+    .blog_home .vector img:nth-child(2){
+        left: calc(98%);
+    }
+    
+    .services_single2 .vector img,
+    .services_single4 .vector img,
+    .services_single6 .vector img,
+    .portfolio .vector img:nth-child(1),
+    .portfolio .vector img:nth-child(3)
+    {
+        left: calc(-4%);
+    }
+    .blog_home .vector img:nth-child(1){
+        left: calc(2%);
+    }
+    .services-content.margin{
+        margin-left: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+ 
+    /*********************** 
+    2.11-1200 services area here
+    ***********************/
+    .sercices_content p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+ 
+    /*********************** 
+    4.5-768 services area here
+    ***********************/
+    .services_img {
+        margin-bottom: 60px;
+    }
+
+}
+
+
+@media screen and (max-width: 576px){
+
+    /*********************** 
+    5.13-576 services area here
+    ***********************/
+    .sercices_content h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .services_number li span {
+        font-size: 24px;
+    }
+
+}
+
+/* *************************************
+SERVICE  PAGE RESPONSIVE END
+************************************* */
+
+
+
+
+
+
+
+
+/* =================================
+our service section ends here 
+================================= */
+  

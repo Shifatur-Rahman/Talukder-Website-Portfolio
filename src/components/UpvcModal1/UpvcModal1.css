@@ -1,0 +1,67 @@
+/* .upvcModal{
+    background-color: red;
+} */
+
+.upvcModalTitle{
+ font-family: "Montserrat", sans-serif;
+ font-size: 18px;
+ text-transform: uppercase;
+ font-weight: 600;
+ margin-top: 10px;
+}
+
+.upvcTableTr{
+    color:  #333333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upvcTableBody{
+    color: #000;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.upvcBtn{
+    background-color: #f2f2f2;
+    font-size: 11px;
+    padding: 5px;
+    color: #000;
+    font-family: "Barlow",sans-serif;
+    font-weight: 600;
+    border: 1px solid #54B4DE;
+    
+  }
+
+  .upvcBtn:hover, .upvcBtn:focus {
+    background-color: #54B4DE;
+    color: #fff;
+    border: 1px solid #54B4DE;
+  }
+
+
+   /* table */
+
+
+  .upvcTableTr th,
+.upvcTableTr td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+@media (max-width: 1000px) {
+  .upvcTableBody{
+    font-size: 11px;
+  }
+  }
+
+  @media (max-width: 600px) {
+    .upvcTableBody{
+      font-size: 9px;
+    }
+    }

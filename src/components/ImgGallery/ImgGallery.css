@@ -1,0 +1,76 @@
+
+.galleryImg img {
+  width: 100%;
+}
+
+.TgImageGallery{
+  background: url("../../asset/images/Services/our_service_graphics.png");
+}
+
+.galleryImg:hover {
+  background: url("../../asset/images/Services/our_service_graphics.png") #1dc6ad !important;
+  transition: all .5s ease;
+}
+
+.zoomImage {
+  width: 500px;
+  height: 400px;
+}
+
+.MuiDialogTitle-root {
+  font-size: 20px !important;
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .zoomImage {
+    width: 400px;
+    height: 300px;
+  }
+  .mainTitle {
+    font-size: 25px;
+  }
+  .MuiDialogTitle-root {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .zoomImage {
+    width: 350px;
+    height: 250px;
+  }
+  .mainTitle {
+    font-size: 22px;
+  }
+  .MuiDialogTitle-root {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .zoomImage {
+    width: 250px;
+    height: 150px;
+  }
+  .mainTitle {
+    font-size: 18px;
+  }
+  .MuiDialogTitle-root {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .zoomImage {
+    width: 170px;
+    height: 100px;
+  }
+  .mainTitle {
+    font-size: 15px;
+  }
+  .MuiDialogTitle-root {
+    font-size: 12px !important;
+  }
+}

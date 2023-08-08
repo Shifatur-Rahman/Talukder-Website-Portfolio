@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+.imageCard {
+  background-color: #f2f2f2;
+  border: none;
+  overflow: hidden;
+  border: 1px solid #92cce9;
+}
+.card{
+  margin-bottom: 15px;
+}
+.imageCard .card-img-top {
+  transition: transform 0.2s ease-in-out;
+}
+
+.imageCard:hover .card-img-top {
+  transform: scale(1.2);
+}
+
+.managementName {
+  font-family: "Nunito", sans-serif;
+  color: #2e86de;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+
+.managementDesignation {
+  font-style: italic;
+  color: #95b4d2;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.profileBtn {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  /* background-color:#17a2b8; */
+  background-color: #95a5a6;
+  border: none;
+}
+
+.profileBtn:hover {
+  background-color: #17a2b8;;
+  color:  #fff;
+  transition: all ease 1s;
+}
+
+.img11 img {
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+
+.img12 img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-top: -80px;
+  background-color: #17a2b8;
+}
+
+.card:hover .img12 img {
+  border-color: #17a2b8;
+  transition: 0.7s;
+}
+
+@media (max-width: 1000px) {
+  .managementName {
+    font-size: 15px;
+  }
+  .managementDesignation {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .managementName {
+    font-size: 13px;
+  }
+  .ManagementCard {
+    margin-bottom: 1rem;
+  }
+  .imageCard {
+    margin-bottom: 1rem;
+  }
+}

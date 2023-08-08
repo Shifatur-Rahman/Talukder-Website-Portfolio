@@ -1,0 +1,234 @@
+.footerSection {
+  background: url(../../asset/images/Footer/footerBanner1.png);
+  margin-top: 5rem;
+  /* box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.4); */
+}
+
+a {
+  text-decoration: none;
+}
+
+.footerTitle {
+  color: #fff;
+  /* color: #17a2b8; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footerTextAlign {
+  text-align: left;
+}
+
+.contactTitle {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #3d405b;
+  margin: 2rem 0;
+}
+
+.footerTextAlign{
+margin-bottom: 3rem;
+}
+
+#submitBtn {
+  text-align: center;
+}
+
+.contactHr {
+  width: 10%;
+}
+
+.socialLink {
+  text-decoration: none;
+  /* color: #595959; */
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.socialLink:hover {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+}
+
+.socialFont {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.socialFontFacebook {
+  font-size: 18px;
+  margin-right: 5px;
+  /* color: rgb(66, 103, 178); */
+  color: #fff;
+}
+
+.socialFontYoutube {
+  font-size: 18px;
+  margin-right: 5px;
+  color: red;
+}
+
+.socialFontTwitter {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #00acee;
+}
+
+.socialFontPhone {
+  font-size: 14px;
+  margin-right: 5px;
+  /* color: #016773; */
+  color: #fff;
+}
+
+.socialFontInsta {
+  font-size: 18px;
+  margin-right: 5px;
+  /* color: #016773; */
+  color: #C13584;
+}
+.copyrightSection {
+  padding: 20px;
+  background-color: #001219;
+}
+
+.copyrightText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyrightText:hover {
+  color: #b3b3b3;
+  transition: 0.5s;
+}
+
+.contactIcon {
+  cursor: pointer;
+  font-size: 35px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  /* color: #016773; */
+  color: #fff;
+}
+
+.contactIconName {
+  color: #e6e6e6;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formControl:focus {
+  border-radius: 3px !important;
+  border-color: rgb(96, 92, 92) !important;
+  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
+}
+
+.contactFormHeader {
+  font-size: 13px !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  text-align: left !important;
+  color: #e6e6e6;
+}
+
+.contactFormBtn {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* background-color: #016773 !important; */
+  background-color: #d9d9d9 !important;
+  color: #45637d;
+  border: none;
+  font-weight: 800 !important;
+}
+
+.contactFormBtn:hover {
+  background-color: #bfbfbf !important;
+  color: #45637d;
+}
+
+/* .contactFormBtn:hover {
+  background-color: #2f3e46;
+  box-shadow: none !important;
+} */
+
+.rightContact {
+  padding: 0 0 0 5rem;
+}
+
+.footerLogo{
+  width: 110px;
+  height: 70px;
+}
+
+.footerTgLogo{
+  width: 120px;
+  height: 70px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.logoName{
+  margin-bottom: 0px;
+  width: 200px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .rightContact {
+    margin-top: 2rem;
+  }
+  .contactTitle {
+    font-size: 22px;
+  }
+  .footerTextAlign {
+    text-align: left;
+  }
+  .footerTitle {
+    font-size: 18px;
+  }
+  .socialLink {
+    font-size: 14px;
+  }
+  .footerLocation {
+    margin-bottom: 3rem;
+  }
+  .copyrightText {
+    font-size: 14px;
+  }
+  .footerTextAlign{
+    padding-left: 2rem;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .logoName{
+    margin-bottom: 0px;
+    width: 160px;
+    height: 40px;
+  }
+  .contactIcon{
+    font-size: 25px;
+  }
+  .contactFormHeader {
+    font-size: 13px !important;
+  }
+  .footerTitle {
+    font-size: 16px;
+  }
+}

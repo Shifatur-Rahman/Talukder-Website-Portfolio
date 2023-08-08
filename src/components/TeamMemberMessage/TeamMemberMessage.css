@@ -1,0 +1,12 @@
+.DetailsPageName {
+  margin-top: 4rem;
+  color: #016773;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.DetailsPageSubName {
+  color: green;
+}

@@ -1,0 +1,22 @@
+.clientReviewImgCard {
+  margin: 0 auto;
+  float: none;
+}
+
+button.slick-arrow.slick-next::before, button.slick-arrow.slick-prev::before{
+  color: #45637d !important;
+  background-color: #fff !important;
+  border-radius: 50%;
+}
+
+@media(max-width:480px){
+  .clientReviewImgCard {
+    margin-right: 30px !important;
+  }
+}
+
+@media(max-width:320px){
+  .clientReviewImgCard {
+    margin-right: 60px !important;
+  }
+}

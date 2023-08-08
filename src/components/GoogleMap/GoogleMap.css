@@ -1,0 +1,18 @@
+#gmap {
+  width: 100%;
+  height: 380px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  #gmap {
+    height: 250px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  #gmap {
+    height: 180px;
+  }
+}

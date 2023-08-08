@@ -1,0 +1,154 @@
+/* .topFixedBanner {
+  background-image: url(../../asset/images/slider.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .topFixedBanner {
+  background-image: url(../../asset/images/slider.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .topBannerOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+} */
+
+/*
+.topBannerOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.topContent {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+}
+
+.topBannerTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+}
+
+.topBannerSubTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: #fff;
+ 
+}
+
+.topBannerBtn {
+  font-family: "Oswald", sans-serif;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: none;
+}
+
+.topBannerBtn:hover {
+  background-color: #dad7cd;
+  color: #2f3e46;
+}
+
+@media (min-width: 1400px) {
+  .topBannerTitle {
+    font-size: 50px;
+  }
+
+  .topBannerSubTitle {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navigation {
+    height: 70px;
+  }
+  .topBannerTitle {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 34px;
+  }
+
+  .topBannerSubTitle {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .topBannerBtn {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topBannerTitle {
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .topBannerSubTitle {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .topBannerBtn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .topBannerTitle {
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .topBannerSubTitle {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .topBannerBtn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 481px) {
+  .topBannerTitle {
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .topBannerSubTitle {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .topBannerBtn {
+    font-size: 12px;
+  }
+} */

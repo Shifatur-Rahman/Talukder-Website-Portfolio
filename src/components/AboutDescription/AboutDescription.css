@@ -1,0 +1,39 @@
+.AboutPageTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #17a2b8;
+}
+
+.AboutPageDescription {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.AboutMeMargin {
+  margin: 4rem 0;
+}
+
+.AboutMeHr {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 780px) {
+  .AboutPageTitle {
+    font-size: 20px;
+  }
+  .AboutPageDescription {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .AboutPageTitle {
+    font-size: 16px;
+  }
+  .AboutPageDescription {
+    font-size: 12px;
+  }
+}

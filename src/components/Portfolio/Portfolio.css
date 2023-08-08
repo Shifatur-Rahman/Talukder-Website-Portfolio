@@ -1,0 +1,168 @@
+.filter-buttons {
+    margin: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .filter-buttons button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    text-align: center;    
+}
+
+    .filter-buttons button {
+        margin-bottom: 10px;
+      }
+
+    .portfolio-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 5px;
+      }
+      
+      /* .portfolio-item img {
+        width: 100%;
+        height: auto;
+      } */
+      
+      .portfolio-item {
+        width: calc(25% - 10px);
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        margin: auto;
+        /* background-color: red !important; */
+        transition: all ease 1s;
+        -o-transition: all ease 1s;
+        -ms-transition: all ease 1s;
+        -moz-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+      }
+
+      .portfolio-item-img{
+        border-radius: 5px;
+        /* padding: 20px; */
+      }
+
+      .portfolio-item {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .portfolio-item img{
+        height: 180px;
+        width: 200px;
+        margin: auto;
+        border: 1px solid #b3b3b3;
+        padding: 3px;
+      }
+
+      .portfolio-item img:hover{
+        border: 3px solid #45637d;
+        /* transition: all ease 1s; */
+      }
+
+      .itemTitle{
+        font-size: 10px !important;
+        font-weight: 600;
+        line-height: 0;
+      }
+
+      .itemSize{
+        font-size: 10px !important;
+        font-weight: 400;
+        line-height: 0;
+      }
+
+      .filter-buttons button:hover {
+        background-color: #487eb0;
+        color: #fff;
+        }
+
+      .filter-buttons button.active {
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+      }
+
+      @media only screen and (max-width: 1020px) and (min-width: 768px)  {
+      .itemSize{
+        font-size: 8px !important;
+      }
+      .itemTitle{
+        font-size: 8px !important;
+      }
+      }
+      
+      @media only screen and (max-width: 1500px){
+        .portfolio-item {
+          width: calc(25% - 10px);
+        }
+      }
+      
+      @media only screen and (max-width: 1100px){
+        .portfolio-item {
+          width: calc(30%);
+        }
+      }
+
+      @media only screen and (max-width: 1000px){
+        .filter-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .dropdown-content{
+          width: 200px !important;
+        }
+      }
+
+      @media screen and (max-width: 900px) {
+        .portfolio-item {
+            width: calc(45% - 10px);
+          }
+          .portfolio-item img{
+            height: 180px;
+            width: 180px;
+          }
+          .filter-buttons button{
+            font-size: 11px;
+          }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .filter-buttons {
+            flex-direction: column;
+            align-items: center;
+          }
+        .portfolio-item {
+          width: 100%;
+          text-align: center;
+        }
+        .portfolio-item img{
+            height: 200px;
+            width: 200px;
+        }
+
+        .zoomImage{
+          width: 250px !important;
+          height: 200px !important;
+        }
+      }
+
+      @media screen and (max-width: 300px) {
+        .zoomImage{
+          width: 160px !important;
+          height: 180px !important;
+        }
+      }

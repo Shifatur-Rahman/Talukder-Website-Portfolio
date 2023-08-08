@@ -1,0 +1,183 @@
+/* .slick-arrow.slick-prev::before {
+  color: #2e4f4f;
+}
+
+.slick-arrow.slick-next::before {
+  color: #2e4f4f;
+} */
+
+button.slick-arrow.slick-next::before, 
+button.slick-arrow.slick-prev::before {
+  color: #1dc6ad !important;
+  /* background-color: #fff !important;
+  border-radius: 50%; */
+}
+
+.newsCard {
+  margin-right: 20px;
+  border: 1px solid #1dc6ad;
+  height: 480px;
+  margin-left: 10px;
+}
+
+.newsCardImg{
+  height: 200px;
+}
+
+.lastCard {
+  margin-right: 0;
+}
+
+.slick-track {
+  border: none !important;
+}
+
+.newsCardTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: justify;
+  color: #2c3e50;
+}
+
+.newsPara{
+    font-size: 8px;
+}
+
+.newsHeaderIcon{
+  font-size: 20px !important;
+  color: "#17a2b8";
+}
+
+.newsHeaderSpan{
+  font-size: 13px;
+}
+
+.adminUser{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.adminSpan{
+  font-size: 13px;
+}
+
+.news{
+  position: relative;
+  }
+
+.newsIconAdd{
+  position: absolute;
+  bottom: 5px;
+  font-size: 14px;
+  color: #17a2b8;
+  cursor: pointer;
+  /* color: #45637d; */
+}
+
+.adminUser{
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .newsCard {
+     height: 500px;
+  }
+  .newsCardTitle {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .newsCard {
+    height: 450px;
+  }
+  .newsCardTitle {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .newsCard {
+    height: 500px;
+  }
+  .newsCardTitle {
+    font-size: 13px;
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+ 
+  .newsCard img{
+    height: 300px !important;
+  }
+  .newsCard{
+    height: 550px;
+  }
+  }
+@media (max-width: 600px) {
+  .newsCard{
+    height: 550px;
+  }
+  .newsCardImg{
+    height: 70px !important;
+  }
+  .newsCard{
+    width: 350px;
+    margin: 0 auto;
+    float: none;
+  }
+  .newsCardTitle {
+    font-size: 11px;
+    margin-top: 3px;
+    /* margin-bottom: 5px; */
+  }
+
+.slick-arrow.slick-prev{
+  display: none !important;
+}
+
+.slick-arrow.slick-next{
+  display: none !important;
+}
+.newsHeaderIcon{
+  font-size: 13px !important;
+  margin-bottom: 3px;
+}
+.newsHeaderSpan{
+  font-size: 11px;
+}
+.newsHeader{
+  margin-bottom: 2px;
+}
+}
+
+@media (max-width: 400px) {
+  .newsCard{
+    width: 280px;
+    height: 400px;
+  }
+  .newsCardImg{
+    height: 50px;
+  }
+  .newsCardTitle {
+    font-size: 10px;
+    margin-top: 0;
+  }
+  .newsHeaderIcon{
+    font-size: 12px !important;
+  }
+  .newsHeaderSpan{
+    font-size: 8px;
+  }
+  .newsPara{
+    font-size: 10px !important;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 300px) {
+  .newsCard{
+    width: 220px;
+  }
+}

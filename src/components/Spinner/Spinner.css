@@ -1,0 +1,11 @@
+.spinner{
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner img{
+    width: 150px;
+    height: 100px;
+}

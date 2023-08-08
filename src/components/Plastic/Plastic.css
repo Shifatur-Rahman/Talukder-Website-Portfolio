@@ -1,0 +1,74 @@
+.concernCard {
+  height: 230px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67);
+  -webkit-box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67);
+  -moz-box-shadow: -5px 6px 18px -10px rgba(29, 111, 218, 0.67);
+  background-color: #b2c2c2;
+}
+
+.concernCard img {
+  margin: 5% 0 5% 0;
+  height: 90%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+/* css add */
+.plasticText{
+    font-size: 13px;
+    color: #595959;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.concernCardImg {
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+.concernCardImg:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 768px){
+  .plasticText{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .concernCardImg:hover {
+    transform: scale(1.1);
+  }
+  .concernCard {
+    height: 280px;
+  }
+}
+
+    /* media query */
+
+@media only screen and (max-width: 575px){
+  .concernCard{
+   height: 380px !important;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .concernCard{
+    height: 300px !important;
+   }
+    .plasticText{
+      font-size: 11px;
+    }
+  }
+
+  @media only screen and (max-width: 320px){
+    .concernCard {
+      height: 200px !important;
+    }
+  }

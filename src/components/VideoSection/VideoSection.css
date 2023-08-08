@@ -1,0 +1,58 @@
+.videoCard {
+  background-color: #ffffff;
+  margin: 50px auto;
+  padding: 6rem 3rem 6rem 3rem;
+  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+
+.videoTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.videoPara {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.playBtn {
+  color: #3d405b;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.player-wrapper {
+  position: relative;
+  padding: 20px;
+}
+
+.react-player {
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  left: 0;
+}
+
+.modalInfo {
+  background-color: #3d405b;
+  border: none;
+}
+
+.modalInfo:hover {
+  background-color: #3d405b;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .videoTitle {
+    font-size: 25px;
+  }
+
+  .videoPara {
+    font-size: 14px;
+  }
+}

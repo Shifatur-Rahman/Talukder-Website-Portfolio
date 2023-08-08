@@ -1,0 +1,65 @@
+.concern{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(23,162,184,1) 100%);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.concernName ul li {
+  list-style-type: none;
+}
+
+.concernName ul li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #2e4f4f !important;
+  
+}
+
+.concernIcon {
+  color: #17a2b8;
+  font-weight: 800;
+}
+
+.concernName{
+  /* background-color: #fff; */
+  font-family: "Montserrat",sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-left: 35%;
+}
+
+.concernName p{
+  padding: 20px;
+}
+
+@media(max-width: 768px){
+  .concernName ul li a{
+    font-size: 14px;
+  }
+ 
+}
+
+@media(max-width: 992px){
+  .concernName{
+    margin-top: 5rem;
+  }
+}
+
+@media(max-width: 768px){
+  .concernName{
+    margin-left: 15%;
+  }
+}
+
+@media(max-width: 420px){
+  .concernName ul li a{
+    font-size: 11px;
+  }
+  .concernName{
+    margin-left: 0;
+  }
+}

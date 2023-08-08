@@ -1,0 +1,35 @@
+.formControl:focus {
+  border-radius: 3px !important;
+  border-color: rgb(96, 92, 92) !important;
+  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
+}
+
+.contactFormHeader {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.contactFormBtn {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #2f3e46;
+  border: none;
+}
+
+.contactFormBtn:hover {
+  background-color: #2f3e46;
+  box-shadow: none !important;
+}
+
+.rightContact {
+  padding: 0 0 0 5rem;
+}
+
+@media (max-width: 768px) {
+  .rightContact {
+    margin-top: 2rem;
+  }
+}
