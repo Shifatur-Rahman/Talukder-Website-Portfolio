@@ -35,8 +35,10 @@ const Services = () => {
             </div>
         </div>
    
-     <div className="row">
+     {/* <div className="row">
+    
      <div className="ourService_section_content">
+
         <div className="single_service_section">
             <div className="service_section_img">
                 <img src={service1} alt="" />
@@ -105,23 +107,103 @@ const Services = () => {
                 </a>
             </div>
         </div>
+    </div>
 
-        {/* <div className="single_service_section">
+</div> */}
+
+
+<Row>
+    <Col sm={12} md={6} lg={4}>
+    <div className="single_service_section">
             <div className="service_section_img">
-                <img src={service6} alt="" />
+                <img src={service1} alt="" />
             </div>
     
             <div className="content">
-                <h4>   </h4>
+                <p className='serviceTitle'>Plastic</p>
                 <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a href="#!">
+                <a>
                     <img src={servicePlus} alt="" />
                 </a>
             </div>
-        </div> */}
+        </div>
+    </Col>
 
-    </div>
-</div>
+    <Col sm={12} md={6} lg={4}>
+    <div className="single_service_section">
+            <div className="service_section_img">
+                <img src={service2} alt="" />
+            </div>
+    
+            <div className="content">
+                <p className='serviceTitle'>uPVC</p>
+                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                <a>
+                    <img src={servicePlus} alt="" />
+                </a>
+            </div>
+        </div>
+    </Col>
+
+    <Col sm={12} md={6} lg={4}>
+    <div className="single_service_section">
+            <div className="service_section_img">
+                <img src={service3} alt="" />
+            </div>
+    
+            <div className="content">
+                <p className='serviceTitle'>Office Furniture</p>
+                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                <a>
+                    <img src={servicePlus} alt="" />
+                </a>
+            </div>
+        </div>
+    </Col>
+
+    <Col sm={12} md={6} lg={4}>
+    <div className="single_service_section">
+            <div className="service_section_img">
+                <img src={service4} alt="" />
+            </div>
+            <div className="content">
+                <p className='serviceTitle'>Interior Design</p>
+                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                <a>
+                    <img src={servicePlus} alt="" />
+                </a>
+            </div>
+        </div>
+    </Col>
+
+    <Col sm={12} md={6} lg={4}>
+    <div className="single_service_section">
+            <div className="service_section_img">
+                <img src={service5} alt="" />
+            </div>
+    
+            <div className="content">
+                <p className='serviceTitle'> Trading  </p>
+                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                <a>
+                    <img className='plusIcon' src={servicePlus} alt="" />
+                </a>
+            </div>
+        </div>
+    </Col>
+
+
+
+
+
+
+
+
+</Row>
+
+
+
+
 </div>
 
 
