@@ -4,7 +4,7 @@ our service section strats here
 
 .serviceTitle{
     font-family: "Montserrat", sans-serif;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 600;
     font-weight: 900;
     color:#1dc6ad;
@@ -25,7 +25,7 @@ margin-top: 3rem;
 }
 
 .our_service_section {
-    padding: 0px 0px 120px;
+    padding: 0px 0px 30px;
     position: relative;
     overflow: hidden;
 }
