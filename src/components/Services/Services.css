@@ -8,6 +8,7 @@ our service section strats here
     font-weight: 600;
     font-weight: 900;
     color:#1dc6ad;
+    margin-bottom: 0px;
 }
 
 .serviceSubTitle{
@@ -35,7 +36,7 @@ color: #000 !important;
 
 .ourService_title{
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 .our_service_section .ourService_title p {
     font-family: 'Montserrat',sans-serif;
@@ -91,7 +92,6 @@ color: #000 !important;
 .single_service_section .content a {
     display: inline-block;
 }
-
 .single_service_section .content a img {
     max-width: 100%;
     transition: all .5s ease;
@@ -160,9 +160,7 @@ SERVICE PAGE RESPONSIVE
     .services_img {
         margin-bottom: 60px;
     }
-
 }
-
 
 @media screen and (max-width: 576px){
 
