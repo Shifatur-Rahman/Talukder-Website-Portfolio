@@ -1,6 +1,6 @@
-/* .upvcModal{
-    background-color: red;
-} */
+.upvcModal{
+    /* background-color: rgba(0,0,0,0.6); */
+}
 
 .upvcModalTitle{
  font-family: "Montserrat", sans-serif;
@@ -8,10 +8,11 @@
  text-transform: uppercase;
  font-weight: 600;
  margin-top: 10px;
+ color: #273c75;
 }
 
 .upvcTableTr{
-    color:  #333333;
+    color:  #273c75;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -29,21 +30,20 @@
     color: #000;
     font-family: "Barlow",sans-serif;
     font-weight: 600;
-    border: 1px solid #54B4DE;
+    border: 1px solid #1dc6ad;
     
   }
 
   .upvcBtn:hover, .upvcBtn:focus {
-    background-color: #54B4DE;
+    background-color: #1dc6ad;
     color: #fff;
-    border: 1px solid #54B4DE;
+    border: 1px solid #1dc6ad;
   }
-
 
    /* table */
 
 
-  .upvcTableTr th,
+.upvcTableTr th,
 .upvcTableTr td {
   white-space: nowrap;
   overflow: hidden;

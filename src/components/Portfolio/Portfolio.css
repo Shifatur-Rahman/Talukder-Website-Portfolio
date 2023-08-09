@@ -63,12 +63,12 @@
         height: 180px;
         width: 200px;
         margin: auto;
-        border: 1px solid #b3b3b3;
+        border: 1px solid #148574;
         padding: 3px;
       }
 
       .portfolio-item img:hover{
-        border: 3px solid #45637d;
+        border: 2px solid #1dc6ad;
         /* transition: all ease 1s; */
       }
 
@@ -85,12 +85,13 @@
       }
 
       .filter-buttons button:hover {
-        background-color: #487eb0;
+        background-color: #148574;
         color: #fff;
         }
 
       .filter-buttons button.active {
-        background-color: #4CAF50;
+        /* background-color: #4CAF50; */
+        background-color: #1dc6ad;
         color: white;
         text-decoration: none;
       }

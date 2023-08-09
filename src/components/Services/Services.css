@@ -4,8 +4,17 @@ our service section strats here
 
 .serviceTitle{
     font-family: "Montserrat", sans-serif;
-    font-size: 17px;
+    font-size: 35px;
     font-weight: 600;
+    font-weight: 900;
+    color:#1dc6ad;
+}
+
+.serviceSubTitle{
+font-family: "Raleway",sans-serif !important;
+font-size: 20px;
+font-weight: 600;
+color: #000 !important;
 }
 
 .our_service_section {
@@ -20,7 +29,7 @@ our service section strats here
 }
 .ourService_title{
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 45px;
 }
 .our_service_section .ourService_title p {
     font-family: 'Montserrat',sans-serif;

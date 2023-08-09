@@ -318,7 +318,7 @@ const Footer = () => {
       >
         <a className="copyrightText" href="#">
           &copy; Copyright{" "}
-          <strong style={{ color: "#00acee" }}> Talukder </strong> Group Of
+          <strong style={{ color: "#1dc6ad" }}> Talukder </strong> Group Of
           Industries Limited {new Date().getFullYear()}
         </a>
       </Container>

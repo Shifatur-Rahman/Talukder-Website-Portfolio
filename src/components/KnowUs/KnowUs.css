@@ -6,7 +6,7 @@ html {
   font-size: 35px;
   color:  #1dc6ad;
   text-align: center;
-  margin: 3rem 0;
+  margin-top: 3rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
@@ -32,7 +32,7 @@ html {
   color: #fff !important;
   border-radius: 5px;
   transition: all ease 1.5s;
-  border: 1px solid #45637d;
+  border: 1px solid #1dc6ad;
 }
 
 

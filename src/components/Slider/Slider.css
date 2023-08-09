@@ -158,7 +158,7 @@ a.btn:focus{
 /* slider down key */
 
 .carousel-indicators .active {
-  background-color: #45637d;
+  background-color: #1dc6ad;
   height: 4px !important;
   transform: rotateY(360deg);
   transition: transform 1.5s ease-in-out;

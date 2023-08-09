@@ -94,7 +94,6 @@ const Portfolio = () => {
                   </button>
                 </div>
 
-
                 <div className="dropdown">
                   <button
                     className={isActive("plastic")}
@@ -145,8 +144,6 @@ const Portfolio = () => {
                     SCHOOL FURNITURE
                   </button>
                 </div>
-
-                
 
                 <div className="dropdown" style={{ flexDirection: "column" }}>
                   <button

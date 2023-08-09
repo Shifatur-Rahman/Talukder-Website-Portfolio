@@ -19,9 +19,9 @@ const Services = () => {
    {/* <!-- our service section starts here  --> */}
    <section className="our_service_section">
     {/* <!-- vector area starts here  --> */}
-    <div className="vector">
+       {/* <div className="vector">
         <img src={vec4} alt="" />
-    </div>
+       </div> */}
      {/* <!-- vector area ends here  --> */}
 
      {/* <!-- main service section starts here  --> */}
@@ -29,8 +29,8 @@ const Services = () => {
 
         <div className="row">
             <div className="ourService_title">
-                <p>our service</p>
-                <h2>Exclusive services for the next
+                <h1 className='knowusTitle'>our service</h1>
+                <h2 className='serviceSubTitle'>Exclusive services for the next
                 <br /> honourable customer</h2>
             </div>
         </div>
