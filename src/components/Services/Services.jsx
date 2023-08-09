@@ -11,6 +11,7 @@ import serviceOverlay from "../../asset/images/Services/our-service-overlay.jpg"
 import servicePortfolio from "../../asset/images/Services/ourPortfolio.png"
 import servicePlus from "../../asset/images/Services/service-plus.png"
 import vec4 from "../../asset/images/Services/vec-4.png"
+import { BiPlusCircle } from 'react-icons/bi';
 
 const Services = () => {
   return (
@@ -34,174 +35,88 @@ const Services = () => {
                 <br /> honourable customer</h2>
             </div>
         </div>
-   
-     {/* <div className="row">
-    
-     <div className="ourService_section_content">
 
-        <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service1} alt="" />
-            </div>
-    
-            <div className="content">
-                <p className='serviceTitle'>Plastic</p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
+                  <Row>
+                      <Col sm={12} md={6} lg={4}>
+                          <div className="single_service_section">
+                              <div className="service_section_img">
+                                  <img src={service1} alt="" />
+                              </div>
 
-        <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service2} alt="" />
-            </div>
-    
-            <div className="content">
-                <p className='serviceTitle'>uPVC</p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
+                              <div className="content">
+                                  <p className='serviceTitle'>Plastic</p>
+                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <a>
+                                      <img src={servicePlus} alt="" />
+                                  </a>
+                              </div>
+                          </div>
+                      </Col>
 
-        <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service3} alt="" />
-            </div>
-    
-            <div className="content">
-                <p className='serviceTitle'>Office Furniture</p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
+                      <Col sm={12} md={6} lg={4}>
+                          <div className="single_service_section">
+                              <div className="service_section_img">
+                                  <img src={service2} alt="" />
+                              </div>
 
-        <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service4} alt="" />
-            </div>
-            <div className="content">
-                <p className='serviceTitle'>Interior Design</p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
+                              <div className="content">
+                                  <p className='serviceTitle'>uPVC</p>
+                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <a>
+                                      <img src={servicePlus} alt="" />
+                                  </a>
+                              </div>
+                          </div>
+                      </Col>
 
-        <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service5} alt="" />
-            </div>
-    
-            <div className="content">
-                <p className='serviceTitle'> Trading  </p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img className='plusIcon' src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
-    </div>
+                      <Col sm={12} md={6} lg={4}>
+                          <div className="single_service_section">
+                              <div className="service_section_img">
+                                  <img src={service3} alt="" />
+                              </div>
 
-</div> */}
+                              <div className="content">
+                                  <p className='serviceTitle'>Office Furniture</p>
+                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <a>
+                                      <img src={servicePlus} alt="" />
+                                  </a>
+                              </div>
+                          </div>
+                      </Col>
 
+                      <Col sm={12} md={6} lg={4}>
+                          <div className="single_service_section">
+                              <div className="service_section_img">
+                                  <img src={service4} alt="" />
+                              </div>
+                              <div className="content">
+                                  <p className='serviceTitle'>Interior Design</p>
+                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <a>
+                                      <img src={servicePlus} alt="" />
+                                  </a>
+                              </div>
+                          </div>
+                      </Col>
 
-<Row>
-    <Col sm={12} md={6} lg={4}>
-    <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service1} alt="" />
-            </div>
-    
-            <div className="content">
-                <p className='serviceTitle'>Plastic</p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
-    </Col>
+                      <Col sm={12} md={6} lg={4}>
+                          <div className="single_service_section">
+                              <div className="service_section_img">
+                                  <img src={service5} alt="" />
+                              </div>
 
-    <Col sm={12} md={6} lg={4}>
-    <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service2} alt="" />
-            </div>
-    
-            <div className="content">
-                <p className='serviceTitle'>uPVC</p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
-    </Col>
+                              <div className="content">
+                                  <p className='serviceTitle'> Trading  </p>
+                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <a>
+                                      <img className='plusIcon' src={servicePlus} alt="" />
+                                  </a>
+                              </div>
+                          </div>
+                      </Col>
 
-    <Col sm={12} md={6} lg={4}>
-    <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service3} alt="" />
-            </div>
-    
-            <div className="content">
-                <p className='serviceTitle'>Office Furniture</p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
-    </Col>
-
-    <Col sm={12} md={6} lg={4}>
-    <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service4} alt="" />
-            </div>
-            <div className="content">
-                <p className='serviceTitle'>Interior Design</p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
-    </Col>
-
-    <Col sm={12} md={6} lg={4}>
-    <div className="single_service_section">
-            <div className="service_section_img">
-                <img src={service5} alt="" />
-            </div>
-    
-            <div className="content">
-                <p className='serviceTitle'> Trading  </p>
-                <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
-                <a>
-                    <img className='plusIcon' src={servicePlus} alt="" />
-                </a>
-            </div>
-        </div>
-    </Col>
-
-
-
-
-
-
-
-
-</Row>
-
-
+                  </Row>
 
 
 </div>
