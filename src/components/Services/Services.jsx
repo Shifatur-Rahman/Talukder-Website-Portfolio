@@ -31,7 +31,8 @@ const Services = () => {
         <div className="row">
             <div className="ourService_title">
                 {/* <h1 className='knowusTitle'>our services</h1> */}
-                <h1 className='knowusTitle'>Exclusive services for the next
+                <p className='serviceSubTitle'>Our Services</p>
+                <h1 className='serviceTitle'>Exclusive services for the next
                 <br /> honourable customer</h1>
             </div>
         </div>

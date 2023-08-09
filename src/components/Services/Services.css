@@ -9,13 +9,15 @@ our service section strats here
     font-weight: 900;
     color:#1dc6ad;
     margin-bottom: 0px;
+    margin-bottom: 2rem;
 }
 
 .serviceSubTitle{
 font-family: "Raleway",sans-serif !important;
-font-size: 20px;
+font-size: 22px !important;
 font-weight: 600;
 color: #000 !important;
+margin-top: 3rem;
 }
 
 .serviceDescription{
