@@ -115,7 +115,6 @@ const itemData = [
     img: gallery1,
     title: "Dhaka International Trade Fair",
   },
-
   {
     id: 2,
     img: gallery4,

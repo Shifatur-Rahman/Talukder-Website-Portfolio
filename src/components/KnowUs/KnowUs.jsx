@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { forwardRef } from "react";
- import serviceVideo from "../../asset/Serevices Video/service.webm";
+//  import serviceVideo from "../../asset/Serevices Video/service.webm";
 
 function KnowUs(props, ref) {
 

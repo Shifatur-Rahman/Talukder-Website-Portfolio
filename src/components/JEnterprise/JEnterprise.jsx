@@ -41,7 +41,6 @@ const JEnterprise = () => {
      </Container>)
   }
 
-
   </>;
 };
 
