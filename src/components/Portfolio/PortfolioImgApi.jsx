@@ -2972,10 +2972,9 @@ const portfolioItems = [
     imgSrc: upvc4,
     title: "Tubewell",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
-    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Tikader TubeWell (25.5-26kg)/BRDB | Tikader TubeWell (25.5-26kg) (Red)  `,
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
- 
 ];
 
 export default portfolioItems;

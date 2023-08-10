@@ -10,20 +10,19 @@ const Career = () => {
 
   useEffect(() => {
     AOS.init({
-      offset: 120, 
-      delay: 0,
-      easing: "ease",
-      duration: 1500, // values from 0 to 3000, with step 50ms
-       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or
-       once: false, // whether animation should happen only once - while scrolling down
-       mirror: false, // whether elements should animate out while scrolling past them
-       startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should 
-       animatedClassName: 'aos-animate', // class applied on animation
-       initClassName: 'aos-init', // class applied after initialization
-       useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+       offset: 120, 
+       delay: 0,
+       easing: "ease",
+       duration: 1500,
+       disable: false,
+       once: false,
+       mirror: false,
+       startEvent: 'DOMContentLoaded', 
+       animatedClassName: 'aos-animate',
+       initClassName: 'aos-init',
+       useClassNames: false,
     });
   }, []);
-
 
   const [loading, setLoading] = useState(true);
 
@@ -33,8 +32,6 @@ const Career = () => {
     }, 3200);
   }, []);
 
-  
-  
   return (
     <>
 
@@ -68,20 +65,18 @@ const Career = () => {
             </Col>
           </Row>
 
-
-
         <hr />
         <br />
 
           <Row>
             <Col>
               <p className='careerText'>At Talukder group of industries, we believe in providing our employees with a fulfilling and rewarding career path. We understand that each individual has unique career aspirations, and we strive to provide opportunities that align with those aspirations. With a focus on advanced technologies and global customers, our employees are exposed to some of the most innovative and challenging projects in the industry. </p>
-              {/* <br /> */}
+              {/* <br/> */}
               <p className='careerText'>We believe in nurturing and developing talent, and provide our employees with diverse and challenging assignments that span different product lines, job types, and businesses. We encourage our employees to take ownership of their career path and provide them with the resources and support to achieve their career goals. </p>
 
             </Col>
           </Row>
-
+          
     </Container>
 
 }
