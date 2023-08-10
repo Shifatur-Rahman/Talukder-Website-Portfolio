@@ -45,7 +45,7 @@
 }
 
 .profileBtn:hover {
-  background-color: #17a2b8;;
+  background-color: #1dc6ad;
   color:  #fff;
   transition: all ease 1s;
 }
@@ -68,11 +68,12 @@
   border-radius: 50%;
   border: 7px solid #fff;
   margin-top: -80px;
-  background-color: #17a2b8;
+  /* background-color: #17a2b8; */
+  background-color: #95a5a6;
 }
 
 .card:hover .img12 img {
-  border-color: #17a2b8;
+  border-color: #95a5a6;
   transition: 0.7s;
 }
 

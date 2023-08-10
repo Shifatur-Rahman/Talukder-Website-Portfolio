@@ -33,7 +33,8 @@
 }
 
 .managementCard:hover .img2 img {
-  border-color: darkcyan;
+  /* border-color: darkcyan; */
+  border-color: #1dc6ad;
   transition: 1.5s;
 }
 
