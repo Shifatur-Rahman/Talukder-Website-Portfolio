@@ -107,10 +107,6 @@ margin-top: 3rem;
     transform: rotate(340deg);
 }
 
-.content a{
-    color: red !important;
-}
-
 /* *************************************
 SERVICE PAGE RESPONSIVE
 ************************************* */
@@ -155,10 +151,6 @@ SERVICE PAGE RESPONSIVE
 }
 
 @media screen and (max-width: 768px){
- 
-    /*********************** 
-    4.5-768 services area here
-    ***********************/
     .services_img {
         margin-bottom: 60px;
     }
@@ -166,9 +158,6 @@ SERVICE PAGE RESPONSIVE
 
 @media screen and (max-width: 576px){
 
-    /*********************** 
-    5.13-576 services area here
-    ***********************/
     .sercices_content h2 {
         font-size: 24px;
         line-height: 28px;
@@ -177,16 +166,18 @@ SERVICE PAGE RESPONSIVE
     .services_number li span {
         font-size: 24px;
     }
-
+    .serviceTitle{
+        font-size: 25px;
+    }
 }
 
-/* *************************************
-SERVICE  PAGE RESPONSIVE END
-************************************* */
+@media screen and (max-width: 400px){
 
+    .serviceTitle{
+        font-size: 23px;
+    }
 
-
-/* =================================
-our service section ends here 
-================================= */
-  
+    .serviceSubTitle{
+        font-size: 18px;
+    }
+}

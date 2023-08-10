@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c49d3eb4.css",
-    "main.js": "/static/js/main.2e353e5a.js",
+    "main.css": "/static/css/main.de4d33a4.css",
+    "main.js": "/static/js/main.29ee7d7a.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -18,12 +18,12 @@
     "static/media/service.webm": "/static/media/service.d0263798909e3687353d.webm",
     "static/media/lged1.jpg": "/static/media/lged1.6b4a49c7e9a885fe867f.jpg",
     "static/media/04.avif": "/static/media/04.dbf3a06015129b9a1733.avif",
-    "static/media/profile.jpg": "/static/media/profile.3ebff5fb2d4b825480ff.jpg",
     "static/media/lged7.jpg": "/static/media/lged7.d79190e5ba2d047478b5.jpg",
     "static/media/08.avif": "/static/media/08.33d547654dfa52574e12.avif",
     "static/media/07.avif": "/static/media/07.157b16b2cd46240fc13c.avif",
     "static/media/02.avif": "/static/media/02.6fa76d00d8eabece0832.avif",
     "static/media/gallery4.avif": "/static/media/gallery4.6a7e30807e118c60262f.avif",
+    "static/media/profile.png": "/static/media/profile.1069d7050bae08ef653c.png",
     "static/media/lged8.jpg": "/static/media/lged8.9f2b2970474245538a89.jpg",
     "static/media/01.avif": "/static/media/01.9e203a71f8c76582ea04.avif",
     "static/media/gallery14.avif": "/static/media/gallery14.c7a9118dc3065cde34d3.avif",
@@ -50,6 +50,7 @@
     "static/media/news5.jpg": "/static/media/news5.3cf688d0a272e74f6a68.jpg",
     "static/media/gallery11.avif": "/static/media/gallery11.644f41b6a9b88c0e606d.avif",
     "static/media/02.jpg": "/static/media/02.6ad7141e9c98369fc44e.jpg",
+    "static/media/ourPortfolio.png": "/static/media/ourPortfolio.6618f3698464162b0e36.png",
     "static/media/01.jpg": "/static/media/01.094c274fa42bd63cc480.jpg",
     "static/media/gallery16.avif": "/static/media/gallery16.5d9c1142a7382ad06263.avif",
     "static/media/gallery6.avif": "/static/media/gallery6.240513ceb73077ab3c09.avif",
@@ -247,6 +248,7 @@
     "static/media/40.jpg": "/static/media/40.af1c902c99476600da62.jpg",
     "static/media/81.jpg": "/static/media/81.15cfed43c686a1b833d3.jpg",
     "static/media/upvc6.JPG": "/static/media/upvc6.d88fdca9178f5cadb0f7.JPG",
+    "static/media/our_service_graphics.png": "/static/media/our_service_graphics.6e490db3d81b7478f2ea.png",
     "static/media/72.jpg": "/static/media/72.ebbf12b7d16bda807270.jpg",
     "static/media/upvc13.JPG": "/static/media/upvc13.5a719d7655c7c15801c8.JPG",
     "static/media/58.jpg": "/static/media/58.64b03c4f04b54b95c1b6.jpg",
@@ -281,6 +283,7 @@
     "static/media/tbl30.jpg": "/static/media/tbl30.8e26674b6b0fad61dbbc.jpg",
     "static/media/tbl15.jpg": "/static/media/tbl15.0fba33bccd8db523d4fb.jpg",
     "static/media/conferenceTable03.jpg": "/static/media/conferenceTable03.434638625634aa7763f5.jpg",
+    "static/media/topButton.png": "/static/media/topButton.54b94a739d7ce7447b38.png",
     "static/media/tbl1.jpg": "/static/media/tbl1.a87c2b5a80ba3bb3108b.jpg",
     "static/media/conferenceTable01.jpg": "/static/media/conferenceTable01.e63ddd1c9169e272b865.jpg",
     "static/media/66.jpg": "/static/media/66.03d1f48989cd5e36c4b2.jpg",
@@ -391,11 +394,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.c49d3eb4.css.map": "/static/css/main.c49d3eb4.css.map",
-    "main.2e353e5a.js.map": "/static/js/main.2e353e5a.js.map"
+    "main.de4d33a4.css.map": "/static/css/main.de4d33a4.css.map",
+    "main.29ee7d7a.js.map": "/static/js/main.29ee7d7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c49d3eb4.css",
-    "static/js/main.2e353e5a.js"
+    "static/css/main.de4d33a4.css",
+    "static/js/main.29ee7d7a.js"
   ]
 }

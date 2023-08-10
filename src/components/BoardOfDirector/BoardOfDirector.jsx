@@ -6,7 +6,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { GrPinterest } from "react-icons/gr";
 import { AiFillGooglePlusCircle } from "react-icons/ai";
 import "./BoardOfDirector.css";
-import profile1Img from "../../asset/images/About us/profile.jpg";
+import profile1Img from "../../asset/images/About us/profile.png";
 import profile2Img from "../../asset/images/About us/avatar.jpg";
 import profile3Img from "../../asset/images/About us/avatarFemale.png";
 import Spinner from "../Spinner/Spinner";

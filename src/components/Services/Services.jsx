@@ -46,7 +46,7 @@ const Services = () => {
 
                               <div className="content">
                                   <p className='serviceTitle'>Plastic</p>
-                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <p> Talukder Group is a successful brand name as well as a flagship corporate name in corporate world.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -62,7 +62,7 @@ const Services = () => {
 
                               <div className="content">
                                   <p className='serviceTitle'>uPVC</p>
-                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <p> Talukder Group is a successful brand name as well as a flagship corporate name in corporate world.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -78,7 +78,7 @@ const Services = () => {
 
                               <div className="content">
                                   <p className='serviceTitle'>Office Furniture</p>
-                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <p> Talukder Group is a successful brand name as well as a flagship corporate name in corporate world.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -93,7 +93,7 @@ const Services = () => {
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'>Interior Design</p>
-                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <p> Talukder Group is a successful brand name as well as a flagship corporate name in corporate world.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -118,7 +118,6 @@ const Services = () => {
                       </Col>
 
                   </Row>
-
 
 </div>
 
