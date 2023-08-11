@@ -5,7 +5,6 @@ import { animateScroll } from "react-scroll";
 import Slider from "../components/Slider/Slider";
 import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 import NewsDetails from "../components/NewsDetails/NewsDetails";
-import Header from "../components/Header/Header";
 import Services from "../components/Services/Services";
 // import Slider2 from "../components/Slider2/Slider2";
 
@@ -19,10 +18,8 @@ const HomePage = () => {
 
   return (
     <>
-      <Header />
       <TopNavigation title="Talukder Group" />
       <Slider />
-      {/* <Slider2 /> */}
       <Services />
       <NewsDetails />
       <Footer />

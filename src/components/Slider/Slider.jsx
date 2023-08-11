@@ -11,6 +11,7 @@ import { useRef } from "react";
 import KnowUs from "../../components/KnowUs/KnowUs";
 import Summary from "../../components/Summary/Summary";
 import AOS from "aos";
+import Certified from "../Certified/Certified";
 
 const Slider = () => {
   const Summaryref = useRef(null);
@@ -164,7 +165,7 @@ const Slider = () => {
           </Carousel.Item>
         ))}
       </Carousel>
-
+      <Certified />
       <KnowUs ref={LearnMoreref} />
       <Summary ref={Summaryref} />
     </>
