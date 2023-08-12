@@ -96,8 +96,9 @@ const Certified = () => {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    border: "1px solid #92CCE9",
-                    boxShadow: "1px 1px 5px #92CCE9",
+                    // border: "1px solid #1dc6ad",
+                    border: "none",
+                    boxShadow: "17px 10px 48px -37px rgba(0,0,0,0.75)",
                     marginRight: "10px",
                     marginBottom: "10px",
                   }}
@@ -118,7 +119,6 @@ const Certified = () => {
           </Slider>
         </Container>
       )}    
-    
     
     </>
   )
