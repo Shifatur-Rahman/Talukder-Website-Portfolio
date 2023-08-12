@@ -12,13 +12,6 @@ import certified4 from "..//..//asset/images/Certified/buetLogo.png"
 
 
 const Certified = () => {
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-      setTimeout(() => {
-        setLoading(false);
-      }, 3200);
-    }, []);
   
     const settings = {
       dots: false,
@@ -80,19 +73,26 @@ const Certified = () => {
   
   return (
     <>
-    
-    {loading ? (
-        <Spinner />
-      ) : (
+  
         <Container style={{ marginTop: "5rem", marginBottom: "1rem" }}>
+
+<style>
+    {`
+      button.slick-arrow.slick-next::before,
+      button.slick-arrow.slick-prev::before {
+        content: "";
+      }
+    `}
+  </style>
+
           <Slider {...settings}>
             {certifiedData.map((item, index) => (
               <Col className="clientCard" sm={12} md={6} lg={4} key={item.id}>
                 <Card
                   data-aos="fade-down"
                   style={{
-                    height: "180px",
-                    width: "160px",
+                    height: "210px",
+                    width: "200px",
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
@@ -118,7 +118,6 @@ const Certified = () => {
             ))}
           </Slider>
         </Container>
-      )}    
     
     </>
   )
@@ -128,7 +127,6 @@ export default Certified
 
 
 const certifiedData = [
-
 {
     img: certified1,
 },
@@ -150,5 +148,15 @@ const certifiedData = [
 {
     img: certified4,
 }
-
 ]
+
+  /* Hide next and prev icons */
+
+{/* <style>
+    {`
+      button.slick-arrow.slick-next::before,
+      button.slick-arrow.slick-prev::before {
+        content: "";
+      }
+    `}
+  </style> */}
