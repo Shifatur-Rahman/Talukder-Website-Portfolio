@@ -19,24 +19,15 @@ const Services = () => {
      
    {/* <!-- our service section starts here  --> */}
    <section className="our_service_section">
-    {/* <!-- vector area starts here  --> */}
-       {/* <div className="vector">
-        <img src={vec4} alt="" />
-       </div> */}
-     {/* <!-- vector area ends here  --> */}
 
-     {/* <!-- main service section starts here  --> */}
      <div className="container">
-
         <div className="row">
             <div className="ourService_title">
-                {/* <h1 className='knowusTitle'>our services</h1> */}
                 <p className='serviceSubTitle'>Our Services</p>
                 <h1 className='serviceTitle'>Exclusive services for the next
                 <br /> honourable customer</h1>
             </div>
         </div>
-
                   <Row>
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
@@ -46,7 +37,7 @@ const Services = () => {
 
                               <div className="content">
                                   <p className='serviceTitle'>Plastic</p>
-                                  <p> Talukder Group is a successful brand name as well as a flagship corporate name in corporate world.</p>
+                                  <p>Talukder Plastics pioneering excellence in plastic manufacturing and Eco-Friendly Solutions Worldwide.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -62,7 +53,7 @@ const Services = () => {
 
                               <div className="content">
                                   <p className='serviceTitle'>uPVC</p>
-                                  <p> Talukder Group is a successful brand name as well as a flagship corporate name in corporate world.</p>
+                                  <p> Talukder uPVC transforming spaces with premium uPVC solutions. Crafting durability and elegance.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -78,7 +69,7 @@ const Services = () => {
 
                               <div className="content">
                                   <p className='serviceTitle'>Office Furniture</p>
-                                  <p> Talukder Group is a successful brand name as well as a flagship corporate name in corporate world.</p>
+                                  <p> Talukder Office Furniture elevating workplaces with ergonomic designs and functional style.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -93,7 +84,7 @@ const Services = () => {
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'>Interior Design</p>
-                                  <p> Talukder Group is a successful brand name as well as a flagship corporate name in corporate world.</p>
+                                  <p>Talukder Interior Design creating inspired spaces that blend beauty and functionality.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -109,7 +100,7 @@ const Services = () => {
 
                               <div className="content">
                                   <p className='serviceTitle'> Trading  </p>
-                                  <p>Lorem Ipsum available majority have suffered alteration in some form humour randomised.</p>
+                                  <p>Talukder Trading navigating Global Markets with Expertise, Integrity, and Excellence.</p>
                                   <a>
                                       <img className='plusIcon' src={servicePlus} alt="" />
                                   </a>
@@ -120,13 +111,9 @@ const Services = () => {
                   </Row>
 
 </div>
-
-
 </section>
-
-
-    
     </>
+
   )
 }
 

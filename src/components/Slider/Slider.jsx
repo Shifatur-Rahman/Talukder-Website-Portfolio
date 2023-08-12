@@ -165,7 +165,7 @@ const Slider = () => {
           </Carousel.Item>
         ))}
       </Carousel>
-      <Certified />
+      {/* <Certified /> */}
       <KnowUs ref={LearnMoreref} />
       <Summary ref={Summaryref} />
     </>

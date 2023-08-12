@@ -91,7 +91,7 @@ const Certified = () => {
                 <Card
                   data-aos="fade-down"
                   style={{
-                    height: "210px",
+                    height: "200px",
                     width: "200px",
                     display: "flex",
                     justifyContent: "center",
