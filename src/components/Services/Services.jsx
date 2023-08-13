@@ -23,6 +23,7 @@ const Services = (props, ref) => {
           <section style={{marginTop:"2rem"}} className="our_service_section"  ref={ref}>
 
               <div className="container">
+                
                   <div className="row">
                       <div className="ourService_title">
                           <p className='serviceSubTitle'>Our Services</p>
@@ -30,8 +31,8 @@ const Services = (props, ref) => {
                               <br /> honourable customer</h1>
                       </div>
                   </div>
-                  <Row>
 
+                  <Row>
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
                               <div className="service_section_img">
@@ -106,8 +107,8 @@ const Services = (props, ref) => {
                               </div>
                           </div>
                       </Col>
-
                   </Row>
+                  
               </div>
           </section>
     </>
