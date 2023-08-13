@@ -13,6 +13,7 @@ import KnowUs from "../../components/KnowUs/KnowUs";
 import Summary from "../../components/Summary/Summary";
 import AOS from "aos";
 import Certified from "../Certified/Certified";
+import Services from "../Services/Services";
 
 const Slider = () => {
   const Summaryref = useRef(null);
@@ -166,11 +167,14 @@ const Slider = () => {
           </Carousel.Item>
         ))}
       </Carousel>
-      {/* <Certified /> */}
+      <Certified />
       <KnowUs ref={LearnMoreref} />
-      <Summary ref={Summaryref} />
+      <Summary />
+      <Services ref={Summaryref}/>
+      {/* <Services /> */}
+
     </>
   );
 };
 
-export default Slider;
+ export default Slider;

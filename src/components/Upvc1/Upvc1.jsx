@@ -25,23 +25,6 @@ const [loading, setLoading] = useState(true);
     }, 3200);
   }, []);
 
-// const [imgLoad, setImgLoad] = useState(false);
-  
-//   useEffect(() => {
-//     const imgPromises = itemData.map((item) => {
-//       return new Promise((resolve, reject) => {
-//         const img = new Image();
-//         img.onload = () => resolve();
-//         img.onerror = () => reject();
-//         img.src = item.img;
-//       });
-//     });
-
-//     Promise.all(imgPromises)
-//       .then(() => setImgLoad(true))
-//       .catch(() => setImgLoad(true));
-//   }, []);
-
   return (
     <>
       {
@@ -66,17 +49,11 @@ const [loading, setLoading] = useState(true);
               </Col>
               </Row>
 
-
-
               <Row className="TgImageGallery" style={{ marginTop: "3rem" }}>
               {/* <Col style={{ marginTop: "3rem" }}> */}
               {itemData.map((item) => (
                 <Col key={item.title} lg={3} md={4} sm={6}>
-                  <div
-                  // data-aos="zoom-out"
-                  // data-aos-easing="linear"
-                  // data-aos-duration="1000"
-                  >
+                  <div>
                     <Card className="concernCard">
                       <LazyLoadImage
                         className="concernCardImg"

@@ -6,7 +6,6 @@ import Slider from "../components/Slider/Slider";
 import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 import NewsDetails from "../components/NewsDetails/NewsDetails";
 import Services from "../components/Services/Services";
-// import Slider2 from "../components/Slider2/Slider2";
 
 const HomePage = () => {
   useEffect(() => {
@@ -20,7 +19,7 @@ const HomePage = () => {
     <>
       <TopNavigation title="Talukder Group" />
       <Slider />
-      <Services />
+      {/* <Services /> */}
       <NewsDetails />
       <Footer />
       <BackToTopButton /> 

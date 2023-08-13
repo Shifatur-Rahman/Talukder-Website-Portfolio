@@ -12,13 +12,15 @@ import servicePortfolio from "../../asset/images/Services/ourPortfolio.png"
 import servicePlus from "../../asset/images/Services/service-plus.png"
 import vec4 from "../../asset/images/Services/vec-4.png"
 import { BiPlusCircle } from 'react-icons/bi';
+import { forwardRef } from "react";
 
-const Services = () => {
+
+const Services = (props, ref) => {
   return (
     <>
      
    {/* <!-- our service section starts here  --> */}
-          <section className="our_service_section">
+          <section className="our_service_section"  ref={ref}>
 
               <div className="container">
                   <div className="row">
@@ -111,8 +113,8 @@ const Services = () => {
               </div>
           </section>
     </>
-
   )
 }
 
-export default Services
+//export default Services
+export default forwardRef(Services);
