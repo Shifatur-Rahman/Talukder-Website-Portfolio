@@ -7,9 +7,10 @@ import Spinner from "../Spinner/Spinner.jsx";
 
 import certified1 from "..//..//asset/images/Certified/aaa-2.png"
 import certified2 from "..//..//asset/images/Certified/Bsti.png"
-import certified3 from "..//..//asset/images/Certified/certified.png"
-import certified4 from "..//..//asset/images/Certified/buetLogo.png"
-
+import certified3 from "..//..//asset/images/Certified/certified.jpg"
+import certified4 from "..//..//asset/images/Certified/buetLogo.jpg"
+import fire from "..//..//asset/images/Certified/fire.jpg"
+import environmental from "..//..//asset/images/Certified/environmental.png"
 
 const Certified = () => {
   
@@ -127,9 +128,7 @@ export default Certified
 
 
 const certifiedData = [
-{
-    img: certified1,
-},
+
 {
     img: certified2,
 },
@@ -137,26 +136,16 @@ const certifiedData = [
     img: certified3,
 },
 {
-    img: certified4,
+    img: fire,
 },
 {
-    img: certified1,
-},
-{
-    img: certified2,
+  img: certified1,
 },
 {
     img: certified4,
+},
+{
+    img: environmental,
 }
 ]
 
-  /* Hide next and prev icons */
-
-{/* <style>
-    {`
-      button.slick-arrow.slick-next::before,
-      button.slick-arrow.slick-prev::before {
-        content: "";
-      }
-    `}
-  </style> */}

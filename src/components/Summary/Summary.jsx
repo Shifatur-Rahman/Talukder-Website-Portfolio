@@ -111,11 +111,7 @@ function Summary(props, ref) {
                         <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
                         ADP
                       </p>
-                      {/* <p className="summaryCardText">
-                        {" "}
-                        <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                        Trading
-                      </p> */}
+
                     </Card.Text>
                   </Card.Body>
                 </Card>
