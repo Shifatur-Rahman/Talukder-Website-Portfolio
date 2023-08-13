@@ -18,16 +18,16 @@ const Services = () => {
     <>
      
    {/* <!-- our service section starts here  --> */}
-   <section className="our_service_section">
+          <section className="our_service_section">
 
-     <div className="container">
-        <div className="row">
-            <div className="ourService_title">
-                <p className='serviceSubTitle'>Our Services</p>
-                <h1 className='serviceTitle'>Exclusive services for the next
-                <br /> honourable customer</h1>
-            </div>
-        </div>
+              <div className="container">
+                  <div className="row">
+                      <div className="ourService_title">
+                          <p className='serviceSubTitle'>Our Services</p>
+                          <h1 className='serviceTitle'>Exclusive services for the next
+                              <br /> honourable customer</h1>
+                      </div>
+                  </div>
                   <Row>
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
@@ -107,11 +107,9 @@ const Services = () => {
                               </div>
                           </div>
                       </Col>
-
                   </Row>
-
-</div>
-</section>
+              </div>
+          </section>
     </>
 
   )

@@ -6,6 +6,7 @@ import "./Slider.css";
 import slider1 from "../../asset/images/Slider_Img/slider1.jpg";
 import slider2 from "../../asset/images/Slider_Img/slider2.jpg";
 import slider3 from "../../asset/images/Slider_Img/slider3.jpg";
+import slider4 from "../../asset/images/Slider_Img/factoryBuilding.webp";
 import Button from "react-bootstrap/Button";
 import { useRef } from "react";
 import KnowUs from "../../components/KnowUs/KnowUs";
@@ -31,7 +32,7 @@ const Slider = () => {
       src2: "https://mdbcdn.b-cdn.net/img/video/forest.mp4",
     },
     {
-      src: slider3,
+      src: slider4,
       // alt: "House Hold Products",
       alt: "Talukder Furniture",
       para: "Better Design & Right Choice For Office",

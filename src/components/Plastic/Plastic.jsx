@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./Plastic.css";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import plastic1 from "../../asset/images/Concern/Plastics/01.avif";
-import plastic2 from "../../asset/images/Concern/Plastics/02.avif";
-import plastic3 from "../../asset/images/Concern/Plastics/03.avif";
-import plastic4 from "../../asset/images/Concern/Plastics/04.avif";
-import plastic5 from "../../asset/images/Concern/Plastics/05.avif";
-import plastic6 from "../../asset/images/Concern/Plastics/06.avif";
-import plastic7 from "../../asset/images/Concern/Plastics/07.avif";
-import plastic8 from "../../asset/images/Concern/Plastics/08.avif";
+import plastic1 from "../../asset/images/Concern/Plastics/01.jpg";
+import plastic2 from "../../asset/images/Concern/Plastics/02.jpg";
+import plastic3 from "../../asset/images/Concern/Plastics/03.jpg";
+import plastic4 from "../../asset/images/Concern/Plastics/04.jpg";
+import plastic5 from "../../asset/images/Concern/Plastics/05.jpg";
+import plastic6 from "../../asset/images/Concern/Plastics/06.jpg";
+import plastic7 from "../../asset/images/Concern/Plastics/07.jpg";
+import plastic8 from "../../asset/images/Concern/Plastics/08.jpg";
 import { Blurhash } from "react-blurhash";
 //const pixels = decode("LEHV6nWB2yk8pyo0adR*.7kCMdnj",32,32)
 // import ImageList from "@mui/material/ImageList";

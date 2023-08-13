@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1017e74.css",
-    "main.js": "/static/js/main.0dc5e1c4.js",
+    "main.css": "/static/css/main.85cb6a33.css",
+    "main.js": "/static/js/main.f518136e.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -9,17 +9,17 @@
     "static/media/Household_Product1.mp4": "/static/media/Household_Product1.5102404650bf3a2efed0.mp4",
     "static/media/Lundry_Basket_Advertise.mp4": "/static/media/Lundry_Basket_Advertise.96ba1ef568bd58b42388.mp4",
     "static/media/Jug_Advertise.mp4": "/static/media/Jug_Advertise.2656d77c7f5b3f03605c.mp4",
+    "static/media/slider3.jpg": "/static/media/slider3.f2ac35084bcefa3eecee.jpg",
     "static/media/Fittings_Advertise.mp4": "/static/media/Fittings_Advertise.20aebb0a4ba2e5475580.mp4",
     "static/media/Dining_Table_Advertise.mp4": "/static/media/Dining_Table_Advertise.11e989ddbdff72004cbe.mp4",
     "static/media/slider2.jpg": "/static/media/slider2.5a4f5daad2a985a9cfe4.jpg",
     "static/media/Rack_Advertise.mp4": "/static/media/Rack_Advertise.b5d3a00a18a32f5e0844.mp4",
     "static/media/All_Bucket_Advertise.mp4": "/static/media/All_Bucket_Advertise.2e241e490c0d3a7c097a.mp4",
     "static/media/Food_Container.mp4": "/static/media/Food_Container.b65c5508c4c9dae4dc39.mp4",
-    "static/media/service.webm": "/static/media/service.d0263798909e3687353d.webm",
     "static/media/lged1.jpg": "/static/media/lged1.6b4a49c7e9a885fe867f.jpg",
-    "static/media/04.avif": "/static/media/04.dbf3a06015129b9a1733.avif",
+    "static/media/03.avif": "/static/media/03.04ef42ae043cc401fc03.avif",
     "static/media/lged7.jpg": "/static/media/lged7.d79190e5ba2d047478b5.jpg",
-    "static/media/08.avif": "/static/media/08.33d547654dfa52574e12.avif",
+    "static/media/08.avif": "/static/media/08.834520758f8697a3e990.avif",
     "static/media/07.avif": "/static/media/07.157b16b2cd46240fc13c.avif",
     "static/media/02.avif": "/static/media/02.6fa76d00d8eabece0832.avif",
     "static/media/gallery4.avif": "/static/media/gallery4.6a7e30807e118c60262f.avif",
@@ -29,6 +29,8 @@
     "static/media/gallery14.avif": "/static/media/gallery14.c7a9118dc3065cde34d3.avif",
     "static/media/gallery12.avif": "/static/media/gallery12.56f02dd966d71d0e1eac.avif",
     "static/media/04.jpg": "/static/media/04.45f2c53f82661dd22569.jpg",
+    "static/media/04.avif": "/static/media/04.dbf3a06015129b9a1733.avif",
+    "static/media/aaa-2.png": "/static/media/aaa-2.8115c531a407954c0943.png",
     "static/media/slider1.jpg": "/static/media/slider1.12e142d2faeeb56a32a9.jpg",
     "static/media/plastic56.png": "/static/media/plastic56.fba5447b602aebdd7bcc.png",
     "static/media/03.jpg": "/static/media/03.8349ffdc3e6bbead5b08.jpg",
@@ -36,7 +38,6 @@
     "static/media/talukder.gif": "/static/media/talukder.7b976f403eed8135e0ba.gif",
     "static/media/gallery9.avif": "/static/media/gallery9.40f55c77fe1df7e13805.avif",
     "static/media/gallery1.avif": "/static/media/gallery1.7952ef877a109b7d20a0.avif",
-    "static/media/slider3.jpg": "/static/media/slider3.0d4ad61e71d356489ab8.jpg",
     "static/media/gallery5.avif": "/static/media/gallery5.60b3afb29b95d0e94aa1.avif",
     "static/media/05.jpg": "/static/media/05.dbbf5165e2224210989a.jpg",
     "static/media/gallery8.avif": "/static/media/gallery8.39e41221321d2b7aeb23.avif",
@@ -49,6 +50,7 @@
     "static/media/plastic77.png": "/static/media/plastic77.10b7f699579ba71ad68c.png",
     "static/media/news5.jpg": "/static/media/news5.3cf688d0a272e74f6a68.jpg",
     "static/media/gallery11.avif": "/static/media/gallery11.644f41b6a9b88c0e606d.avif",
+    "static/media/certified.png": "/static/media/certified.87010e3c0d785f8dfcb6.png",
     "static/media/02.jpg": "/static/media/02.6ad7141e9c98369fc44e.jpg",
     "static/media/ourPortfolio.png": "/static/media/ourPortfolio.6618f3698464162b0e36.png",
     "static/media/01.jpg": "/static/media/01.094c274fa42bd63cc480.jpg",
@@ -93,7 +95,6 @@
     "static/media/07.jpg": "/static/media/07.975bb6b89c1ae8de069d.jpg",
     "static/media/plastic57.png": "/static/media/plastic57.303b9ca889c67963a6f8.png",
     "static/media/Design Bucket (With Lid).jpg": "/static/media/Design Bucket (With Lid).cb9c1d0aa9d854140ec8.jpg",
-    "static/media/03.avif": "/static/media/03.04ef42ae043cc401fc03.avif",
     "static/media/plastic3.png": "/static/media/plastic3.fd0f7b6f4cfe0af8078e.png",
     "static/media/plasticChair7.png": "/static/media/plasticChair7.9ccf2634525148ff187c.png",
     "static/media/08.jpg": "/static/media/08.d4baaea8db72dc223a91.jpg",
@@ -101,6 +102,7 @@
     "static/media/plastic49.png": "/static/media/plastic49.4b3ccda04f6b859eb9c4.png",
     "static/media/plastic53.png": "/static/media/plastic53.cc75e52f23d27f6072da.png",
     "static/media/news3.jpg": "/static/media/news3.9dcc5fc78b7acab50144.jpg",
+    "static/media/buetLogo.png": "/static/media/buetLogo.fb0c9444669341ea0f02.png",
     "static/media/plastic17.png": "/static/media/plastic17.676310fc53e90e79a4b2.png",
     "static/media/plastic75.png": "/static/media/plastic75.e4ebc4e02639eaac427f.png",
     "static/media/Design Bucket(Without Lid Plastic Handle).jpg": "/static/media/Design Bucket(Without Lid Plastic Handle).7affabc70b08c4621772.jpg",
@@ -394,11 +396,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.e1017e74.css.map": "/static/css/main.e1017e74.css.map",
-    "main.0dc5e1c4.js.map": "/static/js/main.0dc5e1c4.js.map"
+    "main.85cb6a33.css.map": "/static/css/main.85cb6a33.css.map",
+    "main.f518136e.js.map": "/static/js/main.f518136e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1017e74.css",
-    "static/js/main.0dc5e1c4.js"
+    "static/css/main.85cb6a33.css",
+    "static/js/main.f518136e.js"
   ]
 }
