@@ -14,13 +14,12 @@ import servicePlus from "../../asset/images/Services/service-plus.png"
 // import { BiPlusCircle } from 'react-icons/bi';
 import { forwardRef } from "react";
 
-
 const Services = (props, ref) => {
   return (
     <>
      
    {/* <!-- our service section starts here  --> */}
-   
+
           <section style={{marginTop:"2rem"}} className="our_service_section"  ref={ref}>
 
               <div className="container">
