@@ -86,36 +86,36 @@ function Summary(props, ref) {
               <Col lg={3} md={4} sm={12}>
                 <Card className="summaryCard">
                   <Card.Body>
-                    <h2 className="summaryCardTitle">OUR SERVICES</h2>
+                    <h2 className="summaryCardTitle">OUR PROJECTS</h2>
                     <Card.Text>
                       <p className="summaryCardText">
                         {" "}
                         <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                        Plastic
+                        LGED
                       </p>
 
                       <p className="summaryCardText">
                         {" "}
                         <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                        uPVC
+                        PEDP4
                       </p>
 
                       <p className="summaryCardText">
                         {" "}
                         <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                        Office Furniture
+                        JAICA
                       </p>
 
                       <p className="summaryCardText">
                         {" "}
                         <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                        Interior Design
+                        ADP
                       </p>
-                      <p className="summaryCardText">
+                      {/* <p className="summaryCardText">
                         {" "}
                         <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
                         Trading
-                      </p>
+                      </p> */}
                     </Card.Text>
                   </Card.Body>
                 </Card>
