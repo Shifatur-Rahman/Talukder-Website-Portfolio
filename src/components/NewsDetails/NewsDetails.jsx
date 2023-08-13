@@ -95,7 +95,7 @@ const NewsDetails = () => {
                     />{" "}
                     <span className="newsHeaderSpan">{item.date}</span>{" "}
                     
-                    <span className="adminSpan"> <FaUser className="adminUser" /> Posted by Admin</span>
+                    <span className="newsHeaderSpan"> <FaUser className="adminUser" /> Posted by Admin</span>
                   </p>
                   
                   <p
@@ -104,10 +104,6 @@ const NewsDetails = () => {
                   >
                     {item.description}
                   </p>
-
-                  {/* <p className="newsIconAdd">
-                     Read More <BsFillArrowRightSquareFill className="newsIconAddRight" />
-                  </p> */}
 
                 </Card.Body>
               </Card>

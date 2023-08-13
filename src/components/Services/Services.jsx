@@ -6,12 +6,12 @@ import service2 from "../../asset/images/Services/service2.png"
 import service3 from "../../asset/images/Services/service3.png"
 import service4 from "../../asset/images/Services/service4.png"
 import service5 from "../../asset/images/Services/service5.png"
-import service6 from "../../asset/images/Services/service6.png"
-import serviceOverlay from "../../asset/images/Services/our-service-overlay.jpg"
-import servicePortfolio from "../../asset/images/Services/ourPortfolio.png"
+// import service6 from "../../asset/images/Services/service6.png"
+// import serviceOverlay from "../../asset/images/Services/our-service-overlay.jpg"
+// import servicePortfolio from "../../asset/images/Services/ourPortfolio.png"
 import servicePlus from "../../asset/images/Services/service-plus.png"
-import vec4 from "../../asset/images/Services/vec-4.png"
-import { BiPlusCircle } from 'react-icons/bi';
+// import vec4 from "../../asset/images/Services/vec-4.png"
+// import { BiPlusCircle } from 'react-icons/bi';
 import { forwardRef } from "react";
 
 
@@ -20,7 +20,7 @@ const Services = (props, ref) => {
     <>
      
    {/* <!-- our service section starts here  --> */}
-          <section className="our_service_section"  ref={ref}>
+          <section style={{marginTop:"2rem"}} className="our_service_section"  ref={ref}>
 
               <div className="container">
                   <div className="row">
@@ -109,6 +109,7 @@ const Services = (props, ref) => {
                               </div>
                           </div>
                       </Col>
+                      
                   </Row>
               </div>
           </section>
@@ -116,5 +117,4 @@ const Services = (props, ref) => {
   )
 }
 
-//export default Services
 export default forwardRef(Services);
