@@ -20,6 +20,7 @@ const Services = (props, ref) => {
     <>
      
    {/* <!-- our service section starts here  --> */}
+   
           <section style={{marginTop:"2rem"}} className="our_service_section"  ref={ref}>
 
               <div className="container">
@@ -31,12 +32,12 @@ const Services = (props, ref) => {
                       </div>
                   </div>
                   <Row>
+
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
                               <div className="service_section_img">
-                                  <img src={service1} alt="" />
+                                  <img src={service1} alt="plastic" />
                               </div>
-
                               <div className="content">
                                   <p className='serviceTitle'>Plastic</p>
                                   <p>Talukder Plastics pioneering excellence in plastic manufacturing and Eco-Friendly Solutions Worldwide.</p>
@@ -50,9 +51,8 @@ const Services = (props, ref) => {
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
                               <div className="service_section_img">
-                                  <img src={service2} alt="" />
+                                  <img src={service2} alt="upvc" />
                               </div>
-
                               <div className="content">
                                   <p className='serviceTitle'>uPVC</p>
                                   <p> Talukder uPVC transforming spaces with premium uPVC solutions. Crafting durability and elegance.</p>
@@ -66,9 +66,8 @@ const Services = (props, ref) => {
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
                               <div className="service_section_img">
-                                  <img src={service3} alt="" />
+                                  <img src={service3} alt="furniture" />
                               </div>
-
                               <div className="content">
                                   <p className='serviceTitle'>Office Furniture</p>
                                   <p> Talukder Office Furniture elevating workplaces with ergonomic designs and functional style.</p>
@@ -82,13 +81,13 @@ const Services = (props, ref) => {
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
                               <div className="service_section_img">
-                                  <img src={service4} alt="" />
+                                  <img src={service4} alt="interior" />
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'>Interior Design</p>
                                   <p>Talukder Interior Design creating inspired spaces that blend beauty and functionality.</p>
                                   <a>
-                                      <img src={servicePlus} alt="" />
+                                      <img src={servicePlus} alt="interior" />
                                   </a>
                               </div>
                           </div>
@@ -97,9 +96,8 @@ const Services = (props, ref) => {
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
                               <div className="service_section_img">
-                                  <img src={service5} alt="" />
+                                  <img src={service5} alt="trading" />
                               </div>
-
                               <div className="content">
                                   <p className='serviceTitle'> Trading  </p>
                                   <p>Talukder Trading navigating Global Markets with Expertise, Integrity, and Excellence.</p>
@@ -109,7 +107,7 @@ const Services = (props, ref) => {
                               </div>
                           </div>
                       </Col>
-                      
+
                   </Row>
               </div>
           </section>
