@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a8a7a60a.css",
-    "main.js": "/static/js/main.74246477.js",
+    "main.js": "/static/js/main.dab14611.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -54,6 +54,7 @@
     "static/media/plastic77.png": "/static/media/plastic77.10b7f699579ba71ad68c.png",
     "static/media/news5.jpg": "/static/media/news5.3cf688d0a272e74f6a68.jpg",
     "static/media/ourPortfolio.png": "/static/media/ourPortfolio.6618f3698464162b0e36.png",
+    "static/media/factoryBuilding.jpg": "/static/media/factoryBuilding.922020048a14a81a7b3e.jpg",
     "static/media/awards13.jpg": "/static/media/awards13.d60d801afdb8fc259261.jpg",
     "static/media/gallery18.jpg": "/static/media/gallery18.2021b983d14ed1908fd9.jpg",
     "static/media/plastic37.png": "/static/media/plastic37.02f678bac8b22eaab485.png",
@@ -64,7 +65,6 @@
     "static/media/plastic1.png": "/static/media/plastic1.e298d022ef41928a1b9a.png",
     "static/media/plastic6.png": "/static/media/plastic6.588464d2257acc3a229a.png",
     "static/media/awards14.jpg": "/static/media/awards14.57a0c0001917ca9849d5.jpg",
-    "static/media/factoryBuilding.webp": "/static/media/factoryBuilding.2b6021db6f445970d44e.webp",
     "static/media/talukderLogo.png": "/static/media/talukderLogo.2624bd632e5d87945ea8.png",
     "static/media/summary4.jpg": "/static/media/summary4.c1d438c09cce5f3d1580.jpg",
     "static/media/gallery17.jpg": "/static/media/gallery17.c908b2b878561b9dfea7.jpg",
@@ -393,10 +393,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.a8a7a60a.css.map": "/static/css/main.a8a7a60a.css.map",
-    "main.74246477.js.map": "/static/js/main.74246477.js.map"
+    "main.dab14611.js.map": "/static/js/main.dab14611.js.map"
   },
   "entrypoints": [
     "static/css/main.a8a7a60a.css",
-    "static/js/main.74246477.js"
+    "static/js/main.dab14611.js"
   ]
 }

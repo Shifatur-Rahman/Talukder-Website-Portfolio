@@ -34,11 +34,9 @@ const Slider = () => {
     },
     {
       src: slider4,
-      // alt: "House Hold Products",
       alt: "Talukder Furniture",
       para: "Better Design & Right Choice For Office",
       src2: "https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4",
-      // para: "Better Design & Right Choice For Kitchen",
     },
   ];
 

@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.knowUsDiv{
+  background-color: #bdc3c7;
+}
+
 .knowusTitle {
   font-size: 35px;
   color:  #1dc6ad;
