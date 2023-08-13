@@ -6,7 +6,7 @@ import "./Slider.css";
 import slider1 from "../../asset/images/Slider_Img/slider1.jpg";
 import slider2 from "../../asset/images/Slider_Img/slider2.jpg";
 import slider3 from "../../asset/images/Slider_Img/slider3.jpg";
-import slider4 from "../../asset/images/Slider_Img/factoryBuilding.webp";
+import slider4 from "../../asset/images/Slider_Img/factoryBuilding.jpg";
 import Button from "react-bootstrap/Button";
 import { useRef } from "react";
 import KnowUs from "../../components/KnowUs/KnowUs";

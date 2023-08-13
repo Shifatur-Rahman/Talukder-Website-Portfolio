@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a8a7a60a.css",
-    "main.js": "/static/js/main.ad8dee6d.js",
+    "main.js": "/static/js/main.74246477.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -53,7 +53,6 @@
     "static/media/pipe1.jpg": "/static/media/pipe1.de2dda2d2a1a5592d2c8.jpg",
     "static/media/plastic77.png": "/static/media/plastic77.10b7f699579ba71ad68c.png",
     "static/media/news5.jpg": "/static/media/news5.3cf688d0a272e74f6a68.jpg",
-    "static/media/certified.png": "/static/media/certified.87010e3c0d785f8dfcb6.png",
     "static/media/ourPortfolio.png": "/static/media/ourPortfolio.6618f3698464162b0e36.png",
     "static/media/awards13.jpg": "/static/media/awards13.d60d801afdb8fc259261.jpg",
     "static/media/gallery18.jpg": "/static/media/gallery18.2021b983d14ed1908fd9.jpg",
@@ -106,7 +105,6 @@
     "static/media/plastic49.png": "/static/media/plastic49.4b3ccda04f6b859eb9c4.png",
     "static/media/plastic53.png": "/static/media/plastic53.cc75e52f23d27f6072da.png",
     "static/media/news3.jpg": "/static/media/news3.9dcc5fc78b7acab50144.jpg",
-    "static/media/buetLogo.png": "/static/media/buetLogo.fb0c9444669341ea0f02.png",
     "static/media/plastic17.png": "/static/media/plastic17.676310fc53e90e79a4b2.png",
     "static/media/plastic75.png": "/static/media/plastic75.e4ebc4e02639eaac427f.png",
     "static/media/awards15.jpg": "/static/media/awards15.8f11334b7fa290bf90ba.jpg",
@@ -134,6 +132,7 @@
     "static/media/Storage Container.jpg": "/static/media/Storage Container.91c654a4198325da3990.jpg",
     "static/media/Druam Bucket.jpg": "/static/media/Druam Bucket.53b96cd9a953273c24e5.jpg",
     "static/media/plastic31.png": "/static/media/plastic31.d45d736f64247370cc70.png",
+    "static/media/certified.jpg": "/static/media/certified.ca4a5011cd28c7250b43.jpg",
     "static/media/awards7.jpg": "/static/media/awards7.c8487fbf8111c85a6ce4.jpg",
     "static/media/plastic71.png": "/static/media/plastic71.b85e8312094e2e09561e.png",
     "static/media/plastic50.png": "/static/media/plastic50.2f03e8b5c0d5a0335ed1.png",
@@ -148,6 +147,7 @@
     "static/media/tbl76.jpg": "/static/media/tbl76.110a8a8d289f377e3bbe.jpg",
     "static/media/plastic46.png": "/static/media/plastic46.da48b65c7b151247c6b8.png",
     "static/media/plastic27.png": "/static/media/plastic27.781496e3e899eebbc8da.png",
+    "static/media/fire.jpg": "/static/media/fire.5574c9ba16732a48f4f5.jpg",
     "static/media/threadPipe.jpg": "/static/media/threadPipe.22697bc7af5e9ace1639.jpg",
     "static/media/05.png": "/static/media/05.63b212f96996d7d6d82d.png",
     "static/media/household2.jpg": "/static/media/household2.200a4da0d7fd5138c0c9.jpg",
@@ -174,6 +174,7 @@
     "static/media/tbl12.jpg": "/static/media/tbl12.dea804e235c8db8bb9a0.jpg",
     "static/media/fittings.jpg": "/static/media/fittings.e573e59011c2b87b6407.jpg",
     "static/media/household1.jpg": "/static/media/household1.45407cb58a6bc320a779.jpg",
+    "static/media/buetLogo.jpg": "/static/media/buetLogo.2fa8f775f4da17ba1725.jpg",
     "static/media/talukderName.png": "/static/media/talukderName.13dbe606d70b9b6db228.png",
     "static/media/awards11.jpg": "/static/media/awards11.ddc8e94579600e68d37e.jpg",
     "static/media/tbl42.jpg": "/static/media/tbl42.2b4469354786ba416dbb.jpg",
@@ -182,6 +183,7 @@
     "static/media/bucketposter.jpg": "/static/media/bucketposter.72eaf517e99820c1494a.jpg",
     "static/media/plastic65.png": "/static/media/plastic65.41e70c24796d852c46d8.png",
     "static/media/tbl48.jpg": "/static/media/tbl48.d0914e677c57b9d4795f.jpg",
+    "static/media/environmental.png": "/static/media/environmental.918c926bf32b4323bbd5.png",
     "static/media/RSPL-Health-BD-Ltd.jpg": "/static/media/RSPL-Health-BD-Ltd.c43c0ea44c5653bf5723.jpg",
     "static/media/tbl45.jpg": "/static/media/tbl45.14f463f79fcf092f2fd5.jpg",
     "static/media/tbl47.jpg": "/static/media/tbl47.ebfbdd4b8e96dcb906f3.jpg",
@@ -391,10 +393,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.a8a7a60a.css.map": "/static/css/main.a8a7a60a.css.map",
-    "main.ad8dee6d.js.map": "/static/js/main.ad8dee6d.js.map"
+    "main.74246477.js.map": "/static/js/main.74246477.js.map"
   },
   "entrypoints": [
     "static/css/main.a8a7a60a.css",
-    "static/js/main.ad8dee6d.js"
+    "static/js/main.74246477.js"
   ]
 }
