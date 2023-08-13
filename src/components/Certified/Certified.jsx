@@ -148,4 +148,3 @@ const certifiedData = [
     img: environmental,
 }
 ]
-

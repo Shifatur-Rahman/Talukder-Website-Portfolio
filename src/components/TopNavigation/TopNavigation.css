@@ -101,6 +101,7 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+  /* background: red; */
 }
 
 .dropdown-content a {
