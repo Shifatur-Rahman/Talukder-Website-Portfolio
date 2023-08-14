@@ -32,7 +32,7 @@ const Services = (props, ref) => {
                       </div>
                   </div>
 
-                  <Row>
+                  <Row data-aos="fade-up">
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
                               <div className="service_section_img">

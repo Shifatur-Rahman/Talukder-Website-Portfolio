@@ -17,12 +17,12 @@ const Certified = () => {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 1000,
+      speed: 4000,
       slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
      // autoplaySpeed: 0,
-       autoplaySpeed: 900,
+       autoplaySpeed: 0,
       pauseOnHover: false,
       cssEase: "ease-in-out",
       responsive: [
@@ -90,8 +90,9 @@ const Certified = () => {
             {certifiedData.map((item, index) => (
               <Col className="clientCard" sm={12} md={6} lg={4} key={item.id}>
                 <Card
-                  data-aos="fade-down"
-                  style={{
+                    data-aos="fade-down"
+                    data-aos-duration="2000"
+                    style={{
                     height: "200px",
                     width: "200px",
                     display: "flex",
@@ -102,8 +103,8 @@ const Certified = () => {
                     marginRight: "10px",
                     marginBottom: "10px",
                   }}
-                  className="clientReviewImgCard"
-                >
+                  className="clientReviewImgCard">
+                    
                   <Card.Img
                      style={{
                        width: "90%",
