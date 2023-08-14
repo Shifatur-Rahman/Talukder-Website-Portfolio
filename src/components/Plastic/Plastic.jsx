@@ -58,7 +58,6 @@ const Plastic = () => {
             lg={12}
             style={{ textAlign: "justify" }}
           >
-
             <p style={{ marginTop: "5rem", marginBottom: "3rem" }} className="plasticText">
               Now a days essence and use of plastic products knows no bound,
               Plastic furniture becomes the first choice of mass people against
@@ -106,11 +105,11 @@ const Plastic = () => {
                         alt={item.title}
                       />
                     </Card>
-
                   </div>
                 </Col>
               ))}
             </Row>
+            
          
       </Container>
       )}
