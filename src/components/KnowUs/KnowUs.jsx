@@ -24,7 +24,7 @@ function KnowUs(props, ref) {
               Talukder foundry Ltd (TFL) with a vision of large-scale
               Industrialization. Now Talukder Group is a successful brand name
               as well as a flagship corporate name in corporate world with great
-              achievement with the dedicated service to all her stakeholders and
+              achievement with the dedicated service to all stakeholders and
               partners. Under the leadership of Managing Director Mr. Samsul
               Arafin Talukder Group of Industries becomes the largest partner of
               LGED, JICA and PEDP in furnishing Primary Schools all over the

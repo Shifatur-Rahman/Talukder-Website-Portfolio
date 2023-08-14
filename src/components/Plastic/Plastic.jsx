@@ -68,7 +68,7 @@ const Plastic = () => {
               having lower mechanical & physical strength, then you are not
               aware of all kinds of benefits associated with high quality
               plastic furniture, which is not only long-lasting but elegant in
-              looks. The benefits of plastic furniture are given below:
+              looks. The benefits of Talukder plastic furniture are given below:
               <br /> <br />
               <ul>
                 <li>

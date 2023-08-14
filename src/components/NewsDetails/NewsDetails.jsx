@@ -23,7 +23,7 @@ const NewsDetails = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     pauseOnHover: false,
     cssEase: "ease-in-out",
     responsive: [
