@@ -97,7 +97,6 @@ const Certified = () => {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    // border: "1px solid #1dc6ad",
                     border: "none",
                     boxShadow: "17px 10px 48px -37px rgba(0,0,0,0.75)",
                     marginRight: "10px",
