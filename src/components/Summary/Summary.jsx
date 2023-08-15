@@ -25,7 +25,7 @@ function Summary(props, ref) {
         <div ref={ref} className="summaryOverlay">
           <Container className="text-center">
             {/* data-aos='fade-down' */}
-            <Row>
+            <Row data-aos="fade-down">
               <Col lg={9} md={8} sm={12}>
                 <Row className="countSection">
                   <Col>

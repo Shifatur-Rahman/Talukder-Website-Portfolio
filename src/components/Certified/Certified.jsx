@@ -135,9 +135,9 @@ const certifiedData = [
 {
     img: certified3,
 },
-{
-    img: fire,
-},
+// {
+//     img: fire,
+// },
 {
   img: certified1,
 },

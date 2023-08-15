@@ -215,7 +215,7 @@ const Footer = () => {
         >
           <Col sm={12} md={4} lg={5} className="footerTextAlign">
            
-            <div>
+            <div data-aos="fade-down">
               {/* <img className="footerTgLogo" src={logo} alt="logo" /> */}
                <img className="logoName" src={logoName} alt="logoName" />
             </div>
