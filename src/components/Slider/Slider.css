@@ -227,6 +227,7 @@ a.btn:focus{
 @media screen and (max-width: 768px) {
   .topBannerTitle {
     font-size: 26px;
+    margin-top: 2rem !important;
   }
 
   .topBannerSubTitle {
@@ -269,7 +270,7 @@ a.btn:focus{
   a.btn-button{
     width: 120px ;
     padding: 4px 0px;
-    font-size: 16px;
+    font-size: 14px;
  }
 }
 
@@ -289,7 +290,7 @@ a.btn:focus{
   .serviceBtn,
   .learnBtn {
     width: 130px;
-    font-size: 11px !important;
+    font-size: 9px !important;
     font-weight: 400 !important;
     width: 90px;
     padding: 6px !important;
@@ -297,5 +298,8 @@ a.btn:focus{
 
   .sliderImg {
     height: 300px;
+  }
+  a.btn-button{
+    font-size: 12px;
   }
 }
