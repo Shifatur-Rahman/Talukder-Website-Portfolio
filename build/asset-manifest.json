@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e66ce06a.css",
-    "main.js": "/static/js/main.c09fdc8b.js",
+    "main.js": "/static/js/main.7cd669e3.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -18,7 +18,6 @@
     "static/media/Food_Container.mp4": "/static/media/Food_Container.b65c5508c4c9dae4dc39.mp4",
     "static/media/lged1.jpg": "/static/media/lged1.6b4a49c7e9a885fe867f.jpg",
     "static/media/lged7.jpg": "/static/media/lged7.d79190e5ba2d047478b5.jpg",
-    "static/media/profile.png": "/static/media/profile.1069d7050bae08ef653c.png",
     "static/media/lged8.jpg": "/static/media/lged8.9f2b2970474245538a89.jpg",
     "static/media/aaa-2.png": "/static/media/aaa-2.8115c531a407954c0943.png",
     "static/media/slider1.jpg": "/static/media/slider1.12e142d2faeeb56a32a9.jpg",
@@ -28,6 +27,7 @@
     "static/media/gallery9.jpg": "/static/media/gallery9.4a74e0ba8e8e458a3396.jpg",
     "static/media/talukder.gif": "/static/media/talukder.7b976f403eed8135e0ba.gif",
     "static/media/awards21.jpg": "/static/media/awards21.266ded99fec698512e41.jpg",
+    "static/media/profile.png": "/static/media/profile.330a36c38c437f992d6f.png",
     "static/media/plastic40.png": "/static/media/plastic40.e8afff9e0c3fcb569cd7.png",
     "static/media/news6.jpg": "/static/media/news6.7a7c34313dc9d01fdd47.jpg",
     "static/media/news2.jpg": "/static/media/news2.55d69ef6797797940de1.jpg",
@@ -47,7 +47,6 @@
     "static/media/gallery16.jpg": "/static/media/gallery16.c1473aa2f98527530545.jpg",
     "static/media/gallery6.jpg": "/static/media/gallery6.dc4a58e7bca0781bb47d.jpg",
     "static/media/gallery10.jpg": "/static/media/gallery10.363fd11669c5dc49ba91.jpg",
-    "static/media/04.jpg": "/static/media/04.45f2c53f82661dd22569.jpg",
     "static/media/gallery11.jpg": "/static/media/gallery11.d0513bb3efee9cd7cca5.jpg",
     "static/media/plastic37.png": "/static/media/plastic37.02f678bac8b22eaab485.png",
     "static/media/gallery13.jpg": "/static/media/gallery13.3cc4deed27631def4436.jpg",
@@ -71,10 +70,11 @@
     "static/media/08.jpg": "/static/media/08.d4baaea8db72dc223a91.jpg",
     "static/media/06.jpg": "/static/media/06.c62e6fad400c5252411c.jpg",
     "static/media/plastic51.png": "/static/media/plastic51.84ef20a1457ef4165e2b.png",
+    "static/media/04.jpg": "/static/media/04.45f2c53f82661dd22569.jpg",
     "static/media/05.jpg": "/static/media/05.dbbf5165e2224210989a.jpg",
     "static/media/plastic7.png": "/static/media/plastic7.88fc2345f6278f76465b.png",
     "static/media/plastic2.png": "/static/media/plastic2.eafa8e2285ce47503750.png",
-    "static/media/07.jpg": "/static/media/07.975bb6b89c1ae8de069d.jpg",
+    "static/media/07.jpg": "/static/media/07.c6875df74057c8dd6673.jpg",
     "static/media/plastic8.png": "/static/media/plastic8.04563b05d91b46c655bb.png",
     "static/media/Egg Box.jpg": "/static/media/Egg Box.d66a7906b272430bf140.jpg",
     "static/media/footerBanner1.png": "/static/media/footerBanner1.35d9d054062765dc276d.png",
@@ -392,10 +392,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.e66ce06a.css.map": "/static/css/main.e66ce06a.css.map",
-    "main.c09fdc8b.js.map": "/static/js/main.c09fdc8b.js.map"
+    "main.7cd669e3.js.map": "/static/js/main.7cd669e3.js.map"
   },
   "entrypoints": [
     "static/css/main.e66ce06a.css",
-    "static/js/main.c09fdc8b.js"
+    "static/js/main.7cd669e3.js"
   ]
 }

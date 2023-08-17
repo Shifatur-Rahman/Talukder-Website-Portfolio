@@ -229,6 +229,7 @@ const Footer = () => {
               <br />
               Nikunja-1, Dhaka-1229, Bangladesh
             </a>
+            
             <br />
 
             <BsFillTelephoneFill className="socialFontPhone" />

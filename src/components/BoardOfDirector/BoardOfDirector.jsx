@@ -306,7 +306,6 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
@@ -390,8 +389,6 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-
-
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
@@ -446,7 +443,6 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-           
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
@@ -472,6 +468,7 @@ const BoardOfDirector = () => {
                     <AiFillGooglePlusCircle />
                   </div>
                 </div>
+
               </Col>
             </Row>
           </Container>

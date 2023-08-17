@@ -103,13 +103,13 @@ function Summary(props, ref) {
                       <p className="summaryCardText">
                         {" "}
                         <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                        JAICA
+                        JICA
                       </p>
 
                       <p className="summaryCardText">
                         {" "}
                         <BsFillArrowRightCircleFill className="summaryIcon" />{" "}
-                        ADP
+                        ADB
                       </p>
 
                     </Card.Text>
