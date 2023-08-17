@@ -444,6 +444,7 @@ const BoardOfDirector = () => {
               </Col>
 
               <Col lg={3} md={6} sm={12}>
+                
                 <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
@@ -460,7 +461,6 @@ const BoardOfDirector = () => {
                     </p>
                     <p></p>
                   </div>
-
                   <div className="socials" style={{ fontSize: "25px" }}>
                     <BsFacebook style={{ marginRight: "5px" }} />
                     <AiFillTwitterCircle style={{ marginRight: "5px" }} />
