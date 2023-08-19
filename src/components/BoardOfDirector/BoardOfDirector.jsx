@@ -19,6 +19,8 @@ const BoardOfDirector = () => {
       setLoading(false);
     }, 3200);
   }, []);
+  
+  //  management team
 
   return (
     <>
