@@ -192,19 +192,12 @@ const Portfolio = () => {
               <PageLoader />
             ) : (
                   <div
-                    // data-aos="zoom-out"
-                    // data-aos-easing="linear"
-                    // data-aos-duration="1000"
                     className="portfolio-grid">
                     {portfolioItems
                       .filter((item) => {
                         if (category === "all") {
                           return true;
                         }
-                        // else if(item.category !== category){
-                        //  {(<h1>products are coming...</h1>)}
-
-                        // }
                         else {
                           return item.category === category;
                         }
@@ -212,9 +205,6 @@ const Portfolio = () => {
 
                       .map((item) => (
                         <div
-                          // data-aos="zoom-out"
-                          // data-aos-easing="linear"
-                          // data-aos-duration="1000"
                           className="portfolio-item"
                           key={item.id}>
 
@@ -340,25 +330,25 @@ const Portfolio = () => {
             
                                     {/* Image in big Size       */}
 
-          <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
-              <DialogContent>
-                <IconButton
-                  sx={{ position: "absolute", top: 0, right: 0 }}
-                  onClick={handleDialogClose}
-                >
-                <CloseIcon />
-                </IconButton>
-                <img
-                  className="zoomImage"
-                  alt="product-img"
-                  src={selectedImage}
-                  srcSet={
-                    selectedImage &&
-                    `${selectedImage}?w=500&fit=crop&auto=format&dpr=2 2x`
-                  }
-                />
-              </DialogContent>
-            </Dialog>
+              <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
+                <DialogContent>
+                  <IconButton
+                    sx={{ position: "absolute", top: 0, right: 0 }}
+                    onClick={handleDialogClose}
+                  >
+                    <CloseIcon />
+                  </IconButton>
+                  <img
+                    className="zoomImage"
+                    alt="product-img"
+                    src={selectedImage}
+                    srcSet={
+                      selectedImage &&
+                      `${selectedImage}?w=500&fit=crop&auto=format&dpr=2 2x`
+                    }
+                  />
+                </DialogContent>
+              </Dialog>
 
           </Row>
         </Container>

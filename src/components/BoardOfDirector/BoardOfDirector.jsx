@@ -19,7 +19,7 @@ const BoardOfDirector = () => {
       setLoading(false);
     }, 3200);
   }, []);
-  
+
   //  management team
 
   return (
@@ -30,6 +30,7 @@ const BoardOfDirector = () => {
         <div className="profile-area">
           <Container style={{ marginTop: "4rem", marginBottom: "0" }}>
             <Row>
+
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
@@ -58,6 +59,7 @@ const BoardOfDirector = () => {
 
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
+
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
                   </div>
@@ -80,7 +82,9 @@ const BoardOfDirector = () => {
                     <GrPinterest style={{ marginRight: "5px" }} />
                     <AiFillGooglePlusCircle />
                   </div>
+
                 </div>
+                
               </Col>
 
               <Col lg={3} md={6} sm={12}>
