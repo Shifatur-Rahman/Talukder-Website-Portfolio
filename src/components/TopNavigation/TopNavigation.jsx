@@ -147,12 +147,15 @@ class TopNavigation extends Component {
                     <AiOutlineCaretDown />
                   </button>
                   <div className="dropdown-content">
-                    <NavLink className="navDropdown" to="/portfolio/gallery">
+                    <NavLink className="navDropdown" 
+                     to="/portfolio/gallery" 
+                     activeClassName="active to-empty">
                       Gallery
                     </NavLink>
                     <NavLink
                       className="navDropdown"
                       to="/portfolio/achievement"
+                      activeClassName="active to-empty"
                     >
                       Achivement
                     </NavLink>

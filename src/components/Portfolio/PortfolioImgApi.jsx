@@ -159,7 +159,7 @@ import chair64 from "../../asset/images/Chair/64.jpg";
 import chair65 from "../../asset/images/Chair/65.jpg";
 import chair66 from "../../asset/images/Chair/66.jpg";
 import chair67 from "../../asset/images/Chair/67.jpg";
-import chair68 from "../../asset/images/Chair/68.jpg";
+import chair68 from "../../asset/images/Chair/68.png";
 import chair69 from "../../asset/images/Chair/69.jpg";
 import chair70 from "../../asset/images/Chair/70.jpg";
 import chair71 from "../../asset/images/Chair/71.jpg";

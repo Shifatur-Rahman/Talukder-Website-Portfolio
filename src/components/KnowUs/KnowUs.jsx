@@ -26,8 +26,8 @@ function KnowUs(props, ref) {
               as well as a flagship corporate name in corporate world with great
               achievement with the dedicated service to all stakeholders and
               partners. Under the leadership of Managing Director Mr. Samsul
-              Arafin Talukder Group of Industries becomes the largest partner of
-              LGED, JICA and PEDP in furnishing Primary Schools all over the
+              Arafin, Talukder Group of Industries becomes the largest partner of
+              LGED, JICA, PEDP, dedicated dealership and various govt. project in furnishing Primary Schools all over the
               Country.
             </p>
             <div className="text-center">
