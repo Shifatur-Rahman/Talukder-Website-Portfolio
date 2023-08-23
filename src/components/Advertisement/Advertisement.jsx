@@ -60,7 +60,7 @@ const Advertisement = () => {
       {loading ? (
         <Spinner />
       ) : (
-        <Container style={{ marginTop: "5rem", marginBottom: "8rem" }}>
+        <Container style={{ marginTop: "3rem", marginBottom: "8rem" }}>
           <Row
             data-aos="fade-down"
             data-aos-anchor="#example-anchor"

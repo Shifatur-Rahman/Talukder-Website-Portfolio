@@ -167,3 +167,42 @@
           height: 180px !important;
         }
       }
+
+
+
+      /* pagination css */
+      .allProducts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    
+    .singleItem{
+    background-color: rgb(220,220,220);
+    width: 180px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    }
+    
+    .singleItem img {
+        width: 180px;
+        height: 150px;
+    }
+    
+    .pagination{
+        display: flex;
+        align-items: center;
+    }
+    
+    .pagination>span{
+        padding: 10px;
+        border: 1px solid rgb(220,220,220);
+        cursor: pointer;
+    }
+    
+    
+    .selectedPage{
+        background-color: rgb(220,220,220);
+    }
+    

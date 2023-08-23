@@ -46,7 +46,7 @@ const Achievement = () => {
         <Spinner />
       ) :
       
-      <Container style={{ marginTop: "5rem", marginBottom: "7rem" }}>
+      <Container style={{ marginTop: "3rem", marginBottom: "7rem" }}>
           <Row style={{ marginTop: "5rem" }}>
             <div data-aos="fade-down"
             data-aos-anchor="#example-anchor"

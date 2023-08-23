@@ -1,15 +1,15 @@
 import React from 'react'
 import "./Certified.css"
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { Col, Container, Card } from "react-bootstrap";
 import Slider from "react-slick";
-import Spinner from "../Spinner/Spinner.jsx";
+// import Spinner from "../Spinner/Spinner.jsx";
 
 import certified1 from "..//..//asset/images/Certified/aaa-2.png"
 import certified2 from "..//..//asset/images/Certified/Bsti.png"
 import certified3 from "..//..//asset/images/Certified/certified.jpg"
 import certified4 from "..//..//asset/images/Certified/buetLogo.jpg"
-import fire from "..//..//asset/images/Certified/fire.jpg"
+// import fire from "..//..//asset/images/Certified/fire.jpg"
 import environmental from "..//..//asset/images/Certified/environmental.png"
 
 const Certified = () => {
@@ -75,50 +75,50 @@ const Certified = () => {
   return (
     <>
   
-        <Container style={{ marginTop: "5rem", marginBottom: "1rem" }}>
+      <Container style={{ marginTop: "5rem", marginBottom: "1rem" }}>
 
-<style>
-    {`
+        <style>
+          {`
       button.slick-arrow.slick-next::before,
       button.slick-arrow.slick-prev::before {
         content: "";
       }
     `}
-  </style>
+        </style>
 
-          <Slider {...settings}>
-            {certifiedData.map((item, index) => (
-              <Col className="clientCard" sm={12} md={6} lg={4} key={item.id}>
-                <Card
-                    data-aos="fade-down"
-                    data-aos-duration="2000"
-                    style={{
-                    height: "200px",
-                    width: "200px",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    border: "none",
-                    boxShadow: "17px 10px 48px -37px rgba(0,0,0,0.75)",
-                    marginRight: "10px",
-                    marginBottom: "10px",
+        <Slider {...settings}>
+          {certifiedData.map((item, index) => (
+            <Col className="clientCard" sm={12} md={6} lg={4} key={item.id}>
+              <Card
+                data-aos="fade-down"
+                data-aos-duration="2000"
+                style={{
+                  height: "200px",
+                  width: "200px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  border: "none",
+                  boxShadow: "17px 10px 48px -37px rgba(0,0,0,0.75)",
+                  marginRight: "10px",
+                  marginBottom: "10px",
+                }}
+                className="clientReviewImgCard">
+
+                <Card.Img
+                  style={{
+                    width: "90%",
+                    height: "90%",
+                    padding: "20px 10px",
                   }}
-                  className="clientReviewImgCard">
-                    
-                  <Card.Img
-                     style={{
-                       width: "90%",
-                       height: "90%",
-                       padding: "20px 10px",
-                     }}
-                    variant="top"
-                    src={item.img}
-                  />
-                </Card>
-              </Col>
-            ))}
-          </Slider>
-        </Container>
+                  variant="top"
+                  src={item.img}
+                />
+              </Card>
+            </Col>
+          ))}
+        </Slider>
+      </Container>
     
     </>
   )
@@ -129,22 +129,19 @@ export default Certified
 
 const certifiedData = [
 
-{
+  {
     img: certified2,
-},
-{
+  },
+  {
     img: certified3,
-},
-// {
-//     img: fire,
-// },
-{
-  img: certified1,
-},
-{
+  },
+  {
+    img: certified1,
+  },
+  {
     img: certified4,
-},
-{
+  },
+  {
     img: environmental,
-}
+  }
 ]

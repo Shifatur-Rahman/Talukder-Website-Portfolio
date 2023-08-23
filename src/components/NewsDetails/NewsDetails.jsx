@@ -73,7 +73,7 @@ const NewsDetails = () => {
 
   return (
     <>
-      <Container style={{ }}>
+      <Container>
         <h1 className="knowusTitle">Recent News & Events</h1>
         <Slider {...settings}>
           {newsItems.map((item, index) => (
@@ -174,4 +174,7 @@ const newsItems = [
       "Throughout the meeting, we encouraged open and honest communication among all participants.",
   },
 ];
+
+
+
 
