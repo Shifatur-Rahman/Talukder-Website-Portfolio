@@ -11,7 +11,8 @@ import "aos/dist/aos.css";
 import PageLoader from "../PageLoader/PageLoader";
 import Spinner from "../Spinner/Spinner";
 import UpvcModal1 from "../UpvcModal1/UpvcModal1";
-import { Blurhash } from "react-blurhash";
+// import { Blurhash } from "react-blurhash";
+import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
 
 const Portfolio = () => {
 
@@ -19,6 +20,8 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [isDropdown, setDropdown] = useState(false);  
+  const [selectedImage, setSelectedImage] = React.useState("");
+  const [loading, setLoading] = useState(true);
   const [pages, setPages] = useState(1);
 
   const isActive = (category) => {
@@ -29,9 +32,8 @@ const Portfolio = () => {
     setCategory(e.target.value);
     setActiveCategory(e.target.value);
     setDropdownOpen(false);
+    setPages(1);
   };
-
-  const [selectedImage, setSelectedImage] = React.useState("");
 
   const handleImageClick = (item) => {
     setSelectedImage(item);
@@ -40,8 +42,6 @@ const Portfolio = () => {
   const handleDialogClose = () => {
     setSelectedImage(null);
   };
-
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
@@ -57,11 +57,11 @@ const Portfolio = () => {
     setDropdown(!isDropdown);
   };
 
-  let handlePage = (selectedPage) =>{
-    if(selectedPage>=1 && selectedPage<=Math.ceil(portfolioItems.length/30)){
-        setPages(selectedPage);
+  let handlePage = (selectedPage) => {
+    if (selectedPage >= 1 && selectedPage <= Math.ceil(portfolioItems.length / 30)) {
+      setPages(selectedPage);
     }
-}
+  }
   
   return (
     <>
@@ -80,119 +80,119 @@ const Portfolio = () => {
               lg={12}
             >
               {/* <div data-aos='fade-right' className="filter-buttons"> */}
-              <div className="filter-buttons">
-                <div className="dropdown">
-                  <button
-                    value="all"
-                    onClick={handleCategory}
-                    className={isActive("all")}
-                  >
-                    ALL
-                  </button>
+                <div className="filter-buttons">
+                  <div className="dropdown">
+                    <button
+                      value="all"
+                      onClick={handleCategory}
+                      className={isActive("all")}
+                    >
+                      ALL
+                    </button>
+                  </div>
+
+                  <div className="dropdown">
+                    <button
+                      value="upvc"
+                      onClick={handleCategory}
+                      className={isActive("upvc")}
+                    >
+                      UPVC
+                    </button>
+                  </div>
+
+                  <div className="dropdown">
+                    <button
+                      className={isActive("plastic")}
+                      onClick={toggleDropdownPlastic}
+                    >
+                      PLASTIC
+                      <span className="dropdown-arrow">
+                        {isDropdown ? "▲" : "▼"}
+                      </span>
+                    </button>
+                    {isDropdown && (
+                      <div className="dropdown-content">
+                        <button
+                          value="PLASTIC FURNITURE"
+                          onClick={handleCategory}
+                          className={isActive("PLASTIC FURNITURE")}
+                          style={{ fontSize: "10px", marginTop: "10px" }}
+                        >
+                          PLASTIC FURNITURE
+                        </button>
+                        <button
+                          value="PLASTIC HOUSEHOLD"
+                          onClick={handleCategory}
+                          className={isActive("PLASTIC HOUSEHOLD")}
+                          style={{ fontSize: "10px" }}
+                        >
+                          PLASTIC HOUSEHOLD
+                        </button>
+
+                        <button
+                          value="PLASTIC TOY"
+                          onClick={handleCategory}
+                          className={isActive("TOY")}
+                          style={{ fontSize: "10px" }}
+                        >
+                          TOY
+                        </button>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="dropdown">
+                    <button
+                      value="lged"
+                      onClick={handleCategory}
+                      className={isActive("lged")}
+                    >
+                      SCHOOL FURNITURE
+                    </button>
+                  </div>
+
+                  <div className="dropdown" style={{ flexDirection: "column" }}>
+                    <button
+                      className={isActive("WOODfURNITURE")}
+                      onClick={toggleDropdown}
+                    >
+                      WOOD AND METAL FURNITURE
+                      <span className="dropdown-arrow">
+                        {isDropdownOpen ? "▲" : "▼"}
+                      </span>
+                    </button>
+                    {isDropdownOpen && (
+                      <div className="dropdown-content">
+                        <button
+                          value="HOME FURNITURE"
+                          onClick={handleCategory}
+                          className={isActive("HOME FURNITURE")}
+                          style={{ fontSize: "10px", marginTop: "10px" }}
+                        >
+                          HOME FURNITURE
+                        </button>
+                        <button
+                          value="office furniture"
+                          onClick={handleCategory}
+                          className={isActive("office furniture")}
+                          style={{ fontSize: "10px" }}
+                        >
+                          OFFICE FURNITURE
+                        </button>
+
+                        <button
+                          value="INDUSTRIAL FURNITURE"
+                          onClick={handleCategory}
+                          className={isActive("INDUSTRIAL FURNITURE")}
+                          style={{ fontSize: "10px" }}
+                        >
+                          INDUSTRIAL FURNITURE
+                        </button>
+                      </div>
+                    )}
+                  </div>
                 </div>
-
-                <div className="dropdown">
-                  <button
-                    value="upvc"
-                    onClick={handleCategory}
-                    className={isActive("upvc")}
-                  >
-                    UPVC
-                  </button>
-                </div>
-
-                <div className="dropdown">
-                  <button
-                    className={isActive("plastic")}
-                    onClick={toggleDropdownPlastic}
-                  >
-                    PLASTIC
-                    <span className="dropdown-arrow">
-                      {isDropdown ? "▲" : "▼"}
-                    </span>
-                  </button>
-                  {isDropdown && (
-                    <div className="dropdown-content">
-                      <button
-                        value="PLASTIC FURNITURE"
-                        onClick={handleCategory}
-                        className={isActive("PLASTIC FURNITURE")}
-                        style={{ fontSize: "10px", marginTop: "10px" }}
-                      >
-                        PLASTIC FURNITURE
-                      </button>
-                      <button
-                        value="PLASTIC HOUSEHOLD"
-                        onClick={handleCategory}
-                        className={isActive("PLASTIC HOUSEHOLD")}
-                        style={{ fontSize: "10px" }}
-                      >
-                        PLASTIC HOUSEHOLD
-                      </button>
-
-                      <button
-                        value="PLASTIC TOY"
-                        onClick={handleCategory}
-                        className={isActive("TOY")}
-                        style={{ fontSize: "10px" }}
-                      >
-                        TOY
-                      </button>
-                    </div>
-                  )}
-                </div>
-
-                <div className="dropdown">
-                  <button
-                    value="lged"
-                    onClick={handleCategory}
-                    className={isActive("lged")}
-                  >
-                    SCHOOL FURNITURE
-                  </button>
-                </div>
-
-                <div className="dropdown" style={{ flexDirection: "column" }}>
-                  <button
-                    className={isActive("WOODfURNITURE")}
-                    onClick={toggleDropdown}
-                  >
-                    WOOD AND METAL FURNITURE
-                    <span className="dropdown-arrow">
-                      {isDropdownOpen ? "▲" : "▼"}
-                    </span>
-                  </button>
-                  {isDropdownOpen && (
-                    <div className="dropdown-content">
-                      <button
-                        value="HOME FURNITURE"
-                        onClick={handleCategory}
-                        className={isActive("HOME FURNITURE")}
-                        style={{ fontSize: "10px", marginTop: "10px" }}
-                      >
-                        HOME FURNITURE
-                      </button>
-                      <button
-                        value="office furniture"
-                        onClick={handleCategory}
-                        className={isActive("office furniture")}
-                        style={{ fontSize: "10px" }}
-                      >
-                        OFFICE FURNITURE
-                      </button>
-
-                      <button
-                        value="INDUSTRIAL FURNITURE"
-                        onClick={handleCategory}
-                        className={isActive("INDUSTRIAL FURNITURE")}
-                        style={{ fontSize: "10px" }}
-                      >
-                        INDUSTRIAL FURNITURE
-                      </button>
-                    </div>
-                  )}
-                </div>
-              </div>
             </Col>
 
             {loading ? (
@@ -358,22 +358,30 @@ const Portfolio = () => {
 
           </Row>
 
+                                        {/* Pagination */}
 
-          <div className='pagination'>
-              <span onClick={()=>{handlePage(pages-1)}}>◀️</span>
-                    {
-                        [...Array(Math.ceil(portfolioItems.length/30))].map((_,i)=>{
-                            return(
-                            <span className={pages===i+1 ? "selectedPage": ""} onClick={()=>{handlePage(i+1)}}> {i+1}</span>
-                            )
-                        })
-                    }
-              <span onClick={()=>{handlePage(pages+1)}}>▶️</span>
-          </div>
+            <div className='pagination'>
+              <span onClick={() => { handlePage(pages - 1) }}
+                className={pages > 1 ? "" : "Pagination_disable"}>
+                  {/* ◀️ */}
+                  <BsFillCaretLeftSquareFill style={{color: "#1dc6ad"}} />
+                  
+                  </span>
+              {
+                [...Array(Math.ceil(portfolioItems.length / 30))].map((_, i) => {
+                  return (
+                    <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1) }}> {i + 1}</span>
+                  )
+                })
+              }
+              <span onClick={() => { handlePage(pages + 1) }}
+                className={pages < portfolioItems.length / 30 ? "" : "Pagination_disable"}>
+                  {/* ▶️ */}
+                  <BsFillCaretRightSquareFill style={{color: "#1dc6ad"}} />
+                  </span>
+            </div>
+
         </Container>
-
-
-
 
       )}
     </>     

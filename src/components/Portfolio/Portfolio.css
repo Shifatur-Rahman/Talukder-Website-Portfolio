@@ -171,7 +171,7 @@
 
 
       /* pagination css */
-      .allProducts{
+  /* .allProducts{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
@@ -188,11 +188,13 @@
     .singleItem img {
         width: 180px;
         height: 150px;
-    }
+    } */
     
     .pagination{
         display: flex;
         align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
     }
     
     .pagination>span{
@@ -201,8 +203,12 @@
         cursor: pointer;
     }
     
-    
     .selectedPage{
-        background-color: rgb(220,220,220);
+        /* background-color: rgb(220,220,220); */
+        background-color: #1dc6ad;
+        color: #fff;
     }
     
+    .Pagination_disable{
+      opacity: 0;
+    }
