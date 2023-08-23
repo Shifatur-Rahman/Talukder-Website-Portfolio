@@ -236,8 +236,9 @@ header top area ends here
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     text-align: center;
+    padding: 15px;
   }
-
+  
   .navItem {
     color: #fff !important;
   }

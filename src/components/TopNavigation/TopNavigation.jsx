@@ -223,12 +223,6 @@ class TopNavigation extends Component {
 
               {/* Our Concern */}
 
-              {/* <Nav.Link>
-                <NavLink className={this.state.navbarItem} to="/concern">
-                  Our Concern
-                </NavLink>
-              </Nav.Link> */}
-
               <Nav.Link>
                 <div className="dropdown">
                   <button style={{ border: "none", background: "none" }}
@@ -329,8 +323,6 @@ class TopNavigation extends Component {
                 </NavLink>
               </Nav.Link>
 
-
-              
             </Nav>
           </Navbar.Collapse>
         </Navbar>

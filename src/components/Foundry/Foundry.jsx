@@ -49,22 +49,22 @@ const Foundry = () => {
   loading ? ( <Spinner />) :
   (
    <Container style={{ marginTop: "5rem", marginBottom: "8rem" }}>
-    <Row>
-    <Col
-            sm={12}
-            md={12}
-            lg={12}
-            style={{ textAlign: "justify" }}
-          >
-            <p className='plasticText'>
-            Talukder Foundry Ltd. is a prominent concern within the Talukder Group of Industries. Established in July 1973 by Mr. Nurul Islam Talukder, the foundry specializes in the manufacturing and production of various metal castings. With a strong vision of large-scale industrialization, Talukder Foundry has grown to become a leading player in the foundry industry.
-            
-            <br /> 
-            <br /> 
-            The foundry's operations involve the casting of metal components using advanced techniques and technologies. They utilize high-quality materials and employ skilled craftsmen to ensure the production of durable and reliable castings. Talukder Foundry is known for its expertise in providing castings for diverse applications, catering to the needs of different industries.
-            The benefits of Talukder Foundry are given below:
-              <br /> <br />
-              
+            <Row>
+              <Col
+                sm={12}
+                md={12}
+                lg={12}
+                style={{ textAlign: "justify" }}
+              >
+                <p className='plasticText'>
+                  Talukder Foundry Ltd. is a prominent concern within the Talukder Group of Industries. Established in July 1973 by Mr. Nurul Islam Talukder, the foundry specializes in the manufacturing and production of various metal castings. With a strong vision of large-scale industrialization, Talukder Foundry has grown to become a leading player in the foundry industry.
+
+                  <br />
+                  <br />
+                  The foundry's operations involve the casting of metal components using advanced techniques and technologies. They utilize high-quality materials and employ skilled craftsmen to ensure the production of durable and reliable castings. Talukder Foundry is known for its expertise in providing castings for diverse applications, catering to the needs of different industries.
+                  The benefits of Talukder Foundry are given below:
+                  <br /> <br />
+
 
                   <ul>
                     <li>
@@ -75,20 +75,20 @@ const Foundry = () => {
                     </li>
                   </ul>
 
-            </p>
-          </Col>
-          </Row>
+                </p>
+              </Col>
+            </Row>
 
-          <Row className="TgImageGallery" style={{ marginTop: "3rem" }}>
+            <Row className="TgImageGallery" style={{ marginTop: "3rem" }}>
               {/* <Col style={{ marginTop: "3rem" }}> */}
               {itemData.map((item) => (
-              <Col key={item.title} lg={3} md={4} sm={6}>
-                <div 
+                <Col key={item.title} lg={3} md={4} sm={6}>
+                  <div
                   // data-aos="zoom-out"
                   // data-aos-easing="linear"
                   // data-aos-duration="1000"
                   >
-                  <Card className="concernCard">
+                    <Card className="concernCard">
                       <LazyLoadImage
                         className="concernCardImg"
                         variant="top"
@@ -96,9 +96,9 @@ const Foundry = () => {
                         alt={item.title}
                       />
                     </Card>
-                </div>
-              </Col>
-            ))}
+                  </div>
+                </Col>
+              ))}
             </Row>         
 
    </Container>

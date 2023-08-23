@@ -35,11 +35,11 @@ const Career = () => {
   return (
     <>
 
-{loading ? (
+      {loading ? (
         <Spinner />
       )
-      :
-    <Container style={{ marginTop: "5rem", marginBottom: "5rem" }}>
+        :
+        <Container style={{ marginTop: "5rem", marginBottom: "5rem" }}>
 
           <Row style={{ marginTop: "3rem" }}>
             <Col sm={12} md={6} lg={8}>
@@ -65,8 +65,8 @@ const Career = () => {
             </Col>
           </Row>
 
-        <hr />
-        <br />
+          <hr />
+          <br />
 
           <Row>
             <Col>
@@ -75,10 +75,10 @@ const Career = () => {
 
             </Col>
           </Row>
-          
-    </Container>
 
-}
+        </Container>
+
+      }
     </>
   )
 }

@@ -4,7 +4,6 @@ import "./Certified.css"
 import { Col, Container, Card } from "react-bootstrap";
 import Slider from "react-slick";
 // import Spinner from "../Spinner/Spinner.jsx";
-
 import certified1 from "..//..//asset/images/Certified/aaa-2.png"
 import certified2 from "..//..//asset/images/Certified/Bsti.png"
 import certified3 from "..//..//asset/images/Certified/certified.jpg"

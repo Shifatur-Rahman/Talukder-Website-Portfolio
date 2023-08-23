@@ -18,6 +18,7 @@ const VideoSection = () => {
         <Row>
           <Col className="videoCard">
             <h2 className="videoTitle">How We do</h2>
+
             <p className="videoPara">
               A vision statement describes where the company aspires to be upon
               achieving its mission. This statement reveals the where of
@@ -31,6 +32,7 @@ const VideoSection = () => {
             <p>
               <AiFillPlayCircle onClick={handleShow} className="playBtn" />
             </p>
+            
           </Col>
         </Row>
 
