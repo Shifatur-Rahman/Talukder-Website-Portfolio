@@ -362,21 +362,35 @@ const Portfolio = () => {
             <div className='pagination'>
               <span onClick={() => { handlePage(pages - 1) }}
                 className={pages > 1 ? "" : "Pagination_disable"}>
-                  {/* ◀️ */}
-                  <BsFillCaretLeftSquareFill style={{color: "#1dc6ad"}} />
-                  
-                  </span>
+                {/* ◀️ */}
+                <BsFillCaretLeftSquareFill style={{ color: "#1dc6ad" }} />
 
-              {
+              </span>
+
+              {/* {
                 [...Array(Math.ceil(portfolioItems.length / 30))].map((_, i) => {
                   return (
                     <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1) }}> {i + 1}</span>
                   )
                 })
-              } 
+              }  */}
+
+              {
+               [...Array(Math.ceil(
+                category === "all" 
+                ? portfolioItems.length / 30 
+                : portfolioItems.filter(item => item.category === category).length / 30
+              ))].map((_, i) => {
+                  return (
+                    <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1) }}> {i + 1}</span>
+                  )
+                })
+              }
 
               <span onClick={() => { handlePage(pages + 1) }}
-                className={pages < portfolioItems.length / 30 ? "" : "Pagination_disable"}>
+                //  className={pages < portfolioItems.length / 30 ? "" : "Pagination_disable"}>
+               className={pages < Math.ceil(portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}>
+                {/* className={pages < (portfolioItems.length / 30) || (portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}> */}
                   {/* ▶️ */}
                   <BsFillCaretRightSquareFill style={{color: "#1dc6ad"}} />
                   </span>
