@@ -23,6 +23,7 @@ const Portfolio = () => {
   const [selectedImage, setSelectedImage] = React.useState("");
   const [loading, setLoading] = useState(true);
   const [pages, setPages] = useState(1);
+  const [novel, setNovel] = useState();
 
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
@@ -238,8 +239,7 @@ const Portfolio = () => {
                               <div>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} />
                               </div>
-                            )
-                            }
+                            )}
 
                             {item.color && item.code ? (
                               <div className="table-responsive">
@@ -296,7 +296,6 @@ const Portfolio = () => {
                                 </table>
                               </div>
                             ) :
-
                               item.code ? (
                                 <p className="itemTitle">
                                   <strong>Code : </strong>
@@ -367,13 +366,15 @@ const Portfolio = () => {
                   <BsFillCaretLeftSquareFill style={{color: "#1dc6ad"}} />
                   
                   </span>
+
               {
                 [...Array(Math.ceil(portfolioItems.length / 30))].map((_, i) => {
                   return (
                     <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1) }}> {i + 1}</span>
                   )
                 })
-              }
+              } 
+
               <span onClick={() => { handlePage(pages + 1) }}
                 className={pages < portfolioItems.length / 30 ? "" : "Pagination_disable"}>
                   {/* ▶️ */}
