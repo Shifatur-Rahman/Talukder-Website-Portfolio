@@ -15,7 +15,6 @@ import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
 
 const Portfolio = () => {
-
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -23,7 +22,6 @@ const Portfolio = () => {
   const [selectedImage, setSelectedImage] = React.useState("");
   const [loading, setLoading] = useState(true);
   const [pages, setPages] = useState(1);
-  const [novel, setNovel] = useState();
 
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
@@ -63,7 +61,7 @@ const Portfolio = () => {
       setPages(selectedPage);
     }
   }
-  
+
   return (
     <>
       {loading ? (
@@ -86,8 +84,7 @@ const Portfolio = () => {
                     <button
                       value="all"
                       onClick={handleCategory}
-                      className={isActive("all")}
-                    >
+                      className={isActive("all")}>
                       ALL
                     </button>
                   </div>
