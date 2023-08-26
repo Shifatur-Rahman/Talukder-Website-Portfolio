@@ -23,7 +23,6 @@ const HomePage = () => {
       <NewsDetails />
       <Footer />
       <BackToTopButton /> 
-
     </>
   );
 };

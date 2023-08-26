@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 
 const Gallery = () => {
+  
   useEffect(() => {
     animateScroll.scrollToTop({
       duration: 500,

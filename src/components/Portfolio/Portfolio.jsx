@@ -13,15 +13,23 @@ import Spinner from "../Spinner/Spinner";
 import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 // import { Blurhash } from "react-blurhash";
 import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
+// import { animateScroll } from "react-scroll";
 
 const Portfolio = () => {
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [isDropdown, setDropdown] = useState(false);  
+  const [isDropdown, setDropdown] = useState(false);
   const [selectedImage, setSelectedImage] = React.useState("");
   const [loading, setLoading] = useState(true);
   const [pages, setPages] = useState(1);
+
+  // useEffect(() => {
+  //   animateScroll.scrollToTop({
+  //     duration: 500,
+  //     smooth: "easeInOutQuart",
+  //   });
+  // }, []);
 
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
@@ -61,6 +69,7 @@ const Portfolio = () => {
       setPages(selectedPage);
     }
   }
+
 
   return (
     <>
@@ -351,26 +360,17 @@ const Portfolio = () => {
                   />
                 </DialogContent>
               </Dialog>
-
+                         
           </Row>
 
                                         {/* Pagination */}
 
             <div className='pagination'>
-              <span onClick={() => { handlePage(pages - 1) }}
+
+              <span onClick={() => { handlePage(pages - 1); window.scrollTo(0, 0); }}
                 className={pages > 1 ? "" : "Pagination_disable"}>
-                {/* ◀️ */}
                 <BsFillCaretLeftSquareFill style={{ color: "#1dc6ad" }} />
-
               </span>
-
-              {/* {
-                [...Array(Math.ceil(portfolioItems.length / 30))].map((_, i) => {
-                  return (
-                    <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1) }}> {i + 1}</span>
-                  )
-                })
-              }  */}
 
               {
                [...Array(Math.ceil(
@@ -379,18 +379,18 @@ const Portfolio = () => {
                 : portfolioItems.filter(item => item.category === category).length / 30
               ))].map((_, i) => {
                   return (
-                    <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1) }}> {i + 1}</span>
+                    <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1); window.scrollTo(0, 0); }}> {i + 1}</span>
                   )
                 })
               }
 
-              <span onClick={() => { handlePage(pages + 1) }}
+              <span onClick={() => { handlePage(pages + 1); window.scrollTo(0, 0); }}
                 //  className={pages < portfolioItems.length / 30 ? "" : "Pagination_disable"}>
-               className={pages < Math.ceil(portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}>
+                className={pages < Math.ceil(portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}>
                 {/* className={pages < (portfolioItems.length / 30) || (portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}> */}
-                  {/* ▶️ */}
-                  <BsFillCaretRightSquareFill style={{color: "#1dc6ad"}} />
-                  </span>
+                <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
+              </span>
+
             </div>
 
         </Container>
@@ -401,3 +401,12 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
+              {/* {
+                [...Array(Math.ceil(portfolioItems.length / 30))].map((_, i) => {
+                  return (
+                    <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1) }}> {i + 1}</span>
+                  )
+                })
+              }  */}
