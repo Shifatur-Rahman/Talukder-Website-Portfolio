@@ -390,7 +390,6 @@ const Portfolio = () => {
                 {/* className={pages < (portfolioItems.length / 30) || (portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}> */}
                 <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
               </span>
-
             </div>
 
         </Container>
