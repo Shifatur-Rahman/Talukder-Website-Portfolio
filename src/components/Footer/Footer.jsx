@@ -215,10 +215,10 @@ const Footer = () => {
         >
           <Col sm={12} md={4} lg={5} className="footerTextAlign">
            
-            <div data-aos="fade-down">
-              {/* <img className="footerTgLogo" src={logo} alt="logo" /> */}
-               <img className="logoName" src={logoName} alt="logoName" />
-            </div>
+                            {/* <img className="logoName" src={logoName} alt="logo" /> */}
+            {/* <div data-aos="fade-down">
+               <h1 style={{color: "#1dc6ad", fontSize:"35px"}}>Talukder Group</h1>
+            </div> */}
 
             <h1 className="footerTitle">Head Office</h1>
 
