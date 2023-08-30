@@ -268,7 +268,8 @@ const Portfolio = () => {
                                             fontSize: "8px",
                                             textAlign: "center",
                                             margin: "0",
-                                            padding: "5px 0 0 0"
+                                            padding: "5px 0 0 0",
+                                            width: "5px"
                                           }}
                                           key={index}
                                         >
@@ -295,7 +296,7 @@ const Portfolio = () => {
                                             width: "5px"
                                           }}
                                           key={index}
-                                        ></td>
+                                        ></td>    
                                       ))}
                                     </tr>
                                   </tbody>
