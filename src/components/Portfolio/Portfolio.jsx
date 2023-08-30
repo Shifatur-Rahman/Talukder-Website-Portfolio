@@ -229,7 +229,7 @@ const Portfolio = () => {
                             onClick={() => handleImageClick(item.imgSrc)}
                           />
 
-                          <div style={{ marginTop: "15px", width: "100%" }}>
+                          <div style={{ marginTop: "10px", width: "100%", marginLeft:"15px", marginBottom: "35px" }}>
 
                             {item.title && (
                               <p className="itemTitle">
