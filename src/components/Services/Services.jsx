@@ -84,8 +84,8 @@ const Services = (props, ref) => {
                                   <img src={service4} alt="interior" />
                               </div>
                               <div className="content">
-                                  <p className='serviceTitle'>Interior Design</p>
-                                  <p>Talukder Interior Design creating inspired spaces that blend beauty and functionality.</p>
+                                  <p className='serviceTitle'>Metal & Fabrications</p>
+                                  <p>Talukder Metal & Fabrications creating inspired spaces that blend beauty and functionality.</p>
                                   <a>
                                       <img src={servicePlus} alt="interior" />
                                   </a>

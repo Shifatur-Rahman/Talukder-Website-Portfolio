@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5bba898.css",
-    "main.js": "/static/js/main.112e2839.js",
+    "main.css": "/static/css/main.73ef613c.css",
+    "main.js": "/static/js/main.a4c17402.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -390,11 +390,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.c5bba898.css.map": "/static/css/main.c5bba898.css.map",
-    "main.112e2839.js.map": "/static/js/main.112e2839.js.map"
+    "main.73ef613c.css.map": "/static/css/main.73ef613c.css.map",
+    "main.a4c17402.js.map": "/static/js/main.a4c17402.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5bba898.css",
-    "static/js/main.112e2839.js"
+    "static/css/main.73ef613c.css",
+    "static/js/main.a4c17402.js"
   ]
 }
