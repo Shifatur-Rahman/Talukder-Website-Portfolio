@@ -340,7 +340,7 @@ const Portfolio = () => {
                   </div>
             )}
             
-                                    {/* Image in big Size       */}
+                            {/* Image in big Size       */}
 
               <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
                 <DialogContent>
