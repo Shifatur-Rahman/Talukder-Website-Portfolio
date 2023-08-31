@@ -75,8 +75,6 @@
         transition: all ease 500ms;
         transform: scale(1.3);
         z-index: 1;
-
-        /* background: url("../../asset/images/Services/our_service_graphics.png") #1dc6ad; */
         transition: all .5s ease;
         -o-transition: all .5s ease;
         -ms-transition: all .5s ease;
@@ -84,7 +82,6 @@
         -webkit-transition: all .5s ease;
         cursor: pointer;
         /* background-color: #e6e6e6; */
-        
       }
 
       /* .portfolio-item:hover .upvcBtn{
