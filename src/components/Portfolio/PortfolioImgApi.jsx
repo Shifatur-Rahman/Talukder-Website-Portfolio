@@ -79,6 +79,51 @@ import tbl78 from "../../asset/images/office furniture/tbl78.jpg";
 import tbl79 from "../../asset/images/office furniture/tbl79.jpg";
 import tbl80 from "../../asset/images/office furniture/tbl80.jpg";
 
+// Industrial rack
+import rack1 from "../../asset/images/Industrial rack/rack1.jpg";
+import rack2 from "../../asset/images/Industrial rack/rack2.jpeg";
+import rack3 from "../../asset/images/Industrial rack/rack3.jpg";
+import rack4 from "../../asset/images/Industrial rack/rack4.jpeg";
+import rack5 from "../../asset/images/Industrial rack/rack5.jpg";
+import rack6 from "../../asset/images/Industrial rack/rack6.jpg";
+// import rack7 from "../../asset/images/Industrial rack/rack7.jpg";
+import rack8 from "../../asset/images/Industrial rack/rack8.jpg";
+import rack9 from "../../asset/images/Industrial rack/rack9.jpg";
+import rack10 from "../../asset/images/Industrial rack/rack10.jpg";
+import rack11 from "../../asset/images/Industrial rack/rack11.jpg";
+// rack from sm strore
+import rack12 from "../../asset/images/Industrial rack/rack12.jpg";
+import rack13 from "../../asset/images/Industrial rack/rack13.jpg";
+import rack14 from "../../asset/images/Industrial rack/rack14.jpg";
+import rack15 from "../../asset/images/Industrial rack/rack15.png";
+import rack16 from "../../asset/images/Industrial rack/rack16.jpg";
+import rack17 from "../../asset/images/Industrial rack/rack17.jpg";
+import rack18 from "../../asset/images/Industrial rack/rack18.jpg";
+import rack19 from "../../asset/images/Industrial rack/rack19.jpg";
+import rack20 from "../../asset/images/Industrial rack/rack20.jpg";
+import rack21 from "../../asset/images/Industrial rack/rack21.png";
+import rack22 from "../../asset/images/Industrial rack/rack22.jpg";
+import rack23 from "../../asset/images/Industrial rack/rack23.jpg";
+import rack24 from "../../asset/images/Industrial rack/rack24.jpg";
+import rack25 from "../../asset/images/Industrial rack/rack25.jpg";
+import rack26 from "../../asset/images/Industrial rack/rack26.jpg";
+import rack27 from "../../asset/images/Industrial rack/rack27.jpg";
+import rack28 from "../../asset/images/Industrial rack/rack28.jpg";
+import rack29 from "../../asset/images/Industrial rack/rack29.jpg";
+import rack30 from "../../asset/images/Industrial rack/rack30.jpg";
+import rack31 from "../../asset/images/Industrial rack/rack31.jpg";
+import rack32 from "../../asset/images/Industrial rack/rack32.jpg";
+import rack33 from "../../asset/images/Industrial rack/rack33.jpg";
+import rack34 from "../../asset/images/Industrial rack/rack34.jpg";
+import rack35 from "../../asset/images/Industrial rack/rack35.jpg";
+import rack36 from "../../asset/images/Industrial rack/rack36.jpg";
+import rack37 from "../../asset/images/Industrial rack/rack37.jpg";
+import rack38 from "../../asset/images/Industrial rack/rack38.jpg";
+import rack39 from "../../asset/images/Industrial rack/rack39.jpg";
+import rack40 from "../../asset/images/Industrial rack/rack40.jpg";
+import rack41 from "../../asset/images/Industrial rack/rack41.jpg";
+import rack42 from "../../asset/images/Industrial rack/rack42.jpg";
+
 // conference table
 
 import con_table1 from "../../asset/images/Chair/conference table/conferenceTable01.jpg";
@@ -1021,6 +1066,340 @@ const portfolioItems = [
     size: "L1980 X W660 X H790mm",
     imgSrc: tbl80,
   },
+
+  
+  // INDUSTRIAL FURNITURE
+  {
+    id: 100,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack1,
+  },
+  {
+    id: 101,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack2,
+  },
+  {
+    id: 102,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack3,
+  },
+  {
+    id: 103,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack4,
+  },
+  {
+    id: 104,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack5,
+  },
+  {
+    id: 105,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack6,
+  },
+  // {
+  //   id: 106,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-068",
+  //   size: "L1200 X W400 X H1800mm",
+  //   imgSrc: rack7,
+  // },
+  {
+    id: 107,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack8,
+  },
+  {
+    id: 108,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack9,
+  },
+  {
+    id: 109,
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack10,
+  },
+  {
+    id: 110, 
+    title: "SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFSAR-068",
+    size: "L1200 X W400 X H1800mm",
+    imgSrc: rack11,
+  },
+  {
+    id: 111, 
+    title: "INDUSTRIAL SLOTTED ANGLE RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "4’x2’x6′ Feet",
+    imgSrc: rack12,
+  },
+  {
+    id: 112, 
+    title: "Industrial’s Slotted Angle Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "4’x1.5’x8′ Feet",
+    imgSrc: rack13,
+  },
+  {
+    id: 113, 
+    title: "Industrial’s Slotted Angle Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "4’x1.5’x7′ Feet",
+    imgSrc: rack14,
+  },
+  {
+    id: 114, 
+    title: "Heavy Slotted Angle Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "4’x1.5’x6′ Feet",
+    imgSrc: rack15,
+  },
+  {
+    id: 115, 
+    title: "Heavy Duty Slotted Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: " 4’x1.5’x6′ Feet",
+    imgSrc: rack16,
+  },
+  {
+    id: 116, 
+    title: "Slotted Angle Racks",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "4’x1.5’x6′ Feet",
+    imgSrc: rack17,
+  },
+  {
+    id: 117, 
+    title: "Slotted Angle Racks",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "4’x1.5’x6′ Feet",
+    imgSrc: rack18,
+  },
+  {
+    id: 118, 
+    title: "industrial Pallet Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8’x3’x12′ Feet",
+    imgSrc: rack19,
+  },
+  {
+    id: 119, 
+    title: "Pallet Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8’x3’x7′ Feet",
+    imgSrc: rack20,
+  },
+  {
+    id: 120, 
+    title: "Heavy Duty Pallet Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8’x3’x8′ Feet",
+    imgSrc: rack21,
+  },
+  {
+    id: 121, 
+    title: "Pallet Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8’x3’x6′ Feet",
+    imgSrc: rack22,
+  },
+  {
+    id: 122, 
+    title: "Stacking Pallet Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "4’x5’x4′ Feet",
+    imgSrc: rack23,
+  },
+  {
+    id: 123, 
+    title: "Stacking Pallet Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: " 4’x3.5’x4′ Feet",
+    imgSrc: rack24,
+  },
+  {
+    id: 124, 
+    title: "Mold Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "12’x3’x7′ Feet",
+    imgSrc: rack25,
+  },
+  {
+    id: 125, 
+    title: "Mold Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "12’x2’x8′ Feet",
+    imgSrc: rack26,
+  },
+  {
+    id: 126, 
+    title: "Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "12’x2’x8′ Feet",
+    imgSrc: rack27,
+  },
+  {
+    id: 127, 
+    title: "MS Floor Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "10’x3’x8′ Feet",
+    imgSrc: rack28,
+  },
+  {
+    id: 128, 
+    title: "Mold Steel Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "10’x2’x7’ Feet",
+    imgSrc: rack29,
+  },
+  {
+    id: 129, 
+    title: "Mold Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "4’x3’x7’ Feet",
+    imgSrc: rack30,
+  },
+  {
+    id: 130, 
+    title: "Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8’x3’x12′ Feet",
+    imgSrc: rack32,
+  },
+  {
+    id: 131, 
+    title: "Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8’x4’x10′ Feet",
+    imgSrc: rack33,
+  },
+  {
+    id: 132, 
+    title: "Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8’x3’x10′ Feet",
+    imgSrc: rack34,
+  },
+  {
+    id: 133, 
+    title: "Metal Storage Racks",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8′x2’x10′ Feet",
+    imgSrc: rack36,
+  },
+  {
+    id: 134, 
+    title: "Metal Storage Racks",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8′x3’x8′ Feet",
+    imgSrc: rack37,
+  },
+  {
+    id: 135, 
+    title: "Heavy Duty Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8′x2’x8′ Feet",
+    imgSrc: rack38,
+  },
+  {
+    id: 136, 
+    title: "Heavy Duty Storage Rack",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8′x3’x8′ Feet",
+    imgSrc: rack39,
+  },
+  {
+    id: 137, 
+    title: "Industrial Storage Racks",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "8′x2’x8′ Feet",
+    imgSrc: rack40,
+  },
+  {
+    id: 138, 
+    title: "Industrial Storage Racks",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "7′x3’x8′ Feet",
+    imgSrc: rack41,
+  },
+  {
+    id: 139, 
+    title: "Steel Slotted Angle Racks",
+    category: "INDUSTRIAL FURNITURE",
+    code: "",
+    size: "5’x1.5’x7′ Feet",
+    imgSrc: rack42,
+  },
+  
+
+
+
+
+
+
+
+
+
+
 
   ///                             OFFICE FURNITURE CHAIR -> (501 - )
 
