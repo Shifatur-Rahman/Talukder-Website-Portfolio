@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e66ce06a.css",
-    "main.js": "/static/js/main.7cd669e3.js",
+    "main.css": "/static/css/main.c5bba898.css",
+    "main.js": "/static/js/main.112e2839.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -20,7 +20,6 @@
     "static/media/lged7.jpg": "/static/media/lged7.d79190e5ba2d047478b5.jpg",
     "static/media/lged8.jpg": "/static/media/lged8.9f2b2970474245538a89.jpg",
     "static/media/aaa-2.png": "/static/media/aaa-2.8115c531a407954c0943.png",
-    "static/media/slider1.jpg": "/static/media/slider1.12e142d2faeeb56a32a9.jpg",
     "static/media/gallery4.jpg": "/static/media/gallery4.ed3a2a9126e3577b84fd.jpg",
     "static/media/plastic56.png": "/static/media/plastic56.fba5447b602aebdd7bcc.png",
     "static/media/gallery14.jpg": "/static/media/gallery14.70c3f2dab94dbeff9fb4.jpg",
@@ -28,6 +27,7 @@
     "static/media/talukder.gif": "/static/media/talukder.7b976f403eed8135e0ba.gif",
     "static/media/awards21.jpg": "/static/media/awards21.266ded99fec698512e41.jpg",
     "static/media/profile.png": "/static/media/profile.330a36c38c437f992d6f.png",
+    "static/media/slider1.jpg": "/static/media/slider1.0d4ad61e71d356489ab8.jpg",
     "static/media/plastic40.png": "/static/media/plastic40.e8afff9e0c3fcb569cd7.png",
     "static/media/news6.jpg": "/static/media/news6.7a7c34313dc9d01fdd47.jpg",
     "static/media/news2.jpg": "/static/media/news2.55d69ef6797797940de1.jpg",
@@ -81,6 +81,7 @@
     "static/media/plastic39.png": "/static/media/plastic39.9d45efaeb0cf652b22a2.png",
     "static/media/plastic15.png": "/static/media/plastic15.f9684ff11c0c002e9a9b.png",
     "static/media/gallery15.jpg": "/static/media/gallery15.4aa3a7fea9c7a586ccee.jpg",
+    "static/media/68.png": "/static/media/68.7d9adc457fce76fec41f.png",
     "static/media/Square Rack.jpg": "/static/media/Square Rack.a82c81a4ac307c9b4cd5.jpg",
     "static/media/plastic47.png": "/static/media/plastic47.e0549da8d30836d33231.png",
     "static/media/plasticChair6.png": "/static/media/plasticChair6.ef413c16f33136df203a.png",
@@ -146,7 +147,6 @@
     "static/media/tbl76.jpg": "/static/media/tbl76.110a8a8d289f377e3bbe.jpg",
     "static/media/plastic46.png": "/static/media/plastic46.da48b65c7b151247c6b8.png",
     "static/media/plastic27.png": "/static/media/plastic27.781496e3e899eebbc8da.png",
-    "static/media/fire.jpg": "/static/media/fire.5574c9ba16732a48f4f5.jpg",
     "static/media/threadPipe.jpg": "/static/media/threadPipe.22697bc7af5e9ace1639.jpg",
     "static/media/05.png": "/static/media/05.63b212f96996d7d6d82d.png",
     "static/media/household2.jpg": "/static/media/household2.200a4da0d7fd5138c0c9.jpg",
@@ -322,7 +322,6 @@
     "static/media/newzeland-dairy.jpg": "/static/media/newzeland-dairy.19241c1144bb7ae77f22.jpg",
     "static/media/tbl10.jpg": "/static/media/tbl10.84c84412d9ab10b546e6.jpg",
     "static/media/65.jpg": "/static/media/65.33ceefc73f2591c79c55.jpg",
-    "static/media/68.jpg": "/static/media/68.8f106c8e0c88a183ca1d.jpg",
     "static/media/tbl6.jpg": "/static/media/tbl6.c58438fd84a3de0a87a9.jpg",
     "static/media/tbl16.jpg": "/static/media/tbl16.c01d4f34ea4e28541504.jpg",
     "static/media/tbl73.jpg": "/static/media/tbl73.b2c2d9846c542505dbe8.jpg",
@@ -391,11 +390,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.e66ce06a.css.map": "/static/css/main.e66ce06a.css.map",
-    "main.7cd669e3.js.map": "/static/js/main.7cd669e3.js.map"
+    "main.c5bba898.css.map": "/static/css/main.c5bba898.css.map",
+    "main.112e2839.js.map": "/static/js/main.112e2839.js.map"
   },
   "entrypoints": [
-    "static/css/main.e66ce06a.css",
-    "static/js/main.7cd669e3.js"
+    "static/css/main.c5bba898.css",
+    "static/js/main.112e2839.js"
   ]
 }
