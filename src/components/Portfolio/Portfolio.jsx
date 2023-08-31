@@ -229,10 +229,10 @@ const Portfolio = () => {
                             onClick={() => handleImageClick(item.imgSrc)}
                           />
 
-                          <div style={{ marginTop: "10px", width: "100%", marginLeft:"15px", marginBottom: "35px" }}>
+                          <div style={{ marginTop: "10px", width: "100%", marginBottom: "35px" }}>
 
                             {item.title && (
-                              <p className="itemTitle">
+                              <p style={{marginLeft:"10px"}} className="itemTitle">
                                 <strong>Name : </strong>
                                 <span style={{ textTransform: "uppercase" }}>
                                   {" "}
@@ -242,13 +242,13 @@ const Portfolio = () => {
                             )}
 
                             {item.button && (
-                              <div>
+                              <div style={{marginLeft:"10px"}}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} />
                               </div>
                             )}
 
                             {item.color && item.code ? (
-                              <div className="table-responsive">
+                              <div style={{margin: "0 5px"}} className="table-responsive">
                                 <table className="table table-bordered table-sm custom-table">
                                   <tbody>
                                     <tr>
@@ -304,7 +304,7 @@ const Portfolio = () => {
                               </div>
                             ) :
                               item.code ? (
-                                <p className="itemTitle">
+                                <p style={{marginLeft:"10px"}} className="itemTitle">
                                   <strong>Code : </strong>
                                   {item.code}</p>
                               ) : (
@@ -312,21 +312,21 @@ const Portfolio = () => {
                               )}
 
                             {item.size && (
-                              <p className="itemTitle">
+                              <p style={{ marginLeft: "10px", marginTop:"15px" }} className="itemTitle">
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size} </span>
                               </p>
                             )}
 
                             {item.size2 && (
-                              <p className="itemTitle">
+                              <p style={{marginLeft:"10px"}} className="itemTitle">
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size2} </span>
                               </p>
                             )}
 
                             {item.product && (
-                              <p className="itemTitle">
+                              <p style={{marginLeft:"10px"}} className="itemTitle">
                                 <span style={{ fontSize: "8px" }}>
                                   {" "}
                                   {item.product}{" "}

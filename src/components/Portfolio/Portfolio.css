@@ -59,6 +59,7 @@
       .portfolio-item {
         position: relative;
         overflow: hidden;
+        z-index: 0;
       }
 
       .portfolio-item img{
@@ -71,10 +72,24 @@
       }
 
       .portfolio-item:hover{
-        border: 2px solid #1dc6ad;
-        /* transition: all ease 700ms;
-        transform: scale(1.05); */
+        transition: all ease 500ms;
+        transform: scale(1.1);
+        z-index: 1;
+
+        background: url("../../asset/images/Services/our_service_graphics.png") #1dc6ad;
+        transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        cursor: pointer;
       }
+
+      .portfolio-item:hover .upvcBtn{
+        background-color: #f2f2f2;
+        color: #1dc6ad;
+      }
+    
 
       .itemTitle{
         font-size: 10px !important;
