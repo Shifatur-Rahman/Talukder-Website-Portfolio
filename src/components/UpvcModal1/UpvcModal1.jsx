@@ -39,46 +39,46 @@ const UpvcModal1 = (props) => {
         </Modal.Header>
         <Modal.Body>          
 
-<div className="upvcTable">
-  <Table responsive="sm" className="table-info">
-    <thead>
-      <tr className="upvcTableTr">
-        <th>Code</th>
-        <th>Nominal Diameter X Length</th>
-        {thickness && <th>Thickness(mm)</th>}
-      </tr>
-    </thead>
+          <div className="upvcTable">
+            <Table responsive="sm" className="table-info">
+              <thead>
+                <tr className="upvcTableTr">
+                  <th>Code</th>
+                  <th>Nominal Diameter X Length</th>
+                  {thickness && <th>Thickness(mm)</th>}
+                </tr>
+              </thead>
 
-    <tbody className="upvcTableBody">
-      <tr>
-        <td>
-          {pCode.split("/").map((code, index) => (
-            <p key={index}>{code}</p>
-          ))}
-        </td>
-       
-        <td>
-          {pSize.split("/").map((size, index) => (
-            <p key={index}>{size}</p>
-          ))}
-        </td>
-     
-        {thickness && (
-          <td>
-            {pThickness.split("/").map((thickness, index) => (
-              <p key={index}>{thickness}</p>
-            ))}
-          </td>
-        )}
-      </tr>
+              <tbody className="upvcTableBody">
+                <tr>
+                  <td>
+                    {pCode.split("/").map((code, index) => (
+                      <p key={index}>{code}</p>
+                    ))}
+                  </td>
 
-    </tbody>
+                  <td>
+                    {pSize.split("/").map((size, index) => (
+                      <p key={index}>{size}</p>
+                    ))}
+                  </td>
+
+                  {thickness && (
+                    <td>
+                      {pThickness.split("/").map((thickness, index) => (
+                        <p key={index}>{thickness}</p>
+                      ))}
+                    </td>
+                  )}
+                </tr>
+
+              </tbody>
 
 
 
-  </Table>
+            </Table>
 
-</div>
+          </div>
        
         </Modal.Body>
       </Modal>

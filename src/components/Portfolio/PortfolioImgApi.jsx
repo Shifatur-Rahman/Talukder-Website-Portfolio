@@ -351,6 +351,28 @@ import plastic106 from "../../asset/images/plastic/PLASTIC BUCKET/Storage Contai
 import plastic107 from "../../asset/images/plastic/PLASTIC BUCKET/Egg Box.jpg";
 // import plastic97 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket (Without Lid Plastic Handle).jpg"
 
+//                            waredrobe
+import waredrobe1 from "../../asset/images/plastic/Waredrobe/waredrobe1.jpg";
+import waredrobe2 from "../../asset/images/plastic/Waredrobe/waredrobe2.jpg";
+import waredrobe3 from "../../asset/images/plastic/Waredrobe/waredrobe3.jpg";
+import waredrobe4 from "../../asset/images/plastic/Waredrobe/waredrobe4.jpg";
+import waredrobe5 from "../../asset/images/plastic/Waredrobe/waredrobe5.jpg";
+import waredrobe6 from "../../asset/images/plastic/Waredrobe/waredrobe6.jpg";
+import waredrobe7 from "../../asset/images/plastic/Waredrobe/waredrobe7.jpg";
+import waredrobe8 from "../../asset/images/plastic/Waredrobe/waredrobe8.jpg";
+import waredrobe9 from "../../asset/images/plastic/Waredrobe/waredrobe9.jpg";
+import waredrobe10 from "../../asset/images/plastic/Waredrobe/waredrobe10.jpg";
+import waredrobe11 from "../../asset/images/plastic/Waredrobe/waredrobe11.jpg";
+import waredrobe12 from "../../asset/images/plastic/Waredrobe/waredrobe12.jpg";
+import waredrobe13 from "../../asset/images/plastic/Waredrobe/waredrobe13.jpg";
+import waredrobe14 from "../../asset/images/plastic/Waredrobe/waredrobe14.png";
+
+
+
+
+
+
+
 //          lged
 
 import lged1 from "../../asset/images/lged/lged1.jpg";
@@ -382,6 +404,21 @@ import upvc13 from "../../asset/images/upvc/upvc13.JPG";
 import upvc14 from "../../asset/images/upvc/upvc14.JPG";
 import upvc15 from "../../asset/images/upvc/upvc15.JPG";
 import upvc16 from "../../asset/images/upvc/upvc16.JPG";
+
+//         Tubewell
+import tubewell1 from "../../asset/images/upvc/Tubewell/tubewell1.jpg";
+import tubewell2 from "../../asset/images/upvc/Tubewell/tubewell2.jpg";
+import tubewell3 from "../../asset/images/upvc/Tubewell/tubewell3.jpg";
+import tubewell4 from "../../asset/images/upvc/Tubewell/tubewell4.jpg";
+import tubewell5 from "../../asset/images/upvc/Tubewell/tubewell5.jpg";
+import tubewell6 from "../../asset/images/upvc/Tubewell/tubewell6.jpg";
+import tubewell7 from "../../asset/images/upvc/Tubewell/tubewell7.jpg";
+import tubewell8 from "../../asset/images/upvc/Tubewell/tubewell8.png";
+import tubewell9 from "../../asset/images/upvc/Tubewell/tubewell9.jpg";
+import tubewell10 from "../../asset/images/upvc/Tubewell/tubewell10.jpeg";
+
+
+
 
 const portfolioItems = [
   {
@@ -3144,6 +3181,120 @@ const portfolioItems = [
     code: "17013/17014",
     color: "YELLOW/PINK",
   },
+  //                                    waredrobe
+  {
+    id: 206,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe1,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 207,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe2,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 208,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe3,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 209,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe4,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 210,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe5,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 211,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe6,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 212,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe7,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 213,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe8,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 214,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe9,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 215,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe10,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 216,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe11,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 217,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe12,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 218,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe13,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  {
+    id: 219,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: waredrobe14,
+    title: "waredrobe",
+    code: "waredrobe101",
+    color: "",
+  },
+  
 
   ///                                         OFFICE FURNITURE(CHAIR)
 
@@ -3236,7 +3387,6 @@ const portfolioItems = [
     longCode: "34100/34101/34111/34112/34121/34122/34151/34152/34161/34162/34171/34172/34181/34182/34186/34187/34191/34192/34200/34201/34221/34222/34231/34232",
     longSize: `32mm x 3mtr SWR Pipe (Gray)/32mm x 3mtr SWR Pipe (White)/40mm x 3mtr SWR Pipe (Gray)/ 40mm x 3mtr SWR Pipe (White)/ 50mm x 3mtr SWR Pipe (Gray)/50mm x 3mtr SWR Pipe (White)/100mm x 6mtr SWR Pipe (Gray)/100mm x 6mtr SWR Pipe (White)/110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)//110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)/110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)/160mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)//160mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)/160mm x 6mtr SWR Pipe (White)/200mm x 6mtr SWR Pipe (Gray)/200mm x 6mtr SWR Pipe (White)/200mm x 6mtr SWR Pipe (Gray)/200mm x 6mtr SWR Pipe (White) `,
     longThickness: `1.6~1.9/1.6~1.9/1.6~1.9/1.6~1.9/2.0~2.4/2.0~2.4/2.4~2.7/2.4~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4/3.4~3.8/3.4~3.8/3.0~3.4/3.0~3.4/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0`
-  
   },
   {
     id: 305,
@@ -3354,6 +3504,97 @@ const portfolioItems = [
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
+  {
+    id: 317,
+    category: "upvc",
+    imgSrc: tubewell1,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 318,
+    category: "upvc",
+    imgSrc: tubewell2,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 319,
+    category: "upvc",
+    imgSrc: tubewell3,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 320,
+    category: "upvc",
+    imgSrc: tubewell4,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 321,
+    category: "upvc",
+    imgSrc: tubewell5,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 322,
+    category: "upvc",
+    imgSrc: tubewell6,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 323,
+    category: "upvc",
+    imgSrc: tubewell7,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 324,
+    category: "upvc",
+    imgSrc: tubewell8,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 325,
+    category: "upvc",
+    imgSrc: tubewell9,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  },
+  {
+    id: 326,
+    category: "upvc",
+    imgSrc: tubewell10,
+    title: "Tubewell",
+    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
+    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    button: "Details"
+  }
+  
 ];
 
 export default portfolioItems;

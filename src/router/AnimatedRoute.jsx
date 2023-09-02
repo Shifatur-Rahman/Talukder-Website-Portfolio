@@ -23,6 +23,7 @@ import FoundryPage from "../pages/FoundryPage";
 import DistributionPage from "../pages/DistributionPage";
 import FurniturePage from "../pages/FurniturePage";
 import JEnterprisePage from "../pages/JEnterprisePage";
+// import NotFound from "../components/NotFound/NotFound";
 
 function AnimatedRoute() {
   const location = useLocation();
@@ -88,6 +89,8 @@ function AnimatedRoute() {
             path="/concern/j&j"
             element={<JEnterprisePage />}
           />
+
+          {/* <Route path="**" element={<NotFound />} /> */}
 
         </Routes>
       </AnimatePresence>
