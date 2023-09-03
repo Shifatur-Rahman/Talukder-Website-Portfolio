@@ -26,18 +26,18 @@ const UpvcModal1 = (props) => {
 
      {values.map((v, idx) => (
     <Button  key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
-    Product description
+      Details
     {typeof v === 'string' && `below ${v.split('-')[0]}`}
     </Button>
       ))}
 
 {/* size="lg" */}
 
-<Modal className='upvcModal' size="lg" show={show} lgShow={lgShow} onHide={() => setShow(false)}>
+      <Modal className='upvcModal' size="lg" show={show} lgShow={lgShow} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
           <h4 className='upvcModalTitle'>{title}</h4>
         </Modal.Header>
-        <Modal.Body>          
+        <Modal.Body>
 
           <div className="upvcTable">
             <Table responsive="sm" className="table-info">
@@ -71,13 +71,9 @@ const UpvcModal1 = (props) => {
                     </td>
                   )}
                 </tr>
-
               </tbody>
 
-
-
             </Table>
-
           </div>
        
         </Modal.Body>

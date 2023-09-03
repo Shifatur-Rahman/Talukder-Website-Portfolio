@@ -15,6 +15,7 @@ import AOS from "aos";
 import Certified from "../Certified/Certified";
 import Services from "../Services/Services";
 
+
 const Slider = () => {
   const Summaryref = useRef(null);
   const LearnMoreref = useRef(null);
@@ -124,34 +125,6 @@ const Slider = () => {
                 >
                   {image.para}
                 </p>
-                {/* <div class="button-container">
-                  <Button
-                    data-aos="fade-right"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1500"
-                    onClick={handleClick}
-                    // className="serviceBtn btn-block btn-lg mt-3"
-                    className="btn-button button_color"
-                    style={{ marginRight: "20px" }}
-                   // variant="info"
-                  >
-                    Our Services
-                  </Button>
-                  
-                  <Button
-                    data-aos="fade-left"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="1500"
-                    onClick={handleKnowClick}
-                    className="btn-button button_transparent"
-                   //  className="learnBtn btn-block btn-lg mt-3"
-                   // variant="outline-light"
-                  >
-                    Learn More
-                  </Button>
-                </div> */}
 
                 <div className="banner_content">
                     <ul>
