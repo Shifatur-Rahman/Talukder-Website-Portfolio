@@ -30,6 +30,7 @@ function AnimatedRoute() {
 
   return (
     <>
+
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
@@ -61,7 +62,6 @@ function AnimatedRoute() {
             path="/about/Message/Details"
             element={<TeamMemberMessagePage />}
           />
-
           <Route
             path="/concern/plasticItem"
             element={<PlasticPage />}
@@ -90,10 +90,11 @@ function AnimatedRoute() {
             element={<JEnterprisePage />}
           />
 
-          {/* <Route path="**" element={<NotFound />} /> */}
+         {/* <Route path="**" element={<NotFound />} /> */} 
 
-        </Routes>
+        </Routes> 
       </AnimatePresence>
+
     </>
   );
 }

@@ -348,8 +348,8 @@ const Portfolio = () => {
                     sx={{ position: "absolute", top: 0, right: 0 }}
                     onClick={handleDialogClose}
                   >
-                    <CloseIcon />
-                  </IconButton>
+                    <CloseIcon style={{color:"#e6e6e6", backgroundColor:"#1dc6ad", borderRadius:"50%"}} />
+                    </IconButton>
                   <img
                     className="zoomImage"
                     alt="product-img"
@@ -391,6 +391,7 @@ const Portfolio = () => {
                 {/* className={pages < (portfolioItems.length / 30) || (portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}> */}
                 <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
               </span>
+              
             </div>
 
         </Container>
