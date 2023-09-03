@@ -227,6 +227,8 @@
         border: 1px solid rgb(220,220,220);
         cursor: pointer;
         border-radius: 5px;
+        /* border-radius: 60%; */
+        margin-right: 2px;
     }
     
     .selectedPage{

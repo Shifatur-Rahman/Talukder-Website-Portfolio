@@ -38,6 +38,10 @@
   color: #fff;
 }
 
+.fade{
+  animation: slide1 12s linear infinite;
+}
+
 /*
 .button-container {
   display: flex;
