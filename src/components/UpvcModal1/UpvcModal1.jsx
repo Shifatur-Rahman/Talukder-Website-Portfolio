@@ -72,7 +72,6 @@ const UpvcModal1 = (props) => {
                   )}
                 </tr>
               </tbody>
-
             </Table>
           </div>
        

@@ -38,6 +38,7 @@
       
       .portfolio-item {
         width: calc(25% - 10px);
+        /* height: 320px; */
         margin-bottom: 20px !important;
         /* margin-right: 2px !important; */
         box-sizing: border-box;

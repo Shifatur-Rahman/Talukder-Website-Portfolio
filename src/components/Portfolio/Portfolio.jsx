@@ -218,6 +218,7 @@ const Portfolio = () => {
                       }).slice(pages*30 - 30, pages*30)
                       .map((item) => (
                         <div className="portfolio-item"
+                        //  style={{ height: "360px" }}
                           key={item.id}>
 
                           <img
@@ -229,7 +230,7 @@ const Portfolio = () => {
                           />
 
                           <div style={{ marginTop: "10px", width: "100%", marginBottom: "35px" }}>
-                            
+
                             {item.title && (
                               <p style={{marginLeft:"10px"}} className="itemTitle">
                                 <strong>Name : </strong>
@@ -311,7 +312,7 @@ const Portfolio = () => {
                               )}
 
                             {item.size && (
-                              <p style={{ marginLeft: "10px", marginTop:"15px" }} className="itemTitle"> 
+                              <p style={{ marginLeft: "10px", marginTop:"0px" }} className="itemTitle"> 
                                 <strong>Size : </strong> 
                                 <span className="itemSize"> {item.size} </span> 
                               </p>
