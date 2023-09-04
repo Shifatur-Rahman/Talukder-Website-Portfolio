@@ -14,6 +14,7 @@ import Summary from "../../components/Summary/Summary";
 import AOS from "aos";
 import Certified from "../Certified/Certified";
 import Services from "../Services/Services";
+import Banner from "../Banner/Banner";
 
 
 const Slider = () => {
@@ -138,7 +139,8 @@ const Slider = () => {
           </Carousel.Item>
         ))}
       </Carousel>
-      <Certified />
+      {/* <Certified /> */}
+      <Banner />
       <KnowUs ref={LearnMoreref} />
       <Summary />
       <Services ref={Summaryref}/>

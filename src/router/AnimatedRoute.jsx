@@ -80,6 +80,7 @@ function AnimatedRoute() {
             path="/concern/distribution"
             element={<DistributionPage />}
           />
+          
           <Route
             path="/concern/furniture"
             element={<FurniturePage />}

@@ -9,7 +9,6 @@ import BigPlayButton from "react-player";
 
 const VideoSection = () => {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
