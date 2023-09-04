@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --primary: #00B98E;
     --secondary: #FF6922;
     --light: #EFFDF5;
@@ -21,6 +21,4 @@
     background: var(--primary);
     transform: skew(20deg);
     z-index: 1;
-} */
-
-
+} 

@@ -143,8 +143,8 @@ const Slider = () => {
       </Carousel>
       {/* <Certified /> */}
       <Banner />
-      <KnowUs ref={LearnMoreref} />
-      {/* <ReadMore ref={LearnMoreref} /> */}
+      {/* <KnowUs ref={LearnMoreref} /> */}
+      <ReadMore ref={LearnMoreref} />
       <Summary />
       <Services ref={Summaryref} />
       {/* <Services /> */}

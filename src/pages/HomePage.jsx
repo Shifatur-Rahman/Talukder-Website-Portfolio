@@ -20,6 +20,7 @@ const HomePage = () => {
       <TopNavigation title="Talukder Group" />
       <Slider />
       {/* <Services /> */}
+      
       <NewsDetails />
       <Footer />
       <BackToTopButton /> 
