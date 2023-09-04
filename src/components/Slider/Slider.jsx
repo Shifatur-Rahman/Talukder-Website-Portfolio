@@ -14,6 +14,8 @@ import Summary from "../../components/Summary/Summary";
 import AOS from "aos";
 import Certified from "../Certified/Certified";
 import Services from "../Services/Services";
+// import Banner from "../Banner/Banner";
+import ReadMore from "../ReadMore/ReadMore";
 import Banner from "../Banner/Banner";
 
 
@@ -142,8 +144,9 @@ const Slider = () => {
       {/* <Certified /> */}
       <Banner />
       <KnowUs ref={LearnMoreref} />
+      {/* <ReadMore ref={LearnMoreref} /> */}
       <Summary />
-      <Services ref={Summaryref}/>
+      <Services ref={Summaryref} />
       {/* <Services /> */}
 
     </>

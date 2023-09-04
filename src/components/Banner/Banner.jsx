@@ -12,12 +12,16 @@ const Banner = () => {
               <Row>
 
                   <Col className='banner1' lg={6} md={6} sm={12}>
-                      <img src={banner1} alt="banner-1" />
-                  </Col>
-                  <Col className='banner1' lg={6} md={6} sm={12}>
-                      <img src={banner2} alt="banner-2" />
+                      <div className="image-container">
+                          <img src={banner1} alt="banner-1" />
+                      </div>
                   </Col>
 
+                  <Col className='banner1' lg={6} md={6} sm={12}>
+                      <div className="image-container">
+                          <img src={banner2} alt="banner-2" />
+                      </div>
+                  </Col>
 
               </Row>
           </Container>
