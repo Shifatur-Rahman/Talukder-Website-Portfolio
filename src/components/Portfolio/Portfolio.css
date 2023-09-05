@@ -82,6 +82,7 @@
         -moz-transition: all .5s ease;
         -webkit-transition: all .5s ease;
         cursor: pointer;
+        transform-origin: center center;
         /* background-color: #e6e6e6; */
       }
 
