@@ -6,7 +6,8 @@ import "./Slider.css";
 import slider1 from "../../asset/images/Slider_Img/slider1.jpg";
 import slider2 from "../../asset/images/Slider_Img/slider2.jpg";
 import slider3 from "../../asset/images/Slider_Img/slider3.jpg";
-import slider4 from "../../asset/images/Slider_Img/factoryBuilding.jpg";
+import talukder from "../../asset/images/Slider_Img/factoryBuilding.jpg";
+import slider4 from "../../asset/images/Slider_Img/talukder.png";
 import Button from "react-bootstrap/Button";
 import { useRef } from "react";
 import KnowUs from "../../components/KnowUs/KnowUs";
@@ -26,22 +27,22 @@ const Slider = () => {
   const images = [
     {
       src: slider1,
-      alt: "Talukder Plastic Factory",
+      alt: `Talukder Plastic `,
       para: "Our Brand is Yours",
       src2: "https://mdbcdn.b-cdn.net/img/video/Tropical.mp4",
     },
     {
       src: slider2,
-      alt: "Talukder Products Best In Quality",
+      alt: "Talukder Products",
       para: "For Quality Life",
       src2: "https://mdbcdn.b-cdn.net/img/video/forest.mp4",
     },
     {
       src: slider4,
       alt: "Talukder Furniture",
-      para: "Better Design & Right Choice For Office",
+      para: "Best In Quality",
       src2: "https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4",
-    },
+    }
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -129,11 +130,14 @@ const Slider = () => {
                   {image.para}
                 </p>
 
-                <div className="banner_content">
-                    <ul>
-                        <li><a onClick={handleClick} className="btn-button button-color">Our Services</a></li>
-                        <li><a onClick={handleKnowClick} className="btn-button button-transparent">Learn More</a></li>
-                    </ul>
+                <div style={{ display:"flex", alignContent:"flex-start"}}
+                //  className="banner_content"
+                >
+                    {/* <ul>
+                        <li><a style={{textDecoration:"none"}} onClick={handleClick} className="btn-button button-color">Our Services</a></li>
+                        <li><a style={{textDecoration:"none"}} onClick={handleKnowClick} className="btn-button button-transparent">Learn More</a></li>
+                    </ul> */}
+                     <a style={{textDecoration:"none", }} onClick={handleClick} className="btn-button button-transparent">Our Services</a>
                 </div>
 
               </Carousel.Caption>
@@ -147,7 +151,6 @@ const Slider = () => {
       <ReadMore ref={LearnMoreref} />
       <Summary />
       <Services ref={Summaryref} />
-      {/* <Services /> */}
 
     </>
   );

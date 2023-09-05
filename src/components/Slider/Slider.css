@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  align-content: flex-start;
 }
 
 .carousel-item.active {
@@ -25,11 +26,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   margin-bottom: 4px;
 }
 
@@ -95,8 +96,14 @@
 } */
 
 /* Slider button */
+/* .banner_content{
+  display: flex;
+  align-items: flex-start;
+} */
+
 .banner_content ul li{
   display: inline-block;
+  align-items: flex-start;
 }
 .banner_content ul li:last-child{
   margin-left: 20px;
@@ -109,7 +116,7 @@ a.btn-button {
   letter-spacing: 0px;
   padding: 12px 0px;
   /* width: 210px; */
-  width: 190px;
+  width: 160px;
   text-align: center;
   border-radius: 4px;
   display: inline-block;
@@ -120,7 +127,9 @@ a.btn-button {
   -webkit-transition: all .5 ease;
   cursor: pointer;
   font-weight: 700;
+  margin-left: 0 !important;
 }
+
 a.button-color{
   color: #fff;
   background: #1dc6ad;
@@ -141,7 +150,7 @@ a.button-transparent{
   border: 1px solid #fff;
 }
 a.button-transparent:hover{
-  color: #000;
+  color: #fff;
   background: #1dc6ad;
   border: none;
   /* border: 1px solid #fff; */
@@ -195,7 +204,9 @@ a.btn:focus{
   /* font-family: 'Oswald', sans-serif; */
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
-  font-size: 33px;
+  font-size: 53px;
+  display: flex;
+  align-items: flex-start;
   /* color: #1dc6ad; */
 }
 
@@ -204,6 +215,8 @@ a.btn:focus{
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   font-size: 23px;
+  display: flex;
+  align-items: flex-start;
   /* color: #1dc6ad; */
 }
 

@@ -116,6 +116,17 @@
         text-decoration: none;
       }
 
+      .closeIcon{
+        border-radius: 50%;
+      }
+
+      .closeIcon:hover{
+        background-color: red;
+        border-radius: 50%;
+        color: #fff;
+        transition: all ease 1s;
+      }
+
       @media only screen and (max-width: 1020px) and (min-width: 768px)  {
       .itemSize{
         font-size: 8px !important;

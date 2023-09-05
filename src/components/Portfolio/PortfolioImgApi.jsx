@@ -448,6 +448,7 @@ const portfolioItems = [
     code: "TFMTO-001",
     size: "L2400 X W1900 X H750mm",
     imgSrc: tbl1,
+    // button: "Details"
   },
   {
     id: 2,

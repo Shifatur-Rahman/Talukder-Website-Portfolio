@@ -70,13 +70,12 @@ const Portfolio = () => {
     }
   }
 
-
   return (
     <>
       {loading ? (
         <Spinner />
       ) : (
-        <Container style={{ marginTop: "2rem", marginBottom: "6rem" }}>
+        <Container fluid="md" style={{ marginTop: "2rem", marginBottom: "6rem" }}>
           <Row>
             <Col
               // data-aos="fade-right"
@@ -348,7 +347,7 @@ const Portfolio = () => {
                     sx={{ position: "absolute", top: 0, right: 0 }}
                     onClick={handleDialogClose}
                   >
-                    <CloseIcon style={{color:"#e6e6e6", backgroundColor:"#1dc6ad", borderRadius:"50%"}} />
+                    <CloseIcon className="closeIcon" />
                     </IconButton>
                   <img
                     className="zoomImage"
