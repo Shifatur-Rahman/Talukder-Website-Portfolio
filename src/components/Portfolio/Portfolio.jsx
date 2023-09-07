@@ -360,8 +360,7 @@ const Portfolio = () => {
                     }
                   />
                 </DialogContent>
-              </Dialog>
-                         
+              </Dialog>                        
           </Row>
 
                                         {/* Pagination */}
@@ -403,12 +402,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-
-              {/* {
-                [...Array(Math.ceil(portfolioItems.length / 30))].map((_, i) => {
-                  return (
-                    <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1) }}> {i + 1}</span>
-                  )
-                })
-              }  */}
