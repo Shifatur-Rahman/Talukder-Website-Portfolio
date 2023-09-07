@@ -18,6 +18,7 @@ import Services from "../Services/Services";
 // import Banner from "../Banner/Banner";
 import ReadMore from "../ReadMore/ReadMore";
 import Banner from "../Banner/Banner";
+import ProductType from "../ProductType/ProductType";
 
 
 const Slider = () => {
@@ -147,8 +148,9 @@ const Slider = () => {
       </Carousel>
       {/* <Certified /> */}
       <Banner />
-      {/* <KnowUs ref={LearnMoreref} /> */}
-      <ReadMore ref={LearnMoreref} />
+      <ProductType />
+      <KnowUs ref={LearnMoreref} />
+      {/* <ReadMore ref={LearnMoreref} /> */}
       <Summary />
       <Services ref={Summaryref} />
 
