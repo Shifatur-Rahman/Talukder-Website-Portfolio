@@ -75,9 +75,10 @@ const Portfolio = () => {
       {loading ? (
         <Spinner />
       ) : (
-        <Container fluid="md" style={{ marginTop: "2rem", marginBottom: "6rem" }}>
-          <Row>
-            <Col
+        <div style={{background: "#f2f2f2"}}>
+        <Container fluid="md">
+          <Row >
+            <Col style={{marginTop:"30px", marginBottom:"10px", background: "#f2f2f2f"}}
               // data-aos="fade-right"
               // data-aos-anchor="#example-anchor"
               // data-aos-offset="500"
@@ -365,8 +366,8 @@ const Portfolio = () => {
 
                                         {/* Pagination */}
 
-            <div className='pagination'>
-
+            <Row>
+            <div style={{marginBottom:"60px"}} className='pagination'>
               <span onClick={() => { handlePage(pages - 1); window.scrollTo(0, 0); }}
                 className={pages > 1 ? "" : "Pagination_disable"}>
                 <BsFillCaretLeftSquareFill style={{ color: "#1dc6ad" }} />
@@ -390,10 +391,11 @@ const Portfolio = () => {
                 {/* className={pages < (portfolioItems.length / 30) || (portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}> */}
                 <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
               </span>
-              
             </div>
+            </Row>
 
         </Container>
+        </div>
 
       )}
     </>     

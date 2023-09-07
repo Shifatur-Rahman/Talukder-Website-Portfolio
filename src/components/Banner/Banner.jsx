@@ -3,9 +3,7 @@ import banner1 from "../../asset/images/Banner/banner1.png"
 import banner2 from "../../asset/images/Banner/banner2.png"
 import { Container, Row, Col } from 'react-bootstrap'
 import "./Banner.css"
-import AOS from "aos";
-import "aos/dist/aos.css";
-
+// import AOS from "aos";
 
 const Banner = () => {
   return (
@@ -13,13 +11,13 @@ const Banner = () => {
           <Container style={{marginTop: "5rem"}}>
               <Row>
 
-                  <Col data-aos="fade-right" className='banner1' lg={6} md={6} sm={6}>
+                  <Col className='banner1' lg={6} md={6} sm={6}>
                       <div className="image-container">
                           <img src={banner1} alt="banner-1" />
                       </div>
                   </Col>
 
-                  <Col data-aos="fade-left" className='banner1' lg={6} md={6} sm={6}>
+                  <Col className='banner1' lg={6} md={6} sm={6}>
                       <div className="image-container">
                           <img src={banner2} alt="banner-2" />
                       </div>

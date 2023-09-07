@@ -14,10 +14,11 @@
     font-family: "Raleway", sans-serif;
     font-size: 11px;
     font-weight: 700;
-    background-color: #fff;
+    background-color: #f2f2f2;
     color: #444;
     cursor: pointer;
-    text-align: center;    
+    text-align: center;  
+    border: 1px solid #1dc6ad; 
 }
 
     .filter-buttons button {
@@ -39,7 +40,7 @@
       .portfolio-item {
         width: calc(25% - 10px);
         /* height: 320px; */
-        margin-bottom: 20px !important;
+        margin-bottom: 7px !important;
         /* margin-right: 2px !important; */
         box-sizing: border-box;
         margin: auto;
@@ -86,12 +87,6 @@
         /* background-color: #e6e6e6; */
       }
 
-      /* .portfolio-item:hover .upvcBtn{
-        background-color: #f2f2f2;
-        color: #1dc6ad;
-      } */
-    
-
       .itemTitle{
         font-size: 10px !important;
         font-weight: 600;
@@ -135,13 +130,6 @@
         font-size: 8px !important;
       }
       }
-
-      /* @media only screen and (max-width: 1800px){
-        .portfolio-item {
-          width: calc(20% - 10px);
-        }
-      } */
-
       
       @media only screen and (max-width: 1500px){
         .portfolio-item {
@@ -206,28 +194,6 @@
         }
       }
 
-
-
-      /* pagination css */
-  /* .allProducts{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
-    }
-    
-    .singleItem{
-    background-color: rgb(220,220,220);
-    width: 180px;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    }
-    
-    .singleItem img {
-        width: 180px;
-        height: 150px;
-    } */
-    
     .pagination{
         display: flex;
         align-items: center;
