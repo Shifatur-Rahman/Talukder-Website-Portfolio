@@ -8,6 +8,7 @@ import property6 from "../../asset/images/property logo/six.png";
 import property7 from "../../asset/images/property logo/seven.png";
 import property8 from "../../asset/images/property logo/eight.png";
 import "./ProductType.css";
+import { BsBookshelf } from 'react-icons/bs';
 
 const ProductType = () => {
   return (
@@ -17,7 +18,7 @@ const ProductType = () => {
               <div className="container">
                   <div className="text-center mx-auto mb-5 wow fadeInUp" style={{ maxWidth: " 600px" }}>
                       <h1 style={{ color: "#0E2E50", fontWeight: "700", fontSize: "30px" }} className="mb-3">Product Types</h1>
-                      <p>Talukder Group offers a diverse range of products across various industries. While the specific product types may vary depending on the sector, here are some common product categories associated with Talukder Group:</p>
+                      <p style={{color: "#8c8c8c"}}>Talukder Group offers a diverse range of products across various industries. While the specific product types may vary depending on the sector, here are some common product categories associated with Talukder Group:</p>
                   </div>
 
                   <div className="row g-4">
@@ -29,7 +30,7 @@ const ProductType = () => {
                                       <img className="img-fluid" src={property1} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>Home Furnitutre</h6>
-                                  <span className='propertySpan'>123 Properties</span>
+                                  <span className='propertySpan'> 500+ Products </span>
                               </div>
                           </a>
                       </div>
@@ -41,7 +42,7 @@ const ProductType = () => {
                                       <img className="img-fluid" src={property2} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>Office Furnitutre</h6>
-                                  <span className='propertySpan'>123 Properties</span>
+                                  <span className='propertySpan'>500+ Products</span>
                               </div>
                           </a>
                       </div>
@@ -53,7 +54,7 @@ const ProductType = () => {
                                       <img className="img-fluid" src={property3} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>Industrial Furnitutre</h6>
-                                  <span className='propertySpan'>123 Properties</span>
+                                  <span className='propertySpan'>500+ Products</span>
                               </div>
                           </a>
                       </div>
@@ -65,7 +66,7 @@ const ProductType = () => {
                                       <img className="img-fluid" src={property4} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>School Furnitutre</h6>
-                                  <span className='propertySpan'>123 Properties</span>
+                                  <span className='propertySpan'>500+ Products</span>
                               </div>
                           </a>
                       </div>
@@ -77,7 +78,7 @@ const ProductType = () => {
                                       <img className="img-fluid" src={property5} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>Plastic Furnitutre</h6>
-                                  <span className='propertySpan'>123 Properties</span>
+                                  <span className='propertySpan'>500+ Products</span>
                               </div>
                           </a>
                       </div>
@@ -89,7 +90,7 @@ const ProductType = () => {
                                       <img className="img-fluid" src={property6} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>Plastic Household</h6>
-                                  <span className='propertySpan'>123 Properties</span>
+                                  <span className='propertySpan'>500+ Products</span>
                               </div>
                           </a>
                       </div>
@@ -101,7 +102,7 @@ const ProductType = () => {
                                       <img className="img-fluid" src={property7} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>Toy</h6>
-                                  <span className='propertySpan'>123 Properties</span>
+                                  <span className='propertySpan'>500+ Products</span>
                               </div>
                           </a>
                       </div>
@@ -113,7 +114,7 @@ const ProductType = () => {
                                       <img className="img-fluid" src={property8} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>Upvc</h6>
-                                  <span className='propertySpan'>123 Properties</span>
+                                  <span className='propertySpan'>500+ Products</span>
                               </div>
                           </a>
                       </div>
@@ -122,7 +123,6 @@ const ProductType = () => {
               </div>
           </div>
 
-    
     </>
   )
 }
