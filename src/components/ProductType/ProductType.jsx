@@ -30,8 +30,6 @@ const ProductType = () => {
       }, []);
 
 
-
-
   return (
     <>
     
@@ -42,11 +40,11 @@ const ProductType = () => {
                       <p style={{color: "#8c8c8c"}}>Talukder Group offers a diverse range of products across various industries. While the specific product types may vary depending on the sector, here are some common product categories associated with Talukder Group:</p>
                   </div>
 
-                  <div className="row g-4">
+                  <div data-aos="fade-up" className="row g-4">
 
-                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp">
+                      <div className="col-lg-3 col-sm-6 wow fadeInUp">
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3" >
-                              <div  className="rounded p-4">
+                              <div className="rounded p-4">
                                   <div className="icon mb-3">
                                       <img className="img-fluid" src={property1} alt="Icon" />
                                   </div>
@@ -56,9 +54,9 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp">
+                      <div className="col-lg-3 col-sm-6 wow fadeInUp">
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
-                              <div  className="rounded p-4">
+                              <div className="rounded p-4">
                                   <div className="icon mb-3">
                                       <img className="img-fluid" src={property2} alt="Icon" />
                                   </div>
@@ -68,7 +66,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -80,7 +78,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -92,7 +90,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -104,7 +102,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3" >
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -116,7 +114,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -128,7 +126,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">

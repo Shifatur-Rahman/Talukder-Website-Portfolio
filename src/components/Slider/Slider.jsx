@@ -20,7 +20,6 @@ import ReadMore from "../ReadMore/ReadMore";
 import Banner from "../Banner/Banner";
 import ProductType from "../ProductType/ProductType";
 
-
 const Slider = () => {
   const Summaryref = useRef(null);
   const LearnMoreref = useRef(null);
@@ -150,7 +149,7 @@ const Slider = () => {
       <Banner />
       <ProductType />
       <KnowUs ref={LearnMoreref} />
-      {/* <ReadMore ref={LearnMoreref} /> */}
+      {/* <ReadMore /> */}
       <Summary />
       <Services ref={Summaryref} />
 
