@@ -35,7 +35,7 @@ const ProductType = () => {
   return (
     <>
     
-          <div className="container-xxl py-5">
+          <div  className="container-xxl py-5">
               <div className="container">
                   <div className="text-center mx-auto mb-5 wow fadeInUp" style={{ maxWidth: " 600px" }}>
                       <h1 style={{ color: "#0E2E50", fontWeight: "700", fontSize: "30px" }} className="mb-3">Product Types</h1>
@@ -44,9 +44,9 @@ const ProductType = () => {
 
                   <div className="row g-4">
 
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp">
+                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp">
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3" >
-                              <div data-aos="fade-top" className="rounded p-4">
+                              <div  className="rounded p-4">
                                   <div className="icon mb-3">
                                       <img className="img-fluid" src={property1} alt="Icon" />
                                   </div>
@@ -56,9 +56,9 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp">
+                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp">
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
-                              <div data-aos="fade-top" className="rounded p-4">
+                              <div  className="rounded p-4">
                                   <div className="icon mb-3">
                                       <img className="img-fluid" src={property2} alt="Icon" />
                                   </div>
@@ -68,19 +68,19 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
                                       <img className="img-fluid" src={property3} alt="Icon" />
                                   </div>
                                   <h6 className='propertyHeader'>Industrial Furnitutre</h6>
-                                  <span className='propertySpan'>50+ Products</span>
+                                  <span className='propertySpan'>100+ Products</span>
                               </div>
                           </a>
                       </div>
 
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -92,7 +92,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -104,7 +104,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3" >
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -116,7 +116,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -128,7 +128,7 @@ const ProductType = () => {
                           </a>
                       </div>
 
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp" >
+                      <div data-aos="fade-up" className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
