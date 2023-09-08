@@ -13,6 +13,7 @@ import Spinner from "../Spinner/Spinner";
 import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 // import { Blurhash } from "react-blurhash";
 import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
+import {motion, AnimatePresence} from 'framer-motion'
 // import { animateScroll } from "react-scroll";
 
 const Portfolio = () => {
@@ -89,14 +90,14 @@ const Portfolio = () => {
             >
               {/* <div data-aos='fade-right' className="filter-buttons"> */}
                 <div className="filter-buttons">
-                  <div className="dropdown">
+                  <motion.div layout className="dropdown">
                     <button
                       value="all"
                       onClick={handleCategory}
                       className={isActive("all")}>
                       ALL
                     </button>
-                  </div>
+                  </motion.div>
 
                   <div className="dropdown">
                     <button
@@ -205,7 +206,12 @@ const Portfolio = () => {
             {loading ? (
               <PageLoader />
             ) : (
-                  <div
+                    <motion.div
+                      animate={{ opacity: 1 }}
+                      initial={{ opacity: 0 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 2 }}
+                      layout
                     className="portfolio-grid">
                     {portfolioItems
                       .filter((item) => {
@@ -217,10 +223,15 @@ const Portfolio = () => {
                         }
                       }).slice(pages*30 - 30, pages*30)
                       .map((item) => (
-                        <div className="portfolio-item"
-                        //  style={{ height: "360px" }}
+                        <motion.div
+                        animate={{ opacity: 1 }}
+                        initial={{ opacity: 0 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 2 }}
+                        layout className="portfolio-item"
+                          //  style={{ height: "360px" }}
                           key={item.id}>
-
+                          {/* <AnimatePresence> */}
                           <img
                             className="portfolio-item-img"
                             src={`${item.imgSrc}`}
@@ -232,7 +243,7 @@ const Portfolio = () => {
                           <div style={{ marginTop: "10px", width: "100%", marginBottom: "35px" }}>
 
                             {item.title && (
-                              <p style={{marginLeft:"10px"}} className="itemTitle">
+                              <p style={{ marginLeft: "10px" }} className="itemTitle">
                                 <strong>Name : </strong>
                                 <span style={{ textTransform: "uppercase" }}>
                                   {" "}
@@ -242,13 +253,13 @@ const Portfolio = () => {
                             )}
 
                             {item.button && (
-                              <div style={{marginLeft:"10px"}}>
-                                <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness}  img={item.imgSrc} />
+                              <div style={{ marginLeft: "10px" }}>
+                                <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
                               </div>
                             )}
 
                             {item.color && item.code ? (
-                              <div style={{margin: "0 5px"}} className="table-responsive">
+                              <div style={{ margin: "0 5px" }} className="table-responsive">
                                 <table className="table table-bordered table-sm custom-table">
                                   <tbody>
                                     <tr>
@@ -296,7 +307,7 @@ const Portfolio = () => {
                                             width: "5px"
                                           }}
                                           key={index}
-                                        ></td>    
+                                        ></td>
                                       ))}
                                     </tr>
                                   </tbody>
@@ -304,7 +315,7 @@ const Portfolio = () => {
                               </div>
                             ) :
                               item.code ? (
-                                <p style={{marginLeft:"10px"}} className="itemTitle">
+                                <p style={{ marginLeft: "10px" }} className="itemTitle">
                                   <strong>Code : </strong>
                                   {item.code}</p>
                               ) : (
@@ -312,21 +323,21 @@ const Portfolio = () => {
                               )}
 
                             {item.size && (
-                              <p style={{ marginLeft: "10px", marginTop:"0px" }} className="itemTitle"> 
-                                <strong>Size : </strong> 
-                                <span className="itemSize"> {item.size} </span> 
+                              <p style={{ marginLeft: "10px", marginTop: "0px" }} className="itemTitle">
+                                <strong>Size : </strong>
+                                <span className="itemSize"> {item.size} </span>
                               </p>
                             )}
 
                             {item.size2 && (
-                              <p style={{marginLeft:"10px"}} className="itemTitle">
+                              <p style={{ marginLeft: "10px" }} className="itemTitle">
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size2} </span>
                               </p>
                             )}
 
                             {item.product && (
-                              <p style={{marginLeft:"10px"}} className="itemTitle">
+                              <p style={{ marginLeft: "10px" }} className="itemTitle">
                                 <span style={{ fontSize: "8px" }}>
                                   {" "}
                                   {item.product}{" "}
@@ -335,9 +346,10 @@ const Portfolio = () => {
                             )}
 
                           </div>
-                        </div>
+                          {/* </AnimatePresence> */}
+                        </motion.div>
                       ))}
-                  </div>
+                  </motion.div>
             )}
             
                             {/* Image in big Size       */}
