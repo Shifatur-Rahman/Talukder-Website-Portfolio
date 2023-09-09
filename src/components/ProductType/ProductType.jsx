@@ -36,7 +36,7 @@ const ProductType = () => {
           <div  className="container-xxl py-5">
               <div className="container">
                   <div className="text-center mx-auto mb-5 wow fadeInUp" style={{ maxWidth: " 600px" }}>
-                      <h1 style={{ color: "#0E2E50", fontWeight: "700", fontSize: "30px" }} className="mb-3">Product Types</h1>
+                      <h1 style={{ color: "#0E2E50", fontWeight: "700", fontSize: "35px" }} className="mb-3">Product Types</h1>
                       <p style={{color: "#8c8c8c"}}>Talukder Group offers a diverse range of products across various industries. Here are some common product categories associated with Talukder Group:</p>
                   </div>
 

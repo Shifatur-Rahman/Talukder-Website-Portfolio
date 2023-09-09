@@ -1971,13 +1971,7 @@ const portfolioItems = [
     code: "TFCRC-064",
     imgSrc: chair64,
   },
-  {
-    id: 565,
-    title: "CLASSROOM CHAIR",
-    category: "lged",
-    code: "TFCRC-065",
-    imgSrc: chair65,
-  },
+  
   {
     id: 566,
     title: "CLASSROOM TABLE WITH BENCH",
@@ -2094,6 +2088,66 @@ const portfolioItems = [
     imgSrc: chair77,
     size: "L910 X W480 X H1930MM",
   },
+  
+  //                                 --------   lged(200)  --------
+
+  {
+    id: 251,
+    title: "Low Bench",
+    code: "40103/40034/40104",
+    color: "#ba5645/#013220/#05014a",
+    size: "Normal/ Extra Hieght/ Special Extra Height",
+    category: "lged",
+    imgSrc: lged8,
+  },
+
+  {
+    id: 252,
+    title: "High Bench",
+    code: "40100/40031/40101",
+    color: "#ba5645/#013220/#05014a",
+    size: "Normal/ Extra Hieght/ Special Extra Height",
+    category: "lged",
+    imgSrc: lged7,
+  },
+
+  {
+    id: 253,
+    title: "Bench Set",
+    code: "40001/40002/40003",
+    color: "#ba5645/#013220/#05014a",
+    size: "Normal/ Extra Hieght/ Special Extra Height",
+    category: "lged",
+    imgSrc: lged1,
+  },
+
+  {
+    id: 254,
+    title: "Teacher Table",
+    code: "40106/40107/40010/40004",
+    color: "#ba5645/#05014a/orange/#000",
+    size: "Normal/ Extra Hieght/ Special Extra Height",
+    category: "lged",
+    imgSrc: lged10,
+  },
+  {
+    id: 565,
+    title: "CLASSROOM CHAIR",
+    category: "lged",
+    code: "TFCRC-065",
+    imgSrc: chair65,
+  },
+  {
+    id: 255,
+    title: "Teacher Chair",
+    code: "40108/40005/40006/40007",
+    color: "#ba5645/#05014a/orange/#000",
+    size: "550mm(L)X515mm(W)XH850mm(H)",
+    category: "lged",
+    imgSrc: lged11,
+  },
+
+  ///                             office furniture
   {
     id: 579,
     title: "OFFICE ALMIRAH",
@@ -3310,59 +3364,6 @@ const portfolioItems = [
   },
   
 
-  ///                                         OFFICE FURNITURE(CHAIR)
-
-  //                                 --------   lged(200)  --------
-
-  {
-    id: 251,
-    title: "Low Bench",
-    code: "40103/40034/40104",
-    color: "#ba5645/#013220/#05014a",
-    size: "Normal/ Extra Hieght/ Special Extra Height",
-    category: "lged",
-    imgSrc: lged8,
-  },
-
-  {
-    id: 252,
-    title: "High Bench",
-    code: "40100/40031/40101",
-    color: "#ba5645/#013220/#05014a",
-    size: "Normal/ Extra Hieght/ Special Extra Height",
-    category: "lged",
-    imgSrc: lged7,
-  },
-
-  {
-    id: 253,
-    title: "Bench Set",
-    code: "40001/40002/40003",
-    color: "#ba5645/#013220/#05014a",
-    size: "Normal/ Extra Hieght/ Special Extra Height",
-    category: "lged",
-    imgSrc: lged1,
-  },
-
-  {
-    id: 254,
-    title: "Teacher Table",
-    code: "40106/40107/40010/40004",
-    color: "#ba5645/#05014a/orange/#000",
-    size: "Normal/ Extra Hieght/ Special Extra Height",
-    category: "lged",
-    imgSrc: lged10,
-  },
-
-  {
-    id: 255,
-    title: "Teacher Chair",
-    code: "40108/40005/40006/40007",
-    color: "#ba5645/#05014a/orange/#000",
-    size: "550mm(L)X515mm(W)XH850mm(H)",
-    category: "lged",
-    imgSrc: lged11,
-  },
    //   //    //                                      upvc
   {
     id: 301,

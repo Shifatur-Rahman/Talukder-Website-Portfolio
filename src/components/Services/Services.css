@@ -5,18 +5,19 @@ our service section strats here
 .serviceTitle{
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 700;
     font-weight: 900;
-    color:#1dc6ad;
+    /* color: #1dc6ad; */
+    color: #0E2E50;
     margin-bottom: 0px;
     margin-bottom: 2rem;
 }
-
+/* style={{ color: "#0E2E50", fontWeight: "700", fontSize: "35px" }} */
 .serviceSubTitle{
 font-family: "Raleway",sans-serif !important;
 font-size: 22px !important;
-font-weight: 600;
-color: #000 !important;
+font-weight: 800;
+color: #1dc6ad !important;
 margin-top: 3rem;
 }
 
