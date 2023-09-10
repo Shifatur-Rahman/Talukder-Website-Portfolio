@@ -255,8 +255,8 @@ const Portfolio = () => {
 
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
-                                {/* <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
-                                <ProductDetails title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
+                                <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
+                                <Button className="me-2 mb-2 upvcBtn">Click</Button>
                               </div>
                             )}
 
@@ -346,7 +346,6 @@ const Portfolio = () => {
                                 </span>
                               </p>
                             )}
-
                           </div>
                           {/* </AnimatePresence> */}
                         </motion.div>
@@ -374,7 +373,7 @@ const Portfolio = () => {
                     }
                   />
                 </DialogContent>
-              </Dialog>                        
+              </Dialog>                     
           </Row>
 
                                         {/* Pagination */}

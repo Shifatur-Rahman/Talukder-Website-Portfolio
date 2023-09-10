@@ -24,17 +24,18 @@ const ProductDetails = (props) => {
   return (
     <>
 
-{values.map((v, idx) => (
-    <Button  key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
-      Details
-    {typeof v === 'string' && `below ${v.split('-')[0]}`}
-    </Button>
+      {values.map((v, idx) => (
+        <Button key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
+          Details
+          {typeof v === 'string' && `below ${v.split('-')[0]}`}
+        </Button>
       ))}
-    
 
-    <div className='singleProductItem'>
-          
-    </div>
+
+
+      <div className='singleProductItem'>
+        <h1>Hello world</h1>
+      </div>
 
     
     
