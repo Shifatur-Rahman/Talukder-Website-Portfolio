@@ -1971,24 +1971,12 @@ const portfolioItems = [
     code: "TFCRC-064",
     imgSrc: chair64,
   },
-  
   {
-    id: 566,
-    title: "CLASSROOM TABLE WITH BENCH",
+    id: 565,
+    title: "CLASSROOM CHAIR",
     category: "lged",
-    code: "TFHLB-066",
-    imgSrc: chair66,
-    size: "L1800 X W400 X H730MM(HIGH BENCH)",
-    size2: "L1800 X W300 X H400MM(LOW BENCH)",
-  },
-  {
-    id: 567,
-    title: "CLASSROOM TABLE WITH BENCH",
-    category: "lged",
-    code: "TFHLB-067",
-    imgSrc: chair67,
-    size: "L1500 X W450 X H750MM(HIGH BENCH)",
-    size2: "L1500 X W300 X H400MM(LOW BENCH)",
+    code: "TFCRC-065",
+    imgSrc: chair65,
   },
 
   {
@@ -2090,6 +2078,25 @@ const portfolioItems = [
   },
   
   //                                 --------   lged(200)  --------
+  
+  {
+    id: 566,
+    title: "CLASSROOM TABLE WITH BENCH",
+    category: "lged",
+    code: "TFHLB-066",
+    imgSrc: chair66,
+    size: "L1800 X W400 X H730MM(HIGH BENCH)",
+    size2: "L1800 X W300 X H400MM(LOW BENCH)",
+  },
+  {
+    id: 567,
+    title: "CLASSROOM TABLE WITH BENCH",
+    category: "lged",
+    code: "TFHLB-067",
+    imgSrc: chair67,
+    size: "L1500 X W450 X H750MM(HIGH BENCH)",
+    size2: "L1500 X W300 X H400MM(LOW BENCH)",
+  },
 
   {
     id: 251,
@@ -2131,13 +2138,6 @@ const portfolioItems = [
     imgSrc: lged10,
   },
   {
-    id: 565,
-    title: "CLASSROOM CHAIR",
-    category: "lged",
-    code: "TFCRC-065",
-    imgSrc: chair65,
-  },
-  {
     id: 255,
     title: "Teacher Chair",
     code: "40108/40005/40006/40007",
@@ -2146,7 +2146,6 @@ const portfolioItems = [
     category: "lged",
     imgSrc: lged11,
   },
-
   ///                             office furniture
   {
     id: 579,
@@ -2156,7 +2155,6 @@ const portfolioItems = [
     imgSrc: chair78,
     size: "L900 X W450 X H1800MM",
   },
-
   {
     id: 580,
     title: "OFFICE ALMIRAH",
@@ -2291,7 +2289,6 @@ const portfolioItems = [
     imgSrc: chair90,
     size: "L2400 X W1200 X H1050MM",
   },
-
   ///        FLUSH DOOR
   {
     id: 596,
@@ -3220,25 +3217,27 @@ const portfolioItems = [
   //   color : "BLUE/BLUE/BLUE/BLUE/BLUE/BLUE/BLUE",
   //   size : "5,8,10,16,20,25,30 Ltr."
   // },
-  {
-    id: 204,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic105,
-    title: "DRUAM BUCKET",
-    code: "11445/11446/11460/11461",
-    color: "RED/BLUE/RED/BLUE",
-    size: "45,60 Ltr.",
-  },
 
-  {
-    id: 205,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic106,
-    title: "STORAGE CONTAINER",
-    code: "17185/17186",
-    color: "BLUE/PINK",
-    size: "15 Ltr.",
-  },
+  //   height prb
+  // {
+  //   id: 204,
+  //   category: "PLASTIC HOUSEHOLD",
+  //   imgSrc: plastic105,
+  //   title: "DRUAM BUCKET",
+  //   code: "11445/11446/11460/11461",
+  //   color: "RED/BLUE/RED/BLUE",
+  //   size: "45,60 Ltr.",
+  // },
+
+  // {
+  //   id: 205,
+  //   category: "PLASTIC HOUSEHOLD",
+  //   imgSrc: plastic106,
+  //   title: "STORAGE CONTAINER",
+  //   code: "17185/17186",
+  //   color: "BLUE/PINK",
+  //   size: "15 Ltr.",
+  // },
 
   {
     id: 206,
@@ -3255,7 +3254,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe2,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-001",
     color: "",
   },
   {
@@ -3263,7 +3262,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe3,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-002",
     color: "",
   },
   {
@@ -3271,7 +3270,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe4,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-003",
     color: "",
   },
   {
@@ -3279,7 +3278,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe5,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-004",
     color: "",
   },
   {
@@ -3287,7 +3286,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe6,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-005",
     color: "",
   },
   {
@@ -3295,7 +3294,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe7,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-006",
     color: "",
   },
   {
@@ -3303,7 +3302,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe8,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-007",
     color: "",
   },
   {
@@ -3311,7 +3310,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe9,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-008",
     color: "",
   },
   {
@@ -3319,7 +3318,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe10,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-009",
     color: "",
   },
   {
@@ -3327,7 +3326,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe11,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-010",
     color: "",
   },
   {
@@ -3335,7 +3334,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe12,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-011",
     color: "",
   },
   {
@@ -3343,7 +3342,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe13,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-012",
     color: "",
   },
   {
@@ -3351,7 +3350,7 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe14,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-013",
     color: "",
   },
   {
@@ -3359,12 +3358,12 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe1,
     title: "waredrobe",
-    code: "waredrobe101",
+    code: "ware-014",
     color: "",
   },
-  
-
+   
    //   //    //                                      upvc
+
   {
     id: 301,
     category: "upvc",
@@ -3411,7 +3410,6 @@ const portfolioItems = [
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
-  
   {
     id: 335,
     category: "upvc",
@@ -3520,7 +3518,6 @@ const portfolioItems = [
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
-  
   {
     id: 302,
     category: "upvc",
@@ -3775,7 +3772,6 @@ const portfolioItems = [
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
-
 ];
 
 export default portfolioItems;
