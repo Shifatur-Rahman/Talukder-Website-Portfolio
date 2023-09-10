@@ -5,14 +5,16 @@ import "./UpvcModal1.css"
 
 const UpvcModal1 = (props) => {
 
-    const { title, category, code, size, thickness } = props;
+    const { title, category, code, size, thickness, img } = props;
     const values = [true];
     const [lgShow, setLgShow] = useState(true);
     const [show, setShow] = useState(false);
     const [pCode, setPCode] = useState("");
     const [pSize, setPSize] = useState("");
     const [pThickness, setPThickness] = useState("");
-  
+    
+    // img={item.imgSrc}    
+    
     function handleShow(breakpoint) {
         setLgShow(breakpoint);
         setShow(true);
@@ -31,11 +33,15 @@ const UpvcModal1 = (props) => {
     </Button>
       ))}
 
-
       <Modal className='upvcModal' size="lg" show={show} lgShow={lgShow} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
           <h4 className='upvcModalTitle'>{title}</h4>
         </Modal.Header>
+
+        {/* <Modal.Header>
+          <img src={img} />
+        </Modal.Header> */}
+
         <Modal.Body>
 
           <div className="upvcTable">
@@ -55,6 +61,8 @@ const UpvcModal1 = (props) => {
                       <p key={index}>{code}</p>
                     ))}
                   </td>
+
+                  {}
 
                   <td>
                     {pSize.split("/").map((size, index) => (

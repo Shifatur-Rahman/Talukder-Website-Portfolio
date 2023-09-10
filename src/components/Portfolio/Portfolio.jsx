@@ -14,6 +14,7 @@ import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 // import { Blurhash } from "react-blurhash";
 import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
 import {motion, AnimatePresence} from 'framer-motion'
+import ProductDetails from "../ProductDetails/ProductDetails";
 // import { animateScroll } from "react-scroll";
 
 const Portfolio = () => {
@@ -254,7 +255,8 @@ const Portfolio = () => {
 
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
-                                <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
+                                {/* <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
+                                <ProductDetails title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
                               </div>
                             )}
 
