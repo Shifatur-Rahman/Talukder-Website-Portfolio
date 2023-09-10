@@ -31,7 +31,6 @@ const UpvcModal1 = (props) => {
     </Button>
       ))}
 
-{/* size="lg" */}
 
       <Modal className='upvcModal' size="lg" show={show} lgShow={lgShow} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
