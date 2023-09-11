@@ -10,19 +10,23 @@ const ProductDetails = (props) => {
   return (
     <>
 
+        
 
+      {/* 
 
-      {/* <div className='productDetails'>
+      <div className='productDetails'>
         <img src={img} />
-      </div> */}
+      </div>
 
-      {/* <div className='productDetails'>
+      <div className='productDetails'>
         <img src={img} />
-      </div> */}
+      </div>
 
-      {/* <div className='productDetails'>
+      <div className='productDetails'>
         <img src={img} />
-      </div> */}
+      </div> 
+      
+      */}
     
     
     
