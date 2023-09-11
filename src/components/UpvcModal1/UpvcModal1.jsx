@@ -38,12 +38,7 @@ const UpvcModal1 = (props) => {
           <h4 className='upvcModalTitle'>{title}</h4>
         </Modal.Header>
 
-        {/* <Modal.Header>
-          <img src={img} />
-        </Modal.Header> */}
-
         <Modal.Body>
-
           <div className="upvcTable">
             <Table responsive="sm" className="table-info">
               <thead>
@@ -62,8 +57,6 @@ const UpvcModal1 = (props) => {
                     ))}
                   </td>
 
-                  {}
-
                   <td>
                     {pSize.split("/").map((size, index) => (
                       <p key={index}>{size}</p>
@@ -81,9 +74,15 @@ const UpvcModal1 = (props) => {
               </tbody>
             </Table>
           </div>
-       
         </Modal.Body>
+
       </Modal>
+
+
+        {/* <Modal.Header>
+          <img src={img} />
+        </Modal.Header> */}
+
     </>
   )
 }
