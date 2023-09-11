@@ -86,12 +86,11 @@
 
 }
 
-
-/* @media (max-width: px) {
+@media (min-width: 768px) {
   .summaryCard{
     margin-top: 6rem;
   }
-} */
+}
 
 @media (max-width: 1000px) {
   .summaryTitle {
@@ -101,7 +100,6 @@
   .chartsCountUp {
     font-size: 25px;
   }
-
   .summaryCardText {
     font-size: 12px;
   }
@@ -113,7 +111,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .SummarySection {
     min-height: 600px;
   }
@@ -136,6 +134,7 @@
     margin-top: 2rem;
   }
 }
+
 
 @media (max-width: 492px) {
   .SummarySection {

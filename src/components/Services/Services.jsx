@@ -40,7 +40,7 @@ const Services = (props, ref) => {
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'>Plastic</p>
-                                  <p>Talukder Plastics pioneering excellence in plastic manufacturing and Eco-Friendly Solutions Worldwide.</p>
+                                  <p>Talukder Plastics pioneering excellence in plastic manufacturing and Eco-Friendly Solutions.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
