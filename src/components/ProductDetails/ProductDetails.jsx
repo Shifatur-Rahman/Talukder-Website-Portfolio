@@ -1,25 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import "./ProductDetails.css"
 import {Button, Table, Modal} from 'react-bootstrap';
+import portfolioItems from "../Portfolio/PortfolioImgApi";
 
-const ProductDetails = (props) => {
-  const { title, category, code, size, thickness, img } = props;
-
-  const values = [true];
-    const [lgShow, setLgShow] = useState(true);
-    const [show, setShow] = useState(false);
-    const [pCode, setPCode] = useState("");
-    const [pSize, setPSize] = useState("");
-    const [pThickness, setPThickness] = useState("");
-
-    function handleShow(breakpoint) {
-      setLgShow(breakpoint);
-      setShow(true);
-      setPCode(code);
-      setPSize(size);
-      setPThickness(thickness);
-  }
-    
+const ProductDetails = () => {
+  
 
   return (
     <>
@@ -28,7 +13,7 @@ const ProductDetails = (props) => {
 
       <div className='productDetails'>
 
-        
+    <h1>Hello programmers....</h1>
         
       </div>
 

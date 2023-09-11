@@ -257,10 +257,11 @@ const Portfolio = () => {
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
-                               
-                               <Link to="/productDetails">
-                               <Button className="me-2 mb-2 upvcBtn">Click</Button>
-                               </Link>
+
+                                <Link to="/productDetails">
+                                  <Button className="me-2 mb-2 upvcBtn">Click</Button>
+                                  <ProductDetails title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
+                                </Link>
                               </div>
                             )}
 
