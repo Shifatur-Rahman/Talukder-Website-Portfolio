@@ -24,6 +24,7 @@ import DistributionPage from "../pages/DistributionPage";
 import FurniturePage from "../pages/FurniturePage";
 import JEnterprisePage from "../pages/JEnterprisePage";
 // import NotFound from "../components/NotFound/NotFound";
+import ProductDetailsPage from '../pages/ProductDetailsPage'
 
 function AnimatedRoute() {
   const location = useLocation();
@@ -34,7 +35,7 @@ function AnimatedRoute() {
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/products" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/concern" element={<ConcernPage />} />
@@ -89,6 +90,10 @@ function AnimatedRoute() {
           <Route
             path="/concern/j&j"
             element={<JEnterprisePage />}
+          />
+          <Route
+            path="/productDetails"
+            element={<ProductDetailsPage />}
           />
 
          {/* <Route path="**" element={<NotFound />} /> */} 

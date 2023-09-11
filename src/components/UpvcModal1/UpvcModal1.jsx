@@ -26,11 +26,11 @@ const UpvcModal1 = (props) => {
   return (
     <>
 
-     {values.map((v, idx) => (
-    <Button  key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
-      Details
-    {typeof v === 'string' && `below ${v.split('-')[0]}`}
-    </Button>
+      {values.map((v, idx) => (
+        <Button key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
+          Details
+          {typeof v === 'string' && `below ${v.split('-')[0]}`}
+        </Button>
       ))}
 
       <Modal className='upvcModal' size="lg" show={show} lgShow={lgShow} onHide={() => setShow(false)}>

@@ -182,7 +182,7 @@ class TopNavigation extends Component {
                     >
                       Advertisement
                     </NavLink>
-                    <NavLink className="navDropdown" to="/portfolio">
+                    <NavLink className="navDropdown" to="/products">
                       Product Gallery
                     </NavLink>
                   </div>

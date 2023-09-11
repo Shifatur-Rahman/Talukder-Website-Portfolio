@@ -15,6 +15,7 @@ import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
 import {motion, AnimatePresence} from 'framer-motion'
 import ProductDetails from "../ProductDetails/ProductDetails";
+import { Link } from 'react-router-dom';
 // import { animateScroll } from "react-scroll";
 
 const Portfolio = () => {
@@ -256,7 +257,10 @@ const Portfolio = () => {
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
-                                <Button className="me-2 mb-2 upvcBtn">Click</Button>
+                               
+                               <Link to="/productDetails">
+                               <Button className="me-2 mb-2 upvcBtn">Click</Button>
+                               </Link>
                               </div>
                             )}
 
