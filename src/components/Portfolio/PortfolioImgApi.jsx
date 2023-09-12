@@ -2885,7 +2885,6 @@ const portfolioItems = [
     code: "17031",
     color: "red",
   },
-
   {
     id: 129,
     category: "PLASTIC HOUSEHOLD",
@@ -2903,7 +2902,6 @@ const portfolioItems = [
     code: "17003/17004",
     color: "#80ff80/#006600",
   },
-
   {
     id: 164,
     category: "PLASTIC HOUSEHOLD",
@@ -2923,7 +2921,6 @@ const portfolioItems = [
     color: "RED/BLUE",
     size: "700ml",
   },
-
   {
     id: 166,
     category: "PLASTIC HOUSEHOLD",
@@ -2933,7 +2930,6 @@ const portfolioItems = [
     code: "12165/12168/12171/12175/12180/12185/12188/12191/12195/12166/12169/12172/12176/12181/12186/12189/12192/12196",
     size: "3,5,8,10,15,20,25,30,35 Ltr.",
   },
-
   {
     id: 167,
     category: "PLASTIC HOUSEHOLD",

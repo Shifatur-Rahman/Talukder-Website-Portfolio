@@ -15,7 +15,8 @@ import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
 import {motion, AnimatePresence} from 'framer-motion'
 import ProductDetails from "../ProductDetails/ProductDetails";
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import HomePage from "../../pages/HomePage";
 // import { animateScroll } from "react-scroll";
 
 const Portfolio = () => {
@@ -26,7 +27,7 @@ const Portfolio = () => {
   const [selectedImage, setSelectedImage] = React.useState("");
   const [loading, setLoading] = useState(true);
   const [pages, setPages] = useState(1);
-  const [productData, setProductData] = useState("");
+
 
   // useEffect(() => {
   //   animateScroll.scrollToTop({
@@ -74,9 +75,9 @@ const Portfolio = () => {
     }
   }
 
-  let sendData = (pId) => {
-    console.log(pId);
-  }
+  // let navigateProductPage = () => {
+  //   Navigate('/portfolio');
+  // }
 
   return (
     <>
@@ -216,7 +217,7 @@ const Portfolio = () => {
                     <motion.div
                       animate={{ opacity: 1 }}
                       initial={{ opacity: 0 }}
-                      exit={{ opacity: 0 }}
+                      exit={{ opacity: 0 }} 
                       transition={{ duration: 2 }}
                       layout
                       className="portfolio-grid">
@@ -262,7 +263,7 @@ const Portfolio = () => {
                               <div style={{ marginLeft: "10px" }}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
                                 {/* <Link to="/productDetails"> */}
-                                <Link to={`/productDetails`}>
+                                <Link to="/productDetails">
                                   <Button className="me-2 mb-2 upvcBtn"> Click </Button>
                                 </Link>
                               </div>
@@ -388,7 +389,7 @@ const Portfolio = () => {
                                         {/* Pagination */}           
 
             <Row>
-              
+
             <div style={{marginBottom:"60px"}} className='pagination'>
               <span onClick={() => { handlePage(pages - 1); window.scrollTo(0, 0); }}
                 className={pages > 1 ? "" : "Pagination_disable"}>
@@ -414,6 +415,7 @@ const Portfolio = () => {
                 <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
               </span>
             </div>
+
             </Row>
                     
         </Container>
