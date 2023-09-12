@@ -5,10 +5,10 @@ import portfolioItems from "../Portfolio/PortfolioImgApi";
 
 const ProductDetails = (props) => {
   
-  // const { title, category, code, size, thickness, img } = props;
 
   return (
     <>
+
 
         
 

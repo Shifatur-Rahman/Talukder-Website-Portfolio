@@ -257,10 +257,10 @@ const Portfolio = () => {
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
-                                <ProductDetails title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
-                                <Link to="/productDetails">
+                                {/* <ProductDetails title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
+                                {/* <Link to="/productDetails">
                                   <Button className="me-2 mb-2 upvcBtn">Click</Button>
-                                </Link>
+                                </Link> */}
                               </div>
                             )}
 
@@ -377,12 +377,14 @@ const Portfolio = () => {
                     }
                   />
                 </DialogContent>
-              </Dialog>                     
+              </Dialog>       
+
           </Row>
 
-                                        {/* Pagination */}
+                                        {/* Pagination */}           
 
             <Row>
+              
             <div style={{marginBottom:"60px"}} className='pagination'>
               <span onClick={() => { handlePage(pages - 1); window.scrollTo(0, 0); }}
                 className={pages > 1 ? "" : "Pagination_disable"}>
@@ -409,7 +411,7 @@ const Portfolio = () => {
               </span>
             </div>
             </Row>
-
+                    
         </Container>
         </div>
 
