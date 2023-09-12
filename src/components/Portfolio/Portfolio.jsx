@@ -15,7 +15,7 @@ import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
 import {motion, AnimatePresence} from 'framer-motion'
 import ProductDetails from "../ProductDetails/ProductDetails";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 // import { animateScroll } from "react-scroll";
 
 const Portfolio = () => {
@@ -26,6 +26,7 @@ const Portfolio = () => {
   const [selectedImage, setSelectedImage] = React.useState("");
   const [loading, setLoading] = useState(true);
   const [pages, setPages] = useState(1);
+  const [productData, setProductData] = useState("");
 
   // useEffect(() => {
   //   animateScroll.scrollToTop({
@@ -71,6 +72,10 @@ const Portfolio = () => {
     if (selectedPage >= 1 && selectedPage <= Math.ceil(portfolioItems.length / 30)) {
       setPages(selectedPage);
     }
+  }
+
+  let sendData = (pId) => {
+    console.log(pId);
   }
 
   return (
@@ -214,7 +219,7 @@ const Portfolio = () => {
                       exit={{ opacity: 0 }}
                       transition={{ duration: 2 }}
                       layout
-                    className="portfolio-grid">
+                      className="portfolio-grid">
                     {portfolioItems
                       .filter((item) => {
                         if (category === "all") {
@@ -256,8 +261,9 @@ const Portfolio = () => {
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
-                                <Link to={`/productDetails/${item.id}`}>
-                                  <Button className="me-2 mb-2 upvcBtn">Click</Button>
+                                {/* <Link to="/productDetails"> */}
+                                <Link to={`/productDetails`}>
+                                  <Button className="me-2 mb-2 upvcBtn"> Click </Button>
                                 </Link>
                               </div>
                             )}
@@ -338,7 +344,7 @@ const Portfolio = () => {
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size2} </span>
                               </p>
-                            )}
+                            )}    
 
                             {item.product && (
                               <p style={{ marginLeft: "10px" }} className="itemTitle">
@@ -348,6 +354,7 @@ const Portfolio = () => {
                                 </span>
                               </p>
                             )}
+
                           </div>
                         </motion.div>
                       ))}

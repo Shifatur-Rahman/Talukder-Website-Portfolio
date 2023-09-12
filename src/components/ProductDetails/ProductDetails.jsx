@@ -2,34 +2,19 @@ import React, {useState, useEffect} from 'react'
 import "./ProductDetails.css"
 import {Button, Table, Modal} from 'react-bootstrap';
 import portfolioItems from "../Portfolio/PortfolioImgApi";
+import { useParams } from 'react-router-dom';
+import TopNavigation from '../TopNavigation/TopNavigation';
 
-const ProductDetails = (props) => {
+const ProductDetails = () => {
   
-
   return (
     <>
 
+      <TopNavigation />
+      {/* <p>Product ID: {id}</p> */}
 
-        
+      <h1>Hello world</h1>
 
-      {/* 
-
-      <div className='productDetails'>
-        <img src={img} />
-      </div>
-
-      <div className='productDetails'>
-        <img src={img} />
-      </div>
-
-      <div className='productDetails'>
-        <img src={img} />
-      </div> 
-      
-      */}
-    
-    
-    
     </>
   )
 }
