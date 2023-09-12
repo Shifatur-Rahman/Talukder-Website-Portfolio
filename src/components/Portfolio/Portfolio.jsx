@@ -233,7 +233,6 @@ const Portfolio = () => {
                         layout className="portfolio-item"
                           //  style={{ height: "360px" }}
                           key={item.id}>
-                          {/* <AnimatePresence> */}
                           <img
                             className="portfolio-item-img"
                             src={`${item.imgSrc}`}
@@ -257,10 +256,9 @@ const Portfolio = () => {
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
-                                {/* <ProductDetails title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
-                                {/* <Link to="/productDetails">
+                                <Link to={`/productDetails/${item.id}`}>
                                   <Button className="me-2 mb-2 upvcBtn">Click</Button>
-                                </Link> */}
+                                </Link>
                               </div>
                             )}
 
@@ -351,7 +349,6 @@ const Portfolio = () => {
                               </p>
                             )}
                           </div>
-                          {/* </AnimatePresence> */}
                         </motion.div>
                       ))}
                   </motion.div>
