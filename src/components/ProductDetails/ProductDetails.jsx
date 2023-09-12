@@ -9,12 +9,9 @@ const ProductDetails = () => {
   
   return (
     <>
-
-      <TopNavigation />
-      {/* <p>Product ID: {id}</p> */}
-
+    
       <h1>Hello world</h1>
-
+    
     </>
   )
 }

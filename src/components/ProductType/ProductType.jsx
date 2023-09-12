@@ -32,7 +32,6 @@ const ProductType = () => {
 
   return (
     <>
-    
           <div  className="container-xxl py-5">
               <div className="container">
                   <div className="text-center mx-auto mb-5 wow fadeInUp" style={{ maxWidth: " 600px" }}>
@@ -41,7 +40,6 @@ const ProductType = () => {
                   </div>
 
                   <div data-aos="fade-up" className="row g-4">
-
                       <div className="col-lg-3 col-sm-6 wow fadeInUp">
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3" >
                               <div className="rounded p-4">
@@ -77,7 +75,7 @@ const ProductType = () => {
                               </div>
                           </a>
                       </div>
-
+                    
                       <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
@@ -89,7 +87,7 @@ const ProductType = () => {
                               </div>
                           </a>
                       </div>
-
+                    
                       <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
@@ -101,7 +99,7 @@ const ProductType = () => {
                               </div>
                           </a>
                       </div>
-
+                    
                       <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3" >
                               <div className="rounded p-4">
@@ -113,7 +111,7 @@ const ProductType = () => {
                               </div>
                           </a>
                       </div>
-
+                    
                       <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
@@ -125,7 +123,7 @@ const ProductType = () => {
                               </div>
                           </a>
                       </div>
-
+                    
                       <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
                               <div className="rounded p-4">
