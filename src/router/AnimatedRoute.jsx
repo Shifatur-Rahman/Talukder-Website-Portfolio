@@ -92,7 +92,7 @@ function AnimatedRoute() {
             element={<JEnterprisePage />}
           />
           <Route
-            path="{`/productDetails`}"
+            path="/product/productDetailsPage"
             element={<ProductDetailsPage />}
           />
 

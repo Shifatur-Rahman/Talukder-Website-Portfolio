@@ -75,10 +75,6 @@ const Portfolio = () => {
     }
   }
 
-  // let navigateProductPage = () => {
-  //   Navigate('/portfolio');
-  // }
-
   return (
     <>
       {loading ? (
@@ -263,7 +259,7 @@ const Portfolio = () => {
                               <div style={{ marginLeft: "10px" }}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
                                 {/* <Link to="/productDetails"> */}
-                                <Link to="/productDetails">
+                                <Link to={`/product/productDetailsPage`}>
                                   <Button className="me-2 mb-2 upvcBtn"> Click </Button>
                                 </Link>
                               </div>
@@ -345,7 +341,7 @@ const Portfolio = () => {
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size2} </span>
                               </p>
-                            )}    
+                            )}
 
                             {item.product && (
                               <p style={{ marginLeft: "10px" }} className="itemTitle">
@@ -388,35 +384,32 @@ const Portfolio = () => {
 
                                         {/* Pagination */}           
 
-            <Row>
+              <Row>
 
-            <div style={{marginBottom:"60px"}} className='pagination'>
-              <span onClick={() => { handlePage(pages - 1); window.scrollTo(0, 0); }}
-                className={pages > 1 ? "" : "Pagination_disable"}>
-                <BsFillCaretLeftSquareFill style={{ color: "#1dc6ad" }} />
-              </span>
+                <div style={{ marginBottom: "60px" }} className='pagination'>
+                  <span onClick={() => { handlePage(pages - 1); window.scrollTo(0, 0); }}
+                    className={pages > 1 ? "" : "Pagination_disable"}>
+                    <BsFillCaretLeftSquareFill style={{ color: "#1dc6ad" }} />
+                  </span>
 
-              {
-               [...Array(Math.ceil(
-                category === "all" 
-                ? portfolioItems.length / 30 
-                : portfolioItems.filter(item => item.category === category).length / 30
-              ))].map((_, i) => {
-                  return (
-                    <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1); window.scrollTo(0, 0); }}> {i + 1}</span>
-                  )
-                })
-              }
+                  {
+                    [...Array(Math.ceil(
+                      category === "all"
+                        ? portfolioItems.length / 30
+                        : portfolioItems.filter(item => item.category === category).length / 30
+                    ))].map((_, i) => {
+                      return (
+                        <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1); window.scrollTo(0, 0); }}> {i + 1}</span>
+                      )
+                    })
+                  }
+                  <span onClick={() => { handlePage(pages + 1); window.scrollTo(0, 0); }}
+                    className={pages < Math.ceil(portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}>
+                    <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
+                  </span>
+                </div>
 
-              <span onClick={() => { handlePage(pages + 1); window.scrollTo(0, 0); }}
-                //  className={pages < portfolioItems.length / 30 ? "" : "Pagination_disable"}>
-                className={pages < Math.ceil(portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}>
-                {/* className={pages < (portfolioItems.length / 30) || (portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}> */}
-                <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
-              </span>
-            </div>
-
-            </Row>
+              </Row>
                     
         </Container>
         </div>
