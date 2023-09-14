@@ -75,10 +75,6 @@ const Portfolio = () => {
     }
   }
 
-  let handleDetailsData = (x) => {
-    console.log(x);
-  }
-
   return (
     <>
       {loading ? (
@@ -262,8 +258,8 @@ const Portfolio = () => {
                               <div style={{ marginLeft: "10px" }}>
                                 <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} />
                                 {/* <Link to="/productDetails"> */}
-                                <Link to={`/product/productDetailsPage`}>
-                                  <Button onClick={handleDetailsData(item.id)} className="me-2 mb-2 upvcBtn"> Click </Button>
+                                <Link to={`/product/productDetailsPage/${item.id}`}>
+                                  <Button className="me-2 mb-2 upvcBtn"> Click </Button>
                                 </Link>
                               </div>
                             )}
