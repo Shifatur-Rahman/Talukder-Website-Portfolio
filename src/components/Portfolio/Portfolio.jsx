@@ -281,7 +281,7 @@ const Portfolio = () => {
                                       {item.code.split("/").map((code, index) => (
                                         <td
                                           style={{
-                                            fontSize: "8px",
+                                            fontSize: "8px", 
                                             textAlign: "center",
                                             margin: "0",
                                             padding: "5px 0 0 0",
