@@ -7,7 +7,7 @@ import totalProduct from "../Portfolio/PortfolioImgApi.jsx";
 
 const ProductDetails = () => {
 
-  let { productId } = useParams();
+  let { id } = useParams();
   // console.log(id);
   
   return (
@@ -18,22 +18,30 @@ const ProductDetails = () => {
 
          {
           totalProduct.map((singleItem)=>{
-             console.log(singleItem.title);
-            if(singleItem.id === productId){
+            //  console.log(singleItem.id);
+            //  console.log(id);
+
+            if(singleItem.id == id){
               return(
                 <div key={singleItem.id}>
-
                   <p>{singleItem.title}</p>
+                 <img src={`${singleItem.imgSrc}`} alt="single product" />
 
                 </div>
+
+                // <p>Hello</p>
+
               )
-            } else{
-              return (
-                <div key={singleItem.id}>
-                  <p>This is not the item you're looking for.</p>
-                </div>
-              );
-            }
+            } 
+            
+            // else{
+            //   return (
+            //     <div key={singleItem.id}>
+            //       <p>This is not the item you're looking for.</p>
+            //     </div>
+            //   );
+            // }
+
           })
          }
 
