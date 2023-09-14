@@ -4,17 +4,17 @@ import portfolioItems from "../Portfolio/PortfolioImgApi";
 import TopNavigation from '../TopNavigation/TopNavigation';
 import { useParams } from 'react-router-dom';
 import totalProduct from "../Portfolio/PortfolioImgApi.jsx";
+import tgLogo from "../../asset/images/Logo/talukderLogo.png"
 
 const ProductDetails = () => {
 
   let { id } = useParams();
   // console.log(id);
-  
+
   return (
     <>
     
-       <div style={{ marginTop: "5rem"}}>
-
+       <div style={{ marginTop: "5rem", backgroundColor: "#bfbfbf"}}>
          {
           totalProduct.map((singleItem)=>{
             //  console.log(singleItem.id);
@@ -23,13 +23,13 @@ const ProductDetails = () => {
             if(singleItem.id == id){
               return(
 
-                <div className='novel'> 
+                <div className='grid-container'> 
 
-                  <div key={singleItem.id} className="three" style={{backgroundColor:"red"}}>
+                  <div key={singleItem.id} className="grid-item" style={{backgroundColor:"#95a5a6"}}>
                     <img src={`${singleItem.imgSrc}`} alt="single product" />
                   </div>
-
-                  <div key={singleItem.id} className="three">
+                  <div key={singleItem.id} className="grid-item">
+                  <img className='tgLogo' src={tgLogo} alt="Logo" />
                     <p>{singleItem.id}</p>
                     <p>{singleItem.title}</p>
                   </div>
