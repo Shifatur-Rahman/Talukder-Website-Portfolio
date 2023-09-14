@@ -22,6 +22,7 @@ const ProductDetails = () => {
 
             if(singleItem.id == id){
               return(
+
                 <div className='novel'> 
 
                   <div key={singleItem.id} className="three" style={{backgroundColor:"red"}}>
@@ -37,14 +38,6 @@ const ProductDetails = () => {
 
               )
             } 
-            
-            // else{
-            //   return (
-            //     <div key={singleItem.id}>
-            //       <p>This is not the item you're looking for.</p>
-            //     </div>
-            //   );
-            // }
 
           })
          }
