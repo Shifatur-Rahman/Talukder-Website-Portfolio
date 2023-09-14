@@ -13,8 +13,7 @@ const ProductDetails = () => {
   return (
     <>
     
-      {/* <div style={{ marginTop: "5rem"}}>
-        <h1> Hello world </h1> */}
+       <div style={{ marginTop: "5rem"}}>
 
          {
           totalProduct.map((singleItem)=>{
@@ -23,13 +22,18 @@ const ProductDetails = () => {
 
             if(singleItem.id == id){
               return(
-                <div key={singleItem.id}>
-                  <p>{singleItem.title}</p>
-                 <img src={`${singleItem.imgSrc}`} alt="single product" />
+                <div className='novel'> 
+
+                  <div key={singleItem.id} className="three" style={{backgroundColor:"red"}}>
+                    <img src={`${singleItem.imgSrc}`} alt="single product" />
+                  </div>
+
+                  <div key={singleItem.id} className="three">
+                    <p>{singleItem.id}</p>
+                    <p>{singleItem.title}</p>
+                  </div>
 
                 </div>
-
-                // <p>Hello</p>
 
               )
             } 
@@ -44,10 +48,7 @@ const ProductDetails = () => {
 
           })
          }
-
-   {/* <img src={`${singleItem.imgSrc}`} alt="single product" /> */}
-
-      {/* </div> */}
+      </div>
     
     </>
   )
