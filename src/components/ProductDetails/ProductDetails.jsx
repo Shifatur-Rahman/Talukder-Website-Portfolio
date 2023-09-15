@@ -9,7 +9,6 @@ import tgLogo from "../../asset/images/Logo/talukderLogo.png"
 const ProductDetails = () => {
 
   let { id } = useParams();
-  // console.log(id);
 
   return (
     <>
@@ -17,25 +16,18 @@ const ProductDetails = () => {
        <div style={{ marginTop: "5rem", backgroundColor: "#bfbfbf"}}>
          {
           totalProduct.map((singleItem)=>{
-            //  console.log(singleItem.id);
-            //  console.log(id);
-
             if(singleItem.id == id){
               return(
-
                 <div className='grid-container'> 
-
-                  <div key={singleItem.id} className="grid-item" style={{backgroundColor:"#95a5a6"}}>
+                  <div key={singleItem.id} className="grid-item-one">
                     <img src={`${singleItem.imgSrc}`} alt="single product" />
                   </div>
-                  <div key={singleItem.id} className="grid-item">
+                  <div key={singleItem.id} className="grid-item-two" style={{backgroundColor: "red"}}>
                   <img className='tgLogo' src={tgLogo} alt="Logo" />
                     <p>{singleItem.id}</p>
                     <p>{singleItem.title}</p>
                   </div>
-
                 </div>
-
               )
             } 
 
