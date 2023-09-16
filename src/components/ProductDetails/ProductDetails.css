@@ -21,7 +21,6 @@
 
 /*     new css     */
 
-
  html:focus-within {
   scroll-behavior: smooth;
 }
