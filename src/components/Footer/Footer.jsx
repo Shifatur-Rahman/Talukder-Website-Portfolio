@@ -320,7 +320,7 @@ const Footer = () => {
         <a className="copyrightText" href="#">
           &copy; Copyright{" "}
           <strong style={{ color: "#1dc6ad" }}> Talukder </strong> Group Of
-          Industries Limited {new Date().getFullYear()}
+          Industries {new Date().getFullYear()}
         </a>
       </Container>
       </div>

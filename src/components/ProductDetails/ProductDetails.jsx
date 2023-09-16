@@ -22,7 +22,7 @@ const ProductDetails = () => {
                   <div key={singleItem.id} className="grid-item-one">
                     <img src={`${singleItem.imgSrc}`} alt="single product" />
                   </div>
-                  <div key={singleItem.id} className="grid-item-two" style={{backgroundColor: "red"}}>
+                  <div key={singleItem.id} className="grid-item-two" style={{backgroundColor: ""}}>
                   <img className='tgLogo' src={tgLogo} alt="Logo" />
                     <p>{singleItem.id}</p>
                     <p>{singleItem.title}</p>
