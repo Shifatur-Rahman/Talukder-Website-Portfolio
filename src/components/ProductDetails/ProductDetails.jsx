@@ -172,7 +172,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
             </div>
             <button
               onClick={handleAddToCart}
-              className="btn flex fw-700 fs-400"
+              className="btnCart flex fw-700 fs-400"
             >
               <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
                 <path
