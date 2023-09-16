@@ -20,17 +20,12 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
     setProductQuantity(0);
   };
 
-
-
-
-
-
   let { id } = useParams();
 
   return (
     <>
     
-       <div style={{ marginTop: "5rem", backgroundColor: "#bfbfbf"}}>
+       <div style={{ backgroundColor: "#bfbfbf"}}>
          {
           totalProduct.map((singleItem)=>{
             if(singleItem.id == id){
@@ -46,9 +41,9 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                 //   </div>
                 // </div>
 
-<main className="product">
+     <main style={{marginTop: "5rem"}} className="product">
       <div className="container-md grid product-container">
-        <div className="flex product-image">
+        <div style={{marginTop: "3rem", marginBottom: "5rem"  }} className="flex product-image">
           <img
             onClick={() => window.innerWidth > 768 && setLightbox(true)}
             src={`${singleItem.imgSrc}`}
@@ -134,12 +129,12 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
           )}
         </div>
         <div className="product-description flow">
-          <p className="text-uppercase fw-700 fs-100 letter-spacing-1 Orange">
-            Sneaker Company
-          </p>
-          <h1 className="fw-700 line-height-300 fs-800 blue">
-            Fall Limited Edition Sneakers
-          </h1>
+                      <p className="text-uppercase fw-700 fs-100 letter-spacing-1 Orange">
+                        Talukder Group of Industries
+                      </p>
+                      <h1 className="fw-700 line-height-300 fs-800 blue">
+                        {singleItem.title}
+                      </h1>
           <p className="fw-400 line-height-500 fs-400 darkGrayishBlue">
             These low-profile sneakers are your perfect casual wear companion.
             Featuring a durable rubber outer sole, they’ll withstand everything
@@ -147,12 +142,12 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
           </p>
           <div className="product-price">
             <div className="discounted-price flex">
-              <span className="fw-700 blue fs-700">$125.00</span>
+              <span className="fw-700 blue fs-700">Tk 7,500.00</span>
               <span className="offer fw-700 fs-400 Orange">50%</span>
             </div>
             <div className="original-price">
               <span className="fw-700 fs-400 line-height-500 text-line-through GrayishBlue">
-                $250.00
+                7,500
               </span>
             </div>
           </div>
