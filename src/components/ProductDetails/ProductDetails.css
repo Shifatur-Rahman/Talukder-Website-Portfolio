@@ -493,9 +493,7 @@ body {
 }
 .primary-header .icon-container .avatar:hover,
 .primary-header .icon-container .avatar:focus {
-  border: 2px solid #ff7d1a;
-} */
-@media (max-width: 48em) {
+  border@media (max-width: 48em) {
   .primary-header .navbar-container {
     gap: 1rem;
   }
@@ -559,7 +557,9 @@ body {
   .primary-header .icon-container .avatar {
     width: 24px;
   }
-}
+}: 2px solid #ff7d1a;
+} */
+/*  */
 .cart {
   display: flex;
   flex-direction: column;
