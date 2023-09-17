@@ -355,23 +355,18 @@ body {
 } */
 
 .productDescriptionImg img{
-  /* height: 350px; */
-  /* padding: 20px; */
+  height: 350px; 
+  padding: 20px;
   padding: 0 20px;
   width: 90%;
   margin: auto;
   background-color: #fff;
 }
 
-
 #imageMagnifier{
   background-color: #fff;
 }
 
-.small-image-class{
-  background-color: #fff;
-}
-
 #imageMagnifier img{
-  height: 250px;
+  height: 100%;
 }

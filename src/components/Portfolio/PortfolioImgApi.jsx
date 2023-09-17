@@ -448,7 +448,7 @@ const portfolioItems = [
     code: "TFMTO-001",
     size: "L2400 X W1900 X H750mm",
     imgSrc: tbl1,
-    // button: "Details"
+     button: "Details"
   },
   {
     id: 2,
@@ -457,6 +457,7 @@ const portfolioItems = [
     code: "TFMTO-002",
     size: "L2400 X W1950 X H750mm",
     imgSrc: tbl2,
+    button: "Details"
   },
   {
     id: 3,
@@ -465,6 +466,7 @@ const portfolioItems = [
     code: "TFMTO-003",
     size: "L2100 X W1800 X H750mm",
     imgSrc: tbl3,
+    button: "Details"
   },
   {
     id: 4,
@@ -473,6 +475,7 @@ const portfolioItems = [
     code: "TFMTO-004",
     size: "L2100 X W1800 X H750mm",
     imgSrc: tbl4,
+    button: "Details"
   },
   {
     id: 5,
