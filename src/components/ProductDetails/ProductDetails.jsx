@@ -19,6 +19,10 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
     setProductQuantity(0);
   };
 
+  const handleProductHover = () =>{
+      
+  }
+
   let { id } = useParams();
 
   return (
@@ -45,6 +49,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                     <div style={{ marginTop: "3rem", marginBottom: "5rem" }} className="flex product-image">
                       <img className='windowImg'
                         onClick={() => window.innerWidth > 768 && setLightbox(true)}
+                        onMouseMove={()=>handleProductHover()}
                         src={`${singleItem.imgSrc}`}
                         alt=""
                       />
