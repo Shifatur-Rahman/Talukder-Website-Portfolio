@@ -270,7 +270,10 @@ body {
   }
 }
 
-@media (max-width: 48em) {
+          
+
+/* @media (max-width: 48em) { */
+  @media (max-width: 35em) {
   .product {
     margin-top: 0;
   }
@@ -353,9 +356,10 @@ body {
   transform: translateY(-45%);
 }
 
-
 .windowImg{
-  height: 300px;
+  height: 350px;
   padding: 20px;
   padding: 0 20px;
+  width: 90%;
+  margin: auto;
 }
