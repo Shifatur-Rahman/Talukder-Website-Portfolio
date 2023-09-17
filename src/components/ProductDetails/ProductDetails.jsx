@@ -61,11 +61,14 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             height: 800,
                             className: 'small'
                           },
-                          enlargedImagePosition: 'over',
+                          enlargedImageContainerDimensions:{
+                             width: '120%',
+                             height: '100%',
+                             backgroundColor: 'white'
+                          },
+                       //   enlargedImagePosition: 'over', 
                           lensStyle: {backgroundColor: 'rgba(0,0,0,.4)'}
                         }} />
-
-                        
 
                       {/* <img className='productDescriptionImg'
                         onClick={() => window.innerWidth > 768 && setLightbox(true)} 
