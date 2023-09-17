@@ -20,10 +20,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
     setProductQuantity(0);
   };
 
-  const handleProductHover = () =>{
-      
-  }
-
   let { id } = useParams();
 
   return (
@@ -49,26 +45,29 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                   <div className="container-md grid product-container">
                     <div style={{ marginTop: "3rem", marginBottom: "5rem" }} className="flex product-image">
                       <div id="imageMagnifier">
-
                         <ReactImageMagnify {...{
                           smallImage: {
                             alt: 'TGI Image',
                             isFluidWidth: true,
                             src: `${singleItem.imgSrc}`,
-                            className: 'small-image-class'
+                            className: 'large',
+                            // width: 380,
+                            // height: 480,
                           },
                           largeImage: {
                             src: `${singleItem.imgSrc}`,
-                            width: 1129,
-                            height: 750,
-                            className: 'small-image-class'
-                          }
+                            width: 800,
+                            height: 800,
+                            className: 'small'
+                          },
+                          // enlargedImagePosition: 'over',
+                          lensStyle: {backgroundColor: 'rgba(0,0,0,.4)'}
                         }} />
 
                       {/* <img className='productDescriptionImg'
-                        onClick={() => window.innerWidth > 768 && setLightbox(true)}
-                        src={`${singleItem.imgSrc}`}
-                        alt=""
+                        onClick={() => window.innerWidth > 768 && setLightbox(true)} 
+                        src={`${singleItem.imgSrc}`} 
+                        alt="" 
                       /> */}
 
                       </div>
