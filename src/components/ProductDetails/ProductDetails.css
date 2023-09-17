@@ -354,11 +354,27 @@ body {
   transform: translateY(-45%);
 } */
 
-.windowImg{
-  height: 350px;
-  padding: 20px;
+.productDescriptionImg img{
+  /* height: 350px; */
+  /* padding: 20px; */
   padding: 0 20px;
   width: 90%;
   margin: auto;
   background-color: #fff;
 }
+
+.productDescriptionImg{
+  /* height: 350px; */
+}
+
+#imageMagnifier{
+  background-color: #fff;
+}
+
+.small-image-class{
+  background-color: #fff;
+}
+
+/* #imageMagnifier{
+  height: 250px;
+} */

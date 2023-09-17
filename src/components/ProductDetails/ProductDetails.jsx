@@ -8,6 +8,7 @@ import tgLogo from "../../asset/images/Logo/talukderLogo.png"
 import plusIcon from '../../asset/images/icon-plus.svg';
 import minusIcon from '../../asset/images/icon-minus.svg';
 import { Lightbox } from './Lightbox';
+import ReactImageMagnify from 'react-image-magnify';
 
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity,}) => {
 
@@ -47,12 +48,30 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                 <main style={{ marginTop: "5rem" }} className="product">
                   <div className="container-md grid product-container">
                     <div style={{ marginTop: "3rem", marginBottom: "5rem" }} className="flex product-image">
-                      <img className='windowImg'
+                      <div id="imageMagnifier">
+
+                        <ReactImageMagnify {...{
+                          smallImage: {
+                            alt: 'TGI Image',
+                            isFluidWidth: true,
+                            src: `${singleItem.imgSrc}`,
+                            className: 'small-image-class'
+                          },
+                          largeImage: {
+                            src: `${singleItem.imgSrc}`,
+                            width: 1129,
+                            height: 750,
+                            className: 'small-image-class'
+                          }
+                        }} />
+
+                      {/* <img className='productDescriptionImg'
                         onClick={() => window.innerWidth > 768 && setLightbox(true)}
-                        onMouseMove={()=>handleProductHover()}
                         src={`${singleItem.imgSrc}`}
                         alt=""
-                      />
+                      /> */}
+
+                      </div>
                       <div className="thumbnail-wrapper flex">
                         <div className="thumbnail">
                           <img
