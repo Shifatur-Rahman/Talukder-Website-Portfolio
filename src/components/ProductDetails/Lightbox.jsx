@@ -104,4 +104,5 @@ export const Lightbox = ({ productData, setLightbox }) => {
       </div>
     </div>
   );
+  
 };

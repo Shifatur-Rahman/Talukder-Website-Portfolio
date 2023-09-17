@@ -43,7 +43,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                 <main style={{ marginTop: "5rem" }} className="product">
                   <div className="container-md grid product-container">
                     <div style={{ marginTop: "3rem", marginBottom: "5rem" }} className="flex product-image">
-                      <img
+                      <img className='windowImg'
                         onClick={() => window.innerWidth > 768 && setLightbox(true)}
                         src={`${singleItem.imgSrc}`}
                         alt=""

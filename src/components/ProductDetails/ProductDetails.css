@@ -27,6 +27,9 @@
 img,
 picture {
   max-width: 100%;
+  background-color: #fff;
+  /* height: 300px; */
+  /* padding: 20px; */
 }
 
 input,
@@ -78,10 +81,12 @@ body {
 .thumbnail {
   border-radius: 0.5rem;
   background-color: #fff;
+  /* height: 200px; */
 }
 .thumbnail > img {
   cursor: pointer;
   width: 88px;
+  /* background-color: #fff; */
 }
 .thumbnail > img > img:hover,
 .thumbnail > img > img:focus {
@@ -346,4 +351,11 @@ body {
   top: 45%;
   right: -5%;
   transform: translateY(-45%);
+}
+
+
+.windowImg{
+  height: 300px;
+  padding: 20px;
+  padding: 0 20px;
 }
