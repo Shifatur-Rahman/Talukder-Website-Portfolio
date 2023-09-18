@@ -169,10 +169,10 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                       <h1 className="fw-700 line-height-300 fs-800 blue">
                         {singleItem.title}
                       </h1>
-                      <p className="fw-400 line-height-500 fs-400 darkGrayishBlue">
-                        These low-profile sneakers are your perfect casual wear companion.
-                        Featuring a durable rubber outer sole, they’ll withstand everything
-                        the weather can offer.
+                      <p style={{textAlign: 'justify'}} className="fw-400 fs-400 darkGrayishBlue">
+                      The product details page for Talukder Group can provide comprehensive information about their products,
+                      including specifications, features, and any other relevant details. 
+                      Here's a sample description of what the product details page might include:
                       </p>
                       <div className="product-price">
                         <div className="discounted-price flex">

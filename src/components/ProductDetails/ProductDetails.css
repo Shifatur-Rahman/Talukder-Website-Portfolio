@@ -61,7 +61,7 @@ body {
   opacity: 0.5;
 }
 
-.lightbox-control {
+/* .lightbox-control {
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -73,17 +73,15 @@ body {
 .lightbox-control:hover svg path,
 .lightbox-control:focus svg path {
   stroke: #ff7d1a;
-}
+} */
 
 .thumbnail {
   border-radius: 0.5rem;
   background-color: #fff;
-  /* height: 200px; */
 }
 .thumbnail > img {
   cursor: pointer;
   width: 88px;
-  /* background-color: #fff; */
 }
 .thumbnail > img > img:hover,
 .thumbnail > img > img:focus {
@@ -198,7 +196,7 @@ body {
 }
 .product .product-container .product-description {
   padding-block: 3.875rem;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 .product .product-container .product-description .discounted-price {
   align-items: center;
@@ -370,7 +368,6 @@ body {
 #imageMagnifier img{
   height: 100%;
 }
-
 
 /* Tg Logo */
 
