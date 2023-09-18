@@ -30,6 +30,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
           totalProduct.map((singleItem)=>{
             if(singleItem.id == id){
               return(
+
                 // <div className='grid-container'> 
                 //   <div key={singleItem.id} className="grid-item-one">
                 //     <img src={`${singleItem.imgSrc}`} alt="single product" />
@@ -62,11 +63,11 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             className: 'small'
                           },
                           enlargedImageContainerDimensions:{
-                             width: '120%',
+                             width: '100%',
                              height: '100%',
                              backgroundColor: 'white'
                           },
-                       //   enlargedImagePosition: 'over', 
+                         // enlargedImagePosition: 'over', 
                           lensStyle: {backgroundColor: 'rgba(0,0,0,.4)'}
                         }} />
 
@@ -77,6 +78,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                       /> */}
 
                       </div>
+
                       <div className="thumbnail-wrapper flex">
                         <div className="thumbnail">
                           <img
@@ -115,7 +117,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         </div>
                       </div>
 
-                      {window.innerWidth <= 768 && (
+                      {/* {window.innerWidth <= 768 && (
                         <>
                           <button
                             onClick={() =>
@@ -154,11 +156,15 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             </svg>
                           </button>
                         </>
-                      )}
+                      )} */}
+
+
+
                     </div>
                     <div className="product-description flow">
                       <p className="text-uppercase fw-700 fs-100 letter-spacing-1 Orange">
-                        Talukder Group of Industries
+                        {/* Talukder Group of Industries */}
+                        <img src={tgLogo} className='tgLogo' />
                       </p>
                       <h1 className="fw-700 line-height-300 fs-800 blue">
                         {singleItem.title}

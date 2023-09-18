@@ -370,3 +370,11 @@ body {
 #imageMagnifier img{
   height: 100%;
 }
+
+
+/* Tg Logo */
+
+.tgLogo{
+  width: 120px;
+  height: 75px;
+}
