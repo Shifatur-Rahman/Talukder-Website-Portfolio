@@ -204,6 +204,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             onClick={() => setProductQuantity((prevState) => prevState + 1)}
                           />
                         </div>
+                        
                         <button
                           onClick={handleAddToCart}
                           className="btnCart flex fw-700 fs-400"
