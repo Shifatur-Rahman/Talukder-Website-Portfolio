@@ -720,6 +720,7 @@ const portfolioItems = [
     code: "TFETO-031",
     size: "L1350 X W600 X H750mm",
     imgSrc: tbl31,
+    button: "Details"
   },
   {
     id: 32,
@@ -728,6 +729,7 @@ const portfolioItems = [
     code: "TFETO-032",
     size: "L1200 X W600 X H750mm",
     imgSrc: tbl32,
+    button: "Details"
   },
 
   {
@@ -737,6 +739,7 @@ const portfolioItems = [
     code: "TFDUO-033",
     size: "L400 X W460 X H500mm",
     imgSrc: tbl33,
+    button: "Details"
   },
 
   {
@@ -746,6 +749,7 @@ const portfolioItems = [
     code: "TFDUO-034",
     size: "L400 X W460 X H500mm",
     imgSrc: tbl34,
+    button: "Details"
   },
 
   {
@@ -755,6 +759,7 @@ const portfolioItems = [
     code: "TFDUO-035",
     size: "L450 X W480 X H650mm",
     imgSrc: tbl35,
+    button: "Details"
   },
 
   {
@@ -764,6 +769,7 @@ const portfolioItems = [
     code: "TFDUO-036",
     size: "L400 X W480 X H625mm",
     imgSrc: tbl36,
+    button: "Details"
   },
   {
     id: 37,
@@ -772,6 +778,7 @@ const portfolioItems = [
     code: "TFDUO-037",
     size: "L420 X W480 X H650mm",
     imgSrc: tbl37,
+    button: "Details"
   },
   {
     id: 38,
@@ -780,6 +787,7 @@ const portfolioItems = [
     code: "TFHDO-038",
     size: "L450 X W460 X H350mm",
     imgSrc: tbl38,
+    button: "Details"
   },
   {
     id: 39,
@@ -788,6 +796,7 @@ const portfolioItems = [
     code: "TFHDO-039",
     size: "L400 X W460 X H380mm",
     imgSrc: tbl39,
+    button: "Details"
   },
   {
     id: 40,
@@ -796,6 +805,7 @@ const portfolioItems = [
     code: "TFSRO-040",
     size: "L1200 X W400 X H650mm",
     imgSrc: tbl40,
+    button: "Details"
   },
 
   {
@@ -805,6 +815,7 @@ const portfolioItems = [
     code: "TFSRO-041",
     size: "L1000 X W400 X H750mm",
     imgSrc: tbl41,
+    button: "Details"
   },
 
   {
@@ -814,6 +825,7 @@ const portfolioItems = [
     code: "TFSRO-042",
     size: "L1000 X W400 X H750mm",
     imgSrc: tbl42,
+    button: "Details"
   },
 
   {
@@ -823,6 +835,7 @@ const portfolioItems = [
     code: "TFSRO-043",
     size: "L1050 X W400 X H680mm",
     imgSrc: tbl43,
+    button: "Details"
   },
 
   {
@@ -832,6 +845,7 @@ const portfolioItems = [
     code: "TFSRO-044",
     size: "L1000 X W400 X H680mm",
     imgSrc: tbl44,
+    button: "Details"
   },
 
   {
@@ -841,6 +855,7 @@ const portfolioItems = [
     code: "TFSRO-045",
     size: "L900 X W400 X H750mm",
     imgSrc: tbl45,
+    button: "Details"
   },
 
   {
@@ -850,6 +865,7 @@ const portfolioItems = [
     code: "TFSRO-046",
     size: "L900 X W400 X H650mm",
     imgSrc: tbl46,
+    button: "Details"
   },
 
   {
@@ -859,6 +875,7 @@ const portfolioItems = [
     code: "TFCTO-047",
     size: "L1500 X W600 X H750mm",
     imgSrc: tbl47,
+    button: "Details"
   },
   {
     id: 48,
@@ -867,6 +884,7 @@ const portfolioItems = [
     code: "TFCTO-048",
     size: "L1200 X W500 X H750mm",
     imgSrc: tbl48,
+    button: "Details"
   },
   {
     id: 49,
@@ -875,6 +893,7 @@ const portfolioItems = [
     code: "TFCTO-049",
     size: "L900 X W480 X H750mm",
     imgSrc: tbl49,
+    button: "Details"
   },
   {
     id: 50,
@@ -883,6 +902,7 @@ const portfolioItems = [
     code: "TFCTO-050",
     size: "L1050 X W480 X H750mm",
     imgSrc: tbl50,
+    button: "Details"
   },
   {
     id: 51,
@@ -891,6 +911,7 @@ const portfolioItems = [
     code: "TFCTO-051",
     size: "L1050 X W480 X H750mm",
     imgSrc: tbl51,
+    button: "Details"
   },
   {
     id: 52,
@@ -899,6 +920,7 @@ const portfolioItems = [
     code: "TFCTO-052",
     size: "L1000 X W480 X H750mm",
     imgSrc: tbl52,
+    button: "Details"
   },
 
   //  BAR STOOL
@@ -908,6 +930,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBST-053",
     imgSrc: tbl53,
+    button: "Details"
   },
   {
     id: 54,
