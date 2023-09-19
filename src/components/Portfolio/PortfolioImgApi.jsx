@@ -938,6 +938,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBST-054",
     imgSrc: tbl54,
+    
   },
   {
     id: 55,
