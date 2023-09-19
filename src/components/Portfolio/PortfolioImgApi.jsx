@@ -448,7 +448,7 @@ const portfolioItems = [
     code: "TFMTO-001",
     size: "L2400 X W1900 X H750mm",
     imgSrc: tbl1,
-     button: "Details"
+    button: "Details"
   },
   {
     id: 2,
@@ -484,6 +484,7 @@ const portfolioItems = [
     code: "TFMTO-005",
     size: "L2100 X W1800 X H750mm",
     imgSrc: tbl5,
+    button: "Details"
   },
   {
     id: 6,
@@ -492,6 +493,7 @@ const portfolioItems = [
     code: "TFMTO-006",
     size: "L1950 X W1850 X H750mm",
     imgSrc: tbl6,
+    button: "Details"
   },
   {
     id: 7,
@@ -500,6 +502,7 @@ const portfolioItems = [
     code: "TFMTO-007",
     size: "L2100 X W1850 X H750mm",
     imgSrc: tbl7,
+    button: "Details"
   },
   {
     id: 8,
@@ -508,6 +511,7 @@ const portfolioItems = [
     code: "TFMTO-008",
     size: "L1800 X W1650 X H750mm",
     imgSrc: tbl8,
+    button: "Details"
   },
   {
     id: 9,
@@ -516,6 +520,7 @@ const portfolioItems = [
     code: "TFDTO-009",
     size: "L1800 X W1800 X H750mm",
     imgSrc: tbl9,
+    button: "Details"
   },
   {
     id: 10,
@@ -524,6 +529,7 @@ const portfolioItems = [
     code: "TFDTO-010",
     size: "L1900 X W1900 X H750mm",
     imgSrc: tbl10,
+    button: "Details"
   },
   {
     id: 11,
@@ -532,6 +538,7 @@ const portfolioItems = [
     code: "TFDTO-011",
     size: "L2400 X W1900 X H750mm",
     imgSrc: tbl11,
+    button: "Details"
   },
   {
     id: 12,
@@ -540,6 +547,7 @@ const portfolioItems = [
     code: "TFDTO-012",
     size: "L2100 X W1800 X H750mm",
     imgSrc: tbl12,
+    button: "Details"
   },
   {
     id: 13,
@@ -548,6 +556,7 @@ const portfolioItems = [
     code: "TFDTO-013",
     size: "L2100 X W1800 X H750mm",
     imgSrc: tbl13,
+    button: "Details"
   },
   {
     id: 14,
@@ -556,6 +565,7 @@ const portfolioItems = [
     code: "TFDTO-014",
     size: "L2400 X W1900 X H750mm",
     imgSrc: tbl14,
+    button: "Details"
   },
   {
     id: 15,
@@ -564,6 +574,7 @@ const portfolioItems = [
     code: "TFDTO-015",
     size: "L1800 X W1650 X H750mm",
     imgSrc: tbl15,
+    button: "Details"
   },
   {
     id: 16,
@@ -572,6 +583,7 @@ const portfolioItems = [
     code: "TFDTO-016",
     size: "L1800 X W1650 X H750mm",
     imgSrc: tbl16,
+    button: "Details"
   },
   {
     id: 17,
@@ -580,6 +592,7 @@ const portfolioItems = [
     code: "TFETO-017",
     size: "L1650 X W1650 X H750mm",
     imgSrc: tbl17,
+    button: "Details"
   },
   {
     id: 18,
@@ -588,6 +601,7 @@ const portfolioItems = [
     code: "TFETO-018",
     size: "L1800 X W1750 X H750mm",
     imgSrc: tbl18,
+    button: "Details"
   },
   {
     id: 19,
@@ -596,6 +610,7 @@ const portfolioItems = [
     code: "TFETO-019",
     size: "L1800 X W1750 X H750mm",
     imgSrc: tbl19,
+    button: "Details"
   },
   {
     id: 20,
@@ -604,6 +619,7 @@ const portfolioItems = [
     code: "TFETO-020",
     size: "L1600 X W750 X H750m",
     imgSrc: tbl20,
+    button: "Details"
   },
   {
     id: 21,
@@ -612,6 +628,7 @@ const portfolioItems = [
     code: "TFETO-021",
     size: "L1650 X W700 X H750m",
     imgSrc: tbl21,
+    button: "Details"
   },
   {
     id: 22,
@@ -620,6 +637,7 @@ const portfolioItems = [
     code: "TFETO-022",
     size: "L1650 X W700 X H750m",
     imgSrc: tbl22,
+    button: "Details"
   },
   {
     id: 23,
@@ -628,6 +646,7 @@ const portfolioItems = [
     code: "TFETO-023",
     size: "L1800 X W1500 X H750m",
     imgSrc: tbl23,
+    button: "Details"
   },
 
   {
@@ -637,6 +656,7 @@ const portfolioItems = [
     code: "TFETO-024",
     size: "L1500 X W650 X H750m",
     imgSrc: tbl24,
+    button: "Details"
   },
 
   {
@@ -646,6 +666,7 @@ const portfolioItems = [
     code: "TFETO-025",
     size: "L1650 X W750 X H750mm",
     imgSrc: tbl25,
+    button: "Details"
   },
   {
     id: 26,
@@ -654,6 +675,7 @@ const portfolioItems = [
     code: "TFETO-026",
     size: "L1650 X W750 X H750mm",
     imgSrc: tbl26,
+    button: "Details"
   },
   {
     id: 27,
@@ -662,6 +684,7 @@ const portfolioItems = [
     code: "TFETO-027",
     size: "L1500 X W700 X H750mm",
     imgSrc: tbl27,
+    button: "Details"
   },
   {
     id: 28,
@@ -670,6 +693,7 @@ const portfolioItems = [
     code: "TFETO-028",
     size: "L1400 X W700 X H750mm",
     imgSrc: tbl28,
+    button: "Details"
   },
   {
     id: 29,
@@ -678,6 +702,7 @@ const portfolioItems = [
     code: "TFETO-029",
     size: "L1200 X W600 X H750mm",
     imgSrc: tbl29,
+    button: "Details"
   },
   {
     id: 30,
@@ -686,6 +711,7 @@ const portfolioItems = [
     code: "TFETO-030",
     size: "L1200 X W600 X H750mm",
     imgSrc: tbl30,
+    button: "Details"
   },
   {
     id: 31,

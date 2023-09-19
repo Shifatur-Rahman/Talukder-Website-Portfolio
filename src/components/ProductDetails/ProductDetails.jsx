@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import "./ProductDetails.css"
 import portfolioItems from "../Portfolio/PortfolioImgApi";
 import { useParams } from 'react-router-dom';
@@ -9,8 +9,13 @@ import plusIcon from '../../asset/images/icon-plus.svg';
 import minusIcon from '../../asset/images/icon-minus.svg';
 import { Lightbox } from './Lightbox';
 import ReactImageMagnify from 'react-image-magnify';
+import Box from '@mui/material/Box';
+import Tab from '@mui/material/Tab';
+import TabContext from '@mui/lab/TabContext';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
 
-const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity,}) => {
+const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
 
   const [currentProductImage, setCurrentProductImage] = useState(0);
   const [lightbox, setLightbox] = useState(false);
@@ -24,12 +29,12 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
   return (
     <>
-    
-       <div style={{ backgroundColor: "#bfbfbf"}}>
-         {
-          totalProduct.map((singleItem)=>{
-            if(singleItem.id == id){
-              return(
+
+      <div style={{ backgroundColor: "#bfbfbf" }}>
+        {
+          totalProduct.map((singleItem) => {
+            if (singleItem.id == id) {
+              return (
 
                 // <div className='grid-container'> 
                 //   <div key={singleItem.id} className="grid-item-one">
@@ -62,16 +67,16 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             height: 800,
                             className: 'small'
                           },
-                          enlargedImageContainerDimensions:{
-                             width: '100%',
-                             height: '100%',
-                             backgroundColor: 'white'
+                          enlargedImageContainerDimensions: {
+                            width: '100%',
+                            height: '100%',
+                            backgroundColor: 'white'
                           },
-                         // enlargedImagePosition: 'over', 
-                          lensStyle: {backgroundColor: 'rgba(0,0,0,.4)'}
+                          // enlargedImagePosition: 'over', 
+                          lensStyle: { backgroundColor: 'rgba(0,0,0,.4)' }
                         }} />
 
-                      {/* <img className='productDescriptionImg'
+                        {/* <img className='productDescriptionImg'
                         onClick={() => window.innerWidth > 768 && setLightbox(true)} 
                         src={`${singleItem.imgSrc}`} 
                         alt="" 
@@ -164,15 +169,15 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                     <div className="product-description flow">
                       <p className="text-uppercase fw-700 fs-100 letter-spacing-1 Orange">
                         {/* Talukder Group of Industries */}
-                        <img src={tgLogo} className='tgLogo' />
+                        <img src={tgLogo} className='tgLogo' alt='altLogo' />
                       </p>
                       <h1 className="fw-700 line-height-300 fs-800 blue">
                         {singleItem.title}
                       </h1>
-                      <p style={{textAlign: 'justify'}} className="fw-400 fs-400 darkGrayishBlue">
-                      The product details page for Talukder Group can provide comprehensive information about their products,
-                      including specifications, features, and any other relevant details. 
-                      Here's a sample description of what the product details page might include:
+                      <p style={{ textAlign: 'justify' }} className="fw-400 fs-400 darkGrayishBlue">
+                        The product details page for Talukder Group can provide comprehensive information about their products,
+                        including specifications, features, and any other relevant details.
+                        Here's a sample description of what the product details page might include:
                       </p>
                       <div className="product-price">
                         <div className="discounted-price flex">
@@ -204,7 +209,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             onClick={() => setProductQuantity((prevState) => prevState + 1)}
                           />
                         </div>
-                        
+
                         <button
                           onClick={handleAddToCart}
                           className="btnCart flex fw-700 fs-400"
@@ -222,16 +227,20 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                     </div>
                   </div>
 
-                  {lightbox && (
-                    <Lightbox productData={portfolioItems} setLightbox={setLightbox} />
-                  )}
+
+               {/* Product description */}
+
+
+
+
                 </main>
               )
-            } 
+            }
           })
-         }
+        }
+
       </div>
-    
+
     </>
   )
 }
