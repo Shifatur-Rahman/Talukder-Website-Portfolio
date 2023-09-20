@@ -1196,7 +1196,7 @@ const portfolioItems = [
   
   // INDUSTRIAL FURNITURE (Rack)
   {
-    id: 100,
+    id: 700,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-071",
@@ -1205,7 +1205,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 101,
+    id: 701,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-072",
@@ -1214,7 +1214,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 102,
+    id: 702,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-073",
@@ -1223,7 +1223,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 103,
+    id: 703,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-074",
@@ -1232,7 +1232,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 104,
+    id: 704,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-075",
@@ -1241,7 +1241,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 105,
+    id: 705,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-076",
@@ -1258,7 +1258,7 @@ const portfolioItems = [
   //   imgSrc: rack7,
   // },
   {
-    id: 107,
+    id: 707,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-077",
@@ -1267,7 +1267,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 108,
+    id: 708,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-078",
@@ -1276,7 +1276,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 109,
+    id: 709,
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-079",
@@ -1285,7 +1285,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 110, 
+    id: 710, 
     title: "SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-080",
@@ -1294,7 +1294,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 111, 
+    id: 711, 
     title: "INDUSTRIAL SLOTTED ANGLE RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-081",
@@ -1303,7 +1303,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 112, 
+    id: 712, 
     title: "Industrial’s Slotted Angle Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-082",
@@ -1312,7 +1312,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 113, 
+    id: 713, 
     title: "Industrial’s Slotted Angle Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-083",
@@ -1321,7 +1321,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 114, 
+    id: 714, 
     title: "Heavy Slotted Angle Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-084",
@@ -1330,7 +1330,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 115, 
+    id: 715, 
     title: "Heavy Duty Slotted Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-085",
@@ -1339,7 +1339,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 116, 
+    id: 716, 
     title: "Slotted Angle Racks",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-086",
@@ -1348,7 +1348,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 117, 
+    id: 717, 
     title: "Slotted Angle Racks",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-087",
@@ -1357,7 +1357,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 118, 
+    id: 718, 
     title: "industrial Pallet Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-088",
@@ -1367,7 +1367,7 @@ const portfolioItems = [
   },
   
   {
-    id: 120, 
+    id: 720, 
     title: "Heavy Duty Pallet Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-089",
@@ -1376,7 +1376,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 121, 
+    id: 721, 
     title: "Pallet Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-090",
@@ -1385,7 +1385,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 122, 
+    id: 722, 
     title: "Stacking Pallet Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-091",
@@ -1394,7 +1394,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 123, 
+    id: 723, 
     title: "Stacking Pallet Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-092",
@@ -1403,7 +1403,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 124, 
+    id: 724, 
     title: "Mold Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-093",
@@ -1412,7 +1412,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 125, 
+    id: 725, 
     title: "Mold Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-094",
@@ -1421,7 +1421,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 126, 
+    id: 726, 
     title: "Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-095",
@@ -1430,7 +1430,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 127, 
+    id: 727, 
     title: "MS Floor Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-096",
@@ -1439,7 +1439,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 128, 
+    id: 728, 
     title: "Mold Steel Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-097",
@@ -1448,7 +1448,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 129, 
+    id: 729, 
     title: "Mold Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-098",
@@ -1457,7 +1457,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 130, 
+    id: 730, 
     title: "Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-099",
@@ -1466,7 +1466,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 131, 
+    id: 731, 
     title: "Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-100",
@@ -1475,7 +1475,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 132, 
+    id: 732, 
     title: "Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-101",
@@ -1484,7 +1484,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 133, 
+    id: 733, 
     title: "Metal Storage Racks",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-102",
@@ -1493,7 +1493,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 134, 
+    id: 734, 
     title: "Metal Storage Racks",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-103",
@@ -1502,7 +1502,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 135, 
+    id: 735, 
     title: "Heavy Duty Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-104",
@@ -1511,7 +1511,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 136, 
+    id: 736, 
     title: "Heavy Duty Storage Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-105",
@@ -1520,7 +1520,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 137, 
+    id: 737, 
     title: "Industrial Storage Racks",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-106",
@@ -1529,7 +1529,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 138, 
+    id: 738, 
     title: "Industrial Storage Racks",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-107",
@@ -1538,7 +1538,7 @@ const portfolioItems = [
     button: "Details"
   },
   {
-    id: 139, 
+    id: 739, 
     title: "Steel Slotted Angle Racks",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-108",
@@ -1548,7 +1548,7 @@ const portfolioItems = [
   },
 
   {
-    id: 119, 
+    id: 740, 
     title: "Pallet Rack",
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-109",
@@ -1558,7 +1558,7 @@ const portfolioItems = [
   },
     // HEAVY DUTY RACK
   {
-    id: 720,
+    id: 741,
     title: "HEAVY DUTY RACK",
     category: "INDUSTRIAL FURNITURE",
     code: "TFHDR-070",
@@ -3962,7 +3962,7 @@ const portfolioItems = [
     id: 314,
     category: "upvc",
     imgSrc: upvc14,
-    title: "standard pipe",
+    title: "Standard pipe",
     longCode: "31156/31161/31165/31166/31167/31175/31215/31216/31325/31330/31331/31335/31336/31420/31510/31525/31350",
     longSize: `1.5"x15' TFL D Pipe (Gray)/1.5"x15' TFL D Pipe (White)/1.5"x15' Regular Super Pipe (Gray)/1.5"x15' Regular Super Pipe (White)/1.5"x15' Regular Super Pipe (Blue)/1.5"x15' Regular Super Pipe (Firoza)/2"x15' Regular Super Pipe (Gray)/2"x15' Regular Super Pipe (White)/3"x6mtr Regular Special Pipe (Firoza)/3"x6mtr Shallow Pipe (Firoza)/3"x15mtr Shallow Pipe (Firoza)/3"x6mtr Regular Super Pipe (Gray)/3"x6mtr Regular Super Pipe (White)/4"x6 mtr Shallow Pipe(Firoza)/5"x6 mtr Regular Super Pipe(Gray)/6"x6 mtr Shallow Pipe(Gray)/8"x6 mtr Regular Super Pipe(Gray)`,
     longThickness: `2.2~2.4/2.2~2.4/1.4~1.6/1.4~1.6/1.4~1.6/1.4~1.6/2.2~2.5/2.2~2.5/2.4~2.6/2.0~2.2/2.0~2.2/2.4~2.6/2.4~2.6/2.5~2.7/3.5~3.7/4.0~4.3/2.8~3.1`,

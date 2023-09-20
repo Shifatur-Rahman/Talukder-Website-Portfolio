@@ -46,7 +46,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                 //     <p>{singleItem.title}</p>
                 //   </div>
                 // </div>
-
+                
                 <main style={{ marginTop: "5rem" }} className="product">
                   <div className="container-md grid product-container">
                     <div style={{ marginTop: "3rem", marginBottom: "5rem" }} className="flex product-image">
@@ -162,8 +162,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           </button>
                         </>
                       )} */}
-
-
 
                     </div>
                     <div className="product-description flow">
