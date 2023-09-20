@@ -938,7 +938,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBST-054",
     imgSrc: tbl54,
-    
+    button: "Details"
   },
   {
     id: 55,
@@ -946,6 +946,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBST-055",
     imgSrc: tbl55,
+    button: "Details"
   },
   // BAR CABINET
   {
@@ -955,6 +956,7 @@ const portfolioItems = [
     code: "TFBCH-056",
     size: "L1600 X W400 X H750mm",
     imgSrc: tbl56,
+    button: "Details"
   },
 
   {
@@ -964,6 +966,7 @@ const portfolioItems = [
     code: "TFBCH-057",
     size: "L1200 X W350 X H900mm",
     imgSrc: tbl57,
+    button: "Details"
   },
 
   // MULTIPURPOSE SHELF
@@ -975,6 +978,7 @@ const portfolioItems = [
     code: "TFMPO-058",
     size: "L1200 X W400 X H1800mm",
     imgSrc: tbl58,
+    button: "Details"
   },
 
   {
@@ -984,6 +988,7 @@ const portfolioItems = [
     code: "TFMPO-059",
     size: "L800 X W400 X H1800mm",
     imgSrc: tbl59,
+    button: "Details"
   },
   {
     id: 60,
@@ -992,6 +997,7 @@ const portfolioItems = [
     code: "TFMPO-060",
     size: "L800 X W400 X H1800mm",
     imgSrc: tbl60,
+    button: "Details"
   },
   {
     id: 61,
@@ -1000,6 +1006,7 @@ const portfolioItems = [
     code: "TFMPO-061",
     size: "L600 X W400 X H1800mm",
     imgSrc: tbl61,
+    button: "Details"
   },
   {
     id: 62,
@@ -1008,6 +1015,7 @@ const portfolioItems = [
     code: "TFMPO-062",
     size: "L800 X W400 X H1800mm",
     imgSrc: tbl62,
+    button: "Details"
   },
 
   {
@@ -1017,6 +1025,7 @@ const portfolioItems = [
     code: "TFMPO-063",
     size: "L900 X W400 X H1800mm",
     imgSrc: tbl63,
+    button: "Details"
   },
 
   {
@@ -1026,6 +1035,7 @@ const portfolioItems = [
     code: "TFMPO-064",
     size: "L1200 X W400 X H1800mm",
     imgSrc: tbl64,
+    button: "Details"
   },
   {
     id: 65,
@@ -1034,6 +1044,7 @@ const portfolioItems = [
     code: "TFMPO-065",
     size: "L1200 X W400 X H1800mm",
     imgSrc: tbl65,
+    button: "Details"
   },
   {
     id: 66,
@@ -1042,6 +1053,7 @@ const portfolioItems = [
     code: "TFMPO-066",
     size: "L600 X W400 X H1800mm",
     imgSrc: tbl66,
+    button: "Details"
   },
 
   {
@@ -1051,6 +1063,7 @@ const portfolioItems = [
     code: "TFMPO-067",
     size: "L2400 X W400 X H1800mm",
     imgSrc: tbl67,
+    button: "Details"
   },
 
   // INDUSTRIAL FURNITURE
@@ -1061,6 +1074,7 @@ const portfolioItems = [
     code: "TFSAR-068",
     size: "L1200 X W400 X H1800mm",
     imgSrc: tbl68,
+    button: "Details"
   },
 
   {
@@ -1070,6 +1084,7 @@ const portfolioItems = [
     code: "TFSAR-069",
     size: "L900 X W300 X H1800mm",
     imgSrc: tbl69,
+    button: "Details"
   },
 
   // HEAVY DUTY RACK
@@ -1081,6 +1096,7 @@ const portfolioItems = [
     code: "TFHDR-070",
     size: "L2400 X W600 X H2400mm",
     imgSrc: tbl70,
+    button: "Details"
   },
 
   // WALL MOUNTED CABINET
@@ -1091,6 +1107,7 @@ const portfolioItems = [
     code: "TFWMC-071",
     size: "L1600 X W350 X H600mm",
     imgSrc: tbl71,
+    button: "Details"
   },
 
   {
@@ -1100,6 +1117,7 @@ const portfolioItems = [
     code: "TFWMC-072",
     size: "L900 X W350 X H700mm",
     imgSrc: tbl72,
+    button: "Details"
   },
 
   //BACK CABINET
@@ -1111,6 +1129,7 @@ const portfolioItems = [
     code: "TFBCO-073",
     size: "L1600 X W450 X H750mm",
     imgSrc: tbl73,
+    button: "Details"
   },
 
   {
@@ -1120,6 +1139,7 @@ const portfolioItems = [
     code: "TFBCO-074",
     size: "L1650 X W450 X H750mm",
     imgSrc: tbl74,
+    button: "Details"
   },
   {
     id: 75,
@@ -1128,6 +1148,7 @@ const portfolioItems = [
     code: "TFBCO-075",
     size: "L1200 X W400 X H750mm",
     imgSrc: tbl75,
+    button: "Details"
   },
 
   //FULL HEIGHT FILE CABINET
@@ -1139,6 +1160,7 @@ const portfolioItems = [
     code: "TFFHB-076",
     size: "L2400 X W400 X H1800mm",
     imgSrc: tbl76,
+    button: "Details"
   },
   {
     id: 77,
@@ -1147,6 +1169,7 @@ const portfolioItems = [
     code: "TFFHB-077",
     size: "L2400 X W400 X H1800mm",
     imgSrc: tbl77,
+    button: "Details"
   },
 
   //GARDEN FURNITURE
@@ -1157,6 +1180,7 @@ const portfolioItems = [
     code: "TFGWS-078",
     size: "L1500 X W560 X H900mm",
     imgSrc: tbl78,
+    button: "Details"
   },
 
   {
@@ -1166,6 +1190,7 @@ const portfolioItems = [
     code: "TFGWS-079",
     size: "L450 X W500 X H950mm",
     imgSrc: tbl79,
+    button: "Details"
   },
 
   //SWIMMING POOL FURNITURE
@@ -1176,6 +1201,7 @@ const portfolioItems = [
     code: "TFSPF-080",
     size: "L1980 X W660 X H790mm",
     imgSrc: tbl80,
+    button: "Details"
   },
 
   
@@ -1187,6 +1213,7 @@ const portfolioItems = [
     code: "TFSAR-071",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack1,
+    button: "Details"
   },
   {
     id: 101,
@@ -1195,6 +1222,7 @@ const portfolioItems = [
     code: "TFSAR-072",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack2,
+    button: "Details"
   },
   {
     id: 102,
@@ -1203,6 +1231,7 @@ const portfolioItems = [
     code: "TFSAR-073",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack3,
+    button: "Details"
   },
   {
     id: 103,
@@ -1211,6 +1240,7 @@ const portfolioItems = [
     code: "TFSAR-074",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack4,
+    button: "Details"
   },
   {
     id: 104,
@@ -1219,6 +1249,7 @@ const portfolioItems = [
     code: "TFSAR-075",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack5,
+    button: "Details"
   },
   {
     id: 105,
@@ -1227,6 +1258,7 @@ const portfolioItems = [
     code: "TFSAR-076",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack6,
+    button: "Details"
   },
   // {
   //   id: 106,
@@ -1243,6 +1275,7 @@ const portfolioItems = [
     code: "TFSAR-077",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack8,
+    button: "Details"
   },
   {
     id: 108,
@@ -1251,6 +1284,7 @@ const portfolioItems = [
     code: "TFSAR-078",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack9,
+    button: "Details"
   },
   {
     id: 109,
@@ -1259,6 +1293,7 @@ const portfolioItems = [
     code: "TFSAR-079",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack10,
+    button: "Details"
   },
   {
     id: 110, 
@@ -1267,6 +1302,7 @@ const portfolioItems = [
     code: "TFSAR-080",
     size: "L1200 X W400 X H1800mm",
     imgSrc: rack11,
+    button: "Details"
   },
   {
     id: 111, 
@@ -1275,6 +1311,7 @@ const portfolioItems = [
     code: "TFSAR-081",
     size: "4’x2’x6′ Feet",
     imgSrc: rack12,
+    button: "Details"
   },
   {
     id: 112, 
@@ -1283,6 +1320,7 @@ const portfolioItems = [
     code: "TFSAR-082",
     size: "4’x1.5’x8′ Feet",
     imgSrc: rack13,
+    button: "Details"
   },
   {
     id: 113, 
@@ -1291,6 +1329,7 @@ const portfolioItems = [
     code: "TFSAR-083",
     size: "4’x1.5’x7′ Feet",
     imgSrc: rack14,
+    button: "Details"
   },
   {
     id: 114, 
@@ -1299,6 +1338,7 @@ const portfolioItems = [
     code: "TFSAR-084",
     size: "4’x1.5’x6′ Feet",
     imgSrc: rack15,
+    button: "Details"
   },
   {
     id: 115, 
@@ -1307,6 +1347,7 @@ const portfolioItems = [
     code: "TFSAR-085",
     size: " 4’x1.5’x6′ Feet",
     imgSrc: rack16,
+    button: "Details"
   },
   {
     id: 116, 
@@ -1315,6 +1356,7 @@ const portfolioItems = [
     code: "TFSAR-086",
     size: "4’x1.5’x6′ Feet",
     imgSrc: rack17,
+    button: "Details"
   },
   {
     id: 117, 
@@ -1323,6 +1365,7 @@ const portfolioItems = [
     code: "TFSAR-087",
     size: "4’x1.5’x6′ Feet",
     imgSrc: rack18,
+    button: "Details"
   },
   {
     id: 118, 
@@ -1331,6 +1374,7 @@ const portfolioItems = [
     code: "TFSAR-088",
     size: "8’x3’x12′ Feet",
     imgSrc: rack19,
+    button: "Details"
   },
   
   {
@@ -1340,6 +1384,7 @@ const portfolioItems = [
     code: "TFSAR-089",
     size: "8’x3’x8′ Feet",
     imgSrc: rack21,
+    button: "Details"
   },
   {
     id: 121, 
@@ -1348,6 +1393,7 @@ const portfolioItems = [
     code: "TFSAR-090",
     size: "8’x3’x6′ Feet",
     imgSrc: rack22,
+    button: "Details"
   },
   {
     id: 122, 
@@ -1356,6 +1402,7 @@ const portfolioItems = [
     code: "TFSAR-091",
     size: "4’x5’x4′ Feet",
     imgSrc: rack23,
+    button: "Details"
   },
   {
     id: 123, 
@@ -1364,6 +1411,7 @@ const portfolioItems = [
     code: "TFSAR-092",
     size: " 4’x3.5’x4′ Feet",
     imgSrc: rack24,
+    button: "Details"
   },
   {
     id: 124, 
@@ -1372,6 +1420,7 @@ const portfolioItems = [
     code: "TFSAR-093",
     size: "12’x3’x7′ Feet",
     imgSrc: rack25,
+    button: "Details"
   },
   {
     id: 125, 
@@ -1380,6 +1429,7 @@ const portfolioItems = [
     code: "TFSAR-094",
     size: "12’x2’x8′ Feet",
     imgSrc: rack26,
+    button: "Details"
   },
   {
     id: 126, 
@@ -1388,6 +1438,7 @@ const portfolioItems = [
     code: "TFSAR-095",
     size: "12’x2’x8′ Feet",
     imgSrc: rack27,
+    button: "Details"
   },
   {
     id: 127, 
@@ -1396,6 +1447,7 @@ const portfolioItems = [
     code: "TFSAR-096",
     size: "10’x3’x8′ Feet",
     imgSrc: rack28,
+    button: "Details"
   },
   {
     id: 128, 
@@ -1404,6 +1456,7 @@ const portfolioItems = [
     code: "TFSAR-097",
     size: "10’x2’x7’ Feet",
     imgSrc: rack29,
+    button: "Details"
   },
   {
     id: 129, 
@@ -1412,6 +1465,7 @@ const portfolioItems = [
     code: "TFSAR-098",
     size: "4’x3’x7’ Feet",
     imgSrc: rack30,
+    button: "Details"
   },
   {
     id: 130, 
@@ -1420,6 +1474,7 @@ const portfolioItems = [
     code: "TFSAR-099",
     size: "8’x3’x12′ Feet",
     imgSrc: rack32,
+    button: "Details"
   },
   {
     id: 131, 
@@ -1428,6 +1483,7 @@ const portfolioItems = [
     code: "TFSAR-100",
     size: "8’x4’x10′ Feet",
     imgSrc: rack33,
+    button: "Details"
   },
   {
     id: 132, 
@@ -1436,6 +1492,7 @@ const portfolioItems = [
     code: "TFSAR-101",
     size: "8’x3’x10′ Feet",
     imgSrc: rack34,
+    button: "Details"
   },
   {
     id: 133, 
@@ -1444,6 +1501,7 @@ const portfolioItems = [
     code: "TFSAR-102",
     size: "8′x2’x10′ Feet",
     imgSrc: rack36,
+    button: "Details"
   },
   {
     id: 134, 
@@ -1452,6 +1510,7 @@ const portfolioItems = [
     code: "TFSAR-103",
     size: "8′x3’x8′ Feet",
     imgSrc: rack37,
+    button: "Details"
   },
   {
     id: 135, 
@@ -1460,6 +1519,7 @@ const portfolioItems = [
     code: "TFSAR-104",
     size: "8′x2’x8′ Feet",
     imgSrc: rack38,
+    button: "Details"
   },
   {
     id: 136, 
@@ -1468,6 +1528,7 @@ const portfolioItems = [
     code: "TFSAR-105",
     size: "8′x3’x8′ Feet",
     imgSrc: rack39,
+    button: "Details"
   },
   {
     id: 137, 
@@ -1476,6 +1537,7 @@ const portfolioItems = [
     code: "TFSAR-106",
     size: "8′x2’x8′ Feet",
     imgSrc: rack40,
+    button: "Details"
   },
   {
     id: 138, 
@@ -1484,6 +1546,7 @@ const portfolioItems = [
     code: "TFSAR-107",
     size: "7′x3’x8′ Feet",
     imgSrc: rack41,
+    button: "Details"
   },
   {
     id: 139, 
@@ -1492,6 +1555,7 @@ const portfolioItems = [
     code: "TFSAR-108",
     size: "5’x1.5’x7′ Feet",
     imgSrc: rack42,
+    button: "Details"
   },
 
   {
@@ -1501,6 +1565,7 @@ const portfolioItems = [
     code: "TFSAR-109",
     size: "8’x3’x7′ Feet",
     imgSrc: rack20,
+    button: "Details"
   },
 
 
@@ -1515,6 +1580,7 @@ const portfolioItems = [
     code: "TFCON-001",
     size: "L3600 X W1200 X H750mm",
     imgSrc: con_table1,
+    button: "Details"
   },
   {
     id: 402,
@@ -1523,6 +1589,7 @@ const portfolioItems = [
     code: "TFCON-002",
     size: "L3600 X W1200 X H750mm",
     imgSrc: con_table2,
+    button: "Details"
   },
   {
     id: 403,
@@ -1531,6 +1598,7 @@ const portfolioItems = [
     code: "TFCON-003",
     size: "L6000 X W1500 X H750mm",
     imgSrc: con_table3,
+    button: "Details"
   },
   {
     id: 404,
@@ -1539,6 +1607,7 @@ const portfolioItems = [
     code: "TFCON-004",
     size: "L2400 X W1200 X H750mm",
     imgSrc: con_table4,
+    button: "Details"
   },
   {
     id: 405,
@@ -1547,6 +1616,7 @@ const portfolioItems = [
     code: "TFCON-005",
     size: "L2400 X W1200 X H750mm",
     imgSrc: con_table5,
+    button: "Details"
   },
   {
     id: 406,
@@ -1555,6 +1625,7 @@ const portfolioItems = [
     code: "TFCON-006",
     size: "L3000 X W1200 X H750mm",
     imgSrc: con_table6,
+    button: "Details"
   },
   {
     id: 407,
@@ -1563,6 +1634,7 @@ const portfolioItems = [
     code: "TFCON-007",
     size: "L2400 X W1200 X H750mm",
     imgSrc: con_table7,
+    button: "Details"
   },
   {
     id: 408,
@@ -1571,6 +1643,7 @@ const portfolioItems = [
     code: "TFCON-008",
     size: "L1200 X W1200 X H750mm",
     imgSrc: con_table8,
+    button: "Details"
   },
 
   ///                         SWIVEL CHAIR(501 - 5 )
@@ -1581,6 +1654,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-001",
     imgSrc: chair1,
+    button: "Details"
   },
   {
     id: 502,
@@ -1588,6 +1662,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-002",
     imgSrc: chair2,
+    button: "Details"
   },
   {
     id: 503,
@@ -1595,6 +1670,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-003",
     imgSrc: chair3,
+    button: "Details"
   },
   {
     id: 504,
@@ -1602,6 +1678,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-004",
     imgSrc: chair4,
+    button: "Details"
   },
   {
     id: 505,
@@ -1609,6 +1686,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-005",
     imgSrc: chair5,
+    button: "Details"
   },
   {
     id: 506,
@@ -1616,6 +1694,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-006",
     imgSrc: chair6,
+    button: "Details"
   },
   {
     id: 507,
@@ -1623,6 +1702,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-007",
     imgSrc: chair7,
+    button: "Details"
   },
   {
     id: 508,
@@ -1630,6 +1710,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-008",
     imgSrc: chair8,
+    button: "Details"
   },
   {
     id: 509,
@@ -1637,6 +1718,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-009",
     imgSrc: chair9,
+    button: "Details"
   },
   {
     id: 510,
@@ -1644,6 +1726,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-010",
     imgSrc: chair10,
+    button: "Details"
   },
   {
     id: 511,
@@ -1651,6 +1734,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-011",
     imgSrc: chair11,
+    button: "Details"
   },
   {
     id: 512,
@@ -1658,6 +1742,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-012",
     imgSrc: chair12,
+    button: "Details"
   },
   {
     id: 513,
@@ -1665,6 +1750,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-013",
     imgSrc: chair13,
+    button: "Details"
   },
   {
     id: 514,
@@ -1672,6 +1758,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-014",
     imgSrc: chair14,
+    button: "Details"
   },
   {
     id: 515,
@@ -1679,6 +1766,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-015",
     imgSrc: chair15,
+    button: "Details"
   },
   {
     id: 516,
@@ -1686,6 +1774,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-016",
     imgSrc: chair16,
+    button: "Details"
   },
   {
     id: 517,
@@ -1693,6 +1782,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-017",
     imgSrc: chair17,
+    button: "Details"
   },
   {
     id: 518,
@@ -1700,6 +1790,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-018",
     imgSrc: chair18,
+    button: "Details"
   },
   {
     id: 519,
@@ -1707,6 +1798,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-019",
     imgSrc: chair19,
+    button: "Details"
   },
   {
     id: 520,
@@ -1714,6 +1806,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-020",
     imgSrc: chair20,
+    button: "Details"
   },
   {
     id: 521,
@@ -1721,6 +1814,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-021",
     imgSrc: chair21,
+    button: "Details"
   },
   {
     id: 522,
@@ -1728,6 +1822,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-022",
     imgSrc: chair22,
+    button: "Details"
   },
   {
     id: 523,
@@ -1735,6 +1830,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-023",
     imgSrc: chair23,
+    button: "Details"
   },
   {
     id: 524,
@@ -1742,6 +1838,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-024",
     imgSrc: chair24,
+    button: "Details"
   },
   {
     id: 525,
@@ -1749,6 +1846,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-025",
     imgSrc: chair25,
+    button: "Details"
   },
   {
     id: 526,
@@ -1756,6 +1854,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-026",
     imgSrc: chair26,
+    button: "Details"
   },
   {
     id: 527,
@@ -1763,6 +1862,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-027",
     imgSrc: chair27,
+    button: "Details"
   },
   {
     id: 528,
@@ -1770,6 +1870,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-028",
     imgSrc: chair28,
+    button: "Details"
   },
   {
     id: 529,
@@ -1777,6 +1878,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-029",
     imgSrc: chair29,
+    button: "Details"
   },
   {
     id: 530,
@@ -1784,6 +1886,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-030",
     imgSrc: chair30,
+    button: "Details"
   },
   {
     id: 531,
@@ -1791,6 +1894,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFOCO-031",
     imgSrc: chair31,
+    button: "Details"
   },
   {
     id: 532,
@@ -1798,6 +1902,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFOCO-032",
     imgSrc: chair32,
+    button: "Details"
   },
   {
     id: 533,
@@ -1805,6 +1910,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFOCO-033",
     imgSrc: chair33,
+    button: "Details"
   },
   {
     id: 534,
@@ -1812,6 +1918,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-034",
     imgSrc: chair34,
+    button: "Details"
   },
   {
     id: 535,
@@ -1819,6 +1926,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-035",
     imgSrc: chair35,
+    button: "Details"
   },
   {
     id: 536,
@@ -1826,6 +1934,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-036",
     imgSrc: chair36,
+    button: "Details"
   },
   {
     id: 537,
@@ -1833,6 +1942,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-037",
     imgSrc: chair37,
+    button: "Details"
   },
   {
     id: 538,
@@ -1840,6 +1950,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-038",
     imgSrc: chair38,
+    button: "Details"
   },
   {
     id: 539,
@@ -1847,6 +1958,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-039",
     imgSrc: chair39,
+    button: "Details"
   },
   {
     id: 540,
@@ -1854,6 +1966,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-040",
     imgSrc: chair40,
+    button: "Details"
   },
 
   {
@@ -1862,6 +1975,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-041",
     imgSrc: chair41,
+    button: "Details"
   },
   {
     id: 542,
@@ -1869,6 +1983,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-042",
     imgSrc: chair42,
+    button: "Details"
   },
   {
     id: 543,
@@ -1876,6 +1991,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-043",
     imgSrc: chair43,
+    button: "Details"
   },
   {
     id: 544,
@@ -1883,6 +1999,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-044",
     imgSrc: chair44,
+    button: "Details"
   },
   {
     id: 545,
@@ -1890,6 +2007,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-045",
     imgSrc: chair45,
+    button: "Details"
   },
   {
     id: 546,
@@ -1897,6 +2015,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-046",
     imgSrc: chair46,
+    button: "Details"
   },
   {
     id: 547,
@@ -1904,6 +2023,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-047",
     imgSrc: chair47,
+    button: "Details"
   },
   {
     id: 548,
@@ -1911,6 +2031,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-048",
     imgSrc: chair48,
+    button: "Details"
   },
   {
     id: 549,
@@ -1918,6 +2039,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-049",
     imgSrc: chair49,
+    button: "Details"
   },
   {
     id: 550,
@@ -1925,6 +2047,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-050",
     imgSrc: chair50,
+    button: "Details"
   },
   {
     id: 551,
@@ -1932,6 +2055,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-051",
     imgSrc: chair51,
+    button: "Details"
   },
   {
     id: 552,
@@ -1939,6 +2063,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-052",
     imgSrc: chair52,
+    button: "Details"
   },
   {
     id: 553,
@@ -1946,6 +2071,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-053",
     imgSrc: chair53,
+    button: "Details"
   },
   {
     id: 554,
@@ -1953,6 +2079,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-054",
     imgSrc: chair54,
+    button: "Details"
   },
   {
     id: 555,
@@ -1960,6 +2087,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-055",
     imgSrc: chair55,
+    button: "Details"
   },
   {
     id: 556,
@@ -1967,6 +2095,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-056",
     imgSrc: chair56,
+    button: "Details"
   },
   {
     id: 557,
@@ -1974,6 +2103,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFACO-057",
     imgSrc: chair57,
+    button: "Details"
   },
   {
     id: 558,
@@ -1981,6 +2111,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFACO-058",
     imgSrc: chair58,
+    button: "Details"
   },
   {
     id: 559,
@@ -1988,6 +2119,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFGCO-059",
     imgSrc: chair59,
+    button: "Details"
   },
   {
     id: 560,
@@ -1995,6 +2127,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFGCO-060",
     imgSrc: chair60,
+    button: "Details"
   },
   {
     id: 561,
@@ -2002,6 +2135,7 @@ const portfolioItems = [
     category: "lged",
     code: "TFCRC-061",
     imgSrc: chair61,
+    button: "Details"
   },
   {
     id: 562,
@@ -2009,6 +2143,7 @@ const portfolioItems = [
     category: "lged",
     code: "TFCRC-062",
     imgSrc: chair62,
+    button: "Details"
   },
   {
     id: 563,
@@ -2016,6 +2151,7 @@ const portfolioItems = [
     category: "lged",
     code: "TFCRC-063",
     imgSrc: chair63,
+    button: "Details"
   },
   {
     id: 564,
@@ -2023,6 +2159,7 @@ const portfolioItems = [
     category: "lged",
     code: "TFCRC-064",
     imgSrc: chair64,
+    button: "Details"
   },
   {
     id: 565,
@@ -2030,6 +2167,7 @@ const portfolioItems = [
     category: "lged",
     code: "TFCRC-065",
     imgSrc: chair65,
+    button: "Details"
   },
 
   {
@@ -2039,6 +2177,7 @@ const portfolioItems = [
     code: "TFTTS-068",
     imgSrc: chair68,
     size: "L850 X W540 X H780MM",
+    button: "Details"
   },
 
   {
@@ -2048,6 +2187,7 @@ const portfolioItems = [
     code: "TFTTS-069",
     imgSrc: chair69,
     size: "L900 X W500 X H750MM",
+    button: "Details"
   },
   {
     id: 570,
@@ -2056,6 +2196,7 @@ const portfolioItems = [
     code: "TFPOD-070",
     imgSrc: chair70,
     size: "L750 X W550 X H1250MM",
+    button: "Details"
   },
   {
     id: 571,
@@ -2064,6 +2205,7 @@ const portfolioItems = [
     code: "TFPOD-071",
     imgSrc: chair71,
     size: "L850 X W600 X H1250MM",
+    button: "Details"
   },
 
   ////      FILE CABINET
@@ -2074,6 +2216,7 @@ const portfolioItems = [
     code: "TFSFC-072",
     imgSrc: chair72,
     size: "L482 X W550 X H720MM",
+    button: "Details"
   },
   {
     id: 573,
@@ -2082,6 +2225,7 @@ const portfolioItems = [
     code: "TFSFC-073",
     imgSrc: chair073,
     size: "L482 X W550 X H1040MM",
+    button: "Details"
   },
   // 573 & 574 CODE ARE SAME COZ I FOLLOW THE BUSHIER & SIR SUGGEST ME
   {
@@ -2091,6 +2235,7 @@ const portfolioItems = [
     code : "TFSFC-073",
     imgSrc: chair73,
     size: "L482 X W550 X H1370MM",
+    button: "Details"
   },
 
   ///         COMBINED CABINET
@@ -2102,6 +2247,7 @@ const portfolioItems = [
     code: "TFSCC-074",
     imgSrc: chair74,
     size: "L900 X W550 X H1200MM",
+    button: "Details"
   },
 
   /// OFFICE ALMIRAH
@@ -2112,6 +2258,7 @@ const portfolioItems = [
     code: "TFSOA-075",
     imgSrc: chair75,
     size: "L900 X W500 X H1850MM",
+    button: "Details"
   },
   {
     id: 577,
@@ -2120,6 +2267,7 @@ const portfolioItems = [
     code: "TFSOA-076",
     imgSrc: chair76,
     size: "L910 X W480 X H1930MM",
+    button: "Details"
   },
   {
     id: 578,
@@ -2128,6 +2276,7 @@ const portfolioItems = [
     code: "TFSOA-077",
     imgSrc: chair77,
     size: "L910 X W480 X H1930MM",
+    button: "Details"
   },
   
   //                                 --------   lged(200)  --------
@@ -2140,6 +2289,7 @@ const portfolioItems = [
     imgSrc: chair66,
     size: "L1800 X W400 X H730MM(HIGH BENCH)",
     size2: "L1800 X W300 X H400MM(LOW BENCH)",
+    button: "Details"
   },
   {
     id: 567,
@@ -2149,6 +2299,7 @@ const portfolioItems = [
     imgSrc: chair67,
     size: "L1500 X W450 X H750MM(HIGH BENCH)",
     size2: "L1500 X W300 X H400MM(LOW BENCH)",
+    button: "Details"
   },
 
   {
@@ -2159,6 +2310,7 @@ const portfolioItems = [
     size: "Normal/ Extra Hieght/ Special Extra Height",
     category: "lged",
     imgSrc: lged8,
+    button: "Details"
   },
 
   {
@@ -2169,6 +2321,7 @@ const portfolioItems = [
     size: "Normal/ Extra Hieght/ Special Extra Height",
     category: "lged",
     imgSrc: lged7,
+    button: "Details"
   },
 
   {
@@ -2179,6 +2332,7 @@ const portfolioItems = [
     size: "Normal/ Extra Hieght/ Special Extra Height",
     category: "lged",
     imgSrc: lged1,
+    button: "Details"
   },
 
   {
@@ -2189,6 +2343,7 @@ const portfolioItems = [
     size: "Normal/ Extra Hieght/ Special Extra Height",
     category: "lged",
     imgSrc: lged10,
+    button: "Details"
   },
   {
     id: 255,
@@ -2198,6 +2353,7 @@ const portfolioItems = [
     size: "550mm(L)X515mm(W)XH850mm(H)",
     category: "lged",
     imgSrc: lged11,
+    button: "Details"
   },
   ///                             office furniture
   {
@@ -2207,6 +2363,7 @@ const portfolioItems = [
     code: "TFSOA-078",
     imgSrc: chair78,
     size: "L900 X W450 X H1800MM",
+    button: "Details"
   },
   {
     id: 580,
@@ -2215,6 +2372,7 @@ const portfolioItems = [
     code: "TFSOA-079",
     imgSrc: chair79,
     size: "L900 X W450 X H1800MM",
+    button: "Details"
   },
   {
     id: 581,
@@ -2223,6 +2381,7 @@ const portfolioItems = [
     code: "TFSOA-080",
     imgSrc: chair80,
     size: "L1000 X W450 X H1800MM",
+    button: "Details"
   },
 
   //               OFFICE LOCKER
@@ -2233,6 +2392,7 @@ const portfolioItems = [
     code: "TFSOL-077",
     imgSrc: chair077,
     size: "L900 X W500 X H1850MM",
+    button: "Details"
   },
   {
     id: 583,
@@ -2241,6 +2401,7 @@ const portfolioItems = [
     code: "TFSOL-078",
     imgSrc: chair078,
     size: "L350 X W500 X H1930MM",
+    button: "Details"
   },
   // office sofa
   {
@@ -2250,6 +2411,7 @@ const portfolioItems = [
     code: "TFOSF-079",
     imgSrc: chair079,
     size: "L1650 X W700 X H750MM",
+    button: "Details"
   },
   {
     id: 585,
@@ -2258,6 +2420,7 @@ const portfolioItems = [
     code: "TFOSF-080",
     imgSrc: chair080,
     size: "L1800 X W700 X H720MM",
+    button: "Details"
   },
   {
     id: 586,
@@ -2267,6 +2430,7 @@ const portfolioItems = [
     imgSrc: chair81,
     size: "L685 X W750 X H635MM(SINGLE SEAT)",
     size2: "L1335 X W750 X H635MM(DOUBLE SEAT)",
+    button: "Details"
   },
   {
     id: 587,
@@ -2275,6 +2439,7 @@ const portfolioItems = [
     code: "TFOSF-082",
     imgSrc: chair82,
     size: "L1135 X W750 X H635MM",
+    button: "Details"
   },
   {
     id: 588,
@@ -2283,6 +2448,7 @@ const portfolioItems = [
     code: "TFOSF-083",
     imgSrc: chair83,
     size: "L1800 X W750 X H700MM(3 SEATER)",
+    button: "Details"
   },
   {
     id: 589,
@@ -2292,6 +2458,7 @@ const portfolioItems = [
     imgSrc: chair84,
     size: "L600 X W700 X H750MM(SINGLE SEATER)",
     size2: "L1350 X W700 X H750MM(DOUBLE SEATER)",
+    button: "Details"
   },
   /////                        WORK STATION
   {
@@ -2301,6 +2468,7 @@ const portfolioItems = [
     code: "TFWSO-085",
     imgSrc: chair85,
     size: "L2500 X W650 X H1200MM",
+    button: "Details"
   },
   {
     id: 591,
@@ -2309,6 +2477,7 @@ const portfolioItems = [
     code: "TFWSO-086",
     imgSrc: chair86,
     size: "L1200 X W1200 X H1050MM",
+    button: "Details"
   },
   {
     id: 592,
@@ -2317,6 +2486,7 @@ const portfolioItems = [
     code: "TFWSO-087",
     imgSrc: chair87,
     size: "L3000 X W1650 X H1500MM",
+    button: "Details"
   },
   {
     id: 593,
@@ -2325,6 +2495,7 @@ const portfolioItems = [
     code: "TFWSO-088",
     imgSrc: chair88,
     size: "L3000 X W3000 X H1050MM",
+    button: "Details"
   },
   {
     id: 594,
@@ -2333,6 +2504,7 @@ const portfolioItems = [
     code: "TFWSO-089",
     imgSrc: chair89,
     size: "L3000 X W3000 X H1050MM",
+    button: "Details"
   },
   {
     id: 595,
@@ -2341,6 +2513,7 @@ const portfolioItems = [
     code: "TFWSO-090",
     imgSrc: chair90,
     size: "L2400 X W1200 X H1050MM",
+    button: "Details"
   },
   ///        FLUSH DOOR
   {
@@ -2350,6 +2523,7 @@ const portfolioItems = [
     code: "TFFDD-091",
     imgSrc: chair91,
     size: "L600~900 X H2080MM",
+    button: "Details"
   },
   {
     id: 597,
@@ -2358,6 +2532,7 @@ const portfolioItems = [
     code: "TFFDD-092",
     imgSrc: chair92,
     size: "L600~900 X H2080MM",
+    button: "Details"
   },
   {
     id: 598,
@@ -2366,6 +2541,7 @@ const portfolioItems = [
     code: "TFFDD-093",
     imgSrc: chair93,
     size: "L600~900 X H2080MM",
+    button: "Details"
   },
   ///       SOLID WOODEN DOOR
   {
@@ -2375,6 +2551,7 @@ const portfolioItems = [
     code: "TFFDD-094",
     imgSrc: chair94,
     size: "L600~1050 X H2080MM",
+    button: "Details"
   },
   {
     id: 600,
@@ -2383,6 +2560,7 @@ const portfolioItems = [
     code: "TFFDD-095",
     imgSrc: chair95,
     size: "L600~1050 X H2080MM",
+    button: "Details"
   },
   {
     id: 601,
@@ -2391,6 +2569,7 @@ const portfolioItems = [
     code: "TFFDD-096",
     imgSrc: chair96,
     size: "L600~1050 X H2080MM",
+    button: "Details"
   },
 
   ////                              ------------      PLASTIC  (101- )           --------------
@@ -2410,6 +2589,7 @@ const portfolioItems = [
     title: "RECTANGULAR TABLE STEEL",
     code: "24111/24112/24113/24114/24115",
     color: "#ba5645/#336699/#009999/#563933/#8c765a",
+    button: "Details"
   },
   {
     id: 103,
@@ -2418,6 +2598,7 @@ const portfolioItems = [
     title: "OVAL TABLE STEEL",
     code: "24153/24154/24155",
     color: "#563933/#8c765a/#425247",
+    button: "Details"
   },
   {
     id: 104,
@@ -2426,6 +2607,7 @@ const portfolioItems = [
     title: "OVAL TABLE PLASTIC",
     code: "24143/24144/24145",
     color: "#563933/#8c765a/#425247",
+    button: "Details"
   },
   //    image valo nah
   // {
@@ -2454,6 +2636,7 @@ const portfolioItems = [
     title: "BABY POTI",
     code: "17001",
     color: "RED",
+    button: "Details"
   },
 
   // {
@@ -2468,6 +2651,7 @@ const portfolioItems = [
     title: "SOAP CASE(BEAUTY)",
     code: "17165/17166",
     color: "PINK/YELLOW",
+    button: "Details"
   },
   {
     id: 111,
@@ -2476,6 +2660,7 @@ const portfolioItems = [
     title: "BEVERAGE MUG",
     code: "14214/14215/14216",
     color: "#006600/PINK/YELLOW",
+    button: "Details"
     // size : "OVEL"
   },
   {
@@ -2485,6 +2670,7 @@ const portfolioItems = [
     title: "LID BOWL",
     code: "12100/12101",
     color: "pink/white",
+    button: "Details"
   },
   {
     id: 113,
@@ -2493,6 +2679,7 @@ const portfolioItems = [
     title: "CHOPPING BOARD",
     code: "17061",
     color: "white",
+    button: "Details"
   },
   {
     id: 114,
@@ -2501,6 +2688,7 @@ const portfolioItems = [
     title: "CLASSIC DUST PAN",
     code: "17044/17045",
     color: "#006600/blue",
+    button: "Details"
   },
 
   // CHAIR
@@ -2520,6 +2708,7 @@ const portfolioItems = [
     title: "READING TABLE  ",
     code: "24161/24162/24163/24164",
     color: "#ba5645/#336699/#ba5645/#336699",
+    button: "Details"
   },
   {
     id: 119,
@@ -2528,6 +2717,7 @@ const portfolioItems = [
     title: "ROUND TABLE",
     code: "24126/24127/24128/24129/24130",
     color: "#ba5645/#336699/#4e2d26/#a6976f/#004d4d",
+    button: "Details"
   },
   {
     id: 177,
@@ -2536,6 +2726,7 @@ const portfolioItems = [
     title: "COFFEE TABLE",
     code: "24172/24173/24174/24175",
     color: "#336699/#4e2d26/#a6976f/#004d4d",
+    button: "Details"
   },
 
   {
@@ -2545,6 +2736,7 @@ const portfolioItems = [
     title: "RELAX CHAIR(BATON)",
     code: "21161/21162/21163/21164/21165/21166/21167",
     color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
+    button: "Details"
   },
 
   {
@@ -2554,6 +2746,7 @@ const portfolioItems = [
     title: "KING SUPER CHAIR(BATON)",
     code: "21137",
     color: "#9c8363",
+    button: "Details"
   },
 
   //                                    BUCKET START
@@ -2565,7 +2758,8 @@ const portfolioItems = [
     title: "SPOUT BUCKET",
     size: "16/20 Ltr.",
     code: "11350/11351/11356/11357",
-    color: "	 #0033cc/#cc00cc/#0033cc/#cc00cc"
+    color: "	 #0033cc/#cc00cc/#0033cc/#cc00cc",
+    button: "Details"
   },
   {
     id: 122,
@@ -2574,7 +2768,8 @@ const portfolioItems = [
     title: "SPOUT BUCKET",
     size: "16/20 Ltr.",
     code: "11350/11351/11356/11357",
-    color: "#0033cc/#cc00cc/#0033cc/#cc00cc"
+    color: "#0033cc/#cc00cc/#0033cc/#cc00cc",
+    button: "Details"
   },
   {
     id: 207,
@@ -2584,6 +2779,7 @@ const portfolioItems = [
     code: "11306/11308/11311/11317/11321/11326/11331",
     color: "BLUE/BLUE/BLUE/BLUE/BLUE/BLUE/BLUE",
     size: "5,8,10,16,20,25,30 Ltr.",
+    button: "Details"
   },
 
   {
@@ -2594,6 +2790,7 @@ const portfolioItems = [
     code: "11241/11246/11252/11256/11259/11262/11265/11268/11271",
     color: "blue/blue/blue/blue/blue/blue/blue/blue/blue",
     size: "4,8,12,15,18,20,22,25,30 Ltr.",
+    button: "Details"
   },
 
   {
@@ -2604,6 +2801,7 @@ const portfolioItems = [
     code: "11305/11307/11310/11316/11320/11325/11330",
     color: "RED/RED/RED/RED/RED/RED/RED",
     size: " 5,8,10,16,20,25,30 Ltr.",
+    button: "Details"
   },
   {
     id: 134,
@@ -2613,6 +2811,7 @@ const portfolioItems = [
     code: "11141/11147/11150/11153/11157/11162/11170",
     color: "blue/blue/blue/blue/blue/blue/blue",
     size: " 8,12,15,20,22,25,30 Ltr.",
+    button: "Details"
   },
   {
     id: 135,
@@ -2622,6 +2821,7 @@ const portfolioItems = [
     size: "75 Ltr.",
     code: "11465/11466",
     color: "#2db300/#006600",
+    button: "Details"
   },
   {
     id: 193,
@@ -2631,6 +2831,7 @@ const portfolioItems = [
     code: "11140/11146/11149/11152/11156/11161/11169",
     color: "RED/RED/RED/RED/RED/RED/RED",
     size: "8,12,15,20,22,25,30 Ltr.",
+    button: "Details"
   },
   {
     id: 194,
@@ -2641,6 +2842,7 @@ const portfolioItems = [
     color: "RED/RED/RED/RED/RED/RED/RED/RED/RED",
     sameColor: "RED",
     size: "4,8,12,15,18,20,22,25,30 Ltr.",
+    button: "Details"
   },
   
   {
@@ -2651,6 +2853,7 @@ const portfolioItems = [
     code: "11105/11106/11107/11108/11110/11111/11116/11117/11120/11121/11125/11126/11130/11131",
     color: "RED/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue",
     size: "5,8,10,16,20,25,30 Ltr.",
+    button: "Details"
   },
 
   {
@@ -2661,6 +2864,7 @@ const portfolioItems = [
     code: "11205/11207/11210/11216/11220/11225/11230",
     color: "RED/RED/RED/RED/RED/RED/RED",
     size: "5,8,10,16,20,25,30 Ltr.",
+    button: "Details"
   },
 
   {
@@ -2671,6 +2875,7 @@ const portfolioItems = [
     code: "11385/11386/11387/11391/11392/11393",
     color: "red/blue/#006600/red/blue/#006600",
     size: "16, 20 Ltr.",
+    button: "Details"
   },
 
   ///                                BUCKET END      
@@ -2683,6 +2888,7 @@ const portfolioItems = [
     code: "17134",
     color: "rgba(0,0,0,0.3)",
     size: "700, 1500, 2200ml",
+    button: "Details"
   },
   {
     id: 124,
@@ -2692,6 +2898,7 @@ const portfolioItems = [
     code: "17181/17182",
     color: "#8080ff/#ffe6f1",
     size: "3,5,7,10 Ltr",
+    button: "Details"
   },
   {
     id: 125,
@@ -2700,6 +2907,7 @@ const portfolioItems = [
     title: "TIFFIN BOX",
     code: "17011/17012",
     color: "#8080ff/#ffe6f1",
+    button: "Details"
   },
   {
     id: 126,
@@ -2708,6 +2916,7 @@ const portfolioItems = [
     title: "TRANSPARENT DESIGN BATI",
     code: "12103/12104",
     color: "PINK/#4682b4",
+    button: "Details"
   },
   {
     id: 127,
@@ -2717,6 +2926,7 @@ const portfolioItems = [
     code: "12114/12115",
     color: "#ffe6f1/#8080ff",
     size: "1500ml",
+    button: "Details"
   },
 
   {
@@ -2726,6 +2936,7 @@ const portfolioItems = [
     title: "COFFEE MUG",
     code: "12114/12115",
     color: "#006600/#6F4E37",
+    button: "Details"
   },
   {
     id: 131,
@@ -2734,6 +2945,7 @@ const portfolioItems = [
     title: "DECO(E-MAT)",
     code: "21431/21432/21433/21434/21435",
     color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+    button: "Details"
   },
   {
     id: 132,
@@ -2742,6 +2954,7 @@ const portfolioItems = [
     title: "DECO(RING)",
     code: "21411/21412/21413/21414/21415",
     color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+    button: "Details"
   },
   // {
   //   id: 128,
@@ -2757,6 +2970,7 @@ const portfolioItems = [
     title: "PRESIDENT CHAIR",
     code: "21151/21152/21154/21155/21157",
     color: "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
+    button: "Details"
   },
   {
     id: 136,
@@ -2765,6 +2979,7 @@ const portfolioItems = [
     title: "BABY CHAIR(DESIGN)",
     code: "22101/22102",
     color: "#ba5645/#336699",
+    button: "Details"
   },
   {
     id: 137,
@@ -2774,6 +2989,7 @@ const portfolioItems = [
     code: "16212/16213/16214",
     color: "red/blue/orange",
     size: "OVAL/ OVAL/ OVAL",
+    button: "Details"
   },
   {
     id: 138,
@@ -2782,6 +2998,7 @@ const portfolioItems = [
     title: "PAPER TRAY",
     code: "15210/15211",
     color: "#7B3F00/gray",
+    button: "Details"
   },
   {
     id: 139,
@@ -2791,6 +3008,7 @@ const portfolioItems = [
     code: "17081/17082/17084/17085/17087/17088",
     color: "red/blue/RED/BLUE/RED/BLUE",
     size: "26/26/32/32/36/36 CM",
+    button: "Details"
   },
   {
     id: 140,
@@ -2799,6 +3017,7 @@ const portfolioItems = [
     title: "DISH RACK",
     code: "16209/16210/16211",
     color: "red/blue/ORANGE",
+    button: "Details"
   },
   {
     id: 141,
@@ -2807,6 +3026,7 @@ const portfolioItems = [
     title: "GROCERY PAN",
     code: "14218/14219",
     color: " #006600/blue",
+    button: "Details"
   },
   {
     id: 142,
@@ -2816,6 +3036,7 @@ const portfolioItems = [
     code: "23101/23102",
     color: "RED/BLUE",
     size: "Medium",
+    button: "Details"
   },
   {
     id: 143,
@@ -2825,6 +3046,7 @@ const portfolioItems = [
     code: "23213/23313",
     color: "teal/yellow",
     size: "HIGH/MEDIUM",
+    button: "Details"
   },
   {
     id: 144,
@@ -2834,6 +3056,7 @@ const portfolioItems = [
     code: "23201/23202",
     color: "RED/BLUE",
     size: "MEDIUM",
+    button: "Details"
   },
   {
     id: 145,
@@ -2843,6 +3066,7 @@ const portfolioItems = [
     code: "24201/24204/24207/24202/24205/24208",
     color: "RED/RED/RED/BLUE/BLUE/BLUE",
     size: "500ML,1.5Ltr,2Ltr,500ML,1.5Ltr,2Ltr",
+    button: "Details"
   },
   {
     id: 146,
@@ -2852,6 +3076,7 @@ const portfolioItems = [
     code: "24226/24227/24228",
     color: "RED/BLUE/#006600",
     size: "500ML,1.5Ltr,2Ltr,500ML,1.5Ltr,2Ltr",
+    button: "Details"
   },
   {
     id: 147,
@@ -2860,6 +3085,7 @@ const portfolioItems = [
     title: "NOODLES NET",
     code: "12106/12107/12108",
     color: "#006600/YELLOW/RED",
+    button: "Details"
   },
   {
     id: 149,
@@ -2868,6 +3094,7 @@ const portfolioItems = [
     title: "OVAL SOAP CASE",
     code: "17155/17156",
     color: "PINK/YELLOW",
+    button: "Details"
   },
 
   {
@@ -2877,6 +3104,7 @@ const portfolioItems = [
     title: "DISPOSIBLE PLATE",
     code: "17150/17151",
     color: "	#00FFFF/#006600",
+    button: "Details"
   },
   {
     id: 151,
@@ -2885,6 +3113,7 @@ const portfolioItems = [
     title: "PAPER WASTAGE",
     code: "15201/15202",
     color: "red/blue",
+    button: "Details"
   },
   {
     id: 152,
@@ -2893,6 +3122,7 @@ const portfolioItems = [
     title: "SHIRT HANGER",
     code: "17023/17024/17025",
     color: "red/blue/#00b300",
+    button: "Details"
   },
   {
     id: 163,
@@ -2901,6 +3131,7 @@ const portfolioItems = [
     title: "COAT HANGER",
     code: "17020/17021/17022",
     color: "red/blue/#00b300",
+    button: "Details"
   },
   {
     id: 153,
@@ -2909,6 +3140,7 @@ const portfolioItems = [
     title: "SHOE RACK",
     code: "16204/16205/16206",
     color: "red/brown/blue",
+    button: "Details"
   },
   // {
   //   id: 154,
@@ -2929,6 +3161,7 @@ const portfolioItems = [
     title: "SPICE TRAY(MULTI)",
     code: "17034/17035/17036/17037/17038/17039",
     color: "red/blue/PINK/yellow/white/#006600",
+    button: "Details"
   },
   {
     id: 157,
@@ -2937,6 +3170,7 @@ const portfolioItems = [
     title: "SPICE TRAY",
     code: "17031",
     color: "red",
+    button: "Details"
   },
   {
     id: 129,
@@ -2946,6 +3180,7 @@ const portfolioItems = [
     code: "17065/17070",
     color: "BLUE/BLUE",
     size: "2Ltr., 2.25Ltr.",
+    button: "Details"
   },
   {
     id: 162,
@@ -2954,6 +3189,7 @@ const portfolioItems = [
     title: "WALL HANGER",
     code: "17003/17004",
     color: "#80ff80/#006600",
+    button: "Details"
   },
   {
     id: 164,
@@ -2963,6 +3199,7 @@ const portfolioItems = [
     code: "12118/12131/12141/12151/12161",
     color: "RED/RED/RED/RED/RED",
     size: "3,8,15,20,25 Ltr",
+    button: "Details"
   },
 
   {
@@ -2973,6 +3210,7 @@ const portfolioItems = [
     code: "12110/12111",
     color: "RED/BLUE",
     size: "700ml",
+    button: "Details"
   },
   {
     id: 166,
@@ -2982,6 +3220,7 @@ const portfolioItems = [
     color: "RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue",
     code: "12165/12168/12171/12175/12180/12185/12188/12191/12195/12166/12169/12172/12176/12181/12186/12189/12192/12196",
     size: "3,5,8,10,15,20,25,30,35 Ltr.",
+    button: "Details"
   },
   {
     id: 167,
@@ -2990,6 +3229,7 @@ const portfolioItems = [
     title: "BATH TAB",
     code: "17051/17052",
     color: "RED/WHITE",
+    button: "Details"
   },
 
   {
@@ -3000,6 +3240,7 @@ const portfolioItems = [
     code: "17160/17161",
     color: "PINK/YELLOW",
     size: "RECTANGULAR",
+    button: "Details"
   },
   {
     id: 170,
@@ -3008,6 +3249,7 @@ const portfolioItems = [
     title: "RELAX CHAIR(DESIGN)",
     code: "21171/21172/21174/21175/21176/21177",
     color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
+    button: "Details"
   },
   {
     id: 171,
@@ -3016,6 +3258,7 @@ const portfolioItems = [
     title: "DECO(FLOWER)",
     code: "21401/21402/21403/21404/21405",
     color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+    button: "Details"
   },
   {
     id: 172,
@@ -3024,6 +3267,7 @@ const portfolioItems = [
     title: "DECO(STICK)",
     code: "21421/21422/21423/21424/21425",
     color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+    button: "Details"
   },
   {
     id: 173,
@@ -3032,6 +3276,7 @@ const portfolioItems = [
     title: "DINNING CHAIR(E-MAT)",
     code: "21221/21222/21223/21224/21225",
     color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+    button: "Details"
   },
 
   {
@@ -3041,6 +3286,7 @@ const portfolioItems = [
     title: "GARDEN CHAIR(FLOWER)",
     code: "21161/21162/21163/21164/21165/21166",
     color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d",
+    button: "Details"
   },
 
   {
@@ -3050,6 +3296,7 @@ const portfolioItems = [
     title: "GOLDEN CHAIR(STICK)",
     code: "21321/21322/21323/21324/21325",
     color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+    button: "Details"
   },
 
   {
@@ -3059,6 +3306,7 @@ const portfolioItems = [
     title: "  GARDEN CHAIR(E-MAT)",
     code: "21331/21332/21333/21334/21335",
     color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+    button: "Details"
   },
 
   {
@@ -3068,6 +3316,7 @@ const portfolioItems = [
     title: "KING SUPER CHAIR(DESIGN)",
     code: "21141/21142/21143/21144/21145/21146/21147",
     color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
+    button: "Details"
   },
 
   {
@@ -3077,6 +3326,7 @@ const portfolioItems = [
     title: "PRESIDENT CHAIR",
     code: "21181/21182/21183/21184/21185",
     color: "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
+    button: "Details"
   },
 
   {
@@ -3086,6 +3336,7 @@ const portfolioItems = [
     title: "DINNING CHAIR(DESIGN)",
     code: "21201/21202/21203/21204/21205",
     color: "#ba5645/#336699/#009999/#563933/#8c765a",
+    button: "Details"
   },
 
   {
@@ -3095,6 +3346,7 @@ const portfolioItems = [
     title: "DINNING CHAIR(4 STICK)",
     code: "21211/21212/21213/21214/21215",
     color: "#ba5645/#336699/#009999/#563933/#8c765a",
+    button: "Details"
   },
 
   {
@@ -3104,6 +3356,7 @@ const portfolioItems = [
     title: "CROWN CHAIR(DESIGN)",
     code: "21231/21232/21234/21235/21236/21237",
     color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
+    button: "Details"
   },
 
   {
@@ -3113,6 +3366,7 @@ const portfolioItems = [
     title: "CROWN CHAIR(BATON)",
     code: "21251/21252/21254/21255/21256/21257",
     color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
+    button: "Details"
   },
 
   {
@@ -3123,6 +3377,7 @@ const portfolioItems = [
     code: "15250/15251/15252",
     color: "#ba5645/#336699/#e68a00",
     size: "RECTANGULAR",
+    button: "Details"
   },
 
   {
@@ -3132,6 +3387,7 @@ const portfolioItems = [
     title: "LAUNDRY BASKET",
     code: "15206/15207/15208",
     color: "RED/BLUE/YELLOW",
+    button: "Details"
   },
   {
     id: 186,
@@ -3141,6 +3397,7 @@ const portfolioItems = [
     code: "17124",
     color: "RGBA(0,0,0,0.3)",
     size: "1000,2000,3000 ml",
+    button: "Details"
   },
 
   {
@@ -3151,6 +3408,7 @@ const portfolioItems = [
     code: "23101/23102",
     color: "red/blue",
     size: "short",
+    button: "Details"
   },
   {
     id: 188,
@@ -3160,6 +3418,7 @@ const portfolioItems = [
     code: "13115/13116",
     color: "red/blue",
     size: "3Ltr.",
+    button: "Details"
   },
   {
     id: 189,
@@ -3169,6 +3428,7 @@ const portfolioItems = [
     code: "13108/13109/13111/13112",
     color: "red/blue/pink/ #4d4dff",
     size: "3Ltr.",
+    button: "Details"
   },
   {
     id: 190,
@@ -3178,6 +3438,7 @@ const portfolioItems = [
     code: "13101/13102/13105/13106",
     color: "red/blue/red/blue",
     size: "2.5, 2.5, 3 ,3Ltr.",
+    button: "Details"
   },
   {
     id: 191,
@@ -3186,6 +3447,7 @@ const portfolioItems = [
     title: "DRINKING GLASS",
     code: "14222/14223",
     color: "#00cc00/PINK",
+    button: "Details"
   },
   {
     id: 192,
@@ -3195,6 +3457,7 @@ const portfolioItems = [
     code: "17144",
     color: "RGBA(0,0,0,0.3)",
     size: "1800,2800,4200 ml",
+    button: "Details"
   },
   {
     id: 196,
@@ -3203,6 +3466,7 @@ const portfolioItems = [
     title: "DUST PAN",
     code: "17041/17042",
     color: "RED/BLUE",
+    button: "Details"
   },
   // again bucket start
 
@@ -3225,6 +3489,7 @@ const portfolioItems = [
     code: "17028/17029",
     color: "#ffb3b3/#b3b3ff",
     size: "5,8,10,16,20,25,30 Ltr.",
+    button: "Details"
   },
 
   {
@@ -3235,6 +3500,7 @@ const portfolioItems = [
     code: "16201/16202/16203",
     color: "RED/BLUE/ORANGE",
     size: "SQUARE",
+    button: "Details"
   },
 
   {
@@ -3245,6 +3511,7 @@ const portfolioItems = [
     code: "16216/16217",
     color: "RED/BLUE",
     size: "SQUARE",
+    button: "Details"
   },
 
   {
@@ -3255,6 +3522,7 @@ const portfolioItems = [
     code: "17095/17096/17101/17102",
     color: "RED/BLUE/RED/BLUE",
     size: "32, 36 Cm",
+    button: "Details"
   },
 
   // {
@@ -3295,6 +3563,7 @@ const portfolioItems = [
     title: "EGG BOX",
     code: "17013/17014",
     color: "YELLOW/PINK",
+    button: "Details"
   },
   //                                    waredrobe
   
@@ -3305,6 +3574,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-001",
     color: "",
+    button: "Details"
   },
   {
     id: 208,
@@ -3313,6 +3583,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-002",
     color: "",
+    button: "Details"
   },
   {
     id: 209,
@@ -3321,6 +3592,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-003",
     color: "",
+    button: "Details"
   },
   {
     id: 210,
@@ -3329,6 +3601,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-004",
     color: "",
+    button: "Details"
   },
   {
     id: 211,
@@ -3337,6 +3610,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-005",
     color: "",
+    button: "Details"
   },
   {
     id: 212,
@@ -3345,6 +3619,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-006",
     color: "",
+    button: "Details"
   },
   {
     id: 213,
@@ -3353,6 +3628,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-007",
     color: "",
+    button: "Details"
   },
   {
     id: 214,
@@ -3361,6 +3637,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-008",
     color: "",
+    button: "Details"
   },
   {
     id: 215,
@@ -3369,6 +3646,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-009",
     color: "",
+    button: "Details"
   },
   {
     id: 216,
@@ -3377,6 +3655,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-010",
     color: "",
+    button: "Details"
   },
   {
     id: 217,
@@ -3385,6 +3664,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-011",
     color: "",
+    button: "Details"
   },
   {
     id: 218,
@@ -3393,6 +3673,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-012",
     color: "",
+    button: "Details"
   },
   {
     id: 219,
@@ -3401,6 +3682,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-013",
     color: "",
+    button: "Details"
   },
   {
     id: 220,
@@ -3409,6 +3691,7 @@ const portfolioItems = [
     title: "waredrobe",
     code: "ware-014",
     color: "",
+    button: "Details"
   },
    
    //   //    //                                      upvc
