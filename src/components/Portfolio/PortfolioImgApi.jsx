@@ -1087,17 +1087,6 @@ const portfolioItems = [
     button: "Details"
   },
 
-  // HEAVY DUTY RACK
-
-  {
-    id: 70,
-    title: "HEAVY DUTY RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFHDR-070",
-    size: "L2400 X W600 X H2400mm",
-    imgSrc: tbl70,
-    button: "Details"
-  },
 
   // WALL MOUNTED CABINET
   {
@@ -1205,7 +1194,7 @@ const portfolioItems = [
   },
 
   
-  // INDUSTRIAL FURNITURE
+  // INDUSTRIAL FURNITURE (Rack)
   {
     id: 100,
     title: "SLOTTED ANGLE RACK",
@@ -1567,7 +1556,16 @@ const portfolioItems = [
     imgSrc: rack20,
     button: "Details"
   },
-
+    // HEAVY DUTY RACK
+  {
+    id: 720,
+    title: "HEAVY DUTY RACK",
+    category: "INDUSTRIAL FURNITURE",
+    code: "TFHDR-070",
+    size: "L2400 X W600 X H2400mm",
+    imgSrc: tbl70,
+    button: "Details"
+  },
 
   ///                             OFFICE FURNITURE CHAIR -> (501 - )
 
@@ -2609,6 +2607,7 @@ const portfolioItems = [
     color: "#563933/#8c765a/#425247",
     button: "Details"
   },
+
   //    image valo nah
   // {
   //   id: 105,
