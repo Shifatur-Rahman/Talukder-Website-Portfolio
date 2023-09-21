@@ -164,6 +164,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                       )} */}
 
                     </div>
+
+
                     <div className="product-description flow">
                       <p className="text-uppercase fw-700 fs-100 letter-spacing-1 Orange">
                         {/* Talukder Group of Industries */}
@@ -222,6 +224,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           Add to cart
                         </button>
                       </div>
+
                     </div>
                   </div>
 
