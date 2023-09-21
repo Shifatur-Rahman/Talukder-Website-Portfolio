@@ -81,9 +81,7 @@ const UpvcModal1 = (props) => {
 
 
       <div className='upvcModal'>
-
-        <h4 className='upvcModalTitle'>{title}</h4>
-
+        <h4 className='upvcModalTitle'>Name: {title}</h4>
         <div>
           <div className="upvcTable">
             <Table responsive="sm" className="table-info">
@@ -97,25 +95,27 @@ const UpvcModal1 = (props) => {
 
               <tbody className="upvcTableBody">
                 <tr>
+                  
                   <td>
-                    {pCode.split("/").map((code, index) => (
+                    {code.split("/").map((code, index) => (
                       <p key={index}>{code}</p>
                     ))}
                   </td>
 
                   <td>
-                    {pSize.split("/").map((size, index) => (
+                    {size.split("/").map((size, index) => (
                       <p key={index}>{size}</p>
                     ))}
                   </td>
 
                   {thickness && (
                     <td>
-                      {pThickness.split("/").map((thickness, index) => (
+                      {thickness.split("/").map((thickness, index) => (
                         <p key={index}>{thickness}</p>
                       ))}
                     </td>
                   )}
+
                 </tr>
               </tbody>
             </Table>

@@ -46,17 +46,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
           totalProduct.map((singleItem) => {
             if (singleItem.id == id) {
               return (
-
-                // <div className='grid-container'> 
-                //   <div key={singleItem.id} className="grid-item-one">
-                //     <img src={`${singleItem.imgSrc}`} alt="single product" />
-                //   </div>
-                //   <div key={singleItem.id} className="grid-item-two" style={{backgroundColor: ""}}>
-                //   <img className='tgLogo' src={tgLogo} alt="Logo" />
-                //     <p>{singleItem.id}</p>
-                //     <p>{singleItem.title}</p>
-                //   </div>
-                // </div>
                 
                 <main style={{ marginTop: "5rem" }} className="product">
                   <div className="container-md grid product-container">
@@ -210,19 +199,17 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         </TabList>
                       </Box>
 
-                      <TabPanel value="1">
+                        <TabPanel value="1">
 
-                      <span style={{color:"#ff7d1a", fontSize:"14px"}}>Product Code: <span style={{color: "green"}}> {singleItem.code} </span> </span> <br />
-                      <span style={{color:"#ff7d1a"}}> Product Name: {singleItem.title} </span>
+                          <span>Code: {singleItem.code}</span>
 
-
-                      </TabPanel>
+                        </TabPanel>
 
 
                       <TabPanel value="2">
-
+                        {/* <span>Size: <span>{singleItem.size}</span></span> */}
+                        <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
                       </TabPanel>
-
 
                       <TabPanel value="3">
 
@@ -232,7 +219,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                   </Box>
 
                   </Container>
-
 
                 </main>
               )
