@@ -15,6 +15,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import { Container } from 'react-bootstrap';
+import UpvcModal1 from '../UpvcModal1/UpvcModal1';
 
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
 
@@ -29,7 +30,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
   let { id } = useParams();
 
   const [value, setValue] = React.useState('1');
-
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -199,15 +199,28 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                   <Box sx={{ width: '100%', typography: 'body1' }}>
                     <TabContext value={value}>
                       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                        <TabList onChange={handleChange} aria-label="lab API tabs example">
+                        <TabList onChange={handleChange} aria-label="lab API tabs example" textColor="primary">
                           <Tab label="Description" value="1" />
                           <Tab label="Material Information" value="2" />
                           <Tab label="Warrenty" value="3" />
                         </TabList>
                       </Box>
-                      <TabPanel value="1">Item One</TabPanel>
-                      <TabPanel value="2">Item Two</TabPanel>
-                      <TabPanel value="3">Item Three</TabPanel>
+
+                      <TabPanel value="1">
+
+                      <span style={{color:"#ff7d1a", fontSize:"14px"}}>Product Code: <span style={{color: "green"}}> {singleItem.code} </span> </span> <br />
+                      <span style={{color:"#ff7d1a"}}> Product Name: {singleItem.title} </span>
+
+
+                      </TabPanel>
+                      <TabPanel value="2">
+                      <UpvcModal1 />
+
+                      </TabPanel>
+                      <TabPanel value="3">
+
+
+                      </TabPanel>
                     </TabContext>
                   </Box>
 

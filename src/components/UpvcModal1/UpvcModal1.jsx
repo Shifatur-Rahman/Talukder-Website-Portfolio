@@ -26,14 +26,14 @@ const UpvcModal1 = (props) => {
   return (
     <>
 
-      {values.map((v, idx) => (
+      {/* {values.map((v, idx) => (
         <Button key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
           Details
           {typeof v === 'string' && `below ${v.split('-')[0]}`}
         </Button>
-      ))}
+      ))} */}
 
-      <Modal className='upvcModal' size="lg" show={show} lgShow={lgShow} onHide={() => setShow(false)}>
+      {/* <Modal className='upvcModal' size="lg" show={show} lgShow={lgShow} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
           <h4 className='upvcModalTitle'>{title}</h4>
         </Modal.Header>
@@ -76,7 +76,53 @@ const UpvcModal1 = (props) => {
           </div>
         </Modal.Body>
 
-      </Modal>
+      </Modal> */}
+
+
+
+      <div className='upvcModal'>
+
+        <h4 className='upvcModalTitle'>{title}</h4>
+
+        <div>
+          <div className="upvcTable">
+            <Table responsive="sm" className="table-info">
+              <thead>
+                <tr className="upvcTableTr">
+                  <th>Code</th>
+                  <th>Nominal Diameter X Length</th>
+                  {thickness && <th>Thickness(mm)</th>}
+                </tr>
+              </thead>
+
+              <tbody className="upvcTableBody">
+                <tr>
+                  <td>
+                    {pCode.split("/").map((code, index) => (
+                      <p key={index}>{code}</p>
+                    ))}
+                  </td>
+
+                  <td>
+                    {pSize.split("/").map((size, index) => (
+                      <p key={index}>{size}</p>
+                    ))}
+                  </td>
+
+                  {thickness && (
+                    <td>
+                      {pThickness.split("/").map((thickness, index) => (
+                        <p key={index}>{thickness}</p>
+                      ))}
+                    </td>
+                  )}
+                </tr>
+              </tbody>
+            </Table>
+          </div>
+        </div>
+
+      </div>
 
 
         {/* <Modal.Header>
