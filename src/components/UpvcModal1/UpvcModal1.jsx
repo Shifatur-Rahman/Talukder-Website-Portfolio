@@ -5,7 +5,7 @@ import "./UpvcModal1.css"
 
 const UpvcModal1 = (props) => {
 
-    const { title, category, code, size, thickness, img } = props;
+    const { title, category, code, size, thickness, img, id } = props;
     const values = [true];
     const [lgShow, setLgShow] = useState(true);
     const [show, setShow] = useState(false);

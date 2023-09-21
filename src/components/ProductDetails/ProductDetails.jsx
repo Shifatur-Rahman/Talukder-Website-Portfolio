@@ -17,10 +17,14 @@ import TabPanel from '@mui/lab/TabPanel';
 import { Container } from 'react-bootstrap';
 import UpvcModal1 from '../UpvcModal1/UpvcModal1';
 
+
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
 
   const [currentProductImage, setCurrentProductImage] = useState(0);
   const [lightbox, setLightbox] = useState(false);
+
+  const [pThickness, setPThickness] = useState("");
+
 
   const handleAddToCart = () => {
     setCartProductQuantity((prevState) => prevState + productQuantity);
@@ -213,14 +217,17 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
 
                       </TabPanel>
+
+
                       <TabPanel value="2">
-                      <UpvcModal1 />
 
                       </TabPanel>
+
+
                       <TabPanel value="3">
 
-
                       </TabPanel>
+
                     </TabContext>
                   </Box>
 
