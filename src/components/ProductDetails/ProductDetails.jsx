@@ -121,48 +121,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           />
                         </div>
                       </div>
-
-                      {/* {window.innerWidth <= 768 && (
-                        <>
-                          <button
-                            onClick={() =>
-                              setCurrentProductImage((prevState) =>
-                                prevState === 0 ? portfolioItems.length - 1 : prevState - 1,
-                              )
-                            }
-                            className="lightbox-control control-prev"
-                          >
-                            <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
-                              <path
-                                d="M11 1 3 9l8 8"
-                                stroke="#1D2026"
-                                strokeWidth="3"
-                                fill="none"
-                                fillRule="evenodd"
-                              />
-                            </svg>
-                          </button>
-                          <button
-                            onClick={() =>
-                              setCurrentProductImage((prevState) =>
-                                prevState === portfolioItems.length - 1 ? 0 : prevState + 1,
-                              )
-                            }
-                            className="lightbox-control control-next"
-                          >
-                            <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
-                              <path
-                                d="m2 1 8 8-8 8"
-                                stroke="#1D2026"
-                                strokeWidth="3"
-                                fill="none"
-                                fillRule="evenodd"
-                              />
-                            </svg>
-                          </button>
-                        </>
-                      )} */}
-
                     </div>
 
 
@@ -228,10 +186,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                     </div>
                   </div>
 
-
                {/* Product description */}
-
-
 
 
                 </main>
