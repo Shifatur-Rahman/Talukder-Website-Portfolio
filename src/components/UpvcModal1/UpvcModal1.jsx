@@ -12,16 +12,15 @@ const UpvcModal1 = (props) => {
     const [pCode, setPCode] = useState("");
     const [pSize, setPSize] = useState("");
     const [pThickness, setPThickness] = useState("");
+  
     
-    // img={item.imgSrc}    
-    
-    function handleShow(breakpoint) {
-        setLgShow(breakpoint);
-        setShow(true);
-        setPCode(code);
-        setPSize(size);
-        setPThickness(thickness);
-    }
+    // function handleShow(breakpoint) {
+    //     setLgShow(breakpoint);
+    //     setShow(true);
+    //     setPCode(code);
+    //     setPSize(size);
+    //     setPThickness(thickness);
+    // }
 
   return (
     <>
@@ -95,7 +94,7 @@ const UpvcModal1 = (props) => {
 
               <tbody className="upvcTableBody">
                 <tr>
-                  
+
                   <td>
                     {code.split("/").map((code, index) => (
                       <p key={index}>{code}</p>
