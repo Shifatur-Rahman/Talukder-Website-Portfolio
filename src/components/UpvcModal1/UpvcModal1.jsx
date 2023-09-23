@@ -6,12 +6,12 @@ import "./UpvcModal1.css"
 const UpvcModal1 = (props) => {
 
     const { title, category, code, size, thickness, img, id } = props;
-    const values = [true];
-    const [lgShow, setLgShow] = useState(true);
-    const [show, setShow] = useState(false);
-    const [pCode, setPCode] = useState("");
-    const [pSize, setPSize] = useState("");
-    const [pThickness, setPThickness] = useState("");
+    // const values = [true];
+    // const [lgShow, setLgShow] = useState(true);
+    // const [show, setShow] = useState(false);
+    // const [pCode, setPCode] = useState("");
+    // const [pSize, setPSize] = useState("");
+    // const [pThickness, setPThickness] = useState("");
   
     
     // function handleShow(breakpoint) {
@@ -80,15 +80,15 @@ const UpvcModal1 = (props) => {
 
 
       <div className='upvcModal'>
-        <h4 className='upvcModalTitle'>Name: {title}</h4>
+        <h4 className='upvcModalTitle'> Product Name: {title}</h4>
         <div>
           <div className="upvcTable">
             <Table responsive="sm" className="table-info">
               <thead>
-                <tr className="upvcTableTr">
-                  <th>Code</th>
-                  <th>Nominal Diameter X Length</th>
-                  {thickness && <th>Thickness(mm)</th>}
+                <tr style={{padding:"10px"}} className="upvcTableTr">
+                  <th style={{textAlign: "center"}}>Code</th>
+                  <th style={{textAlign: "center"}}>Nominal Diameter X Length</th>
+                  {thickness && <th style={{textAlign: "center"}}>Thickness(mm)</th>}
                 </tr>
               </thead>
 
@@ -97,20 +97,20 @@ const UpvcModal1 = (props) => {
 
                   <td>
                     {code.split("/").map((code, index) => (
-                      <p key={index}>{code}</p>
+                      <p style={{textAlign: "center"}} key={index}>{code}</p>
                     ))}
                   </td>
 
                   <td>
                     {size.split("/").map((size, index) => (
-                      <p key={index}>{size}</p>
+                      <p style={{textAlign: "center"}} key={index}>{size}</p>
                     ))}
                   </td>
 
                   {thickness && (
                     <td>
                       {thickness.split("/").map((thickness, index) => (
-                        <p key={index}>{thickness}</p>
+                        <p style={{textAlign: "center"}} key={index}>{thickness}</p>
                       ))}
                     </td>
                   )}
