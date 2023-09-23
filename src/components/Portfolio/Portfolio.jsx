@@ -156,9 +156,9 @@ const Portfolio = () => {
 
                   <div className="dropdown">
                     <button
-                      value="lged"
+                      value="School Furniture"
                       onClick={handleCategory}
-                      className={isActive("lged")}
+                      className={isActive("School Furniture")}
                     >
                       SCHOOL FURNITURE
                     </button>

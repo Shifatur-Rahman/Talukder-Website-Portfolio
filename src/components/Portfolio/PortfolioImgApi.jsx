@@ -2130,7 +2130,7 @@ const portfolioItems = [
   {
     id: 561,
     title: "CLASSROOM CHAIR",
-    category: "lged",
+    category: "School Furniture",
     code: "TFCRC-061",
     imgSrc: chair61,
     button: "Details"
@@ -2138,7 +2138,7 @@ const portfolioItems = [
   {
     id: 562,
     title: "CLASSROOM CHAIR",
-    category: "lged",
+    category: "School Furniture",
     code: "TFCRC-062",
     imgSrc: chair62,
     button: "Details"
@@ -2146,7 +2146,7 @@ const portfolioItems = [
   {
     id: 563,
     title: "CLASSROOM CHAIR",
-    category: "lged",
+    category: "School Furniture",
     code: "TFCRC-063",
     imgSrc: chair63,
     button: "Details"
@@ -2154,7 +2154,7 @@ const portfolioItems = [
   {
     id: 564,
     title: "CLASSROOM CHAIR",
-    category: "lged",
+    category: "School Furniture",
     code: "TFCRC-064",
     imgSrc: chair64,
     button: "Details"
@@ -2162,7 +2162,7 @@ const portfolioItems = [
   {
     id: 565,
     title: "CLASSROOM CHAIR",
-    category: "lged",
+    category: "School Furniture",
     code: "TFCRC-065",
     imgSrc: chair65,
     button: "Details"
@@ -2171,7 +2171,7 @@ const portfolioItems = [
   {
     id: 568,
     title: "TEACHERS TABLE",
-    category: "lged",
+    category: "School Furniture",
     code: "TFTTS-068",
     imgSrc: chair68,
     size: "L850 X W540 X H780MM",
@@ -2181,7 +2181,7 @@ const portfolioItems = [
   {
     id: 569,
     title: "TEACHERS TABLE",
-    category: "lged",
+    category: "School Furniture",
     code: "TFTTS-069",
     imgSrc: chair69,
     size: "L900 X W500 X H750MM",
@@ -2190,7 +2190,7 @@ const portfolioItems = [
   {
     id: 570,
     title: "PODIUM",
-    category: "lged",
+    category: "School Furniture",
     code: "TFPOD-070",
     imgSrc: chair70,
     size: "L750 X W550 X H1250MM",
@@ -2199,7 +2199,7 @@ const portfolioItems = [
   {
     id: 571,
     title: "PODIUM",
-    category: "lged",
+    category: "School Furniture",
     code: "TFPOD-071",
     imgSrc: chair71,
     size: "L850 X W600 X H1250MM",
@@ -2210,7 +2210,7 @@ const portfolioItems = [
   {
     id: 572,
     title: "FILE CABINET",
-    category: "lged",
+    category: "School Furniture",
     code: "TFSFC-072",
     imgSrc: chair72,
     size: "L482 X W550 X H720MM",
@@ -2219,7 +2219,7 @@ const portfolioItems = [
   {
     id: 573,
     title: "FILE CABINET",
-    category: "lged",
+    category: "School Furniture",
     code: "TFSFC-073",
     imgSrc: chair073,
     size: "L482 X W550 X H1040MM",
@@ -2229,7 +2229,7 @@ const portfolioItems = [
   {
     id: 574,
     title: "FILE CABINET",
-    category: "lged",
+    category: "School Furniture",
     code : "TFSFC-073",
     imgSrc: chair73,
     size: "L482 X W550 X H1370MM",
@@ -2252,7 +2252,7 @@ const portfolioItems = [
   {
     id: 576,
     title: "STEEL ALMIRAH",
-    category: "lged",
+    category: "School Furniture",
     code: "TFSOA-075",
     imgSrc: chair75,
     size: "L900 X W500 X H1850MM",
@@ -2261,7 +2261,7 @@ const portfolioItems = [
   {
     id: 577,
     title: "STEEL ALMIRAH",
-    category: "lged",
+    category: "School Furniture",
     code: "TFSOA-076",
     imgSrc: chair76,
     size: "L910 X W480 X H1930MM",
@@ -2270,7 +2270,7 @@ const portfolioItems = [
   {
     id: 578,
     title: "STEEL ALMIRAH",
-    category: "lged",
+    category: "School Furniture",
     code: "TFSOA-077",
     imgSrc: chair77,
     size: "L910 X W480 X H1930MM",
@@ -2282,7 +2282,7 @@ const portfolioItems = [
   {
     id: 566,
     title: "CLASSROOM TABLE WITH BENCH",
-    category: "lged",
+    category: "School Furniture",
     code: "TFHLB-066",
     imgSrc: chair66,
     size: "L1800 X W400 X H730MM(HIGH BENCH)",
@@ -2292,7 +2292,7 @@ const portfolioItems = [
   {
     id: 567,
     title: "CLASSROOM TABLE WITH BENCH",
-    category: "lged",
+    category: "School Furniture",
     code: "TFHLB-067",
     imgSrc: chair67,
     size: "L1500 X W450 X H750MM(HIGH BENCH)",
@@ -2306,7 +2306,7 @@ const portfolioItems = [
     code: "40103/40034/40104",
     color: "#ba5645/#013220/#05014a",
     size: "Normal/ Extra Hieght/ Special Extra Height",
-    category: "lged",
+    category: "School Furniture",
     imgSrc: lged8,
     button: "Details"
   },
@@ -2339,7 +2339,7 @@ const portfolioItems = [
     code: "40106/40107/40010/40004",
     color: "#ba5645/#05014a/orange/#000",
     size: "Normal/ Extra Hieght/ Special Extra Height",
-    category: "lged",
+    category: "School Furniture",
     imgSrc: lged10,
     button: "Details"
   },
@@ -2349,7 +2349,7 @@ const portfolioItems = [
     code: "40108/40005/40006/40007",
     color: "#ba5645/#05014a/orange/#000",
     size: "550mm(L)X515mm(W)XH850mm(H)",
-    category: "lged",
+    category: "School Furniture",
     imgSrc: lged11,
     button: "Details"
   },
