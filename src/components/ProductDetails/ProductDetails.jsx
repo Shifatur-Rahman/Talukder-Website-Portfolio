@@ -199,20 +199,29 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                 
                          {
                           singleItem.code &&
-                          <span className='singleItemProductTitle'>Code: <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>                        
+                          <span className='singleItemProductTitle'>Code : <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>                        
                          }
                           
-                          <span className='singleItemProductTitle'>Product Name: <span className='singleItemProductValue'> {singleItem.title}</span> </span> <br />
-                          <span className='singleItemProductTitle'>Product Type: <span className='singleItemProductValue'>{singleItem.category}</span> </span>
+                          <span className='singleItemProductTitle'>Product Name : <span className='singleItemProductValue'> {singleItem.title}</span> </span> <br />
+                          <span className='singleItemProductTitle'>Product Type : <span className='singleItemProductValue'>{singleItem.category}</span> </span>
                           
                         </TabPanel>
 
                         <TabPanel value="2">
                           {
-                            singleItem.longCode ?
-                            <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
-                              :
-                            <span className='singleItemProductTitle'>Size: <span className='singleItemProductValue'> {singleItem.size}</span> </span>
+                            singleItem.longCode &&
+                            <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />  
+                          }
+
+                          {
+                            singleItem.size &&
+                            <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size}</span> <br /> </span>
+                          }
+
+                          {
+                            singleItem.size2 &&
+                            <span className='singleItemProductTitle'>Size: <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
+
                           }
 
                           {singleItem.color && singleItem.code && (
