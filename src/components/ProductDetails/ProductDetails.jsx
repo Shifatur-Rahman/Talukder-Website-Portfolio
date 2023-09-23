@@ -196,24 +196,23 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                       </Box>
 
                         <TabPanel value="1">
-
+                
                          {
                           singleItem.code &&
-                          <span className='singleItemProductTitle'>Code: <span className='singleItemProductValue'> {singleItem.code} </span> </span>
+                          <span className='singleItemProductTitle'>Code: <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>                        
                          }
-                         <br />
+                          
                           <span className='singleItemProductTitle'>Product Name: <span className='singleItemProductValue'> {singleItem.title}</span> </span> <br />
                           <span className='singleItemProductTitle'>Product Type: <span className='singleItemProductValue'>{singleItem.category}</span> </span>
-
+                          
                         </TabPanel>
 
                         <TabPanel value="2">
-
                           {
                             singleItem.longCode ?
                             <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
                               :
-                            <span>Size: {singleItem.size}</span>
+                            <span className='singleItemProductTitle'>Size: <span className='singleItemProductValue'> {singleItem.size}</span> </span>
                           }
 
                           {singleItem.color && singleItem.code && (
