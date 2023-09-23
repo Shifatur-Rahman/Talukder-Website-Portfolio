@@ -41,7 +41,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
   return (
     <>
 
-      <div style={{ backgroundColor: "#bfbfbf" }}>
+      <div style={{ backgroundColor: "#e6e6e6" }}>
         {
           totalProduct.map((singleItem) => {
             if (singleItem.id == id) {
@@ -81,7 +81,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         src={`${singleItem.imgSrc}`} 
                         alt="" 
                       /> */}
-
                       </div>
 
                       <div className="thumbnail-wrapper flex">
@@ -201,7 +200,16 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                         <TabPanel value="1">
 
+                         {
+                          singleItem.longCode ? 
+                          <span>long codeeeeee</span> :
                           <span>Code: {singleItem.code}</span>
+                         }
+                         
+                         <br />
+                           
+                          <span>Name: {singleItem.title}</span> <br />
+                          <span>Name: {singleItem.category}</span>
 
                         </TabPanel>
 
