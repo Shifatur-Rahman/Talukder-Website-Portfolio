@@ -254,8 +254,6 @@ const Portfolio = () => {
                               </p>
                             )}
 
-                            
-
                             {item.color && item.code ? (
                               <div style={{ margin: "0 5px" }} className="table-responsive">
                                 <table className="table table-bordered table-sm custom-table">

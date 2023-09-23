@@ -80,10 +80,9 @@ const UpvcModal1 = (props) => {
 
 
       <div className='upvcModal'>
-        <h4 className='upvcModalTitle'> Product Name: {title}</h4>
         <div>
           <div className="upvcTable">
-            <Table responsive="sm" className="table-info">
+            <Table striped bordered hover responsive="sm" className="table-info">
               <thead>
                 <tr style={{padding:"10px"}} className="upvcTableTr">
                   <th style={{textAlign: "center"}}>Code</th>
@@ -122,7 +121,6 @@ const UpvcModal1 = (props) => {
         </div>
 
       </div>
-
 
         {/* <Modal.Header>
           <img src={img} />

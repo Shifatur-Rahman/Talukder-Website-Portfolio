@@ -223,6 +223,73 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <span>Size: {singleItem.size}</span>
                           }
 
+
+                          {singleItem.color && singleItem.code ? (
+                            <div style={{ margin: "0 5px" }} className="table-responsive">
+                              <table className="table table-bordered table-sm custom-table">
+                                <tbody>
+                                  <tr>
+                                    <th
+                                      style={{
+                                        fontSize: "10px",
+                                        fontWeight: "800",
+                                        width: "20px",
+                                      }}
+                                      scope="row"
+                                    >
+                                      Code
+                                    </th>
+                                    {singleItem.code.split("/").map((code, index) => (
+                                      <td
+                                        style={{
+                                          fontSize: "8px",
+                                          textAlign: "center",
+                                          margin: "0",
+                                          padding: "5px 0 0 0",
+                                          width: "5px"
+                                        }}
+                                        key={index}
+                                      >
+                                        {code}
+                                      </td>
+                                    ))}
+                                  </tr>
+                                  <tr>
+                                    <th
+                                      style={{
+                                        fontSize: "10px",
+                                        fontWeight: "800",
+                                        width: "20px"
+                                      }}
+                                      scope="row"
+                                    >
+                                      Color
+                                    </th>
+                                    {singleItem.color.split("/").map((color, index) => (
+                                      <td
+                                        style={{
+                                          backgroundColor: color,
+                                          cursor: "pointer",
+                                          width: "5px"
+                                        }}
+                                        key={index}
+                                      ></td>
+                                    ))}
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          ) :
+                            singleItem.code ? (
+                              <p style={{ marginLeft: "10px" }} className="itemTitle">
+                                <strong>Code : </strong>
+                                {singleItem.code}</p>
+                            ) : (
+                              ""
+                            )}
+
+
+
                         </TabPanel>
 
                       <TabPanel value="3">
