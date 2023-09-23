@@ -4,10 +4,9 @@ import portfolioItems from "../Portfolio/PortfolioImgApi";
 import { useParams } from 'react-router-dom';
 import totalProduct from "../Portfolio/PortfolioImgApi.jsx";
 import tgLogo from "../../asset/images/Logo/talukderLogo.png"
-
-import plusIcon from '../../asset/images/icon-plus.svg';
-import minusIcon from '../../asset/images/icon-minus.svg';
-import { Lightbox } from './Lightbox';
+// import plusIcon from '../../asset/images/icon-plus.svg';
+// import minusIcon from '../../asset/images/icon-minus.svg';
+// import { Lightbox } from './Lightbox';
 import ReactImageMagnify from 'react-image-magnify';
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
@@ -16,15 +15,14 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import { Container } from 'react-bootstrap';
 import UpvcModal1 from '../UpvcModal1/UpvcModal1';
+import { YAxis } from 'recharts';
 
 
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
 
   const [currentProductImage, setCurrentProductImage] = useState(0);
-  const [lightbox, setLightbox] = useState(false);
-
-  const [pThickness, setPThickness] = useState("");
-
+  // const [lightbox, setLightbox] = useState(false);
+  // const [pThickness, setPThickness] = useState("");
 
   const handleAddToCart = () => {
     setCartProductQuantity((prevState) => prevState + productQuantity);
@@ -224,7 +222,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           }
 
                           {singleItem.color && singleItem.code ? (
-                            <div style={{ margin: "0 5px" }} className="table-responsive">
+                            <div style={{ margin: "0 5px", width: "400px", overflowX: "scroll" }} className="table-responsive">
                               <table className="table table-bordered table-sm custom-table">
                                 <tbody>
                                   <tr>
@@ -232,7 +230,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                       style={{
                                         fontSize: "10px",
                                         fontWeight: "800",
-                                        width: "20px",
+                                        width: "10px",
                                       }}
                                       scope="row"
                                     >
@@ -286,8 +284,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             ) : (
                               ""
                             )}
-
-
 
                         </TabPanel>
 
