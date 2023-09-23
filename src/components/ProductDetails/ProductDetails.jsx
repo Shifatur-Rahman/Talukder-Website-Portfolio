@@ -149,7 +149,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                       </div>
 
                       <div className="action-wrapper flex">
-                        <div className="product-quantity flex">
+                        {/* <div className="product-quantity flex">
                           <img
                             src={minusIcon}
                             alt=""
@@ -165,7 +165,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             alt=""
                             onClick={() => setProductQuantity((prevState) => prevState + 1)}
                           />
-                        </div>
+                        </div> */}
 
                         <button
                           onClick={handleAddToCart}
@@ -178,7 +178,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               fillRule="nonzero"
                             />
                           </svg>
-                          Add to cart
+                          Buy Now
                         </button>
                       </div>
 
