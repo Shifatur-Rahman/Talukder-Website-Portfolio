@@ -178,7 +178,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           Buy Now
                         </button>
                       </div>
-
                     </div>
                   </div>
 
@@ -199,20 +198,16 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         <TabPanel value="1">
 
                          {
-                          singleItem.code ? 
-                          <span>Code: {singleItem.code}</span> :
-                          ""
+                          singleItem.code &&
+                          <span className='singleItemProductTitle'>Code: <span className='singleItemProductValue'> {singleItem.code} </span> </span>
                          }
-
                          <br />
-                           
-                          <span>Name: {singleItem.title}</span> <br />
-                          <span>Category: {singleItem.category}</span>
+                          <span className='singleItemProductTitle'>Product Name: <span className='singleItemProductValue'> {singleItem.title}</span> </span> <br />
+                          <span className='singleItemProductTitle'>Product Type: <span className='singleItemProductValue'>{singleItem.category}</span> </span>
 
                         </TabPanel>
 
                         <TabPanel value="2">
-
 
                           {
                             singleItem.longCode ?
@@ -221,8 +216,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <span>Size: {singleItem.size}</span>
                           }
 
-                          {singleItem.color && singleItem.code ? (
-                            <div style={{ margin: "0 5px", width: "400px", overflowX: "scroll" }} className="table-responsive">
+                          {singleItem.color && singleItem.code && (
+                            <div style={{ margin: "0 5px", width: "400px", }} className="table-responsive">
                               <table className="table table-bordered table-sm custom-table">
                                 <tbody>
                                   <tr>
@@ -243,7 +238,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                           textAlign: "center",
                                           margin: "0",
                                           padding: "5px 0 0 0",
-                                          width: "5px"
+                                          width: "5px",
+                                          
                                         }}
                                         key={index}
                                       >
@@ -276,14 +272,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                 </tbody>
                               </table>
                             </div>
-                          ) :
-                            singleItem.code ? (
-                              <p style={{ marginLeft: "10px" }} className="itemTitle">
-                                <strong>Code : </strong>
-                                {singleItem.code}</p>
-                            ) : (
-                              ""
-                            )}
+                          )}
 
                         </TabPanel>
 
