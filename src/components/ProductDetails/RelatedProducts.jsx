@@ -13,11 +13,12 @@ const RelatedProducts = (props) => {
         infinite: true,
         speed: 3000,
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 900,
         pauseOnHover: false,
         cssEase: "ease-in-out",
+        
         responsive: [
           {
             breakpoint: 1200,
@@ -26,7 +27,6 @@ const RelatedProducts = (props) => {
               slidesToScroll: 1,
               swipeToSlide: true,
               infinite: true,
-              dots: true,
             },
           },
           {
@@ -36,7 +36,6 @@ const RelatedProducts = (props) => {
               slidesToScroll: 1,
               swipeToSlide: true,
               infinite: true,
-              dots: true,
             },
           },
           {
@@ -72,8 +71,8 @@ const RelatedProducts = (props) => {
                 <p>Related Products</p>
                 <p>Category: {category}</p>
             </div>
-            <div className='container'>  
-                
+
+            <div className='container'>   
                 <Slider {...settings}>
                 {
                       productList.filter(item=>{
@@ -83,8 +82,7 @@ const RelatedProducts = (props) => {
                       }).map(item=>{
                         return(
                         
-                        <div style={{marginRight:"20px", height:"500px"}}
-                        className="portfolio-item"
+                        <div className="portfolio-item"
                         key={item.id}>
             
                           <img
@@ -106,7 +104,7 @@ const RelatedProducts = (props) => {
                               </p>
                             )}
 
-                            {item.color && item.code ? (
+                            {/* {item.color && item.code ? (
                               <div style={{ margin: "0 5px" }} className="table-responsive">
                                 <table className="table table-bordered table-sm custom-table">
                                   <tbody>
@@ -168,30 +166,30 @@ const RelatedProducts = (props) => {
                                   {item.code}</p>
                               ) : (
                                 ""
-                              )}
+                              )} */}
 
-                            {item.size && (
+                            {/* {item.size && (
                               <p style={{ marginLeft: "10px", marginTop: "0px" }} className="itemTitle">
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size} </span>
                               </p>
-                            )}
+                            )} */}
 
-                            {item.size2 && (
+                            {/* {item.size2 && (
                               <p style={{ marginLeft: "10px" }} className="itemTitle">
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size2} </span>
                               </p>
-                            )}
+                            )} */}
 
-                            {item.product && (
+                            {/* {item.product && (
                               <p style={{ marginLeft: "10px" }} className="itemTitle">
                                 <span style={{ fontSize: "8px" }}>
                                   {" "}
                                   {item.product}{" "}
                                 </span>
                               </p>
-                            )}
+                            )} */}
 
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
