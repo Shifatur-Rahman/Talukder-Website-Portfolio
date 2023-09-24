@@ -16,6 +16,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import { Container } from 'react-bootstrap';
 import UpvcModal1 from '../UpvcModal1/UpvcModal1';
 import { YAxis } from 'recharts';
+import RelatedProducts from './RelatedProducts';
 
 
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
@@ -275,6 +276,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                   </Box>
 
                   </Container>
+
+                  <RelatedProducts category={singleItem.category} />
 
                 </main>
               )
