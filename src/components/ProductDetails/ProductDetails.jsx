@@ -3,9 +3,6 @@ import "./ProductDetails.css"
 import { useParams } from 'react-router-dom';
 import totalProduct from "../Portfolio/PortfolioImgApi.jsx";
 import tgLogo from "../../asset/images/Logo/talukderLogo.png"
-// import plusIcon from '../../asset/images/icon-plus.svg';
-// import minusIcon from '../../asset/images/icon-minus.svg';
-// import { Lightbox } from './Lightbox';
 import ReactImageMagnify from 'react-image-magnify';
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
@@ -14,15 +11,12 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import { Container } from 'react-bootstrap';
 import UpvcModal1 from '../UpvcModal1/UpvcModal1';
-import { YAxis } from 'recharts';
 import RelatedProducts from './RelatedProducts';
 
 
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
 
   const [currentProductImage, setCurrentProductImage] = useState(0);
-  // const [lightbox, setLightbox] = useState(false);
-  // const [pThickness, setPThickness] = useState("");
 
   const handleAddToCart = () => {
     setCartProductQuantity((prevState) => prevState + productQuantity);
@@ -73,12 +67,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           // enlargedImagePosition: 'over', 
                           lensStyle: { backgroundColor: 'rgba(0,0,0,.4)' }
                         }} />
-
-                        {/* <img className='productDescriptionImg'
-                        onClick={() => window.innerWidth > 768 && setLightbox(true)} 
-                        src={`${singleItem.imgSrc}`} 
-                        alt="" 
-                      /> */}
                       </div>
 
                       <div className="thumbnail-wrapper flex">
