@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import "./ProductDetails.css"
-import portfolioItems from "../Portfolio/PortfolioImgApi";
 import { useParams } from 'react-router-dom';
 import totalProduct from "../Portfolio/PortfolioImgApi.jsx";
 import tgLogo from "../../asset/images/Logo/talukderLogo.png"
@@ -277,7 +276,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                   </Container>
 
-                  <RelatedProducts category={singleItem.category} />
+                  <RelatedProducts id={singleItem.id} category={singleItem.category} />
 
                 </main>
               )
