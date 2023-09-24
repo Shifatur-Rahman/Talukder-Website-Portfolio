@@ -146,23 +146,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                       </div>
 
                       <div className="action-wrapper flex">
-                        {/* <div className="product-quantity flex">
-                          <img
-                            src={minusIcon}
-                            alt=""
-                            onClick={() =>
-                              setProductQuantity((prevState) =>
-                                prevState !== 0 ? prevState - 1 : 0,
-                              )
-                            }
-                          />
-                          <span className="fw-700 fs-400 blue">{productQuantity}</span>
-                          <img
-                            src={plusIcon}
-                            alt=""
-                            onClick={() => setProductQuantity((prevState) => prevState + 1)}
-                          />
-                        </div> */}
 
                         <button
                           onClick={handleAddToCart}

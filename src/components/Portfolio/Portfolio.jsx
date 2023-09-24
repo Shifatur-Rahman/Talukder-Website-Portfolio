@@ -28,14 +28,6 @@ const Portfolio = () => {
   const [loading, setLoading] = useState(true);
   const [pages, setPages] = useState(1);
 
-
-  // useEffect(() => {
-  //   animateScroll.scrollToTop({
-  //     duration: 500,
-  //     smooth: "easeInOutQuart",
-  //   });
-  // }, []);
-
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
   };
@@ -244,6 +236,7 @@ const Portfolio = () => {
                           />
 
                           <div style={{ marginTop: "10px", width: "100%", marginBottom: "35px" }}>
+
                             {item.title && (
                               <p style={{ marginLeft: "10px" }} className="itemTitle">
                                 <strong>Name : </strong>
@@ -272,7 +265,7 @@ const Portfolio = () => {
                                       {item.code.split("/").map((code, index) => (
                                         <td
                                           style={{
-                                            fontSize: "8px", 
+                                            fontSize: "8px",
                                             textAlign: "center",
                                             margin: "0",
                                             padding: "5px 0 0 0",

@@ -119,7 +119,7 @@ const Footer = () => {
 
         <Row style={{ margin: "3rem" }}>
          
-          <Col sm={12} md={5} lg={5}>
+          <Col style={{padding:"0 30px"}} sm={12} md={6} lg={6}>
             <h1 style={{ textAlign: "center" }} className="footerTitle">
               Quick connect
             </h1>
@@ -195,10 +195,10 @@ const Footer = () => {
             </Form>
           </Col>
 
-          <Col sm={12} lg={2} md={2}></Col>
+          {/* <Col sm={12} lg={1} md={1}></Col> */}
 
-          <Col className="footerLocation" sm={12} md={5} lg={5}>
-            <h1 style={{ textAlign: "center" }} className="footerTitle">
+          <Col style={{padding:"0 30px"}} className="footerLocation" sm={12} md={6} lg={6}>
+            <h1 style={{ textAlign: "center", marginBottom: "30px"}} className="footerTitle">
               Our Location
             </h1>
             <GoogleMap />
@@ -220,11 +220,6 @@ const Footer = () => {
           }}
         >
           <Col sm={12} md={6} lg={3} className="footerTextAlign">
-           
-                            {/* <img className="logoName" src={logoName} alt="logo" /> */}
-            {/* <div data-aos="fade-down">
-               <h1 style={{color: "#1dc6ad", fontSize:"35px"}}>Talukder Group</h1>
-            </div> */}
 
             <h1 className="footerTitle">Head Office</h1>
 
@@ -232,8 +227,7 @@ const Footer = () => {
             <a className="socialLink">
               {" "}
               Talukder Group of Industries, House #39, Lake Drive Road,
-              <br />
-              Nikunja-1, Dhaka-1229, Bangladesh
+              Nikunja-1, <br /> Dhaka-1229, Bangladesh
             </a>
             
             <br />
