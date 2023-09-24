@@ -11,7 +11,7 @@ const RelatedProducts = (props) => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 2000,
+        speed: 3000,
         slidesToShow: 4,
         slidesToScroll: 2,
         autoplay: true,
@@ -22,7 +22,7 @@ const RelatedProducts = (props) => {
           {
             breakpoint: 1200,
             settings: {
-              slidesToShow: 5,
+              slidesToShow: 3,
               slidesToScroll: 1,
               swipeToSlide: true,
               infinite: true,
@@ -32,7 +32,7 @@ const RelatedProducts = (props) => {
           {
             breakpoint: 1100,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
               slidesToScroll: 1,
               swipeToSlide: true,
               infinite: true,
@@ -42,7 +42,7 @@ const RelatedProducts = (props) => {
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
               slidesToScroll: 1,
               dots: false,
             },
@@ -50,7 +50,7 @@ const RelatedProducts = (props) => {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 1,
               dots: false,
             },
@@ -68,9 +68,12 @@ const RelatedProducts = (props) => {
 
     return (
         <>
-            <div className='container'>  
+            <div className='relatedProductInfo'>
                 <p>Related Products</p>
                 <p>Category: {category}</p>
+            </div>
+            <div className='container'>  
+                
                 <Slider {...settings}>
                 {
                       productList.filter(item=>{

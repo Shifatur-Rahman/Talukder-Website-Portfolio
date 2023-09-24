@@ -398,3 +398,11 @@ font-weight: 600;
   text-transform: uppercase;
   line-height: 22px;
 }
+
+  /* Related Products */
+
+.relatedProductInfo{
+   background-color: #fff !important;
+   height: 100px;
+   color: red;
+}
