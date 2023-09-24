@@ -1,17 +1,77 @@
 import React from 'react'
 import productList from "../Portfolio/PortfolioImgApi.jsx";
 import { Link } from 'react-router-dom';
-import { Row, Col, Button } from "react-bootstrap";
+import {Container, Row, Col, Button } from "react-bootstrap";
 import "./ProductDetails.css"
+import Slider from "react-slick";
 
 const RelatedProducts = (props) => {
-    const { title, category, code, size, thickness, img, id } = props;
+    const { id, category } = props;
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 900,
+        pauseOnHover: false,
+        cssEase: "ease-in-out",
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              swipeToSlide: true,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 1100,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              swipeToSlide: true,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              dots: false,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: false,
+            },
+          },
+          {
+            breakpoint: 320,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: false,
+            },
+          },
+        ],
+      };
+
     return (
         <>
-            <div>  
+            <div className='container'>  
                 <p>Related Products</p>
                 <p>Category: {category}</p>
-
+                <Slider {...settings}>
                 {
                       productList.filter(item=>{
                         if(item.category == category){
@@ -20,13 +80,10 @@ const RelatedProducts = (props) => {
                       }).map(item=>{
                         return(
                         
-                        <div
-                        animate={{ opacity: 1 }}
-                        initial={{ opacity: 0 }}
-                        exit={{ opacity: 0 }}
-                        transition={{ duration: 2 }}
-                        layout className="portfolio-item"
-                          key={item.id}>
+                        <div style={{marginRight:"20px", height:"500px"}}
+                        className="portfolio-item"
+                        key={item.id}>
+            
                           <img
                             className="portfolio-item-img"
                             src={`${item.imgSrc}`}
@@ -147,8 +204,8 @@ const RelatedProducts = (props) => {
                           </div>
                         )
                       })
-
                 }
+                </Slider>
 
             </div>
         </>
