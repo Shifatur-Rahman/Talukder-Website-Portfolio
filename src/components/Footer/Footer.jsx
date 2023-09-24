@@ -75,7 +75,7 @@ const Footer = () => {
   return (
     <>
     <div className="footerSection">
-      <div className="container-fluid text-white-50 footer pt-5 mt-5 wow fadeIn">
+      <div className="container-fluid">
 
         {/* First footer section */}
 
@@ -250,8 +250,9 @@ const Footer = () => {
             <a className="socialLink"> +88-02-48955604</a>
           </Col>
 
-          <Col sm={12} md={6} lg={2} className="footerTextAlign">
+          <Col style={{paddingLeft:"50px"}} sm={12} md={6} lg={2} className="footerTextAlign">
             <h1 className="footerTitle">Get to touch</h1>
+      
             <FaFacebookF className="socialFontFacebook" />
             <a
               className="socialLink"
@@ -294,7 +295,7 @@ const Footer = () => {
 
             <Col sm={12} md={6} lg={3} className="footerTextAlign">
 
-              <h5 style={{marginTop: "2rem"}} className="footerTitle">Photo Gallery</h5>
+              <h5 style={{marginTop: "1.5rem", textAlign:"center"}} className="footerTitle">Photo Gallery</h5>
               <div className="row g-2 pt-2">
                 <div className="col-4">
                   <img className="img-fluid rounded bg-light p-1" src={property1} alt="property1" />
@@ -317,7 +318,7 @@ const Footer = () => {
               </div>
             </Col>
 
-          <Col sm={12} md={6} lg={3} className="footerTextAlign">
+          <Col style={{paddingLeft:"40px"}} sm={12} md={6} lg={3} className="footerTextAlign">
             <h1 className="footerTitle">Our Factory</h1>
 
             <AiFillHome className="socialFontPhone" />
