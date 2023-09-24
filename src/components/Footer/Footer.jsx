@@ -20,6 +20,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import logo from "../../asset/images/Logo/talukderLogo.png"
 import logoName from "../../asset/images/Logo/talukderName.png"
+import property1 from "../../asset/images/Footer/footer1.jpg"
+import property2 from "../../asset/images/Footer/footer2.jpg"
+import property3 from "../../asset/images/Footer/footer3.jpg"
+import property4 from "../../asset/images/Footer/footer4.jpg"
+import property5 from "../../asset/images/Footer/footer5.jpg"
+import property6 from "../../asset/images/Footer/footer6.jpg"
 
 const Footer = () => {
   let [name, setName] = useState("");
@@ -213,7 +219,7 @@ const Footer = () => {
             
           }}
         >
-          <Col sm={12} md={4} lg={5} className="footerTextAlign">
+          <Col sm={12} md={6} lg={3} className="footerTextAlign">
            
                             {/* <img className="logoName" src={logoName} alt="logo" /> */}
             {/* <div data-aos="fade-down">
@@ -244,7 +250,7 @@ const Footer = () => {
             <a className="socialLink"> +88-02-48955604</a>
           </Col>
 
-          <Col sm={12} md={4} lg={3} className="footerTextAlign">
+          <Col sm={12} md={6} lg={2} className="footerTextAlign">
             <h1 className="footerTitle">Get to touch</h1>
             <FaFacebookF className="socialFontFacebook" />
             <a
@@ -286,7 +292,32 @@ const Footer = () => {
             </a>
           </Col>
 
-          <Col sm={12} md={4} lg={4} className="footerTextAlign">
+            <Col sm={12} md={6} lg={3} className="footerTextAlign">
+
+              <h5 className="footerTitle">Photo Gallery</h5>
+              <div className="row g-2 pt-2">
+                <div className="col-4">
+                  <img className="img-fluid rounded bg-light p-1" src={property1} alt="property1" />
+                </div>
+                <div className="col-4">
+                  <img className="img-fluid rounded bg-light p-1" src={property2} alt="property2" />
+                </div>
+                <div className="col-4">
+                  <img className="img-fluid rounded bg-light p-1" src={property3} alt="property3" />
+                </div>
+                <div className="col-4">
+                  <img className="img-fluid rounded bg-light p-1" src={property4} alt="property4" />
+                </div>
+                <div className="col-4">
+                  <img className="img-fluid rounded bg-light p-1" src={property5} alt="property5" />
+                </div>
+                <div className="col-4">
+                  <img className="img-fluid rounded bg-light p-1" src={property6} alt="property6" />
+                </div>
+              </div>
+            </Col>
+
+          <Col sm={12} md={6} lg={3} className="footerTextAlign">
             <h1 className="footerTitle">Our Factory</h1>
 
             <AiFillHome className="socialFontPhone" />
