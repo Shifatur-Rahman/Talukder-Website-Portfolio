@@ -75,7 +75,7 @@ const Footer = () => {
   return (
     <>
     <div className="footerSection">
-      <Container>
+      <div className="container-fluid text-white-50 footer pt-5 mt-5 wow fadeIn">
 
         {/* First footer section */}
 
@@ -294,7 +294,7 @@ const Footer = () => {
 
             <Col sm={12} md={6} lg={3} className="footerTextAlign">
 
-              <h5 className="footerTitle">Photo Gallery</h5>
+              <h5 style={{marginTop: "2rem"}} className="footerTitle">Photo Gallery</h5>
               <div className="row g-2 pt-2">
                 <div className="col-4">
                   <img className="img-fluid rounded bg-light p-1" src={property1} alt="property1" />
@@ -339,7 +339,7 @@ const Footer = () => {
             <a className="socialLink"> +88-02-48955604</a>
           </Col>
         </Row>
-      </Container>
+      </div>
 
       {/*Fourth footer section */}
       
