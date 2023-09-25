@@ -1,7 +1,7 @@
 import React from 'react'
 import productList from "../Portfolio/PortfolioImgApi.jsx";
 import { Link } from 'react-router-dom';
-import {Container, Row, Col, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import "./ProductDetails.css"
 import Slider from "react-slick";
 

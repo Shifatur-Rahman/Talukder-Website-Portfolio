@@ -41,20 +41,6 @@ body {
   opacity: 0.5;
 }
 
-/* .lightbox-control {
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 50%;
-  border: none;
-}
-
-.lightbox-control:hover svg path,
-.lightbox-control:focus svg path {
-  stroke: #ff7d1a;
-} */
-
 .thumbnail {
   border-radius: 0.5rem;
   background-color: #fff;
@@ -101,7 +87,6 @@ body {
 .GrayishBlue {
   color: #b6bcc8;
 }
-
 
 .cart {
   display: flex;
@@ -308,6 +293,13 @@ body {
 
 /* Tg Logo */
 
+.productDetailsTitle{
+  color: #4d4d4d;
+  font-family: 'Raleway',sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+
 .tgLogo{
   width: 110px;
   height: 65px;
@@ -362,7 +354,6 @@ border-radius: 10px;
 background-color: #fff;
 height: 320px;
 padding: 10px;
-border: 1px solid #ff7d1a;
 }
 
 .related-portfolio-item {
@@ -387,9 +378,31 @@ border: 1px solid #ff7d1a;
   font-family: "Nunito",sans-serif;
 }
 
-/* Add this to your external CSS file or use a CSS-in-JS solution */
 .custom-slider button.slick-arrow.slick-next::before,
 .custom-slider button.slick-arrow.slick-prev::before {
-  color: #ff7d1a !important; /* Set the color you want */
+  color: #ff7d1a !important; 
   background-color: #e6e6e6 !important;
+}
+
+/* Store Location css */
+
+.storeLocation{
+  background-color: #fff;
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.leftStore{
+  padding: 20px;
+}
+
+.rightStore{
+  padding: 20px;
+}
+
+.storeLocationLogo{
+  width: 30px;
+  height: 40px;
+  color: red;
 }

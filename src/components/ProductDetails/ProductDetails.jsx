@@ -12,6 +12,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import { Container } from 'react-bootstrap';
 import UpvcModal1 from '../UpvcModal1/UpvcModal1';
 import RelatedProducts from './RelatedProducts';
+import StoreLocation from './StoreLocation';
 
 
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
@@ -113,10 +114,10 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         {/* Talukder Group of Industries */}
                         <img src={tgLogo} className='tgLogo' alt='altLogo' />
                       </p>
-                      <h1 style={{textTransform:"uppercase"}} className="fw-700 line-height-300 fs-800 blue">
+                      <h1 style={{textTransform:"uppercase"}} className="productDetailsTitle">
                         {singleItem.title}
                       </h1>
-                      <p style={{ textAlign: 'justify' }} className="fw-400 fs-400 darkGrayishBlue">
+                      <p style={{ textAlign: 'justify', fontSize:"14px" }} className="darkGrayishBlue">
                         The product details page for Talukder Group can provide comprehensive information about their products,
                         including specifications, features, and any other relevant details.
                         Here's a sample description of what the product details page might include:
@@ -263,7 +264,11 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                   </Box>
                   </Container>
 
+                  {/* Related Product slider */}
                   <RelatedProducts id={singleItem.id} category={singleItem.category} />
+
+                  {/* Store Location */}
+                  <StoreLocation />
 
                 </main>
               )

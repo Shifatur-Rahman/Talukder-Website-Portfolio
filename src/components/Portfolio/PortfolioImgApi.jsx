@@ -3282,7 +3282,7 @@ const portfolioItems = [
     id: 174,
     category: "PLASTIC FURNITURE",
     imgSrc: plastic74,
-    title: "GARDEN CHAIR(FLOWER)",
+    title: "GARDEN CHAIR (FLOWER)",
     code: "21161/21162/21163/21164/21165/21166",
     color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d",
     button: "Details"
