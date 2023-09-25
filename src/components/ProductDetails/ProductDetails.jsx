@@ -138,7 +138,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                         <button
                           onClick={handleAddToCart}
-                          className="btnCart flex fw-700 fs-400"
+                          className="btnCart flex"
                         >
                           <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -160,14 +160,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                   <Box sx={{ width: '100%', typography: 'body1' }}>
                     <TabContext value={value}>
                         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                          <TabList onChange={handleChange} aria-label="lab API tabs example" 
-                          // textColor="primary"
-                          sx={{
-                            '& .Mui-selected': {
-                              color: '#ff6f00',
-                            },
-                          }}
-                          >
+                          <TabList onChange={handleChange} aria-label="lab API tabs example">
                             <Tab label="Description" value="1" />
                             <Tab label="Material Information" value="2" />
                             <Tab label="Warrenty" value="3" />
@@ -200,11 +193,10 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           {
                             singleItem.size2 &&
                             <span className='singleItemProductTitle'>Size: <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
-
                           }
 
                           {singleItem.color && singleItem.code && (
-                            <div style={{ margin: "0 5px", width: "400px", }} className="table-responsive">
+                            <div style={{ margin: "0 5px"}} className="table-responsive RelatedProductTable">
                               <table className="table table-bordered table-sm custom-table">
                                 <tbody>
                                   <tr>
