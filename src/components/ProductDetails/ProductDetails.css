@@ -397,6 +397,7 @@ padding: 10px;
   height: 250px;
   display: grid;
   grid-template-columns: auto auto;
+  margin-top: 2rem;
 }
 
 .leftStore{
@@ -404,7 +405,7 @@ padding: 10px;
 }
 
 .rightStore{
-  padding: 20px;
+  padding: 4rem;
 }
 
 .storeLocationLogo{
@@ -414,3 +415,9 @@ padding: 10px;
   margin-bottom: 10px;
 }
 
+.storeLocationLogoContact{
+  color: #ff7d1a;
+  margin-top: 2px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
