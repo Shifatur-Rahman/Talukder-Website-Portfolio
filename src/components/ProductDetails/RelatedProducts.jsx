@@ -68,7 +68,7 @@ const RelatedProducts = (props) => {
 
     return (
         <>
-            <div className='relatedProductInfo'>
+            <div className='container relatedProductInfo'>
                 <p>Related Products</p>
                 <p>Category: {category}</p>
             </div>
