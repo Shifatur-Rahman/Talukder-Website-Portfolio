@@ -384,17 +384,23 @@ padding: 10px;
   background-color: #e6e6e6 !important;
 }
 
+/* Product info tab */
+
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #ff7d1a !important;
+}
+
 /* Store Location css */
 
 .storeLocation{
   background-color: #fff;
-  height: 300px;
+  height: 250px;
   display: grid;
   grid-template-columns: auto auto;
 }
 
 .leftStore{
-  padding: 20px;
+  padding: 4rem;
 }
 
 .rightStore{
@@ -404,5 +410,7 @@ padding: 10px;
 .storeLocationLogo{
   width: 30px;
   height: 40px;
-  color: red;
+  color: #ff7d1a;
+  margin-bottom: 10px;
 }
+

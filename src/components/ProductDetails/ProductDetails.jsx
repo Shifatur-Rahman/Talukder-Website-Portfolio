@@ -160,7 +160,14 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                   <Box sx={{ width: '100%', typography: 'body1' }}>
                     <TabContext value={value}>
                         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                          <TabList onChange={handleChange} aria-label="lab API tabs example" textColor="primary">
+                          <TabList onChange={handleChange} aria-label="lab API tabs example" 
+                          // textColor="primary"
+                          sx={{
+                            '& .Mui-selected': {
+                              color: '#ff6f00',
+                            },
+                          }}
+                          >
                             <Tab label="Description" value="1" />
                             <Tab label="Material Information" value="2" />
                             <Tab label="Warrenty" value="3" />

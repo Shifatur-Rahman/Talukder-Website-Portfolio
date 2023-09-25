@@ -10,10 +10,15 @@ const StoreLocation = () => {
     
     <div className='storeLocation'>
 
-      <div className='leftStore'>
-        <MdOutlineLocationCity className='storeLocationLogo' />
-         <p>left store</p>
-      </div>
+        <div className='leftStore'>
+          <span>
+            <MdOutlineLocationCity className='storeLocationLogo' />
+            <span style={{ color: "#ff7d1a", fontSize:"25px", fontWeight:"700",marginTop:"10px" }}> Store Locations </span>
+          </span> <br/>
+          <span>Store Location Content</span> <br />
+          <span>available all products</span> <br />
+          <a href='#'>Store Locator</a>
+        </div>
 
       <div className='rightStore'>
         <p>Contact us</p>
