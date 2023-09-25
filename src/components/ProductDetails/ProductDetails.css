@@ -384,9 +384,8 @@ padding: 10px;
   background-color: #e6e6e6 !important;
 }
 
-
-.RelatedProductTable{
-width: 350px;
+.RelatedProductTable {
+  width: 400px;
 }
 
 /* Product info tab */
@@ -427,7 +426,15 @@ width: 350px;
   margin-bottom: 10px;
 }
 
-
 .Mui-selected{
    color: #ff7d1a !important;
 }
+
+@media (max-width: 470px) {
+  .RelatedProductTable {
+    width: 350px;
+    padding: 0;
+  }
+}
+
+
