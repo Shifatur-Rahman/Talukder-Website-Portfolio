@@ -1,24 +1,3 @@
-/* .grid-container {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-}
-
-.grid-item-one {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-}
-
-.grid-item-one img{
-    padding: 40px;
-    border-radius: 10px !important;
-    width: 400px;
-    height: 500px;
-}
-
-.tgLogo {
-    width: 80px;
-    height: 50px;
-} */
-
 /*     new css     */
 
  html:focus-within {
@@ -308,52 +287,6 @@ body {
   }
 }
 
-/* Image box details slider */
-
-/* .lightbox-overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.486);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.lightbox-overlay .lightbox {
-  position: relative;
-  width: 550px;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.lightbox-overlay .lightbox img {
-  border-radius: 0.5rem;
-}
-.lightbox-overlay .lightbox .close-icon {
-  cursor: pointer;
-  align-self: end;
-}
-.lightbox-overlay .lightbox .close-icon:hover path {
-  fill: #ff7d1a;
-}
-.lightbox-overlay .lightbox .thumbnail-wrapper {
-  align-self: center;
-}
-.lightbox-overlay .lightbox .lightbox-control {
-  display: flex;
-  width: 56px;
-}
-.lightbox-overlay .lightbox .control-prev {
-  top: 45%;
-  left: -5%;
-  transform: translateY(-45%);
-}
-.lightbox-overlay .lightbox .control-next {
-  top: 45%;
-  right: -5%;
-  transform: translateY(-45%);
-} */
-
 .productDescriptionImg img{
   height: 350px; 
   padding: 20px;
@@ -376,8 +309,8 @@ body {
 /* Tg Logo */
 
 .tgLogo{
-  width: 120px;
-  height: 75px;
+  width: 110px;
+  height: 65px;
 }
 
 .custom-table{
@@ -401,19 +334,35 @@ font-weight: 600;
 
   /* Related Products */
 
-.relatedProductInfo{
-   background-color: #fff !important;
-   height: 100px;
-   color: red;
-   margin: 2rem 0;
+.relatedProductInfo {
+  padding: 1rem 6rem;
+  background-color: #fff !important;
+  height: 150px;
+  color: #ff7d1a;
+  margin: 2rem 0;
 }
 
-.nov{
+.relatedProductTitle{
+  color: #000;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.relatedProductSubTitle{
+  color: #808080;
+  font-size: 18px;
+  font-family: "Nunito",sans-serif;
+  font-weight: 600;
+}
+
+.related-portfolio-slider{
 margin-right: 15px;
-border-radius: 5px;
+border-radius: 10px;
 background-color: #fff;
-height: 350px;
+height: 320px;
 padding: 10px;
+border: 1px solid #ff7d1a;
 }
 
 .related-portfolio-item {
@@ -425,9 +374,22 @@ padding: 10px;
 }
 
 .related-portfolio-item img {
-  height: 250px;
+  height: 220px;
   width: 280px;
   margin: auto;
   padding: 3px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+}
+
+.productPrice{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nunito",sans-serif;
+}
+
+/* Add this to your external CSS file or use a CSS-in-JS solution */
+.custom-slider button.slick-arrow.slick-next::before,
+.custom-slider button.slick-arrow.slick-prev::before {
+  color: #ff7d1a !important; /* Set the color you want */
+  background-color: #e6e6e6 !important;
 }

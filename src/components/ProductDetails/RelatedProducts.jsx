@@ -68,13 +68,15 @@ const RelatedProducts = (props) => {
 
     return (
         <>
-            <div className='container relatedProductInfo'>
-                <p>Related Products</p>
-                <p>Category: {category}</p>
-            </div>
+
+        <div className='relatedProductInfo'>
+          <p className='relatedProductTitle'>Related <span style={{color:"#ff7d1a"}}> Products</span> </p>
+          {/* <p className='relatedProductCategory'>Category: {category}</p> */}
+          <p className='relatedProductSubTitle'>Stands for eco-friendly premium goods</p>
+        </div> 
 
             <div className='container'>   
-                <Slider {...settings}>
+                <Slider {...settings} className="custom-slider">
                 {
                       productList.filter(item=>{
                         if(item.category == category){
@@ -85,7 +87,7 @@ const RelatedProducts = (props) => {
                         
                         <div className="related-portfolio-item"
                              key={item.id}>
-                              <div className='nov'>
+                        <div className='related-portfolio-slider'>
             
                           <img
                             className="related-portfolio-item-img"
@@ -107,10 +109,8 @@ const RelatedProducts = (props) => {
 
                             {item.button && (
                               <div style={{ marginLeft: "10px" }}>
-                                {/* <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
-                                {/* <Link to={`/product/productDetailsPage/${item.id}`}> */}
                                 <Link to={`/product/${item.category}/${item.id}`}>
-                                  <Button style={{marginBottom:"20px"}} className="me-2 mb-2 upvcBtn"> Details </Button>
+                                  <Button style={{marginBottom:"20px", background:"#ff7d1a"}} className="me-2 mb-2 upvcBtn"> Details </Button>
                                 </Link>
                               </div>
                             )}

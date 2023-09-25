@@ -3945,14 +3945,16 @@ const portfolioItems = [
     longCode: "30205/30210/30310/30315/30320/30325/30400/30405",
     longSize: `2"x3 mtr BS Class C Filter (Gray)/2"x3 mtr BS Class D Filter (Gray)/3"x3 mtr BS Class B Filter (Gray)/3"x3 mtr BS Class C Filter (Gray)/3"x3 mtr BS Class D Filter (Gray)/3"x3 mtr BS Class E Filter (Gray)/4"x3 mtr BS Class B Filter (Gray)/4"x3 mtr BS Class C Filter (Gray)`,
     longThickness: `2.5~3.0/3.1~3.7/2.9~3.4/3.5~4.4/4.6~5.3/5.7~6.6/3.4~4.0/4.5~5.2`,
-    title: "pipe cutting class filter(bigger dia)",
+    // title: "pipe cutting class filter(bigger dia)",
+    title: "pipe cutting class filter",
     button: "Details"
   },
   {
     id: 313,
     category: "upvc",
     imgSrc: upvc13,
-    title: "pipe cutting class filter(continue)",
+    // title: "pipe cutting class filter(continue)",
+    title: "pipe cutting class filter",
     longCode: "30410/30415/30500/30505/30508/30600/30605/30610/30615/30800/30801/30805/30806/30810/30815/30100/30103/30105/30106/30120/30125/30140/30145",
     longSize: `4"x3 mtr BS Class D Filter (Gray)/4"x3 mtr BS Class E Filter (Gray)/5"x3 mtr BS Class B Filter (Gray)/5"x3 mtr BS Class C Filter (Gray)/5"x3 mtr BS Class D Filter (Gray)/6"x3 mtr BS Class B Filter (Gray)/6"x3 mtr BS Class C Filter (Gray)/6"x3 mtr BS Class D Filter (Gray)/6"x3 mtr BS Class E Filter (Gray)/8"x3 mtr BS Class B Filter (Gray)/8"x6 mtr BS Class B Filter (Gray)/8"x3 mtr BS Class C Filter (Gray)/8"x6 mtr BS Class C Filter (Gray)/8"x3 mtr BS Class D Filter (Gray)/8"x3 mtr BS Class E Filter (Gray)/10"x3 mtr BS Class B Filter (Gray)/10"x6 mtr BS Class B Filter (Gray)/10"x3 mtr BS Class C Filter (Gray)/10"x6 mtr BS Class C Filter (Gray)/12"x3 mtr BS Class B Filter (Gray)/12"x3 mtr BS Class C Filter (Gray)/14"x3 mtr BS Class B Filter (Gray)/14"x3 mtr BS Class C Filter (Gray)`,
     longThickness: `6.0~6.9/7.3~8.4/3.8~4.4/5.5~6.4/7.3~8.0/4.5~5.2/6.6~7.6/8.8~10.2/10.8~12.5/5.3~6.1/5.3~6.1/7.8~9.0/7.8~9.0/10.2~11.9/12.6~14.5/16.6~7.6/6.6~7.6/9.7~11.2/9.7~11.2/7.8~9.0/11.5~13.3/8.5~9.5/12.6~14.5`,

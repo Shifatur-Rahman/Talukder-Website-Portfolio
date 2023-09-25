@@ -113,7 +113,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         {/* Talukder Group of Industries */}
                         <img src={tgLogo} className='tgLogo' alt='altLogo' />
                       </p>
-                      <h1 className="fw-700 line-height-300 fs-800 blue">
+                      <h1 style={{textTransform:"uppercase"}} className="fw-700 line-height-300 fs-800 blue">
                         {singleItem.title}
                       </h1>
                       <p style={{ textAlign: 'justify' }} className="fw-400 fs-400 darkGrayishBlue">
@@ -123,12 +123,12 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                       </p>
                       <div className="product-price">
                         <div className="discounted-price flex">
-                          <span className="fw-700 blue fs-700">Tk 7,500.00</span>
+                          <span className="productPrice">BDT 7,500.00</span>
                           <span className="offer fw-700 fs-400 Orange">50%</span>
                         </div>
                         <div className="original-price">
-                          <span className="fw-700 fs-400 line-height-500 text-line-through GrayishBlue">
-                            7,500
+                          <span style={{textDecoration:"line-through", fontSize:"16px"}} className="fw-700 fs-400 line-height-500 GrayishBlue">
+                           BDT 15,000
                           </span>
                         </div>
                       </div>
@@ -158,13 +158,13 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                   <Box sx={{ width: '100%', typography: 'body1' }}>
                     <TabContext value={value}>
-                      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                        <TabList onChange={handleChange} aria-label="lab API tabs example" textColor="primary">
-                          <Tab label="Description" value="1" />
-                          <Tab label="Material Information" value="2" />
-                          <Tab label="Warrenty" value="3" />
-                        </TabList>
-                      </Box>
+                        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                          <TabList onChange={handleChange} aria-label="lab API tabs example" textColor="primary">
+                            <Tab label="Description" value="1" />
+                            <Tab label="Material Information" value="2" />
+                            <Tab label="Warrenty" value="3" />
+                          </TabList>
+                        </Box>
 
                         <TabPanel value="1">
                 
@@ -261,7 +261,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                     </TabContext>
                   </Box>
-
                   </Container>
 
                   <RelatedProducts id={singleItem.id} category={singleItem.category} />
@@ -271,7 +270,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
             }
           })
         }
-
       </div>
 
     </>
