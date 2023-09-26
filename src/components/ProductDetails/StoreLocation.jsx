@@ -16,9 +16,9 @@ const StoreLocation = () => {
             <MdOutlineLocationCity className='storeLocationLogo' />
             <span className='storeHeader'> Store Locations </span>
           </span> <br/>
-          <span className='storeSubHeader' style={{color:"#595959", fontSize:"15px"}}>Store Location Content</span> <br />
-          <span className='storeSubHeader' style={{color:"#595959", fontSize:"15px"}}>available all products</span> <br />
-          <a style={{textDecoration:"underline", color:"#ff7d1a"}} href='#'>Store Locator</a>
+          <span className='storeSubHeader'>Store Location Content</span> <br />
+          <span className='storeSubHeader'>available all products</span> <br />
+          <a className='storeSubHeader' style={{textDecoration:"underline", color:"#ff7d1a"}} href='#'>Store Locator</a>
         </div>
 
         <div className='rightStore'>
@@ -26,8 +26,8 @@ const StoreLocation = () => {
             <BsTelephoneFill className='storeLocationLogoContact' />
             <span className='storeHeader'> Contact us </span>
           </span> <br />
-          <span className='storeSubHeader' style={{ color: "#595959", fontSize: "15px" }}>Have any question? We are here to talk! </span> <br />
-          <span className='storeSubHeader' style={{ color: "#595959", fontSize: "15px" }}>Let us know your queries</span> <br />
+          <span className='storeSubHeader'>Have any question? We are here to talk! </span> <br />
+          <span className='storeSubHeader'>Let us know your queries</span> <br />
           <a className='storeSubHeader' style={{ textDecoration: "underline", color: "#ff7d1a" }} href='#'>Contact Us</a>
         </div>
 

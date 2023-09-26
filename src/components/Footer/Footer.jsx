@@ -226,29 +226,29 @@ const Footer = () => {
             <AiFillHome className="socialFontPhone" />
             <a className="socialLink">
               {" "}
-              Talukder Group of Industries, House #39, Lake Drive Road,
-              Nikunja-1, <br /> Dhaka-1229, Bangladesh
+              Talukder Group of Industries,  H#39, <br /> Lake Drive Road,
+              Nikunja-1,  Dhaka-1229, <br /> Bangladesh
             </a>
             
             <br />
 
             <BsFillTelephoneFill className="socialFontPhone" />
-            <a className="socialLink"> +88-02-48955420, +88-01966-333355</a>
+            <a style={{lineHeight:"30px"}} className="socialLink"> +88-02-48955420, +88-01966-333355</a>
             <br />
 
             <MdEmail className="socialFontPhone" />
-            <a className="socialLink">info@talukder-group.com.bd</a>
+            <a style={{lineHeight:"30px"}} className="socialLink">info@talukder-group.com.bd</a>
             <br />
 
             <FaFax className="socialFontPhone" />
-            <a className="socialLink"> +88-02-48955604</a>
+            <a style={{lineHeight:"30px"}} className="socialLink"> +88-02-48955604</a>
           </Col>
 
           <Col style={{paddingLeft:"50px"}} sm={12} md={6} lg={2} className="footerTextAlign">
             <h1 className="footerTitle">Get to touch</h1>
       
             <FaFacebookF className="socialFontFacebook" />
-            <a
+            <a style={{lineHeight:"30px"}}
               className="socialLink"
               href="https://www.facebook.com/"
               target="_blank"
@@ -259,7 +259,7 @@ const Footer = () => {
             <br />
 
             <BsTwitter className="socialFontTwitter" />
-            <a
+            <a style={{lineHeight:"30px"}}
               className="socialLink"
               href="https://twitter.com/"
               target="_blank"
@@ -269,7 +269,7 @@ const Footer = () => {
             <br />
 
             <BsYoutube className="socialFontYoutube" />
-            <a
+            <a style={{lineHeight:"30px"}}
               className="socialLink"
               href="https://www.youtube.com/"
               target="_blank"
@@ -278,7 +278,7 @@ const Footer = () => {
             </a>
             <br />
             <FaInstagramSquare className="socialFontInsta" />
-            <a
+            <a style={{lineHeight:"30px"}}
               className="socialLink"
               href="https://www.instagram.com/accounts/login/"
               target="_blank"
@@ -287,7 +287,7 @@ const Footer = () => {
             </a>
           </Col>
 
-            <Col sm={12} md={6} lg={3} className="footerTextAlign">
+            <Col sm={12} md={6} lg={3} style={{padding:"0 3rem"}} className="footerTextAlign">
 
               <h5 style={{marginTop: "1.5rem", textAlign:"center"}} className="footerTitle">Photo Gallery</h5>
               <div className="row g-2 pt-2">
@@ -323,11 +323,11 @@ const Footer = () => {
             <br />
 
             <BsFillTelephoneFill className="socialFontPhone" />
-            <a className="socialLink"> +88-01952288381</a>
+            <a style={{lineHeight:"30px"}} className="socialLink"> +88-01952288381</a>
             <br />
 
             <MdEmail className="socialFontPhone" />
-            <a className="socialLink">info@talukder-group.com.bd</a>
+            <a style={{lineHeight:"30px"}} className="socialLink">info@talukder-group.com.bd</a>
             <br />
 
             <FaFax className="socialFontPhone" />

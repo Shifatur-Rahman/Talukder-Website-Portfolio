@@ -471,7 +471,6 @@ padding: 10px;
 
 @media(max-width:750px){
   .storeLocation{
-    /* height: 250px; */
     margin-top: 1rem;
   }
 
@@ -482,6 +481,7 @@ padding: 10px;
   .rightStore{
     padding: 3rem;
   }
+
   .storeLocationLogo{
     width: 25px;
     height: 35px;
@@ -499,7 +499,39 @@ padding: 10px;
     margin-top: 5px;
   }
   
+  .storeSubHeader{
+    font-size: 12px;
+  }
+}
 
+@media (max-width:500px){
+  .leftStore{
+    padding: 2rem;
+  }
+  
+  .rightStore{
+    padding: 2rem;
+  }
+  .storeHeader {
+    font-size: 15px;
+  }
+  
+  .storeSubHeader{
+    font-size: 11px;
+  }
+}
+
+@media (max-width:400px){
+  .leftStore{
+    padding: 1rem;
+  }
+  
+  .rightStore{
+    padding: 1rem;
+  }
+  .storeHeader {
+    font-size: 12px;
+  }
 }
 
 
