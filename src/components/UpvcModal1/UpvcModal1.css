@@ -1,6 +1,6 @@
-.upvcTable{
+/* .upvcTable{
 background-color: red !important;
-}
+} */
 
 .upvcModalTitle{
  font-family: "Montserrat", sans-serif;
@@ -60,13 +60,13 @@ background-color: red !important;
 }
 
 @media (max-width: 1000px) {
-  .upvcTableBody{
+  .upvcTableBody {
     font-size: 11px;
   }
-  }
+}
 
-  @media (max-width: 600px) {
-    .upvcTableBody{
-      font-size: 9px;
-    }
-    }
+@media (max-width: 600px) {
+  .upvcTableBody {
+    font-size: 9px;
+  }
+}

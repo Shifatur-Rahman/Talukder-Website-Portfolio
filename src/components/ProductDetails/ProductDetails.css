@@ -348,6 +348,33 @@ font-weight: 600;
   font-weight: 600;
 }
 
+/* Mui Tab Title (Description, Material-information, Warrenty) */
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+@media(max-width: 550px){
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    font-size: 12px !important;
+  }
+}
+
+@media(max-width: 450px){
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    font-size: 10px !important;
+  }
+}
+
+@media(max-width: 350px){
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    /* font-size: 10px !important; */
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 8px !important;
+  }
+}
+
 @media (max-width:600px){
   .relatedProductInfo {
     height: 150px;
@@ -361,7 +388,6 @@ font-weight: 600;
     font-weight: 500;
   }
 }
-
 
 @media (max-width:450px){
   .relatedProductInfo {
@@ -414,6 +440,23 @@ padding: 10px;
 .RelatedProductTable {
   width: 400px;
 }
+
+@media(max-width: 500px) {
+  .RelatedProductTable {
+    /* width: 350px; */
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+@media(max-width: 400px) {
+  .RelatedProductTable {
+    width: 300px !important;
+    padding: 0 !important;
+  }
+}
+
+
 
 /* Product info tab */
 

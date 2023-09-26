@@ -27,6 +27,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
   let { id } = useParams();
 
   const [value, setValue] = React.useState('1');
+  
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -160,7 +161,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                   <Box sx={{ width: '100%', typography: 'body1' }}>
                     <TabContext value={value}>
                         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                          <TabList onChange={handleChange} aria-label="lab API tabs example">
+                          <TabList className='custom-tab' onChange={handleChange} aria-label="lab API tabs example">
                             <Tab label="Description" value="1" />
                             <Tab label="Material Information" value="2" />
                             <Tab label="Warrenty" value="3" />
