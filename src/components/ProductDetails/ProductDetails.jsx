@@ -170,10 +170,14 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                         <TabPanel value="1">
                 
-                         {
+                         {/* {
                           singleItem.code &&
                           <span className='singleItemProductTitle'>Code : <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>                        
-                         }
+                         } */}
+
+                          {(singleItem.code) &&
+                            <span className='singleItemProductTitle'>Code : <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>
+                          }
                           
                           <span className='singleItemProductTitle'>Product Name : <span className='singleItemProductValue'> {singleItem.title}</span> </span> <br />
                           <span className='singleItemProductTitle'>Product Type : <span className='singleItemProductValue'>{singleItem.category}</span> </span>
