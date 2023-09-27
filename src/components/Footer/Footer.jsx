@@ -287,7 +287,7 @@ const Footer = () => {
             </a>
           </Col>
 
-            <Col sm={12} md={6} lg={3} style={{padding:"0 3rem"}} className="footerTextAlign">
+            <Col sm={12} md={6} lg={3} style={{padding:"0 2rem"}} className="footerTextAlign">
 
               <h5 style={{marginTop: "1.5rem", textAlign:"center"}} className="footerTitle">Photo Gallery</h5>
               <div className="row g-2 pt-2">
