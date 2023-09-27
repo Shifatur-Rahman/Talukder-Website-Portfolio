@@ -41,6 +41,12 @@ margin-top: 3rem;
     text-align: center;
     margin-bottom: 40px;
 }
+.servicePara{
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px !important;
+    font-weight: 500;
+    padding: 0 2rem;
+}
 
 .our_service_section .ourService_title p {
     font-family: 'Montserrat',sans-serif;
@@ -60,11 +66,14 @@ margin-top: 3rem;
 }
 
 .single_service_section {
+    height: 320px;
     text-align: center;
-    padding: 47px 42px;
+    /* padding: 47px 42px; */
+    padding: 40px 15px;
     /* box-shadow: 0 0 11px 0 #e1e1e1; */
-    margin-bottom: 15px;
+    margin-bottom: 22px;
     background-color:  #f2f2f2;
+    border-radius: 8px;
 }
 
 .single_service_section:hover
@@ -87,6 +96,8 @@ margin-top: 3rem;
 }
 .single_service_section .service_section_img img {
     margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
 }
 .single_service_section .content h4 {
     text-transform: capitalize;
@@ -182,5 +193,17 @@ SERVICE PAGE RESPONSIVE
     }
     .serviceSubTitle{
         font-size: 18px;
+    }
+}
+
+@media (max-width:340px){
+    .single_service_section{
+        height: 350px;
+    }
+}
+
+@media (max-width: 260px){
+    .single_service_section{
+        height: 380px;
     }
 }

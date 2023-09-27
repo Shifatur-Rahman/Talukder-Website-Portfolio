@@ -40,7 +40,7 @@ const Services = (props, ref) => {
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'>Plastic</p>
-                                  <p>Talukder Plastics pioneering excellence in plastic manufacturing and Eco-Friendly Solutions.</p>
+                                  <p className='servicePara'>Talukder Plastics pioneering excellence in plastic manufacturing and Eco-Friendly Solutions.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -55,7 +55,7 @@ const Services = (props, ref) => {
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'>uPVC</p>
-                                  <p> Talukder uPVC transforming spaces with premium uPVC solutions. Crafting durability and elegance.</p>
+                                  <p className='servicePara'> Talukder uPVC transforming spaces with premium uPVC solutions. Crafting durability and elegance.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -70,7 +70,7 @@ const Services = (props, ref) => {
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'>Office Furniture</p>
-                                  <p> Talukder Office Furniture elevating workplaces with ergonomic designs and functional style.</p>
+                                  <p className='servicePara'> Talukder Office Furniture elevating workplaces with ergonomic designs and functional style.</p>
                                   <a>
                                       <img src={servicePlus} alt="" />
                                   </a>
@@ -85,7 +85,7 @@ const Services = (props, ref) => {
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'>Metal & Fabrications</p>
-                                  <p>Talukder Metal & Fabrications creating inspired spaces that blend beauty and functionality.</p>
+                                  <p className='servicePara'>Talukder Metal & Fabrications creating inspired spaces that blend beauty and functionality.</p>
                                   <a>
                                       <img src={servicePlus} alt="interior" />
                                   </a>
@@ -100,7 +100,7 @@ const Services = (props, ref) => {
                               </div>
                               <div className="content">
                                   <p className='serviceTitle'> Trading  </p>
-                                  <p>Talukder Trading navigating Global Markets with Expertise, Integrity, and Excellence.</p>
+                                  <p className='servicePara'>Talukder Trading navigating Global Markets with Expertise, Integrity, and Excellence.</p>
                                   <a>
                                       <img className='plusIcon' src={servicePlus} alt="" />
                                   </a>
