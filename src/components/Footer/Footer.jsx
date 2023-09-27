@@ -227,7 +227,7 @@ const Footer = () => {
             <a className="socialLink">
               {" "}
               Talukder Group of Industries,  H#39, <br /> Lake Drive Road,
-              Nikunja-1,  Dhaka-1229, <br /> Bangladesh
+              Nikunja-1, Dhaka-1229, Bangladesh
             </a>
             
             <br />

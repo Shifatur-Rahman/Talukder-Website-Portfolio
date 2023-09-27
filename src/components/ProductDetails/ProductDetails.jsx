@@ -139,7 +139,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                         <button
                           onClick={handleAddToCart}
-                          className="btnCart flex"
+                          className="btnCart flex2"
                         >
                           <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
                             <path
