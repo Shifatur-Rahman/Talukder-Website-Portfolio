@@ -167,6 +167,10 @@ body {
   filter: opacity(0.5);
 }
 
+.product-image{
+  margin-bottom: 3rem;
+}
+
 @media (max-width: 64em) {
   .product {
     margin-top: 3rem;
@@ -634,6 +638,12 @@ padding: 10px;
   @media(max-width:560px){
     #imageMagnifier{
       padding: 0 5rem !important;
+    }
+    .tgLogo{
+      display: none !important;
+    }
+    .product-image{
+      margin-bottom: 1rem;
     }
   }
 
