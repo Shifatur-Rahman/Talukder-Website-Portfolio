@@ -79,7 +79,7 @@ const Footer = () => {
 
         {/* First footer section */}
 
-          <Row style={{ marginBottom: "1rem", textAlign: "center" }}>
+          <Row style={{ marginBottom: "1rem", textAlign: "center", }}>
           {/* <h2 className="knowusTitle">Contact us</h2> */}
          
           <Col style={{marginTop:"3rem"}} sm={12} md={6} lg={4}>
@@ -219,7 +219,7 @@ const Footer = () => {
             
           }}
         >
-          <Col sm={12} md={6} lg={3} className="footerTextAlign">
+          <Col style={{paddingLeft:"50px"}} sm={12} md={6} lg={3} className="footerTextAlign">
 
             <h1 className="footerTitle">Head Office</h1>
 

@@ -168,7 +168,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           </TabList>
                         </Box>
 
-                        <TabPanel value="1">
+                        <TabPanel style={{marginTop:"1rem"}} value="1">
 
                           {(singleItem.code) &&
                             <span className='singleItemProductTitle'>Code : <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>
@@ -179,7 +179,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           
                         </TabPanel>
 
-                        <TabPanel value="2">
+                        <TabPanel style={{marginTop:"1rem"}} value="2">
                           {
                             singleItem.longCode &&
                             <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />  
@@ -255,7 +255,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                         </TabPanel>
 
-                      <TabPanel value="3">
+                      <TabPanel style={{marginTop:"1rem"}} value="3">
 
                       </TabPanel>
 
