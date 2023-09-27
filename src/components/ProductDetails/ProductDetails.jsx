@@ -111,7 +111,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                     </div>
 
                     <div className="product-description flow">
-                      <p className="text-uppercase fw-700 fs-100 letter-spacing-1 Orange">
+                      <p className="text-uppercase Orange">
                         {/* Talukder Group of Industries */}
                         <img src={tgLogo} className='tgLogo' alt='altLogo' />
                       </p>
@@ -158,7 +158,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                <Container>
 
-                  <Box sx={{ width: '100%', typography: 'body1' }}>
+                  <Box className="tabBox" style={{padding: "0 1rem"}} sx={{ width: '100%', typography: 'body1' }}>
                     <TabContext value={value}>
                         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                           <TabList className='custom-tab' onChange={handleChange} aria-label="lab API tabs example">
@@ -169,11 +169,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         </Box>
 
                         <TabPanel value="1">
-                
-                         {/* {
-                          singleItem.code &&
-                          <span className='singleItemProductTitle'>Code : <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>                        
-                         } */}
 
                           {(singleItem.code) &&
                             <span className='singleItemProductTitle'>Code : <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>
