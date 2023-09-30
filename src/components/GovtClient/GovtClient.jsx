@@ -13,7 +13,8 @@ import client30 from "../../asset/images/Client_logo/EED.jpg";
 import client24 from "../../asset/images/Client_logo/jica.jpg";
 import client31 from "../../asset/images/Client_logo/bmda.jpg";
 import Spinner from "../Spinner/Spinner.jsx";
-    // Govt. client
+
+      // Govt. client
 
 const GovtClient = () => {
   const [loading, setLoading] = useState(true);
