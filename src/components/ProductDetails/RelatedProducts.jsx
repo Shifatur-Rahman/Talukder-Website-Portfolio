@@ -97,24 +97,23 @@ const RelatedProducts = (props) => {
                           />
 
                           <div style={{ marginTop: "10px", width: "100%" }}>
-                            {item.title && (
-                              <p style={{ marginLeft: "10px" }} className="itemTitle">
-                                <strong>Name : </strong>
-                                <span style={{ textTransform: "uppercase" }}>
-                                  {" "}
-                                  {item.title}{" "}
-                                </span>
-                              </p>
-                            )}
+                                {item.title && (
+                                  <p style={{ marginLeft: "10px" }} className="itemTitle">
+                                    <strong>Name : </strong>
+                                    <span style={{ textTransform: "uppercase" }}>
+                                      {" "}
+                                      {item.title}{" "}
+                                    </span>
+                                  </p>
+                                )}
 
-                            {item.button && (
-                              <div style={{ marginLeft: "10px" }}>
-                                <Link to={`/product/${item.category}/${item.id}`}>
-                                  <Button style={{marginBottom:"20px", background:"#ff7d1a"}} className="me-2 mb-2 upvcBtn"> Details </Button>
-                                </Link>
-                              </div>
-                            )}
-
+                                {item.button && (
+                                  <div style={{ marginLeft: "10px" }}>
+                                    <Link to={`/product/${item.category}/${item.id}`}>
+                                      <Button style={{ marginBottom: "20px", background: "#ffa866" }} className="me-2 mb-2 upvcBtn"> Details </Button>
+                                    </Link>
+                                  </div>
+                                )}
                           </div>
                           </div>
                           </div>

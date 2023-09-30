@@ -46,7 +46,11 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
     <>
 
       {loading ? (
-        <Spinner style={{ marginTop: "20px" }} />
+        
+        <div style={{marginTop:"7rem"}}>
+          <Spinner />
+        </div>
+
       ) : (
 
         <div style={{ backgroundColor: "#e6e6e6" }}>
