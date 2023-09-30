@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e83c470.css",
-    "main.js": "/static/js/main.2f762eb4.js",
+    "main.css": "/static/css/main.1f3638ae.css",
+    "main.js": "/static/js/main.cea47962.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -184,6 +184,7 @@
     "static/media/solidImage.png": "/static/media/solidImage.370c7bfb3a9e6f07f39f.png",
     "static/media/plastic62.png": "/static/media/plastic62.b9c1013858e901c18080.png",
     "static/media/Spice Pot.jpg": "/static/media/Spice Pot.999fad913b929348a082.jpg",
+    "static/media/footer6.jpg": "/static/media/footer6.0040b251640239f74328.jpg",
     "static/media/bmda.jpg": "/static/media/bmda.24017b8b1d1bdf5310dd.jpg",
     "static/media/plastic45.png": "/static/media/plastic45.f93439409f82e34a5e4f.png",
     "static/media/plastic26.png": "/static/media/plastic26.03cf28624f33bea97711.png",
@@ -203,9 +204,12 @@
     "static/media/tbl43.jpg": "/static/media/tbl43.3cfa162452cf6ba875e3.jpg",
     "static/media/fittings14.png": "/static/media/fittings14.ec0aaabcc0d1a4dc71e0.png",
     "static/media/tubewell5.jpg": "/static/media/tubewell5.ad843f01be7ee4682dba.jpg",
+    "static/media/footer3.jpg": "/static/media/footer3.58a0c3b6460595c45426.jpg",
     "static/media/waredrobe9.jpg": "/static/media/waredrobe9.e15d20168755d0cd7f33.jpg",
     "static/media/bucketposter.jpg": "/static/media/bucketposter.72eaf517e99820c1494a.jpg",
+    "static/media/tubewell6.jpg": "/static/media/tubewell6.6de9ed143598bbdf0377.jpg",
     "static/media/plastic65.png": "/static/media/plastic65.41e70c24796d852c46d8.png",
+    "static/media/footer4.jpg": "/static/media/footer4.be0bcace0459f53cdf9a.jpg",
     "static/media/rack1.jpg": "/static/media/rack1.3872059a5b66a327a31f.jpg",
     "static/media/rack5.jpg": "/static/media/rack5.25197db926be463afa54.jpg",
     "static/media/fittings1.jpeg": "/static/media/fittings1.2453628528da90f1a51e.jpeg",
@@ -261,6 +265,7 @@
     "static/media/rack28.jpg": "/static/media/rack28.a3839480c7f4d8485d50.jpg",
     "static/media/51.jpg": "/static/media/51.8a971e8834876cd9e478.jpg",
     "static/media/tbl64.jpg": "/static/media/tbl64.07f168f38ce813c58ffb.jpg",
+    "static/media/footer5.jpg": "/static/media/footer5.e88ca0994d8fffca8fb5.jpg",
     "static/media/64.jpg": "/static/media/64.34791383d95389cb1054.jpg",
     "static/media/49.jpg": "/static/media/49.b83d33c6322747e5c57b.jpg",
     "static/media/tubewell12.png": "/static/media/tubewell12.c999bcf7946740cec6fd.png",
@@ -282,6 +287,7 @@
     "static/media/tbl44.jpg": "/static/media/tbl44.9f29fca03131bce5fb8a.jpg",
     "static/media/rack30.jpg": "/static/media/rack30.7540b72d84b6159e6ec7.jpg",
     "static/media/conferenceTable02.jpg": "/static/media/conferenceTable02.7410ab085533f4d79a7b.jpg",
+    "static/media/footer2.jpg": "/static/media/footer2.13f91a3720b791d4cc18.jpg",
     "static/media/73.jpg": "/static/media/73.e50dd12518a9875c5800.jpg",
     "static/media/40.jpg": "/static/media/40.af1c902c99476600da62.jpg",
     "static/media/81.jpg": "/static/media/81.15cfed43c686a1b833d3.jpg",
@@ -326,6 +332,7 @@
     "static/media/tbl4.jpg": "/static/media/tbl4.2b210b89ae80679608bd.jpg",
     "static/media/tbl58.jpg": "/static/media/tbl58.ecda77bdf943c9c16829.jpg",
     "static/media/tbl30.jpg": "/static/media/tbl30.8e26674b6b0fad61dbbc.jpg",
+    "static/media/footer1.jpg": "/static/media/footer1.7c1c1d9fcf14d8acffbf.jpg",
     "static/media/tbl15.jpg": "/static/media/tbl15.0fba33bccd8db523d4fb.jpg",
     "static/media/rack4.jpeg": "/static/media/rack4.9b50ed461b13d46c972b.jpeg",
     "static/media/conferenceTable03.jpg": "/static/media/conferenceTable03.434638625634aa7763f5.jpg",
@@ -472,11 +479,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.9e83c470.css.map": "/static/css/main.9e83c470.css.map",
-    "main.2f762eb4.js.map": "/static/js/main.2f762eb4.js.map"
+    "main.1f3638ae.css.map": "/static/css/main.1f3638ae.css.map",
+    "main.cea47962.js.map": "/static/js/main.cea47962.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e83c470.css",
-    "static/js/main.2f762eb4.js"
+    "static/css/main.1f3638ae.css",
+    "static/js/main.cea47962.js"
   ]
 }

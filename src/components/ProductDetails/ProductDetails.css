@@ -329,6 +329,23 @@ body {
       font-family: "Nunito", sans-serif;
       font-weight: 600;
     }
+
+    .relatedBtn{
+      font-size: 13px;
+      padding: 5px;
+      color: #fff;
+      font-family: "Barlow",sans-serif;
+      font-weight: 600;
+      border: 1px solid #f2f2f2;
+      width: 90px;
+      height: 35px;
+    }
+  
+    .relatedBtn:hover, .relatedBtn:focus {
+      background-color: #cc5800;
+      color: #fff; 
+      border: 1px solid #f2f2f2;
+    }
   
     /* Mui Tab Title (Description, Material-information, Warrenty) */
     .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {

@@ -110,7 +110,7 @@ const RelatedProducts = (props) => {
                                 {item.button && (
                                   <div style={{ marginLeft: "10px" }}>
                                     <Link to={`/product/${item.category}/${item.id}`}>
-                                      <Button style={{ marginBottom: "20px", background: "#ffa866" }} className="me-2 mb-2 upvcBtn"> Details </Button>
+                                      <Button style={{ marginBottom: "20px", background: "#ffa866" }} className="me-2 mb-2 relatedBtn"> Details </Button>
                                     </Link>
                                   </div>
                                 )}
