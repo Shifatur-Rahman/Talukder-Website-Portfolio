@@ -187,6 +187,8 @@ margin-bottom: 3rem;
   height: 50px;
 }
 
+
+
 @media (max-width: 768px) {
   .rightContact {
     margin-top: 2rem;
@@ -212,6 +214,13 @@ margin-bottom: 3rem;
   .footerTextAlign{
     padding-left: 2rem;
   }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 500px) {
+    .footerImg {
+      padding:  0 5rem;
+    }
 }
 
 @media (max-width: 600px) {
