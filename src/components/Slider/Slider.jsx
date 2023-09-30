@@ -19,6 +19,7 @@ import Services from "../Services/Services";
 import ReadMore from "../ReadMore/ReadMore";
 import Banner from "../Banner/Banner";
 import ProductType from "../ProductType/ProductType";
+import Details from "../Details/Details";
 
 const Slider = () => {
   const Summaryref = useRef(null);
@@ -148,8 +149,8 @@ const Slider = () => {
       {/* <Certified /> */}
       <Banner />
       <ProductType />
-      <KnowUs ref={LearnMoreref} />
-      {/* <ReadMore /> */}
+      {/* <KnowUs ref={LearnMoreref} /> */}
+      <Details />
       <Summary />
       <Services ref={Summaryref} />
 
