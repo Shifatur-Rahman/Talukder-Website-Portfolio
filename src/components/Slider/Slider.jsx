@@ -16,10 +16,10 @@ import AOS from "aos";
 import Certified from "../Certified/Certified";
 import Services from "../Services/Services";
 // import Banner from "../Banner/Banner";
-import ReadMore from "../ReadMore/ReadMore";
+// import ReadMore from "../ReadMore/ReadMore";
 import Banner from "../Banner/Banner";
 import ProductType from "../ProductType/ProductType";
-import Details from "../Details/Details";
+import TalukderDetails from "../TalukderDetails/TalukderDetails";
 
 const Slider = () => {
   const Summaryref = useRef(null);
@@ -147,10 +147,10 @@ const Slider = () => {
         ))}
       </Carousel>
       {/* <Certified /> */}
-      <Banner />
+      <Banner /> 
       <ProductType />
       {/* <KnowUs ref={LearnMoreref} /> */}
-      <Details />
+      <TalukderDetails />
       <Summary />
       <Services ref={Summaryref} />
 

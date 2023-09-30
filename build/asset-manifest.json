@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f3638ae.css",
-    "main.js": "/static/js/main.cea47962.js",
+    "main.css": "/static/css/main.de5ea679.css",
+    "main.js": "/static/js/main.70ad0417.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -16,6 +16,7 @@
     "static/media/Rack_Advertise.mp4": "/static/media/Rack_Advertise.b5d3a00a18a32f5e0844.mp4",
     "static/media/All_Bucket_Advertise.mp4": "/static/media/All_Bucket_Advertise.2e241e490c0d3a7c097a.mp4",
     "static/media/Food_Container.mp4": "/static/media/Food_Container.b65c5508c4c9dae4dc39.mp4",
+    "static/media/gallery1.jpg": "/static/media/gallery1.ff62de1728c6b2727209.jpg",
     "static/media/lged1.jpg": "/static/media/lged1.6b4a49c7e9a885fe867f.jpg",
     "static/media/lged7.jpg": "/static/media/lged7.d79190e5ba2d047478b5.jpg",
     "static/media/talukder.png": "/static/media/talukder.adfd4673280b76ef015a.png",
@@ -35,7 +36,6 @@
     "static/media/news2.jpg": "/static/media/news2.55d69ef6797797940de1.jpg",
     "static/media/02.jpg": "/static/media/02.6ad7141e9c98369fc44e.jpg",
     "static/media/plastic23.png": "/static/media/plastic23.b0ad61e6fa36f6a99223.png",
-    "static/media/gallery1.jpg": "/static/media/gallery1.ff62de1728c6b2727209.jpg",
     "static/media/pipe1.jpg": "/static/media/pipe1.de2dda2d2a1a5592d2c8.jpg",
     "static/media/plastic77.png": "/static/media/plastic77.10b7f699579ba71ad68c.png",
     "static/media/gallery18.jpg": "/static/media/gallery18.fea8717f268b23f314d0.jpg",
@@ -479,11 +479,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.1f3638ae.css.map": "/static/css/main.1f3638ae.css.map",
-    "main.cea47962.js.map": "/static/js/main.cea47962.js.map"
+    "main.de5ea679.css.map": "/static/css/main.de5ea679.css.map",
+    "main.70ad0417.js.map": "/static/js/main.70ad0417.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f3638ae.css",
-    "static/js/main.cea47962.js"
+    "static/css/main.de5ea679.css",
+    "static/js/main.70ad0417.js"
   ]
 }
