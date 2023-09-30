@@ -196,7 +196,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                           {
                             singleItem.size &&
-                            <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size}</span> <br /> </span>
+                            <span style={{marginBottom:"5px"}} className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size}</span> <br /> </span>
                           }
 
                           {
