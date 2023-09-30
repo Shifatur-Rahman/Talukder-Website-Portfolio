@@ -3751,61 +3751,61 @@ const portfolioItems = [
     id: 330,
     category: "upvc",
     imgSrc: fittings1,
-    title: "Fittings",
-    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
-    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    title: "uPVC Thread R-Tee",
+    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
     button: "Details"
   },
   {
     id: 331,
     category: "upvc",
     imgSrc: fittings2,
-    title: "Fittings",
-    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
-    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
-    button: "Details"
+    title: "uPVC Thread Brash Tee",
+    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+     button: "Details"
   },
   {
     id: 334,
     category: "upvc",
     imgSrc: fittings5,
-    title: "Fittings",
-    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
-    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    title: "uPVC Thread Tee",
+    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
     button: "Details"
   },
   {
     id: 333,
     category: "upvc",
     imgSrc: fittings4,
-    title: "Fittings",
-    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
-    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    title: "uPVC Thread Nipple",
+    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
     button: "Details"
   },
   {
     id: 335,
     category: "upvc",
     imgSrc: fittings6,
-    title: "Fittings",
-    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
-    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    title: "UPVC THREAD BRASH TEE",
+    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
     button: "Details"
   },
   {
     id: 332,
     category: "upvc",
     imgSrc: fittings3,
-    title: "Fittings",
-    longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
-    longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
+    title: "UPVC THREAD BRASH TEE",
+    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
     button: "Details"
   },
   {
     id: 336,
     category: "upvc",
     imgSrc: fittings7,
-    title: "Fittings",
+    title: "Thread Brass Tee",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
@@ -3814,7 +3814,7 @@ const portfolioItems = [
     id: 337,
     category: "upvc",
     imgSrc: fittings8,
-    title: "Fittings",
+    title: "Thread Brass Tee",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
@@ -3823,7 +3823,7 @@ const portfolioItems = [
     id: 338,
     category: "upvc",
     imgSrc: fittings9,
-    title: "Fittings",
+    title: "Thread Brass Tee",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
@@ -3832,7 +3832,7 @@ const portfolioItems = [
     id: 339,
     category: "upvc",
     imgSrc: fittings10,
-    title: "Fittings",
+    title: "Pipe Fittings",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
@@ -3841,7 +3841,7 @@ const portfolioItems = [
     id: 340,
     category: "upvc",
     imgSrc: fittings11,
-    title: "Fittings",
+    title: "uPVC Thead Socket",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
@@ -3850,7 +3850,7 @@ const portfolioItems = [
     id: 341,
     category: "upvc",
     imgSrc: fittings12,
-    title: "Fittings",
+    title: "Pipe Fittings",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
@@ -3859,7 +3859,7 @@ const portfolioItems = [
     id: 342,
     category: "upvc",
     imgSrc: fittings13,
-    title: "Fittings",
+    title: "Pipe Fittings",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
@@ -3877,7 +3877,7 @@ const portfolioItems = [
     id: 344,
     category: "upvc",
     imgSrc: fittings15,
-    title: "Fittings",
+    title: "uPVC Thread Tee",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
@@ -3886,7 +3886,7 @@ const portfolioItems = [
     id: 345,
     category: "upvc",
     imgSrc: fittings16,
-    title: "Fittings",
+    title: "Thread Pipe Fittings",
     longCode: "83101/83102/83103/83105/83107/83109/83110/83141/83112/83114/83115/83117/83124/83125",
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
