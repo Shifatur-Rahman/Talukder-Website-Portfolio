@@ -3571,8 +3571,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe2,
     title: "waredrobe",
-    code: "ware-001",
+    code: "tgware-001",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3580,8 +3583,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe3,
     title: "waredrobe",
-    code: "ware-002",
+    code: "tgware-002",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3589,8 +3595,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe4,
     title: "waredrobe",
-    code: "ware-003",
+    code: "tgware-003",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3598,8 +3607,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe5,
     title: "waredrobe",
-    code: "ware-004",
+    code: "tgware-004",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3607,8 +3619,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe6,
     title: "waredrobe",
-    code: "ware-005",
+    code: "tgware-005",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3616,8 +3631,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe7,
     title: "waredrobe",
-    code: "ware-006",
+    code: "tgware-006",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3625,8 +3643,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe8,
     title: "waredrobe",
-    code: "ware-007",
+    code: "tgware-007",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3634,8 +3655,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe9,
     title: "waredrobe",
-    code: "ware-008",
+    code: "tgware-008",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3643,8 +3667,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe10,
     title: "waredrobe",
-    code: "ware-009",
+    code: "tgware-009",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3652,8 +3679,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe11,
     title: "waredrobe",
-    code: "ware-010",
+    code: "tgware-010",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3661,8 +3691,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe12,
     title: "waredrobe",
-    code: "ware-011",
+    code: "tgware-011",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3670,8 +3703,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe13,
     title: "waredrobe",
-    code: "ware-012",
+    code: "tgware-012",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3679,8 +3715,11 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe14,
     title: "waredrobe",
-    code: "ware-013",
+    code: "tgware-013",
     color: "",
+    size:"L-88  x W-47.5 x H-110 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
   {
@@ -3688,11 +3727,14 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: waredrobe1,
     title: "waredrobe",
-    code: "ware-014",
+    code: "tgware-014",
     color: "",
+    size:"L-88 x W-47.5 x H-137 cm",
+    size2:"L-66 x W-44 x H-127 cm",
+    material: "Polypropylene and ABS",
     button: "Details"
   },
-   
+  
    //   //    //                                      upvc
 
   {

@@ -164,7 +164,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           <TabList className='custom-tab' onChange={handleChange} aria-label="lab API tabs example">
                             <Tab label="Description" value="1" />
                             <Tab label="Material Information" value="2" />
-                            <Tab label="Warrenty" value="3" />
+                            <Tab label="Review" value="3" />
                           </TabList>
                         </Box>
 
@@ -186,13 +186,20 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           }
 
                           {
+                            singleItem.material &&
+                            <span className='singleItemProductTitle'>Material : <span className='singleItemProductValue'> {singleItem.material}</span> </span>
+                          }
+
+                          <br />
+
+                          {
                             singleItem.size &&
                             <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size}</span> <br /> </span>
                           }
 
                           {
                             singleItem.size2 &&
-                            <span className='singleItemProductTitle'>Size: <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
+                            <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
                           }
 
                           {singleItem.color && singleItem.code && (

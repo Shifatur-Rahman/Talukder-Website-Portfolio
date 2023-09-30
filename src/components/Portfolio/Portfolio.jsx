@@ -311,7 +311,7 @@ const Portfolio = () => {
                                 ""
                               )}
 
-                            {item.size && (
+                            {/* {item.size && (
                               <p style={{ marginLeft: "10px", marginTop: "0px" }} className="itemTitle">
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size} </span>
@@ -323,7 +323,7 @@ const Portfolio = () => {
                                 <strong>Size : </strong>
                                 <span className="itemSize"> {item.size2} </span>
                               </p>
-                            )}
+                            )} */}
 
                             {item.product && (
                               <p style={{ marginLeft: "10px" }} className="itemTitle">
