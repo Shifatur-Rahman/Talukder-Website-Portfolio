@@ -661,7 +661,13 @@ padding: 10px;
   @media(max-width:568px){
     .product-description{
       margin-top: 0 !important;
-      /* padding: 0 !important; */
+    }
+  }
+  
+/* Tab panel margin */
+  @media(max-width:991px){
+    .tabPanelMargin{
+      margin-top: 1rem !important;
     }
   }
 

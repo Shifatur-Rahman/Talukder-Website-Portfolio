@@ -170,7 +170,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           </TabList>
                         </Box>
 
-                        <TabPanel style={{marginTop:"4px"}} value="1">
+                        <TabPanel className='tabPanelMargin' style={{marginTop:"4px"}} value="1">
 
                           {(singleItem.code) &&
                             <span className='singleItemProductTitle'>Code : <span className='singleItemProductValue'> {singleItem.code} </span> <br /> </span>
@@ -181,7 +181,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           
                         </TabPanel>
 
-                        <TabPanel style={{marginTop:"4px"}} value="2">
+                        <TabPanel className='tabPanelMargin' style={{marginTop:"4px"}} value="2">
                           {
                             singleItem.longCode &&
                             <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />  
@@ -264,7 +264,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                         </TabPanel>
 
-                        <TabPanel style={{ marginTop: "4px" }} value="3">
+                        <TabPanel className='tabPanelMargin' style={{ marginTop: "4px" }} value="3">
 
                           <p style={{fontSize:"15px", color:"#4d4d4d", fontWeight:"600", marginLeft:"5px"}}>4.5 out of 5 (5 Review)</p>
 
@@ -272,9 +272,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           <Rating name="size-large" defaultValue={5} size="large" readOnly/>
                           <Rating name="size-medium" defaultValue={4} readOnly />
                           <Rating name="size-small" defaultValue={0} size="small" readOnly /> 
-                          {/* <Rating name="size-small" defaultValue={2} size="small" readOnly />  
-                          <Rating name="size-small" defaultValue={1} size="small" readOnly />   */}
-                            
                           </Stack>
 
                         </TabPanel>
