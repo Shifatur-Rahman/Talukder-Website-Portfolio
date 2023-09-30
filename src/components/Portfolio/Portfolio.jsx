@@ -17,6 +17,7 @@ import {motion, AnimatePresence} from 'framer-motion'
 import ProductDetails from "../ProductDetails/ProductDetails";
 import { Link } from 'react-router-dom';
 import HomePage from "../../pages/HomePage";
+import { VaccinesRounded } from "@mui/icons-material";
 // import { animateScroll } from "react-scroll";
 
 const Portfolio = () => {
@@ -219,6 +220,7 @@ const Portfolio = () => {
                         }
                       }).slice(pages*30 - 30, pages*30)
                       .map((item) => (
+                        
                         <motion.div
                         animate={{ opacity: 1 }}
                         initial={{ opacity: 0 }}
@@ -334,10 +336,13 @@ const Portfolio = () => {
                               </p>
                             )}
 
-                            {item.button && (
+                            {
+                            item.button && (
+                            
                               <div style={{ marginLeft: "10px" }}>
                                 {/* <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
                                 {/* <Link to={`/product/productDetailsPage/${item.id}`}> */}
+                                
                                 <Link to={`/product/${item.category}/${item.id}`}>
                                   <Button className="me-2 mb-2 upvcBtn"> Details </Button>
                                 </Link>
