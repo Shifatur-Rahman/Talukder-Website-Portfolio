@@ -48,7 +48,7 @@ const TalukderDetails = () => {
 
                       {/* <div className="col-lg-6"> */}
                           <div className="about-img position-relative overflow-hidden p-5 pe-0">
-                              <img className="img-fluid w-100 propertyTempImg" src={template} alt="" />
+                              <img className="propertyTempImg" src={template} alt="" />
                           </div>
                       {/* </div> */}
 
