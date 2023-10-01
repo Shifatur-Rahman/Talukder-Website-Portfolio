@@ -141,18 +141,18 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           including specifications, features, and any other relevant details.
                           Here's a sample description of what the product details page might include:
                         </p>
-                        
-                        {/* <div className="product-price">
+
+                        <div className="product-price">
                           <div className="discounted-price flex">
-                            <span className="productPrice">BDT 7,500.00</span>
+                            <span className="productPrice">BDT 00.00</span>
                             <span className="offer fw-700 fs-400 Orange">50%</span>
                           </div>
                           <div className="original-price">
                             <span style={{ textDecoration: "line-through", fontSize: "16px" }} className="fw-700 fs-400 line-height-500 GrayishBlue">
-                              BDT 15,000
+                              BDT 00.00
                             </span>
                           </div>
-                        </div> */}
+                        </div>
 
                         <div className="action-wrapper flex">
 
