@@ -8,7 +8,7 @@ const TalukderDetails = () => {
   return (
     <>
     
-    <div style={{margin:"2rem 0"}} className="container">
+          <div style={{ margin: "2rem 0" }} className="container">
               <div className="container">
                   <div className="row">
 
@@ -34,7 +34,7 @@ const TalukderDetails = () => {
                           </NavLink>
 
                       </div>
-                      
+
                   </div>
               </div>
           </div>

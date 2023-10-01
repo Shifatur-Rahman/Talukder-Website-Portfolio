@@ -25,6 +25,7 @@ import FurniturePage from "../pages/FurniturePage";
 import JEnterprisePage from "../pages/JEnterprisePage";
 // import NotFound from "../components/NotFound/NotFound";
 import ProductDetailsPage from '../pages/ProductDetailsPage'
+import ErrorPage from "../pages/ErrorPage";
 
 function AnimatedRoute() {
   const location = useLocation();
@@ -94,6 +95,11 @@ function AnimatedRoute() {
           <Route
             path="/product/:category/:id"
             element={<ProductDetailsPage />}
+          />
+
+          <Route
+            path="*"
+            element={<ErrorPage />}
           />
 
          {/* <Route path="**" element={<NotFound />} /> */} 
