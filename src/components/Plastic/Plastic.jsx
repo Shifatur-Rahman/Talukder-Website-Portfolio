@@ -110,7 +110,6 @@ const Plastic = () => {
               ))}
             </Row>
             
-         
       </Container>
       )}
     </>
