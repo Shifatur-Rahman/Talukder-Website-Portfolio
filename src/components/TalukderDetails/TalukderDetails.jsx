@@ -41,7 +41,7 @@ const TalukderDetails = () => {
           </div> */}
 
 
-          <div style={{ margin: "2rem 0" }} className="container">
+          <div style={{ margin: "2rem 0" }}>
               <Container>
                 <Row>
                     <Col sm={12} md={6} lg={6}>
