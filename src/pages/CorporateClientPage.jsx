@@ -16,11 +16,12 @@ const CorporateClientPage = () => {
   }, []);
   return (
     <>
+
        <TopNavigation title="Talukder Group" />
        <PageTop pageTitle="Our Corporate Client" />
        <ClientReview />
        <Footer />
-       <BackToTopButton />
+       <BackToTopButton /> 
     
     </>
   )
