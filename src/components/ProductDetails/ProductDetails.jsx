@@ -17,7 +17,6 @@ import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
 import Spinner from "../Spinner/Spinner.jsx";
 
-
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
 
   const [currentProductImage, setCurrentProductImage] = useState(0);
@@ -142,7 +141,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           Here's a sample description of what the product details page might include:
                         </p>
 
-                        <div className="product-price">
+                        {/* <div className="product-price">
                           <div className="discounted-price flex">
                             <span className="productPrice">BDT 00.00</span>
                             <span className="offer fw-700 fs-400 Orange">50%</span>
@@ -152,7 +151,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               BDT 00.00
                             </span>
                           </div>
-                        </div>
+                        </div> */}
 
                         <div className="action-wrapper flex">
 

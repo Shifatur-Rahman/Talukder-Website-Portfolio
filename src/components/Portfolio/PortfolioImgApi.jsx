@@ -447,6 +447,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMTO-001",
     size: "L2400 X W1900 X H750mm",
+    material: "Viniar Oak and Wooden",
     imgSrc: tbl1,
     button: "Details"
   },

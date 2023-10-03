@@ -24,6 +24,7 @@ import client20 from "../../asset/images/Client_logo/unicef.jpg";
 import client21 from "../../asset/images/Client_logo/hysawa.jpg";
 import client22 from "../../asset/images/Client_logo/csa.jpg";
 import Spinner from "../Spinner/Spinner.jsx";
+import StoreLocation from "../ProductDetails/StoreLocation";
 
 const ClientReview = () => {
 
@@ -130,7 +131,10 @@ const ClientReview = () => {
               </Col>
             ))}
           </Slider>
+
+          
         </Container>
+        
       )}
     </>
   );
