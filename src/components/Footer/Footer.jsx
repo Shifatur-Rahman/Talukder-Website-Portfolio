@@ -111,6 +111,7 @@ const Footer = () => {
               Saturday - Thrusday (9:00AM-6:00PM)
             </p>
           </Col>
+          
         </Row>
 
         <hr style={{color:"#fff"}} />
