@@ -57,7 +57,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
             totalProduct.map((singleItem) => {
               if (singleItem.id == id) {
                 return (
-
                   <main style={{ marginTop: "5rem" }} className="product">
                     <div className="container-md grid product-container">
                       <div style={{ marginTop: "3rem" }} className="flex product-image">
