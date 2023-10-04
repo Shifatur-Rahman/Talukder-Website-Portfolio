@@ -447,7 +447,9 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMTO-001",
     size: "L2400 X W1900 X H750mm",
-    material: "Viniar Oak and Wooden",
+    material: "Mahogany & Oak Veneered engineering wood",
+    warrnty:"One year free service warranty for any manufacturing fault",
+    pollish: "lacquer polish",
     imgSrc: tbl1,
     button: "Details"
   },
@@ -457,6 +459,9 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMTO-002",
     size: "L2400 X W1950 X H750mm",
+    material: "Mahogany & Oak Veneered engineering wood",
+    warrnty:"One year free service warranty for any manufacturing fault",
+    pollish: "lacquer polish",
     imgSrc: tbl2,
     button: "Details"
   },
@@ -466,6 +471,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMTO-003",
     size: "L2100 X W1800 X H750mm",
+    material: "Mahogany & Oak Veneered engineering wood",
+    warrnty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl3,
     button: "Details"
   },
@@ -475,6 +482,7 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMTO-004",
     size: "L2100 X W1800 X H750mm",
+    material: "Mahogany & Oak Veneered engineering wood",
     imgSrc: tbl4,
     button: "Details"
   },
