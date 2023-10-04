@@ -111,7 +111,7 @@ const Footer = () => {
               Saturday - Thrusday (9:00AM-6:00PM)
             </p>
           </Col>
-          
+
         </Row>
 
         <hr style={{color:"#fff"}} />
@@ -198,12 +198,12 @@ const Footer = () => {
 
           {/* <Col sm={12} lg={1} md={1}></Col> */}
 
-          <Col style={{padding:"0 30px"}} className="footerLocation" sm={12} md={6} lg={6}>
-            <h1 style={{ textAlign: "center", marginBottom: "30px"}} className="footerTitle">
-              Our Location
-            </h1>
-            <GoogleMap />
-          </Col>
+            <Col style={{ padding: "0 30px" }} className="footerLocation" sm={12} md={6} lg={6}>
+              <h1 style={{ textAlign: "center", marginBottom: "30px" }} className="footerTitle">
+                Our Location
+              </h1>
+              <GoogleMap />
+            </Col>
          
         </Row>
 
@@ -313,27 +313,27 @@ const Footer = () => {
               </div>
             </Col>
 
-          <Col style={{paddingLeft:"40px"}} sm={12} md={6} lg={3} className="footerTextAlign">
-            <h1 className="footerTitle">Our Factory</h1>
+            <Col style={{ paddingLeft: "40px" }} sm={12} md={6} lg={3} className="footerTextAlign">
+              <h1 className="footerTitle">Our Factory</h1>
 
-            <AiFillHome className="socialFontPhone" />
-            <a className="socialLink">
-              {" "}
-              Talukder uPVC Factory, Baniargati, Bashundia, Jashore
-            </a>
-            <br />
+              <AiFillHome className="socialFontPhone" />
+              <a className="socialLink">
+                {" "}
+                Talukder uPVC Factory, Baniargati, Bashundia, Jashore
+              </a>
+              <br />
 
-            <BsFillTelephoneFill className="socialFontPhone" />
-            <a style={{lineHeight:"30px"}} className="socialLink"> +88-01952288381</a>
-            <br />
+              <BsFillTelephoneFill className="socialFontPhone" />
+              <a style={{ lineHeight: "30px" }} className="socialLink"> +88-01952288381</a>
+              <br />
 
-            <MdEmail className="socialFontPhone" />
-            <a style={{lineHeight:"30px"}} className="socialLink">info@talukder-group.com.bd</a>
-            <br />
+              <MdEmail className="socialFontPhone" />
+              <a style={{ lineHeight: "30px" }} className="socialLink">info@talukder-group.com.bd</a>
+              <br />
 
-            <FaFax className="socialFontPhone" />
-            <a className="socialLink"> +88-02-48955604</a>
-          </Col>
+              <FaFax className="socialFontPhone" />
+              <a className="socialLink"> +88-02-48955604</a>
+            </Col>
         </Row>
       </div>
 
