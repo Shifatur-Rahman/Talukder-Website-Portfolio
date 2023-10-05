@@ -338,11 +338,9 @@ const Portfolio = () => {
 
                             {
                             item.button && (
-                            
                               <div style={{ marginLeft: "10px" }}>
                                 {/* <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
                                 {/* <Link to={`/product/productDetailsPage/${item.id}`}> */}
-                                
                                 <Link to={`/product/${item.category}/${item.id}`}>
                                   <Button style={{borderRadius:"3px"}} className="upvcBtn"> Details </Button>
                                 </Link>
