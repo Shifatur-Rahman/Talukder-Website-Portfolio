@@ -379,7 +379,6 @@ const Portfolio = () => {
                                         {/* Pagination */}            
       
               <Row>
-
                 <div style={{ marginBottom: "60px" }} className='pagination'>
                   <span onClick={() => { handlePage(pages - 1); window.scrollTo(0, 0); }}
                     className={pages > 1 ? "" : "Pagination_disable"}>
@@ -402,7 +401,6 @@ const Portfolio = () => {
                     <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
                   </span>
                 </div>
-
               </Row>
                     
         </Container>
