@@ -344,7 +344,7 @@ const Portfolio = () => {
                                 {/* <Link to={`/product/productDetailsPage/${item.id}`}> */}
                                 
                                 <Link to={`/product/${item.category}/${item.id}`}>
-                                  <Button className="me-2 mb-2 upvcBtn"> Details </Button>
+                                  <Button style={{borderRadius:"3px"}} className="upvcBtn"> Details </Button>
                                 </Link>
                               </div>
                             )}
