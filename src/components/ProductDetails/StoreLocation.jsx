@@ -10,7 +10,6 @@ const StoreLocation = () => {
     <>
     
     <div className='storeLocation'>
-
         <div className='leftStore'>
           <span>
             <MdOutlineLocationCity className='storeLocationLogo' />
