@@ -179,9 +179,9 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         <TabContext value={value}>
                           <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                             <TabList className='custom-tab' onChange={handleChange} aria-label="lab API tabs example">
-                              <Tab label="Description" value="1" />
+                              <Tab label="Overview" value="1" />
                               <Tab label="Material Information" value="2" />
-                              <Tab label="Review" value="3" />
+                              <Tab label="Reviews" value="3" />
                             </TabList>
                           </Box>
 
@@ -217,6 +217,11 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             {
                               singleItem.size2 &&
                               <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
+                            }
+                            {/* <br /> */}
+                            {
+                              singleItem.Warranty &&
+                              <span className='singleItemProductTitle'>Warranty : <span className='singleItemProductValue'> {singleItem.Warranty}</span> </span>
                             }
 
                             {singleItem.color && singleItem.code && (
