@@ -367,12 +367,6 @@ import waredrobe12 from "../../asset/images/plastic/Waredrobe/waredrobe12.jpg";
 import waredrobe13 from "../../asset/images/plastic/Waredrobe/waredrobe13.jpg";
 import waredrobe14 from "../../asset/images/plastic/Waredrobe/waredrobe14.png";
 
-
-
-
-
-
-
 //          lged
 
 import lged1 from "../../asset/images/lged/lged1.jpg";
