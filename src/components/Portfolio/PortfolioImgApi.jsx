@@ -955,13 +955,14 @@ const portfolioItems = [
     imgSrc: tbl46,
     button: "Details"
   },
-
   {
     id: 47,
     title: "COMPUTER TABLE",
     category: "office furniture",
     code: "TFCTO-047",
     size: "L1500 X W600 X H750mm",
+    material: "Mfc board & Metal Strcture",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl47,
     button: "Details"
   },
@@ -971,6 +972,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCTO-048",
     size: "L1200 X W500 X H750mm",
+    material: "Mfc board & Metal Strcture",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl48,
     button: "Details"
   },
@@ -980,6 +983,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCTO-049",
     size: "L900 X W480 X H750mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl49,
     button: "Details"
   },
@@ -989,6 +994,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCTO-050",
     size: "L1050 X W480 X H750mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl50,
     button: "Details"
   },
@@ -998,6 +1005,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCTO-051",
     size: "L1050 X W480 X H750mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl51,
     button: "Details"
   },
@@ -1007,6 +1016,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCTO-052",
     size: "L1000 X W480 X H750mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl52,
     button: "Details"
   },
@@ -1017,6 +1028,8 @@ const portfolioItems = [
     title: "BAR STOOL",
     category: "office furniture",
     code: "TFBST-053",
+    material: "Metal strcture and powder coating painting",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl53,
     button: "Details"
   },
@@ -1025,6 +1038,8 @@ const portfolioItems = [
     title: "BAR STOOL",
     category: "office furniture",
     code: "TFBST-054",
+    material: "Beech wood and veneered engineered wood",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl54,
     button: "Details"
   },
@@ -1033,6 +1048,8 @@ const portfolioItems = [
     title: "BAR STOOL",
     category: "office furniture",
     code: "TFBST-055",
+    material: "Beech wood and veneered engineered wood",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl55,
     button: "Details"
   },
@@ -1043,6 +1060,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBCH-056",
     size: "L1600 X W400 X H750mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl56,
     button: "Details"
   },
@@ -1053,6 +1072,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBCH-057",
     size: "L1200 X W350 X H900mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl57,
     button: "Details"
   },
@@ -1065,6 +1086,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-058",
     size: "L1200 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl58,
     button: "Details"
   },
@@ -1075,6 +1098,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-059",
     size: "L800 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl59,
     button: "Details"
   },
@@ -1084,6 +1109,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-060",
     size: "L800 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl60,
     button: "Details"
   },
@@ -1093,6 +1120,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-061",
     size: "L600 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl61,
     button: "Details"
   },
@@ -1102,6 +1131,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-062",
     size: "L800 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl62,
     button: "Details"
   },
@@ -1112,6 +1143,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-063",
     size: "L900 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl63,
     button: "Details"
   },
@@ -1122,6 +1155,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-064",
     size: "L1200 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl64,
     button: "Details"
   },
@@ -1131,6 +1166,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-065",
     size: "L1200 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl65,
     button: "Details"
   },
@@ -1140,6 +1177,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-066",
     size: "L600 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl66,
     button: "Details"
   },
@@ -1150,6 +1189,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMPO-067",
     size: "L2400 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl67,
     button: "Details"
   },
@@ -1161,6 +1202,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-068",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl68,
     button: "Details"
   },
@@ -1171,10 +1214,11 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-069",
     size: "L900 X W300 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl69,
     button: "Details"
   },
-
 
   // WALL MOUNTED CABINET
   {
@@ -1183,6 +1227,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFWMC-071",
     size: "L1600 X W350 X H600mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl71,
     button: "Details"
   },
@@ -1193,6 +1239,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFWMC-072",
     size: "L900 X W350 X H700mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl72,
     button: "Details"
   },
@@ -1205,6 +1253,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBCO-073",
     size: "L1600 X W450 X H750mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl73,
     button: "Details"
   },
@@ -1215,6 +1265,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBCO-074",
     size: "L1650 X W450 X H750mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl74,
     button: "Details"
   },
@@ -1224,6 +1276,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFBCO-075",
     size: "L1200 X W400 X H750mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl75,
     button: "Details"
   },
@@ -1236,6 +1290,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFFHB-076",
     size: "L2400 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl76,
     button: "Details"
   },
@@ -1245,6 +1301,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFFHB-077",
     size: "L2400 X W400 X H1800mm",
+    material: "Mfc & lb board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl77,
     button: "Details"
   },
@@ -1256,6 +1314,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFGWS-078",
     size: "L1500 X W560 X H900mm",
+    material: "Oak & Beech Wood",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl78,
     button: "Details"
   },
@@ -1266,6 +1326,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFGWS-079",
     size: "L450 X W500 X H950mm",
+    material: "Oak & Beech Wood",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl79,
     button: "Details"
   },
@@ -1277,6 +1339,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFSPF-080",
     size: "L1980 X W660 X H790mm",
+    material: "Oak & Beech Wood",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl80,
     button: "Details"
   },
@@ -1289,6 +1353,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-071",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack1,
     button: "Details"
   },
