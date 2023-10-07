@@ -222,6 +222,7 @@ header top area ends here
     display: block;
     /* color: #fff !important; */
   }
+
   .navigation{
     background-color: none;
   }
@@ -288,6 +289,7 @@ header top area ends here
   }
   /* span.navbar-toggler-icon, button.navbar-toggler */
 }
+
 @media (max-width: 450px) {
   .navigation {
     /* padding: 1rem 2rem; */
