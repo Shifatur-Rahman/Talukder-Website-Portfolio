@@ -68,6 +68,7 @@ body {
   filter: opacity(0.35);
   border: 1.5px solid #ff7d1a;
 }
+
 .flex {
   display: flex;
   gap: 1rem;
@@ -86,6 +87,7 @@ body {
 .flow > * + * {
   margin-top: 1.5rem;
 }
+
 .Orange {
   color: #ff7d1a;
 }
@@ -182,13 +184,12 @@ body {
   .product .product-container .product-image .thumbnail-wrapper {
     justify-content: center;
   }
-  /* .product .product-container .product-description {
-    padding-block: 2rem;
-  } */
+  
   .product .product-container .product-description .action-wrapper {
     flex-direction: column;
     align-items: stretch;
   }
+
   .product
     .product-container
     .product-description
@@ -267,7 +268,6 @@ body {
     }
   
     /* Tg Logo */
-  
     .productDetailsTitle {
       color: #4d4d4d;
       font-family: 'Montserrat', sans-serif;
