@@ -218,7 +218,9 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               singleItem.size2 &&
                               <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
                             }
+
                             {/* <br /> */}
+                            
                             {
                               singleItem.Warranty &&
                               <span className='singleItemProductTitle'>Warranty : <span className='singleItemProductValue'> {singleItem.Warranty}</span> </span>
