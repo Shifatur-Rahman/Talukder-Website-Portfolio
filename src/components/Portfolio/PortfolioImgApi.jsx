@@ -1364,6 +1364,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-072",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack2,
     button: "Details"
   },
@@ -1373,6 +1375,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-073",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack3,
     button: "Details"
   },
@@ -1382,6 +1386,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-074",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack4,
     button: "Details"
   },
@@ -1391,6 +1397,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-075",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack5,
     button: "Details"
   },
@@ -1400,6 +1408,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-076",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack6,
     button: "Details"
   },
@@ -1417,6 +1427,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-077",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack8,
     button: "Details"
   },
@@ -1426,6 +1438,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-078",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack9,
     button: "Details"
   },
@@ -1435,6 +1449,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-079",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack10,
     button: "Details"
   },
@@ -1444,6 +1460,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-080",
     size: "L1200 X W400 X H1800mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack11,
     button: "Details"
   },
@@ -1453,6 +1471,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-081",
     size: "4’x2’x6′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack12,
     button: "Details"
   },
@@ -1462,6 +1482,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-082",
     size: "4’x1.5’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack13,
     button: "Details"
   },
@@ -1471,6 +1493,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-083",
     size: "4’x1.5’x7′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack14,
     button: "Details"
   },
@@ -1480,6 +1504,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-084",
     size: "4’x1.5’x6′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack15,
     button: "Details"
   },
@@ -1489,6 +1515,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-085",
     size: " 4’x1.5’x6′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack16,
     button: "Details"
   },
@@ -1498,6 +1526,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-086",
     size: "4’x1.5’x6′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack17,
     button: "Details"
   },
@@ -1507,6 +1537,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-087",
     size: "4’x1.5’x6′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack18,
     button: "Details"
   },
@@ -1516,6 +1548,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-088",
     size: "8’x3’x12′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack19,
     button: "Details"
   },
@@ -1526,6 +1560,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-089",
     size: "8’x3’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack21,
     button: "Details"
   },
@@ -1535,6 +1571,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-090",
     size: "8’x3’x6′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack22,
     button: "Details"
   },
@@ -1544,6 +1582,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-091",
     size: "4’x5’x4′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack23,
     button: "Details"
   },
@@ -1553,6 +1593,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-092",
     size: " 4’x3.5’x4′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack24,
     button: "Details"
   },
@@ -1562,6 +1604,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-093",
     size: "12’x3’x7′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack25,
     button: "Details"
   },
@@ -1571,6 +1615,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-094",
     size: "12’x2’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack26,
     button: "Details"
   },
@@ -1580,6 +1626,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-095",
     size: "12’x2’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack27,
     button: "Details"
   },
@@ -1589,6 +1637,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-096",
     size: "10’x3’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack28,
     button: "Details"
   },
@@ -1598,6 +1648,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-097",
     size: "10’x2’x7’ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack29,
     button: "Details"
   },
@@ -1607,6 +1659,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-098",
     size: "4’x3’x7’ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack30,
     button: "Details"
   },
@@ -1616,6 +1670,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-099",
     size: "8’x3’x12′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack32,
     button: "Details"
   },
@@ -1625,6 +1681,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-100",
     size: "8’x4’x10′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack33,
     button: "Details"
   },
@@ -1634,6 +1692,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-101",
     size: "8’x3’x10′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack34,
     button: "Details"
   },
@@ -1643,6 +1703,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-102",
     size: "8′x2’x10′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack36,
     button: "Details"
   },
@@ -1652,6 +1714,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-103",
     size: "8′x3’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack37,
     button: "Details"
   },
@@ -1661,6 +1725,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-104",
     size: "8′x2’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack38,
     button: "Details"
   },
@@ -1670,6 +1736,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-105",
     size: "8′x3’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack39,
     button: "Details"
   },
@@ -1679,6 +1747,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-106",
     size: "8′x2’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack40,
     button: "Details"
   },
@@ -1688,6 +1758,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-107",
     size: "7′x3’x8′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack41,
     button: "Details"
   },
@@ -1697,6 +1769,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-108",
     size: "5’x1.5’x7′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack42,
     button: "Details"
   },
@@ -1707,6 +1781,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFSAR-109",
     size: "8’x3’x7′ Feet",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack20,
     button: "Details"
   },
@@ -1717,6 +1793,8 @@ const portfolioItems = [
     category: "INDUSTRIAL FURNITURE",
     code: "TFHDR-070",
     size: "L2400 X W600 X H2400mm",
+    material: "Mild Steel",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: tbl70,
     button: "Details"
   },
