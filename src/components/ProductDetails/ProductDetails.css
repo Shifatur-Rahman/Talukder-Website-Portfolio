@@ -444,7 +444,6 @@ padding: 10px;
 
 @media(max-width: 500px) {
   .RelatedProductTable {
-    /* width: 350px; */
     margin: 0 !important;
     padding: 0 !important;
   }
