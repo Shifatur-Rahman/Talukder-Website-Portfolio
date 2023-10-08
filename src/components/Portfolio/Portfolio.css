@@ -157,10 +157,9 @@
             }
       
             @media screen and (max-width: 900px) {
-              .portfolio-item {
+              /* .portfolio-item {
                 width: calc(45% - 10px);
-              }
-      
+              } */
               .portfolio-item img {
                 height: 180px;
                 width: 180px;
@@ -168,6 +167,12 @@
       
               .filter-buttons button {
                 font-size: 11px;
+              }
+            }
+
+             @media screen and (max-width: 768px) {
+                .portfolio-item {
+                   width: calc(45% - 5px);
               }
             }
       
