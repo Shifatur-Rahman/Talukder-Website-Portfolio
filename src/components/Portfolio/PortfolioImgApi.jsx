@@ -1809,6 +1809,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-001",
     size: "L3600 X W1200 X H750mm",
+    material: "Mfc & Lb Board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: con_table1,
     button: "Details"
   },
@@ -1818,6 +1820,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-002",
     size: "L3600 X W1200 X H750mm",
+    material: "Mahogany & Oak Veneered engineering wood",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: con_table2,
     button: "Details"
   },
@@ -1827,6 +1831,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-003",
     size: "L6000 X W1500 X H750mm",
+    material: "Mfc & Lb Board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: con_table3,
     button: "Details"
   },
@@ -1836,6 +1842,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-004",
     size: "L2400 X W1200 X H750mm",
+    material: "Mfc & Lb Board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: con_table4,
     button: "Details"
   },
@@ -1845,6 +1853,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-005",
     size: "L2400 X W1200 X H750mm",
+    material: "Mfc & Lb Board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: con_table5,
     button: "Details"
   },
@@ -1854,6 +1864,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-006",
     size: "L3000 X W1200 X H750mm",
+    material: "Mahogany & Oak Veneered engineering wood",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: con_table6,
     button: "Details"
   },
@@ -1863,6 +1875,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-007",
     size: "L2400 X W1200 X H750mm",
+    material: "Mahogany & Oak Veneered engineering wood",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: con_table7,
     button: "Details"
   },
@@ -1872,6 +1886,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCON-008",
     size: "L1200 X W1200 X H750mm",
+    material: "Mfc & Lb Board",
+    Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: con_table8,
     button: "Details"
   },
