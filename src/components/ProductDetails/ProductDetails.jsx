@@ -224,7 +224,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             {
                               singleItem.Warranty &&
                               <div>
-                                <span>hello </span> <br/>
                               <span className='singleItemProductTitle'>Warranty : <span className='singleItemProductValue'> {singleItem.Warranty}</span> </span>
                               </div>
                             }
@@ -286,6 +285,18 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                 </table>
                               </div>
                             )}
+
+                            {(singleItem.code) &&
+                             <div>
+                              <ul className='productDetailsList'>
+                                <li className='singleItemProductValue'>Any assembly or installation required will be done by the TFL team at the time of delivery</li>
+                                <li className='singleItemProductValue'>Imported high quality hardware fittings</li>
+                                <li className='singleItemProductValue'>Indoor use only</li>
+                                <li className='singleItemProductValue'> Easy and damage free transportation.  </li>
+                                <li className='singleItemProductValue'>Free assembly service by expert technician</li>
+                              </ul>
+                             </div>
+                            }
 
                           </TabPanel>
 
