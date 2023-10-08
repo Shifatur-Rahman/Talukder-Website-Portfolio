@@ -231,3 +231,15 @@
               /* opacity: 0; */
               display: none;
             }
+
+            @media screen and (max-width: 560px) {
+              .pagination>span {
+                padding: 8px;
+              }
+            }
+
+            @media screen and (max-width: 450px) {
+              .pagination>span {
+                padding: 5px;
+              }
+            }
