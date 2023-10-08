@@ -2000,7 +2000,7 @@ const portfolioItems = [
     code: "TFMCO-012",
     imgSrc: chair12,
     button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+    material: " high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 513,
@@ -2018,7 +2018,7 @@ const portfolioItems = [
     code: "TFECO-014",
     imgSrc: chair14,
     button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+    material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 515,
@@ -2027,7 +2027,7 @@ const portfolioItems = [
     code: "TFECO-015",
     imgSrc: chair15,
     button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+    material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 516,
@@ -2098,7 +2098,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-023",
     imgSrc: chair23,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 524,
@@ -2106,7 +2107,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-024",
     imgSrc: chair24,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 525,
@@ -2114,7 +2116,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-025",
     imgSrc: chair25,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 526,
@@ -2122,7 +2125,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-026",
     imgSrc: chair26,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 527,
@@ -2130,7 +2134,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-027",
     imgSrc: chair27,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 528,
@@ -2138,7 +2143,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-028",
     imgSrc: chair28,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 529,
@@ -2146,7 +2152,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-029",
     imgSrc: chair29,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 530,
@@ -2154,7 +2161,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TF0CO-030",
     imgSrc: chair30,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 531,
@@ -2162,7 +2170,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFOCO-031",
     imgSrc: chair31,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 532,
@@ -2170,7 +2179,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFOCO-032",
     imgSrc: chair32,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
   },
   {
     id: 533,
@@ -2178,7 +2188,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFOCO-033",
     imgSrc: chair33,
-    button: "Details"
+    button: "Details",
+    material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
   },
   {
     id: 534,
@@ -2186,7 +2197,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-034",
     imgSrc: chair34,
-    button: "Details"
+    button: "Details",
+    material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
   },
   {
     id: 535,
