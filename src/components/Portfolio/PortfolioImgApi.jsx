@@ -1900,7 +1900,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-001",
     imgSrc: chair1,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 502,
@@ -1908,7 +1909,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-002",
     imgSrc: chair2,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 503,
@@ -1916,7 +1918,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-003",
     imgSrc: chair3,
-    button: "Details"
+    button: "Details",
+    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
   },
   {
     id: 504,
@@ -1924,7 +1927,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-004",
     imgSrc: chair4,
-    button: "Details"
+    button: "Details",
+    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
   },
   {
     id: 505,
@@ -1932,7 +1936,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-005",
     imgSrc: chair5,
-    button: "Details"
+    button: "Details",
+    material: "solid Mahagony seasoned wood. Fully Solid wooden armrest. Chrome plated polymer cast leg with 5nos. castors offers stability and visual interest. Hydraulically height adjustable mechanism. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 506,
@@ -1940,7 +1945,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-006",
     imgSrc: chair6,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility."
   },
   {
     id: 507,
@@ -1948,7 +1954,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-007",
     imgSrc: chair7,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 508,
@@ -1956,7 +1963,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-008",
     imgSrc: chair8,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 509,
@@ -1964,7 +1972,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-009",
     imgSrc: chair9,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 510,
@@ -1972,7 +1981,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-010",
     imgSrc: chair10,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 511,
@@ -1980,7 +1990,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-011",
     imgSrc: chair11,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 512,
@@ -1988,7 +1999,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-012",
     imgSrc: chair12,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 513,
@@ -1996,7 +2008,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFMCO-013",
     imgSrc: chair13,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 514,
@@ -2004,7 +2017,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-014",
     imgSrc: chair14,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 515,
@@ -2012,7 +2026,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-015",
     imgSrc: chair15,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 516,
@@ -2020,7 +2035,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-016",
     imgSrc: chair16,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 517,
@@ -2028,7 +2044,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-017",
     imgSrc: chair17,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 518,
@@ -2036,7 +2053,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-018",
     imgSrc: chair18,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 519,
@@ -2044,7 +2062,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-019",
     imgSrc: chair19,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 520,
@@ -2052,7 +2071,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-020",
     imgSrc: chair20,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 521,
@@ -2060,7 +2080,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-021",
     imgSrc: chair21,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 522,
@@ -2068,7 +2089,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFECO-022",
     imgSrc: chair22,
-    button: "Details"
+    button: "Details",
+    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
   },
   {
     id: 523,
@@ -3028,7 +3050,6 @@ const portfolioItems = [
     size: "5,8,10,16,20,25,30 Ltr.",
     button: "Details"
   },
-
   {
     id: 208,
     category: "PLASTIC HOUSEHOLD",

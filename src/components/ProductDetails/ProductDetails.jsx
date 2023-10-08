@@ -194,22 +194,14 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <span className='singleItemProductTitle'>Product Name : <span className='singleItemProductValue'> {singleItem.title}</span> </span> <br />
                             <span className='singleItemProductTitle'>Product Type : <span className='singleItemProductValue'>{singleItem.category}</span> </span>
 
-                          </TabPanel>
-
-                          <TabPanel className='tabPanelMargin' style={{ marginTop: "4px" }} value="2">
                             {
-                              singleItem.longCode &&
-                              <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
+                              singleItem.Warranty &&
+                              <div>
+                              <span className='singleItemProductTitle'>Warranty : <span className='singleItemProductValue'> {singleItem.Warranty}</span> </span>
+                              </div>
                             }
 
-                            {
-                              singleItem.material &&
-                              <span className='singleItemProductTitle'>Material : <span className='singleItemProductValue'> {singleItem.material}</span> </span>
-                            }
-
-                            <br />
-
-                            {
+{
                               singleItem.size &&
                               <span style={{ marginBottom: "5px" }} className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size}</span> <br /> </span>
                             }
@@ -219,15 +211,29 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
                             }
 
-                            {/* <br /> */}
+                          </TabPanel>
+
+                          <TabPanel className='tabPanelMargin' style={{ marginTop: "4px" }} value="2">
                             
                             {
-                              singleItem.Warranty &&
-                              <div>
-                              <span className='singleItemProductTitle'>Warranty : <span className='singleItemProductValue'> {singleItem.Warranty}</span> </span>
-                              </div>
+                              singleItem.material &&
+                              <ul className='productDetailsList'>
+                                <li className='singleItemProductValue'> Made from {singleItem.material}.</li>
+                              </ul>
                             }
+    
+                            <div>
+                              <ul className='productDetailsList'>
+                                <li className='singleItemProductValue'>Imported high quality hardware fittings</li>
+                                <li className='singleItemProductValue'>Indoor use only</li>
+                                <li className='singleItemProductValue'> Easy and damage free transportation.  </li>
+                                <li className='singleItemProductValue'>Any assembly or installation required will be done by the TFL team at the time of delivery</li>
+                                <li className='singleItemProductValue'>Free assembly service by expert technician</li>
+                              </ul>
+                            </div>
 
+                            {/* <br /> */}                            
+      
                             {singleItem.color && singleItem.code && (
                               <div style={{ margin: "0 5px" }} className="table-responsive RelatedProductTable">
                                 <table className="table table-bordered table-sm custom-table">
@@ -286,17 +292,12 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               </div>
                             )}
 
-                            {(singleItem.code) &&
-                             <div>
-                              <ul className='productDetailsList'>
-                                <li className='singleItemProductValue'>Any assembly or installation required will be done by the TFL team at the time of delivery</li>
-                                <li className='singleItemProductValue'>Imported high quality hardware fittings</li>
-                                <li className='singleItemProductValue'>Indoor use only</li>
-                                <li className='singleItemProductValue'> Easy and damage free transportation.  </li>
-                                <li className='singleItemProductValue'>Free assembly service by expert technician</li>
-                              </ul>
-                             </div>
+                            {
+                              singleItem.longCode &&
+                              <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
                             }
+
+                            
 
                           </TabPanel>
 
