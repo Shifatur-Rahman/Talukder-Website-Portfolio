@@ -223,7 +223,10 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             
                             {
                               singleItem.Warranty &&
+                              <div>
+                                <span>hello </span> <br/>
                               <span className='singleItemProductTitle'>Warranty : <span className='singleItemProductValue'> {singleItem.Warranty}</span> </span>
+                              </div>
                             }
 
                             {singleItem.color && singleItem.code && (
