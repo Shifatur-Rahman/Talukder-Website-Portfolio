@@ -2206,7 +2206,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-035",
     imgSrc: chair35,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. 50mm thick foam cushioning covered with best quality imported nylon rexine on 19 mm ply wood & back which increase strength. Hydraulically height adjustable mechanism facility helps to regulate with table. PVC legs with 5nos castors which ensure no rust. Best quality dual-wheel provides easy mobility, Star head binding screw, best quality handle. "
   },
   {
     id: 536,
@@ -2214,7 +2215,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-036",
     imgSrc: chair36,
-    button: "Details"
+    button: "Details",
+
   },
   {
     id: 537,
@@ -2230,7 +2232,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-038",
     imgSrc: chair38,
-    button: "Details"
+    button: "Details",
+    material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
   },
   {
     id: 539,
@@ -2238,7 +2241,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-039",
     imgSrc: chair39,
-    button: "Details"
+    button: "Details",
+    material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
   },
   {
     id: 540,
@@ -2246,7 +2250,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFCCO-040",
     imgSrc: chair40,
-    button: "Details"
+    button: "Details",
+    material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
   },
 
   {
@@ -2255,7 +2260,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-041",
     imgSrc: chair41,
-    button: "Details"
+    button: "Details",
+    material: "This chair is made from high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
   },
   {
     id: 542,
@@ -2263,7 +2269,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-042",
     imgSrc: chair42,
-    button: "Details"
+    button: "Details",
+    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
   },
   {
     id: 543,
@@ -2271,7 +2278,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-043",
     imgSrc: chair43,
-    button: "Details"
+    button: "Details",
+    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility. Manual height adjustable"
   },
   {
     id: 544,
@@ -2279,7 +2287,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-044",
     imgSrc: chair44,
-    button: "Details"
+    button: "Details",
+    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility. Manual height adjustable"
   },
   {
     id: 545,
@@ -2287,7 +2296,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-045",
     imgSrc: chair45,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table"
   },
   {
     id: 546,
@@ -2295,7 +2305,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-046",
     imgSrc: chair46,
-    button: "Details"
+    button: "Details",
+    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table"
   },
   {
     id: 547,
@@ -2303,7 +2314,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-047",
     imgSrc: chair47,
-    button: "Details"
+    button: "Details",
+    material: "Stainless steel welded framework that ensures high load. Zinc-phosphate coated electro-static epoxy powder oven baked paint finish that confirms anti-rust, shiny color and longevity"
   },
   {
     id: 548,
@@ -2311,7 +2323,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-048",
     imgSrc: chair48,
-    button: "Details"
+    button: "Details",
+    material: "welded stainless  steel and is protected with  an anti-rust coating for longevity of its life. The seat and back support are upholstered with a tough, superior quality rexine material to prevent damage. The seat and the back support of this chair provide good lumbar support for your comfort. The legs of this chair are attached with high density rubber to prevent scratches on the floor"
   },
   {
     id: 549,
@@ -2319,7 +2332,9 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-049",
     imgSrc: chair49,
-    button: "Details"
+    button: "Details",
+    material: "welded stainless  steel and is protected with  an anti-rust coating for longevity of its life. The seat and back support are upholstered with a tough, superior quality rexine material to prevent damage. The seat and the back support of this chair provide good lumbar support for your comfort. The legs of this chair are attached with high density rubber to prevent scratches on the floor"
+
   },
   {
     id: 550,
@@ -2327,7 +2342,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-050",
     imgSrc: chair50,
-    button: "Details"
+    button: "Details",
+    material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
   },
   {
     id: 551,
@@ -2335,7 +2351,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-051",
     imgSrc: chair51,
-    button: "Details"
+    button: "Details",
+    material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
   },
   {
     id: 552,
@@ -2343,7 +2360,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-052",
     imgSrc: chair52,
-    button: "Details"
+    button: "Details",
+    material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
   },
   {
     id: 553,
@@ -2351,7 +2369,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-053",
     imgSrc: chair53,
-    button: "Details"
+    button: "Details",
+    material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
   },
   {
     id: 554,
@@ -2359,7 +2378,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-054",
     imgSrc: chair54,
-    button: "Details"
+    button: "Details",
+    material: "solid wood and Powder coated mild steel. High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in antique finish "
   },
   {
     id: 555,
@@ -2367,7 +2387,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-055",
     imgSrc: chair55,
-    button: "Details"
+    button: "Details",
+    material: "imported shell and High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in natural finish Metal Inert Gas (MIG) welding for superior quality and durability"
   },
   {
     id: 556,
@@ -2399,7 +2420,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFGCO-059",
     imgSrc: chair59,
-    button: "Details"
+    button: "Details",
+    material: "solid wood and Powder coated mild steel waiting chairs will stand the test of time with its strength and longevity. The structure is made of mild steel which is absolutely rust free. The chrome plate color will provide great endurance over time. Perfect for public waiting places this chair comes in a set of three."
   },
   {
     id: 560,
@@ -2407,7 +2429,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFGCO-060",
     imgSrc: chair60,
-    button: "Details"
+    button: "Details",
+    material: "cold rolled mild steel waiting chairs will stand the test of time with its strength and longevity. The structure is made of mild steel which is absolutely rust free. The chrome plate color will provide great endurance over time. Perfect for public waiting places this chair comes in a set of three"
   },
   {
     id: 561,
@@ -2415,7 +2438,8 @@ const portfolioItems = [
     category: "School Furniture",
     code: "TFCRC-061",
     imgSrc: chair61,
-    button: "Details"
+    button: "Details",
+    material: "Imported shell and High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in natural finish Metal Inert Gas (MIG) welding for superior quality and durability"
   },
   {
     id: 562,
