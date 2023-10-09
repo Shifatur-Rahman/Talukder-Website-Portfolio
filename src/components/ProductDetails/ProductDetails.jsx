@@ -192,7 +192,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             }
 
                             <span className='singleItemProductTitle'>Product Name : <span className='singleItemProductValue'> {singleItem.title}</span> </span> <br />
-                            <span className='singleItemProductTitle'>Product Type : <span className='singleItemProductValue'>{singleItem.category}</span> </span>
+                            <span className='singleItemProductTitle'>Product Type : <span className='singleItemProductValue'>{singleItem.category}</span> </span> <br />
 
                             {
                               singleItem.Warranty &&

@@ -438,7 +438,8 @@ padding: 10px;
 
 .custom-slider button.slick-arrow.slick-next::before,
 .custom-slider button.slick-arrow.slick-prev::before {
-  color: #ff7d1a !important; 
+  /* color: #ff7d1a !important;  */
+  color: #95a5a6 !important; 
   background-color: #e6e6e6 !important;
 }
 
