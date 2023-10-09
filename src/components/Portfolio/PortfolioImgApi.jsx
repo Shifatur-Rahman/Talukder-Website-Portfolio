@@ -2487,7 +2487,7 @@ const portfolioItems = [
     size: "L1800 X W400 X H730MM(HIGH BENCH)",
     size2: "L1800 X W300 X H400MM(LOW BENCH)",
     button: "Details",
-    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Metal Inert Gas (MIG) welding for superior quality and durability "
+    material: ""
   },
   {
     id: 567,
@@ -2497,7 +2497,8 @@ const portfolioItems = [
     imgSrc: chair67,
     size: "L1500 X W450 X H750MM(HIGH BENCH)",
     size2: "L1500 X W300 X H400MM(LOW BENCH)",
-    button: "Details"
+    button: "Details",
+    material: ""
   },
   {
     id: 568,
