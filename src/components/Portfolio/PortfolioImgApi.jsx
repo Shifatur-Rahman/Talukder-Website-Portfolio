@@ -2396,7 +2396,8 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFVCO-056",
     imgSrc: chair56,
-    button: "Details"
+    button: "Details",
+    material: ""
   },
   {
     id: 557,
@@ -2439,7 +2440,7 @@ const portfolioItems = [
     code: "TFCRC-061",
     imgSrc: chair61,
     button: "Details",
-    material: "Imported shell and High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in natural finish Metal Inert Gas (MIG) welding for superior quality and durability"
+    material: "mild steel for that sturdy feel and balance as well as longevity in life. The wooden seat on top provides excellent lumbar support. The metal frame has an anti-rust coating to prevent rusting and damage. It is equipped with high quality rubber stoppers to protect floors from scratches"
   },
   {
     id: 562,
@@ -2447,7 +2448,8 @@ const portfolioItems = [
     category: "School Furniture",
     code: "TFCRC-062",
     imgSrc: chair62,
-    button: "Details"
+    button: "Details",
+    material: "solid wood and Powder coated mild steel. High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in antique finish. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
   },
   {
     id: 563,
@@ -2455,7 +2457,8 @@ const portfolioItems = [
     category: "School Furniture",
     code: "TFCRC-063",
     imgSrc: chair63,
-    button: "Details"
+    button: "Details",
+    material: "superior quality chrome plated mild steel.High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options"
   },
   {
     id: 564,
@@ -2463,7 +2466,8 @@ const portfolioItems = [
     category: "School Furniture",
     code: "TFCRC-064",
     imgSrc: chair64,
-    button: "Details"
+    button: "Details",
+    material: "superior quality chrome plated mild steel.High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options"
   },
   {
     id: 565,
@@ -2471,120 +2475,9 @@ const portfolioItems = [
     category: "School Furniture",
     code: "TFCRC-065",
     imgSrc: chair65,
-    button: "Details"
+    button: "Details",
+    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Metal Inert Gas (MIG) welding for superior quality and durability "
   },
-
-  {
-    id: 568,
-    title: "TEACHERS TABLE",
-    category: "School Furniture",
-    code: "TFTTS-068",
-    imgSrc: chair68,
-    size: "L850 X W540 X H780MM",
-    button: "Details"
-  },
-
-  {
-    id: 569,
-    title: "TEACHERS TABLE",
-    category: "School Furniture",
-    code: "TFTTS-069",
-    imgSrc: chair69,
-    size: "L900 X W500 X H750MM",
-    button: "Details"
-  },
-  {
-    id: 570,
-    title: "PODIUM",
-    category: "School Furniture",
-    code: "TFPOD-070",
-    imgSrc: chair70,
-    size: "L750 X W550 X H1250MM",
-    button: "Details"
-  },
-  {
-    id: 571,
-    title: "PODIUM",
-    category: "School Furniture",
-    code: "TFPOD-071",
-    imgSrc: chair71,
-    size: "L850 X W600 X H1250MM",
-    button: "Details"
-  },
-
-  ////      FILE CABINET
-  {
-    id: 572,
-    title: "FILE CABINET",
-    category: "School Furniture",
-    code: "TFSFC-072",
-    imgSrc: chair72,
-    size: "L482 X W550 X H720MM",
-    button: "Details"
-  },
-  {
-    id: 573,
-    title: "FILE CABINET",
-    category: "School Furniture",
-    code: "TFSFC-073",
-    imgSrc: chair073,
-    size: "L482 X W550 X H1040MM",
-    button: "Details"
-  },
-  // 573 & 574 CODE ARE SAME COZ I FOLLOW THE BUSHIER & SIR SUGGEST ME
-  {
-    id: 574,
-    title: "FILE CABINET",
-    category: "School Furniture",
-    code : "TFSFC-073",
-    imgSrc: chair73,
-    size: "L482 X W550 X H1370MM",
-    button: "Details"
-  },
-
-  ///         COMBINED CABINET
-
-  {
-    id: 575,
-    title: "COMBINED CABINET",
-    category: "office furniture",
-    code: "TFSCC-074",
-    imgSrc: chair74,
-    size: "L900 X W550 X H1200MM",
-    button: "Details"
-  },
-
-  /// OFFICE ALMIRAH
-  {
-    id: 576,
-    title: "STEEL ALMIRAH",
-    category: "School Furniture",
-    code: "TFSOA-075",
-    imgSrc: chair75,
-    size: "L900 X W500 X H1850MM",
-    button: "Details"
-  },
-  {
-    id: 577,
-    title: "STEEL ALMIRAH",
-    category: "School Furniture",
-    code: "TFSOA-076",
-    imgSrc: chair76,
-    size: "L910 X W480 X H1930MM",
-    button: "Details"
-  },
-  {
-    id: 578,
-    title: "STEEL ALMIRAH",
-    category: "School Furniture",
-    code: "TFSOA-077",
-    imgSrc: chair77,
-    size: "L910 X W480 X H1930MM",
-    button: "Details"
-  },
-  
-  //                                 --------   lged(200)  --------
-  
   {
     id: 566,
     title: "CLASSROOM TABLE WITH BENCH",
@@ -2593,7 +2486,8 @@ const portfolioItems = [
     imgSrc: chair66,
     size: "L1800 X W400 X H730MM(HIGH BENCH)",
     size2: "L1800 X W300 X H400MM(LOW BENCH)",
-    button: "Details"
+    button: "Details",
+    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Metal Inert Gas (MIG) welding for superior quality and durability "
   },
   {
     id: 567,
@@ -2605,6 +2499,128 @@ const portfolioItems = [
     size2: "L1500 X W300 X H400MM(LOW BENCH)",
     button: "Details"
   },
+  {
+    id: 568,
+    title: "TEACHERS TABLE",
+    category: "School Furniture",
+    code: "TFTTS-068",
+    imgSrc: chair68,
+    size: "L850 X W540 X H780MM",
+    button: "Details",
+    material: "mild welded steel it is durable and strong and ensures longevity in use. To add to the ergonomic design of the product it has a golden teak finish to give it a rich wooden look"
+  },
+  {
+    id: 569,
+    title: "TEACHERS TABLE",
+    category: "School Furniture",
+    code: "TFTTS-069",
+    imgSrc: chair69,
+    size: "L900 X W500 X H750MM",
+    button: "Details",
+    material: "mild welded steel it is durable and strong and ensures longevity in use. To add to the ergonomic design of the product it has a golden teak finish to give it a rich wooden look"
+  },
+  {
+    id: 570,
+    title: "PODIUM",
+    category: "School Furniture",
+    code: "TFPOD-070",
+    imgSrc: chair70,
+    size: "L750 X W550 X H1250MM",
+    button: "Details",
+    material: "Mfc & lb board. High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU)Lacquer in antique (outside) and natural (inside) finish Please refer to images for dimension details"
+  },
+  {
+    id: 571,
+    title: "PODIUM",
+    category: "School Furniture",
+    code: "TFPOD-071",
+    imgSrc: chair71,
+    size: "L850 X W600 X H1250MM",
+    button: "Details",
+    material: "Beech wood and veneered engineered wood. High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU)Lacquer in antique (outside) and natural (inside) finish Please refer to images for dimension details"
+  },
+
+  ////      FILE CABINET
+  {
+    id: 572,
+    title: "FILE CABINET",
+    category: "School Furniture",
+    code: "TFSFC-072",
+    imgSrc: chair72,
+    size: "L482 X W550 X H720MM",
+    button: "Details",
+    material: "mild steel welded channel framework that ensure high load bearing - Zinc-phosphate coated electro-static epoxy powder oven baked paint finish that confirms anti-rust, shiny color and longevity"
+  },
+  {
+    id: 573,
+    title: "FILE CABINET",
+    category: "School Furniture",
+    code: "TFSFC-073",
+    imgSrc: chair073,
+    size: "L482 X W550 X H1040MM",
+    button: "Details",
+    material: "mild steel welded channel framework that ensure high load bearing - Zinc-phosphate coated electro-static epoxy powder oven baked paint finish that confirms anti-rust, shiny color and longevity"
+  },
+  // 573 & 574 CODE ARE SAME COZ I FOLLOW THE BUSHIER & SIR SUGGEST ME
+  {
+    id: 574,
+    title: "FILE CABINET",
+    category: "School Furniture",
+    code : "TFSFC-073",
+    imgSrc: chair73,
+    size: "L482 X W550 X H1370MM",
+    button: "Details",
+    material: "mild steel welded channel framework that ensure high load bearing - Zinc-phosphate coated electro-static epoxy powder oven baked paint finish that confirms anti-rust, shiny color and longevity"
+  },
+
+  ///         COMBINED CABINET
+
+  {
+    id: 575,
+    title: "COMBINED CABINET",
+    category: "office furniture",
+    code: "TFSCC-074",
+    imgSrc: chair74,
+    size: "L900 X W550 X H1200MM",
+    button: "Details",
+    material: "the World’s best Quality Mild Steel Sheet. All surface of Mild Steel are mig welded, chemically de-rusted and zinc phosphate coated with oven backed heated powder paint finish that confirms anti rust, shiny color and longevity. Imported High Quality Rust Free Hardware Fittings. PVC stopper used in bottom to prevents moisture content of the floor"
+  },
+
+  /// OFFICE ALMIRAH
+  {
+    id: 576,
+    title: "STEEL ALMIRAH",
+    category: "School Furniture",
+    code: "TFSOA-075",
+    imgSrc: chair75,
+    size: "L900 X W500 X H1850MM",
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  },
+  {
+    id: 577,
+    title: "STEEL ALMIRAH",
+    category: "School Furniture",
+    code: "TFSOA-076",
+    imgSrc: chair76,
+    size: "L910 X W480 X H1930MM",
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  },
+  {
+    id: 578,
+    title: "STEEL ALMIRAH",
+    category: "School Furniture",
+    code: "TFSOA-077",
+    imgSrc: chair77,
+    size: "L910 X W480 X H1930MM",
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  },
+  
+  //                                 --------   lged(200)  --------
+  
+  
 
   {
     id: 251,
