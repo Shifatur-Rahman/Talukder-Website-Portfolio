@@ -2684,7 +2684,8 @@ const portfolioItems = [
     code: "TFSOA-078",
     imgSrc: chair78,
     size: "L900 X W450 X H1800MM",
-    button: "Details"
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
   },
   {
     id: 580,
@@ -2693,7 +2694,8 @@ const portfolioItems = [
     code: "TFSOA-079",
     imgSrc: chair79,
     size: "L900 X W450 X H1800MM",
-    button: "Details"
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
   },
   {
     id: 581,
@@ -2702,7 +2704,8 @@ const portfolioItems = [
     code: "TFSOA-080",
     imgSrc: chair80,
     size: "L1000 X W450 X H1800MM",
-    button: "Details"
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
   },
 
   //               OFFICE LOCKER
@@ -2713,7 +2716,8 @@ const portfolioItems = [
     code: "TFSOL-077",
     imgSrc: chair077,
     size: "L900 X W500 X H1850MM",
-    button: "Details"
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
   },
   {
     id: 583,
@@ -2722,7 +2726,8 @@ const portfolioItems = [
     code: "TFSOL-078",
     imgSrc: chair078,
     size: "L350 X W500 X H1930MM",
-    button: "Details"
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
   },
   // office sofa
   {
