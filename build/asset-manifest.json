@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.de5ea679.css",
-    "main.js": "/static/js/main.70ad0417.js",
+    "main.css": "/static/css/main.0319483f.css",
+    "main.js": "/static/js/main.c46339cb.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -18,6 +18,7 @@
     "static/media/Food_Container.mp4": "/static/media/Food_Container.b65c5508c4c9dae4dc39.mp4",
     "static/media/gallery1.jpg": "/static/media/gallery1.ff62de1728c6b2727209.jpg",
     "static/media/lged1.jpg": "/static/media/lged1.6b4a49c7e9a885fe867f.jpg",
+    "static/media/error2.jpg": "/static/media/error2.1a1b266ab06ac6bfef03.jpg",
     "static/media/lged7.jpg": "/static/media/lged7.d79190e5ba2d047478b5.jpg",
     "static/media/talukder.png": "/static/media/talukder.adfd4673280b76ef015a.png",
     "static/media/lged8.jpg": "/static/media/lged8.9f2b2970474245538a89.jpg",
@@ -49,6 +50,7 @@
     "static/media/gallery16.jpg": "/static/media/gallery16.c1473aa2f98527530545.jpg",
     "static/media/gallery6.jpg": "/static/media/gallery6.dc4a58e7bca0781bb47d.jpg",
     "static/media/gallery10.jpg": "/static/media/gallery10.363fd11669c5dc49ba91.jpg",
+    "static/media/error1.jpg": "/static/media/error1.6ea98444d9b2b80d15fa.jpg",
     "static/media/gallery11.jpg": "/static/media/gallery11.d0513bb3efee9cd7cca5.jpg",
     "static/media/plastic37.png": "/static/media/plastic37.02f678bac8b22eaab485.png",
     "static/media/gallery13.jpg": "/static/media/gallery13.3cc4deed27631def4436.jpg",
@@ -474,16 +476,16 @@
     "static/media/fittings11.jpg": "/static/media/fittings11.e66716857ac0c4edb62b.jpg",
     "static/media/34.jpg": "/static/media/34.02b78e0e745487faf74b.jpg",
     "static/media/upvc3.JPG": "/static/media/upvc3.68e9f06d6f0be0fbc290.JPG",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "index.html": "/index.html",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.de5ea679.css.map": "/static/css/main.de5ea679.css.map",
-    "main.70ad0417.js.map": "/static/js/main.70ad0417.js.map"
+    "main.0319483f.css.map": "/static/css/main.0319483f.css.map",
+    "main.c46339cb.js.map": "/static/js/main.c46339cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.de5ea679.css",
-    "static/js/main.70ad0417.js"
+    "static/css/main.0319483f.css",
+    "static/js/main.c46339cb.js"
   ]
 }

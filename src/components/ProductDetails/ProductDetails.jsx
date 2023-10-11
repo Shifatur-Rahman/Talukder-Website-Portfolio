@@ -201,7 +201,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               </div>
                             }
 
-{
+                             {
                               singleItem.size &&
                               <span style={{ marginBottom: "5px" }} className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size}</span> <br /> </span>
                             }
