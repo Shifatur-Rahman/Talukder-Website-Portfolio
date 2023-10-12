@@ -66,13 +66,15 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             smallImage: {
                               alt: 'TGI Image',
                               isFluidWidth: true,
-                              src: `${singleItem.imgSrc}`,
+                              // src: `${singleItem.imgSrc}`,
+                              src: `${singleItem.imgSrc[0]}`,
                               className: 'large',
                               width: 380,
                               height: 480,
                             },
                             largeImage: {
-                              src: `${singleItem.imgSrc}`,
+                              // src: `${singleItem.imgSrc}`,
+                              src: `${singleItem.imgSrc[0]}`,
                               width: 800,
                               height: 800,
                               className: 'small'
@@ -92,7 +94,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <img
                               onClick={() => setCurrentProductImage(0)}
                               className={currentProductImage === 0 ? 'active' : ''}
-                              src={`${singleItem.imgSrc}`}
+                              src={`${singleItem.imgSrc[0]}`}
                               alt="thumbnail"
                             />
                           </div>
@@ -101,7 +103,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <img
                               onClick={() => setCurrentProductImage(1)}
                               className={currentProductImage === 1 ? 'active' : ''}
-                              src={`${singleItem.imgSrc}`}
+                              // src={`${singleItem.imgSrc}`}
+                               src={`${singleItem.imgSrc[1]}`}
                               alt="thumbnail"
                             />
                           </div>
@@ -110,7 +113,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <img
                               onClick={() => setCurrentProductImage(2)}
                               className={currentProductImage === 2 ? 'active' : ''}
-                              src={`${singleItem.imgSrc}`}
+                              src={`${singleItem.imgSrc[2]}`}
                               alt="thumbnail"
                             />
                           </div>
@@ -119,7 +122,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <img
                               onClick={() => setCurrentProductImage(3)}
                               className={currentProductImage === 3 ? 'active' : ''}
-                              src={`${singleItem.imgSrc}`}
+                              src={`${singleItem.imgSrc[3]}`}
                               alt="thumbnail"
                             />
                           </div>

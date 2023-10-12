@@ -232,10 +232,11 @@ const Portfolio = () => {
                           <img
                             className="portfolio-item-img"
                             // src={`${item.imgSrc}`}
-                            src={`${item.img[0]}`}
+                            src={`${item.imgSrc[0]}`}
                             alt={item.title}
                             style={{ cursor: "pointer" }}
-                            onClick={() => handleImageClick(item.imgSrc)}
+                            // onClick={() => handleImageClick(item.imgSrc)}
+                              onClick={() => handleImageClick(item.imgSrc[0])}
                           />
 
                           <div style={{ marginTop: "10px", width: "100%", marginBottom: "35px" }}>

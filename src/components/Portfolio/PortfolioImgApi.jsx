@@ -446,12 +446,7 @@ const portfolioItems = [
     pollish: "lacquer polish",
     // imgSrc: tbl1,
     button: "Details",
-    imgSrc:{
-   imgLink1: tbl1,
-   imgLink2: tbl2,
-   imgLink3: tbl3,
-   imgLink4: tbl4,
-    }
+    imgSrc:[ tbl1, tbl2, tbl3, tbl4 ]
   },
   {
     id: 2,
