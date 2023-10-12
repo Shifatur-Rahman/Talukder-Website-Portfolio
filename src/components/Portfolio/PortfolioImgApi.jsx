@@ -444,9 +444,9 @@ const portfolioItems = [
     material: "Mahogany & Oak Veneered engineering wood",
     Warranty:"One year free service warranty for any manufacturing fault",
     pollish: "lacquer polish",
-    // imgSrc: tbl1,
+    imgSrc: tbl1,
     button: "Details",
-    imgSrc:[ tbl1, tbl2, tbl3, tbl4 ]
+    // imgSrc:[ tbl1, tbl2, tbl3, tbl4 ]
   },
   {
     id: 2,
