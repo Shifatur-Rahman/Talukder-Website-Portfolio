@@ -59,6 +59,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                 return (
                   <main style={{ marginTop: "5rem" }} className="product">
                     <div className="container-md grid product-container">
+
                       <div style={{ marginTop: "3rem" }} className="flex product-image">
                         <div id="imageMagnifier">
 
@@ -67,14 +68,14 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               alt: 'TGI Image',
                               isFluidWidth: true,
                               // src: `${singleItem.imgSrc}`,
-                              src: `${singleItem.imgSrc[0]}`,
+                              src: `${singleItem.imgSrc[currentProductImage]}`,
                               className: 'large',
                               width: 380,
                               height: 480,
                             },
                             largeImage: {
                               // src: `${singleItem.imgSrc}`,
-                              src: `${singleItem.imgSrc[0]}`,
+                              src: `${singleItem.imgSrc[currentProductImage]}`,
                               width: 800,
                               height: 800,
                               className: 'small'
