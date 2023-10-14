@@ -77,7 +77,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               // src: `${singleItem.imgSrc[currentProductImage]}`,
                               width: 800,
                               height: 800,
-                              className: 'small'
+                              className: 'small',
                             },
                             enlargedImageContainerDimensions: {
                               width: '100%',
@@ -86,6 +86,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             },
                             // enlargedImagePosition: 'over', 
                             lensStyle: { backgroundColor: 'rgba(0,0,0,.4)' }
+                            
                           }} />
                         </div>
 

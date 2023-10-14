@@ -302,6 +302,10 @@ body {
       text-transform: uppercase;
       font-weight: 600;
     }
+
+    .large{
+      background-color: #fff !important;
+    }
   
     .singleItemProductValue {
       font-family: 'Montserrat', sans-serif;
