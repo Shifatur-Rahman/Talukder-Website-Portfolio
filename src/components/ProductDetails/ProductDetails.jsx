@@ -300,20 +300,15 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
                             }
 
-                            
-
                           </TabPanel>
 
                           <TabPanel className='tabPanelMargin' style={{ marginTop: "4px" }} value="3">
-
                             <p style={{ fontSize: "15px", color: "#4d4d4d", fontWeight: "600", marginLeft: "5px" }}>4.5 out of 5 (5 Review)</p>
-
                             <Stack spacing={1}>
                               <Rating name="size-large" defaultValue={5} size="large" readOnly />
                               <Rating name="size-medium" defaultValue={4} readOnly />
                               <Rating name="size-small" defaultValue={0} size="small" readOnly />
                             </Stack>
-
                           </TabPanel>
 
                         </TabContext>
