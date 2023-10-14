@@ -32,7 +32,6 @@ const StoreLocation = () => {
       </div>
       
     </>
-
     
   )
 }
