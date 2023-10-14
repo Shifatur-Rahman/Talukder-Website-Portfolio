@@ -259,6 +259,7 @@ body {
   
     #imageMagnifier {
       background-color: #fff;
+      /* background-color: red; */
       height: 400px;
       border-radius: 5px;
     }

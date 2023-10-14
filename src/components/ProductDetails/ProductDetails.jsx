@@ -34,7 +34,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
   };
 
   let { id } = useParams();
-
   const [value, setValue] = React.useState('1');
   
   const handleChange = (event, newValue) => {
