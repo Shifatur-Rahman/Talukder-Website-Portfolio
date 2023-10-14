@@ -37,12 +37,12 @@ const PageLoader = () => {
   <img src={pageLoaderImg} alt ="pre-loader" /> 
       </div> */}
 
-<div key={refreshKey} className="component-wrapper">
-      {/* Content of your component */}
-      <div className="page-loader">
-        <img src={pageLoaderImg} alt="pre-loader" />
+      <div key={refreshKey} className="component-wrapper">
+        {/* Content of your component */}
+        <div className="page-loader">
+          <img src={pageLoaderImg} alt="pre-loader" />
+        </div>
       </div>
-    </div>
 
     </>
 

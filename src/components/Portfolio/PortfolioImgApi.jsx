@@ -458,7 +458,8 @@ const portfolioItems = [
     Warranty:"One year free service warranty for any manufacturing fault",
     pollish: "lacquer polish",
     imgSrc: tbl2,
-    button: "Details"
+    button: "Details",
+    // imgSrc: []
   },
   {
     id: 3,
@@ -1554,7 +1555,6 @@ const portfolioItems = [
     imgSrc: rack19,
     button: "Details"
   },
-  
   {
     id: 720, 
     title: "Heavy Duty Pallet Rack",
