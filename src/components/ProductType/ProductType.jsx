@@ -139,7 +139,6 @@ const ProductType = () => {
                   </div>
               </div>
           </div>
-
     </>
   )
 }
