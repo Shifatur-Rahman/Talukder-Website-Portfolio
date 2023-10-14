@@ -176,7 +176,6 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                     </div>
 
                     {/* Product description */}
-
                     <Container>
 
                       <Box className="tabBox" style={{ padding: "0 1rem" }} sx={{ width: '100%', typography: 'body1' }}>
