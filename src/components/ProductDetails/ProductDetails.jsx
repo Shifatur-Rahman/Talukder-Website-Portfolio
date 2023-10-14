@@ -236,7 +236,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             </div>
 
                             {/* <br /> */}                            
-      
+
                             {singleItem.color && singleItem.code && (
                               <div style={{ margin: "0 5px" }} className="table-responsive RelatedProductTable">
                                 <table className="table table-bordered table-sm custom-table">
