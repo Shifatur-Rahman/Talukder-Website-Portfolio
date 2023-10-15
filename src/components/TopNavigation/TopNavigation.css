@@ -102,6 +102,8 @@
 .dropdown:hover .dropdown-content {
   display: block;
   /* background: red; */
+  /* transform: rotateX(0deg);
+  visibility: visible; */
 }
 
 .dropdown-content a {

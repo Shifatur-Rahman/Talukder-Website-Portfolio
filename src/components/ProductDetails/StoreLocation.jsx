@@ -18,7 +18,7 @@ const StoreLocation = () => {
           <span className='storeSubHeader'>available all products</span> <br />
           <a className='storeSubHeader' style={{ textDecoration: "underline", color: "#ff7d1a" }} href='#'>Store Locator</a>
         </div>
-
+      
         <div className='rightStore'>
           <span>
             <BsTelephoneFill className='storeLocationLogoContact' />
