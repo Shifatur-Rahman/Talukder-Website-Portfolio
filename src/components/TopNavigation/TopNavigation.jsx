@@ -4,9 +4,9 @@ import { Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import talukderLogo from "../../asset/images/Logo/talukderLogo.png";
 import { AiOutlineCaretDown, AiOutlineTwitter, AiFillLinkedin, AiFillMail } from "react-icons/ai";
-import { FaFacebookF } from 'react-icons/fa';
-import { BsYoutube } from 'react-icons/bs';
-import { MdCall } from 'react-icons/md';
+// import { FaFacebookF } from 'react-icons/fa';
+// import { BsYoutube } from 'react-icons/bs';
+// import { MdCall } from 'react-icons/md';
 
 class TopNavigation extends Component {
 
