@@ -431,9 +431,6 @@ import tubewell11 from "../../asset/images/upvc/Tubewell/tubewell11.jpg";
 import tubewell12 from "../../asset/images/upvc/Tubewell/tubewell12.png";
 import tubewell13 from "../../asset/images/upvc/Tubewell/tubewell13.png";
 
-
-
-
 const portfolioItems = [
   {
     id: 1,
@@ -1137,7 +1134,6 @@ const portfolioItems = [
     imgSrc: tbl62,
     button: "Details"
   },
-
   {
     id: 63,
     title: "MULTIPURPOSE SHELF",
@@ -1773,7 +1769,6 @@ const portfolioItems = [
     imgSrc: rack42,
     button: "Details"
   },
-
   {
     id: 740, 
     title: "Pallet Rack",
@@ -4494,4 +4489,8 @@ const portfolioItems = [
   },
 ];
 
-export default portfolioItems;
+export default portfolioItems; 
+
+
+
+
