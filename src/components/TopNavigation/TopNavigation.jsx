@@ -47,40 +47,11 @@ class TopNavigation extends Component {
   render() {
     return (
       <>
-{/*       
-      <div className="topHeader">
-
-      </div> */}
-
-{/* <!-- header top starts here  --> */}
-
-    {/* <div className="header-top">
-        <div className="container">
-            <div className="row">
-                <div className="header_top_contact">
-                <ul className="header_topcontact">
-                  <li><a href="#"> <MdCall />
-                    <span className="headerTopText"> 01966-333355</span>
-                  </a></li>
-                  <li><a href="#"> <AiFillMail />
-                    <span className="headerTopText"> info@talukder-group.com.bd</span>
-                  </a></li>
-                </ul>
-              
-                <ul className="header_social_icon">
-                    <li><a href="#!"> <FaFacebookF /> </a></li>
-                    <li><a href="#!"> <AiOutlineTwitter /> </a></li>
-                    <li><a href="#!"> <BsYoutube /> </a></li>
-                    <li><a href="#!"> <AiFillLinkedin />  </a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </div> */}
 
     {/* <!-- header top ends here  --> */}
 
         <title>{this.state.pageTitle}</title>
+        
         <Navbar
           className={this.state.navBackgroundColor}
           fixed="top"
@@ -116,6 +87,7 @@ class TopNavigation extends Component {
               data-aos-offset="500"
               data-aos-duration="1500"
             >
+              
               {/* Home */}
 
               <Nav.Link>
