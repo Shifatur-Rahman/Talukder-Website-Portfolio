@@ -704,7 +704,6 @@ const portfolioItems = [
     imgSrc: tbl24,
     button: "Details"
   },
-
   {
     id: 25,
     title: "EXECUTIVE TABLE",
@@ -1150,7 +1149,6 @@ const portfolioItems = [
     imgSrc: tbl63,
     button: "Details"
   },
-
   {
     id: 64,
     title: "MULTIPURPOSE SHELF",
