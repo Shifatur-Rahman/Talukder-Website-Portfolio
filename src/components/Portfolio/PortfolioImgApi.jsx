@@ -689,7 +689,6 @@ const portfolioItems = [
     imgSrc: tbl23,
     button: "Details"
   },
-
   {
     id: 24,
     title: "EXECUTIVE TABLE",
@@ -789,7 +788,6 @@ const portfolioItems = [
     imgSrc: tbl32,
     button: "Details"
   },
-
   {
     id: 33,
     title: "MOVABLE DRAWER UNIT",
@@ -801,7 +799,6 @@ const portfolioItems = [
     imgSrc: tbl33,
     button: "Details"
   },
-
   {
     id: 34,
     title: "MOVABLE DRAWER UNIT",
@@ -813,7 +810,6 @@ const portfolioItems = [
     imgSrc: tbl34,
     button: "Details"
   },
-
   {
     id: 35,
     title: "MOVABLE DRAWER UNIT",
@@ -825,7 +821,6 @@ const portfolioItems = [
     imgSrc: tbl35,
     button: "Details"
   },
-
   {
     id: 36,
     title: "MOVABLE DRAWER UNIT",

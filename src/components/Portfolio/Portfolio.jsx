@@ -355,7 +355,7 @@ const Portfolio = () => {
                   </motion.div>
             )}
             
-                            {/* Image in big Size       */}
+                        {/* Image in big Size       */}
 
               <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
                 <DialogContent>
@@ -375,7 +375,8 @@ const Portfolio = () => {
                     }
                   />
                 </DialogContent>
-              </Dialog>       
+              </Dialog>      
+
           </Row>
      
                                         {/* Pagination */}            
@@ -386,7 +387,6 @@ const Portfolio = () => {
                     className={pages > 1 ? "" : "Pagination_disable"}>
                     <BsFillCaretLeftSquareFill style={{ color: "#1dc6ad" }} />
                   </span>
-
                   {
                     [...Array(Math.ceil(
                       category === "all"
