@@ -31,12 +31,6 @@
           justify-content: space-between;
           gap: 5px;
         }
-    
-        /* .portfolio-item img {
-            width: 100%;
-            height: auto;
-          } */
-    
         .portfolio-item {
           width: calc(25% - 10px);
           /* height: 320px; */
