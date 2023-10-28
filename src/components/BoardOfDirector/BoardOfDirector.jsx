@@ -156,10 +156,38 @@ const BoardOfDirector = () => {
                   <div className="main-text">
                     <h2>MD. Majharul Islam</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Group Asst. General Manager <br />
+                    Deputy General Manager <br />
                     (VAT, TAX & Audit)
 
                     </p>
+                  </div>
+
+                  <div className="socials" style={{ fontSize: "25px" }}>
+                    <BsFacebook style={{ marginRight: "5px" }} />
+                    <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                    <GrPinterest style={{ marginRight: "5px" }} />
+                    <AiFillGooglePlusCircle />
+                  </div>
+                </div>
+              </Col>
+
+              
+              <Col lg={3} md={6} sm={12}>
+                <div className="managementCard">
+                  <div className="img1">
+                    <img src={profile1Img} alt="one img" />
+                  </div>
+
+                  <div className="img2">
+                    <img src={profile2Img} alt="two img" />
+                  </div>
+
+                  <div className="main-text">
+                    <h2>MD. Samsul Talukder</h2>
+                    <p style={{ fontSize: "12px" }} className="main-text-p">
+                      Deputy General Manager <br />
+                      Sales Department
+                    </p>                    
                   </div>
 
                   <div className="socials" style={{ fontSize: "25px" }}>
@@ -184,7 +212,7 @@ const BoardOfDirector = () => {
                   <div className="main-text">
                     <h2>Md. Al-Mamunur Rashid</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Assistant General Manager <br />
+                    Asst. General Manager <br />
                     Head of Production (Fabrication)
                     </p>                   
                   </div>
@@ -236,11 +264,12 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="main-text">
-                    <h2>MD. Samsul Talukder</h2>
+                    <h2 style={{fontSize:"12px"}}>Abu Tahmid Mahmud E-Elahi</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                      Asst. General Manager <br />
-                      Sales Department
-                    </p>                    
+                     Asst. General Manager
+                    <br /> Head of Tender Sales
+                    </p>
+                    <p></p>
                   </div>
 
                   <div className="socials" style={{ fontSize: "25px" }}>
@@ -265,7 +294,7 @@ const BoardOfDirector = () => {
                   <div className="main-text">
                     <h2>Md. Asadullah</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Sr. Manager <br />
+                    Asst. General Manager <br />
                     Head of Finance & Legal
                     </p>
              
@@ -322,33 +351,6 @@ const BoardOfDirector = () => {
                     <h2>Md. Shafiqur Rahman</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
                       Sr. Manager <br /> Corporate Sales
-                    </p>
-                    <p></p>
-                  </div>
-
-                  <div className="socials" style={{ fontSize: "25px" }}>
-                    <BsFacebook style={{ marginRight: "5px" }} />
-                    <AiFillTwitterCircle style={{ marginRight: "5px" }} />
-                    <GrPinterest style={{ marginRight: "5px" }} />
-                    <AiFillGooglePlusCircle />
-                  </div>
-                </div>
-              </Col>
-
-              <Col lg={3} md={6} sm={12}>
-                <div className="managementCard">
-                  <div className="img1">
-                    <img src={profile1Img} alt="one img" />
-                  </div>
-
-                  <div className="img2">
-                    <img src={profile2Img} alt="two img" />
-                  </div>
-
-                  <div className="main-text">
-                    <h2 style={{fontSize:"12px"}}>Abu Tahmid Mahmud E-Elahi</h2>
-                    <p style={{ fontSize: "12px" }} className="main-text-p">
-                     Sr. Manager <br /> Head of Tender Sales
                     </p>
                     <p></p>
                   </div>
