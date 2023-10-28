@@ -490,9 +490,9 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="main-text">
-                    <h2>Md. Khairul Islam</h2>
+                    <h2>Md. Al-Amin</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Asst. Manager <br /> Corporate Sales
+                     Manager <br /> UPVC
                     </p>
                     <p></p>
                   </div>

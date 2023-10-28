@@ -158,6 +158,7 @@ const Portfolio = () => {
                   </div>
 
                   <div className="dropdown" style={{ flexDirection: "column" }}>
+
                     <button
                       className={isActive("WOODfURNITURE")}
                       onClick={toggleDropdown}
@@ -167,6 +168,7 @@ const Portfolio = () => {
                         {isDropdownOpen ? "▲" : "▼"}
                       </span>
                     </button>
+
                     {isDropdownOpen && (
                       <div className="dropdown-content">
                         <button
@@ -202,11 +204,11 @@ const Portfolio = () => {
 
             {loading ? (
               <PageLoader />
-            ) : (
-                    <motion.div
+            ) : (    
+                    <motion.div 
                       animate={{ opacity: 1 }}
                       initial={{ opacity: 0 }}
-                      exit={{ opacity: 0 }} 
+                      exit={{ opacity: 0 }}
                       transition={{ duration: 2 }}
                       layout
                       className="portfolio-grid">
