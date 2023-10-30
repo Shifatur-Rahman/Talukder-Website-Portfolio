@@ -19,7 +19,7 @@ const BoardOfDirector = () => {
       setLoading(false);
     }, 3200);
   }, []);
-
+ 
   //  management team
 
   return (
@@ -294,10 +294,9 @@ const BoardOfDirector = () => {
                   <div className="main-text">
                     <h2>Md. Asadullah</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Asst. General Manager <br />
+                    Sr. Manager <br />
                     Head of Finance & Legal
                     </p>
-             
                   </div>
 
                   <div className="socials" style={{ fontSize: "25px" }}>
