@@ -92,7 +92,7 @@ const ManagementTeam = () => {
       <div>
         <Container>
           <Row>
-            <Col lg={3} md={6} sm={12}>
+            <Col lg={4} md={6} sm={12}>
               <div className="card">
                 <div className="img1">
                   <img src={profile1Img} alt="one img" />
@@ -123,7 +123,7 @@ const ManagementTeam = () => {
               </div>
             </Col>
 
-                <Col lg={3} md={6} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className="card">
                     <div className="img1">
                       <img src={profile1Img} alt="one img" />
@@ -154,7 +154,7 @@ const ManagementTeam = () => {
                   </div>
                 </Col>
 
-                <Col lg={3} md={6} sm={12}>
+                {/* <Col lg={3} md={6} sm={12}>
                   <div className="card">
                     <div className="img1">
                       <img src={profile1Img} alt="one img" />
@@ -185,9 +185,9 @@ const ManagementTeam = () => {
                       <AiFillGooglePlusCircle />
                     </div>
                   </div>
-                </Col>
+                </Col> */}
 
-                <Col lg={3} md={6} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className="card">
                     <div className="img1">
                       <img src={profile1Img} alt="one img" />
@@ -201,8 +201,7 @@ const ManagementTeam = () => {
                       <h2>Mrs. Ferdausi Akter</h2>
                       <p style={{ fontSize: "12px" }} className="main-text-p"> Deputy Managing Director</p>
                       <Link
-                        to={`/about/Message/Details?title=${"Mrs.Ferdausi Akter"}&subTitle=${"Deputy Managing Director"}`}
-                      >
+                        to={`/about/Message/Details?title=${"Mrs.Ferdausi Akter"}&subTitle=${"Deputy Managing Director"}`}>
                         <Button className="profileBtn" variant="outline-info">
                           Details
                         </Button>
