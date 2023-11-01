@@ -38,12 +38,12 @@ const Slider = () => {
       para: "For Quality Life",
       src2: "https://mdbcdn.b-cdn.net/img/video/forest.mp4",
     },
-    {
-      src: slider4,
-      alt: "Talukder Furniture",
-      para: "Best In Quality",
-      src2: "https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4",
-    }
+    // {
+    //   src: slider4,
+    //   alt: "Talukder Furniture",
+    //   para: "Best In Quality",
+    //   src2: "https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4",
+    // }
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -146,10 +146,8 @@ const Slider = () => {
           </Carousel.Item>
         ))}
       </Carousel>
-      {/* <Certified /> */}
-      <Banner /> 
+      {/* <Banner />  */}
       <ProductType />
-      {/* <KnowUs ref={LearnMoreref} /> */}
       <TalukderDetails />
       <Summary />
       <Services ref={Summaryref} />

@@ -224,7 +224,7 @@ class TopNavigation extends Component {
                     <NavLink className="navDropdown" to="/concern/upvc">
                       Talukder uPVC Fittings Ind. Ltd.
                     </NavLink>
-                    <NavLink className="navDropdown" to="/concern/distribution">
+                    {/* <NavLink className="navDropdown" to="/concern/distribution">
                       Talukder Distribution Co. Ltd.
                     </NavLink>
                     <NavLink className="navDropdown" to="/concern/furniture">
@@ -232,7 +232,7 @@ class TopNavigation extends Component {
                     </NavLink>
                     <NavLink className="navDropdown" to="/concern/j&j">
                       J & J Enterprise Ltd.
-                    </NavLink>
+                    </NavLink> */}
                   </div>
                 </div>
               </Nav.Link>

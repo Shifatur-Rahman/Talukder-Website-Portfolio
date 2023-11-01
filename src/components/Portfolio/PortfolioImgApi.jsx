@@ -432,1996 +432,1995 @@ import tubewell12 from "../../asset/images/upvc/Tubewell/tubewell12.png";
 import tubewell13 from "../../asset/images/upvc/Tubewell/tubewell13.png";
 
 const portfolioItems = [
-  {
-    id: 1,
-    title: "MD TABLE",
-    category: "office furniture",
-    code: "TFMTO-001",
-    size: "L2400 X W1900 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    pollish: "lacquer polish",
-    imgSrc: tbl1,
-    button: "Details",
-    // imgSrc:[ tbl1, tbl2, tbl3, tbl4 ]
-  },
-  {
-    id: 2,
-    title: "MD TABLE",
-    category: "office furniture",
-    code: "TFMTO-002",
-    size: "L2400 X W1950 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    pollish: "lacquer polish",
-    imgSrc: tbl2,
-    button: "Details",
-    // imgSrc: []
-  },
-  {
-    id: 3,
-    title: "MD TABLE",
-    category: "office furniture",
-    code: "TFMTO-003",
-    size: "L2100 X W1800 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl3,
-    button: "Details"
-  },
-  {
-    id: 4,
-    title: "MD TABLE",
-    category: "office furniture",
-    code: "TFMTO-004",
-    size: "L2100 X W1800 X H750mm",
-    material: "OAK & Beech wood.",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl4,
-    button: "Details"
-  },
-  {
-    id: 5,
-    title: "MD TABLE",
-    category: "office furniture",
-    code: "TFMTO-005",
-    size: "L2100 X W1800 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl5,
-    button: "Details"
-  },
-  {
-    id: 6,
-    title: "MD TABLE",
-    category: "office furniture",
-    code: "TFMTO-006",
-    size: "L1950 X W1850 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl6,
-    button: "Details"
-  },
-  {
-    id: 7,
-    title: "MD TABLE",
-    category: "office furniture",
-    code: "TFMTO-007",
-    size: "L2100 X W1850 X H750mm",
-    material: "OAK & Beech wood.",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl7,
-    button: "Details"
-  },
-  {
-    id: 8,
-    title: "MD TABLE",
-    category: "office furniture",
-    code: "TFMTO-008",
-    size: "L1800 X W1650 X H750mm",
-    material: "OAK & Beech wood.",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl8,
-    button: "Details"
-  },
-  {
-    id: 9,
-    title: "DIRECTOR TABLE",
-    category: "office furniture",
-    code: "TFDTO-009",
-    size: "L1800 X W1800 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl9,
-    button: "Details"
-  },
-  {
-    id: 10,
-    title: "DIRECTOR TABLE",
-    category: "office furniture",
-    code: "TFDTO-010",
-    size: "L1900 X W1900 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl10,
-    button: "Details"
-  },
-  {
-    id: 11,
-    title: "DIRECTOR TABLE",
-    category: "office furniture",
-    code: "TFDTO-011",
-    size: "L2400 X W1900 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl11,
-    button: "Details"
-  },
-  {
-    id: 12,
-    title: "DIRECTOR TABLE",
-    category: "office furniture",
-    code: "TFDTO-012",
-    size: "L2100 X W1800 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl12,
-    button: "Details"
-  },
-  {
-    id: 13,
-    title: "DIRECTOR TABLE",
-    category: "office furniture",
-    code: "TFDTO-013",
-    size: "L2100 X W1800 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl13,
-    button: "Details"
-  },
-  {
-    id: 14,
-    title: "DIRECTOR TABLE",
-    category: "office furniture",
-    code: "TFDTO-014",
-    size: "L2400 X W1900 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl14,
-    button: "Details"
-  },
-  {
-    id: 15,
-    title: "DIRECTOR TABLE",
-    category: "office furniture",
-    code: "TFDTO-015",
-    size: "L1800 X W1650 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl15,
-    button: "Details"
-  },
-  {
-    id: 16,
-    title: "DIRECTOR TABLE",
-    category: "office furniture",
-    code: "TFDTO-016",
-    size: "L1800 X W1650 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl16,
-    button: "Details"
-  },
-  {
-    id: 17,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-017",
-    size: "L1650 X W1650 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl17,
-    button: "Details"
-  },
-  {
-    id: 18,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-018",
-    size: "L1800 X W1750 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl18,
-    button: "Details"
-  },
-  {
-    id: 19,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-019",
-    size: "L1800 X W1750 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl19,
-    button: "Details"
-  },
-  {
-    id: 20,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-020",
-    size: "L1600 X W750 X H750m",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl20,
-    button: "Details"
-  },
-  {
-    id: 21,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-021",
-    size: "L1650 X W700 X H750m",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl21,
-    button: "Details"
-  },
-  {
-    id: 22,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-022",
-    size: "L1650 X W700 X H750m",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl22,
-    button: "Details"
-  },
-  {
-    id: 23,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-023",
-    size: "L1800 X W1500 X H750m",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl23,
-    button: "Details"
-  },
-  {
-    id: 24,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-024",
-    size: "L1500 X W650 X H750m",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl24,
-    button: "Details"
-  },
-  {
-    id: 25,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-025",
-    size: "L1650 X W750 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl25,
-    button: "Details"
-  },
-  {
-    id: 26,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-026",
-    size: "L1650 X W750 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl26,
-    button: "Details"
-  },
-  {
-    id: 27,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-027",
-    size: "L1500 X W700 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl27,
-    button: "Details"
-  },
-  {
-    id: 28,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-028",
-    size: "L1400 X W700 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl28,
-    button: "Details"
-  },
-  {
-    id: 29,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-029",
-    size: "L1200 X W600 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl29,
-    button: "Details"
-  },
-  {
-    id: 30,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-030",
-    size: "L1200 X W600 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl30,
-    button: "Details"
-  },
-  {
-    id: 31,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-031",
-    size: "L1350 X W600 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl31,
-    button: "Details"
-  },
-  {
-    id: 32,
-    title: "EXECUTIVE TABLE",
-    category: "office furniture",
-    code: "TFETO-032",
-    size: "L1200 X W600 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl32,
-    button: "Details"
-  },
-  {
-    id: 33,
-    title: "MOVABLE DRAWER UNIT",
-    category: "office furniture",
-    code: "TFDUO-033",
-    size: "L400 X W460 X H500mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl33,
-    button: "Details"
-  },
-  {
-    id: 34,
-    title: "MOVABLE DRAWER UNIT",
-    category: "office furniture",
-    code: "TFDUO-034",
-    size: "L400 X W460 X H500mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl34,
-    button: "Details"
-  },
-  {
-    id: 35,
-    title: "MOVABLE DRAWER UNIT",
-    category: "office furniture",
-    code: "TFDUO-035",
-    size: "L450 X W480 X H650mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl35,
-    button: "Details"
-  },
-  {
-    id: 36,
-    title: "MOVABLE DRAWER UNIT",
-    category: "office furniture",
-    code: "TFDUO-036",
-    size: "L400 X W480 X H625mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl36,
-    button: "Details"
-  },
-  {
-    id: 37,
-    title: "MOVABLE DRAWER UNIT",
-    category: "office furniture",
-    code: "TFDUO-037",
-    size: "L420 X W480 X H650mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl37,
-    button: "Details"
-  },
-  {
-    id: 38,
-    title: "HANGING DRAWER UNIT",
-    category: "office furniture",
-    code: "TFHDO-038",
-    size: "L450 X W460 X H350mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl38,
-    button: "Details"
-  },
-  {
-    id: 39,
-    title: "HANGING DRAWER UNIT",
-    category: "office furniture",
-    code: "TFHDO-039",
-    size: "L400 X W460 X H380mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl39,
-    button: "Details"
-  },
-  {
-    id: 40,
-    title: "SIDE RACK",
-    category: "office furniture",
-    code: "TFSRO-040",
-    size: "L1200 X W400 X H650mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl40,
-    button: "Details"
-  },
-
-  {
-    id: 41,
-    title: "SIDE RACK",
-    category: "office furniture",
-    code: "TFSRO-041",
-    size: "L1000 X W400 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl41,
-    button: "Details"
-  },
-
-  {
-    id: 42,
-    title: "SIDE RACK",
-    category: "office furniture",
-    code: "TFSRO-042",
-    size: "L1000 X W400 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl42,
-    button: "Details"
-  },
-
-  {
-    id: 43,
-    title: "SIDE RACK",
-    category: "office furniture",
-    code: "TFSRO-043",
-    size: "L1050 X W400 X H680mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl43,
-    button: "Details"
-  },
-
-  {
-    id: 44,
-    title: "SIDE RACK",
-    category: "office furniture",
-    code: "TFSRO-044",
-    size: "L1000 X W400 X H680mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl44,
-    button: "Details"
-  },
-
-  {
-    id: 45,
-    title: "SIDE RACK",
-    category: "office furniture",
-    code: "TFSRO-045",
-    size: "L900 X W400 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl45,
-    button: "Details"
-  },
-
-  {
-    id: 46,
-    title: "SIDE RACK",
-    category: "office furniture",
-    code: "TFSRO-046",
-    size: "L900 X W400 X H650mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl46,
-    button: "Details"
-  },
-  {
-    id: 47,
-    title: "COMPUTER TABLE",
-    category: "office furniture",
-    code: "TFCTO-047",
-    size: "L1500 X W600 X H750mm",
-    material: "Mfc board & Metal Strcture",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl47,
-    button: "Details"
-  },
-  {
-    id: 48,
-    title: "COMPUTER TABLE",
-    category: "office furniture",
-    code: "TFCTO-048",
-    size: "L1200 X W500 X H750mm",
-    material: "Mfc board & Metal Strcture",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl48,
-    button: "Details"
-  },
-  {
-    id: 49,
-    title: "COMPUTER TABLE",
-    category: "office furniture",
-    code: "TFCTO-049",
-    size: "L900 X W480 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl49,
-    button: "Details"
-  },
-  {
-    id: 50,
-    title: "COMPUTER TABLE",
-    category: "office furniture",
-    code: "TFCTO-050",
-    size: "L1050 X W480 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl50,
-    button: "Details"
-  },
-  {
-    id: 51,
-    title: "COMPUTER TABLE",
-    category: "office furniture",
-    code: "TFCTO-051",
-    size: "L1050 X W480 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl51,
-    button: "Details"
-  },
-  {
-    id: 52,
-    title: "COMPUTER TABLE",
-    category: "office furniture",
-    code: "TFCTO-052",
-    size: "L1000 X W480 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl52,
-    button: "Details"
-  },
-
-  //  BAR STOOL
-  {
-    id: 53,
-    title: "BAR STOOL",
-    category: "office furniture",
-    code: "TFBST-053",
-    material: "Metal strcture and powder coating painting",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl53,
-    button: "Details"
-  },
-  {
-    id: 54,
-    title: "BAR STOOL",
-    category: "office furniture",
-    code: "TFBST-054",
-    material: "Beech wood and veneered engineered wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl54,
-    button: "Details"
-  },
-  {
-    id: 55,
-    title: "BAR STOOL",
-    category: "office furniture",
-    code: "TFBST-055",
-    material: "Beech wood and veneered engineered wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl55,
-    button: "Details"
-  },
-  // BAR CABINET
-  {
-    id: 56,
-    title: "BAR CABINET",
-    category: "office furniture",
-    code: "TFBCH-056",
-    size: "L1600 X W400 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl56,
-    button: "Details"
-  },
-
-  {
-    id: 57,
-    title: "BAR CABINET",
-    category: "office furniture",
-    code: "TFBCH-057",
-    size: "L1200 X W350 X H900mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl57,
-    button: "Details"
-  },
-
-  // MULTIPURPOSE SHELF
-
-  {
-    id: 58,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-058",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl58,
-    button: "Details"
-  },
-
-  {
-    id: 59,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-059",
-    size: "L800 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl59,
-    button: "Details"
-  },
-  {
-    id: 60,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-060",
-    size: "L800 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl60,
-    button: "Details"
-  },
-  {
-    id: 61,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-061",
-    size: "L600 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl61,
-    button: "Details"
-  },
-  {
-    id: 62,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-062",
-    size: "L800 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl62,
-    button: "Details"
-  },
-  {
-    id: 63,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-063",
-    size: "L900 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl63,
-    button: "Details"
-  },
-  {
-    id: 64,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-064",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl64,
-    button: "Details"
-  },
-  {
-    id: 65,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-065",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl65,
-    button: "Details"
-  },
-  {
-    id: 66,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-066",
-    size: "L600 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl66,
-    button: "Details"
-  },
-
-  {
-    id: 67,
-    title: "MULTIPURPOSE SHELF",
-    category: "office furniture",
-    code: "TFMPO-067",
-    size: "L2400 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl67,
-    button: "Details"
-  },
-
-  // INDUSTRIAL FURNITURE
-  {
-    id: 68,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-068",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl68,
-    button: "Details"
-  },
-
-  {
-    id: 69,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-069",
-    size: "L900 X W300 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl69,
-    button: "Details"
-  },
-
-  // WALL MOUNTED CABINET
-  {
-    id: 71,
-    title: "WALL MOUNTED CABINET",
-    category: "office furniture",
-    code: "TFWMC-071",
-    size: "L1600 X W350 X H600mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl71,
-    button: "Details"
-  },
-
-  {
-    id: 72,
-    title: "WALL MOUNTED CABINET",
-    category: "office furniture",
-    code: "TFWMC-072",
-    size: "L900 X W350 X H700mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl72,
-    button: "Details"
-  },
-
-  //BACK CABINET
-
-  {
-    id: 73,
-    title: "BACK CABINET",
-    category: "office furniture",
-    code: "TFBCO-073",
-    size: "L1600 X W450 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl73,
-    button: "Details"
-  },
-
-  {
-    id: 74,
-    title: "BACK CABINET",
-    category: "office furniture",
-    code: "TFBCO-074",
-    size: "L1650 X W450 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl74,
-    button: "Details"
-  },
-  {
-    id: 75,
-    title: "BACK CABINET",
-    category: "office furniture",
-    code: "TFBCO-075",
-    size: "L1200 X W400 X H750mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl75,
-    button: "Details"
-  },
-
-  //FULL HEIGHT FILE CABINET
-
-  {
-    id: 76,
-    title: "FULL HEIGHT FILE CABINET",
-    category: "office furniture",
-    code: "TFFHB-076",
-    size: "L2400 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl76,
-    button: "Details"
-  },
-  {
-    id: 77,
-    title: "FULL HEIGHT FILE CABINET",
-    category: "office furniture",
-    code: "TFFHB-077",
-    size: "L2400 X W400 X H1800mm",
-    material: "Mfc / lb board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl77,
-    button: "Details"
-  },
-
-  //GARDEN FURNITURE
-  {
-    id: 78,
-    title: "GARDEN FURNITURE",
-    category: "office furniture",
-    code: "TFGWS-078",
-    size: "L1500 X W560 X H900mm",
-    material: "Oak & Beech Wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl78,
-    button: "Details"
-  },
-
-  {
-    id: 79,
-    title: "GARDEN FURNITURE",
-    category: "office furniture",
-    code: "TFGWS-079",
-    size: "L450 X W500 X H950mm",
-    material: "Oak & Beech Wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl79,
-    button: "Details"
-  },
-
-  //SWIMMING POOL FURNITURE
-  {
-    id: 80,
-    title: "SWIMMING POOL FURNITURE",
-    category: "office furniture",
-    code: "TFSPF-080",
-    size: "L1980 X W660 X H790mm",
-    material: "Oak & Beech Wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl80,
-    button: "Details"
-  },
-
-  
-  // INDUSTRIAL FURNITURE (Rack)
-  {
-    id: 700,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-071",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack1,
-    button: "Details"
-  },
-  {
-    id: 701,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-072",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack2,
-    button: "Details"
-  },
-  {
-    id: 702,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-073",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack3,
-    button: "Details"
-  },
-  {
-    id: 703,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-074",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack4,
-    button: "Details"
-  },
-  {
-    id: 704,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-075",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack5,
-    button: "Details"
-  },
-  {
-    id: 705,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-076",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack6,
-    button: "Details"
-  },
   // {
-  //   id: 106,
+  //   id: 1,
+  //   title: "MD TABLE",
+  //   category: "office furniture",
+  //   code: "TFMTO-001",
+  //   size: "L2400 X W1900 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   pollish: "lacquer polish",
+  //   imgSrc: tbl1,
+  //   button: "Details",
+  //   // imgSrc:[ tbl1, tbl2, tbl3, tbl4 ]
+  // },
+  // {
+  //   id: 2,
+  //   title: "MD TABLE",
+  //   category: "office furniture",
+  //   code: "TFMTO-002",
+  //   size: "L2400 X W1950 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   pollish: "lacquer polish",
+  //   imgSrc: tbl2,
+  //   button: "Details",
+  // },
+  // {
+  //   id: 3,
+  //   title: "MD TABLE",
+  //   category: "office furniture",
+  //   code: "TFMTO-003",
+  //   size: "L2100 X W1800 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl3,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4,
+  //   title: "MD TABLE",
+  //   category: "office furniture",
+  //   code: "TFMTO-004",
+  //   size: "L2100 X W1800 X H750mm",
+  //   material: "OAK & Beech wood.",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl4,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 5,
+  //   title: "MD TABLE",
+  //   category: "office furniture",
+  //   code: "TFMTO-005",
+  //   size: "L2100 X W1800 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl5,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 6,
+  //   title: "MD TABLE",
+  //   category: "office furniture",
+  //   code: "TFMTO-006",
+  //   size: "L1950 X W1850 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl6,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 7,
+  //   title: "MD TABLE",
+  //   category: "office furniture",
+  //   code: "TFMTO-007",
+  //   size: "L2100 X W1850 X H750mm",
+  //   material: "OAK & Beech wood.",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl7,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 8,
+  //   title: "MD TABLE",
+  //   category: "office furniture",
+  //   code: "TFMTO-008",
+  //   size: "L1800 X W1650 X H750mm",
+  //   material: "OAK & Beech wood.",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl8,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 9,
+  //   title: "DIRECTOR TABLE",
+  //   category: "office furniture",
+  //   code: "TFDTO-009",
+  //   size: "L1800 X W1800 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl9,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 10,
+  //   title: "DIRECTOR TABLE",
+  //   category: "office furniture",
+  //   code: "TFDTO-010",
+  //   size: "L1900 X W1900 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl10,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 11,
+  //   title: "DIRECTOR TABLE",
+  //   category: "office furniture",
+  //   code: "TFDTO-011",
+  //   size: "L2400 X W1900 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl11,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 12,
+  //   title: "DIRECTOR TABLE",
+  //   category: "office furniture",
+  //   code: "TFDTO-012",
+  //   size: "L2100 X W1800 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl12,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 13,
+  //   title: "DIRECTOR TABLE",
+  //   category: "office furniture",
+  //   code: "TFDTO-013",
+  //   size: "L2100 X W1800 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl13,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 14,
+  //   title: "DIRECTOR TABLE",
+  //   category: "office furniture",
+  //   code: "TFDTO-014",
+  //   size: "L2400 X W1900 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl14,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 15,
+  //   title: "DIRECTOR TABLE",
+  //   category: "office furniture",
+  //   code: "TFDTO-015",
+  //   size: "L1800 X W1650 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl15,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 16,
+  //   title: "DIRECTOR TABLE",
+  //   category: "office furniture",
+  //   code: "TFDTO-016",
+  //   size: "L1800 X W1650 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl16,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 17,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-017",
+  //   size: "L1650 X W1650 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl17,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 18,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-018",
+  //   size: "L1800 X W1750 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl18,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 19,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-019",
+  //   size: "L1800 X W1750 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl19,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 20,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-020",
+  //   size: "L1600 X W750 X H750m",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl20,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 21,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-021",
+  //   size: "L1650 X W700 X H750m",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl21,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 22,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-022",
+  //   size: "L1650 X W700 X H750m",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl22,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 23,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-023",
+  //   size: "L1800 X W1500 X H750m",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl23,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 24,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-024",
+  //   size: "L1500 X W650 X H750m",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl24,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 25,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-025",
+  //   size: "L1650 X W750 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl25,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 26,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-026",
+  //   size: "L1650 X W750 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl26,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 27,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-027",
+  //   size: "L1500 X W700 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl27,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 28,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-028",
+  //   size: "L1400 X W700 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl28,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 29,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-029",
+  //   size: "L1200 X W600 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl29,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 30,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-030",
+  //   size: "L1200 X W600 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl30,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 31,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-031",
+  //   size: "L1350 X W600 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl31,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 32,
+  //   title: "EXECUTIVE TABLE",
+  //   category: "office furniture",
+  //   code: "TFETO-032",
+  //   size: "L1200 X W600 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl32,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 33,
+  //   title: "MOVABLE DRAWER UNIT",
+  //   category: "office furniture",
+  //   code: "TFDUO-033",
+  //   size: "L400 X W460 X H500mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl33,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 34,
+  //   title: "MOVABLE DRAWER UNIT",
+  //   category: "office furniture",
+  //   code: "TFDUO-034",
+  //   size: "L400 X W460 X H500mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl34,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 35,
+  //   title: "MOVABLE DRAWER UNIT",
+  //   category: "office furniture",
+  //   code: "TFDUO-035",
+  //   size: "L450 X W480 X H650mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl35,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 36,
+  //   title: "MOVABLE DRAWER UNIT",
+  //   category: "office furniture",
+  //   code: "TFDUO-036",
+  //   size: "L400 X W480 X H625mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl36,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 37,
+  //   title: "MOVABLE DRAWER UNIT",
+  //   category: "office furniture",
+  //   code: "TFDUO-037",
+  //   size: "L420 X W480 X H650mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl37,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 38,
+  //   title: "HANGING DRAWER UNIT",
+  //   category: "office furniture",
+  //   code: "TFHDO-038",
+  //   size: "L450 X W460 X H350mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl38,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 39,
+  //   title: "HANGING DRAWER UNIT",
+  //   category: "office furniture",
+  //   code: "TFHDO-039",
+  //   size: "L400 X W460 X H380mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl39,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 40,
+  //   title: "SIDE RACK",
+  //   category: "office furniture",
+  //   code: "TFSRO-040",
+  //   size: "L1200 X W400 X H650mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl40,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 41,
+  //   title: "SIDE RACK",
+  //   category: "office furniture",
+  //   code: "TFSRO-041",
+  //   size: "L1000 X W400 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl41,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 42,
+  //   title: "SIDE RACK",
+  //   category: "office furniture",
+  //   code: "TFSRO-042",
+  //   size: "L1000 X W400 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl42,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 43,
+  //   title: "SIDE RACK",
+  //   category: "office furniture",
+  //   code: "TFSRO-043",
+  //   size: "L1050 X W400 X H680mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl43,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 44,
+  //   title: "SIDE RACK",
+  //   category: "office furniture",
+  //   code: "TFSRO-044",
+  //   size: "L1000 X W400 X H680mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl44,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 45,
+  //   title: "SIDE RACK",
+  //   category: "office furniture",
+  //   code: "TFSRO-045",
+  //   size: "L900 X W400 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl45,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 46,
+  //   title: "SIDE RACK",
+  //   category: "office furniture",
+  //   code: "TFSRO-046",
+  //   size: "L900 X W400 X H650mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl46,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 47,
+  //   title: "COMPUTER TABLE",
+  //   category: "office furniture",
+  //   code: "TFCTO-047",
+  //   size: "L1500 X W600 X H750mm",
+  //   material: "Mfc board & Metal Strcture",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl47,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 48,
+  //   title: "COMPUTER TABLE",
+  //   category: "office furniture",
+  //   code: "TFCTO-048",
+  //   size: "L1200 X W500 X H750mm",
+  //   material: "Mfc board & Metal Strcture",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl48,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 49,
+  //   title: "COMPUTER TABLE",
+  //   category: "office furniture",
+  //   code: "TFCTO-049",
+  //   size: "L900 X W480 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl49,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 50,
+  //   title: "COMPUTER TABLE",
+  //   category: "office furniture",
+  //   code: "TFCTO-050",
+  //   size: "L1050 X W480 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl50,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 51,
+  //   title: "COMPUTER TABLE",
+  //   category: "office furniture",
+  //   code: "TFCTO-051",
+  //   size: "L1050 X W480 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl51,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 52,
+  //   title: "COMPUTER TABLE",
+  //   category: "office furniture",
+  //   code: "TFCTO-052",
+  //   size: "L1000 X W480 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl52,
+  //   button: "Details"
+  // },
+
+  // //  BAR STOOL
+  // {
+  //   id: 53,
+  //   title: "BAR STOOL",
+  //   category: "office furniture",
+  //   code: "TFBST-053",
+  //   material: "Metal strcture and powder coating painting",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl53,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 54,
+  //   title: "BAR STOOL",
+  //   category: "office furniture",
+  //   code: "TFBST-054",
+  //   material: "Beech wood and veneered engineered wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl54,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 55,
+  //   title: "BAR STOOL",
+  //   category: "office furniture",
+  //   code: "TFBST-055",
+  //   material: "Beech wood and veneered engineered wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl55,
+  //   button: "Details"
+  // },
+  // // BAR CABINET
+  // {
+  //   id: 56,
+  //   title: "BAR CABINET",
+  //   category: "office furniture",
+  //   code: "TFBCH-056",
+  //   size: "L1600 X W400 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl56,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 57,
+  //   title: "BAR CABINET",
+  //   category: "office furniture",
+  //   code: "TFBCH-057",
+  //   size: "L1200 X W350 X H900mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl57,
+  //   button: "Details"
+  // },
+
+  // // MULTIPURPOSE SHELF
+
+  // {
+  //   id: 58,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-058",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl58,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 59,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-059",
+  //   size: "L800 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl59,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 60,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-060",
+  //   size: "L800 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl60,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 61,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-061",
+  //   size: "L600 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl61,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 62,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-062",
+  //   size: "L800 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl62,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 63,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-063",
+  //   size: "L900 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl63,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 64,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-064",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl64,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 65,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-065",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl65,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 66,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-066",
+  //   size: "L600 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl66,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 67,
+  //   title: "MULTIPURPOSE SHELF",
+  //   category: "office furniture",
+  //   code: "TFMPO-067",
+  //   size: "L2400 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl67,
+  //   button: "Details"
+  // },
+
+  // // INDUSTRIAL FURNITURE
+  // {
+  //   id: 68,
   //   title: "SLOTTED ANGLE RACK",
   //   category: "INDUSTRIAL FURNITURE",
   //   code: "TFSAR-068",
   //   size: "L1200 X W400 X H1800mm",
-  //   imgSrc: rack7,
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl68,
+  //   button: "Details"
   // },
-  {
-    id: 707,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-077",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack8,
-    button: "Details"
-  },
-  {
-    id: 708,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-078",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack9,
-    button: "Details"
-  },
-  {
-    id: 709,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-079",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack10,
-    button: "Details"
-  },
-  {
-    id: 710, 
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-080",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack11,
-    button: "Details"
-  },
-  {
-    id: 711, 
-    title: "INDUSTRIAL SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-081",
-    size: "4’x2’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack12,
-    button: "Details"
-  },
-  {
-    id: 712, 
-    title: "Industrial’s Slotted Angle Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-082",
-    size: "4’x1.5’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack13,
-    button: "Details"
-  },
-  {
-    id: 713, 
-    title: "Industrial’s Slotted Angle Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-083",
-    size: "4’x1.5’x7′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack14,
-    button: "Details"
-  },
-  {
-    id: 714, 
-    title: "Heavy Slotted Angle Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-084",
-    size: "4’x1.5’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack15,
-    button: "Details"
-  },
-  {
-    id: 715, 
-    title: "Heavy Duty Slotted Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-085",
-    size: " 4’x1.5’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack16,
-    button: "Details"
-  },
-  {
-    id: 716, 
-    title: "Slotted Angle Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-086",
-    size: "4’x1.5’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack17,
-    button: "Details"
-  },
-  {
-    id: 717, 
-    title: "Slotted Angle Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-087",
-    size: "4’x1.5’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack18,
-    button: "Details"
-  },
-  {
-    id: 718, 
-    title: "industrial Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-088",
-    size: "8’x3’x12′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack19,
-    button: "Details"
-  },
-  {
-    id: 720, 
-    title: "Heavy Duty Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-089",
-    size: "8’x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack21,
-    button: "Details"
-  },
-  {
-    id: 721, 
-    title: "Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-090",
-    size: "8’x3’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack22,
-    button: "Details"
-  },
-  {
-    id: 722, 
-    title: "Stacking Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-091",
-    size: "4’x5’x4′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack23,
-    button: "Details"
-  },
-  {
-    id: 723, 
-    title: "Stacking Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-092",
-    size: " 4’x3.5’x4′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack24,
-    button: "Details"
-  },
-  {
-    id: 724, 
-    title: "Mold Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-093",
-    size: "12’x3’x7′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack25,
-    button: "Details"
-  },
-  {
-    id: 725, 
-    title: "Mold Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-094",
-    size: "12’x2’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack26,
-    button: "Details"
-  },
-  {
-    id: 726, 
-    title: "Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-095",
-    size: "12’x2’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack27,
-    button: "Details"
-  },
-  {
-    id: 727, 
-    title: "MS Floor Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-096",
-    size: "10’x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack28,
-    button: "Details"
-  },
-  {
-    id: 728, 
-    title: "Mold Steel Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-097",
-    size: "10’x2’x7’ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack29,
-    button: "Details"
-  },
-  {
-    id: 729, 
-    title: "Mold Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-098",
-    size: "4’x3’x7’ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack30,
-    button: "Details"
-  },
-  {
-    id: 730, 
-    title: "Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-099",
-    size: "8’x3’x12′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack32,
-    button: "Details"
-  },
-  {
-    id: 731, 
-    title: "Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-100",
-    size: "8’x4’x10′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack33,
-    button: "Details"
-  },
-  {
-    id: 732, 
-    title: "Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-101",
-    size: "8’x3’x10′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack34,
-    button: "Details"
-  },
-  {
-    id: 733, 
-    title: "Metal Storage Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-102",
-    size: "8′x2’x10′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack36,
-    button: "Details"
-  },
-  {
-    id: 734, 
-    title: "Metal Storage Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-103",
-    size: "8′x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack37,
-    button: "Details"
-  },
-  {
-    id: 735, 
-    title: "Heavy Duty Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-104",
-    size: "8′x2’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack38,
-    button: "Details"
-  },
-  {
-    id: 736, 
-    title: "Heavy Duty Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-105",
-    size: "8′x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack39,
-    button: "Details"
-  },
-  {
-    id: 737, 
-    title: "Industrial Storage Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-106",
-    size: "8′x2’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack40,
-    button: "Details"
-  },
-  {
-    id: 738, 
-    title: "Industrial Storage Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-107",
-    size: "7′x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack41,
-    button: "Details"
-  },
-  {
-    id: 739, 
-    title: "Steel Slotted Angle Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-108",
-    size: "5’x1.5’x7′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack42,
-    button: "Details"
-  },
-  {
-    id: 740, 
-    title: "Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-109",
-    size: "8’x3’x7′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack20,
-    button: "Details"
-  },
-    // HEAVY DUTY RACK
-  {
-    id: 741,
-    title: "HEAVY DUTY RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFHDR-070",
-    size: "L2400 X W600 X H2400mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl70,
-    button: "Details"
-  },
+
+  // {
+  //   id: 69,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-069",
+  //   size: "L900 X W300 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl69,
+  //   button: "Details"
+  // },
+
+  // // WALL MOUNTED CABINET
+  // {
+  //   id: 71,
+  //   title: "WALL MOUNTED CABINET",
+  //   category: "office furniture",
+  //   code: "TFWMC-071",
+  //   size: "L1600 X W350 X H600mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl71,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 72,
+  //   title: "WALL MOUNTED CABINET",
+  //   category: "office furniture",
+  //   code: "TFWMC-072",
+  //   size: "L900 X W350 X H700mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl72,
+  //   button: "Details"
+  // },
+
+  // //BACK CABINET
+
+  // {
+  //   id: 73,
+  //   title: "BACK CABINET",
+  //   category: "office furniture",
+  //   code: "TFBCO-073",
+  //   size: "L1600 X W450 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl73,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 74,
+  //   title: "BACK CABINET",
+  //   category: "office furniture",
+  //   code: "TFBCO-074",
+  //   size: "L1650 X W450 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl74,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 75,
+  //   title: "BACK CABINET",
+  //   category: "office furniture",
+  //   code: "TFBCO-075",
+  //   size: "L1200 X W400 X H750mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl75,
+  //   button: "Details"
+  // },
+
+  // //FULL HEIGHT FILE CABINET
+
+  // {
+  //   id: 76,
+  //   title: "FULL HEIGHT FILE CABINET",
+  //   category: "office furniture",
+  //   code: "TFFHB-076",
+  //   size: "L2400 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl76,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 77,
+  //   title: "FULL HEIGHT FILE CABINET",
+  //   category: "office furniture",
+  //   code: "TFFHB-077",
+  //   size: "L2400 X W400 X H1800mm",
+  //   material: "Mfc / lb board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl77,
+  //   button: "Details"
+  // },
+
+  // //GARDEN FURNITURE
+  // {
+  //   id: 78,
+  //   title: "GARDEN FURNITURE",
+  //   category: "office furniture",
+  //   code: "TFGWS-078",
+  //   size: "L1500 X W560 X H900mm",
+  //   material: "Oak & Beech Wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl78,
+  //   button: "Details"
+  // },
+
+  // {
+  //   id: 79,
+  //   title: "GARDEN FURNITURE",
+  //   category: "office furniture",
+  //   code: "TFGWS-079",
+  //   size: "L450 X W500 X H950mm",
+  //   material: "Oak & Beech Wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl79,
+  //   button: "Details"
+  // },
+
+  // //SWIMMING POOL FURNITURE
+  // {
+  //   id: 80,
+  //   title: "SWIMMING POOL FURNITURE",
+  //   category: "office furniture",
+  //   code: "TFSPF-080",
+  //   size: "L1980 X W660 X H790mm",
+  //   material: "Oak & Beech Wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl80,
+  //   button: "Details"
+  // },
+
+  
+  // // INDUSTRIAL FURNITURE (Rack)
+  // {
+  //   id: 700,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-071",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack1,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 701,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-072",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack2,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 702,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-073",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack3,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 703,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-074",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack4,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 704,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-075",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack5,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 705,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-076",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack6,
+  //   button: "Details"
+  // },
+  // // {
+  // //   id: 106,
+  // //   title: "SLOTTED ANGLE RACK",
+  // //   category: "INDUSTRIAL FURNITURE",
+  // //   code: "TFSAR-068",
+  // //   size: "L1200 X W400 X H1800mm",
+  // //   imgSrc: rack7,
+  // // },
+  // {
+  //   id: 707,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-077",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack8,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 708,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-078",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack9,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 709,
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-079",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack10,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 710, 
+  //   title: "SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-080",
+  //   size: "L1200 X W400 X H1800mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack11,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 711, 
+  //   title: "INDUSTRIAL SLOTTED ANGLE RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-081",
+  //   size: "4’x2’x6′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack12,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 712, 
+  //   title: "Industrial’s Slotted Angle Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-082",
+  //   size: "4’x1.5’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack13,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 713, 
+  //   title: "Industrial’s Slotted Angle Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-083",
+  //   size: "4’x1.5’x7′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack14,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 714, 
+  //   title: "Heavy Slotted Angle Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-084",
+  //   size: "4’x1.5’x6′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack15,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 715, 
+  //   title: "Heavy Duty Slotted Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-085",
+  //   size: " 4’x1.5’x6′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack16,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 716, 
+  //   title: "Slotted Angle Racks",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-086",
+  //   size: "4’x1.5’x6′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack17,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 717, 
+  //   title: "Slotted Angle Racks",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-087",
+  //   size: "4’x1.5’x6′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack18,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 718, 
+  //   title: "industrial Pallet Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-088",
+  //   size: "8’x3’x12′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack19,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 720, 
+  //   title: "Heavy Duty Pallet Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-089",
+  //   size: "8’x3’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack21,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 721, 
+  //   title: "Pallet Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-090",
+  //   size: "8’x3’x6′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack22,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 722, 
+  //   title: "Stacking Pallet Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-091",
+  //   size: "4’x5’x4′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack23,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 723, 
+  //   title: "Stacking Pallet Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-092",
+  //   size: " 4’x3.5’x4′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack24,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 724, 
+  //   title: "Mold Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-093",
+  //   size: "12’x3’x7′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack25,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 725, 
+  //   title: "Mold Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-094",
+  //   size: "12’x2’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack26,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 726, 
+  //   title: "Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-095",
+  //   size: "12’x2’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack27,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 727, 
+  //   title: "MS Floor Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-096",
+  //   size: "10’x3’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack28,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 728, 
+  //   title: "Mold Steel Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-097",
+  //   size: "10’x2’x7’ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack29,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 729, 
+  //   title: "Mold Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-098",
+  //   size: "4’x3’x7’ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack30,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 730, 
+  //   title: "Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-099",
+  //   size: "8’x3’x12′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack32,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 731, 
+  //   title: "Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-100",
+  //   size: "8’x4’x10′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack33,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 732, 
+  //   title: "Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-101",
+  //   size: "8’x3’x10′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack34,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 733, 
+  //   title: "Metal Storage Racks",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-102",
+  //   size: "8′x2’x10′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack36,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 734, 
+  //   title: "Metal Storage Racks",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-103",
+  //   size: "8′x3’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack37,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 735, 
+  //   title: "Heavy Duty Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-104",
+  //   size: "8′x2’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack38,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 736, 
+  //   title: "Heavy Duty Storage Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-105",
+  //   size: "8′x3’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack39,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 737, 
+  //   title: "Industrial Storage Racks",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-106",
+  //   size: "8′x2’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack40,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 738, 
+  //   title: "Industrial Storage Racks",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-107",
+  //   size: "7′x3’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack41,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 739, 
+  //   title: "Steel Slotted Angle Racks",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-108",
+  //   size: "5’x1.5’x7′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack42,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 740, 
+  //   title: "Pallet Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-109",
+  //   size: "8’x3’x7′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack20,
+  //   button: "Details"
+  // },
+  //   // HEAVY DUTY RACK
+  // {
+  //   id: 741,
+  //   title: "HEAVY DUTY RACK",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFHDR-070",
+  //   size: "L2400 X W600 X H2400mm",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: tbl70,
+  //   button: "Details"
+  // },
 
   ///                             OFFICE FURNITURE CHAIR -> (501 - )
 
   ///                         conference table(401-408)
 
-  {
-    id: 401,
-    title: "conference table",
-    category: "office furniture",
-    code: "TFCON-001",
-    size: "L3600 X W1200 X H750mm",
-    material: "Mfc / Lb Board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: con_table1,
-    button: "Details"
-  },
-  {
-    id: 402,
-    title: "conference table",
-    category: "office furniture",
-    code: "TFCON-002",
-    size: "L3600 X W1200 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: con_table2,
-    button: "Details"
-  },
-  {
-    id: 403,
-    title: "conference table",
-    category: "office furniture",
-    code: "TFCON-003",
-    size: "L6000 X W1500 X H750mm",
-    material: "Mfc / Lb Board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: con_table3,
-    button: "Details"
-  },
-  {
-    id: 404,
-    title: "conference table",
-    category: "office furniture",
-    code: "TFCON-004",
-    size: "L2400 X W1200 X H750mm",
-    material: "Mfc / Lb Board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: con_table4,
-    button: "Details"
-  },
-  {
-    id: 405,
-    title: "conference table",
-    category: "office furniture",
-    code: "TFCON-005",
-    size: "L2400 X W1200 X H750mm",
-    material: "Mfc / Lb Board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: con_table5,
-    button: "Details"
-  },
-  {
-    id: 406,
-    title: "conference table",
-    category: "office furniture",
-    code: "TFCON-006",
-    size: "L3000 X W1200 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: con_table6,
-    button: "Details"
-  },
-  {
-    id: 407,
-    title: "conference table",
-    category: "office furniture",
-    code: "TFCON-007",
-    size: "L2400 X W1200 X H750mm",
-    material: "Mahogany & Oak Veneered engineering wood",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: con_table7,
-    button: "Details"
-  },
-  {
-    id: 408,
-    title: "meeting table",
-    category: "office furniture",
-    code: "TFCON-008",
-    size: "L1200 X W1200 X H750mm",
-    material: "Mfc / Lb Board",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: con_table8,
-    button: "Details"
-  },
+  // {
+  //   id: 401,
+  //   title: "conference table",
+  //   category: "office furniture",
+  //   code: "TFCON-001",
+  //   size: "L3600 X W1200 X H750mm",
+  //   material: "Mfc / Lb Board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: con_table1,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 402,
+  //   title: "conference table",
+  //   category: "office furniture",
+  //   code: "TFCON-002",
+  //   size: "L3600 X W1200 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: con_table2,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 403,
+  //   title: "conference table",
+  //   category: "office furniture",
+  //   code: "TFCON-003",
+  //   size: "L6000 X W1500 X H750mm",
+  //   material: "Mfc / Lb Board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: con_table3,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 404,
+  //   title: "conference table",
+  //   category: "office furniture",
+  //   code: "TFCON-004",
+  //   size: "L2400 X W1200 X H750mm",
+  //   material: "Mfc / Lb Board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: con_table4,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 405,
+  //   title: "conference table",
+  //   category: "office furniture",
+  //   code: "TFCON-005",
+  //   size: "L2400 X W1200 X H750mm",
+  //   material: "Mfc / Lb Board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: con_table5,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 406,
+  //   title: "conference table",
+  //   category: "office furniture",
+  //   code: "TFCON-006",
+  //   size: "L3000 X W1200 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: con_table6,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 407,
+  //   title: "conference table",
+  //   category: "office furniture",
+  //   code: "TFCON-007",
+  //   size: "L2400 X W1200 X H750mm",
+  //   material: "Mahogany & Oak Veneered engineering wood",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: con_table7,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 408,
+  //   title: "meeting table",
+  //   category: "office furniture",
+  //   code: "TFCON-008",
+  //   size: "L1200 X W1200 X H750mm",
+  //   material: "Mfc / Lb Board",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: con_table8,
+  //   button: "Details"
+  // },
 
-  ///                         SWIVEL CHAIR(501 - 5 )
+  // ///                         SWIVEL CHAIR(501 - 5 )
 
-  {
-    id: 501,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-001",
-    imgSrc: chair1,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 502,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-002",
-    imgSrc: chair2,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 503,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-003",
-    imgSrc: chair3,
-    button: "Details",
-    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
-  },
-  {
-    id: 504,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-004",
-    imgSrc: chair4,
-    button: "Details",
-    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
-  },
-  {
-    id: 505,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-005",
-    imgSrc: chair5,
-    button: "Details",
-    material: "solid Mahagony seasoned wood. Fully Solid wooden armrest. Chrome plated polymer cast leg with 5nos. castors offers stability and visual interest. Hydraulically height adjustable mechanism. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 506,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-006",
-    imgSrc: chair6,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility."
-  },
-  {
-    id: 507,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-007",
-    imgSrc: chair7,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 508,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-008",
-    imgSrc: chair8,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 509,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-009",
-    imgSrc: chair9,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 510,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-010",
-    imgSrc: chair10,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 511,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-011",
-    imgSrc: chair11,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 512,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-012",
-    imgSrc: chair12,
-    button: "Details",
-    material: " high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 513,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFMCO-013",
-    imgSrc: chair13,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 514,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-014",
-    imgSrc: chair14,
-    button: "Details",
-    material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 515,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-015",
-    imgSrc: chair15,
-    button: "Details",
-    material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 516,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-016",
-    imgSrc: chair16,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 517,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-017",
-    imgSrc: chair17,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 518,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-018",
-    imgSrc: chair18,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 519,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-019",
-    imgSrc: chair19,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 520,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-020",
-    imgSrc: chair20,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 521,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-021",
-    imgSrc: chair21,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 522,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-022",
-    imgSrc: chair22,
-    button: "Details",
-    material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
-  },
-  {
-    id: 523,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-023",
-    imgSrc: chair23,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 524,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFECO-024",
-    imgSrc: chair24,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 525,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TF0CO-025",
-    imgSrc: chair25,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 526,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TF0CO-026",
-    imgSrc: chair26,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 527,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TF0CO-027",
-    imgSrc: chair27,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 528,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TF0CO-028",
-    imgSrc: chair28,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 529,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TF0CO-029",
-    imgSrc: chair29,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 530,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TF0CO-030",
-    imgSrc: chair30,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 531,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFOCO-031",
-    imgSrc: chair31,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 532,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFOCO-032",
-    imgSrc: chair32,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
-  {
-    id: 533,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFOCO-033",
-    imgSrc: chair33,
-    button: "Details",
-    material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
-  },
-  {
-    id: 534,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFCCO-034",
-    imgSrc: chair34,
-    button: "Details",
-    material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
-  },
-  {
-    id: 535,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFCCO-035",
-    imgSrc: chair35,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. 50mm thick foam cushioning covered with best quality imported nylon rexine on 19 mm ply wood & back which increase strength. Hydraulically height adjustable mechanism facility helps to regulate with table. PVC legs with 5nos castors which ensure no rust. Best quality dual-wheel provides easy mobility, Star head binding screw, best quality handle. "
-  },
-  {
-    id: 536,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFCCO-036",
-    imgSrc: chair36,
-    button: "Details",
+  // {
+  //   id: 501,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-001",
+  //   imgSrc: chair1,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 502,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-002",
+  //   imgSrc: chair2,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 503,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-003",
+  //   imgSrc: chair3,
+  //   button: "Details",
+  //   material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
+  // },
+  // {
+  //   id: 504,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-004",
+  //   imgSrc: chair4,
+  //   button: "Details",
+  //   material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
+  // },
+  // {
+  //   id: 505,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-005",
+  //   imgSrc: chair5,
+  //   button: "Details",
+  //   material: "solid Mahagony seasoned wood. Fully Solid wooden armrest. Chrome plated polymer cast leg with 5nos. castors offers stability and visual interest. Hydraulically height adjustable mechanism. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 506,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-006",
+  //   imgSrc: chair6,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility."
+  // },
+  // {
+  //   id: 507,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-007",
+  //   imgSrc: chair7,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 508,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-008",
+  //   imgSrc: chair8,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 509,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-009",
+  //   imgSrc: chair9,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 510,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-010",
+  //   imgSrc: chair10,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 511,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-011",
+  //   imgSrc: chair11,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 512,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-012",
+  //   imgSrc: chair12,
+  //   button: "Details",
+  //   material: " high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 513,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFMCO-013",
+  //   imgSrc: chair13,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality Artificial Leather upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 514,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-014",
+  //   imgSrc: chair14,
+  //   button: "Details",
+  //   material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 515,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-015",
+  //   imgSrc: chair15,
+  //   button: "Details",
+  //   material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 516,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-016",
+  //   imgSrc: chair16,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 517,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-017",
+  //   imgSrc: chair17,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 518,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-018",
+  //   imgSrc: chair18,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 519,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-019",
+  //   imgSrc: chair19,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality rexine upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 520,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-020",
+  //   imgSrc: chair20,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 521,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-021",
+  //   imgSrc: chair21,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 522,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-022",
+  //   imgSrc: chair22,
+  //   button: "Details",
+  //   material: "Chrome plated polymer cast leg with 5 nos. High quality fabric upholstery with soft and durable cushioning. Smooth gliding casters provide increased comfort and mobility"
+  // },
+  // {
+  //   id: 523,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-023",
+  //   imgSrc: chair23,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 524,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFECO-024",
+  //   imgSrc: chair24,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 525,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TF0CO-025",
+  //   imgSrc: chair25,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 526,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TF0CO-026",
+  //   imgSrc: chair26,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 527,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TF0CO-027",
+  //   imgSrc: chair27,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 528,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TF0CO-028",
+  //   imgSrc: chair28,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 529,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TF0CO-029",
+  //   imgSrc: chair29,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 530,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TF0CO-030",
+  //   imgSrc: chair30,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 531,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFOCO-031",
+  //   imgSrc: chair31,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 532,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFOCO-032",
+  //   imgSrc: chair32,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
+  // },
+  // {
+  //   id: 533,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFOCO-033",
+  //   imgSrc: chair33,
+  //   button: "Details",
+  //   material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
+  // },
+  // {
+  //   id: 534,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFCCO-034",
+  //   imgSrc: chair34,
+  //   button: "Details",
+  //   material: "high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
+  // },
+  // {
+  //   id: 535,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFCCO-035",
+  //   imgSrc: chair35,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. 50mm thick foam cushioning covered with best quality imported nylon rexine on 19 mm ply wood & back which increase strength. Hydraulically height adjustable mechanism facility helps to regulate with table. PVC legs with 5nos castors which ensure no rust. Best quality dual-wheel provides easy mobility, Star head binding screw, best quality handle. "
+  // },
+  // {
+  //   id: 536,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFCCO-036",
+  //   imgSrc: chair36,
+  //   button: "Details",
 
-  },
-  {
-    id: 537,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFCCO-037",
-    imgSrc: chair37,
-    button: "Details"
-  },
-  {
-    id: 538,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFCCO-038",
-    imgSrc: chair38,
-    button: "Details",
-    material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
-  },
-  {
-    id: 539,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFCCO-039",
-    imgSrc: chair39,
-    button: "Details",
-    material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
-  },
-  {
-    id: 540,
-    title: "SWIVEL CHAIR",
-    category: "office furniture",
-    code: "TFCCO-040",
-    imgSrc: chair40,
-    button: "Details",
-    material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
-  },
+  // },
+  // {
+  //   id: 537,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFCCO-037",
+  //   imgSrc: chair37,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 538,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFCCO-038",
+  //   imgSrc: chair38,
+  //   button: "Details",
+  //   material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
+  // },
+  // {
+  //   id: 539,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFCCO-039",
+  //   imgSrc: chair39,
+  //   button: "Details",
+  //   material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
+  // },
+  // {
+  //   id: 540,
+  //   title: "SWIVEL CHAIR",
+  //   category: "office furniture",
+  //   code: "TFCCO-040",
+  //   imgSrc: chair40,
+  //   button: "Details",
+  //   material: "superior quality chrome plated mild steel and Nylon base. High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options. Metal Inert Gas (MIG) welding for superior quality and durability "
+  // },
 
-  {
-    id: 541,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-041",
-    imgSrc: chair41,
-    button: "Details",
-    material: "This chair is made from high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
-  },
-  {
-    id: 542,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-042",
-    imgSrc: chair42,
-    button: "Details",
-    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
-  },
-  {
-    id: 543,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-043",
-    imgSrc: chair43,
-    button: "Details",
-    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility. Manual height adjustable"
-  },
-  {
-    id: 544,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-044",
-    imgSrc: chair44,
-    button: "Details",
-    material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility. Manual height adjustable"
-  },
-  {
-    id: 545,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-045",
-    imgSrc: chair45,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table"
-  },
-  {
-    id: 546,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-046",
-    imgSrc: chair46,
-    button: "Details",
-    material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table"
-  },
-  {
-    id: 547,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-047",
-    imgSrc: chair47,
-    button: "Details",
-    material: "Stainless steel welded framework that ensures high load. Zinc-phosphate coated electro-static epoxy powder oven baked paint finish that confirms anti-rust, shiny color and longevity"
-  },
-  {
-    id: 548,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-048",
-    imgSrc: chair48,
-    button: "Details",
-    material: "welded stainless  steel and is protected with  an anti-rust coating for longevity of its life. The seat and back support are upholstered with a tough, superior quality rexine material to prevent damage. The seat and the back support of this chair provide good lumbar support for your comfort. The legs of this chair are attached with high density rubber to prevent scratches on the floor"
-  },
-  {
-    id: 549,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-049",
-    imgSrc: chair49,
-    button: "Details",
-    material: "welded stainless  steel and is protected with  an anti-rust coating for longevity of its life. The seat and back support are upholstered with a tough, superior quality rexine material to prevent damage. The seat and the back support of this chair provide good lumbar support for your comfort. The legs of this chair are attached with high density rubber to prevent scratches on the floor"
+  // {
+  //   id: 541,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-041",
+  //   imgSrc: chair41,
+  //   button: "Details",
+  //   material: "This chair is made from high quality imported accessories and supported by metal body. The legs of the chair are fitted with heavy duty rubber also helps in preventing scratches on the floor"
+  // },
+  // {
+  //   id: 542,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-042",
+  //   imgSrc: chair42,
+  //   button: "Details",
+  //   material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility .Manual height adjustable. Metal chrome leg with 5nos castors which ensure longevity"
+  // },
+  // {
+  //   id: 543,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-043",
+  //   imgSrc: chair43,
+  //   button: "Details",
+  //   material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility. Manual height adjustable"
+  // },
+  // {
+  //   id: 544,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-044",
+  //   imgSrc: chair44,
+  //   button: "Details",
+  //   material: "cold rolled mild steel. All surface of mild steel zinc phosphate coated oven backed Powder paint finish which will ensure durable anti peel off. Fully covered seat and back by finest quality imported fabric which ensures longevity & comfort. Using durable PVC armrest. High quality Revolving chair with back tilt facility. Manual height adjustable"
+  // },
+  // {
+  //   id: 545,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-045",
+  //   imgSrc: chair45,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table"
+  // },
+  // {
+  //   id: 546,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-046",
+  //   imgSrc: chair46,
+  //   button: "Details",
+  //   material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported rexine on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table"
+  // },
+  // {
+  //   id: 547,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-047",
+  //   imgSrc: chair47,
+  //   button: "Details",
+  //   material: "Stainless steel welded framework that ensures high load. Zinc-phosphate coated electro-static epoxy powder oven baked paint finish that confirms anti-rust, shiny color and longevity"
+  // },
+  // {
+  //   id: 548,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-048",
+  //   imgSrc: chair48,
+  //   button: "Details",
+  //   material: "welded stainless  steel and is protected with  an anti-rust coating for longevity of its life. The seat and back support are upholstered with a tough, superior quality rexine material to prevent damage. The seat and the back support of this chair provide good lumbar support for your comfort. The legs of this chair are attached with high density rubber to prevent scratches on the floor"
+  // },
+  // {
+  //   id: 549,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-049",
+  //   imgSrc: chair49,
+  //   button: "Details",
+  //   material: "welded stainless  steel and is protected with  an anti-rust coating for longevity of its life. The seat and back support are upholstered with a tough, superior quality rexine material to prevent damage. The seat and the back support of this chair provide good lumbar support for your comfort. The legs of this chair are attached with high density rubber to prevent scratches on the floor"
 
-  },
-  {
-    id: 550,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-050",
-    imgSrc: chair50,
-    button: "Details",
-    material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 551,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-051",
-    imgSrc: chair51,
-    button: "Details",
-    material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 552,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-052",
-    imgSrc: chair52,
-    button: "Details",
-    material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 553,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-053",
-    imgSrc: chair53,
-    button: "Details",
-    material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 554,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-054",
-    imgSrc: chair54,
-    button: "Details",
-    material: "solid wood and Powder coated mild steel. High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in antique finish "
-  },
-  {
-    id: 555,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-055",
-    imgSrc: chair55,
-    button: "Details",
-    material: "imported shell and High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in natural finish Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 556,
-    title: "FIXED CHAIR",
-    category: "office furniture",
-    code: "TFVCO-056",
-    imgSrc: chair56,
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 557,
-    title: "AUDITORIUM CHAIR",
-    category: "office furniture",
-    code: "TFACO-057",
-    imgSrc: chair57,
-    button: "Details"
-  },
-  {
-    id: 558,
-    title: "AUDITORIUM CHAIR",
-    category: "office furniture",
-    code: "TFACO-058",
-    imgSrc: chair58,
-    button: "Details"
-  },
-  {
-    id: 559,
-    title: "GROUP CHAIR",
-    category: "office furniture",
-    code: "TFGCO-059",
-    imgSrc: chair59,
-    button: "Details",
-    material: "solid wood and Powder coated mild steel waiting chairs will stand the test of time with its strength and longevity. The structure is made of mild steel which is absolutely rust free. The chrome plate color will provide great endurance over time. Perfect for public waiting places this chair comes in a set of three."
-  },
-  {
-    id: 560,
-    title: "GROUP CHAIR",
-    category: "office furniture",
-    code: "TFGCO-060",
-    imgSrc: chair60,
-    button: "Details",
-    material: "cold rolled mild steel waiting chairs will stand the test of time with its strength and longevity. The structure is made of mild steel which is absolutely rust free. The chrome plate color will provide great endurance over time. Perfect for public waiting places this chair comes in a set of three"
-  },
+  // },
+  // {
+  //   id: 550,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-050",
+  //   imgSrc: chair50,
+  //   button: "Details",
+  //   material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 551,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-051",
+  //   imgSrc: chair51,
+  //   button: "Details",
+  //   material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 552,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-052",
+  //   imgSrc: chair52,
+  //   button: "Details",
+  //   material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 553,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-053",
+  //   imgSrc: chair53,
+  //   button: "Details",
+  //   material: "Powder coated mild steel High quality fabric upholstery with soft and durable cushioning. Fabric can be selected from available options Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 554,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-054",
+  //   imgSrc: chair54,
+  //   button: "Details",
+  //   material: "solid wood and Powder coated mild steel. High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in antique finish "
+  // },
+  // {
+  //   id: 555,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-055",
+  //   imgSrc: chair55,
+  //   button: "Details",
+  //   material: "imported shell and High quality environment friendly Italian Ultra Violet (UV) and Polyurethane (PU) Lacquer in natural finish Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 556,
+  //   title: "FIXED CHAIR",
+  //   category: "office furniture",
+  //   code: "TFVCO-056",
+  //   imgSrc: chair56,
+  //   button: "Details",
+  //   material: ""
+  // },
+  // {
+  //   id: 557,
+  //   title: "AUDITORIUM CHAIR",
+  //   category: "office furniture",
+  //   code: "TFACO-057",
+  //   imgSrc: chair57,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 558,
+  //   title: "AUDITORIUM CHAIR",
+  //   category: "office furniture",
+  //   code: "TFACO-058",
+  //   imgSrc: chair58,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 559,
+  //   title: "GROUP CHAIR",
+  //   category: "office furniture",
+  //   code: "TFGCO-059",
+  //   imgSrc: chair59,
+  //   button: "Details",
+  //   material: "solid wood and Powder coated mild steel waiting chairs will stand the test of time with its strength and longevity. The structure is made of mild steel which is absolutely rust free. The chrome plate color will provide great endurance over time. Perfect for public waiting places this chair comes in a set of three."
+  // },
+  // {
+  //   id: 560,
+  //   title: "GROUP CHAIR",
+  //   category: "office furniture",
+  //   code: "TFGCO-060",
+  //   imgSrc: chair60,
+  //   button: "Details",
+  //   material: "cold rolled mild steel waiting chairs will stand the test of time with its strength and longevity. The structure is made of mild steel which is absolutely rust free. The chrome plate color will provide great endurance over time. Perfect for public waiting places this chair comes in a set of three"
+  // },
   {
     id: 561,
     title: "CLASSROOM CHAIR",
@@ -2565,16 +2564,16 @@ const portfolioItems = [
 
   ///         COMBINED CABINET
 
-  {
-    id: 575,
-    title: "COMBINED CABINET",
-    category: "office furniture",
-    code: "TFSCC-074",
-    imgSrc: chair74,
-    size: "L900 X W550 X H1200MM",
-    button: "Details",
-    material: "the World’s best Quality Mild Steel Sheet. All surface of Mild Steel are mig welded, chemically de-rusted and zinc phosphate coated with oven backed heated powder paint finish that confirms anti rust, shiny color and longevity. Imported High Quality Rust Free Hardware Fittings. PVC stopper used in bottom to prevents moisture content of the floor"
-  },
+  // {
+  //   id: 575,
+  //   title: "COMBINED CABINET",
+  //   category: "office furniture",
+  //   code: "TFSCC-074",
+  //   imgSrc: chair74,
+  //   size: "L900 X W550 X H1200MM",
+  //   button: "Details",
+  //   material: "the World’s best Quality Mild Steel Sheet. All surface of Mild Steel are mig welded, chemically de-rusted and zinc phosphate coated with oven backed heated powder paint finish that confirms anti rust, shiny color and longevity. Imported High Quality Rust Free Hardware Fittings. PVC stopper used in bottom to prevents moisture content of the floor"
+  // },
 
   /// OFFICE ALMIRAH
   {
@@ -2607,246 +2606,246 @@ const portfolioItems = [
     button: "Details",
     material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
   },
-  {
-    id: 579,
-    title: "OFFICE ALMIRAH",
-    category: "office furniture",
-    code: "TFSOA-078",
-    imgSrc: chair78,
-    size: "L900 X W450 X H1800MM",
-    button: "Details",
-    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  },
-  {
-    id: 580,
-    title: "OFFICE ALMIRAH",
-    category: "office furniture",
-    code: "TFSOA-079",
-    imgSrc: chair79,
-    size: "L900 X W450 X H1800MM",
-    button: "Details",
-    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  },
-  {
-    id: 581,
-    title: "OFFICE ALMIRAH",
-    category: "office furniture",
-    code: "TFSOA-080",
-    imgSrc: chair80,
-    size: "L1000 X W450 X H1800MM",
-    button: "Details",
-    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  },
+  // {
+  //   id: 579,
+  //   title: "OFFICE ALMIRAH",
+  //   category: "office furniture",
+  //   code: "TFSOA-078",
+  //   imgSrc: chair78,
+  //   size: "L900 X W450 X H1800MM",
+  //   button: "Details",
+  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  // },
+  // {
+  //   id: 580,
+  //   title: "OFFICE ALMIRAH",
+  //   category: "office furniture",
+  //   code: "TFSOA-079",
+  //   imgSrc: chair79,
+  //   size: "L900 X W450 X H1800MM",
+  //   button: "Details",
+  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  // },
+  // {
+  //   id: 581,
+  //   title: "OFFICE ALMIRAH",
+  //   category: "office furniture",
+  //   code: "TFSOA-080",
+  //   imgSrc: chair80,
+  //   size: "L1000 X W450 X H1800MM",
+  //   button: "Details",
+  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  // },
 
-  //               OFFICE LOCKER
-  {
-    id: 582,
-    title: "OFFICE LOCKER",
-    category: "office furniture",
-    code: "TFSOL-077",
-    imgSrc: chair077,
-    size: "L900 X W500 X H1850MM",
-    button: "Details",
-    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  },
-  {
-    id: 583,
-    title: "OFFICE LOCKER",
-    category: "office furniture",
-    code: "TFSOL-078",
-    imgSrc: chair078,
-    size: "L350 X W500 X H1930MM",
-    button: "Details",
-    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  },
-  //                               office sofa
-  {
-    id: 584,
-    title: "OFFICE SOFA",
-    category: "office furniture",
-    code: "TFOSF-079",
-    imgSrc: chair079,
-    size: "L1650 X W700 X H750MM",
-    button: "Details",
-    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  },
-  {
-    id: 585,
-    title: "OFFICE SOFA",
-    category: "office furniture",
-    code: "TFOSF-080",
-    imgSrc: chair080,
-    size: "L1800 X W700 X H720MM",
-    button: "Details",
-    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  },
-  {
-    id: 586,
-    title: "OFFICE SOFA",
-    category: "office furniture",
-    code: "TFOSF-081",
-    imgSrc: chair81,
-    size: "L685 X W750 X H635MM(SINGLE SEAT)",
-    size2: "L1335 X W750 X H635MM(DOUBLE SEAT)",
-    button: "Details",
-    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  },
-  {
-    id: 587,
-    title: "OFFICE SOFA",
-    category: "office furniture",
-    code: "TFOSF-082",
-    imgSrc: chair82,
-    size: "L1135 X W750 X H635MM",
-    button: "Details",
-    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  },
-  {
-    id: 588,
-    title: "OFFICE SOFA",
-    category: "office furniture",
-    code: "TFOSF-083",
-    imgSrc: chair83,
-    size: "L1800 X W750 X H700MM(3 SEATER)",
-    button: "Details",
-    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  },
-  {
-    id: 589,
-    title: "OFFICE SOFA",
-    category: "office furniture",
-    code: "TFOSF-084",
-    imgSrc: chair84,
-    size: "L600 X W700 X H750MM(SINGLE SEATER)",
-    size2: "L1350 X W700 X H750MM(DOUBLE SEATER)",
-    button: "Details",
-    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  },
-  /////                        WORK STATION
-  {
-    id: 590,
-    title: "WORK STATION",
-    category: "office furniture",
-    code: "TFWSO-085",
-    imgSrc: chair85,
-    size: "L2500 X W650 X H1200MM",
-    button: "Details",
-    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 591,
-    title: "WORK STATION",
-    category: "office furniture",
-    code: "TFWSO-086",
-    imgSrc: chair86,
-    size: "L1200 X W1200 X H1050MM",
-    button: "Details",
-    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 592,
-    title: "WORK STATION",
-    category: "office furniture",
-    code: "TFWSO-087",
-    imgSrc: chair87,
-    size: "L3000 X W1650 X H1500MM",
-    button: "Details",
-    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 593,
-    title: "WORK STATION",
-    category: "office furniture",
-    code: "TFWSO-088",
-    imgSrc: chair88,
-    size: "L3000 X W3000 X H1050MM",
-    button: "Details",
-    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 594,
-    title: "WORK STATION",
-    category: "office furniture",
-    code: "TFWSO-089",
-    imgSrc: chair89,
-    size: "L3000 X W3000 X H1050MM",
-    button: "Details",
-    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  {
-    id: 595,
-    title: "WORK STATION",
-    category: "office furniture",
-    code: "TFWSO-090",
-    imgSrc: chair90,
-    size: "L2400 X W1200 X H1050MM",
-    button: "Details",
-    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  },
-  ///        FLUSH DOOR
-  {
-    id: 596,
-    title: "FLUSH DOOR",
-    category: "office furniture",
-    code: "TFFDD-091",
-    imgSrc: chair91,
-    size: "L600~900 X H2080MM",
-    button: "Details",
-    material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
-  },
-  {
-    id: 597,
-    title: "FLUSH DOOR",
-    category: "office furniture",
-    code: "TFFDD-092",
-    imgSrc: chair92,
-    size: "L600~900 X H2080MM",
-    button: "Details",
-    material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
-  },
-  {
-    id: 598,
-    title: "FLUSH DOOR",
-    category: "office furniture",
-    code: "TFFDD-093",
-    imgSrc: chair93,
-    size: "L600~900 X H2080MM",
-    button: "Details",
-    material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
-  },
+  // //               OFFICE LOCKER
+  // {
+  //   id: 582,
+  //   title: "OFFICE LOCKER",
+  //   category: "office furniture",
+  //   code: "TFSOL-077",
+  //   imgSrc: chair077,
+  //   size: "L900 X W500 X H1850MM",
+  //   button: "Details",
+  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  // },
+  // {
+  //   id: 583,
+  //   title: "OFFICE LOCKER",
+  //   category: "office furniture",
+  //   code: "TFSOL-078",
+  //   imgSrc: chair078,
+  //   size: "L350 X W500 X H1930MM",
+  //   button: "Details",
+  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  // },
+  // //                               office sofa
+  // {
+  //   id: 584,
+  //   title: "OFFICE SOFA",
+  //   category: "office furniture",
+  //   code: "TFOSF-079",
+  //   imgSrc: chair079,
+  //   size: "L1650 X W700 X H750MM",
+  //   button: "Details",
+  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  // },
+  // {
+  //   id: 585,
+  //   title: "OFFICE SOFA",
+  //   category: "office furniture",
+  //   code: "TFOSF-080",
+  //   imgSrc: chair080,
+  //   size: "L1800 X W700 X H720MM",
+  //   button: "Details",
+  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  // },
+  // {
+  //   id: 586,
+  //   title: "OFFICE SOFA",
+  //   category: "office furniture",
+  //   code: "TFOSF-081",
+  //   imgSrc: chair81,
+  //   size: "L685 X W750 X H635MM(SINGLE SEAT)",
+  //   size2: "L1335 X W750 X H635MM(DOUBLE SEAT)",
+  //   button: "Details",
+  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  // },
+  // {
+  //   id: 587,
+  //   title: "OFFICE SOFA",
+  //   category: "office furniture",
+  //   code: "TFOSF-082",
+  //   imgSrc: chair82,
+  //   size: "L1135 X W750 X H635MM",
+  //   button: "Details",
+  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  // },
+  // {
+  //   id: 588,
+  //   title: "OFFICE SOFA",
+  //   category: "office furniture",
+  //   code: "TFOSF-083",
+  //   imgSrc: chair83,
+  //   size: "L1800 X W750 X H700MM(3 SEATER)",
+  //   button: "Details",
+  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  // },
+  // {
+  //   id: 589,
+  //   title: "OFFICE SOFA",
+  //   category: "office furniture",
+  //   code: "TFOSF-084",
+  //   imgSrc: chair84,
+  //   size: "L600 X W700 X H750MM(SINGLE SEATER)",
+  //   size2: "L1350 X W700 X H750MM(DOUBLE SEATER)",
+  //   button: "Details",
+  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  // },
+  // /////                        WORK STATION
+  // {
+  //   id: 590,
+  //   title: "WORK STATION",
+  //   category: "office furniture",
+  //   code: "TFWSO-085",
+  //   imgSrc: chair85,
+  //   size: "L2500 X W650 X H1200MM",
+  //   button: "Details",
+  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 591,
+  //   title: "WORK STATION",
+  //   category: "office furniture",
+  //   code: "TFWSO-086",
+  //   imgSrc: chair86,
+  //   size: "L1200 X W1200 X H1050MM",
+  //   button: "Details",
+  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 592,
+  //   title: "WORK STATION",
+  //   category: "office furniture",
+  //   code: "TFWSO-087",
+  //   imgSrc: chair87,
+  //   size: "L3000 X W1650 X H1500MM",
+  //   button: "Details",
+  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 593,
+  //   title: "WORK STATION",
+  //   category: "office furniture",
+  //   code: "TFWSO-088",
+  //   imgSrc: chair88,
+  //   size: "L3000 X W3000 X H1050MM",
+  //   button: "Details",
+  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 594,
+  //   title: "WORK STATION",
+  //   category: "office furniture",
+  //   code: "TFWSO-089",
+  //   imgSrc: chair89,
+  //   size: "L3000 X W3000 X H1050MM",
+  //   button: "Details",
+  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // {
+  //   id: 595,
+  //   title: "WORK STATION",
+  //   category: "office furniture",
+  //   code: "TFWSO-090",
+  //   imgSrc: chair90,
+  //   size: "L2400 X W1200 X H1050MM",
+  //   button: "Details",
+  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  // },
+  // ///        FLUSH DOOR
+  // {
+  //   id: 596,
+  //   title: "FLUSH DOOR",
+  //   category: "office furniture",
+  //   code: "TFFDD-091",
+  //   imgSrc: chair91,
+  //   size: "L600~900 X H2080MM",
+  //   button: "Details",
+  //   material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
+  // },
+  // {
+  //   id: 597,
+  //   title: "FLUSH DOOR",
+  //   category: "office furniture",
+  //   code: "TFFDD-092",
+  //   imgSrc: chair92,
+  //   size: "L600~900 X H2080MM",
+  //   button: "Details",
+  //   material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
+  // },
+  // {
+  //   id: 598,
+  //   title: "FLUSH DOOR",
+  //   category: "office furniture",
+  //   code: "TFFDD-093",
+  //   imgSrc: chair93,
+  //   size: "L600~900 X H2080MM",
+  //   button: "Details",
+  //   material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
+  // },
 
-  ///       SOLID WOODEN DOOR
+  // ///       SOLID WOODEN DOOR
 
-  {
-    id: 599,
-    title: "SOLID WOODEN DOOR",
-    category: "office furniture",
-    code: "TFFDD-094",
-    imgSrc: chair94,
-    size: "L600~1050 X H2080MM",
-    button: "Details",
-    material: "Mahogany & Veneered engineering wood"
-  },
-  {
-    id: 600,
-    title: "SOLID WOODEN DOOR",
-    category: "office furniture",
-    code: "TFFDD-095",
-    imgSrc: chair95,
-    size: "L600~1050 X H2080MM",
-    button: "Details",
-    material: "Mahogany & Veneered engineering wood"
-  },
-  {
-    id: 601,
-    title: "SOLID WOODEN DOOR",
-    category: "office furniture",
-    code: "TFFDD-096",
-    imgSrc: chair96,
-    size: "L600~1050 X H2080MM",
-    button: "Details",
-    material: "Mahogany & Veneered engineering wood"
-  },
+  // {
+  //   id: 599,
+  //   title: "SOLID WOODEN DOOR",
+  //   category: "office furniture",
+  //   code: "TFFDD-094",
+  //   imgSrc: chair94,
+  //   size: "L600~1050 X H2080MM",
+  //   button: "Details",
+  //   material: "Mahogany & Veneered engineering wood"
+  // },
+  // {
+  //   id: 600,
+  //   title: "SOLID WOODEN DOOR",
+  //   category: "office furniture",
+  //   code: "TFFDD-095",
+  //   imgSrc: chair95,
+  //   size: "L600~1050 X H2080MM",
+  //   button: "Details",
+  //   material: "Mahogany & Veneered engineering wood"
+  // },
+  // {
+  //   id: 601,
+  //   title: "SOLID WOODEN DOOR",
+  //   category: "office furniture",
+  //   code: "TFFDD-096",
+  //   imgSrc: chair96,
+  //   size: "L600~1050 X H2080MM",
+  //   button: "Details",
+  //   material: "Mahogany & Veneered engineering wood"
+  // },
   //                                 --------   lged(200)  --------
   
   

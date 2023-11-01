@@ -40,7 +40,7 @@ const ProductType = () => {
                   </div>
 
                   <div data-aos="fade-up" className="row g-4">
-                      <div className="col-lg-3 col-sm-6 wow fadeInUp">
+                      {/* <div className="col-lg-3 col-sm-6 wow fadeInUp">
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3" >
                               <div className="rounded p-4">
                                   <div className="icon mb-3">
@@ -74,7 +74,7 @@ const ProductType = () => {
                                   <span className='propertySpan'>100+ Products</span>
                               </div>
                           </a>
-                      </div>
+                      </div> */}
                     
                       <div className="col-lg-3 col-sm-6 wow fadeInUp" >
                           <a style={{ textDecoration: "none", cursor: "pointer" }} className="cat-item d-block bg-light text-center rounded p-3">
