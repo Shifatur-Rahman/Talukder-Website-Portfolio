@@ -91,6 +91,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         </div>
 
                         <div className="thumbnail-wrapper flex">
+
                           <div className="thumbnail">
                             <img
                               onClick={() => setCurrentProductImage(0)}
@@ -127,6 +128,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               alt="thumbnail"
                             />
                           </div>
+                          
                         </div>
                       </div>
 

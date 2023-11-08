@@ -256,7 +256,7 @@ body {
       margin: auto;
       background-color: #fff;
     }
-  
+
     #imageMagnifier {
       background-color: #fff;
       /* background-color: red; */
@@ -267,7 +267,7 @@ body {
     #imageMagnifier img {
       height: 400px !important;
     }
-  
+    
     /* Tg Logo */
     .productDetailsTitle {
       color: #4d4d4d;
