@@ -24,8 +24,8 @@ const ManagementTeam = () => {
       {loading ? (
         <Spinner />
       ) :
-<section>
-      <div style={{ marginTop: "4rem" }} className="profile-area">
+<section style={{marginBottom:"2rem", marginTop:"3rem"}}>
+      <div className="profile-area">
         <Container>
           <Row>
             <Col lg={6} md={6} sm={12}>
@@ -92,7 +92,7 @@ const ManagementTeam = () => {
       <div>
         <Container>
           <Row>
-            <Col lg={4} md={6} sm={12}>
+            <Col lg={3} md={6} sm={12}>
               <div className="card">
                 <div className="img1">
                   <img src={profile1Img} alt="one img" />
@@ -123,7 +123,7 @@ const ManagementTeam = () => {
               </div>
             </Col>
 
-                <Col lg={4} md={6} sm={12}>
+                <Col lg={3} md={6} sm={12}>
                   <div className="card">
                     <div className="img1">
                       <img src={profile1Img} alt="one img" />
@@ -154,7 +154,7 @@ const ManagementTeam = () => {
                   </div>
                 </Col>
 
-                {/* <Col lg={3} md={6} sm={12}>
+                <Col lg={3} md={6} sm={12}>
                   <div className="card">
                     <div className="img1">
                       <img src={profile1Img} alt="one img" />
@@ -185,9 +185,9 @@ const ManagementTeam = () => {
                       <AiFillGooglePlusCircle />
                     </div>
                   </div>
-                </Col> */}
+                </Col>
 
-                <Col lg={4} md={6} sm={12}>
+                <Col lg={3} md={6} sm={12}>
                   <div className="card">
                     <div className="img1">
                       <img src={profile1Img} alt="one img" />

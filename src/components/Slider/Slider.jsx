@@ -5,19 +5,10 @@ import { CSSTransition } from "react-transition-group";
 import "./Slider.css";
 import slider1 from "../../asset/images/Slider_Img/slider1.jpg";
 import slider2 from "../../asset/images/Slider_Img/slider2.jpg";
-import slider3 from "../../asset/images/Slider_Img/slider3.jpg";
-import talukder from "../../asset/images/Slider_Img/factoryBuilding.jpg";
-import slider4 from "../../asset/images/Slider_Img/talukder.png";
-import Button from "react-bootstrap/Button";
 import { useRef } from "react";
-import KnowUs from "../../components/KnowUs/KnowUs";
 import Summary from "../../components/Summary/Summary";
 import AOS from "aos";
-import Certified from "../Certified/Certified";
 import Services from "../Services/Services";
-// import Banner from "../Banner/Banner";
-// import ReadMore from "../ReadMore/ReadMore";
-import Banner from "../Banner/Banner";
 import ProductType from "../ProductType/ProductType";
 import TalukderDetails from "../TalukderDetails/TalukderDetails";
 
@@ -131,13 +122,7 @@ const Slider = () => {
                   {image.para}
                 </p>
 
-                <div style={{ display:"flex", alignContent:"flex-start"}}
-                //  className="banner_content"
-                >
-                    {/* <ul>
-                        <li><a style={{textDecoration:"none"}} onClick={handleClick} className="btn-button button-color">Our Services</a></li>
-                        <li><a style={{textDecoration:"none"}} onClick={handleKnowClick} className="btn-button button-transparent">Learn More</a></li>
-                    </ul> */}
+                <div style={{ display:"flex", alignContent:"flex-start"}}>
                      <a style={{textDecoration:"none", }} onClick={handleClick} className="btn-button button-transparent">Our Services</a>
                 </div>
 
