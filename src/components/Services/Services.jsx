@@ -63,7 +63,7 @@ const Services = (props, ref) => {
                           </div>
                       </Col>
 
-                    {/*  <Col sm={12} md={6} lg={4}>
+                     <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">
                               <div className="service_section_img">
                                   <img src={service3} alt="furniture" />
@@ -91,7 +91,7 @@ const Services = (props, ref) => {
                                   </a>
                               </div>
                           </div>
-                      </Col> */}
+                      </Col>
 
                       <Col sm={12} md={6} lg={4}>
                           <div className="single_service_section">

@@ -397,9 +397,9 @@ const Portfolio = () => {
                     ))].map((_, i) => {
                       return (
                         <span className={pages === i + 1 ? "selectedPage" : ""} onClick={() => { handlePage(i + 1); window.scrollTo(0, 0); }}> {i + 1}</span>
-                      )
-                    })
-                  }
+                      )   
+                    })   
+                  }        
                   <span onClick={() => { handlePage(pages + 1); window.scrollTo(0, 0); }}
                     className={pages < Math.ceil(portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}>
                     <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
