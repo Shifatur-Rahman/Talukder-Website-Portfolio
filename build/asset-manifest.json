@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0319483f.css",
-    "main.js": "/static/js/main.c46339cb.js",
+    "main.css": "/static/css/main.1b49feba.css",
+    "main.js": "/static/js/main.dbbbba24.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -9,7 +9,6 @@
     "static/media/Household_Product1.mp4": "/static/media/Household_Product1.5102404650bf3a2efed0.mp4",
     "static/media/Lundry_Basket_Advertise.mp4": "/static/media/Lundry_Basket_Advertise.96ba1ef568bd58b42388.mp4",
     "static/media/Jug_Advertise.mp4": "/static/media/Jug_Advertise.2656d77c7f5b3f03605c.mp4",
-    "static/media/slider3.jpg": "/static/media/slider3.f2ac35084bcefa3eecee.jpg",
     "static/media/slider2.jpg": "/static/media/slider2.d2520956dfd9a9c3de38.jpg",
     "static/media/Fittings_Advertise.mp4": "/static/media/Fittings_Advertise.20aebb0a4ba2e5475580.mp4",
     "static/media/Dining_Table_Advertise.mp4": "/static/media/Dining_Table_Advertise.11e989ddbdff72004cbe.mp4",
@@ -20,10 +19,8 @@
     "static/media/lged1.jpg": "/static/media/lged1.6b4a49c7e9a885fe867f.jpg",
     "static/media/error2.jpg": "/static/media/error2.1a1b266ab06ac6bfef03.jpg",
     "static/media/lged7.jpg": "/static/media/lged7.d79190e5ba2d047478b5.jpg",
-    "static/media/talukder.png": "/static/media/talukder.adfd4673280b76ef015a.png",
     "static/media/lged8.jpg": "/static/media/lged8.9f2b2970474245538a89.jpg",
     "static/media/tubewell2.jpg": "/static/media/tubewell2.663512010a53dc7418f2.jpg",
-    "static/media/aaa-2.png": "/static/media/aaa-2.8115c531a407954c0943.png",
     "static/media/gallery4.jpg": "/static/media/gallery4.ed3a2a9126e3577b84fd.jpg",
     "static/media/plastic56.png": "/static/media/plastic56.fba5447b602aebdd7bcc.png",
     "static/media/gallery14.jpg": "/static/media/gallery14.70c3f2dab94dbeff9fb4.jpg",
@@ -45,7 +42,6 @@
     "static/media/gallery7.jpg": "/static/media/gallery7.fc0318233c04a6c93252.jpg",
     "static/media/gallery5.jpg": "/static/media/gallery5.1fe2644677064b8a0cca.jpg",
     "static/media/gallery8.jpg": "/static/media/gallery8.54092be02c2bc0bea703.jpg",
-    "static/media/factoryBuilding.jpg": "/static/media/factoryBuilding.922020048a14a81a7b3e.jpg",
     "static/media/awards13.jpg": "/static/media/awards13.d60d801afdb8fc259261.jpg",
     "static/media/gallery16.jpg": "/static/media/gallery16.c1473aa2f98527530545.jpg",
     "static/media/gallery6.jpg": "/static/media/gallery6.dc4a58e7bca0781bb47d.jpg",
@@ -146,7 +142,6 @@
     "static/media/Storage Container.jpg": "/static/media/Storage Container.91c654a4198325da3990.jpg",
     "static/media/Druam Bucket.jpg": "/static/media/Druam Bucket.53b96cd9a953273c24e5.jpg",
     "static/media/plastic31.png": "/static/media/plastic31.d45d736f64247370cc70.png",
-    "static/media/certified.jpg": "/static/media/certified.ca4a5011cd28c7250b43.jpg",
     "static/media/awards7.jpg": "/static/media/awards7.c8487fbf8111c85a6ce4.jpg",
     "static/media/plastic71.png": "/static/media/plastic71.b85e8312094e2e09561e.png",
     "static/media/plastic50.png": "/static/media/plastic50.2f03e8b5c0d5a0335ed1.png",
@@ -193,11 +188,9 @@
     "static/media/plasticChair3.png": "/static/media/plasticChair3.ac188e012aa77bd15e02.png",
     "static/media/President Chair.jpg": "/static/media/President Chair.e934c9aab6b28b1533ae.jpg",
     "static/media/tbl12.jpg": "/static/media/tbl12.dea804e235c8db8bb9a0.jpg",
-    "static/media/banner2.png": "/static/media/banner2.4df67580da9679191ef4.png",
     "static/media/fittings.jpg": "/static/media/fittings.e573e59011c2b87b6407.jpg",
     "static/media/household1.jpg": "/static/media/household1.45407cb58a6bc320a779.jpg",
     "static/media/rack26.jpg": "/static/media/rack26.386ddf87ea4e590083e2.jpg",
-    "static/media/buetLogo.jpg": "/static/media/buetLogo.2fa8f775f4da17ba1725.jpg",
     "static/media/talukderName.png": "/static/media/talukderName.13dbe606d70b9b6db228.png",
     "static/media/rack21.png": "/static/media/rack21.fca881bc6b879bd75490.png",
     "static/media/awards11.jpg": "/static/media/awards11.ddc8e94579600e68d37e.jpg",
@@ -216,8 +209,6 @@
     "static/media/rack5.jpg": "/static/media/rack5.25197db926be463afa54.jpg",
     "static/media/fittings1.jpeg": "/static/media/fittings1.2453628528da90f1a51e.jpeg",
     "static/media/tbl48.jpg": "/static/media/tbl48.d0914e677c57b9d4795f.jpg",
-    "static/media/environmental.png": "/static/media/environmental.918c926bf32b4323bbd5.png",
-    "static/media/banner1.png": "/static/media/banner1.8ba8da200115a595ea2d.png",
     "static/media/RSPL-Health-BD-Ltd.jpg": "/static/media/RSPL-Health-BD-Ltd.c43c0ea44c5653bf5723.jpg",
     "static/media/fittings5.jpg": "/static/media/fittings5.4c0d3920138c60a32ddd.jpg",
     "static/media/tbl45.jpg": "/static/media/tbl45.14f463f79fcf092f2fd5.jpg",
@@ -481,11 +472,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.0319483f.css.map": "/static/css/main.0319483f.css.map",
-    "main.c46339cb.js.map": "/static/js/main.c46339cb.js.map"
+    "main.1b49feba.css.map": "/static/css/main.1b49feba.css.map",
+    "main.dbbbba24.js.map": "/static/js/main.dbbbba24.js.map"
   },
   "entrypoints": [
-    "static/css/main.0319483f.css",
-    "static/js/main.c46339cb.js"
+    "static/css/main.1b49feba.css",
+    "static/js/main.dbbbba24.js"
   ]
 }

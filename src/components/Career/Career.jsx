@@ -66,6 +66,7 @@ const Career = () => {
           </Row>
 
           <hr />
+          {/* Career file */}
           <br />
 
           <Row>
@@ -77,7 +78,6 @@ const Career = () => {
           </Row>
 
         </Container>
-
       }
     </>
   )

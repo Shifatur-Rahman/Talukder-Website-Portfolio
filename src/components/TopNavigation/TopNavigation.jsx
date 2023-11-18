@@ -3,10 +3,7 @@ import "./TopNavigation.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import talukderLogo from "../../asset/images/Logo/talukderLogo.png";
-import { AiOutlineCaretDown, AiOutlineTwitter, AiFillLinkedin, AiFillMail } from "react-icons/ai";
-// import { FaFacebookF } from 'react-icons/fa';
-// import { BsYoutube } from 'react-icons/bs';
-// import { MdCall } from 'react-icons/md';
+import { AiOutlineCaretDown } from "react-icons/ai";
 
 class TopNavigation extends Component {
 
@@ -237,7 +234,6 @@ class TopNavigation extends Component {
                 </div>
               </Nav.Link>
 
-
               {/* About Us */}     
 
               <Nav.Link>
@@ -283,18 +279,18 @@ class TopNavigation extends Component {
 
               {/* <Nav.Link>
                 <NavLink className={this.state.navbarItem} to="/contact">
-                  Contact
-                </NavLink>
-              </Nav.Link> */}
-
-              {/* career */}
+                  Contact 
+                </NavLink> 
+              </Nav.Link> */} 
+                                                                                         
+              {/* career */} 
 
               <Nav.Link>
                 <NavLink className={this.state.navbarItem} to="/career">
-                  Career
-                </NavLink>
-              </Nav.Link>
-
+                  Career 
+                </NavLink>    
+              </Nav.Link>       
+ 
             </Nav>
           </Navbar.Collapse>
         </Navbar>
