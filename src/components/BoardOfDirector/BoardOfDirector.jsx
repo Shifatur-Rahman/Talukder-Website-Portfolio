@@ -226,7 +226,7 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-              <Col lg={3} md={6} sm={12}>
+              {/* <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
@@ -251,7 +251,7 @@ const BoardOfDirector = () => {
                     <AiFillGooglePlusCircle />
                   </div>
                 </div>
-              </Col>
+              </Col> */}
 
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
