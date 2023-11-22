@@ -6,7 +6,7 @@ import Error2 from "../../asset/images/Error img/error2.jpg"
 const Error = () => {
   return (
     <>
-    
+    {/* Error page for wrong url */}
     <div className='error'>
         <img src={Error2} alt="Error 1 Page" />
     </div>
