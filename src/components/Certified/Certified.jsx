@@ -11,6 +11,8 @@ import certified4 from "..//..//asset/images/Certified/buetLogo.jpg"
 // import fire from "..//..//asset/images/Certified/fire.jpg"
 import environmental from "..//..//asset/images/Certified/environmental.png"
 
+// Certification page
+
 const Certified = () => {
   
     const settings = {
