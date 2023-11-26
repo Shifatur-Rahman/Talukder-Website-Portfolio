@@ -75,7 +75,7 @@ const Certified = () => {
   
   return (
     <>
-  
+  {/* certified not mentioned */}
       <Container style={{ marginTop: "5rem", marginBottom: "1rem" }}>
 
         <style>
