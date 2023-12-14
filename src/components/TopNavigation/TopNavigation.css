@@ -3,7 +3,8 @@
   -o-transition: background-color 400ms linear;
   -moz-transition: background-color 400ms linear;
   -webkit-transition: background-color 400ms linear;
-  background-color: rgba(255, 255, 255, 0.7);
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  background-color:  #f2f2f2;
   padding: 1rem 3rem;
 }
 
