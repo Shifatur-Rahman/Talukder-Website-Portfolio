@@ -18,7 +18,7 @@ const MdMessage = () => {
 {loading ? (
         <Spinner />
       ) :
-      <Container>
+      <Container style={{marginBottom:"2rem"}}>
         <Row className="msgMargin">
           <Col sm={12} md={6} lg={6}>
             <div className="chairmanImg">

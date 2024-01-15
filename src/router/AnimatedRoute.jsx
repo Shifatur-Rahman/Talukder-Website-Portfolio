@@ -26,6 +26,7 @@ import JEnterprisePage from "../pages/JEnterprisePage";
 // import NotFound from "../components/NotFound/NotFound";
 import ProductDetailsPage from '../pages/ProductDetailsPage'
 import ErrorPage from "../pages/ErrorPage";
+import DownloadFile from "../components/DownloadFile/DownloadFile";
 
 function AnimatedRoute() {
   const location = useLocation();
@@ -101,6 +102,8 @@ function AnimatedRoute() {
             path="*"
             element={<ErrorPage />}
           />
+
+         <Route path="/downloadFile" element={<DownloadFile />}  />
 
          {/* <Route path="**" element={<NotFound />} /> */} 
 

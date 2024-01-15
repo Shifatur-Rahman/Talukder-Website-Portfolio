@@ -93,7 +93,7 @@ const Plastic = () => {
           </Col>
      </Row>
 
-            <Row className="TgImageGallery" style={{ marginTop: "1rem" }}>
+            <Row className="TgImageGallery" style={{ marginTop: "1rem", marginBottom:"4rem" }}>
               {itemData.map((item) => (
                 <Col key={item.title} lg={3} md={4} sm={6}>
                   <div>

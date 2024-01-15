@@ -28,7 +28,7 @@ const BoardOfDirector = () => {
         <Spinner />
       ) : (
         <div className="profile-area">
-          <Container style={{ marginTop: "4rem", marginBottom: "0" }}>
+          <Container style={{ marginTop: "4rem", marginBottom: "2rem" }}>
             <Row>
 
               <Col lg={3} md={6} sm={12}>
@@ -199,7 +199,7 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-              <Col lg={3} md={6} sm={12}>
+              {/* <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
@@ -224,7 +224,7 @@ const BoardOfDirector = () => {
                     <AiFillGooglePlusCircle />
                   </div>
                 </div>
-              </Col>
+              </Col> */}
 
               {/* <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
@@ -350,6 +350,33 @@ const BoardOfDirector = () => {
                     <h2>Md. Shafiqur Rahman</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
                       Sr. Manager <br /> Corporate Sales
+                    </p>
+                    <p></p>
+                  </div>
+
+                  <div className="socials" style={{ fontSize: "25px" }}>
+                    <BsFacebook style={{ marginRight: "5px" }} />
+                    <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                    <GrPinterest style={{ marginRight: "5px" }} />
+                    <AiFillGooglePlusCircle />
+                  </div>
+                </div>
+              </Col>
+
+              <Col lg={3} md={6} sm={12}>
+                <div className="managementCard">
+                  <div className="img1">
+                    <img src={profile1Img} alt="one img" />
+                  </div>
+
+                  <div className="img2">
+                    <img src={profile2Img} alt="two img" />
+                  </div>
+
+                  <div className="main-text">
+                    <h2>Md. Jahidul Islam Salim</h2>
+                    <p style={{ fontSize: "12px" }} className="main-text-p">
+                      Sr. Manager <br /> Finance
                     </p>
                     <p></p>
                   </div>
@@ -537,10 +564,39 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="main-text">
-                    <h2>Md. Rezwan Siddique </h2>
+                    <h2>Md. Azazul Hoque</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                     Asst. Manager <br />
-                   Transport                    </p>
+                     National Sales Manager <br /> PLASTIC
+                    </p>
+                    <p></p>
+                  </div>
+
+                  <div className="socials" style={{ fontSize: "25px" }}>
+                    <BsFacebook style={{ marginRight: "5px" }} />
+                    <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                    <GrPinterest style={{ marginRight: "5px" }} />
+                    <AiFillGooglePlusCircle />
+                  </div>
+                </div>
+              </Col>
+
+              
+              <Col lg={3} md={6} sm={12}>
+                <div className="managementCard">
+                  <div className="img1">
+                    <img src={profile1Img} alt="one img" />
+                  </div>
+
+                  <div className="img2">
+                    <img src={profile2Img} alt="two img" />
+                  </div>
+
+                  <div className="main-text">
+                    <h2>MD. Saiful Islam</h2>
+                    <p style={{ fontSize: "12px" }} className="main-text-p">
+                     National Sales Manager <br /> PLASTIC
+                    </p>
+                    <p></p>
                   </div>
 
                   <div className="socials" style={{ fontSize: "25px" }}>
@@ -563,11 +619,36 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="main-text">
-                    <h2>SM Raihanul Islam</h2>
+                    <h2>Md. Rezwan Siddique </h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Asst. Manager <br />  Tender 
-                                       </p>
-                    <p></p>
+                     Deputy Manager <br />
+                   Transport                    </p>
+                  </div>
+
+                  <div className="socials" style={{ fontSize: "25px" }}>
+                    <BsFacebook style={{ marginRight: "5px" }} />
+                    <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                    <GrPinterest style={{ marginRight: "5px" }} />
+                    <AiFillGooglePlusCircle />
+                  </div>
+                </div>
+              </Col>
+
+              <Col lg={3} md={6} sm={12}>
+                <div className="managementCard">
+                  <div className="img1">
+                    <img src={profile1Img} alt="one img" />
+                  </div>
+
+                  <div className="img2">
+                    <img src={profile3Img} alt="two img" />
+                  </div>
+
+                  <div className="main-text">
+                    <h2>Mrs. Ayesha Siddika </h2>
+                    <p style={{ fontSize: "12px" }} className="main-text-p">
+                     Asst. Manager <br />
+                     Customer Services   </p>
                   </div>
 
                   <div className="socials" style={{ fontSize: "25px" }}>
@@ -605,6 +686,34 @@ const BoardOfDirector = () => {
                   </div>
                 </div>
               </Col>
+
+              <Col lg={3} md={6} sm={12}>
+                <div className="managementCard">
+                  <div className="img1">
+                    <img src={profile1Img} alt="one img" />
+                  </div>
+
+                  <div className="img2">
+                    <img src={profile2Img} alt="two img" />
+                  </div>
+
+                  <div className="main-text">
+                    <h2>SM Raihanul Islam</h2>
+                    <p style={{ fontSize: "12px" }} className="main-text-p">
+                    Asst. Manager <br />  Tender 
+                                       </p>
+                    <p></p>
+                  </div>
+
+                  <div className="socials" style={{ fontSize: "25px" }}>
+                    <BsFacebook style={{ marginRight: "5px" }} />
+                    <AiFillTwitterCircle style={{ marginRight: "5px" }} />
+                    <GrPinterest style={{ marginRight: "5px" }} />
+                    <AiFillGooglePlusCircle />
+                  </div>
+                </div>
+              </Col>
+
             </Row>
 
           </Container>
