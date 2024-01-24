@@ -352,20 +352,39 @@ import plastic107 from "../../asset/images/plastic/PLASTIC BUCKET/Egg Box.jpg";
 // import plastic97 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket (Without Lid Plastic Handle).jpg"
 
 //                            waredrobe
-import waredrobe1 from "../../asset/images/plastic/Waredrobe/waredrobe1.jpg";
-import waredrobe2 from "../../asset/images/plastic/Waredrobe/waredrobe2.jpg";
-import waredrobe3 from "../../asset/images/plastic/Waredrobe/waredrobe3.jpg";
-import waredrobe4 from "../../asset/images/plastic/Waredrobe/waredrobe4.jpg";
-import waredrobe5 from "../../asset/images/plastic/Waredrobe/waredrobe5.jpg";
-import waredrobe6 from "../../asset/images/plastic/Waredrobe/waredrobe6.jpg";
-import waredrobe7 from "../../asset/images/plastic/Waredrobe/waredrobe7.jpg";
-import waredrobe8 from "../../asset/images/plastic/Waredrobe/waredrobe8.jpg";
-import waredrobe9 from "../../asset/images/plastic/Waredrobe/waredrobe9.jpg";
-import waredrobe10 from "../../asset/images/plastic/Waredrobe/waredrobe10.jpg";
-import waredrobe11 from "../../asset/images/plastic/Waredrobe/waredrobe11.jpg";
-import waredrobe12 from "../../asset/images/plastic/Waredrobe/waredrobe12.jpg";
-import waredrobe13 from "../../asset/images/plastic/Waredrobe/waredrobe13.jpg";
+import waredrobe1 from "../../asset/images/plastic/Waredrobe/waredrobe01.png";
+import waredrobe2 from "../../asset/images/plastic/Waredrobe/waredrobe02.png";
+import waredrobe3 from "../../asset/images/plastic/Waredrobe/waredrobe03.png";
+import waredrobe4 from "../../asset/images/plastic/Waredrobe/waredrobe04.png";
+import waredrobe5 from "../../asset/images/plastic/Waredrobe/waredrobe05.png";
+import waredrobe6 from "../../asset/images/plastic/Waredrobe/waredrobe06.png";
+import waredrobe7 from "../../asset/images/plastic/Waredrobe/waredrobe07.png";
+import waredrobe07 from "../../asset/images/plastic/Waredrobe/waredrobe007.png";
+import waredrobe8 from "../../asset/images/plastic/Waredrobe/waredrobe08.png";
+import waredrobe9 from "../../asset/images/plastic/Waredrobe/waredrobe09.png";
+import waredrobe10 from "../../asset/images/plastic/Waredrobe/waredrobe10.png";
+import waredrobe11 from "../../asset/images/plastic/Waredrobe/waredrobe11.png";
+import waredrobe12 from "../../asset/images/plastic/Waredrobe/waredrobe12.png";
+import waredrobe13 from "../../asset/images/plastic/Waredrobe/waredrobe13.png";
 import waredrobe14 from "../../asset/images/plastic/Waredrobe/waredrobe14.png";
+import waredrobe15 from "../../asset/images/plastic/Waredrobe/waredrobe15.png";
+import waredrobe16 from "../../asset/images/plastic/Waredrobe/waredrobe16.png";
+import waredrobe17 from "../../asset/images/plastic/Waredrobe/waredrobe17.png";
+import waredrobe18 from "../../asset/images/plastic/Waredrobe/waredrobe18.png";
+import waredrobe19 from "../../asset/images/plastic/Waredrobe/waredrobe19.png";
+import waredrobe20 from "../../asset/images/plastic/Waredrobe/waredrobe20.png";
+import waredrobe21 from "../../asset/images/plastic/Waredrobe/waredrobe21.png";
+
+//     Toys
+import toy1 from "../../asset/images/plastic/toys/01.png";
+import toy2 from "../../asset/images/plastic/toys/02.png";
+import toy3 from "../../asset/images/plastic/toys/03.png";
+import toy4 from "../../asset/images/plastic/toys/04.png";
+import toy5 from "../../asset/images/plastic/toys/05.png";
+import toy6 from "../../asset/images/plastic/toys/06.png";
+import toy7 from "../../asset/images/plastic/toys/07.png";
+import toy8 from "../../asset/images/plastic/toys/08.png";
+import toy9 from "../../asset/images/plastic/toys/09.png";
 
 //          lged
 
@@ -2905,6 +2924,274 @@ const portfolioItems = [
  
 
   ////                              ------------      PLASTIC  (101- )           --------------
+
+//                                    waredrobe
+  
+{
+  id: 351,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe1,
+  title: "TFL Double Wardrobe",
+  code: "tgware-001",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 352,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe2,
+  title: "TFL Double Wardrobe",
+  code: "tgware-002",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 353,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe3,
+  title: "TFL Double Wardrobe",
+  code: "tgware-003",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 354,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe4,
+  title: "TFL Double waredrobe",
+  code: "tgware-004",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 355,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe5,
+  title: "TFL Double waredrobe",
+  code: "tgware-005",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 356,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe6,
+  title: "TFL Double Wardrobe",
+  code: "tgware-006",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 357,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe07,
+  title: "TFL Double Wardrobe",
+  code: "tgware-007",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 358,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe7,
+  title: "TFL Double waredrobe",
+  code: "tgware-008",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 359,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe8,
+  title: "TFL Double waredrobe",
+  code: "tgware-009",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 360,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe9,
+  title: "TFL Double waredrobe",
+  code: "tgware-010",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 361,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe10,
+  title: "TFL Double waredrobe",
+  code: "tgware-011",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 362,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe11,
+  title: "TFL Double waredrobe",
+  code: "tgware-012",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 363,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe12,
+  title: "TFL Double waredrobe",
+  code: "tgware-013",
+  color: "",
+  size:"L-88  x W-47.5 x H-110 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 364,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe13,
+  title: "TFL Double waredrobe",
+  code: "tgware-014",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 365,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe14,
+  title: "TFL Double waredrobe",
+  code: "tgware-015",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 366,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe15,
+  title: "TFL Double waredrobe",
+  code: "tgware-016",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 367,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe16,
+  title: "TFL Double waredrobe",
+  code: "tgware-017",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 368,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe17,
+  title: "TFL Double waredrobe",
+  code: "tgware-018",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 369,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe18,
+  title: "TFL Double waredrobe",
+  code: "tgware-019",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 370,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe19,
+  title: "TFL Double waredrobe",
+  code: "tgware-020",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 371,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe20,
+  title: "TFL Double waredrobe",
+  code: "tgware-021",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 372,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe21,
+  title: "TFL Double waredrobe",
+  code: "tgware-022",
+  color: "",
+  size:"L-88 x W-47.5 x H-137 cm",
+  size2:"L-66 x W-44 x H-127 cm",
+  material: "Polypropylene and ABS",
+  button: "Details"
+},
+
   //      Image Valo nah
   // {
   //   id: 101,
@@ -3574,6 +3861,7 @@ const portfolioItems = [
     size: "RECTANGULAR",
     button: "Details"
   },
+  
   {
     id: 170,
     category: "PLASTIC FURNITURE",
@@ -3897,177 +4185,7 @@ const portfolioItems = [
     color: "YELLOW/PINK",
     button: "Details"
   },
-  //                                    waredrobe
-  
-  {
-    id: 351,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe2,
-    title: "Royal Wardrobe",
-    code: "tgware-001",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 352,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe3,
-    title: "Royal Wardrobe",
-    code: "tgware-002",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 353,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe4,
-    title: "Royal Wardrobe",
-    code: "tgware-003",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 354,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe5,
-    title: "Tgi Double waredrobe",
-    code: "tgware-004",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 355,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe6,
-    title: "Tgi Double waredrobe",
-    code: "tgware-005",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 356,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe7,
-    title: "Royal Wardrobe 5 Drawer",
-    code: "tgware-006",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 357,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe8,
-    title: "Royal Wardrobe",
-    code: "tgware-007",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 358,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe9,
-    title: "Single waredrobe",
-    code: "tgware-008",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 359,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe10,
-    title: "Double waredrobe",
-    code: "tgware-009",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 360,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe11,
-    title: "Double waredrobe",
-    code: "tgware-010",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 361,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe12,
-    title: "Double waredrobe",
-    code: "tgware-011",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 362,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe13,
-    title: "Double waredrobe",
-    code: "tgware-012",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 363,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe14,
-    title: "Single waredrobe",
-    code: "tgware-013",
-    color: "",
-    size:"L-88  x W-47.5 x H-110 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  {
-    id: 364,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: waredrobe1,
-    title: "Double waredrobe",
-    code: "tgware-014",
-    color: "",
-    size:"L-88 x W-47.5 x H-137 cm",
-    size2:"L-66 x W-44 x H-127 cm",
-    material: "Polypropylene and ABS",
-    button: "Details"
-  },
-  
+
    //   //    //                                      upvc
 
   {
@@ -4481,6 +4599,82 @@ const portfolioItems = [
     longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
+
+  //      Toys (4001-5000)
+
+  {
+    id: 4001,
+    category: "PLASTIC TOY",
+    imgSrc: toy1,
+    title: "Captain Bike",
+    code: "cbk-01",
+    button: "Details"
+  },
+  {
+    id: 4002,
+    category: "PLASTIC TOY",
+    imgSrc: toy2,
+    title: "Captain Bike",
+    code: "cbk-02",
+    button: "Details"
+  },
+  {
+    id: 4003,
+    category: "PLASTIC TOY",
+    imgSrc: toy3,
+    title: "Captain Bike",
+    code: "cbk-03",
+    button: "Details"
+  },
+  {
+    id: 4004,
+    category: "PLASTIC TOY",
+    imgSrc: toy4,
+    title: "Captain Bike",
+    code: "cbk-04",
+    button: "Details"
+  },
+  {
+    id: 4005,
+    category: "PLASTIC TOY",
+    imgSrc: toy5,
+    title: "Captain Bike",
+    code: "cbk-05",
+    button: "Details"
+  },
+  {
+    id: 4006,
+    category: "PLASTIC TOY",
+    imgSrc: toy6,
+    title: "Captain Bike",
+    code: "cbk-06",
+    button: "Details"
+  },
+  {
+    id: 4007,
+    category: "PLASTIC TOY",
+    imgSrc: toy7,
+    title: "Captain Bike",
+    code: "cbk-07",
+    button: "Details"
+  },
+  {
+    id: 4008,
+    category: "PLASTIC TOY",
+    imgSrc: toy8,
+    title: "Captain Bike",
+    code: "cbk-08",
+    button: "Details"
+  },
+  {
+    id: 4009,
+    category: "PLASTIC TOY",
+    imgSrc: toy9,
+    title: "Captain Bike",
+    code: "cbk-09",
+    button: "Details"
+  },
+
 ];
 
 export default portfolioItems; 

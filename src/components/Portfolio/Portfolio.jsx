@@ -138,7 +138,7 @@ const Portfolio = () => {
                         <button
                           value="PLASTIC TOY"
                           onClick={handleCategory}
-                          className={isActive("TOY")}
+                          className={isActive("PLASTIC TOY")}
                           style={{ fontSize: "10px" }}
                         >
                           TOY
