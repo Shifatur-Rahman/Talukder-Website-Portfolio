@@ -239,7 +239,98 @@ import chair94 from "../../asset/images/Chair/94.jpg";
 import chair95 from "../../asset/images/Chair/95.jpg";
 import chair96 from "../../asset/images/Chair/96.jpg";
 
-// Plastic image
+//                           Plastic household                       //
+
+//                          container ()
+import container1 from "../../asset/images/plastic/household/bowls/1.png";
+import container2 from "../../asset/images/plastic/household/bowls/2.png";
+import container3 from "../../asset/images/plastic/household/bowls/3.png";
+import container4 from "../../asset/images/plastic/household/bowls/4.png";
+import container5 from "../../asset/images/plastic/household/bowls/5.png";
+import container6 from "../../asset/images/plastic/household/bowls/6.png";
+import container7 from "../../asset/images/plastic/household/bowls/7.png";
+import container8 from "../../asset/images/plastic/household/bowls/8.png";
+import container9 from "../../asset/images/plastic/household/bowls/9.png";
+
+//                            bucket
+import bucket1 from "../../asset/images/plastic/household/bucket/1.png";
+import bucket2 from "../../asset/images/plastic/household/bucket/2.png";
+import bucket3 from "../../asset/images/plastic/household/bucket/3.png";
+import bucket4 from "../../asset/images/plastic/household/bucket/4.png";
+import bucket5 from "../../asset/images/plastic/household/bucket/5.png";
+import bucket6 from "../../asset/images/plastic/household/bucket/6.png";
+import bucket7 from "../../asset/images/plastic/household/bucket/7.png";
+import bucket8 from "../../asset/images/plastic/household/bucket/8.png";
+
+//                             bowls
+import bowls1 from "../../asset/images/plastic/household/bowls/1.png";
+import bowls2 from "../../asset/images/plastic/household/bowls/2.png";
+import bowls3 from "../../asset/images/plastic/household/bowls/3.png";
+import bowls4 from "../../asset/images/plastic/household/bowls/4.png";
+import bowls5 from "../../asset/images/plastic/household/bowls/5.png";
+import bowls6 from "../../asset/images/plastic/household/bowls/6.png";
+import bowls7 from "../../asset/images/plastic/household/bowls/7.png";
+import bowls8 from "../../asset/images/plastic/household/bowls/8.png";
+import bowls9 from "../../asset/images/plastic/household/bowls/9.png";
+
+//                            chair
+import pchair1 from "../../asset/images/plastic/household/chair/1.png";
+import pchair2 from "../../asset/images/plastic/household/chair/2.png";
+import pchair3 from "../../asset/images/plastic/household/chair/3.png";
+import pchair4 from "../../asset/images/plastic/household/chair/4.png";
+import pchair5 from "../../asset/images/plastic/household/chair/5.png";
+import pchair6 from "../../asset/images/plastic/household/chair/6.png";
+import pchair7 from "../../asset/images/plastic/household/chair/7.png";
+import pchair8 from "../../asset/images/plastic/household/chair/8.png";
+import pchair9 from "../../asset/images/plastic/household/chair/9.png";
+
+//                           jug
+import jug1 from "../../asset/images/plastic/household/jug/1.png";
+import jug2 from "../../asset/images/plastic/household/jug/2.png";
+import jug3 from "../../asset/images/plastic/household/jug/3.png";
+import jug4 from "../../asset/images/plastic/household/jug/4.png";
+import jug5 from "../../asset/images/plastic/household/jug/5.png";
+import jug6 from "../../asset/images/plastic/household/jug/6.png";
+import jug7 from "../../asset/images/plastic/household/jug/7.png";
+
+//                         rack
+import prack1 from "../../asset/images/plastic/household/rack/1.png";
+import prack2 from "../../asset/images/plastic/household/rack/2.png";
+import prack3 from "../../asset/images/plastic/household/rack/3.png";
+import prack4 from "../../asset/images/plastic/household/rack/4.png";
+
+//                          soap case
+import soapCase1 from "../../asset/images/plastic/household/soap case/1.png";
+import soapCase2 from "../../asset/images/plastic/household/soap case/2.png";
+import soapCase3 from "../../asset/images/plastic/household/soap case/3.png";
+import soapCase4 from "../../asset/images/plastic/household/soap case/4.png";
+import soapCase5 from "../../asset/images/plastic/household/soap case/5.png";
+import soapCase6 from "../../asset/images/plastic/household/soap case/6.png";
+
+//                          tools
+import tools1 from "../../asset/images/plastic/household/tools/1.png";
+import tools2 from "../../asset/images/plastic/household/tools/2.png";
+import tools3 from "../../asset/images/plastic/household/tools/3.png";
+import tools4 from "../../asset/images/plastic/household/tools/4.png";
+
+//                       venchi
+import venchi1 from "../../asset/images/plastic/household/venchi/1.png";
+import venchi2 from "../../asset/images/plastic/household/venchi/2.png";
+import venchi3 from "../../asset/images/plastic/household/venchi/3.png";
+import venchi4 from "../../asset/images/plastic/household/venchi/4.png";
+
+//                      hanger
+import hanger1 from "../../asset/images/plastic/household/hanger/1.png";
+import hanger2 from "../../asset/images/plastic/household/hanger/2.png";
+import hanger3 from "../../asset/images/plastic/household/hanger/3.png";
+import hanger4 from "../../asset/images/plastic/household/hanger/4.png";
+import hanger5 from "../../asset/images/plastic/household/hanger/5.png";
+
+//                      fish caret
+import fishCaret1 from "../../asset/images/plastic/household/fish caret/1.png";
+
+//                     glass
+import glass1 from "../../asset/images/plastic/household/glass/1.png";
 
 import plastic1 from "../../asset/images/plastic/plastic1.png";
 import plastic2 from "../../asset/images/plastic/plastic2.png";
@@ -348,8 +439,8 @@ import plastic104 from "../../asset/images/plastic/PLASTIC BUCKET/Delux Bucket.j
 import plastic105 from "../../asset/images/plastic/PLASTIC BUCKET/Druam Bucket.jpg";
 import plastic106 from "../../asset/images/plastic/PLASTIC BUCKET/Storage Container.jpg";
 import plastic107 from "../../asset/images/plastic/PLASTIC BUCKET/Egg Box.jpg";
-// import plastic97 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket (Without Lid Plastic Handle).jpg"
 
+//                            plastic furniture
 //                            waredrobe
 import waredrobe1 from "../../asset/images/plastic/Waredrobe/waredrobe01.png";
 import waredrobe2 from "../../asset/images/plastic/Waredrobe/waredrobe02.png";
@@ -2864,6 +2955,16 @@ const portfolioItems = [
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
   },
+
+ //           plastic household               
+ //            
+
+
+
+
+
+
+
   //                                 --------   lged(200)  --------
   
   
