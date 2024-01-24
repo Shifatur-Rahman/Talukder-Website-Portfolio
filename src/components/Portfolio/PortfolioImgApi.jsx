@@ -239,7 +239,6 @@ import chair94 from "../../asset/images/Chair/94.jpg";
 import chair95 from "../../asset/images/Chair/95.jpg";
 import chair96 from "../../asset/images/Chair/96.jpg";
 
-
 // Plastic image
 
 import plastic1 from "../../asset/images/plastic/plastic1.png";
@@ -2583,16 +2582,16 @@ const portfolioItems = [
 
   ///         COMBINED CABINET
 
-  // {
-  //   id: 575,
-  //   title: "COMBINED CABINET",
-  //   category: "office furniture",
-  //   code: "TFSCC-074",
-  //   imgSrc: chair74,
-  //   size: "L900 X W550 X H1200MM",
-  //   button: "Details",
-  //   material: "the World’s best Quality Mild Steel Sheet. All surface of Mild Steel are mig welded, chemically de-rusted and zinc phosphate coated with oven backed heated powder paint finish that confirms anti rust, shiny color and longevity. Imported High Quality Rust Free Hardware Fittings. PVC stopper used in bottom to prevents moisture content of the floor"
-  // },
+  {
+    id: 575,
+    title: "COMBINED CABINET",
+    category: "office furniture",
+    code: "TFSCC-074",
+    imgSrc: chair74,
+    size: "L900 X W550 X H1200MM",
+    button: "Details",
+    material: "the World’s best Quality Mild Steel Sheet. All surface of Mild Steel are mig welded, chemically de-rusted and zinc phosphate coated with oven backed heated powder paint finish that confirms anti rust, shiny color and longevity. Imported High Quality Rust Free Hardware Fittings. PVC stopper used in bottom to prevents moisture content of the floor"
+  },
 
   /// OFFICE ALMIRAH
   {
@@ -2625,246 +2624,246 @@ const portfolioItems = [
     button: "Details",
     material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
   },
-  // {
-  //   id: 579,
-  //   title: "OFFICE ALMIRAH",
-  //   category: "office furniture",
-  //   code: "TFSOA-078",
-  //   imgSrc: chair78,
-  //   size: "L900 X W450 X H1800MM",
-  //   button: "Details",
-  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  // },
-  // {
-  //   id: 580,
-  //   title: "OFFICE ALMIRAH",
-  //   category: "office furniture",
-  //   code: "TFSOA-079",
-  //   imgSrc: chair79,
-  //   size: "L900 X W450 X H1800MM",
-  //   button: "Details",
-  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  // },
-  // {
-  //   id: 581,
-  //   title: "OFFICE ALMIRAH",
-  //   category: "office furniture",
-  //   code: "TFSOA-080",
-  //   imgSrc: chair80,
-  //   size: "L1000 X W450 X H1800MM",
-  //   button: "Details",
-  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  // },
+  {
+    id: 579,
+    title: "OFFICE ALMIRAH",
+    category: "office furniture",
+    code: "TFSOA-078",
+    imgSrc: chair78,
+    size: "L900 X W450 X H1800MM",
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  },
+  {
+    id: 580,
+    title: "OFFICE ALMIRAH",
+    category: "office furniture",
+    code: "TFSOA-079",
+    imgSrc: chair79,
+    size: "L900 X W450 X H1800MM",
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  },
+  {
+    id: 581,
+    title: "OFFICE ALMIRAH",
+    category: "office furniture",
+    code: "TFSOA-080",
+    imgSrc: chair80,
+    size: "L1000 X W450 X H1800MM",
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  },
 
   // //               OFFICE LOCKER
-  // {
-  //   id: 582,
-  //   title: "OFFICE LOCKER",
-  //   category: "office furniture",
-  //   code: "TFSOL-077",
-  //   imgSrc: chair077,
-  //   size: "L900 X W500 X H1850MM",
-  //   button: "Details",
-  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  // },
-  // {
-  //   id: 583,
-  //   title: "OFFICE LOCKER",
-  //   category: "office furniture",
-  //   code: "TFSOL-078",
-  //   imgSrc: chair078,
-  //   size: "L350 X W500 X H1930MM",
-  //   button: "Details",
-  //   material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
-  // },
+  {
+    id: 582,
+    title: "OFFICE LOCKER",
+    category: "office furniture",
+    code: "TFSOL-077",
+    imgSrc: chair077,
+    size: "L900 X W500 X H1850MM",
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  },
+  {
+    id: 583,
+    title: "OFFICE LOCKER",
+    category: "office furniture",
+    code: "TFSOL-078",
+    imgSrc: chair078,
+    size: "L350 X W500 X H1930MM",
+    button: "Details",
+    material: "mild welded steel after the conventional style and has gray paint coating of electrostatic zinc phosphate. This ensures that the paint coating is long lasting and the Almirah also has an oven baked paint finish. Practical and nice looking Almirah for any office space. Designed to be strong and long lasting this product is also spacious enough to store suitable office accessories when required"
+  },
   // //                               office sofa
-  // {
-  //   id: 584,
-  //   title: "OFFICE SOFA",
-  //   category: "office furniture",
-  //   code: "TFOSF-079",
-  //   imgSrc: chair079,
-  //   size: "L1650 X W700 X H750MM",
-  //   button: "Details",
-  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  // },
-  // {
-  //   id: 585,
-  //   title: "OFFICE SOFA",
-  //   category: "office furniture",
-  //   code: "TFOSF-080",
-  //   imgSrc: chair080,
-  //   size: "L1800 X W700 X H720MM",
-  //   button: "Details",
-  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  // },
-  // {
-  //   id: 586,
-  //   title: "OFFICE SOFA",
-  //   category: "office furniture",
-  //   code: "TFOSF-081",
-  //   imgSrc: chair81,
-  //   size: "L685 X W750 X H635MM(SINGLE SEAT)",
-  //   size2: "L1335 X W750 X H635MM(DOUBLE SEAT)",
-  //   button: "Details",
-  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  // },
-  // {
-  //   id: 587,
-  //   title: "OFFICE SOFA",
-  //   category: "office furniture",
-  //   code: "TFOSF-082",
-  //   imgSrc: chair82,
-  //   size: "L1135 X W750 X H635MM",
-  //   button: "Details",
-  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  // },
-  // {
-  //   id: 588,
-  //   title: "OFFICE SOFA",
-  //   category: "office furniture",
-  //   code: "TFOSF-083",
-  //   imgSrc: chair83,
-  //   size: "L1800 X W750 X H700MM(3 SEATER)",
-  //   button: "Details",
-  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  // },
-  // {
-  //   id: 589,
-  //   title: "OFFICE SOFA",
-  //   category: "office furniture",
-  //   code: "TFOSF-084",
-  //   imgSrc: chair84,
-  //   size: "L600 X W700 X H750MM(SINGLE SEATER)",
-  //   size2: "L1350 X W700 X H750MM(DOUBLE SEATER)",
-  //   button: "Details",
-  //   material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
-  // },
-  // /////                        WORK STATION
-  // {
-  //   id: 590,
-  //   title: "WORK STATION",
-  //   category: "office furniture",
-  //   code: "TFWSO-085",
-  //   imgSrc: chair85,
-  //   size: "L2500 X W650 X H1200MM",
-  //   button: "Details",
-  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  // },
-  // {
-  //   id: 591,
-  //   title: "WORK STATION",
-  //   category: "office furniture",
-  //   code: "TFWSO-086",
-  //   imgSrc: chair86,
-  //   size: "L1200 X W1200 X H1050MM",
-  //   button: "Details",
-  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  // },
-  // {
-  //   id: 592,
-  //   title: "WORK STATION",
-  //   category: "office furniture",
-  //   code: "TFWSO-087",
-  //   imgSrc: chair87,
-  //   size: "L3000 X W1650 X H1500MM",
-  //   button: "Details",
-  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  // },
-  // {
-  //   id: 593,
-  //   title: "WORK STATION",
-  //   category: "office furniture",
-  //   code: "TFWSO-088",
-  //   imgSrc: chair88,
-  //   size: "L3000 X W3000 X H1050MM",
-  //   button: "Details",
-  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  // },
-  // {
-  //   id: 594,
-  //   title: "WORK STATION",
-  //   category: "office furniture",
-  //   code: "TFWSO-089",
-  //   imgSrc: chair89,
-  //   size: "L3000 X W3000 X H1050MM",
-  //   button: "Details",
-  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  // },
-  // {
-  //   id: 595,
-  //   title: "WORK STATION",
-  //   category: "office furniture",
-  //   code: "TFWSO-090",
-  //   imgSrc: chair90,
-  //   size: "L2400 X W1200 X H1050MM",
-  //   button: "Details",
-  //   material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
-  // },
+  {
+    id: 584,
+    title: "OFFICE SOFA",
+    category: "office furniture",
+    code: "TFOSF-079",
+    imgSrc: chair079,
+    size: "L1650 X W700 X H750MM",
+    button: "Details",
+    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  },
+  {
+    id: 585,
+    title: "OFFICE SOFA",
+    category: "office furniture",
+    code: "TFOSF-080",
+    imgSrc: chair080,
+    size: "L1800 X W700 X H720MM",
+    button: "Details",
+    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  },
+  {
+    id: 586,
+    title: "OFFICE SOFA",
+    category: "office furniture",
+    code: "TFOSF-081",
+    imgSrc: chair81,
+    size: "L685 X W750 X H635MM(SINGLE SEAT)",
+    size2: "L1335 X W750 X H635MM(DOUBLE SEAT)",
+    button: "Details",
+    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  },
+  {
+    id: 587,
+    title: "OFFICE SOFA",
+    category: "office furniture",
+    code: "TFOSF-082",
+    imgSrc: chair82,
+    size: "L1135 X W750 X H635MM",
+    button: "Details",
+    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  },
+  {
+    id: 588,
+    title: "OFFICE SOFA",
+    category: "office furniture",
+    code: "TFOSF-083",
+    imgSrc: chair83,
+    size: "L1800 X W750 X H700MM(3 SEATER)",
+    button: "Details",
+    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  },
+  {
+    id: 589,
+    title: "OFFICE SOFA",
+    category: "office furniture",
+    code: "TFOSF-084",
+    imgSrc: chair84,
+    size: "L600 X W700 X H750MM(SINGLE SEATER)",
+    size2: "L1350 X W700 X H750MM(DOUBLE SEATER)",
+    button: "Details",
+    material: "Kiln-dried imported Beech veneered engineered wood. Please refer to images for dimension details High quality Artificial Leather(PU) upholstery with soft and durable cushioning. Artificial Leather (PU) Leather can be selected from available options"
+  },
+  /////                        WORK STATION
+  {
+    id: 590,
+    title: "WORK STATION",
+    category: "office furniture",
+    code: "TFWSO-085",
+    imgSrc: chair85,
+    size: "L2500 X W650 X H1200MM",
+    button: "Details",
+    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  },
+  {
+    id: 591,
+    title: "WORK STATION",
+    category: "office furniture",
+    code: "TFWSO-086",
+    imgSrc: chair86,
+    size: "L1200 X W1200 X H1050MM",
+    button: "Details",
+    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  },
+  {
+    id: 592,
+    title: "WORK STATION",
+    category: "office furniture",
+    code: "TFWSO-087",
+    imgSrc: chair87,
+    size: "L3000 X W1650 X H1500MM",
+    button: "Details",
+    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  },
+  {
+    id: 593,
+    title: "WORK STATION",
+    category: "office furniture",
+    code: "TFWSO-088",
+    imgSrc: chair88,
+    size: "L3000 X W3000 X H1050MM",
+    button: "Details",
+    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  },
+  {
+    id: 594,
+    title: "WORK STATION",
+    category: "office furniture",
+    code: "TFWSO-089",
+    imgSrc: chair89,
+    size: "L3000 X W3000 X H1050MM",
+    button: "Details",
+    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  },
+  {
+    id: 595,
+    title: "WORK STATION",
+    category: "office furniture",
+    code: "TFWSO-090",
+    imgSrc: chair90,
+    size: "L2400 X W1200 X H1050MM",
+    button: "Details",
+    material: "superior quality melamine faced particle board with international standard density and load bearing capacity Same color edge banding done in latest Homag line Chrome finished mild steel Metal Inert Gas (MIG) welding for superior quality and durability"
+  },
   // ///        FLUSH DOOR
-  // {
-  //   id: 596,
-  //   title: "FLUSH DOOR",
-  //   category: "office furniture",
-  //   code: "TFFDD-091",
-  //   imgSrc: chair91,
-  //   size: "L600~900 X H2080MM",
-  //   button: "Details",
-  //   material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
-  // },
-  // {
-  //   id: 597,
-  //   title: "FLUSH DOOR",
-  //   category: "office furniture",
-  //   code: "TFFDD-092",
-  //   imgSrc: chair92,
-  //   size: "L600~900 X H2080MM",
-  //   button: "Details",
-  //   material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
-  // },
-  // {
-  //   id: 598,
-  //   title: "FLUSH DOOR",
-  //   category: "office furniture",
-  //   code: "TFFDD-093",
-  //   imgSrc: chair93,
-  //   size: "L600~900 X H2080MM",
-  //   button: "Details",
-  //   material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
-  // },
+  {
+    id: 596,
+    title: "FLUSH DOOR",
+    category: "office furniture",
+    code: "TFFDD-091",
+    imgSrc: chair91,
+    size: "L600~900 X H2080MM",
+    button: "Details",
+    material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
+  },
+  {
+    id: 597,
+    title: "FLUSH DOOR",
+    category: "office furniture",
+    code: "TFFDD-092",
+    imgSrc: chair92,
+    size: "L600~900 X H2080MM",
+    button: "Details",
+    material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
+  },
+  {
+    id: 598,
+    title: "FLUSH DOOR",
+    category: "office furniture",
+    code: "TFFDD-093",
+    imgSrc: chair93,
+    size: "L600~900 X H2080MM",
+    button: "Details",
+    material: "thin sheets of veneer over a core of wood. The veneer faces act as stressed- skin panels and tend to stabilize the door against warping. The face veneer being used is made of selected hard wood suitable for natural finish"
+  },
 
-  // ///       SOLID WOODEN DOOR
+  ///       SOLID WOODEN DOOR
 
-  // {
-  //   id: 599,
-  //   title: "SOLID WOODEN DOOR",
-  //   category: "office furniture",
-  //   code: "TFFDD-094",
-  //   imgSrc: chair94,
-  //   size: "L600~1050 X H2080MM",
-  //   button: "Details",
-  //   material: "Mahogany & Veneered engineering wood"
-  // },
-  // {
-  //   id: 600,
-  //   title: "SOLID WOODEN DOOR",
-  //   category: "office furniture",
-  //   code: "TFFDD-095",
-  //   imgSrc: chair95,
-  //   size: "L600~1050 X H2080MM",
-  //   button: "Details",
-  //   material: "Mahogany & Veneered engineering wood"
-  // },
-  // {
-  //   id: 601,
-  //   title: "SOLID WOODEN DOOR",
-  //   category: "office furniture",
-  //   code: "TFFDD-096",
-  //   imgSrc: chair96,
-  //   size: "L600~1050 X H2080MM",
-  //   button: "Details",
-  //   material: "Mahogany & Veneered engineering wood"
-  // },
+  {
+    id: 599,
+    title: "SOLID WOODEN DOOR",
+    category: "office furniture",
+    code: "TFFDD-094",
+    imgSrc: chair94,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 600,
+    title: "SOLID WOODEN DOOR",
+    category: "office furniture",
+    code: "TFFDD-095",
+    imgSrc: chair95,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 601,
+    title: "SOLID WOODEN DOOR",
+    category: "office furniture",
+    code: "TFFDD-096",
+    imgSrc: chair96,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
   //                                 --------   lged(200)  --------
   
   
