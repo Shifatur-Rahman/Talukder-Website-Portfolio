@@ -336,6 +336,9 @@ import fishCaret1 from "../../asset/images/plastic/household/fish caret/1.png";
 //                     glass
 import glass1 from "../../asset/images/plastic/household/glass/1.png";
 
+//                     laundry busket
+import laundryBusket1 from "../../asset/images/plastic/household/laundry busket/busket.png";
+
 //                     plastic items
 
 import plastic1 from "../../asset/images/plastic/plastic1.png";
@@ -3037,12 +3040,12 @@ const portfolioItems = [
 },
 
 
-//                             buket
+//                             Bucket
   {
     id: 1101,
     category: "PLASTIC HOUSEHOLD",
     imgSrc: bucket1,
-    title: "Busket",
+    title: "Bucket",
     code: "17165/17166",
     color: "PINK/YELLOW",
     button: "Details"
@@ -3234,7 +3237,7 @@ const portfolioItems = [
   //                            chair
   {
     id: 1301,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair1,
     title: "Chair",
     code: "17165/17166",
@@ -3243,7 +3246,7 @@ const portfolioItems = [
   },
   {
     id: 1302,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair2,
     title: "Chair",
     code: "17165/17166",
@@ -3252,7 +3255,7 @@ const portfolioItems = [
   },
   {
     id: 1303,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair3,
     title: "Chair",
     code: "17165/17166",
@@ -3261,7 +3264,7 @@ const portfolioItems = [
   },
   {
     id: 1304,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair4,
     title: "Chair",
     code: "17165/17166",
@@ -3270,7 +3273,7 @@ const portfolioItems = [
   },
   {
     id: 1305,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair5,
     title: "Chair",
     code: "17165/17166",
@@ -3279,7 +3282,7 @@ const portfolioItems = [
   },
   {
     id: 1306,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair6,
     title: "Chair",
     code: "17165/17166",
@@ -3288,7 +3291,7 @@ const portfolioItems = [
   },
   {
     id: 1307,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair7,
     title: "Chair",
     code: "17165/17166",
@@ -3297,7 +3300,7 @@ const portfolioItems = [
   },
   {
     id: 1308,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair8,
     title: "Chair",
     code: "17165/17166",
@@ -3306,7 +3309,7 @@ const portfolioItems = [
   },
   {
     id: 1309,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: pchair9,
     title: "Chair",
     code: "17165/17166",
@@ -3612,6 +3615,19 @@ const portfolioItems = [
     color: "PINK/YELLOW",
     button: "Details"
   },
+
+  //        laundryBusket1
+
+  {
+    id: 2201,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: laundryBusket1,
+    title: "LAUNDRY BASKET",
+    code: "15206/15207/15208",
+    color: "RED/BLUE/YELLOW",
+    button: "Details"
+  },
+
 
 
 
@@ -4752,15 +4768,15 @@ const portfolioItems = [
     button: "Details"
   },
 
-  {
-    id: 185,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic85,
-    title: "LAUNDRY BASKET",
-    code: "15206/15207/15208",
-    color: "RED/BLUE/YELLOW",
-    button: "Details"
-  },
+  // {
+  //   id: 185,
+  //   category: "PLASTIC HOUSEHOLD",
+  //   imgSrc: plastic85,
+  //   title: "LAUNDRY BASKET",
+  //   code: "15206/15207/15208",
+  //   color: "RED/BLUE/YELLOW",
+  //   button: "Details"
+  // },
   {
     id: 186,
     category: "PLASTIC HOUSEHOLD",
