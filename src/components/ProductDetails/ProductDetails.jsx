@@ -54,9 +54,9 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
         <div style={{ backgroundColor: "#e6e6e6" }}>
           {
             totalProduct.map((singleItem) => {
-              if (singleItem.id === id) {
+              if (singleItem.id == id) {
                 return (
-                  <main style={{ marginTop: "5rem" }} className="product">
+                  <main style={{ marginTop: "4rem" }} className="product">
                     <div className="container-md grid product-container">
 
                       <div style={{ marginTop: "3rem" }} className="flex product-image">

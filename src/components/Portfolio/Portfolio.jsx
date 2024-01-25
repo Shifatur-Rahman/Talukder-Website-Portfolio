@@ -359,7 +359,7 @@ const Portfolio = () => {
             
                         {/* Image in big Size       */}
       
-              <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
+              {/* <Dialog open={Boolean(selectedImage)} onClose={handleDialogClose}>
                 <DialogContent>
                   <IconButton
                     sx={{ position: "absolute", top: 0, right: 0 }}
@@ -377,7 +377,7 @@ const Portfolio = () => {
                     }
                   />
                 </DialogContent>
-              </Dialog>      
+              </Dialog>       */}
 
           </Row>
      
