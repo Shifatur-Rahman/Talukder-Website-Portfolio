@@ -3683,7 +3683,6 @@ const portfolioItems = [
     imgSrc: lged11,
     button: "Details"
   },
- 
 
   ////                              ------------      PLASTIC  (101- )           --------------
 

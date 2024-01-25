@@ -21,7 +21,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
   const [currentProductImage, setCurrentProductImage] = useState(0);
   const [loading, setLoading] = useState(true);
-  
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -35,7 +35,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
   let { id } = useParams();
   const [value, setValue] = React.useState('1');
-  
+
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -44,8 +44,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
     <>
 
       {loading ? (
-        
-        <div style={{marginTop:"7rem"}}>
+
+        <div style={{ marginTop: "7rem" }}>
           <Spinner />
         </div>
 
@@ -54,7 +54,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
         <div style={{ backgroundColor: "#e6e6e6" }}>
           {
             totalProduct.map((singleItem) => {
-              if (singleItem.id == id) {
+              if (singleItem.id === id) {
                 return (
                   <main style={{ marginTop: "5rem" }} className="product">
                     <div className="container-md grid product-container">
@@ -66,14 +66,14 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             smallImage: {
                               alt: 'TGI Image',
                               isFluidWidth: true,
-                               src: `${singleItem.imgSrc}`,
-                             // src: `${singleItem.imgSrc[currentProductImage]}`,
+                              src: `${singleItem.imgSrc}`,
+                              // src: `${singleItem.imgSrc[currentProductImage]}`,
                               className: 'large',
                               width: 380,
                               height: 480,
                             },
                             largeImage: {
-                               src: `${singleItem.imgSrc}`,
+                              src: `${singleItem.imgSrc}`,
                               // src: `${singleItem.imgSrc[currentProductImage]}`,
                               width: 800,
                               height: 800,
@@ -86,7 +86,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             },
                             // enlargedImagePosition: 'over', 
                             lensStyle: { backgroundColor: 'rgba(0,0,0,.4)' }
-                            
+
                           }} />
                         </div>
 
@@ -105,7 +105,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <img
                               onClick={() => setCurrentProductImage(1)}
                               className={currentProductImage === 1 ? 'active' : ''}
-                               src={`${singleItem.imgSrc}`}
+                              src={`${singleItem.imgSrc}`}
                               alt="thumbnail"
                             />
                           </div>
@@ -128,7 +128,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               alt="thumbnail"
                             />
                           </div>
-                          
+
                         </div>
                       </div>
 
@@ -202,11 +202,11 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             {
                               singleItem.Warranty &&
                               <div>
-                              <span className='singleItemProductTitle'>Warranty : <span className='singleItemProductValue'> {singleItem.Warranty}</span> </span>
+                                <span className='singleItemProductTitle'>Warranty : <span className='singleItemProductValue'> {singleItem.Warranty}</span> </span>
                               </div>
                             }
 
-                             {
+                            {
                               singleItem.size &&
                               <span style={{ marginBottom: "5px" }} className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size}</span> <br /> </span>
                             }
@@ -219,14 +219,14 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           </TabPanel>
 
                           <TabPanel className='tabPanelMargin' style={{ marginTop: "4px" }} value="2">
-                            
+
                             {
                               singleItem.material &&
                               <ul className='productDetailsList'>
                                 <li className='singleItemProductValue'> Made from {singleItem.material}.</li>
                               </ul>
                             }
-    
+
                             <div>
                               <ul className='productDetailsList'>
                                 <li className='singleItemProductValue'>Imported high quality hardware fittings</li>
@@ -237,7 +237,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               </ul>
                             </div>
 
-                            {/* <br /> */}                            
+                            {/* <br /> */}
 
                             {singleItem.color && singleItem.code && (
                               <div style={{ margin: "0 5px" }} className="table-responsive RelatedProductTable">
@@ -328,7 +328,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
               }
             })
           }
-      </div>
+        </div>
 
       )}
 
