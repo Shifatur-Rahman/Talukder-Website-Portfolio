@@ -3608,11 +3608,12 @@ const portfolioItems = [
                
   {
     id: 2101,
-    category: "PLASTIC HOUSEHOLD",
+    category: "PLASTIC FURNITURE",
     imgSrc: fishCaret1,
-    title: "Fish Crate",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "FISH CRATE",
+    code: "15250/15251/15252",
+    color: "#ba5645/#336699/#e68a00",
+    size: "RECTANGULAR",
     button: "Details"
   },
 
@@ -3627,13 +3628,6 @@ const portfolioItems = [
     color: "RED/BLUE/YELLOW",
     button: "Details"
   },
-
-
-
-
-
-
-
 
 
 
@@ -3961,6 +3955,7 @@ const portfolioItems = [
 },
 
   //      Image Valo nah
+
   // {
   //   id: 101,
   //   title: "RECTANGULAR TABLE PLASTIC",
@@ -3969,7 +3964,8 @@ const portfolioItems = [
   //   color: "#ba5645/#336699/#4e2d26/#004d4d",
   //   imgSrc: plastic1,
   // },
-  {
+
+ {
     id: 102,
     category: "PLASTIC FURNITURE",
     imgSrc: plastic2,
@@ -4757,16 +4753,16 @@ const portfolioItems = [
     button: "Details"
   },
 
-  {
-    id: 176,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic76,
-    title: "FISH CRATE",
-    code: "15250/15251/15252",
-    color: "#ba5645/#336699/#e68a00",
-    size: "RECTANGULAR",
-    button: "Details"
-  },
+  // {
+  //   id: 176,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic76,
+  //   title: "FISH CRATE",
+  //   code: "15250/15251/15252",
+  //   color: "#ba5645/#336699/#e68a00",
+  //   size: "RECTANGULAR",
+  //   button: "Details"
+  // },
 
   // {
   //   id: 185,
