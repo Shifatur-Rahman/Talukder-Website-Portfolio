@@ -28,7 +28,7 @@ const StoreLocation = () => {
           <span className='storeSubHeader'>Let us know your queries</span> <br />
           <a className='storeSubHeader' style={{ textDecoration: "underline", color: "#ff7d1a" }} href='#'>Contact Us</a>
         </div>
-
+          
       </div>
       
     </>
