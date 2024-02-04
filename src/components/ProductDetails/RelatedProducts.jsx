@@ -88,7 +88,7 @@ const RelatedProducts = (props) => {
                         <div className="related-portfolio-item"
                              key={item.id}>
                         <div className='related-portfolio-slider'>
-            
+                                     
                           <img
                             className="related-portfolio-item-img"
                             src={`${item.imgSrc}`}
