@@ -5376,7 +5376,7 @@ const portfolioItems = [
   {
     id: 4002,
     category: "PLASTIC TOY",
-    imgSrc: toy2,
+    imgSrc: toy6,
     title: "Captain Bike",
     code: "cbk-02",
     button: "Details"
@@ -5384,7 +5384,7 @@ const portfolioItems = [
   {
     id: 4003,
     category: "PLASTIC TOY",
-    imgSrc: toy3,
+    imgSrc: toy8,
     title: "Captain Bike",
     code: "cbk-03",
     button: "Details"
@@ -5408,7 +5408,7 @@ const portfolioItems = [
   {
     id: 4006,
     category: "PLASTIC TOY",
-    imgSrc: toy6,
+    imgSrc: toy2,
     title: "Captain Bike",
     code: "cbk-06",
     button: "Details"
@@ -5424,7 +5424,7 @@ const portfolioItems = [
   {
     id: 4008,
     category: "PLASTIC TOY",
-    imgSrc: toy8,
+    imgSrc: toy3,
     title: "Captain Bike",
     code: "cbk-08",
     button: "Details"
