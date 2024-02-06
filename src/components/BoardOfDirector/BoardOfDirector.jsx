@@ -57,7 +57,7 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-              <Col lg={3} md={6} sm={12}>
+              {/* <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
 
                   <div className="img1">
@@ -85,7 +85,7 @@ const BoardOfDirector = () => {
 
                 </div>
                 
-              </Col>
+              </Col> */}
 
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
