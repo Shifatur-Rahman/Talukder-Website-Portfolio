@@ -75,8 +75,8 @@ const AboutDescription = () => {
                 group is to serve the customers with best quality of products
                 and provide employment facility. The objective of Group is to
                 grow equally in accordance with market demand and always be
-                viable technically, financially and in environmental aspects.
-              </p>
+                viable technically, financially and in environmental aspects. 
+              </p> 
             </Col>
           </Row>
         </Container>
@@ -87,3 +87,4 @@ const AboutDescription = () => {
   }
 
 export default AboutDescription;
+
