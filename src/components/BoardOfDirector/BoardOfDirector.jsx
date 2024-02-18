@@ -170,7 +170,6 @@ const BoardOfDirector = () => {
                   </div>
                 </div>
               </Col>
-
               
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
