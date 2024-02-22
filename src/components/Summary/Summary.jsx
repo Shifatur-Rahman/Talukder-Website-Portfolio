@@ -53,7 +53,7 @@ function Summary(props, ref) {
                       >
                         {({ isVisible }) => (
                           <div className="chartsCountUp" style={{ height: 40 }}>
-                            {isVisible ? <CountUp end={700} /> : null}+
+                            {isVisible ? <CountUp end={2000} /> : null}+
                           </div>
                         )}
                       </VisibilitySensor>
