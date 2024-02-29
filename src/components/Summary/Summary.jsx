@@ -58,12 +58,9 @@ function Summary(props, ref) {
                         )}
                       </VisibilitySensor>
                     </h2>
-
                     <h2 className="summaryTitle">Employees</h2>
-
                     <hr className="summaryAlign" />
                   </Col>
-
                   <Col>
                     <h2 className="summaryTitle">
                       <VisibilitySensor
