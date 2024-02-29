@@ -44,7 +44,6 @@ function Summary(props, ref) {
                     <h2 className="summaryTitle">Since</h2>
                     <hr className="summaryAlign" />
                   </Col>
-
                   <Col>
                     <h2 className="summaryTitle">
                       <VisibilitySensor

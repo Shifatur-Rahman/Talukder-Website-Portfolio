@@ -2957,651 +2957,651 @@ const portfolioItems = [
  //           plastic household (1001- 3000)  
 
  //                  bowls 
- {
-  id: 1001,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls1,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
-{
-  id: 1002,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls2,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
-{
-  id: 1003,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls3,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
-{
-  id: 1004,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls4,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
-{
-  id: 1005,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls5,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
-{
-  id: 1006,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls6,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
-{
-  id: 1007,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls7,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
-{
-  id: 1008,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls8,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
-{
-  id: 1009,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: bowls9,
-  title: "Bowls",
-  code: "17165/17166",
-  color: "PINK/YELLOW",
-  button: "Details"
-},
+//  {
+//   id: 1001,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls1,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
+// {
+//   id: 1002,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls2,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
+// {
+//   id: 1003,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls3,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
+// {
+//   id: 1004,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls4,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
+// {
+//   id: 1005,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls5,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
+// {
+//   id: 1006,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls6,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
+// {
+//   id: 1007,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls7,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
+// {
+//   id: 1008,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls8,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
+// {
+//   id: 1009,
+//   category: "PLASTIC HOUSEHOLD",
+//   imgSrc: bowls9,
+//   title: "Bowls",
+//   code: "17165/17166",
+//   color: "PINK/YELLOW",
+//   button: "Details"
+// },
 
 
-//                             Bucket
-  {
-    id: 1101,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: bucket1,
-    title: "Bucket",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1102,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: bucket2,
-    title: "Bucket",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1103,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: bucket3,
-    title: "Bucket",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1104,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: bucket4,
-    title: "Bucket",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1105,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: bucket5,
-    title: "Bucket",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1106,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: bucket6,
-    title: "Bucket",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1107,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: bucket7,
-    title: "Bucket",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+// //                             Bucket
+//   {
+//     id: 1101,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: bucket1,
+//     title: "Bucket",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1102,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: bucket2,
+//     title: "Bucket",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1103,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: bucket3,
+//     title: "Bucket",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1104,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: bucket4,
+//     title: "Bucket",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1105,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: bucket5,
+//     title: "Bucket",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1106,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: bucket6,
+//     title: "Bucket",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1107,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: bucket7,
+//     title: "Bucket",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-   //            container
+//    //            container
 
-   {
-    id: 1201,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container1,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1202,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container2,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1203,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container3,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1204,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container4,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1205,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container5,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1206,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container6,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1207,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container7,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1208,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container8,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1209,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container9,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1210,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container10,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1211,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container11,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1212,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container12,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1213,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container13,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1214,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: container14,
-    title: "Container",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//    {
+//     id: 1201,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container1,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1202,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container2,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1203,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container3,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1204,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container4,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1205,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container5,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1206,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container6,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1207,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container7,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1208,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container8,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1209,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container9,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1210,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container10,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1211,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container11,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1212,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container12,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1213,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container13,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1214,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: container14,
+//     title: "Container",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-  //                            chair
-  {
-    id: 1301,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair1,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1302,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair2,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1303,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair3,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1304,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair4,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1305,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair5,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1306,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair6,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1307,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair7,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1308,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair8,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1309,
-    category: "PLASTIC FURNITURE",
-    imgSrc: pchair9,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//   //                            chair
+//   {
+//     id: 1301,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair1,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1302,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair2,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1303,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair3,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1304,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair4,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1305,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair5,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1306,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair6,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1307,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair7,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1308,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair8,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1309,
+//     category: "PLASTIC FURNITURE",
+//     imgSrc: pchair9,
+//     title: "Chair",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-  //                     jug
+//   //                     jug
 
-  {
-    id: 1401,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: pjug1,
-    title: "Jug",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1402,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: pjug2,
-    title: "Jug",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1403,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: pjug3,
-    title: "Jug",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1404,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: pjug4,
-    title: "Jug",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1405,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: pjug5,
-    title: "Jug",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1406,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: pjug6,
-    title: "Jug",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1407,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: pjug7,
-    title: "Jug",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//   {
+//     id: 1401,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: pjug1,
+//     title: "Jug",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1402,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: pjug2,
+//     title: "Jug",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1403,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: pjug3,
+//     title: "Jug",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1404,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: pjug4,
+//     title: "Jug",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1405,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: pjug5,
+//     title: "Jug",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1406,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: pjug6,
+//     title: "Jug",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1407,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: pjug7,
+//     title: "Jug",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-  //                     rack
-  {
-    id: 1501,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: prack1,
-    title: "plastic rack",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1502,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: prack2,
-    title: "plastic rack",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1503,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: prack3,
-    title: "plastic rack",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1504,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: prack4,
-    title: "plastic rack",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//   //                     rack
+//   {
+//     id: 1501,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: prack1,
+//     title: "plastic rack",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1502,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: prack2,
+//     title: "plastic rack",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1503,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: prack3,
+//     title: "plastic rack",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1504,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: prack4,
+//     title: "plastic rack",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-  //           tools
-  {
-    id: 1601,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: tools1,
-    title: "plastic Stool",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1602,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: tools2,
-    title: "plastic Stool",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1603,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: tools3,
-    title: "plastic Stool",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1604,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: tools4,
-    title: "plastic Stool",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//   //           tools
+//   {
+//     id: 1601,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: tools1,
+//     title: "plastic Stool",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1602,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: tools2,
+//     title: "plastic Stool",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1603,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: tools3,
+//     title: "plastic Stool",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1604,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: tools4,
+//     title: "plastic Stool",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-  //                     hanger
-  {
-    id: 1701,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: hanger1,
-    title: "hanger",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1702,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: hanger2,
-    title: "hanger",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1703,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: hanger3,
-    title: "hanger",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1704,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: hanger4,
-    title: "Chopping Board",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//   //                     hanger
+//   {
+//     id: 1701,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: hanger1,
+//     title: "hanger",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1702,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: hanger2,
+//     title: "hanger",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1703,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: hanger3,
+//     title: "hanger",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1704,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: hanger4,
+//     title: "Chopping Board",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-  //                      soap case
+//   //                      soap case
 
-  {
-    id: 1801,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: soapCase1,
-    title: "Soap Case",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1802,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: soapCase2,
-    title: "Soap Case",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1803,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: soapCase3,
-    title: "Soap Case",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1804,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: soapCase4,
-    title: "Soap Case",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1805,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: soapCase5,
-    title: "Soap Case",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1806,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: soapCase6,
-    title: "Soap Case",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//   {
+//     id: 1801,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: soapCase1,
+//     title: "Soap Case",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1802,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: soapCase2,
+//     title: "Soap Case",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1803,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: soapCase3,
+//     title: "Soap Case",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1804,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: soapCase4,
+//     title: "Soap Case",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1805,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: soapCase5,
+//     title: "Soap Case",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1806,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: soapCase6,
+//     title: "Soap Case",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-  //                  venchi
-  {
-    id: 1901,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: venchi1,
-    title: "Baby Poti",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1902,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: venchi2,
-    title: "Dust Pan",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1903,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: venchi3,
-    title: "Dust Pan",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 1904,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: venchi4,
-    title: "Dust Pan",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//   //                  venchi
+//   {
+//     id: 1901,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: venchi1,
+//     title: "Baby Poti",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1902,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: venchi2,
+//     title: "Dust Pan",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1903,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: venchi3,
+//     title: "Dust Pan",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
+//   {
+//     id: 1904,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: venchi4,
+//     title: "Dust Pan",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
 
-  //        glass
-  {
-    id: 2001,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: glass1,
-    title: "Plastic Glass",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
+//   //        glass
+//   {
+//     id: 2001,
+//     category: "PLASTIC HOUSEHOLD",
+//     imgSrc: glass1,
+//     title: "Plastic Glass",
+//     code: "17165/17166",
+//     color: "PINK/YELLOW",
+//     button: "Details"
+//   },
   
 
   //        fish caret
@@ -3688,270 +3688,270 @@ const portfolioItems = [
 
 //                                    waredrobe
   
-{
-  id: 351,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe1,
-  title: "TFL Double Wardrobe",
-  code: "tgware-001",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 352,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe2,
-  title: "TFL Double Wardrobe",
-  code: "tgware-002",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 353,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe3,
-  title: "TFL Double Wardrobe",
-  code: "tgware-003",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 354,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe4,
-  title: "TFL Double waredrobe",
-  code: "tgware-004",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 355,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe5,
-  title: "TFL Double waredrobe",
-  code: "tgware-005",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 356,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe6,
-  title: "TFL Double Wardrobe",
-  code: "tgware-006",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 357,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe07,
-  title: "TFL Double Wardrobe",
-  code: "tgware-007",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 358,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe7,
-  title: "TFL Double waredrobe",
-  code: "tgware-008",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 359,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe8,
-  title: "TFL Double waredrobe",
-  code: "tgware-009",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 360,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe9,
-  title: "TFL Double waredrobe",
-  code: "tgware-010",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 361,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe10,
-  title: "TFL Double waredrobe",
-  code: "tgware-011",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 362,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe11,
-  title: "TFL Double waredrobe",
-  code: "tgware-012",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 363,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe12,
-  title: "TFL Double waredrobe",
-  code: "tgware-013",
-  color: "",
-  size:"L-88  x W-47.5 x H-110 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 364,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe13,
-  title: "TFL Double waredrobe",
-  code: "tgware-014",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 365,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe14,
-  title: "TFL Double waredrobe",
-  code: "tgware-015",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 366,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe15,
-  title: "TFL Double waredrobe",
-  code: "tgware-016",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 367,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe16,
-  title: "TFL Double waredrobe",
-  code: "tgware-017",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 368,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe17,
-  title: "TFL Double waredrobe",
-  code: "tgware-018",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 369,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe18,
-  title: "TFL Double waredrobe",
-  code: "tgware-019",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 370,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe19,
-  title: "TFL Double waredrobe",
-  code: "tgware-020",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 371,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe20,
-  title: "TFL Double waredrobe",
-  code: "tgware-021",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
-{
-  id: 372,
-  category: "PLASTIC FURNITURE",
-  imgSrc: waredrobe21,
-  title: "TFL Double waredrobe",
-  code: "tgware-022",
-  color: "",
-  size:"L-88 x W-47.5 x H-137 cm",
-  size2:"L-66 x W-44 x H-127 cm",
-  material: "Polypropylene and ABS",
-  button: "Details"
-},
+// {
+//   id: 351,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe1,
+//   title: "TFL Double Wardrobe",
+//   code: "tgware-001",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 352,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe2,
+//   title: "TFL Double Wardrobe",
+//   code: "tgware-002",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 353,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe3,
+//   title: "TFL Double Wardrobe",
+//   code: "tgware-003",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 354,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe4,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-004",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 355,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe5,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-005",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 356,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe6,
+//   title: "TFL Double Wardrobe",
+//   code: "tgware-006",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 357,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe07,
+//   title: "TFL Double Wardrobe",
+//   code: "tgware-007",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 358,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe7,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-008",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 359,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe8,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-009",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 360,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe9,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-010",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 361,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe10,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-011",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 362,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe11,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-012",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 363,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe12,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-013",
+//   color: "",
+//   size:"L-88  x W-47.5 x H-110 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 364,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe13,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-014",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 365,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe14,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-015",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 366,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe15,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-016",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 367,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe16,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-017",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 368,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe17,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-018",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 369,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe18,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-019",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 370,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe19,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-020",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 371,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe20,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-021",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
+// {
+//   id: 372,
+//   category: "PLASTIC FURNITURE",
+//   imgSrc: waredrobe21,
+//   title: "TFL Double waredrobe",
+//   code: "tgware-022",
+//   color: "",
+//   size:"L-88 x W-47.5 x H-137 cm",
+//   size2:"L-66 x W-44 x H-127 cm",
+//   material: "Polypropylene and ABS",
+//   button: "Details"
+// },
 
   //      Image Valo nah
 
@@ -4950,16 +4950,16 @@ const portfolioItems = [
   },
 
    //   //    //                                      upvc
-
-  {
-    id: 301,
-    category: "upvc",
-    title: "110mm Fittings",
-    imgSrc: upvc1,
-    button: "Details",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush '
-  },
+//  pic valo nah
+  // {
+  //   id: 301,
+  //   category: "upvc",
+  //   title: "110mm Fittings",
+  //   imgSrc: upvc1,
+  //   button: "Details",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush '
+  // },
   // fittings
   {
     id: 330,
@@ -5365,78 +5365,78 @@ const portfolioItems = [
 
   //      Toys (4001-5000)
 
-  {
-    id: 4001,
-    category: "PLASTIC TOY",
-    imgSrc: toy1,
-    title: "Captain Bike",
-    code: "cbk-01",
-    button: "Details"
-  },
-  {
-    id: 4002,
-    category: "PLASTIC TOY",
-    imgSrc: toy6,
-    title: "Captain Bike",
-    code: "cbk-02",
-    button: "Details"
-  },
-  {
-    id: 4003,
-    category: "PLASTIC TOY",
-    imgSrc: toy8,
-    title: "Captain Bike",
-    code: "cbk-03",
-    button: "Details"
-  },
-  {
-    id: 4004,
-    category: "PLASTIC TOY",
-    imgSrc: toy4,
-    title: "Captain Bike",
-    code: "cbk-04",
-    button: "Details"
-  },
-  {
-    id: 4005,
-    category: "PLASTIC TOY",
-    imgSrc: toy5,
-    title: "Captain Bike",
-    code: "cbk-05",
-    button: "Details"
-  },
-  {
-    id: 4006,
-    category: "PLASTIC TOY",
-    imgSrc: toy2,
-    title: "Captain Bike",
-    code: "cbk-06",
-    button: "Details"
-  },
-  {
-    id: 4007,
-    category: "PLASTIC TOY",
-    imgSrc: toy7,
-    title: "Captain Bike",
-    code: "cbk-07",
-    button: "Details"
-  },
-  {
-    id: 4008,
-    category: "PLASTIC TOY",
-    imgSrc: toy3,
-    title: "Captain Bike",
-    code: "cbk-08",
-    button: "Details"
-  },
-  {
-    id: 4009,
-    category: "PLASTIC TOY",
-    imgSrc: toy9,
-    title: "Captain Bike",
-    code: "cbk-09",
-    button: "Details"
-  },
+  // {
+  //   id: 4001,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy1,
+  //   title: "Captain Bike",
+  //   code: "cbk-01",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4002,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy6,
+  //   title: "Captain Bike",
+  //   code: "cbk-02",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4003,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy8,
+  //   title: "Captain Bike",
+  //   code: "cbk-03",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4004,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy4,
+  //   title: "Captain Bike",
+  //   code: "cbk-04",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4005,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy5,
+  //   title: "Captain Bike",
+  //   code: "cbk-05",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4006,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy2,
+  //   title: "Captain Bike",
+  //   code: "cbk-06",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4007,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy7,
+  //   title: "Captain Bike",
+  //   code: "cbk-07",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4008,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy3,
+  //   title: "Captain Bike",
+  //   code: "cbk-08",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 4009,
+  //   category: "PLASTIC TOY",
+  //   imgSrc: toy9,
+  //   title: "Captain Bike",
+  //   code: "cbk-09",
+  //   button: "Details"
+  // },
 
 ];
 
