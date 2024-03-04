@@ -308,7 +308,7 @@ const Portfolio = () => {
                                   </tbody>
                                 </table>
                               </div>
-                            ) :
+                            ) : 
                               item.code ? (
                                 <p style={{ marginLeft: "10px" }} className="itemTitle">
                                   <strong>Code : </strong>
