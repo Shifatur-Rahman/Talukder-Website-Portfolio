@@ -216,6 +216,11 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
                             }
 
+                            {                          
+                              singleItem.longCode &&
+                              <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
+                            }
+
                           </TabPanel>
 
                           <TabPanel className='tabPanelMargin' style={{ marginTop: "4px" }} value="2">
@@ -296,11 +301,11 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                 </table>
                               </div>
                             )}
-
-                            {
+                                
+                            {/* {
                               singleItem.longCode &&
                               <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
-                            }
+                            } */}
                                                                                                                                             
                           </TabPanel>
 
