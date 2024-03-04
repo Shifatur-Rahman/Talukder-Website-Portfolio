@@ -78,7 +78,7 @@ const UpvcModal1 = (props) => {
 
 
 
-      <div className='upvcModal'>
+      {/* <div className='upvcModal'>
         <div>
           <div className="upvcTable">
             <Table striped bordered hover responsive="sm" className="table-info">
@@ -119,11 +119,49 @@ const UpvcModal1 = (props) => {
           </div>
         </div>
 
-      </div>
+      </div> */}
+                             {/* 3rd one  */}
 
-        {/* <Modal.Header>
-          <img src={img} />
-        </Modal.Header> */}
+
+
+                              <div style={{ margin: "0 5px" }} className="table-responsive">
+                                <table className="table table-bordered table-sm custom-table">
+                                  <tbody>
+                                    <tr>
+                                      <th
+                                        style={{
+                                          fontSize: "10px",
+                                          fontWeight: "800",
+                                          width: "20px",
+                                        }}
+                                        scope="row"
+                                      >
+                                        Code
+                                      </th>
+                                      {code.split("/").map((code, index) => (
+                                        <td
+                                          style={{
+                                            fontSize: "8px",
+                                            textAlign: "center",
+                                            margin: "0",
+                                            padding: "5px 0 0 0",
+                                            width: "5px"
+                                          }}
+                                          key={index}
+                                        >
+                                          {code}
+                                        </td>
+                                      ))}
+                                    </tr>
+
+
+
+
+                                  </tbody>
+                                </table>
+                              </div>
+
+
 
     </>
   )
