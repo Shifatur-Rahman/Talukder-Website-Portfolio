@@ -5,26 +5,26 @@ import "./UpvcModal1.css"
 
 const UpvcModal1 = (props) => {
 
-    const { title, category, code, size, thickness, img, id } = props;
-    const values = [true];
-    const [lgShow, setLgShow] = useState(true);
-    const [show, setShow] = useState(false);
-    const [pCode, setPCode] = useState("");
-    const [pSize, setPSize] = useState("");
-    const [pThickness, setPThickness] = useState("");
+     const { title, category, code, size, thickness, img, id } = props;
+    // const values = [true];
+    // const [lgShow, setLgShow] = useState(true);
+    // const [show, setShow] = useState(false);
+    // const [pCode, setPCode] = useState("");
+    // const [pSize, setPSize] = useState("");
+    // const [pThickness, setPThickness] = useState("");
     
-    function handleShow(breakpoint) {
-        setLgShow(breakpoint);
-        setShow(true);
-        setPCode(code);
-        setPSize(size);
-        setPThickness(thickness);
-    }
+    // function handleShow(breakpoint) {
+    //     setLgShow(breakpoint);
+    //     setShow(true);
+    //     setPCode(code);
+    //     setPSize(size);
+    //     setPThickness(thickness);
+    // }
 
   return (
     <>
 
-      {values.map((v, idx) => (
+      {/* {values.map((v, idx) => (
         <Button key={idx} className="me-2 mb-2 upvcBtn" size="sm" onClick={() => handleShow(v)}>
           Details
           {typeof v === 'string' && `below ${v.split('-')[0]}`}
@@ -74,11 +74,11 @@ const UpvcModal1 = (props) => {
           </div>
         </Modal.Body>
 
-      </Modal>
+      </Modal> */}
 
 
 
-      {/* <div className='upvcModal'>
+      <div className='upvcModal'>
         <div>
           <div className="upvcTable">
             <Table striped bordered hover responsive="sm" className="table-info">
@@ -119,7 +119,7 @@ const UpvcModal1 = (props) => {
           </div>
         </div>
 
-      </div> */}
+      </div>
 
         {/* <Modal.Header>
           <img src={img} />
