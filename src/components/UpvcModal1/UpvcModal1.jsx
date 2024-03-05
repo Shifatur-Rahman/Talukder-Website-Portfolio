@@ -155,13 +155,13 @@ const UpvcModal1 = (props) => {
         </table>
       </div> */}
 
-      <div style={{ margin: "0 5px" }} className="table-responsive">
+      <div style={{ marginTop: "10px" }} className="table-responsive">
         <table className="table table-bordered table-sm custom-table">
           <thead>
             <tr>
               <th
                 style={{
-                  fontSize: "10px",
+                  fontSize: "15px",
                   fontWeight: "800",
                   width: "20px",
                 }}
@@ -171,7 +171,7 @@ const UpvcModal1 = (props) => {
               </th>
               <th
                 style={{
-                  fontSize: "10px",
+                  fontSize: "15px",
                   fontWeight: "800",
                   width: "20px",
                 }}
@@ -184,23 +184,44 @@ const UpvcModal1 = (props) => {
           </thead>
 
           <tbody>
-          <th>
-          {code.split("/").map((code, index) => (
-              <tr key={index}>
-                <td
-                  style={{
-                    fontSize: "8px",
-                    textAlign: "center",
-                    margin: "0",
-                    padding: "5px 0 0 0",
-                    width: "5px"
-                  }}
-                >
-                  {code}
-                </td>
-              </tr>
-            ))}
-             </th>
+            <tr>
+              <th>
+                {code.split("/").map((code, index) => (
+                  <tr key={index}>
+                    <td
+                      style={{
+                        fontSize: "10px",
+                        textAlign: "center",
+                        margin: "0",
+                        padding: "5px 0 0 0",
+                        width: "5px"
+                      }}
+                    >
+                      {code}
+                    </td>
+                  </tr>
+                ))}
+              </th>
+
+              <th>
+                {size.split("/").map((size, index) => (
+                  <tr key={index}>
+                    <td
+                      style={{
+                        fontSize: "10px",
+                        textAlign: "center",
+                        margin: "0",
+                        padding: "5px 0 0 0",
+                        width: "150px",
+                        textAlign: "left"
+                      }}
+                    >
+                      {size}
+                    </td>
+                  </tr>
+                ))}
+              </th>
+            </tr>
           </tbody>
 
 
