@@ -76,7 +76,7 @@ const UpvcModal1 = (props) => {
 
       </Modal> */}
 
-
+        {/* Orginal one */}
 
       {/* <div className='upvcModal'>
         <div>
@@ -122,44 +122,90 @@ const UpvcModal1 = (props) => {
       </div> */}
                              {/* 3rd one  */}
 
+      {/* <div style={{ margin: "0 5px" }} className="table-responsive">
+        <table className="table table-bordered table-sm custom-table">
+          <tbody>
+            <tr>
+              <th
+                style={{
+                  fontSize: "10px",
+                  fontWeight: "800",
+                  width: "20px",
+                }}
+                scope="row"
+              >
+                Code
+              </th>
+              {code.split("/").map((code, index) => (
+                <td
+                  style={{
+                    fontSize: "8px",
+                    textAlign: "center",
+                    margin: "0",
+                    padding: "5px 0 0 0",
+                    width: "5px"
+                  }}
+                  key={index}
+                >
+                  {code}
+                </td>
+              ))}
+            </tr>
+          </tbody>
+        </table>
+      </div> */}
+
+      <div style={{ margin: "0 5px" }} className="table-responsive">
+        <table className="table table-bordered table-sm custom-table">
+          <thead>
+            <tr>
+              <th
+                style={{
+                  fontSize: "10px",
+                  fontWeight: "800",
+                  width: "20px",
+                }}
+                scope="row"
+              >
+                Code
+              </th>
+              <th
+                style={{
+                  fontSize: "10px",
+                  fontWeight: "800",
+                  width: "20px",
+                }}
+                scope="row"
+              >
+                Size
+              </th>
+            </tr>
+
+          </thead>
+
+          <tbody>
+          <th>
+          {code.split("/").map((code, index) => (
+              <tr key={index}>
+                <td
+                  style={{
+                    fontSize: "8px",
+                    textAlign: "center",
+                    margin: "0",
+                    padding: "5px 0 0 0",
+                    width: "5px"
+                  }}
+                >
+                  {code}
+                </td>
+              </tr>
+            ))}
+             </th>
+          </tbody>
 
 
-                              <div style={{ margin: "0 5px" }} className="table-responsive">
-                                <table className="table table-bordered table-sm custom-table">
-                                  <tbody>
-                                    <tr>
-                                      <th
-                                        style={{
-                                          fontSize: "10px",
-                                          fontWeight: "800",
-                                          width: "20px",
-                                        }}
-                                        scope="row"
-                                      >
-                                        Code
-                                      </th>
-                                      {code.split("/").map((code, index) => (
-                                        <td
-                                          style={{
-                                            fontSize: "8px",
-                                            textAlign: "center",
-                                            margin: "0",
-                                            padding: "5px 0 0 0",
-                                            width: "5px"
-                                          }}
-                                          key={index}
-                                        >
-                                          {code}
-                                        </td>
-                                      ))}
-                                    </tr>
-
-
-
-
-                                  </tbody>
-                                </table>
-                              </div>
+        </table>
+      </div>
 
 
 
