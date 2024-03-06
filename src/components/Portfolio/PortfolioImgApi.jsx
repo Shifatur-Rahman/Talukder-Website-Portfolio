@@ -4960,7 +4960,7 @@ const portfolioItems = [
   //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
   //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush '
   // },
-  // fittings
+  // fittings 
   {
     id: 330,
     category: "upvc",

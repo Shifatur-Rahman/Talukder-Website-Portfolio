@@ -96,7 +96,50 @@ const Portfolio = () => {
                     </button>
                   </motion.div>
 
+                  {/* UPVC */}
+
                   <div className="dropdown">
+                    <button
+                      className={isActive("plastic")}
+                      onClick={toggleDropdownPlastic}
+                    >
+                      UPvc
+                      <span className="dropdown-arrow">
+                        {isDropdown ? "▲" : "▼"}
+                      </span>
+                    </button>
+                    {isDropdown && (
+                      <div className="dropdown-content">
+                        <button
+                          value="PLASTIC FURNITURE"
+                          onClick={handleCategory}
+                          className={isActive("PLASTIC FURNITURE")}
+                          style={{ fontSize: "10px", marginTop: "10px" }}
+                        >
+                          PLASTIC FURNITURE
+                        </button>
+                        <button
+                          value="PLASTIC HOUSEHOLD"
+                          onClick={handleCategory}
+                          className={isActive("PLASTIC HOUSEHOLD")}
+                          style={{ fontSize: "10px" }}
+                        >
+                          PLASTIC HOUSEHOLD
+                        </button>
+
+                        <button
+                          value="PLASTIC TOY"
+                          onClick={handleCategory}
+                          className={isActive("PLASTIC TOY")}
+                          style={{ fontSize: "10px" }}
+                        >
+                          TOY
+                        </button>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* <div className="dropdown">
                     <button
                       value="upvc"
                       onClick={handleCategory}
@@ -104,7 +147,7 @@ const Portfolio = () => {
                     >
                       UPVC
                     </button>
-                  </div>
+                  </div> */}
 
                   <div className="dropdown">
                     <button
