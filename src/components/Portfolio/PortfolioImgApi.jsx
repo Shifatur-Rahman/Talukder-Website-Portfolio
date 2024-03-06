@@ -3603,7 +3603,6 @@ const portfolioItems = [
     button: "Details"
   },
   
-
   //        fish caret
                
   {
@@ -5364,78 +5363,82 @@ const portfolioItems = [
   },
 
   //      Toys (4001-5000)
-  // {
-  //   id: 4001,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy1,
-  //   title: "Captain Bike",
-  //   code: "cbk-01",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 4002,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy6,
-  //   title: "Captain Bike",
-  //   code: "cbk-02",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 4003,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy8,
-  //   title: "Captain Bike",
-  //   code: "cbk-03",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 4004,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy4,
-  //   title: "Captain Bike",
-  //   code: "cbk-04",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 4005,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy5,
-  //   title: "Captain Bike",
-  //   code: "cbk-05",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 4006,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy2,
-  //   title: "Captain Bike",
-  //   code: "cbk-06",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 4007,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy7,
-  //   title: "Captain Bike",
-  //   code: "cbk-07",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 4008,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy3,
-  //   title: "Captain Bike",
-  //   code: "cbk-08",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 4009,
-  //   category: "PLASTIC TOY",
-  //   imgSrc: toy9,
-  //   title: "Captain Bike",
-  //   code: "cbk-09",
-  //   button: "Details"
-  // },
+  {
+    id: 4001,
+    category: "PLASTIC TOY",
+    imgSrc: toy1,
+    title: "Master Bike",
+    code: "28201/28202/28203/28204/28205/28206",
+    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
+    button: "Details"
+  },
+  {
+    id: 4002,
+    category: "PLASTIC TOY",
+    imgSrc: toy6,
+    title: "Master Bike with Barrier",
+    code: "28207/28208/28209/28210/28211/28212",
+    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
+    button: "Details"
+  },
+  {
+    id: 4003,
+    category: "PLASTIC TOY",
+    imgSrc: toy8,
+    title: "Master Bike with Trolly",
+    code: "28213/28214/28215/28216/28217/28218",
+    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
+    button: "Details"
+  },
+  {
+    id: 4004,
+    category: "PLASTIC TOY",
+    imgSrc: toy4,
+    title: "Master Bike with Umbrella",
+    code: "28219/28220/28221/28222/28223/28224",
+    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
+    button: "Details"
+  },
+  {
+    id: 4005,
+    category: "PLASTIC TOY",
+    imgSrc: toy5,
+    title: "Captain Bike",
+    code: "cbk-05",
+    button: "Details"
+  },
+  {
+    id: 4006,
+    category: "PLASTIC TOY",
+    imgSrc: toy2,
+    title: "Captain Bike",
+    code: "cbk-06",
+    button: "Details"
+  },
+  {
+    id: 4007,
+    category: "PLASTIC TOY",
+    imgSrc: toy7,
+    title: "Captain Bike",
+    code: "cbk-07",
+    button: "Details"
+  },
+  {
+    id: 4008,
+    category: "PLASTIC TOY",
+    imgSrc: toy3,
+    title: "Captain Bike",
+    code: "cbk-08",
+    button: "Details"
+  },
+  {
+    id: 4009,
+    category: "PLASTIC TOY",
+    imgSrc: toy9,
+    title: "Captain Bike",
+    code: "cbk-09",
+    button: "Details"
+  },
 
 ];
 
