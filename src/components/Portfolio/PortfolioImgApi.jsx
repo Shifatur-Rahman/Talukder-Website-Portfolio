@@ -2957,651 +2957,651 @@ const portfolioItems = [
  //           plastic household (1001- 3000)  
 
  //                  bowls 
-//  {
-//   id: 1001,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls1,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
-// {
-//   id: 1002,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls2,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
-// {
-//   id: 1003,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls3,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
-// {
-//   id: 1004,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls4,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
-// {
-//   id: 1005,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls5,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
-// {
-//   id: 1006,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls6,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
-// {
-//   id: 1007,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls7,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
-// {
-//   id: 1008,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls8,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
-// {
-//   id: 1009,
-//   category: "PLASTIC HOUSEHOLD",
-//   imgSrc: bowls9,
-//   title: "Bowls",
-//   code: "17165/17166",
-//   color: "PINK/YELLOW",
-//   button: "Details"
-// },
+ {
+  id: 1001,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls1,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
+{
+  id: 1002,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls2,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
+{
+  id: 1003,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls3,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
+{
+  id: 1004,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls4,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
+{
+  id: 1005,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls5,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
+{
+  id: 1006,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls6,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
+{
+  id: 1007,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls7,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
+{
+  id: 1008,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls8,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
+{
+  id: 1009,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: bowls9,
+  title: "Bowls",
+  code: "17165/17166",
+  color: "PINK/YELLOW",
+  button: "Details"
+},
 
 
-// //                             Bucket
-//   {
-//     id: 1101,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: bucket1,
-//     title: "Bucket",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1102,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: bucket2,
-//     title: "Bucket",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1103,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: bucket3,
-//     title: "Bucket",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1104,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: bucket4,
-//     title: "Bucket",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1105,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: bucket5,
-//     title: "Bucket",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1106,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: bucket6,
-//     title: "Bucket",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1107,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: bucket7,
-//     title: "Bucket",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+//                             Bucket
+  {
+    id: 1101,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: bucket1,
+    title: "Bucket",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1102,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: bucket2,
+    title: "Bucket",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1103,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: bucket3,
+    title: "Bucket",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1104,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: bucket4,
+    title: "Bucket",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1105,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: bucket5,
+    title: "Bucket",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1106,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: bucket6,
+    title: "Bucket",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1107,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: bucket7,
+    title: "Bucket",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//    //            container
+   //            container
 
-//    {
-//     id: 1201,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container1,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1202,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container2,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1203,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container3,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1204,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container4,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1205,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container5,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1206,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container6,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1207,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container7,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1208,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container8,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1209,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container9,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1210,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container10,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1211,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container11,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1212,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container12,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1213,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container13,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1214,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: container14,
-//     title: "Container",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+   {
+    id: 1201,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container1,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1202,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container2,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1203,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container3,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1204,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container4,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1205,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container5,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1206,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container6,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1207,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container7,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1208,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container8,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1209,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container9,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1210,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container10,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1211,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container11,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1212,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container12,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1213,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container13,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1214,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: container14,
+    title: "Container",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//   //                            chair
-//   {
-//     id: 1301,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair1,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1302,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair2,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1303,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair3,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1304,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair4,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1305,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair5,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1306,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair6,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1307,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair7,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1308,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair8,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1309,
-//     category: "PLASTIC FURNITURE",
-//     imgSrc: pchair9,
-//     title: "Chair",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+  //                            chair
+  {
+    id: 1301,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair1,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1302,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair2,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1303,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair3,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1304,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair4,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1305,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair5,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1306,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair6,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1307,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair7,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1308,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair8,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1309,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair9,
+    title: "Chair",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//   //                     jug
+  //                     jug
 
-//   {
-//     id: 1401,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: pjug1,
-//     title: "Jug",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1402,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: pjug2,
-//     title: "Jug",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1403,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: pjug3,
-//     title: "Jug",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1404,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: pjug4,
-//     title: "Jug",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1405,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: pjug5,
-//     title: "Jug",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1406,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: pjug6,
-//     title: "Jug",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1407,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: pjug7,
-//     title: "Jug",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+  {
+    id: 1401,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: pjug1,
+    title: "Jug",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1402,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: pjug2,
+    title: "Jug",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1403,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: pjug3,
+    title: "Jug",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1404,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: pjug4,
+    title: "Jug",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1405,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: pjug5,
+    title: "Jug",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1406,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: pjug6,
+    title: "Jug",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1407,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: pjug7,
+    title: "Jug",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//   //                     rack
-//   {
-//     id: 1501,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: prack1,
-//     title: "plastic rack",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1502,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: prack2,
-//     title: "plastic rack",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1503,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: prack3,
-//     title: "plastic rack",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1504,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: prack4,
-//     title: "plastic rack",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+  //                     rack
+  {
+    id: 1501,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: prack1,
+    title: "plastic rack",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1502,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: prack2,
+    title: "plastic rack",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1503,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: prack3,
+    title: "plastic rack",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1504,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: prack4,
+    title: "plastic rack",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//   //           tools
-//   {
-//     id: 1601,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: tools1,
-//     title: "plastic Stool",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1602,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: tools2,
-//     title: "plastic Stool",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1603,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: tools3,
-//     title: "plastic Stool",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1604,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: tools4,
-//     title: "plastic Stool",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+  //           tools
+  {
+    id: 1601,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: tools1,
+    title: "plastic Stool",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1602,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: tools2,
+    title: "plastic Stool",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1603,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: tools3,
+    title: "plastic Stool",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1604,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: tools4,
+    title: "plastic Stool",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//   //                     hanger
-//   {
-//     id: 1701,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: hanger1,
-//     title: "hanger",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1702,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: hanger2,
-//     title: "hanger",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1703,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: hanger3,
-//     title: "hanger",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1704,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: hanger4,
-//     title: "Chopping Board",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+  //                     hanger
+  {
+    id: 1701,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: hanger1,
+    title: "hanger",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1702,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: hanger2,
+    title: "hanger",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1703,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: hanger3,
+    title: "hanger",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1704,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: hanger4,
+    title: "Chopping Board",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//   //                      soap case
+  //                      soap case
 
-//   {
-//     id: 1801,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: soapCase1,
-//     title: "Soap Case",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1802,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: soapCase2,
-//     title: "Soap Case",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1803,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: soapCase3,
-//     title: "Soap Case",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1804,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: soapCase4,
-//     title: "Soap Case",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1805,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: soapCase5,
-//     title: "Soap Case",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1806,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: soapCase6,
-//     title: "Soap Case",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+  {
+    id: 1801,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: soapCase1,
+    title: "Soap Case",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1802,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: soapCase2,
+    title: "Soap Case",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1803,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: soapCase3,
+    title: "Soap Case",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1804,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: soapCase4,
+    title: "Soap Case",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1805,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: soapCase5,
+    title: "Soap Case",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1806,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: soapCase6,
+    title: "Soap Case",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//   //                  venchi
-//   {
-//     id: 1901,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: venchi1,
-//     title: "Baby Poti",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1902,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: venchi2,
-//     title: "Dust Pan",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1903,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: venchi3,
-//     title: "Dust Pan",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
-//   {
-//     id: 1904,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: venchi4,
-//     title: "Dust Pan",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+  //                  venchi
+  {
+    id: 1901,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: venchi1,
+    title: "Baby Poti",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1902,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: venchi2,
+    title: "Dust Pan",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1903,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: venchi3,
+    title: "Dust Pan",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
+  {
+    id: 1904,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: venchi4,
+    title: "Dust Pan",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
 
-//   //        glass
-//   {
-//     id: 2001,
-//     category: "PLASTIC HOUSEHOLD",
-//     imgSrc: glass1,
-//     title: "Plastic Glass",
-//     code: "17165/17166",
-//     color: "PINK/YELLOW",
-//     button: "Details"
-//   },
+  //        glass
+  {
+    id: 2001,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: glass1,
+    title: "Plastic Glass",
+    code: "17165/17166",
+    color: "PINK/YELLOW",
+    button: "Details"
+  },
   
 
   //        fish caret

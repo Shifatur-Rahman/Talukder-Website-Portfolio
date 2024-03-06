@@ -18,9 +18,13 @@ import ProductDetails from "../ProductDetails/ProductDetails";
 import { Link } from 'react-router-dom';
 import HomePage from "../../pages/HomePage";
 import { VaccinesRounded } from "@mui/icons-material";
+import Accordion from 'react-bootstrap/Accordion';
+
 // import { animateScroll } from "react-scroll";
 
 const Portfolio = () => {
+
+
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -100,54 +104,13 @@ const Portfolio = () => {
 
                   <div className="dropdown">
                     <button
-                      className={isActive("plastic")}
-                      onClick={toggleDropdownPlastic}
-                    >
-                      UPvc
-                      <span className="dropdown-arrow">
-                        {isDropdown ? "▲" : "▼"}
-                      </span>
-                    </button>
-                    {isDropdown && (
-                      <div className="dropdown-content">
-                        <button
-                          value="PLASTIC FURNITURE"
-                          onClick={handleCategory}
-                          className={isActive("PLASTIC FURNITURE")}
-                          style={{ fontSize: "10px", marginTop: "10px" }}
-                        >
-                          PLASTIC FURNITURE
-                        </button>
-                        <button
-                          value="PLASTIC HOUSEHOLD"
-                          onClick={handleCategory}
-                          className={isActive("PLASTIC HOUSEHOLD")}
-                          style={{ fontSize: "10px" }}
-                        >
-                          PLASTIC HOUSEHOLD
-                        </button>
-
-                        <button
-                          value="PLASTIC TOY"
-                          onClick={handleCategory}
-                          className={isActive("PLASTIC TOY")}
-                          style={{ fontSize: "10px" }}
-                        >
-                          TOY
-                        </button>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* <div className="dropdown">
-                    <button
                       value="upvc"
                       onClick={handleCategory}
                       className={isActive("upvc")}
                     >
                       UPVC
                     </button>
-                  </div> */}
+                  </div>
 
                   <div className="dropdown">
                     <button
