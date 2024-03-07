@@ -239,6 +239,8 @@ import chair95 from "../../asset/images/Chair/95.jpg";
 import chair96 from "../../asset/images/Chair/96.jpg";
 
 //                           Plastic household                       //
+//                           Kitchen Almirah
+import kitchenalmirah1 from "../../asset/images/plastic/household/kitchen almirah/01.jpg";
 
 //                        kitchen rack 
 import kitchenrack1 from "../../asset/images/plastic/household/kitchen rack/01.jpg";
@@ -473,29 +475,48 @@ import plastic106 from "../../asset/images/plastic/PLASTIC BUCKET/Storage Contai
 import plastic107 from "../../asset/images/plastic/PLASTIC BUCKET/Egg Box.jpg";
 
 //                            plastic furniture
-//                            waredrobe
-import waredrobe1 from "../../asset/images/plastic/Waredrobe/waredrobe01.png";
-import waredrobe2 from "../../asset/images/plastic/Waredrobe/waredrobe02.png";
-import waredrobe3 from "../../asset/images/plastic/Waredrobe/waredrobe03.png";
-import waredrobe4 from "../../asset/images/plastic/Waredrobe/waredrobe04.png";
-import waredrobe5 from "../../asset/images/plastic/Waredrobe/waredrobe05.png";
-import waredrobe6 from "../../asset/images/plastic/Waredrobe/waredrobe06.png";
-import waredrobe7 from "../../asset/images/plastic/Waredrobe/waredrobe07.png";
-import waredrobe07 from "../../asset/images/plastic/Waredrobe/waredrobe007.png";
-import waredrobe8 from "../../asset/images/plastic/Waredrobe/waredrobe08.png";
-import waredrobe9 from "../../asset/images/plastic/Waredrobe/waredrobe09.png";
-import waredrobe10 from "../../asset/images/plastic/Waredrobe/waredrobe10.png";
-import waredrobe11 from "../../asset/images/plastic/Waredrobe/waredrobe11.png";
-import waredrobe12 from "../../asset/images/plastic/Waredrobe/waredrobe12.png";
-import waredrobe13 from "../../asset/images/plastic/Waredrobe/waredrobe13.png";
-import waredrobe14 from "../../asset/images/plastic/Waredrobe/waredrobe14.png";
-import waredrobe15 from "../../asset/images/plastic/Waredrobe/waredrobe15.png";
-import waredrobe16 from "../../asset/images/plastic/Waredrobe/waredrobe16.png";
-import waredrobe17 from "../../asset/images/plastic/Waredrobe/waredrobe17.png";
-import waredrobe18 from "../../asset/images/plastic/Waredrobe/waredrobe18.png";
-import waredrobe19 from "../../asset/images/plastic/Waredrobe/waredrobe19.png";
-import waredrobe20 from "../../asset/images/plastic/Waredrobe/waredrobe20.png";
-import waredrobe21 from "../../asset/images/plastic/Waredrobe/waredrobe21.png";
+//                            waredrobe 
+import waredrobe1 from "../../asset/images/plastic/furniture/waredrobe/01.jpg";
+import waredrobe2 from "../../asset/images/plastic/furniture/waredrobe/02.jpg";
+import waredrobe3 from "../../asset/images/plastic/furniture/waredrobe/03.jpg";
+import waredrobe4 from "../../asset/images/plastic/furniture/waredrobe/04.jpg";
+import waredrobe5 from "../../asset/images/plastic/furniture/waredrobe/05.jpg";
+import waredrobe6 from "../../asset/images/plastic/furniture/waredrobe/06.jpg";
+import waredrobe7 from "../../asset/images/plastic/furniture/waredrobe/07.jpg";
+import waredrobe8 from "../../asset/images/plastic/furniture/waredrobe/08.jpg";
+import waredrobe9 from "../../asset/images/plastic/furniture/waredrobe/09.jpg";
+import waredrobe10 from "../../asset/images/plastic/furniture/waredrobe/10.jpg";
+import waredrobe11 from "../../asset/images/plastic/furniture/waredrobe/11.jpg";
+import waredrobe12 from "../../asset/images/plastic/furniture/waredrobe/12.jpg";
+import waredrobe13 from "../../asset/images/plastic/furniture/waredrobe/13.jpg";
+import waredrobe14 from "../../asset/images/plastic/furniture/waredrobe/14.jpg";
+import waredrobe15 from "../../asset/images/plastic/furniture/waredrobe/15.jpg";
+import waredrobe16 from "../../asset/images/plastic/furniture/waredrobe/16.jpg";
+import waredrobe17 from "../../asset/images/plastic/furniture/waredrobe/17.jpg";
+import waredrobe18 from "../../asset/images/plastic/furniture/waredrobe/18.jpg";
+import waredrobe19 from "../../asset/images/plastic/furniture/waredrobe/19.jpg";
+import waredrobe20 from "../../asset/images/plastic/furniture/waredrobe/20.jpg";
+import waredrobe21 from "../../asset/images/plastic/furniture/waredrobe/21.jpg";
+import waredrobe22 from "../../asset/images/plastic/furniture/waredrobe/22.jpg";
+import waredrobe23 from "../../asset/images/plastic/furniture/waredrobe/23.jpg";
+import waredrobe24 from "../../asset/images/plastic/furniture/waredrobe/24.jpg";
+import waredrobe25 from "../../asset/images/plastic/furniture/waredrobe/25.jpg";
+import waredrobe26 from "../../asset/images/plastic/furniture/waredrobe/26.jpg";
+import waredrobe27 from "../../asset/images/plastic/furniture/waredrobe/27.jpg";
+import waredrobe28 from "../../asset/images/plastic/furniture/waredrobe/28.jpg";
+import waredrobe29 from "../../asset/images/plastic/furniture/waredrobe/29.jpg";
+import waredrobe30 from "../../asset/images/plastic/furniture/waredrobe/30.jpg";
+import waredrobe31 from "../../asset/images/plastic/furniture/waredrobe/31.jpg";
+import waredrobe32 from "../../asset/images/plastic/furniture/waredrobe/32.jpg";
+import waredrobe33 from "../../asset/images/plastic/furniture/waredrobe/33.jpg";
+import waredrobe34 from "../../asset/images/plastic/furniture/waredrobe/34.jpg";
+import waredrobe35 from "../../asset/images/plastic/furniture/waredrobe/35.jpg";
+import waredrobe36 from "../../asset/images/plastic/furniture/waredrobe/36.jpg";
+import waredrobe37 from "../../asset/images/plastic/furniture/waredrobe/37.jpg";
+import waredrobe38 from "../../asset/images/plastic/furniture/waredrobe/38.jpg";
+import waredrobe39 from "../../asset/images/plastic/furniture/waredrobe/39.jpg";
+import waredrobe40 from "../../asset/images/plastic/furniture/waredrobe/40.jpg";
+
 
 //     Toys
 
@@ -2988,10 +3009,396 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
 
+//             plastic furniture
+//                waredrobe
+  
+{
+  id: 601,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe1,
+  title: "Organizer Wardrobe(5 Drawer)",
+  code: "25101/25102",
+  color: "#231F20/#F3B016",
+  // size:"L-88 x W-47.5 x H-137 cm",
+  // size2:"L-66 x W-44 x H-127 cm",
+  // material: "Polypropylene and ABS",
+  button: "Details"
+},
+{
+  id: 602,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe2,
+  title: "Popular Wardrobe(5 Drawer)",
+  code: "25101/25102",
+  color: "#231F20/#F3B016",
+  button: "Details"
+},
+{
+  id: 603,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe3,
+  title: "Organizer Wardrobe(5 Drawer)",
+  code: "25103/25104",
+  color: "#231F20/#F3B016",
+  button: "Details"
+},
+{
+  id: 604,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe4,
+  title: "Popular Wardrobe(5 Drawer)",
+  code: "25103/25104",
+  color: "#231F20/#F3B016",
+  button: "Details"
+},
+{
+  id: 605,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe5,
+  title: "Organizer Wardrobe(5 Drawer)",
+  code: "25105/25106/25107",
+  color: "#231F20/#F3B016/#264C52",
+  button: "Details"
+},
+{
+  id: 606,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe6,
+  title: "Popular Wardrobe(5 Drawer)",
+  code: "25105/25106/25107",
+  color: "#231F20/#F3B016/#264C52",
+  button: "Details"
+},
+{
+  id: 607,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe7,
+  title: "Organizer Wardrobe(5 Drawer)",
+  code: "25108/25109",
+  color: "#F3B016/#3E1B0C",
+  button: "Details"
+},
+{
+  id: 608,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe8,
+  title: "TFL Double waredrobe",
+  title: "Organizer Wardrobe(5 Drawer)",
+  code: "25108/25109",
+  color: "#F3B016/#3E1B0C",
+  button: "Details"
+},
+// done ||
+{
+  id: 609,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe9,
+  title: "Organizer Wardrobe(5 Drawer)",
+  code: "25110/25111/25112",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 610,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe10,
+  title: "Popular Wardrobe(5 Drawer)",
+  code: "25110/25111/25112",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 611,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe11,
+  title: "Organizer Wardrobe(5 Drawer)",
+  code: "25113/25114/25115",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 612,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe12,
+  title: "Popular Wardrobe(5 Drawer)",
+  code: "25110/25111/25112",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 613,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe13,
+  title: "Organizer Wardrobe(4 Drawer)",
+  code: "25116/25117",
+  color: "#231F20/#F3B016",
+  button: "Details"
+},
+{
+  id: 614,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe14,
+  title: "Popular Wardrobe(4 Drawer)",
+  code: "25116/25117",
+  color: "#231F20/#F3B016",
+  button: "Details"
+},
+{
+  id: 615,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe15,
+  title: "Organizer Wardrobe(4 Drawer)",
+  code: "25118/25119/25120",
+  color: "#3E1B0C/#9C1C1E/#231F20",
+  button: "Details"
+},
+{
+  id: 616,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe16,
+  title: "Organizer Wardrobe(4 Drawer)",
+  code: "25118/25119/25120",
+  color: "#3E1B0C/#9C1C1E/#231F20",
+  button: "Details"
+},
+{
+  id: 617,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe17,
+  title: "Organizer Wardrobe(4 Drawer)",
+  code: "25121/25122/25123",
+  color: "#3E1B0C/#264C52/#231F20",
+  button: "Details"
+},
+{
+  id: 618,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe18,
+  title: "Popular Wardrobe(4 Drawer)",
+  code: "25121/25122/25123",
+  color: "#3E1B0C/#264C52/#231F20",
+  button: "Details"
+},
+{
+  id: 619,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe19,
+  title: "Organizer Wardrobe(4 Drawer)",
+  code: "25124/25125/25126",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 620,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe20,
+  title: "Popular Wardrobe(4 Drawer)",
+  code: "25124/25125/25126",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 621,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe21,
+  title: "Organizer Wardrobe(4 Drawer)",
+  code: "25127/25128/25129",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 622,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe22,
+  title: "Popular Wardrobe(4 Drawer)",
+  code: "25127/25128/25129",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 623,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe23,
+  title: "Organizer Wardrobe(4 Drawer)",
+  code: "25127/25128/25129",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 624,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe24,
+  title: "Popular Wardrobe(4 Drawer)",
+  code: "25127/25128/25129",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 625,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe25,
+  title: "Single Or. waredrobe(5 Drawer)",
+  code: "25130/25131/25132",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 626,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe26,
+  title: "Single waredrobe(5 Drawer)",
+  code: "25130/25131/25132",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 627,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe27,
+  title: "Single Or. waredrobe(5 Drawer)",
+  code: "25133/25134/25135",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 628,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe28,
+  title: "Single waredrobe(5 Drawer)",
+  code: "25133/25134/25135",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 629,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe29,
+  title: "Single Or. waredrobe(5 Drawer)",
+  code: "25136/25137/25138",
+  color: "#DE8BBB/#61AB45/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 630,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe30,
+  title: "Single waredrobe(5 Drawer)",
+  code: "25136/25137/25138",
+  color: "#DE8BBB/#61AB45/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 631,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe31,
+  title: "Single Or. waredrobe(5 Drawer)",
+  code: "25139/25140/25141",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 632,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe32,
+  title: "Single waredrobe(5 Drawer)",
+  code: "25136/25137/25138",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 633,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe33,
+  title: "Single Or. waredrobe(4 Drawer)",
+  code: "25142/25143/25144",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 634,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe34,
+  title: "Single waredrobe(4 Drawer)",
+  code: "25142/25143/25144",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 635,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe35,
+  title: "Single Or. waredrobe(5 Drawer)",
+  code: "25145/25146/25147",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 636,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe36,
+  title: "Single waredrobe(4 Drawer)",
+  code: "25145/25146/25147",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 637,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe37,
+  title: "Single Or. waredrobe(4 Drawer)",
+  code: "25148/25149/25150",
+  color: "#DE8BBB/#61AB45/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 638,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe38,
+  title: "Single waredrobe(4 Drawer)",
+  code: "25148/25149/25150",
+  color: "#DE8BBB/#61AB45/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 639,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe39,
+  title: "Single Or. waredrobe(4 Drawer)",
+  code: "25151/25152/25153",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 640,
+  category: "PLASTIC FURNITURE",
+  imgSrc: waredrobe40,
+  title: "Single waredrobe(4 Drawer)",
+  code: "25151/25152/25153",
+  color: "#3E1B0C/#F3B016/#9C1C1E",
+  button: "Details"
+},
+
+
+
+
+
+
+
+
  //           plastic household (1001- 3000)  
 
-  //      kitchen rack  img-> kitchenrack1
+  //      kitchen rack 
 
+  {
+    id: 1700,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenalmirah1,
+    title: "Kitchen Almirah",
+    code: "30101/30102/30103/30104/30105/30106",
+    color: "blue/blue/blue/pink/pink/pink",
+    size: "Small / Medium / Large",
+    button: "Details"
+  },
   {
     id: 1701,
     category: "PLASTIC HOUSEHOLD",
@@ -4031,272 +4438,7 @@ const portfolioItems = [
 
   ////                              ------------      PLASTIC  (101- )           --------------
 
-//                                    waredrobe
-  
-// {
-//   id: 351,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe1,
-//   title: "TFL Double Wardrobe",
-//   code: "tgware-001",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 352,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe2,
-//   title: "TFL Double Wardrobe",
-//   code: "tgware-002",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 353,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe3,
-//   title: "TFL Double Wardrobe",
-//   code: "tgware-003",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 354,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe4,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-004",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 355,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe5,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-005",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 356,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe6,
-//   title: "TFL Double Wardrobe",
-//   code: "tgware-006",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 357,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe07,
-//   title: "TFL Double Wardrobe",
-//   code: "tgware-007",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 358,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe7,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-008",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 359,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe8,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-009",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 360,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe9,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-010",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 361,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe10,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-011",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 362,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe11,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-012",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 363,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe12,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-013",
-//   color: "",
-//   size:"L-88  x W-47.5 x H-110 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 364,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe13,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-014",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 365,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe14,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-015",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 366,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe15,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-016",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 367,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe16,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-017",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 368,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe17,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-018",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 369,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe18,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-019",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 370,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe19,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-020",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 371,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe20,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-021",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
-// {
-//   id: 372,
-//   category: "PLASTIC FURNITURE",
-//   imgSrc: waredrobe21,
-//   title: "TFL Double waredrobe",
-//   code: "tgware-022",
-//   color: "",
-//   size:"L-88 x W-47.5 x H-137 cm",
-//   size2:"L-66 x W-44 x H-127 cm",
-//   material: "Polypropylene and ABS",
-//   button: "Details"
-// },
+
 
   //      Image Valo nah
 
