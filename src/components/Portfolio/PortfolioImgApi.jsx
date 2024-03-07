@@ -135,7 +135,6 @@ import con_table6 from "../../asset/images/Chair/conference table/conferenceTabl
 import con_table7 from "../../asset/images/Chair/conference table/conferenceTable07.jpg";
 import con_table8 from "../../asset/images/Chair/conference table/conferenceTable08.jpg";
 
-
 // Chair Image
 import chair1 from "../../asset/images/Chair/01.jpg";
 import chair2 from "../../asset/images/Chair/02.jpg";
@@ -241,6 +240,17 @@ import chair96 from "../../asset/images/Chair/96.jpg";
 
 //                           Plastic household                       //
 
+//                        kitchen rack 
+import kitchenrack1 from "../../asset/images/plastic/household/kitchen rack/01.jpg";
+import kitchenrack2 from "../../asset/images/plastic/household/kitchen rack/02.jpg";
+import kitchenrack3 from "../../asset/images/plastic/household/kitchen rack/03.jpg";
+import kitchenrack4 from "../../asset/images/plastic/household/kitchen rack/04.jpg";
+import kitchenrack5 from "../../asset/images/plastic/household/kitchen rack/05.jpg";
+import kitchenrack6 from "../../asset/images/plastic/household/kitchen rack/06.jpg";
+import kitchenrack7 from "../../asset/images/plastic/household/kitchen rack/07.jpg";
+import kitchenrack8 from "../../asset/images/plastic/household/kitchen rack/08.jpg";
+
+
 //                          container ()
 import container1 from "../../asset/images/plastic/household/container/1.png";
 import container2 from "../../asset/images/plastic/household/container/2.png";
@@ -278,16 +288,40 @@ import bowls8 from "../../asset/images/plastic/household/bowls/8.png";
 import bowls9 from "../../asset/images/plastic/household/bowls/9.png";
 
 //                            chair
-import pchair1 from "../../asset/images/plastic/household/chair/1.png";
-import pchair2 from "../../asset/images/plastic/household/chair/2.png";
-import pchair3 from "../../asset/images/plastic/household/chair/3.png";
-import pchair4 from "../../asset/images/plastic/household/chair/4.png";
-import pchair5 from "../../asset/images/plastic/household/chair/5.png";
-import pchair6 from "../../asset/images/plastic/household/chair/6.png";
-import pchair7 from "../../asset/images/plastic/household/chair/7.png";
-import pchair8 from "../../asset/images/plastic/household/chair/8.png";
-import pchair9 from "../../asset/images/plastic/household/chair/9.png";
-
+import pchair1 from "../../asset/images/plastic/household/chair/01.jpg";
+import pchair2 from "../../asset/images/plastic/household/chair/02.jpg";
+import pchair3 from "../../asset/images/plastic/household/chair/03.jpg";
+import pchair4 from "../../asset/images/plastic/household/chair/04.jpg";
+import pchair5 from "../../asset/images/plastic/household/chair/05.jpg";
+import pchair6 from "../../asset/images/plastic/household/chair/06.jpg";
+import pchair7 from "../../asset/images/plastic/household/chair/07.jpg";
+import pchair8 from "../../asset/images/plastic/household/chair/08.jpg";
+import pchair9 from "../../asset/images/plastic/household/chair/09.jpg";
+import pchair10 from "../../asset/images/plastic/household/chair/10.jpg";
+import pchair11 from "../../asset/images/plastic/household/chair/11.jpg";
+import pchair12 from "../../asset/images/plastic/household/chair/12.jpg";
+import pchair13 from "../../asset/images/plastic/household/chair/13.jpg";
+import pchair14 from "../../asset/images/plastic/household/chair/14.jpg";
+import pchair15 from "../../asset/images/plastic/household/chair/15.jpg";
+import pchair16 from "../../asset/images/plastic/household/chair/16.jpg";
+import pchair17 from "../../asset/images/plastic/household/chair/17.jpg";
+import pchair18 from "../../asset/images/plastic/household/chair/18.jpg";
+import pchair19 from "../../asset/images/plastic/household/chair/19.jpg";
+import pchair20 from "../../asset/images/plastic/household/chair/20.jpg";
+import pchair21 from "../../asset/images/plastic/household/chair/21.jpg";
+import pchair22 from "../../asset/images/plastic/household/chair/22.jpg";
+import pchair23 from "../../asset/images/plastic/household/chair/23.jpg";
+import pchair24 from "../../asset/images/plastic/household/chair/24.jpg";
+import pchair25 from "../../asset/images/plastic/household/chair/25.jpg";
+import pchair26 from "../../asset/images/plastic/household/chair/26.jpg";
+import pchair27 from "../../asset/images/plastic/household/chair/27.jpg";
+import pchair28 from "../../asset/images/plastic/household/chair/28.jpg";
+import pchair29 from "../../asset/images/plastic/household/chair/29.jpg";
+import pchair30 from "../../asset/images/plastic/household/chair/30.jpg";
+import pchair31 from "../../asset/images/plastic/household/chair/31.jpg";
+import pchair32 from "../../asset/images/plastic/household/chair/32.jpg";
+import pchair33 from "../../asset/images/plastic/household/chair/33.jpg";
+import pchair34 from "../../asset/images/plastic/household/chair/34.jpg";
 //                           jug
 import pjug1 from "../../asset/images/plastic/household/jug/1.png";
 import pjug2 from "../../asset/images/plastic/household/jug/2.png";
@@ -464,15 +498,15 @@ import waredrobe20 from "../../asset/images/plastic/Waredrobe/waredrobe20.png";
 import waredrobe21 from "../../asset/images/plastic/Waredrobe/waredrobe21.png";
 
 //     Toys
-import toy1 from "../../asset/images/plastic/toys/01.png";
-import toy2 from "../../asset/images/plastic/toys/02.png";
-import toy3 from "../../asset/images/plastic/toys/03.png";
-import toy4 from "../../asset/images/plastic/toys/04.png";
-import toy5 from "../../asset/images/plastic/toys/05.png";
-import toy6 from "../../asset/images/plastic/toys/06.png";
-import toy7 from "../../asset/images/plastic/toys/07.png";
-import toy8 from "../../asset/images/plastic/toys/08.png";
-import toy9 from "../../asset/images/plastic/toys/09.png";
+
+import toy1 from "../../asset/images/plastic/toys/01.jpg";
+import toy2 from "../../asset/images/plastic/toys/02.jpg";
+import toy3 from "../../asset/images/plastic/toys/03.jpg";
+import toy4 from "../../asset/images/plastic/toys/04.jpg";
+import toy5 from "../../asset/images/plastic/toys/05.jpg";
+import toy6 from "../../asset/images/plastic/toys/06.jpg";
+import toy7 from "../../asset/images/plastic/toys/07.jpg";
+import toy8 from "../../asset/images/plastic/toys/08.jpg";
 
 //          lged
 
@@ -505,7 +539,7 @@ import upvc13 from "../../asset/images/upvc/upvc13.JPG";
 import upvc14 from "../../asset/images/upvc/upvc14.JPG";
 import upvc15 from "../../asset/images/upvc/upvc15.JPG";
 import upvc16 from "../../asset/images/upvc/upvc16.JPG";
-//   fittings(upvc)
+//   fittings(upvc) 
 import fittings1 from "../../asset/images/upvc/fittings1.jpeg";
 import fittings2 from "../../asset/images/upvc/fittings2.jpg";
 import fittings3 from "../../asset/images/upvc/fittings3.jpg";
@@ -2956,6 +2990,86 @@ const portfolioItems = [
 
  //           plastic household (1001- 3000)  
 
+  //      kitchen rack  img-> kitchenrack1
+
+  {
+    id: 1701,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack1,
+    title: "Kitchen Rack (3 side Barrier)",
+    code: "26101/26102/26103/26104",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1702,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack2,
+    title: "Kitchen Rack (without tray)",
+    code: "26115/26116/26117/26118",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1703,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack3,
+    title: "Kitchen Rack (3 side Barrier)",
+    code: "26101/26102/26103/26104",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1704,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack4,
+    title: "Kitchen Rack (with tray)",
+    code: "26110/26111/26112/26113",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1705,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack5,
+    title: "Kitchen Rack (3 side Barrier)",
+    code: "26101/26102/26103/26104",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1706,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack6,
+    title: "Kitchen Rack (with tray)",
+    code: "26110/26111/26112/26113",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1707,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack7,
+    title: "Kitchen Rack (3 side Barrier)",
+    code: "26120/26121/26122/26123/26124",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91/#656AB1",
+    button: "Details"
+  },
+  {
+    id: 1708,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack8,
+    title: "Kitchen Rack (Book Shelf)",
+    code: "26125/26126/26127/26128/26129",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91/#656AB1",
+    button: "Details"
+  },
+
+
+
+
+     
+
  //                  bowls 
  {
   id: 1001,
@@ -3239,85 +3353,317 @@ const portfolioItems = [
     id: 1301,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair1,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "King Chair Flower",
+    code: "21141/21142/21143/21144/21145/21146",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
   {
     id: 1302,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair2,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "King Chair Garden",
+    code: "21401/21402/21403/21404/21405/21406",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
   {
     id: 1303,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair3,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "King Chair Baton",
+    code: "21410/21411/21412/21413/21414/21415",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
   {
     id: 1304,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair4,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "Relax Chair Design",
+    code: "21171/21172/21173/21174/21175/21176",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
   {
     id: 1305,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair5,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "Relax Chair Design",
+    code: "21171/21172/21173/21174/21175/21176",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
   {
     id: 1306,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair6,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "Relax Chair Baton",
+    code: "21161/21162/21163/21164/21165/21166",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
   {
     id: 1307,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair7,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "Crown Chair Baton",
+    code: "21251/21252/21253/21254/21255/21256",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
   {
     id: 1308,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair8,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "Crown Chair Design",
+    code: "21231/21232/21233/21234/21235/21236",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
   {
     id: 1309,
     category: "PLASTIC FURNITURE",
     imgSrc: pchair9,
-    title: "Chair",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
+    title: "Garden Chair Flower",
+    code: "21301/21302/21303/21304/21305/21306",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
     button: "Details"
   },
+  {
+    id: 1310,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair10,
+    title: "Garden Chair Stick",
+    code: "21321/21322/21323/21324/21325/21326",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"
+  },
+  {
+    id: 1311,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair11,
+    title: "Garden Chair E-mat",
+    code: "21331/21332/21333/21334/21335/21336",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"   
+  },                       
+  {      
+    id: 1312,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair12,
+    title: "Garden Chair Mat Flower",
+    code: "21341/21342/21343/21344/21345/21346",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"
+  },
+  {
+    id: 1313,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair13,
+    title: "Baby Chair Design",
+    code: "22101/22102",
+    color: "#EF4443/#2B60AD",
+    button: "Details"
+  },
+  {
+    id: 1314,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair14,
+    title: "Baby Chair Flower",
+    code: "22105/22106",
+    color: "#EF4443/#2B60AD",
+    button: "Details"   
+  },                       
+  {      
+    id: 1315,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair15,
+    title: "Baby Chair Stick",
+    code: "22111/22112",
+    color: "#EF4443/#2B60AD",
+    button: "Details"
+  },
+  
+  {
+    id: 1316,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair16,
+    title: "Baby Chair Solid",
+    code: "22115/22116",
+    color: "#EF4443/#2B60AD",
+    button: "Details"
+  },
+  {
+    id: 1317,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair17,
+    title: "Deco Chair Flower",
+    code: "21401/21402/21403/21404/21405/21406",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"   
+  },                       
+  {      
+    id: 1318,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair18,
+    title: "Deco Chair Ring",
+    code: "21411/21412/21413/21414/21415/21416",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"
+  },
+  {      
+    id: 1319,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair19,
+    title: "Deco Chair Stick",
+    code: "21421/21422/21423/21424/21425/21426",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"
+  },
+  {
+    id: 1320,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair20,
+    title: "Deco Chair E-mat",
+    code: "21431/21432/21433/21434/21435/21436",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"   
+  },   
+                    
+  {      
+    id: 1321,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair21,
+    title: "Dining Chair Design",
+    code: "21201/21202/21203/21204/21205/21206",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"
+  },
+  {      
+    id: 1322,
+    category: "PLASTIC FURNITURE",
+    imgSrc: pchair22,
+    title: "Dining Chair Stick",
+    code: "21211/21212/21213/21214/21215/21216",
+    color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+    button: "Details"
+  },
+    //        23 - 34
+    {
+      id: 1323,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair23,
+      title: "Dining Chair E-mat",
+      code: "21221/21222/21223/21224/21225/21226",
+      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+      button: "Details"   
+    },   
+                      
+    {      
+      id: 1324,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair24,
+      title: "Dining Chair Design",
+      code: "21231/21232/21233/21234/21235/21236",
+      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+      button: "Details"
+    },
+    {      
+      id: 1325,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair25,
+      title: "President Chair Super",
+      code: "21151/21152/21153/21154/21155/21156",
+      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+      button: "Details"
+    },
+    {
+      id: 1326,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair26,
+      title: "President Chair Classic",
+      code: "21161/21162/21163/21164/21165/21166",
+      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+      button: "Details"   
+    },                  
+    {      
+      id: 1327,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair27,
+      title: "Teachers Chair",
+      code: "21191/21192/21193/21194",
+      color: "#EF4443/#2B60AD/#000/#F9A156",
+      button: "Details"
+    },
+    {      
+      id: 1328,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair28,
+      title: "Teachers Chair",
+      code: "21191/21192/21193/21194",
+      color: "#EF4443/#2B60AD/#000/#F9A156",
+      button: "Details"
+    },
+    {
+      id: 1329,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair29,
+      title: "Waiting Chair 2 Seated",
+      code: "27101",
+      color: "Any Color",
+      button: "Details"   
+    },   
+                      
+    {      
+      id: 1330,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair30,
+      title: "Waiting Chair 3 Seated",
+      code: "27102",
+      color: "Any Color",
+      button: "Details"
+    },
+    {      
+      id: 1331,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair31,
+      title: "Waiting Chair 3 Seated (with arm)",
+      code: "27103",
+      color: "Any Color",
+      button: "Details"
+    },
+    {
+      id: 1332,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair32,
+      title: "Waiting Chair 3 Seated",
+      code: "27104",
+      color: 'Any Color',
+      button: "Details"   
+    },   
+                      
+    {      
+      id: 1333,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair33,
+      title: "Class Room Chair",
+      code: "27110",
+      color: "#000",
+      button: "Details"
+    },
+    {      
+      id: 1334,
+      category: "PLASTIC FURNITURE",
+      imgSrc: pchair34,
+      title: "Visitor Chair",
+      code: "27111/27112/27113",
+      color: "#000/#2B60AD/#EF4443",
+      button: "Details"
+    },
 
-  //                     jug
+
+  //      9 ta (12 ta)               jug
 
   {
     id: 1401,
@@ -4624,132 +4970,132 @@ const portfolioItems = [
     button: "Details"
   },
   
-  {
-    id: 170,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic70,
-    title: "RELAX CHAIR(DESIGN)",
-    code: "21171/21172/21174/21175/21176/21177",
-    color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
-    button: "Details"
-  },
-  {
-    id: 171,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic71,
-    title: "DECO(FLOWER)",
-    code: "21401/21402/21403/21404/21405",
-    color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-    button: "Details"
-  },
-  {
-    id: 172,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic72,
-    title: "DECO(STICK)",
-    code: "21421/21422/21423/21424/21425",
-    color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-    button: "Details"
-  },
-  {
-    id: 173,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic73,
-    title: "DINNING CHAIR(E-MAT)",
-    code: "21221/21222/21223/21224/21225",
-    color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-    button: "Details"
-  },
+  // {
+  //   id: 170,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic70,
+  //   title: "RELAX CHAIR(DESIGN)",
+  //   code: "21171/21172/21174/21175/21176/21177",
+  //   color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 171,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic71,
+  //   title: "DECO(FLOWER)",
+  //   code: "21401/21402/21403/21404/21405",
+  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 172,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic72,
+  //   title: "DECO(STICK)",
+  //   code: "21421/21422/21423/21424/21425",
+  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 173,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic73,
+  //   title: "DINNING CHAIR(E-MAT)",
+  //   code: "21221/21222/21223/21224/21225",
+  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+  //   button: "Details"
+  // },
 
-  {
-    id: 174,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic74,
-    title: "GARDEN CHAIR (FLOWER)",
-    code: "21161/21162/21163/21164/21165/21166",
-    color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d",
-    button: "Details"
-  },
+  // {
+  //   id: 174,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic74,
+  //   title: "GARDEN CHAIR (FLOWER)",
+  //   code: "21161/21162/21163/21164/21165/21166",
+  //   color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d",
+  //   button: "Details"
+  // },
 
-  {
-    id: 175,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic75,
-    title: "GOLDEN CHAIR(STICK)",
-    code: "21321/21322/21323/21324/21325",
-    color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-    button: "Details"
-  },
+  // {
+  //   id: 175,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic75,
+  //   title: "GOLDEN CHAIR(STICK)",
+  //   code: "21321/21322/21323/21324/21325",
+  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+  //   button: "Details"
+  // },
 
-  {
-    id: 178,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic78,
-    title: "  GARDEN CHAIR(E-MAT)",
-    code: "21331/21332/21333/21334/21335",
-    color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-    button: "Details"
-  },
+  // {
+  //   id: 178,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic78,
+  //   title: "  GARDEN CHAIR(E-MAT)",
+  //   code: "21331/21332/21333/21334/21335",
+  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
+  //   button: "Details"
+  // },
 
-  {
-    id: 179,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic79,
-    title: "KING SUPER CHAIR(DESIGN)",
-    code: "21141/21142/21143/21144/21145/21146/21147",
-    color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
-    button: "Details"
-  },
+  // {
+  //   id: 179,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic79,
+  //   title: "KING SUPER CHAIR(DESIGN)",
+  //   code: "21141/21142/21143/21144/21145/21146/21147",
+  //   color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
+  //   button: "Details"
+  // },
 
-  {
-    id: 180,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic80,
-    title: "PRESIDENT CHAIR",
-    code: "21181/21182/21183/21184/21185",
-    color: "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
-    button: "Details"
-  },
+  // {
+  //   id: 180,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic80,
+  //   title: "PRESIDENT CHAIR",
+  //   code: "21181/21182/21183/21184/21185",
+  //   color: "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
+  //   button: "Details"
+  // },
 
-  {
-    id: 181,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic81,
-    title: "DINNING CHAIR(DESIGN)",
-    code: "21201/21202/21203/21204/21205",
-    color: "#ba5645/#336699/#009999/#563933/#8c765a",
-    button: "Details"
-  },
+  // {
+  //   id: 181,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic81,
+  //   title: "DINNING CHAIR(DESIGN)",
+  //   code: "21201/21202/21203/21204/21205",
+  //   color: "#ba5645/#336699/#009999/#563933/#8c765a",
+  //   button: "Details"
+  // },
 
-  {
-    id: 182,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic82,
-    title: "DINNING CHAIR(4 STICK)",
-    code: "21211/21212/21213/21214/21215",
-    color: "#ba5645/#336699/#009999/#563933/#8c765a",
-    button: "Details"
-  },
+  // {
+  //   id: 182,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic82,
+  //   title: "DINNING CHAIR(4 STICK)",
+  //   code: "21211/21212/21213/21214/21215",
+  //   color: "#ba5645/#336699/#009999/#563933/#8c765a",
+  //   button: "Details"
+  // },
 
-  {
-    id: 183,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic83,
-    title: "CROWN CHAIR(DESIGN)",
-    code: "21231/21232/21234/21235/21236/21237",
-    color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
-    button: "Details"
-  },
+  // {
+  //   id: 183,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic83,
+  //   title: "CROWN CHAIR(DESIGN)",
+  //   code: "21231/21232/21234/21235/21236/21237",
+  //   color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
+  //   button: "Details"
+  // },
 
-  {
-    id: 184,
-    category: "PLASTIC FURNITURE",
-    imgSrc: plastic84,
-    title: "CROWN CHAIR(BATON)",
-    code: "21251/21252/21254/21255/21256/21257",
-    color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
-    button: "Details"
-  },
+  // {
+  //   id: 184,
+  //   category: "PLASTIC FURNITURE",
+  //   imgSrc: plastic84,
+  //   title: "CROWN CHAIR(BATON)",
+  //   code: "21251/21252/21254/21255/21256/21257",
+  //   color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
+  //   button: "Details"
+  // },
 
   // {
   //   id: 176,
@@ -5362,7 +5708,7 @@ const portfolioItems = [
     button: "Details"
   },
 
-  //      Toys (4001-5000)
+  //      Toys (4001-4100)
   {
     id: 4001,
     category: "PLASTIC TOY",
@@ -5375,7 +5721,7 @@ const portfolioItems = [
   {
     id: 4002,
     category: "PLASTIC TOY",
-    imgSrc: toy6,
+    imgSrc: toy2,
     title: "Master Bike with Barrier",
     code: "28207/28208/28209/28210/28211/28212",
     color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
@@ -5384,7 +5730,7 @@ const portfolioItems = [
   {
     id: 4003,
     category: "PLASTIC TOY",
-    imgSrc: toy8,
+    imgSrc: toy3,
     title: "Master Bike with Trolly",
     code: "28213/28214/28215/28216/28217/28218",
     color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
@@ -5403,40 +5749,36 @@ const portfolioItems = [
     id: 4005,
     category: "PLASTIC TOY",
     imgSrc: toy5,
-    title: "Captain Bike",
-    code: "cbk-05",
+    title: "Master Bike with Trolly",
+    code: "28210",
+    color: "#CA9E2C",
     button: "Details"
   },
   {
     id: 4006,
     category: "PLASTIC TOY",
-    imgSrc: toy2,
-    title: "Captain Bike",
-    code: "cbk-06",
+    imgSrc: toy6,
+    title: "Master Bike",
+    code: "28211",
+    color: "#59A3B8",
     button: "Details"
   },
   {
     id: 4007,
     category: "PLASTIC TOY",
     imgSrc: toy7,
-    title: "Captain Bike",
-    code: "cbk-07",
+    title: "Master Bike with Trolly",
+    code: "28130",
+    color: "#C2D065",
     button: "Details"
   },
   {
     id: 4008,
     category: "PLASTIC TOY",
-    imgSrc: toy3,
-    title: "Captain Bike",
-    code: "cbk-08",
-    button: "Details"
-  },
-  {
-    id: 4009,
-    category: "PLASTIC TOY",
-    imgSrc: toy9,
-    title: "Captain Bike",
-    code: "cbk-09",
+    imgSrc: toy8,
+    title: "Master Bike with Trolly",
+    code: "28131",
+    color: "#497774",
     button: "Details"
   },
 
