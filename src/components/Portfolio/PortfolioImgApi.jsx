@@ -254,6 +254,26 @@ import kitchenrack8 from "../../asset/images/plastic/household/kitchen rack/08.j
 
 
 //                          plastic household
+//                       upcoming (plastic hosehold)
+import plasticUpcoming1 from "../../asset/images/plastic/household items/upcoming/u1.jpg";
+import plasticUpcoming2 from "../../asset/images/plastic/household items/upcoming/u2.jpg";
+import plasticUpcoming3 from "../../asset/images/plastic/household items/upcoming/u3.jpg";
+import plasticUpcoming4 from "../../asset/images/plastic/household items/upcoming/u4.jpg";
+import plasticUpcoming5 from "../../asset/images/plastic/household items/upcoming/u5.jpg";
+import plasticUpcoming6 from "../../asset/images/plastic/household items/upcoming/u6.jpg";
+import plasticUpcoming7 from "../../asset/images/plastic/household items/upcoming/u7.jpg";
+import plasticUpcoming8 from "../../asset/images/plastic/household items/upcoming/u8.jpg";
+import plasticUpcoming9 from "../../asset/images/plastic/household items/upcoming/u9.jpg";
+import plasticUpcoming10 from "../../asset/images/plastic/household items/upcoming/u10.jpg";
+import plasticUpcoming11 from "../../asset/images/plastic/household items/upcoming/u11.jpg";
+import plasticUpcoming12 from "../../asset/images/plastic/household items/upcoming/u12.jpg";
+import plasticUpcoming13 from "../../asset/images/plastic/household items/upcoming/u13.jpg";
+import plasticUpcoming14 from "../../asset/images/plastic/household items/upcoming/u14.jpg";
+import plasticUpcoming15 from "../../asset/images/plastic/household items/upcoming/u15.jpg";
+import plasticUpcoming16 from "../../asset/images/plastic/household items/upcoming/u16.jpg";
+
+
+//                         plastic item(household)
 import plastichousehold1 from "../../asset/images/plastic/household items/01.jpg";
 import plastichousehold2 from "../../asset/images/plastic/household items/02.jpg";
 import plastichousehold3 from "../../asset/images/plastic/household items/03.jpg";
@@ -304,6 +324,32 @@ import plastichousehold47 from "../../asset/images/plastic/household items/47.jp
 import plastichousehold48 from "../../asset/images/plastic/household items/48.jpg";
 import plastichousehold49 from "../../asset/images/plastic/household items/49.jpg";
 import plastichousehold50 from "../../asset/images/plastic/household items/50.jpg";
+import plastichousehold51 from "../../asset/images/plastic/household items/51.jpg";
+import plastichousehold52 from "../../asset/images/plastic/household items/52.jpg";
+import plastichousehold53 from "../../asset/images/plastic/household items/53.jpg";
+import plastichousehold54 from "../../asset/images/plastic/household items/54.jpg";
+import plastichousehold55 from "../../asset/images/plastic/household items/55.jpg";
+import plastichousehold56 from "../../asset/images/plastic/household items/56.jpg";
+import plastichousehold57 from "../../asset/images/plastic/household items/57.jpg";
+import plastichousehold58 from "../../asset/images/plastic/household items/58.jpg";
+import plastichousehold59 from "../../asset/images/plastic/household items/59.jpg";
+import plastichousehold60 from "../../asset/images/plastic/household items/60.jpg";
+import plastichousehold61 from "../../asset/images/plastic/household items/61.jpg";
+import plastichousehold62 from "../../asset/images/plastic/household items/62.jpg";
+import plastichousehold63 from "../../asset/images/plastic/household items/63.jpg";
+import plastichousehold64 from "../../asset/images/plastic/household items/64.jpg";
+import plastichousehold65 from "../../asset/images/plastic/household items/65.jpg";
+import plastichousehold66 from "../../asset/images/plastic/household items/66.jpg";
+import plastichousehold67 from "../../asset/images/plastic/household items/67.jpg";
+import plastichousehold68 from "../../asset/images/plastic/household items/68.jpg";
+import plastichousehold69 from "../../asset/images/plastic/household items/69.jpg";
+import plastichousehold70 from "../../asset/images/plastic/household items/70.jpg";
+import plastichousehold71 from "../../asset/images/plastic/household items/71.jpg";
+import plastichousehold72 from "../../asset/images/plastic/household items/72.jpg";
+import plastichousehold73 from "../../asset/images/plastic/household items/73.jpg";
+import plastichousehold74 from "../../asset/images/plastic/household items/74.jpg";
+import plastichousehold75 from "../../asset/images/plastic/household items/75.jpg";
+import plastichousehold76 from "../../asset/images/plastic/household items/76.jpg";
 
 //                            chair
 import pchair1 from "../../asset/images/plastic/household/chair/01.jpg";
@@ -340,69 +386,6 @@ import pchair31 from "../../asset/images/plastic/household/chair/31.jpg";
 import pchair32 from "../../asset/images/plastic/household/chair/32.jpg";
 import pchair33 from "../../asset/images/plastic/household/chair/33.jpg";
 import pchair34 from "../../asset/images/plastic/household/chair/34.jpg";
-
-import plastic7 from "../../asset/images/plastic/plastic7.png";
-import plastic10 from "../../asset/images/Corporate plastic/plastic10.png";
-import plastic11 from "../../asset/images/plastic/plastic11.png";
-import plastic12 from "../../asset/images/Corporate plastic/plastic12.png";
-import plastic13 from "../../asset/images/plastic/plastic13.png";
-import plastic14 from "../../asset/images/plastic/plastic14.png";
-import plastic21 from "../../asset/images/plastic/plastic21.png";
-import plastic22 from "../../asset/images/plastic/plastic22.png";
-import plastic23 from "../../asset/images/Corporate plastic/plastic23.png";
-import plastic24 from "../../asset/images/plastic/plastic24.png";
-import plastic25 from "../../asset/images/Corporate plastic/plastic25.png";
-import plastic26 from "../../asset/images/plastic/plastic26.png";
-import plastic27 from "../../asset/images/plastic/plastic27.png";
-import plastic28 from "../../asset/images/plastic/plastic28.png";
-import plastic29 from "../../asset/images/plastic/plastic29.png";
-import plastic33 from "../../asset/images/plastic/plastic33.png";
-import plastic34 from "../../asset/images/plastic/plastic34.png";
-import plastic35 from "../../asset/images/plastic/plastic35.png";
-import plastic37 from "../../asset/images/plastic/plastic37.png";
-import plastic38 from "../../asset/images/plastic/plastic38.png";
-import plastic39 from "../../asset/images/plastic/plastic39.png";
-import plastic40 from "../../asset/images/Corporate plastic/plastic40.png";
-import plastic41 from "../../asset/images/plastic/plastic41.png";
-import plastic42 from "../../asset/images/plastic/plastic42.png";
-import plastic43 from "../../asset/images/plastic/plastic43.png";
-import plastic44 from "../../asset/images/plastic/plastic44.png";
-import plastic45 from "../../asset/images/plastic/plastic45.png";
-import plastic46 from "../../asset/images/plastic/plastic46.png";
-import plastic47 from "../../asset/images/plastic/plastic47.png";
-import plastic49 from "../../asset/images/Corporate plastic/plastic49.png";
-import plastic50 from "../../asset/images/Corporate plastic/plastic50.png";
-import plastic51 from "../../asset/images/plastic/plastic51.png";
-import plastic52 from "../../asset/images/plastic/plastic52.png";
-import plastic53 from "../../asset/images/plastic/plastic53.png";
-import plastic56 from "../../asset/images/Corporate plastic/plastic56.png";
-import plastic57 from "../../asset/images/plastic/plastic57.png";
-import plastic62 from "../../asset/images/plastic/plastic62.png";
-import plastic63 from "../../asset/images/plastic/plastic63.png";
-import plastic64 from "../../asset/images/plastic/plastic64.png";
-import plastic65 from "../../asset/images/plastic/plastic65.png";
-import plastic66 from "../../asset/images/plastic/plastic66.png";
-import plastic67 from "../../asset/images/plastic/plastic67.png";
-import plastic69 from "../../asset/images/plastic/plastic69.png";
-import plastic86 from "../../asset/images/plastic/plastic item/plastic2.png";
-import plastic87 from "../../asset/images/plastic/plastic item/plastic3.png";
-import plastic88 from "../../asset/images/plastic/plastic item/plastic4.png";
-import plastic89 from "../../asset/images/plastic/plastic item/plastic5.png";
-import plastic90 from "../../asset/images/plastic/plastic item/plastic6.png";
-import plastic91 from "../../asset/images/plastic/plastic item/plastic7.png";
-import plastic92 from "../../asset/images/plastic/plastic item/plastic8.png";
-import plastic93 from "../../asset/images/plastic/plastic item/plastic9.png";
-import plastic94 from "../../asset/images/plastic/PLASTIC BUCKET/Delux Bucket (Plastic Handle).jpg";
-import plastic95 from "../../asset/images/plastic/PLASTIC BUCKET/Delux Bucket (Steel Handle).jpg";
-import plastic96 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket (With Lid).jpg";
-import plastic98 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket (Without Lid Steel Handle).jpg";
-import plastic99 from "../../asset/images/plastic/PLASTIC BUCKET/Design Bucket(Without Lid Plastic Handle).jpg";
-import plastic100 from "../../asset/images/plastic/PLASTIC BUCKET/Spice Pot.jpg";
-import plastic101 from "../../asset/images/plastic/PLASTIC BUCKET/Square Rack.jpg";
-import plastic102 from "../../asset/images/plastic/PLASTIC BUCKET/Square Rak Deluxe.jpg";
-import plastic103 from "../../asset/images/plastic/PLASTIC BUCKET/Vegetable Washing Net.jpg";
-import plastic104 from "../../asset/images/plastic/PLASTIC BUCKET/Delux Bucket.jpg";
-import plastic107 from "../../asset/images/plastic/PLASTIC BUCKET/Egg Box.jpg";
 
 //                            plastic furniture
 //                            waredrobe 
@@ -3308,8 +3291,60 @@ const portfolioItems = [
   button: "Details"
 },
 
- //           plastic household (1001- 3000)  
 
+
+
+
+
+ //           plastic household    
+ //                   upcoming products
+
+ {
+  id: 1601,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming1,
+  title: "Planter",
+  code: "29010/29011/29012/29013/29014/29015/29016/29017/29018",
+  color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
+  size: `16", 18", 21"`,
+  button: "Details"
+ },
+ {
+  id: 1602,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming2,
+  title: "Planter",
+  code: "29019/29020/29021/29022/29023/29024/29025/29026/29027",
+  color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
+  size: `11", 12", 14"`,
+  button: "Details"
+ },
+ {
+  id: 1603,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming3,
+  title: "Planter",
+  code: "29028/29029/29030/29031/29032/29033/29034/29035/29036",
+  color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
+  size: `7", 8", 10"`,
+  button: "Details"
+ },
+ {
+  id: 1604,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming4,
+  title: "Planter",
+  code: "29037/29038/29039/29040/29041/29042/29043/29044/29045",
+  color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
+  size: `3", 4.5", 6.5"`,
+  button: "Details"
+ },
+
+ 
+ 
+
+ 
+//                               plastic household
  {
   id: 1700,
   category: "PLASTIC HOUSEHOLD",
@@ -3871,13 +3906,252 @@ const portfolioItems = [
     color: "#ffffff/pink",
     button: "Details"
   },
-
-
-
-
-
-
-
+  // {
+  //   id: 1851,
+  //   category: "PLASTIC HOUSEHOLD",
+  //   imgSrc: plastichousehold51,
+  //   title: "Smaile Basket",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 1852,
+  //   category: "PLASTIC HOUSEHOLD",
+  //   imgSrc: plastichousehold52,
+  //   title: "Small Tray",
+  //   button: "Details"
+  // },
+  {
+    id: 1853,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold53,
+    title: "Tiffin Box",
+    code: "17011/17012",
+    color: "pink/blue",
+    button: "Details"
+  },
+  {
+    id: 1854,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold54,
+    title: "Design Jug(Close Handle)",
+    code: "13108/13109/13111/13112",
+    color: "red/blue/pink/blue",
+    size: "3 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1855,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold55,
+    title: "Design Jug(Open Handle)",
+    code: "13101/13102/13105/13106",
+    color: "red/blue/red/blue",
+    size: "2.5 Ltr, 3Ltr",
+    button: "Details"
+  },
+  {
+    id: 1856,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold56,
+    title: "Design Jug(Close Handle)",
+    code: "13115/13116",
+    color: "red/blue",
+    size: "3 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1857,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold57,
+    title: "Printed Jug(Cosmos)",
+    code: "17181/17182/17183",
+    color: "pink/blue/green",
+    size: "3 Ltr.",
+    button: "Details"
+  },
+  {
+    id: 1858,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold58,
+    title: "Printed Jug(Camellia)",
+    code: "17185/17186/17187",
+    color: "pink/blue/green",
+    size: "3 Ltr.",
+    button: "Details"
+  },
+  {
+    id: 1859,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold59,
+    title: "Printed Jug(Vintage)",
+    code: "17190/17191/17192",
+    color: "pink/blue/green",
+    size: "3 Ltr.",
+    button: "Details"
+  },
+  {
+    id: 1860,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold60,
+    title: "Square Container set",
+    code: "17134",
+    color: "#fff",
+    size: "700ml, 1500ml, 2200ml",
+    button: "Details"
+  },
+  {
+    id: 1861,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold61,
+    title: "Grocery Pan",
+    code: "14218/14219",
+    color: "#4A7E8B/blue",
+    button: "Details"
+  },
+  {
+    id: 1862,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold62,
+    title: "Paper Tray",
+    code: "15210/15211",
+    color: "choclate/gray",
+    button: "Details"
+  },
+  // {
+  //   id: 1863,
+  //   category: "PLASTIC HOUSEHOLD",
+  //   imgSrc: plastichousehold63,
+  //   title: "Cabinet",
+  //   button: "Details"
+  // },
+  {
+    id: 1864,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold64,
+    title: "Round Lock Container",
+    code: "17144",
+    color: "#fff",
+    size: "1800ml, 2800ml,4200ml",
+    button: "Details"
+  },
+  {
+    id: 1865,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold65,
+    title: "Reactangular Container Set",
+    code: "17124",
+    color: "#fff",
+    size: "100ml, 2000ml, 3000ml",
+    button: "Details"
+  },
+  {
+    id: 1866,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold66,
+    title: "Square Container Set",
+    code: "17134",
+    color: "#fff",
+    size: "700ml, 1500ml, 2200ml",
+    button: "Details"
+  },
+  {
+    id: 1867,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold67,
+    title: "Storage Container",
+    code: "17181/17182",
+    color: "pink/blue",
+    size: "3 Ltr, 5 Ltr, 7 Ltr, 10 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1868,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold68,
+    title: "Printed Storage Container",
+    code: "17191/17192",
+    color: "red/pink",
+    size: "3 Ltr, 5 Ltr, 7 Ltr, 10 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1869,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold69,
+    title: "Printed Storage Container",
+    code: "17194/17195",
+    color: "red/pink",
+    size: "3 Ltr, 5 Ltr, 7 Ltr, 10 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1870,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold70,
+    title: "Printed Storage Container",
+    code: "17196",
+    color: "green",
+    size: "3 Ltr, 5 Ltr, 7 Ltr, 10 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1871,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold71,
+    title: "Printed Storage Container",
+    code: "17197/17198",
+    color: "red/pink",
+    size: "15 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1872,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold72,
+    title: "Fish Crate",
+    code: "15250/15251/15252",
+    color: "red/blue/orange",
+    button: "Details"
+  },
+  {
+    id: 1873,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold73,
+    title: "High Net Stool",
+    code: "23301/23302",
+    color: "red/blue",
+    size: "High",
+    button: "Details"
+  },
+  {
+    id: 1874,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold74,
+    title: "Medium Net Stool",
+    code: "23201/23202",
+    color: "red/blue",
+    size: "Medium",
+    button: "Details"
+  },
+  {
+    id: 1875,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold75,
+    title: "Short Stool",
+    code: "23101/23102",
+    color: "red/blue",
+    size: "Short",
+    button: "Details"
+  },
+  {
+    id: 1876,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold76,
+    title: "Magic Stool",
+    code: "23313/23213",
+    size: "High/Medium",
+    button: "Details"
+  },
 
 
 
@@ -4255,824 +4529,7 @@ const portfolioItems = [
     button: "Details"
   },
 
-  ////                              ------------      PLASTIC  (101- )           --------------
-
-  {
-    id: 107,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic7,
-    title: "BABY POTI",
-    code: "17001",
-    color: "RED",
-    button: "Details"
-  },
-
-  // {
-  //   id: 109,
-  //   category: "corporate plastic",
-  //   imgSrc: plastic9,
-  // },
-  {
-    id: 110,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic10,
-    title: "SOAP CASE(BEAUTY)",
-    code: "17165/17166",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-  {
-    id: 111,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic11,
-    title: "BEVERAGE MUG",
-    code: "14214/14215/14216",
-    color: "#006600/PINK/YELLOW",
-    button: "Details"
-    // size : "OVEL"
-  },
-  {
-    id: 112,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic12,
-    title: "LID BOWL",
-    code: "12100/12101",
-    color: "pink/white",
-    button: "Details"
-  },
-  {
-    id: 113,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic13,
-    title: "CHOPPING BOARD",
-    code: "17061",
-    color: "white",
-    button: "Details"
-  },
-  {
-    id: 114,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic14,
-    title: "CLASSIC DUST PAN",
-    code: "17044/17045",
-    color: "#006600/blue",
-    button: "Details"
-  },
-
-  //                                    BUCKET START
-
-  {
-    id: 121,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic21,
-    title: "SPOUT BUCKET",
-    size: "16/20 Ltr.",
-    code: "11350/11351/11356/11357",
-    color: "	 #0033cc/#cc00cc/#0033cc/#cc00cc",
-    button: "Details"
-  },
-  {
-    id: 122,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic22,
-    title: "SPOUT BUCKET",
-    size: "16/20 Ltr.",
-    code: "11350/11351/11356/11357",
-    color: "#0033cc/#cc00cc/#0033cc/#cc00cc",
-    button: "Details"
-  },
-  {
-    id: 207,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic99,
-    title: "DESIGN BUCKET(PLASTIC HANDLE)",
-    code: "11306/11308/11311/11317/11321/11326/11331",
-    color: "BLUE/BLUE/BLUE/BLUE/BLUE/BLUE/BLUE",
-    size: "5,8,10,16,20,25,30 Ltr.",
-    button: "Details"
-  },
-  {
-    id: 208,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic104,
-    title: "DELUX BUCKET(STEEL handle)",
-    code: "11241/11246/11252/11256/11259/11262/11265/11268/11271",
-    color: "blue/blue/blue/blue/blue/blue/blue/blue/blue",
-    size: "4,8,12,15,18,20,22,25,30 Ltr.",
-    button: "Details"
-  },
-
-  {
-    id: 133,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic33,
-    title: "DESIGN BUCKET(PLASTIC HANDLE)",
-    code: "11305/11307/11310/11316/11320/11325/11330",
-    color: "RED/RED/RED/RED/RED/RED/RED",
-    size: " 5,8,10,16,20,25,30 Ltr.",
-    button: "Details"
-  },
-  {
-    id: 134,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic34,
-    title: "DELUX BUCKET(PLASTIC HANDLE)",
-    code: "11141/11147/11150/11153/11157/11162/11170",
-    color: "blue/blue/blue/blue/blue/blue/blue",
-    size: " 8,12,15,20,22,25,30 Ltr.",
-    button: "Details"
-  },
-  {
-    id: 135,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic35,
-    title: "DRUM BUCKET WITH LID",
-    size: "75 Ltr.",
-    code: "11465/11466",
-    color: "#2db300/#006600",
-    button: "Details"
-  },
-  {
-    id: 193,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic94,
-    title: "DELUX BUCKET (Plastic Handle) ",
-    code: "11140/11146/11149/11152/11156/11161/11169",
-    color: "RED/RED/RED/RED/RED/RED/RED",
-    size: "8,12,15,20,22,25,30 Ltr.",
-    button: "Details"
-  },
-  {
-    id: 194,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic95,
-    title: "Delux Bucket (Steel Handle) ",
-    code: "11240/11245/11251/11255/11258/11261/11264/11267/11270",
-    color: "RED/RED/RED/RED/RED/RED/RED/RED/RED",
-    sameColor: "RED",
-    size: "4,8,12,15,18,20,22,25,30 Ltr.",
-    button: "Details"
-  },
   
-  {
-    id: 195,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic96,
-    title: "Design Bucket (With Lid)",
-    code: "11105/11106/11107/11108/11110/11111/11116/11117/11120/11121/11125/11126/11130/11131",
-    color: "RED/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue",
-    size: "5,8,10,16,20,25,30 Ltr.",
-    button: "Details"
-  },
-
-  {
-    id: 197,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic98,
-    title: "Design Bucket(steel Handle)",
-    code: "11205/11207/11210/11216/11220/11225/11230",
-    color: "RED/RED/RED/RED/RED/RED/RED",
-    size: "5,8,10,16,20,25,30 Ltr.",
-    button: "Details"
-  },
-
-  {
-    id: 198,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic28,
-    title: "Twist Bucket Bucket(steel Handle)",
-    code: "11385/11386/11387/11391/11392/11393",
-    color: "red/blue/#006600/red/blue/#006600",
-    size: "16, 20 Ltr.",
-    button: "Details"
-  },
-
-  ///                                BUCKET END      
-
-  {
-    id: 123,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic23,
-    title: "SQUARE CONTAINER SET",
-    code: "17134",
-    color: "rgba(0,0,0,0.3)",
-    size: "700, 1500, 2200ml",
-    button: "Details"
-  },
-  {
-    id: 124,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic24,
-    title: "STORAGE CONTAINER",
-    code: "17181/17182",
-    color: "#8080ff/#ffe6f1",
-    size: "3,5,7,10 Ltr",
-    button: "Details"
-  },
-  {
-    id: 125,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic25,
-    title: "TIFFIN BOX",
-    code: "17011/17012",
-    color: "#8080ff/#ffe6f1",
-    button: "Details"
-  },
-  {
-    id: 126,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic26,
-    title: "TRANSPARENT DESIGN BATI",
-    code: "12103/12104",
-    color: "PINK/#4682b4",
-    button: "Details"
-  },
-  {
-    id: 127,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic27,
-    title: "TRANSPARENT DESIGN BATI",
-    code: "12114/12115",
-    color: "#ffe6f1/#8080ff",
-    size: "1500ml",
-    button: "Details"
-  },
-
-  
-  {
-    id: 137,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic37,
-    title: "OVAL RACK",
-    code: "16212/16213/16214",
-    color: "red/blue/orange",
-    size: "OVAL/ OVAL/ OVAL",
-    button: "Details"
-  },
-  {
-    id: 138,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic38,
-    title: "PAPER TRAY",
-    code: "15210/15211",
-    color: "#7B3F00/gray",
-    button: "Details"
-  },
-  {
-    id: 139,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic39,
-    title: "DISH COVER",
-    code: "17081/17082/17084/17085/17087/17088",
-    color: "red/blue/RED/BLUE/RED/BLUE",
-    size: "26/26/32/32/36/36 CM",
-    button: "Details"
-  },
-  {
-    id: 140,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic40,
-    title: "DISH RACK",
-    code: "16209/16210/16211",
-    color: "red/blue/ORANGE",
-    button: "Details"
-  },
-  {
-    id: 141,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic41,
-    title: "GROCERY PAN",
-    code: "14218/14219",
-    color: " #006600/blue",
-    button: "Details"
-  },
-  {
-    id: 142,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic42,
-    title: "HIGH STOOL",
-    code: "23101/23102",
-    color: "RED/BLUE",
-    size: "Medium",
-    button: "Details"
-  },
-  {
-    id: 143,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic43,
-    title: "MAGIC STOOL",
-    code: "23213/23313",
-    color: "teal/yellow",
-    size: "HIGH/MEDIUM",
-    button: "Details"
-  },
-  {
-    id: 144,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic44,
-    title: "MEDIUM STOOL",
-    code: "23201/23202",
-    color: "RED/BLUE",
-    size: "MEDIUM",
-    button: "Details"
-  },
-  {
-    id: 145,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic45,
-    title: "MUG",
-    code: "24201/24204/24207/24202/24205/24208",
-    color: "RED/RED/RED/BLUE/BLUE/BLUE",
-    size: "500ML,1.5Ltr,2Ltr,500ML,1.5Ltr,2Ltr",
-    button: "Details"
-  },
-  {
-    id: 146,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic46,
-    title: "MUG WITH HANDLE",
-    code: "24226/24227/24228",
-    color: "RED/BLUE/#006600",
-    size: "500ML,1.5Ltr,2Ltr,500ML,1.5Ltr,2Ltr",
-    button: "Details"
-  },
-  {
-    id: 147,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic47,
-    title: "NOODLES NET",
-    code: "12106/12107/12108",
-    color: "#006600/YELLOW/RED",
-    button: "Details"
-  },
-  {
-    id: 149,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic49,
-    title: "OVAL SOAP CASE",
-    code: "17155/17156",
-    color: "PINK/YELLOW",
-    button: "Details"
-  },
-
-  {
-    id: 150,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic50,
-    title: "DISPOSIBLE PLATE",
-    code: "17150/17151",
-    color: "	#00FFFF/#006600",
-    button: "Details"
-  },
-  {
-    id: 151,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic51,
-    title: "PAPER WASTAGE",
-    code: "15201/15202",
-    color: "red/blue",
-    button: "Details"
-  },
-  {
-    id: 152,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic52,
-    title: "SHIRT HANGER",
-    code: "17023/17024/17025",
-    color: "red/blue/#00b300",
-    button: "Details"
-  },
-  {
-    id: 163,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic63,
-    title: "COAT HANGER",
-    code: "17020/17021/17022",
-    color: "red/blue/#00b300",
-    button: "Details"
-  },
-  {
-    id: 153,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic53,
-    title: "SHOE RACK",
-    code: "16204/16205/16206",
-    color: "red/brown/blue",
-    button: "Details"
-  },
-  {
-    id: 156,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic56,
-    title: "SPICE TRAY(MULTI)",
-    code: "17034/17035/17036/17037/17038/17039",
-    color: "red/blue/PINK/yellow/white/#006600",
-    button: "Details"
-  },
-  {
-    id: 157,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic57,
-    title: "SPICE TRAY",
-    code: "17031",
-    color: "red",
-    button: "Details"
-  },
-  {
-    id: 129,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic29,
-    title: "BATHROOM POT",
-    code: "17065/17070",
-    color: "BLUE/BLUE",
-    size: "2Ltr., 2.25Ltr.",
-    button: "Details"
-  },
-  {
-    id: 162,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic62,
-    title: "WALL HANGER",
-    code: "17003/17004",
-    color: "#80ff80/#006600",
-    button: "Details"
-  },
-  {
-    id: 164,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic64,
-    title: "DESIGN BOWL",
-    code: "12118/12131/12141/12151/12161",
-    color: "RED/RED/RED/RED/RED",
-    size: "3,8,15,20,25 Ltr",
-    button: "Details"
-  },
-
-  {
-    id: 165,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic65,
-    title: "DESIGN BATI",
-    code: "12110/12111",
-    color: "RED/BLUE",
-    size: "700ml",
-    button: "Details"
-  },
-  {
-    id: 166,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic66,
-    title: "DELUX BOWL",
-    color: "RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue/RED/Blue",
-    code: "12165/12168/12171/12175/12180/12185/12188/12191/12195/12166/12169/12172/12176/12181/12186/12189/12192/12196",
-    size: "3,5,8,10,15,20,25,30,35 Ltr.",
-    button: "Details"
-  },
-  {
-    id: 167,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic67,
-    title: "BATH TAB",
-    code: "17051/17052",
-    color: "RED/WHITE",
-    button: "Details"
-  },
-
-  {
-    id: 169,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic69,
-    title: "RECTANGULAR SOAP CASE",
-    code: "17160/17161",
-    color: "PINK/YELLOW",
-    size: "RECTANGULAR",
-    button: "Details"
-  },
-  
-  // {
-  //   id: 170,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic70,
-  //   title: "RELAX CHAIR(DESIGN)",
-  //   code: "21171/21172/21174/21175/21176/21177",
-  //   color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 171,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic71,
-  //   title: "DECO(FLOWER)",
-  //   code: "21401/21402/21403/21404/21405",
-  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 172,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic72,
-  //   title: "DECO(STICK)",
-  //   code: "21421/21422/21423/21424/21425",
-  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-  //   button: "Details"
-  // },
-  // {
-  //   id: 173,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic73,
-  //   title: "DINNING CHAIR(E-MAT)",
-  //   code: "21221/21222/21223/21224/21225",
-  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 174,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic74,
-  //   title: "GARDEN CHAIR (FLOWER)",
-  //   code: "21161/21162/21163/21164/21165/21166",
-  //   color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 175,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic75,
-  //   title: "GOLDEN CHAIR(STICK)",
-  //   code: "21321/21322/21323/21324/21325",
-  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 178,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic78,
-  //   title: "  GARDEN CHAIR(E-MAT)",
-  //   code: "21331/21332/21333/21334/21335",
-  //   color: "#ba5645/#336699/#009999/#4e2d26/#a6976f",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 179,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic79,
-  //   title: "KING SUPER CHAIR(DESIGN)",
-  //   code: "21141/21142/21143/21144/21145/21146/21147",
-  //   color: "#ba5645/#336699/#009999/#4e2d26/#9c8363/#004d4d/#a3a375",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 180,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic80,
-  //   title: "PRESIDENT CHAIR",
-  //   code: "21181/21182/21183/21184/21185",
-  //   color: "#ba5645/#336699/#4e2d26/#8c765a/#a6976f",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 181,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic81,
-  //   title: "DINNING CHAIR(DESIGN)",
-  //   code: "21201/21202/21203/21204/21205",
-  //   color: "#ba5645/#336699/#009999/#563933/#8c765a",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 182,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic82,
-  //   title: "DINNING CHAIR(4 STICK)",
-  //   code: "21211/21212/21213/21214/21215",
-  //   color: "#ba5645/#336699/#009999/#563933/#8c765a",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 183,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic83,
-  //   title: "CROWN CHAIR(DESIGN)",
-  //   code: "21231/21232/21234/21235/21236/21237",
-  //   color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 184,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic84,
-  //   title: "CROWN CHAIR(BATON)",
-  //   code: "21251/21252/21254/21255/21256/21257",
-  //   color: "#ba5645/#336699/#4e2d26/ #8c765a/#004d4d/#a6976f",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 176,
-  //   category: "PLASTIC FURNITURE",
-  //   imgSrc: plastic76,
-  //   title: "FISH CRATE",
-  //   code: "15250/15251/15252",
-  //   color: "#ba5645/#336699/#e68a00",
-  //   size: "RECTANGULAR",
-  //   button: "Details"
-  // },
-
-  // {
-  //   id: 185,
-  //   category: "PLASTIC HOUSEHOLD",
-  //   imgSrc: plastic85,
-  //   title: "LAUNDRY BASKET",
-  //   code: "15206/15207/15208",
-  //   color: "RED/BLUE/YELLOW",
-  //   button: "Details"
-  // },
-  {
-    id: 186,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic86,
-    title: "RECTANGULAR CONTAINER SET",
-    code: "17124",
-    color: "RGBA(0,0,0,0.3)",
-    size: "1000,2000,3000 ml",
-    button: "Details"
-  },
-
-  {
-    id: 187,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic88,
-    title: "MEDIUM STOOL",
-    code: "23101/23102",
-    color: "red/blue",
-    size: "short",
-    button: "Details"
-  },
-  {
-    id: 188,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic89,
-    title: "DELUX JUG(Close Handle)",
-    code: "13115/13116",
-    color: "red/blue",
-    size: "3Ltr.",
-    button: "Details"
-  },
-  {
-    id: 189,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic90,
-    title: "DESIGN JUG(Close Handle)",
-    code: "13108/13109/13111/13112",
-    color: "red/blue/pink/ #4d4dff",
-    size: "3Ltr.",
-    button: "Details"
-  },
-  {
-    id: 190,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic91,
-    title: "DESIGN JUG(Open Handle)",
-    code: "13101/13102/13105/13106",
-    color: "red/blue/red/blue",
-    size: "2.5, 2.5, 3 ,3Ltr.",
-    button: "Details"
-  },
-  {
-    id: 191,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic92,
-    title: "DRINKING GLASS",
-    code: "14222/14223",
-    color: "#00cc00/PINK",
-    button: "Details"
-  },
-  {
-    id: 192,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic87,
-    title: "ROUND CONTAINER",
-    code: "17144",
-    color: "RGBA(0,0,0,0.3)",
-    size: "1800,2800,4200 ml",
-    button: "Details"
-  },
-  {
-    id: 196,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic93,
-    title: "DUST PAN",
-    code: "17041/17042",
-    color: "RED/BLUE",
-    button: "Details"
-  },
-  // again bucket start
-
-  // {
-  //   id: 196,
-  //   category: "PLASTIC HOUSEHOLD",
-  //   imgSrc: plastic97,
-  //   title: "Design Bucket (Without Lid Plastic Handle)",
-  //   code : "11105/11106/11107/11108/11110/11111/11116/11117/11120/11121/11125/11126/11130/11131",
-  //   color : "RED/blue",
-  //   // longCode : "11240,11245,11251,11255,11258,11261,11264,11267,11270",
-  //   size : "5,8,10,16,20,25,30 Ltr."
-  // },
-
-  {
-    id: 199,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic100,
-    title: "SPICE POT",
-    code: "17028/17029",
-    color: "#ffb3b3/#b3b3ff",
-    size: "5,8,10,16,20,25,30 Ltr.",
-    button: "Details"
-  },
-
-  {
-    id: 200,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic101,
-    title: "SQUARE RACK",
-    code: "16201/16202/16203",
-    color: "RED/BLUE/ORANGE",
-    size: "SQUARE",
-    button: "Details"
-  },
-
-  {
-    id: 201,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic102,
-    title: "SQUARE RACK(DELUX)",
-    code: "16216/16217",
-    color: "RED/BLUE",
-    size: "SQUARE",
-    button: "Details"
-  },
-
-  {
-    id: 202,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic103,
-    title: "VEGETABLE WASHING NET",
-    code: "17095/17096/17101/17102",
-    color: "RED/BLUE/RED/BLUE",
-    size: "32, 36 Cm",
-    button: "Details"
-  },
-
-  // {
-  //   id: 208,
-  //   category: "PLASTIC HOUSEHOLD",
-  //   imgSrc: plastic104,
-  //   title: "DESIGN BUCKET(STEEL HANDLE)",
-  //   code : "11206/11208/11211/11217/11221/11226/11231",
-  //   color : "BLUE/BLUE/BLUE/BLUE/BLUE/BLUE/BLUE",
-  //   size : "5,8,10,16,20,25,30 Ltr."
-  // },
-
-  //   height prb
-  // {
-  //   id: 204,
-  //   category: "PLASTIC HOUSEHOLD",
-  //   imgSrc: plastic105,
-  //   title: "DRUAM BUCKET",
-  //   code: "11445/11446/11460/11461",
-  //   color: "RED/BLUE/RED/BLUE",
-  //   size: "45,60 Ltr.",
-  // },
-
-  // {
-  //   id: 205,
-  //   category: "PLASTIC HOUSEHOLD",
-  //   imgSrc: plastic106,
-  //   title: "STORAGE CONTAINER",
-  //   code: "17185/17186",
-  //   color: "BLUE/PINK",
-  //   size: "15 Ltr.",
-  // },
-
-  {
-    id: 206,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: plastic107,
-    title: "EGG BOX",
-    code: "17013/17014",
-    color: "YELLOW/PINK",
-    button: "Details"
-  },
-
    //   //    //                                      upvc
 //  pic valo nah
   // {
