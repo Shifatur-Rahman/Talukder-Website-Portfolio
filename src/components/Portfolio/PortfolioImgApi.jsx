@@ -264,7 +264,26 @@ import plastichousehold7 from "../../asset/images/plastic/household items/07.jpg
 import plastichousehold8 from "../../asset/images/plastic/household items/08.jpg";
 import plastichousehold9 from "../../asset/images/plastic/household items/09.jpg";
 import plastichousehold10 from "../../asset/images/plastic/household items/10.jpg";
-
+import plastichousehold11 from "../../asset/images/plastic/household items/11.jpg";
+import plastichousehold12 from "../../asset/images/plastic/household items/12.jpg";
+import plastichousehold13 from "../../asset/images/plastic/household items/13.jpg";
+import plastichousehold14 from "../../asset/images/plastic/household items/14.jpg";
+import plastichousehold15 from "../../asset/images/plastic/household items/15.jpg";
+import plastichousehold16 from "../../asset/images/plastic/household items/16.jpg";
+import plastichousehold17 from "../../asset/images/plastic/household items/17.jpg";
+import plastichousehold18 from "../../asset/images/plastic/household items/18.jpg";
+import plastichousehold19 from "../../asset/images/plastic/household items/19.jpg";
+import plastichousehold20 from "../../asset/images/plastic/household items/20.jpg";
+import plastichousehold21 from "../../asset/images/plastic/household items/21.jpg";
+import plastichousehold22 from "../../asset/images/plastic/household items/22.jpg";
+import plastichousehold23 from "../../asset/images/plastic/household items/23.jpg";
+import plastichousehold24 from "../../asset/images/plastic/household items/24.jpg";
+import plastichousehold25 from "../../asset/images/plastic/household items/25.jpg";
+import plastichousehold26 from "../../asset/images/plastic/household items/26.jpg";
+import plastichousehold27 from "../../asset/images/plastic/household items/27.jpg";
+import plastichousehold28 from "../../asset/images/plastic/household items/28.jpg";
+import plastichousehold29 from "../../asset/images/plastic/household items/29.jpg";
+import plastichousehold30 from "../../asset/images/plastic/household items/30.jpg";
 
 //                            chair
 import pchair1 from "../../asset/images/plastic/household/chair/01.jpg";
@@ -3451,6 +3470,113 @@ const portfolioItems = [
     color: "red",
     button: "Details"
   },
+  {
+    id: 1811,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold11,
+    title: "Delux Bowl",
+    code: "12165/12166/12168/12169/12178/12172/12175/12176/12180/12181/12185/12186/12188/12189/12191/12192/12195/12196",
+    color: "red/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue",
+    size: "3 Ltr, 5 Ltr, 8Ltr, 10Ltr, 15Ltr, 20 Ltr, 25 Ltr, 30 Ltr, 35 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1812,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold12,
+    title: "Design Bowl",
+    code: "12118/12119/12131/12132/12141/12142/12151/12152/12161/12162",
+    color: "red/blue/red/blue/red/blue/red/blue/red/blue",
+    size: "3 Ltr, 8 Ltr, 15 Ltr, 20 Ltr, 25 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1813,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold13,
+    title: "Design Bucket With Lid",
+    code: "11106/11108/11111/11117/11121/11126/11131",
+    color: "blue/blue/blue/blue/blue/blue/blue",
+    size: "5 Ltr, 8 Ltr, 10 Ltr, 16 Ltr, 20 Ltr, 25 Ltr, 30 Ltr",
+    button: "Details"
+  },
+  {
+    id: 1814,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold10,
+    title: "Spicy Tray",
+    code: "17031",
+    color: "red",
+    button: "Details"
+  },
+  {
+    id: 1815,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold10,
+    title: "Spicy Tray",
+    code: "17031",
+    color: "red",
+    button: "Details"
+  },
+  {
+    id: 1816,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold10,
+    title: "Spicy Tray",
+    code: "17031",
+    color: "red",
+    button: "Details"
+  },
+  {
+    id: 1817,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold10,
+    title: "Spicy Tray",
+    code: "17031",
+    color: "red",
+    button: "Details"
+  },
+  {
+    id: 1818,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold10,
+    title: "Spicy Tray",
+    code: "17031",
+    color: "red",
+    button: "Details"
+  },
+  {
+    id: 1819,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold10,
+    title: "Spicy Tray",
+    code: "17031",
+    color: "red",
+    button: "Details"
+  },
+  {
+    id: 1820,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: plastichousehold10,
+    title: "Spicy Tray",
+    code: "17031",
+    color: "red",
+    button: "Details"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   //                          plastic  chair
