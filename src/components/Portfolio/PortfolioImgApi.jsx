@@ -3570,25 +3570,20 @@ const portfolioItems = [
   id: 827,
   category: "PLASTIC FURNITURE",
   imgSrc: dTable27,
-  title: "Coffee table",
-  code: "25245/25246/25247",
-  color: "#F3B016/#ac7339/#9C1C1E",
+  title: "4 seated round table",
+  code: "24126/24127/24128/24129/24130",
+  color: "red/#003d99/#9C1C1E/#F3B016/#00cc99",
   button: "Details"
 },
 {
   id: 828,
   category: "PLASTIC FURNITURE",
   imgSrc: dTable28,
-  title: "Coffee table",
-  code: "25245/25246/25247",
-  color: "#F3B016/#ac7339/#9C1C1E",
+  title: "4 seated round table",
+  code: "24126/24127/24128/24129/24130",
+  color: "red/#003d99/#9C1C1E/#F3B016/#00cc99",
   button: "Details"
 },
-
-
-
-
-
 
  //           plastic household    
  //                   upcoming products
@@ -3602,7 +3597,7 @@ const portfolioItems = [
   color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
   size: `16", 18", 21"`,
   button: "Details"
- },
+ }, 
  {
   id: 1602,
   category: "PLASTIC HOUSEHOLD",
