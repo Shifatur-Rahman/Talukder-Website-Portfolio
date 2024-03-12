@@ -3446,15 +3446,144 @@ const portfolioItems = [
   imgSrc: dTable13,
   title: "6 seated square table",
   code: "24219/24220/24221",
-  color: "#F3B016/#996633/#9C1C1E",
+  color: "#F3B016/#000/#9C1C1E",
   button: "Details"
 },
-
-
-
-
-
-
+{
+  id: 814,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable14,
+  title: "6 seated square table",
+  code: "24219/24220/24221",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 815,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable15,
+  title: "6 seated square table",
+  code: "24222/24223/24224",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 816,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable16,
+  title: "6 seated square table",
+  code: "24222/24223/24224",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 817,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable17,
+  title: "6 seated semi oval table",
+  code: "24225/24226/24227",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 818,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable18,
+  title: "6 seated semi oval table",
+  code: "24225/24226/24227",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 819,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable19,
+  title: "6 seated semi oval table",
+  code: "24228/24229/24230",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 820,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable20,
+  title: "6 seated semi oval table",
+  code: "24228/24229/24230",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 821,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable21,
+  title: "6 seated oval table",
+  code: "25231/25232/25233",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 822,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable22,
+  title: "6 seated oval table",
+  code: "25234/25235/25236",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 823,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable23,
+  title: "T Classic table",
+  code: "25240/25241/25242",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 824,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable24,
+  title: "T Classic table",
+  code: "25240/25241/25242",
+  color: "#F3B016/#000/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 825,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable25,
+  title: "Coffee table",
+  code: "25245/25246/25247",
+  color: "#F3B016/#ac7339/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 826,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable26,
+  title: "Coffee table",
+  code: "25245/25246/25247",
+  color: "#F3B016/#ac7339/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 827,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable27,
+  title: "Coffee table",
+  code: "25245/25246/25247",
+  color: "#F3B016/#ac7339/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 828,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable28,
+  title: "Coffee table",
+  code: "25245/25246/25247",
+  color: "#F3B016/#ac7339/#9C1C1E",
+  button: "Details"
+},
 
 
 
