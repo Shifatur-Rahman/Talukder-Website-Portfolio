@@ -430,6 +430,42 @@ import waredrobe38 from "../../asset/images/plastic/furniture/waredrobe/38.jpg";
 import waredrobe39 from "../../asset/images/plastic/furniture/waredrobe/39.jpg";
 import waredrobe40 from "../../asset/images/plastic/furniture/waredrobe/40.jpg";
 
+//                     plastic dinning table
+
+import dTable1 from "../../asset/images/plastic/furniture/table/1.jpg";
+import dTable2 from "../../asset/images/plastic/furniture/table/2.jpg";
+import dTable3 from "../../asset/images/plastic/furniture/table/3.jpg";
+import dTable4 from "../../asset/images/plastic/furniture/table/4.jpg";
+import dTable5 from "../../asset/images/plastic/furniture/table/5.jpg";
+import dTable6 from "../../asset/images/plastic/furniture/table/6.jpg";
+import dTable7 from "../../asset/images/plastic/furniture/table/7.jpg";
+import dTable8 from "../../asset/images/plastic/furniture/table/8.jpg";
+import dTable9 from "../../asset/images/plastic/furniture/table/9.jpg";
+import dTable10 from "../../asset/images/plastic/furniture/table/10.jpg";
+import dTable11 from "../../asset/images/plastic/furniture/table/11.jpg";
+import dTable12 from "../../asset/images/plastic/furniture/table/12.jpg";
+import dTable13 from "../../asset/images/plastic/furniture/table/13.jpg";
+import dTable14 from "../../asset/images/plastic/furniture/table/14.jpg";
+import dTable15 from "../../asset/images/plastic/furniture/table/15.jpg";
+import dTable16 from "../../asset/images/plastic/furniture/table/16.jpg";
+import dTable17 from "../../asset/images/plastic/furniture/table/17.jpg";
+import dTable18 from "../../asset/images/plastic/furniture/table/18.jpg";
+import dTable19 from "../../asset/images/plastic/furniture/table/19.jpg";
+import dTable20 from "../../asset/images/plastic/furniture/table/20.jpg";
+import dTable21 from "../../asset/images/plastic/furniture/table/21.jpg";
+import dTable22 from "../../asset/images/plastic/furniture/table/22.jpg";
+import dTable23 from "../../asset/images/plastic/furniture/table/23.jpg";
+import dTable24 from "../../asset/images/plastic/furniture/table/24.jpg";
+import dTable25 from "../../asset/images/plastic/furniture/table/25.jpg";
+import dTable26 from "../../asset/images/plastic/furniture/table/26.jpg";
+import dTable27 from "../../asset/images/plastic/furniture/table/27.jpg";
+import dTable28 from "../../asset/images/plastic/furniture/table/28.jpg";
+
+
+
+
+
+
 
 //     Toys
 
@@ -3293,6 +3329,135 @@ const portfolioItems = [
 
 
 
+//        plastic Dinning Table
+
+
+{
+  id: 801,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable1,
+  title: "4 seated square table",
+  code: "24201/24202/24203",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 802,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable2,
+  title: "4 seated square table",
+  code: "24201/24202/24203",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 803,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable3,
+  title: "4 seated square table",
+  code: "24204/24205/24206",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 804,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable4,
+  title: "4 seated square table",
+  code: "24204/24205/24206",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 805,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable5,
+  title: "8 seated square Deco table",
+  code: "24207/24208/24209",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 806,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable6,
+  title: "8 seated square Deco table",
+  code: "24207/24208/24209",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 807,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable7,
+  title: "8 seated square Deco table",
+  code: "24210/24211/24212",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 808,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable8,
+  title: "8 seated square Deco table",
+  code: "24210/24211/24212",
+  color: "#F3B016/#3E1B0C/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 809,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable9,
+  title: "Baby Reading table",
+  code: "24213/24214/24215",
+  color: "#F3B016/#2B60AD/red",
+  button: "Details"
+},
+{
+  id: 810,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable10,
+  title: "Baby Reading table",
+  code: "24213/24214/24215",
+  color: "#F3B016/#2B60AD/red",
+  button: "Details"
+},
+{
+  id: 811,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable11,
+  title: "Restaurent table",
+  code: "24216/24217/24218",
+  color: "#F3B016/#996633/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 812,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable12,
+  title: "Restaurent table",
+  code: "24216/24217/24218",
+  color: "#F3B016/#996633/#9C1C1E",
+  button: "Details"
+},
+{
+  id: 813,
+  category: "PLASTIC FURNITURE",
+  imgSrc: dTable13,
+  title: "6 seated square table",
+  code: "24219/24220/24221",
+  color: "#F3B016/#996633/#9C1C1E",
+  button: "Details"
+},
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3339,7 +3504,120 @@ const portfolioItems = [
   size: `3", 4.5", 6.5"`,
   button: "Details"
  },
-
+ {
+  id: 1605,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming5,
+  title: "Flower Crystal Jug",
+  code: "29120/29121/29122/29123",
+  color: "pink/white/green/orange",
+  size: `2.5 Ltr.`,
+  button: "Details"
+ },
+ {
+  id: 1606,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming6,
+  title: "Crown Crystal Jug",
+  code: "29124/29125/29126/29127",
+  color: "pink/white/green/orange",
+  size: `2 Ltr.`,
+  button: "Details"
+ },
+ {
+  id: 1607,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming7,
+  title: "Tulip Jug",
+  code: "29130/29131/29132",
+  color: "pink/red/green",
+  size: `3.5 Ltr.`,
+  button: "Details"
+ },
+ {
+  id: 1608,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming8,
+  title: "Folding Baby Hanger",
+  code: "29140/29141/29142/29143",
+  color: "pink/blue/red/paste",
+  button: "Details"
+ },
+ {
+  id: 1609,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming9,
+  title: "Round Baby Hanger",
+  code: "29151/29152/29153/29154",
+  color: "pink/blue/red/paste",
+  button: "Details"
+ },
+ {
+  id: 1610,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming10,
+  title: "Flower Baby Hanger",
+  code: "29155/29156/29157/29158",
+  color: "pink/blue/red/paste",
+  button: "Details"
+ },
+ {
+  id: 1611,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming11,
+  title: "Round Paddle Bin",
+  code: "29160/29161/29162/29163/29164/29165",
+  color: "black/blue/red/black/blue/red",
+  size: `15 Ltr., 20 Ltr.`,
+  button: "Details"
+ },
+ {
+  id: 1612,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming12,
+  title: "Square Paddle Bin",
+  code: "29170/29171/29172/29173/29174/29175",
+  color: "black/blue/red/black/blue/red",
+  size: `15 Ltr., 20 Ltr.`,
+  button: "Details"
+ },
+ {
+  id: 1613,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming13,
+  title: "Picnic Basket",
+  code: "29180/29181/29182/29183",
+  color: "#efcca2/red/blue/pink",
+  button: "Details"
+ },
+ {
+  id: 1614,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming14,
+  title: "Smart Wall Hanger",
+  code: "29181/29182/29183",
+  color: "red/blue/pink",
+  button: "Details"
+ },
+ {
+  id: 1615,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming15,
+  title: "Chair Baby Potty",
+  code: "29184/29185/29186",
+  color: "blue/red/pink",
+  size: `Regular`,
+  button: "Details"
+ },
+ {
+  id: 1616,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: plasticUpcoming16,
+  title: "Kids Reading Table",
+  code: "29190/29191/29192/29193",
+  color: "pink/red/blue/green",
+  button: "Details"
+ },
  
  
 
@@ -4152,6 +4430,8 @@ const portfolioItems = [
     size: "High/Medium",
     button: "Details"
   },
+
+  //                                    plastic table series
 
 
 
