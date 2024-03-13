@@ -5,7 +5,7 @@ import "./UpvcModal1.css"
 
 const UpvcModal1 = (props) => {
 
-     const { title, category, code, size, thickness, img, id, longLength } = props;
+     const { title, category, code, size, thickness, img, id, longLength, longColor } = props; 
     // const values = [true];
     // const [lgShow, setLgShow] = useState(true);
     // const [show, setShow] = useState(false);
@@ -214,10 +214,7 @@ const UpvcModal1 = (props) => {
               >
                 Color
               </th>
-
-
             </tr>
-
           </thead>
 
           <tbody>
@@ -279,7 +276,7 @@ const UpvcModal1 = (props) => {
                 ))}
               </th>
 
-              {/* <th>
+              <th>
                 {longLength.split("/").map((longLength, index) => (
                   <tr key={index}>
                     <td
@@ -296,7 +293,26 @@ const UpvcModal1 = (props) => {
                     </td>
                   </tr>
                 ))}
-              </th> */}
+              </th>
+
+              <th>
+                {longColor.split("/").map((longColor, index) => (
+                  <tr key={index}>
+                    <td
+                      style={{
+                        fontSize: "10px",
+                        textAlign: "center",
+                        margin: "0",
+                        padding: "5px 0 0 0",
+                        width: "150px",
+                        textAlign: "left"
+                      }}
+                    >
+                      {longColor}
+                    </td>
+                  </tr>
+                ))}
+              </th>
 
             </tr>
           </tbody>

@@ -4958,281 +4958,399 @@ const portfolioItems = [
     longLength: `6mtr/6mtr/6mtr/6mtr/6mtr/6mtr`,
     longColor: `Gray(Customize)/Gray(Customize)/Gray(Customize)/Gray(Customize)/Gray(Customize)/Gray(Customize)`
   },
+  
   {
     id: 302,
     category: "upvc",
-    title: "Soap case",
-    imgSrc: upvc2,
+    title: "B Class Pipe",
+    imgSrc: upvc1,
     button: "Details",
-    longCode: "34280/34281",
-    longSize: "Wall Soap Case (White)/Wall Soap Case (Pink)",
+    longCode: "31301/31305/31401/31501/31605/31801/32100/32120/32140/32160",
+    longSize: `3"/3"/4"/5"/6"/8"/10"/12"/14"/16"`,
+    longThickness: `2.9~3.4/2.9~3.4/3.4~4.0/3.8~4.4/4.5~5.2/5.3~6.1/6.6~7.6/7.8~9.0/8.5~9.8/9.7~11.2`,
+    longLength: `6mtr/3mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr`,
+    longColor: `Gray/white/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
   },
   {
     id: 303,
     category: "upvc",
     imgSrc: upvc3,
-    title: "Thread Pipe",
+    title: "C Class Pipe",
     button: "Details",
-    longCode: "31019/31020/31022/31023/31025/31026/31028/31029/31031/31032/31034/31035",
-    longSize: `0.5"X10' Thread Pipe (Gray)/0.5"X10' Thread Pipe (Green)/0.75"X10' Thread Pipe (Gray)/0.75"X10' Thread Pipe (Green)/1"X10' Thread Pipe (Gray)/1"X10' Thread Pipe (Green)/1.25"X10' Thread Pipe (Gray)/1.25"X10' Thread Pipe (Green)/1.5"X10' Thread Pipe (Gray)/1.5"X10' Thread Pipe (Green)/2"X10' Thread Pipe (Gray)/2"X10' Thread Pipe (Green) `,
-    longThickness: "3.1~3.4/3.1~3.4/3.2~3.5/3.2~3.5/3.8~4.2/3.8~4.2/4.2~4.5/4.2~4.5/4.0~4.4/4.0~4.4/4.4~4.8/4.4~4.8",
+    longCode: "31201/31202/31210/31213/31405/31505/31610/31805/31806/32105/32125/32126/32145/32165",
+    longSize: `2"/2"/3"/3"/4"/5"/6"/8"/8"/10"/12"/12"/14"/16"`,
+    longThickness: `2.5~3.0/2.5~3.0/3.5~4.1/3.5~4.1/4.5~5.2/5.5~6.4/6.6~7.6/7.8~9.0/7.8~9.0/9.7~11.2/11.5~13.3/11.5~13.3/12.6~14.5/14.5~16.7`,
+    longLength: `15ft/10ft/6ft/3mtr/6mtr/6mtr/6mtr/6mtr/3mtr/6mtr/6mtr/3mtr/6mtr/6mtr`,
+    longColor: `Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
   },
   {
     id: 304,
     category: "upvc",
-    imgSrc: upvc16,
-    title: "Iso standard swr pipe",
+    imgSrc: upvc3,
+    title: "D Class Pipe",
     button: "Details",
-    longCode: "34100/34101/34111/34112/34121/34122/34151/34152/34161/34162/34171/34172/34181/34182/34186/34187/34191/34192/34200/34201/34221/34222/34231/34232",
-    longSize: `32mm x 3mtr SWR Pipe (Gray)/32mm x 3mtr SWR Pipe (White)/40mm x 3mtr SWR Pipe (Gray)/ 40mm x 3mtr SWR Pipe (White)/ 50mm x 3mtr SWR Pipe (Gray)/50mm x 3mtr SWR Pipe (White)/100mm x 6mtr SWR Pipe (Gray)/100mm x 6mtr SWR Pipe (White)/110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)//110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)/110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)/160mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)//160mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)/160mm x 6mtr SWR Pipe (White)/200mm x 6mtr SWR Pipe (Gray)/200mm x 6mtr SWR Pipe (White)/200mm x 6mtr SWR Pipe (Gray)/200mm x 6mtr SWR Pipe (White) `,
-    longThickness: `1.6~1.9/1.6~1.9/1.6~1.9/1.6~1.9/2.0~2.4/2.0~2.4/2.4~2.7/2.4~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4/3.4~3.8/3.4~3.8/3.0~3.4/3.0~3.4/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0`
+    longCode: "31150/31151/31205/31315/31410/31507/31615/31810/32129/32148/32168/31125",
+    longSize: `1.5"/1.5"/2"/3"/4"/5"/6"/8"/12"/14"/16"/1.25"`,
+    longThickness: `2.5~3.0/2.5~3.0/3.1~3.7/4.6~5.3/6.0~6.9/7.3~8.0/8.8~10.2/10.2~11.9/15.2~17.5/16.7~19.2/19.0~21.9/2.2~2.7`,
+    longLength: `15ft/15ft/15ft/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/10ft`,
+    longColor: `Gray/white/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
   },
   {
     id: 305,
     category: "upvc",
-    imgSrc: upvc5,
-    title: "Class pipe(continue)",
+    imgSrc: upvc3,
+    title: "E Class Pipe",
     button: "Details",
-    longCode: "31810/31815/32100/32105/32120/32125/32126/32140/32145/32160/32165/32180/32185",
-    longSize: `8"x6 mtr BS Class D Pipe (Gray)/ 8"x6 mtr BS Class E Pipe (Gray)/10"x6 mtr BS Class B Pipe (Gray)/10"x6 mtr BS Class C Pipe (Gray)/12"x6 mtr BS Class B Pipe (Gray)/12"x6 mtr BS Class C Pipe (Gray)/12"x3 mtr BS Class C Pipe (Gray)/14"x6 mtr BS Class B Pipe (Gray)/14"x6 mtr BS Class C Pipe (Gray)/16"x6 mtr BS Class B Pipe (Gray)/16"x6 mtr BS Class C Pipe (Gray)/18"x6 mtr BS Class B Pipe (Gray)/18"x6 mtr BS Class C Pipe (Gray) `,
-    longThickness: `10.2~11.9/12.6~14.5/6.6~7.6/9.7~11.2/7.8~9.0/11.5~13.3/11.5~13.3/18.5~9.8/12.6~14.5/9.7~11.2/14.5~16.7/11.0~12.7/16.3~18.8`
+    longCode: "31210/31320/31415/31620/31815/32132/32150/31010/31013/31125",
+    longSize: `2"/3"/4"/6"/8"/12"/14"/0.5"/0.75"/1.25"`,
+    longThickness: `3.9~4.5/5.7~6.6/7.3~8.4/10.8~12.5/12.6~14.5/18.6~21.7/20.5~23.5/1.7~2.1/1.9~2.3/2.2~2.7`,
+    longLength: `15ft/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/10ft/10ft/10ft`,
+    longColor: `Gray/white/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
   },
   {
     id: 306,
     category: "upvc",
-    imgSrc: upvc6,
-    title:"Class Pipe",
+    imgSrc: upvc3,
+    title: "Gold Series Pipe",
     button: "Details",
-    longCode:"31150/31151/31201/31205/31301/31305/31310/31315/31320/31401/31405/31410/31415/31501/31505/31507/31605/31610/31615/31620/31801/31805",
-    longSize: `1.5"x15' BS Class D Pipe (Gray)/1.5"x15' BS Class D Pipe (White)/2"x15' BS Class C Pipe (Gray)/2"x15' BS Class D Pipe (Gray)/3"x6' BS Class B Pipe (Gray)/3"x3' BS Class B Pipe (White)/3"x6' BS Class C Pipe (Gray)/3"x6' BS Class D Pipe (Gray)/3"x6' BS Class E Pipe (Gray)/4"x6' BS Class B Pipe (Gray)/4"x6' BS Class C Pipe (Gray)/4"x6' BS Class D Pipe (Gray)/4"x6' BS Class E Pipe (Gray)/5"x6' BS Class B Pipe (Gray)/5"x6' BS Class C Pipe (Gray)/5"x6' BS Class D Pipe (Gray)/6"x6' BS Class B Pipe (Gray)/6"x6' BS Class C Pipe (Gray)/6"x6' BS Class D Pipe (Gray)/6"x6' BS Class E Pipe (Gray)/8"x6' BS Class B Pipe (Gray)/8"x6' BS Class C Pipe (Gray)`,
-    longThickness: `2.5~3.0/2.5~3.0/2.5~3.0/3.1~3.7/2.9~3.4/2.9~3.4/3.5~4.1/4.6~5.3/5.7~6.6/3.4~4.0/4.5~5.2/6.0~6.9/7.3~8.4/3.8~4.4/5.5~6.4/7.3~8.0/4.5~5.2/6.6~7.6/6.8~10.2/10.8~12.5/5.3~6.1/7.3~8.0`
+    longCode: "36340/36341/36452/36453/36455/36456/36458/36459/36540/31425/31426/31542/36843",
+    longThickness: `2.2~2.5/2.2~2.5/2.8~3.1/2.8~3.1/2.2~2.5/2.2~2.5/1.9~2.0/1.9~2.0/3.2~3.5/2.8~3.0/2.7/3.5/2.8~3.0 `,
+    longSize: `3"/3"/110mm/110mm/110mm/110mm/110mm/110mm/5"/4"/4"/5"/200mm`,
+    longLength: `6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr`,
+    longColor: `Gray/white/Gray/white/Gray/white/Gray/Gray/Gray/Gray/white/Gray/Gray`
+  },
+  {
+    id: 307,
+    category: "upvc",
+    imgSrc: upvc3,
+    title: "Gold Series Filter Pipe",
+    button: "Details",
+    longCode: "37315/37316/37320/37432/37433/37434/37435/30424/30429/37509/37511",
+    longThickness: `2.2~2.5/2.2~2.5/2.9/2.8~3.1/2.8~3.1/2.2~2.5/2.2~2.5/2.8~3.0/3.4/3.2~3.5 `,
+    longSize: `3"/3"/3"/110mm/110mm/110mm/110mm/4"/4"/5"/5"`,
+    longLength: `3mtr/3mtr/3mtr/3mtr/3mtr/3mtr/3mtr/3mtr/3mtr/3mtr/3mtr`,
+    longColor: `Gray/white/Gray/Gray/white/Gray/white/Gray/Gray/Gray/Gray`
   },
   {
     id: 308,
     category: "upvc",
-    title: "Pipe cutting filter",
+    imgSrc: upvc3,
+    title: "Standard Pipe",
     button: "Details",
-    imgSrc: upvc8,
-    longCode: "30216/30305/30300/30420/30425/30426/30430/30435/30510/30620",
-    longSize: `2"x3 mtr Regular Super Filter (Gray)/3"x3 mtr Regular Super Filter (Firoza)/3"x3 mtr Shallow Filter (Firoza)/4"x3 mtr Shallow Filter (Firoza)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/5"x3 mtr Regular Super Filter (Gray)/160mm x 3mtr SWR Filter (Gray) `,
-    longThickness: `2.2~2.5/2.4~2.6/2.0~2.2/2.5~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.4~3.8/3.4~3.7/4.0~4.5`
+    longCode: "31156/31157/31160/31161/31165/31166/31175/36459/36540/31425/31426",
+    longThickness: `2.2~2.5/2.2~2.5/2.0~2.3/2.0~2.3/1.4~1.6/1.4~1.6/1.4~1.6/2.0~2.2/2.0~2.2/2.5~2.7/2.8~3.1 `,
+    longSize: `1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/3"/3"`,
+    longLength: `15mtr/15mtr/15mtr/15mtr/15mtr/15mtr/15mtr/6mtr/15mtr/6mtr/6mtr`,
+    longColor: `Gray/white/Gray/white/Gray/white/Firoza/Firoza/Firoza/Firoza/Gray`
   },
   {
     id: 309,
     category: "upvc",
-    imgSrc: upvc9,
-    title: "gold series pipe",
-    longCode: "36340/36341/36452/36453/36455/36456/36458/36459/36540/31425/31426/31542/36823",
-    longSize: `3"x6 mtr Gold Pipe (Gray)/3"x6 mtr Gold Pipe (White)/110mmx6 mtr Gold Pipe (Gray)/110mmx6 mtr Gold Pipe (White)/110mmx6 mtr Gold Super Pipe (Gray)/110mmx6 mtr Gold Super Pipe (White)/110mmx6 mtr Gold Economic Pipe (Gray)/110mmx6 mtr Gold Economic Pipe (Gray)/5"x6 mtr Gold Pipe (Gray)/4"x6 mtr Popular Pipe (Gray)/4"x6 mtr Popular Pipe (White)/5"x6 mtr Popular Pipe (Gray)/200mmx6 mtr Gold Pipe (Gray)`,
-    longThickness: `2.2~2.5/2.2~2.5/2.8~3.1/2.8~3.1/2.2~2.5/2.2~2.5/1.9~2.0/1.9~2.0/3.2~3.5/2.8~3.0/2.7/3.5/2.8~3.0 `,
-    button: "Details"
+    imgSrc: upvc3,
+    title: "Sanitary Pipe",
+    button: "Details",
+    longCode: "34125/34126/34123/34124/34131/34132/34133/34184/34185/34211/34212",
+    longThickness: `1.6~1.8/1.6~1.8/1.6~1.8/1.6~1.8/1.6~1.8/1.6~1.8/1.6~1.8/2.7~30/2.7~30/3.0~34/3.0~34`,
+    longSize: `82mm/82mm/86mm/86mm/110mm/110mm/110mm/160mm/160mm/200mm/200mm`,
+    longLength: `6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr`,
+    longColor: `Gray/white/Gray/white/Gray/white/Firoza/Gray/White/Gray/White`
   },
   {
     id: 310,
     category: "upvc",
-    imgSrc: upvc10,
-    longCode:"37315/37316/37432/37433/37436/37437/37509/30424",
-    longSize: `3"x3 mtr Gold Filter (Gray)/3"x3 mtr Gold Filter (White)/110mmx3mtr Gold Filter (Gray)/110mmx3mtr Gold Filter (White)/110mmx3mtr Gold Super Filter (Gray)/110mmx3mtr Gold Super Filter (White)/5"x3 mtr Gold Filter (Gray)/ 4"x3mtr Popular Filter (Gray) `,
-    longThickness: `2.2~2.5/2.2~2.5/2.8~3.1/2.8~3.1/2.2~2.5/2.2~2.5/3.2~3.5/2.8~3.0`,
-    title:"gold series filter",
-    button: "Details"
+    imgSrc: upvc3,
+    title: "Uttom Pipe",
+    button: "Details",
+    longCode: "31170/31171/31177/31176/31178",
+    longThickness: `2.7/2.7~3.0/3.0~3.4/2.7~3.0/3.0~3.4`,
+    longSize: `110mm/110mm/110mm/110mm`,
+    longLength: `6mtr/6mtr/6mtr/3mtr/3mtr`,
+    longColor: `Gray/Gray/Gray/Gray/Gray`
   },
   {
     id: 311,
     category: "upvc",
-    imgSrc: upvc11,
-    longCode:"30150/30155/30160/30165/30170/30175/30180/37150/37155/37160",
-    longSize: `1.5" Filter #4 (6ft) Pink/1.5" Filter #4 (8ft) Pink/1.5" Filter #4 (10ft) Pink/1.5" Filter #6 (10ft) Pest/1.5" Filter #8 (10ft) Pest/1.5" Filter #10 (10ft) Gray/1.5" Filter Robo(6.5ft) Gray/1.5" T-7 Filter (6ft) Off White//1.5" T-7 Filter (8ft) Off White//1.5" T-7 Filter (9ft) Off White`,
-    longThickness: `1.3~1.5/1.3~1.5/1.3~1.5/1.9~2.1/2.4~2.6/2.7~3.0/2.5~3.0/1.2~1.4/1.2~1.4/1.2~1.4`,
-    title: "Small Dia rib & robo filter",
-    button: "Details"
-  },            
-  {
-    id: 312,
-    category: "upvc",
-    imgSrc: upvc12,
-    longCode: "30205/30210/30310/30315/30320/30325/30400/30405",
-    longSize: `2"x3 mtr BS Class C Filter (Gray)/2"x3 mtr BS Class D Filter (Gray)/3"x3 mtr BS Class B Filter (Gray)/3"x3 mtr BS Class C Filter (Gray)/3"x3 mtr BS Class D Filter (Gray)/3"x3 mtr BS Class E Filter (Gray)/4"x3 mtr BS Class B Filter (Gray)/4"x3 mtr BS Class C Filter (Gray)`,
-    longThickness: `2.5~3.0/3.1~3.7/2.9~3.4/3.5~4.4/4.6~5.3/5.7~6.6/3.4~4.0/4.5~5.2`,
-    // title: "pipe cutting class filter(bigger dia)",
-    title: "pipe cutting class filter",
-    button: "Details"
+    imgSrc: upvc3,
+    title: "Oring Pipe",
+    button: "Details",
   },
-  {
-    id: 313,
-    category: "upvc",
-    imgSrc: upvc13,
-    // title: "pipe cutting class filter(continue)",
-    title: "pipe cutting class filter",
-    longCode: "30410/30415/30500/30505/30508/30600/30605/30610/30615/30800/30801/30805/30806/30810/30815/30100/30103/30105/30106/30120/30125/30140/30145",
-    longSize: `4"x3 mtr BS Class D Filter (Gray)/4"x3 mtr BS Class E Filter (Gray)/5"x3 mtr BS Class B Filter (Gray)/5"x3 mtr BS Class C Filter (Gray)/5"x3 mtr BS Class D Filter (Gray)/6"x3 mtr BS Class B Filter (Gray)/6"x3 mtr BS Class C Filter (Gray)/6"x3 mtr BS Class D Filter (Gray)/6"x3 mtr BS Class E Filter (Gray)/8"x3 mtr BS Class B Filter (Gray)/8"x6 mtr BS Class B Filter (Gray)/8"x3 mtr BS Class C Filter (Gray)/8"x6 mtr BS Class C Filter (Gray)/8"x3 mtr BS Class D Filter (Gray)/8"x3 mtr BS Class E Filter (Gray)/10"x3 mtr BS Class B Filter (Gray)/10"x6 mtr BS Class B Filter (Gray)/10"x3 mtr BS Class C Filter (Gray)/10"x6 mtr BS Class C Filter (Gray)/12"x3 mtr BS Class B Filter (Gray)/12"x3 mtr BS Class C Filter (Gray)/14"x3 mtr BS Class B Filter (Gray)/14"x3 mtr BS Class C Filter (Gray)`,
-    longThickness: `6.0~6.9/7.3~8.4/3.8~4.4/5.5~6.4/7.3~8.0/4.5~5.2/6.6~7.6/8.8~10.2/10.8~12.5/5.3~6.1/5.3~6.1/7.8~9.0/7.8~9.0/10.2~11.9/12.6~14.5/16.6~7.6/6.6~7.6/9.7~11.2/9.7~11.2/7.8~9.0/11.5~13.3/8.5~9.5/12.6~14.5`,
-    button: "Details"
-  },
-  {
-    id: 314,
-    category: "upvc",
-    imgSrc: upvc14,
-    title: "Standard pipe",
-    longCode: "31156/31161/31165/31166/31167/31175/31215/31216/31325/31330/31331/31335/31336/31420/31510/31525/31350",
-    longSize: `1.5"x15' TFL D Pipe (Gray)/1.5"x15' TFL D Pipe (White)/1.5"x15' Regular Super Pipe (Gray)/1.5"x15' Regular Super Pipe (White)/1.5"x15' Regular Super Pipe (Blue)/1.5"x15' Regular Super Pipe (Firoza)/2"x15' Regular Super Pipe (Gray)/2"x15' Regular Super Pipe (White)/3"x6mtr Regular Special Pipe (Firoza)/3"x6mtr Shallow Pipe (Firoza)/3"x15mtr Shallow Pipe (Firoza)/3"x6mtr Regular Super Pipe (Gray)/3"x6mtr Regular Super Pipe (White)/4"x6 mtr Shallow Pipe(Firoza)/5"x6 mtr Regular Super Pipe(Gray)/6"x6 mtr Shallow Pipe(Gray)/8"x6 mtr Regular Super Pipe(Gray)`,
-    longThickness: `2.2~2.4/2.2~2.4/1.4~1.6/1.4~1.6/1.4~1.6/1.4~1.6/2.2~2.5/2.2~2.5/2.4~2.6/2.0~2.2/2.0~2.2/2.4~2.6/2.4~2.6/2.5~2.7/3.5~3.7/4.0~4.3/2.8~3.1`,
-    button: "Details"
-  },
-  {
-    id: 315,
-    category: "upvc",
-    imgSrc: upvc15,
-    title: "Sanitary pipe",
-    longCode: "34123/34124/34131/34132/34141/34142/34184/34185/34211/34212",
-    longSize: `86mmx6mtr Sanitary Pipe (Gray)/86mmx6mtr Sanitary Pipe (White)/110mmx6mtr Economic Sanitary Pipe (Gray)/110mmx6mtr Economic Sanitary Pipe (White)/110mmx6mtr Sanitary Pipe (Gray)/110mmx6mtr Sanitary Pipe (White)/160mmx6mtr Sanitary Pipe (Gray)/160mmx6mtr Sanitary Pipe (White)/200mmx6mtr Sanitary Pipe (Gray)/200mmx6mtr Sanitary Pipe (White)`,
-    longThickness: `1.6~1.8/1.6~1.8/1.6~1.8/1.6~1.8/2.6~2.4/2.6~2.4/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4 `,
-    button: "Details"
-  },
-  {
-    id: 330,
-    category: "upvc",
-    imgSrc: fittings1,
-    title: "uPVC Thread R-Tee",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 331,
-    category: "upvc",
-    imgSrc: fittings2,
-    title: "uPVC Thread Brash Tee",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 334,
-    category: "upvc",
-    imgSrc: fittings5,
-    title: "uPVC Thread Tee",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 333,
-    category: "upvc",
-    imgSrc: fittings4,
-    title: "uPVC Thread Nipple",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 335,
-    category: "upvc",
-    imgSrc: fittings6,
-    title: "UPVC THREAD BRASH TEE",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 332,
-    category: "upvc",
-    imgSrc: fittings3,
-    title: "UPVC THREAD BRASH TEE",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 336,
-    category: "upvc",
-    imgSrc: fittings7,
-    title: "Thread Brass Tee",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 337,
-    category: "upvc",
-    imgSrc: fittings8,
-    title: "Thread Brass Tee",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 338,
-    category: "upvc",
-    imgSrc: fittings9,
-    title: "Thread Brass Tee",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 339,
-    category: "upvc",
-    imgSrc: fittings10,
-    title: "Pipe Fittings",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 340,
-    category: "upvc",
-    imgSrc: fittings11,
-    title: "uPVC Thead Socket",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 341,
-    category: "upvc",
-    imgSrc: fittings12,
-    title: "Pipe Fittings",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 342,
-    category: "upvc",
-    imgSrc: fittings13,
-    title: "Pipe Fittings",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 343,
-    category: "upvc",
-    imgSrc: fittings14,
-    title: "Fittings",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 344,
-    category: "upvc",
-    imgSrc: fittings15,
-    title: "uPVC Thread Tee",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
-  {
-    id: 345,
-    category: "upvc",
-    imgSrc: fittings16,
-    title: "Thread Pipe Fittings",
-    longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
-    longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
-    button: "Details"
-  },
+
+  { 
+      //   aita 12 no. (dlt koro nah)
+      id: 312,
+      category: "upvc",
+      imgSrc: upvc3,
+      title: "swr pipe",
+      button: "Details",
+      longCode: "34100/34101/34111/34112/34121/34122/34151/34152/34161/34162/34171/34172/34181/34182/34186/34187/34191/34192/34200/34201/34221/34222/34231/34232",
+      longSize: `32mm/32mm/40mm/40mm/50mm/50mm/100mm/100mm/110mm/110mm/110mm/110mm/110mm/110mm/160mm/160mm/160mm/160mm/160mm/160mm/200mm/200mm/200mm/200mm`,
+      longThickness: `1.6~1.9/1.6~1.9/1.6~1.9/1.6~1.9/2.0~2.4/2.0~2.4/2.4~2.7/2.4~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4/3.4~3.8/3.4~3.8/3.0~3.4/3.0~3.4/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0`,
+      longLength: `3mtr/3mtr/3mtr/3mtr/3mtr/3mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr`,
+      longColor: `Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White`
+
+    },
+
+
+
+
+  
+  // { 
+  //   //   aita 12 no. (dlt koro nah)
+  //   id: 345,
+  //   category: "upvc",
+  //   imgSrc: upvc16,
+  //   title: "D Class pipe",
+  //   button: "Details",
+  //   longCode: "34100/34101/34111/34112/34121/34122/34151/34152/34161/34162/34171/34172/34181/34182/34186/34187/34191/34192/34200/34201/34221/34222/34231/34232",
+  //   longSize: `32mm x 3mtr SWR Pipe (Gray)/32mm x 3mtr SWR Pipe (White)/40mm x 3mtr SWR Pipe (Gray)/ 40mm x 3mtr SWR Pipe (White)/ 50mm x 3mtr SWR Pipe (Gray)/50mm x 3mtr SWR Pipe (White)/100mm x 6mtr SWR Pipe (Gray)/100mm x 6mtr SWR Pipe (White)/110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)//110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)/110mm x 6mtr SWR Pipe (Gray)/110mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)/160mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)//160mm x 6mtr SWR Pipe (White)/160mm x 6mtr SWR Pipe (Gray)/160mm x 6mtr SWR Pipe (White)/200mm x 6mtr SWR Pipe (Gray)/200mm x 6mtr SWR Pipe (White)/200mm x 6mtr SWR Pipe (Gray)/200mm x 6mtr SWR Pipe (White) `,
+  //   longThickness: `1.6~1.9/1.6~1.9/1.6~1.9/1.6~1.9/2.0~2.4/2.0~2.4/2.4~2.7/2.4~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4/3.4~3.8/3.4~3.8/3.0~3.4/3.0~3.4/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0`
+  // },
+  // {
+  //   id: 308,
+  //   category: "upvc",
+  //   imgSrc: upvc5,
+  //   title: "Class pipe(continue)",
+  //   button: "Details",
+  //   longCode: "31810/31815/32100/32105/32120/32125/32126/32140/32145/32160/32165/32180/32185",
+  //   longSize: `8"x6 mtr BS Class D Pipe (Gray)/ 8"x6 mtr BS Class E Pipe (Gray)/10"x6 mtr BS Class B Pipe (Gray)/10"x6 mtr BS Class C Pipe (Gray)/12"x6 mtr BS Class B Pipe (Gray)/12"x6 mtr BS Class C Pipe (Gray)/12"x3 mtr BS Class C Pipe (Gray)/14"x6 mtr BS Class B Pipe (Gray)/14"x6 mtr BS Class C Pipe (Gray)/16"x6 mtr BS Class B Pipe (Gray)/16"x6 mtr BS Class C Pipe (Gray)/18"x6 mtr BS Class B Pipe (Gray)/18"x6 mtr BS Class C Pipe (Gray) `,
+  //   longThickness: `10.2~11.9/12.6~14.5/6.6~7.6/9.7~11.2/7.8~9.0/11.5~13.3/11.5~13.3/18.5~9.8/12.6~14.5/9.7~11.2/14.5~16.7/11.0~12.7/16.3~18.8`
+  // },
+  // {
+  //   id: 308,
+  //   category: "upvc",
+  //   imgSrc: upvc6,
+  //   title:"Class Pipe",
+  //   button: "Details",
+  //   longCode:"31150/31151/31201/31205/31301/31305/31310/31315/31320/31401/31405/31410/31415/31501/31505/31507/31605/31610/31615/31620/31801/31805",
+  //   longSize: `1.5"x15' BS Class D Pipe (Gray)/1.5"x15' BS Class D Pipe (White)/2"x15' BS Class C Pipe (Gray)/2"x15' BS Class D Pipe (Gray)/3"x6' BS Class B Pipe (Gray)/3"x3' BS Class B Pipe (White)/3"x6' BS Class C Pipe (Gray)/3"x6' BS Class D Pipe (Gray)/3"x6' BS Class E Pipe (Gray)/4"x6' BS Class B Pipe (Gray)/4"x6' BS Class C Pipe (Gray)/4"x6' BS Class D Pipe (Gray)/4"x6' BS Class E Pipe (Gray)/5"x6' BS Class B Pipe (Gray)/5"x6' BS Class C Pipe (Gray)/5"x6' BS Class D Pipe (Gray)/6"x6' BS Class B Pipe (Gray)/6"x6' BS Class C Pipe (Gray)/6"x6' BS Class D Pipe (Gray)/6"x6' BS Class E Pipe (Gray)/8"x6' BS Class B Pipe (Gray)/8"x6' BS Class C Pipe (Gray)`,
+  //   longThickness: `2.5~3.0/2.5~3.0/2.5~3.0/3.1~3.7/2.9~3.4/2.9~3.4/3.5~4.1/4.6~5.3/5.7~6.6/3.4~4.0/4.5~5.2/6.0~6.9/7.3~8.4/3.8~4.4/5.5~6.4/7.3~8.0/4.5~5.2/6.6~7.6/6.8~10.2/10.8~12.5/5.3~6.1/7.3~8.0`
+  // },
+  // {
+  //   id: 308,
+  //   category: "upvc",
+  //   title: "Pipe cutting filter",
+  //   button: "Details",
+  //   imgSrc: upvc8,
+  //   longCode: "30216/30305/30300/30420/30425/30426/30430/30435/30510/30620",
+  //   longSize: `2"x3 mtr Regular Super Filter (Gray)/3"x3 mtr Regular Super Filter (Firoza)/3"x3 mtr Shallow Filter (Firoza)/4"x3 mtr Shallow Filter (Firoza)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/110mm x 3mtr SWR Filter (Gray)/110mm x 3mtr SWR Filter (White)/5"x3 mtr Regular Super Filter (Gray)/160mm x 3mtr SWR Filter (Gray) `,
+  //   longThickness: `2.2~2.5/2.4~2.6/2.0~2.2/2.5~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.4~3.8/3.4~3.7/4.0~4.5`
+  // },
+  // {
+  //   id: 309,
+  //   category: "upvc",
+  //   imgSrc: upvc9,
+  //   title: "gold series pipe",
+  //   longCode: "36340/36341/36452/36453/36455/36456/36458/36459/36540/31425/31426/31542/36843",
+  //   longSize: `3"x6 mtr Gold Pipe (Gray)/3"x6 mtr Gold Pipe (White)/110mmx6 mtr Gold Pipe (Gray)/110mmx6 mtr Gold Pipe (White)/110mmx6 mtr Gold Super Pipe (Gray)/110mmx6 mtr Gold Super Pipe (White)/110mmx6 mtr Gold Economic Pipe (Gray)/110mmx6 mtr Gold Economic Pipe (Gray)/5"x6 mtr Gold Pipe (Gray)/4"x6 mtr Popular Pipe (Gray)/4"x6 mtr Popular Pipe (White)/5"x6 mtr Popular Pipe (Gray)/200mmx6 mtr Gold Pipe (Gray)`,
+  //   longThickness: `2.2~2.5/2.2~2.5/2.8~3.1/2.8~3.1/2.2~2.5/2.2~2.5/1.9~2.0/1.9~2.0/3.2~3.5/2.8~3.0/2.7/3.5/2.8~3.0 `,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 310,
+  //   category: "upvc",
+  //   imgSrc: upvc10,
+  //   longCode:"37315/37316/37432/37433/37436/37437/37509/30424",
+  //   longSize: `3"x3 mtr Gold Filter (Gray)/3"x3 mtr Gold Filter (White)/110mmx3mtr Gold Filter (Gray)/110mmx3mtr Gold Filter (White)/110mmx3mtr Gold Super Filter (Gray)/110mmx3mtr Gold Super Filter (White)/5"x3 mtr Gold Filter (Gray)/ 4"x3mtr Popular Filter (Gray) `,
+  //   longThickness: `2.2~2.5/2.2~2.5/2.8~3.1/2.8~3.1/2.2~2.5/2.2~2.5/3.2~3.5/2.8~3.0`,
+  //   title:"gold series filter",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 311,
+  //   category: "upvc",
+  //   imgSrc: upvc11,
+  //   longCode:"30150/30155/30160/30165/30170/30175/30180/37150/37155/37160",
+  //   longSize: `1.5" Filter #4 (6ft) Pink/1.5" Filter #4 (8ft) Pink/1.5" Filter #4 (10ft) Pink/1.5" Filter #6 (10ft) Pest/1.5" Filter #8 (10ft) Pest/1.5" Filter #10 (10ft) Gray/1.5" Filter Robo(6.5ft) Gray/1.5" T-7 Filter (6ft) Off White//1.5" T-7 Filter (8ft) Off White//1.5" T-7 Filter (9ft) Off White`,
+  //   longThickness: `1.3~1.5/1.3~1.5/1.3~1.5/1.9~2.1/2.4~2.6/2.7~3.0/2.5~3.0/1.2~1.4/1.2~1.4/1.2~1.4`,
+  //   title: "Small Dia rib & robo filter",
+  //   button: "Details"
+  // },            
+  // {
+  //   id: 312,
+  //   category: "upvc",
+  //   imgSrc: upvc12,
+  //   longCode: "30205/30210/30310/30315/30320/30325/30400/30405",
+  //   longSize: `2"x3 mtr BS Class C Filter (Gray)/2"x3 mtr BS Class D Filter (Gray)/3"x3 mtr BS Class B Filter (Gray)/3"x3 mtr BS Class C Filter (Gray)/3"x3 mtr BS Class D Filter (Gray)/3"x3 mtr BS Class E Filter (Gray)/4"x3 mtr BS Class B Filter (Gray)/4"x3 mtr BS Class C Filter (Gray)`,
+  //   longThickness: `2.5~3.0/3.1~3.7/2.9~3.4/3.5~4.4/4.6~5.3/5.7~6.6/3.4~4.0/4.5~5.2`,
+  //   // title: "pipe cutting class filter(bigger dia)",
+  //   title: "pipe cutting class filter",
+  //   button: "Details"
+  // },
+  // {
+  //   id: 313,
+  //   category: "upvc",
+  //   imgSrc: upvc13,
+  //   // title: "pipe cutting class filter(continue)",
+  //   title: "pipe cutting class filter",
+  //   longCode: "30410/30415/30500/30505/30508/30600/30605/30610/30615/30800/30801/30805/30806/30810/30815/30100/30103/30105/30106/30120/30125/30140/30145",
+  //   longSize: `4"x3 mtr BS Class D Filter (Gray)/4"x3 mtr BS Class E Filter (Gray)/5"x3 mtr BS Class B Filter (Gray)/5"x3 mtr BS Class C Filter (Gray)/5"x3 mtr BS Class D Filter (Gray)/6"x3 mtr BS Class B Filter (Gray)/6"x3 mtr BS Class C Filter (Gray)/6"x3 mtr BS Class D Filter (Gray)/6"x3 mtr BS Class E Filter (Gray)/8"x3 mtr BS Class B Filter (Gray)/8"x6 mtr BS Class B Filter (Gray)/8"x3 mtr BS Class C Filter (Gray)/8"x6 mtr BS Class C Filter (Gray)/8"x3 mtr BS Class D Filter (Gray)/8"x3 mtr BS Class E Filter (Gray)/10"x3 mtr BS Class B Filter (Gray)/10"x6 mtr BS Class B Filter (Gray)/10"x3 mtr BS Class C Filter (Gray)/10"x6 mtr BS Class C Filter (Gray)/12"x3 mtr BS Class B Filter (Gray)/12"x3 mtr BS Class C Filter (Gray)/14"x3 mtr BS Class B Filter (Gray)/14"x3 mtr BS Class C Filter (Gray)`,
+  //   longThickness: `6.0~6.9/7.3~8.4/3.8~4.4/5.5~6.4/7.3~8.0/4.5~5.2/6.6~7.6/8.8~10.2/10.8~12.5/5.3~6.1/5.3~6.1/7.8~9.0/7.8~9.0/10.2~11.9/12.6~14.5/16.6~7.6/6.6~7.6/9.7~11.2/9.7~11.2/7.8~9.0/11.5~13.3/8.5~9.5/12.6~14.5`,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 314,
+  //   category: "upvc",
+  //   imgSrc: upvc14,
+  //   title: "Standard pipe",
+  //   longCode: "31156/31161/31165/31166/31167/31175/31215/31216/31325/31330/31331/31335/31336/31420/31510/31525/31350",
+  //   longSize: `1.5"x15' TFL D Pipe (Gray)/1.5"x15' TFL D Pipe (White)/1.5"x15' Regular Super Pipe (Gray)/1.5"x15' Regular Super Pipe (White)/1.5"x15' Regular Super Pipe (Blue)/1.5"x15' Regular Super Pipe (Firoza)/2"x15' Regular Super Pipe (Gray)/2"x15' Regular Super Pipe (White)/3"x6mtr Regular Special Pipe (Firoza)/3"x6mtr Shallow Pipe (Firoza)/3"x15mtr Shallow Pipe (Firoza)/3"x6mtr Regular Super Pipe (Gray)/3"x6mtr Regular Super Pipe (White)/4"x6 mtr Shallow Pipe(Firoza)/5"x6 mtr Regular Super Pipe(Gray)/6"x6 mtr Shallow Pipe(Gray)/8"x6 mtr Regular Super Pipe(Gray)`,
+  //   longThickness: `2.2~2.4/2.2~2.4/1.4~1.6/1.4~1.6/1.4~1.6/1.4~1.6/2.2~2.5/2.2~2.5/2.4~2.6/2.0~2.2/2.0~2.2/2.4~2.6/2.4~2.6/2.5~2.7/3.5~3.7/4.0~4.3/2.8~3.1`,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 315,
+  //   category: "upvc",
+  //   imgSrc: upvc15,
+  //   title: "Sanitary pipe",
+  //   longCode: "34123/34124/34131/34132/34141/34142/34184/34185/34211/34212",
+  //   longSize: `86mmx6mtr Sanitary Pipe (Gray)/86mmx6mtr Sanitary Pipe (White)/110mmx6mtr Economic Sanitary Pipe (Gray)/110mmx6mtr Economic Sanitary Pipe (White)/110mmx6mtr Sanitary Pipe (Gray)/110mmx6mtr Sanitary Pipe (White)/160mmx6mtr Sanitary Pipe (Gray)/160mmx6mtr Sanitary Pipe (White)/200mmx6mtr Sanitary Pipe (Gray)/200mmx6mtr Sanitary Pipe (White)`,
+  //   longThickness: `1.6~1.8/1.6~1.8/1.6~1.8/1.6~1.8/2.6~2.4/2.6~2.4/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4 `,
+  //   button: "Details"
+  // },
+  // {
+  //   id: 330,
+  //   category: "upvc",
+  //   imgSrc: fittings1,
+  //   title: "uPVC Thread R-Tee",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 331,
+  //   category: "upvc",
+  //   imgSrc: fittings2,
+  //   title: "uPVC Thread Brash Tee",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 334,
+  //   category: "upvc",
+  //   imgSrc: fittings5,
+  //   title: "uPVC Thread Tee",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 333,
+  //   category: "upvc",
+  //   imgSrc: fittings4,
+  //   title: "uPVC Thread Nipple",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 335,
+  //   category: "upvc",
+  //   imgSrc: fittings6,
+  //   title: "UPVC THREAD BRASH TEE",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 332,
+  //   category: "upvc",
+  //   imgSrc: fittings3,
+  //   title: "UPVC THREAD BRASH TEE",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 336,
+  //   category: "upvc",
+  //   imgSrc: fittings7,
+  //   title: "Thread Brass Tee",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 337,
+  //   category: "upvc",
+  //   imgSrc: fittings8,
+  //   title: "Thread Brass Tee",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 338,
+  //   category: "upvc",
+  //   imgSrc: fittings9,
+  //   title: "Thread Brass Tee",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 339,
+  //   category: "upvc",
+  //   imgSrc: fittings10,
+  //   title: "Pipe Fittings",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 340,
+  //   category: "upvc",
+  //   imgSrc: fittings11,
+  //   title: "uPVC Thead Socket",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 341,
+  //   category: "upvc",
+  //   imgSrc: fittings12,
+  //   title: "Pipe Fittings",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 342,
+  //   category: "upvc",
+  //   imgSrc: fittings13,
+  //   title: "Pipe Fittings",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 343,
+  //   category: "upvc",
+  //   imgSrc: fittings14,
+  //   title: "Fittings",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 344,
+  //   category: "upvc",
+  //   imgSrc: fittings15,
+  //   title: "uPVC Thread Tee",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
+  // {
+  //   id: 345,
+  //   category: "upvc",
+  //   imgSrc: fittings16,
+  //   title: "Thread Pipe Fittings",
+  //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
+  //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush ',
+  //   button: "Details"
+  // },
   
   //                        UPVC Tubewell
   {

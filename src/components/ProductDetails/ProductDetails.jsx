@@ -218,7 +218,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                             {                          
                               singleItem.longCode &&
-                              <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} />
+                              <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} longLength={singleItem.longLength} longColor={singleItem.longColor} />
                             }
 
                           </TabPanel>
