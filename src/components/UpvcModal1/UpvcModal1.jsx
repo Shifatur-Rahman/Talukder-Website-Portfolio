@@ -5,7 +5,7 @@ import "./UpvcModal1.css"
 
 const UpvcModal1 = (props) => {
 
-     const { title, category, code, size, thickness, img, id } = props;
+     const { title, category, code, size, thickness, img, id, longLength } = props;
     // const values = [true];
     // const [lgShow, setLgShow] = useState(true);
     // const [show, setShow] = useState(false);
@@ -159,6 +159,7 @@ const UpvcModal1 = (props) => {
         <table className="table table-bordered table-sm custom-table">
           <thead>
             <tr>
+
               <th
                 style={{
                   fontSize: "15px",
@@ -169,6 +170,7 @@ const UpvcModal1 = (props) => {
               >
                 Code
               </th>
+
               <th
                 style={{
                   fontSize: "15px",
@@ -179,12 +181,48 @@ const UpvcModal1 = (props) => {
               >
                 Size
               </th>
+
+              <th
+                style={{
+                  fontSize: "15px",
+                  fontWeight: "800",
+                  width: "20px",
+                }}
+                scope="row"
+              >
+                Thickness
+              </th>
+
+              <th
+                style={{
+                  fontSize: "15px",
+                  fontWeight: "800",
+                  width: "20px",
+                }}
+                scope="row"
+              >
+                Length
+              </th>
+
+              <th
+                style={{
+                  fontSize: "15px",
+                  fontWeight: "800",
+                  width: "20px",
+                }}
+                scope="row"
+              >
+                Color
+              </th>
+
+
             </tr>
 
           </thead>
 
           <tbody>
             <tr>
+
               <th>
                 {code.split("/").map((code, index) => (
                   <tr key={index}>
@@ -221,6 +259,45 @@ const UpvcModal1 = (props) => {
                   </tr>
                 ))}
               </th>
+
+              <th>
+                {thickness.split("/").map((thickness, index) => (
+                  <tr key={index}>
+                    <td
+                      style={{
+                        fontSize: "10px",
+                        textAlign: "center",
+                        margin: "0",
+                        padding: "5px 0 0 0",
+                        width: "150px",
+                        textAlign: "left"
+                      }}
+                    >
+                      {thickness}
+                    </td>
+                  </tr>
+                ))}
+              </th>
+
+              {/* <th>
+                {longLength.split("/").map((longLength, index) => (
+                  <tr key={index}>
+                    <td
+                      style={{
+                        fontSize: "10px",
+                        textAlign: "center",
+                        margin: "0",
+                        padding: "5px 0 0 0",
+                        width: "150px",
+                        textAlign: "left"
+                      }}
+                    >
+                      {longLength}
+                    </td>
+                  </tr>
+                ))}
+              </th> */}
+
             </tr>
           </tbody>
 
