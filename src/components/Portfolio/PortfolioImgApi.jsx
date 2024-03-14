@@ -4944,12 +4944,12 @@ const portfolioItems = [
   //   longCode: "33490/33450/33451/33491/33492/33493/33400/33401/33402/33403/33405/33406/33408/33409/33411/33412/33413/33414",
   //   longSize: '4" Plain Bend 90° FF/4" Plain Bend 45° FF/4" Plain Bend 45° MF/4" Black Door Bend 90°/4" Left Door Bend 90°/ 4" Right Door Bend 90°/ 4" Rlain Tee/ 4" Back Door Tee/ 4" Left Door Tee/4" Right Door Tee/ 4" Cross Tee/4" Cross Door Tee/4" U Trap/4" Long Trap/4" Off-Set/4" Pipe Clamp/ 4" Socket/ 4"x2" Reducing Bush '
   // },
-
+  
   {
     id: 1001,
     category: "upvc",
     title: "Buried Pipe",
-    imgSrc: upvc1,
+    imgSrc: upvc3,
     button: "Details",
     longCode: "dummy/33450/33451/33491/33492/33493",
     longSize: '110mm/160mm/200mm/250mm/315mm/400mm',
@@ -4957,12 +4957,11 @@ const portfolioItems = [
     longLength: `6mtr/6mtr/6mtr/6mtr/6mtr/6mtr`,
     longColor: `Gray(Customize)/Gray(Customize)/Gray(Customize)/Gray(Customize)/Gray(Customize)/Gray(Customize)`
   },
-  
   {
     id: 1002,
     category: "upvc",
     title: "B Class Pipe",
-    imgSrc: upvc1,
+    imgSrc: upvc3,
     button: "Details",
     longCode: "31301/31305/31401/31501/31605/31801/32100/32120/32140/32160",
     longSize: `3"/3"/4"/5"/6"/8"/10"/12"/14"/16"`,
@@ -5158,8 +5157,8 @@ const portfolioItems = [
       longColor: `Pink/Pink/Pink/Pest/Red/Gray/Gray/Off White/Off White/Pink/Off White/Pink`
     },
 
-    //                              upvc Fittings
-//      color2 not initialized
+//                              upvc Fittings
+//   color2 not initialized
     {
       id: 1101,
       category: "upvc",
