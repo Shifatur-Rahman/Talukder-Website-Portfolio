@@ -165,6 +165,7 @@ const UpvcModal1 = (props) => {
                   fontSize: "15px",
                   fontWeight: "800",
                   width: "20px",
+                 // textAlign: "center"
                 }}
                 scope="row"
               >
@@ -229,7 +230,8 @@ const UpvcModal1 = (props) => {
                         textAlign: "center",
                         margin: "0",
                         padding: "5px 0 0 0",
-                        width: "5px"
+                        width: "5px",
+
                       }}
                     >
                       {code}

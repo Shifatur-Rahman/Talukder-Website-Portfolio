@@ -4947,7 +4947,7 @@ const portfolioItems = [
   // },
 
   {
-    id: 301,
+    id: 1001,
     category: "upvc",
     title: "Buried Pipe",
     imgSrc: upvc1,
@@ -4960,7 +4960,7 @@ const portfolioItems = [
   },
   
   {
-    id: 302,
+    id: 1002,
     category: "upvc",
     title: "B Class Pipe",
     imgSrc: upvc1,
@@ -4972,7 +4972,7 @@ const portfolioItems = [
     longColor: `Gray/white/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
   },
   {
-    id: 303,
+    id: 1003,
     category: "upvc",
     imgSrc: upvc3,
     title: "C Class Pipe",
@@ -4984,7 +4984,7 @@ const portfolioItems = [
     longColor: `Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
   },
   {
-    id: 304,
+    id: 1004,
     category: "upvc",
     imgSrc: upvc3,
     title: "D Class Pipe",
@@ -4996,7 +4996,7 @@ const portfolioItems = [
     longColor: `Gray/white/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
   },
   {
-    id: 305,
+    id: 1005,
     category: "upvc",
     imgSrc: upvc3,
     title: "E Class Pipe",
@@ -5008,7 +5008,7 @@ const portfolioItems = [
     longColor: `Gray/white/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
   },
   {
-    id: 306,
+    id: 1006,
     category: "upvc",
     imgSrc: upvc3,
     title: "Gold Series Pipe",
@@ -5020,7 +5020,7 @@ const portfolioItems = [
     longColor: `Gray/white/Gray/white/Gray/white/Gray/Gray/Gray/Gray/white/Gray/Gray`
   },
   {
-    id: 307,
+    id: 1007,
     category: "upvc",
     imgSrc: upvc3,
     title: "Gold Series Filter Pipe",
@@ -5032,7 +5032,7 @@ const portfolioItems = [
     longColor: `Gray/white/Gray/Gray/white/Gray/white/Gray/Gray/Gray/Gray`
   },
   {
-    id: 308,
+    id: 1008,
     category: "upvc",
     imgSrc: upvc3,
     title: "Standard Pipe",
@@ -5044,7 +5044,7 @@ const portfolioItems = [
     longColor: `Gray/white/Gray/white/Gray/white/Firoza/Firoza/Firoza/Firoza/Gray`
   },
   {
-    id: 309,
+    id: 1009,
     category: "upvc",
     imgSrc: upvc3,
     title: "Sanitary Pipe",
@@ -5056,28 +5056,26 @@ const portfolioItems = [
     longColor: `Gray/white/Gray/white/Gray/white/Firoza/Gray/White/Gray/White`
   },
   {
-    id: 310,
+    id: 1010,
     category: "upvc",
     imgSrc: upvc3,
     title: "Uttom Pipe",
     button: "Details",
     longCode: "31170/31171/31177/31176/31178",
     longThickness: `2.7/2.7~3.0/3.0~3.4/2.7~3.0/3.0~3.4`,
-    longSize: `110mm/110mm/110mm/110mm`,
+    longSize: `110mm/110mm/110mm/110mm/110mm`,
     longLength: `6mtr/6mtr/6mtr/3mtr/3mtr`,
     longColor: `Gray/Gray/Gray/Gray/Gray`
   },
   {
-    id: 311,
+    id: 1011,
     category: "upvc",
     imgSrc: upvc3,
     title: "Oring Pipe",
     button: "Details",
   },
-
   { 
-      //   aita 12 no. (dlt koro nah)
-      id: 312,
+      id: 1012,
       category: "upvc",
       imgSrc: upvc3,
       title: "swr pipe",
@@ -5087,9 +5085,79 @@ const portfolioItems = [
       longThickness: `1.6~1.9/1.6~1.9/1.6~1.9/1.6~1.9/2.0~2.4/2.0~2.4/2.4~2.7/2.4~2.7/2.7~3.0/2.7~3.0/3.0~3.4/3.0~3.4/3.4~3.8/3.4~3.8/3.0~3.4/3.0~3.4/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0/4.0~4.5/4.0~4.5/4.5~5.0/4.5~5.0`,
       longLength: `3mtr/3mtr/3mtr/3mtr/3mtr/3mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr/6mtr`,
       longColor: `Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White/Gray/White`
-
     },
-
+    {
+      id: 1013,
+      category: "upvc",
+      imgSrc: upvc3,
+      title: "Thread Pipe",
+      button: "Details",
+      longCode: "31019/31020/31022/31023/31025/31026/31028/31029/31031/31032/31034/31035",
+      longThickness: `3.1~3.4/3.1~3.4/3.2~3.5/3.2~3.5/3.8~4.2/3.8~4.2/4.2~4.5/4.2~4.5/4.0~4.4/4.0~4.4/4.4~4.8/4.4~4.8`,
+      longSize: `0.5"/0.5"/0.75"/0.75"/1"/1"/1.25"/1.25"/1.5"/1.5"/2"/2"`,
+      longLength: `10ft/10ft/10ft/10ft/10ft/10ft/10ft/10ft/10ft/10ft/10ft/10ft`,
+      longColor: `Gray/Green/Gray/Green/Gray/Green/Gray/Green/Gray/Green/Gray/Green`
+    },
+    {
+      id: 1014,
+      category: "upvc",
+      imgSrc: upvc3,
+      title: "Class B Filter Pipe",
+      button: "Details",
+      longCode: "30310/30400/30500/30600/30800/30801/30100/30103/30120/30140",
+      longSize: `3"/4"/5"/6"/8"/8"/10"/10"/12"/14"`,
+      longThickness: `2.9~3.4/3.4~4.0/3.8~4.4/4.5~5.2/5.3~6.1/5.3~6.1/6.6~7.6/6.6~7.6/7.8~9.0/8.5~9.8`,
+      longLength: `3mtr/3mtr/3mtr/3mtr/3mtr/6mtr/3mtr/6mtr/3mtr/3mtr`,
+      longColor: `Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
+    },
+    {
+      id: 1015,
+      category: "upvc",
+      imgSrc: upvc3,
+      title: "Class C Filter Pipe",
+      button: "Details",
+      longCode: "30205/30315/30405/30505/30605/30805/30806/30105/30106/30125/30145",
+      longSize: `2"/3"/4"/5"/6"/8"/8"/10"/10"/12"/14"`,
+      longThickness: `2.5~3.0/3.5~4.1/4.5~5.2/5.5~6.4/6.6~7.6/7.8~9.0/7.8~9.0/9.7~11.2/9.7~11.2/11.5~13.3/12.6~14.5`,
+      longLength: `3mtr/3mtr/3mtr/3mtr/3mtr/3mtr/6mtr/3mtr/6mtr/3mtr/3mtr`,
+      longColor: `Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray/Gray`
+    },
+    {
+      id: 1016,
+      category: "upvc",
+      imgSrc: upvc3,
+      title: "Class D Filter Pipe",
+      button: "Details",
+      longCode: "30210/30320/30410/30411/30508/30610/30810",
+      longSize: `2"/3"/4"/4"/5"/6"/8"`,
+      longThickness: `3.1~3.7/4.6~5.3/6.0~6.9/6.0~6.9/7.3~8.0/8.8~10.2/10.2~11.9`,
+      longLength: `3mtr/3mtr/3mtr/6mtr/3mtr/3mtr/3mtr`,
+      longColor: `Gray/Gray/Gray/Gray/Gray/Gray/Gray`
+    },
+    {
+      id: 1017,
+      category: "upvc",
+      imgSrc: upvc3,
+      title: "Class E Filter Pipe",
+      button: "Details",
+      longCode: "30325/30415/30615/30815",
+      longSize: `3"/4"/6"/8"`,
+      longThickness: `5.7~6.6/7.3~8.4/10.8~12.5/12.6~14.5`,
+      longLength: `3mtr/3mtr/3mtr/3mtr`,
+      longColor: `Gray/Gray/Gray/Gray`
+    },
+    {
+      id: 1018,
+      category: "upvc",
+      imgSrc: upvc3,
+      title: "Small dia rib & robo filter Pipe",
+      button: "Details",
+      longCode: "30150/30155/30160/30165/30170/30175/30180/37150/37155/37156/37160/37160",
+      longSize: `1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"/1.5"`,
+      longThickness: `1.3~1.5/1.3~1.5/1.3~1.5/1.9~2.1/2.4~2.6/2.7~3.0/2.5~3.0/1.2~1.4/1.2~1.4/1.2~1.5/1.2~1.4/1.2~1.4`,
+      longLength: `6mtr/8mtr/10mtr/10mtr/10mtr/10mtr/6.5mtr/6mtr/8mtr/8mtr/9mtr/9mtr`,
+      longColor: `Pink/Pink/Pink/Pest/Red/Gray/Gray/Off White/Off White/Pink/Off White/Pink`
+    },
 
 
 
