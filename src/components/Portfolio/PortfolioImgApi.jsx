@@ -461,12 +461,6 @@ import dTable26 from "../../asset/images/plastic/furniture/table/26.jpg";
 import dTable27 from "../../asset/images/plastic/furniture/table/27.jpg";
 import dTable28 from "../../asset/images/plastic/furniture/table/28.jpg";
 
-
-
-
-
-
-
 //     Toys
 
 import toy1 from "../../asset/images/plastic/toys/01.jpg";
@@ -497,50 +491,55 @@ import upvc1 from "../../asset/images/upvc/upvc1.JPG";
 import upvc2 from "../../asset/images/upvc/upvc2.JPG";
 import upvc3 from "../../asset/images/upvc/upvc3.JPG";
 import upvc4 from "../../asset/images/upvc/upvc4.JPG";
-import upvc5 from "../../asset/images/upvc/upvc5.JPG";
-import upvc6 from "../../asset/images/upvc/upvc6.JPG"
-// import upvc7 from "../../asset/images/upvc/upvc7.JPG";
-import upvc8 from "../../asset/images/upvc/upvc8.JPG";
-import upvc9 from "../../asset/images/upvc/upvc9.JPG";
-import upvc10 from "../../asset/images/upvc/upvc10.JPG";
-import upvc11 from "../../asset/images/upvc/upvc11.JPG";
-import upvc12 from "../../asset/images/upvc/upvc12.JPG";
-import upvc13 from "../../asset/images/upvc/upvc13.JPG";
-import upvc14 from "../../asset/images/upvc/upvc14.JPG";
-import upvc15 from "../../asset/images/upvc/upvc15.JPG";
-import upvc16 from "../../asset/images/upvc/upvc16.JPG";
-//   fittings(upvc) 
-import fittings1 from "../../asset/images/upvc/fittings1.jpeg";
-import fittings2 from "../../asset/images/upvc/fittings2.jpg";
-import fittings3 from "../../asset/images/upvc/fittings3.jpg";
-import fittings4 from "../../asset/images/upvc/fittings4.png";
-import fittings5 from "../../asset/images/upvc/fittings5.jpg";
-import fittings6 from "../../asset/images/upvc/fittings6.jpg";
-import fittings7 from "../../asset/images/upvc/fittings7.jpg";
-import fittings8 from "../../asset/images/upvc/fittings8.jpg";
-import fittings9 from "../../asset/images/upvc/fittings9.jpg";
-import fittings10 from "../../asset/images/upvc/fittings10.png";
-import fittings11 from "../../asset/images/upvc/fittings11.jpg";
-import fittings12 from "../../asset/images/upvc/fittings12.jpg";
-import fittings13 from "../../asset/images/upvc/fittings13.jpg";
-import fittings14 from "../../asset/images/upvc/fittings14.png";
-import fittings15 from "../../asset/images/upvc/fittings15.jpg";
-import fittings16 from "../../asset/images/upvc/fittings16.png";
+
+//                            fittings(upvc) 
+
+import fittings1 from "../../asset/images/upvc/fittings/01.png";
+import fittings2 from "../../asset/images/upvc/fittings/02.png";
+import fittings3 from "../../asset/images/upvc/fittings/03.png";
+import fittings4 from "../../asset/images/upvc/fittings/04.png";
+import fittings5 from "../../asset/images/upvc/fittings/05.png";
+import fittings6 from "../../asset/images/upvc/fittings/06.png";
+import fittings7 from "../../asset/images/upvc/fittings/07.png";
+import fittings8 from "../../asset/images/upvc/fittings/08.png";
+import fittings9 from "../../asset/images/upvc/fittings/09.png";
+import fittings10 from "../../asset/images/upvc/fittings/10.png";
+import fittings11 from "../../asset/images/upvc/fittings/11.png";
+import fittings12 from "../../asset/images/upvc/fittings/12.png";
+import fittings13 from "../../asset/images/upvc/fittings/13.png";
+import fittings14 from "../../asset/images/upvc/fittings/14.png";
+import fittings15 from "../../asset/images/upvc/fittings/15.png";
+import fittings16 from "../../asset/images/upvc/fittings/16.png";
+import fittings17 from "../../asset/images/upvc/fittings/17.png";
+import fittings18 from "../../asset/images/upvc/fittings/18.png";
+import fittings19 from "../../asset/images/upvc/fittings/19.png";
+import fittings20 from "../../asset/images/upvc/fittings/20.png";
+import fittings21 from "../../asset/images/upvc/fittings/21.png";
+import fittings22 from "../../asset/images/upvc/fittings/22.png";
+import fittings23 from "../../asset/images/upvc/fittings/23.png";
+import fittings24 from "../../asset/images/upvc/fittings/24.png";
+import fittings25 from "../../asset/images/upvc/fittings/25.png";
+import fittings26 from "../../asset/images/upvc/fittings/26.png";
+import fittings27 from "../../asset/images/upvc/fittings/27.png";
+import fittings28 from "../../asset/images/upvc/fittings/28.png";
+import fittings29 from "../../asset/images/upvc/fittings/29.png";
+import fittings30 from "../../asset/images/upvc/fittings/30.png";
+import fittings31 from "../../asset/images/upvc/fittings/31.png";
+import fittings32 from "../../asset/images/upvc/fittings/32.png";
+import fittings33 from "../../asset/images/upvc/fittings/33.png";
+import fittings34 from "../../asset/images/upvc/fittings/34.png";
+import fittings35 from "../../asset/images/upvc/fittings/35.png";
+import fittings36 from "../../asset/images/upvc/fittings/36.png";
 
 //         Tubewell
-import tubewell1 from "../../asset/images/upvc/Tubewell/tubewell1.jpg";
-import tubewell2 from "../../asset/images/upvc/Tubewell/tubewell2.jpg";
-import tubewell3 from "../../asset/images/upvc/Tubewell/tubewell3.jpg";
-import tubewell4 from "../../asset/images/upvc/Tubewell/tubewell4.jpg";
-import tubewell5 from "../../asset/images/upvc/Tubewell/tubewell5.jpg";
-import tubewell6 from "../../asset/images/upvc/Tubewell/tubewell6.jpg";
-import tubewell7 from "../../asset/images/upvc/Tubewell/tubewell7.jpg";
-import tubewell8 from "../../asset/images/upvc/Tubewell/tubewell8.png";
-import tubewell9 from "../../asset/images/upvc/Tubewell/tubewell9.jpg";
-import tubewell10 from "../../asset/images/upvc/Tubewell/tubewell10.jpeg";
-import tubewell11 from "../../asset/images/upvc/Tubewell/tubewell11.jpg";
-import tubewell12 from "../../asset/images/upvc/Tubewell/tubewell12.png";
-import tubewell13 from "../../asset/images/upvc/Tubewell/tubewell13.png";
+import tubewell1 from "../../asset/images/upvc/Tubewell/1.jpeg";
+import tubewell2 from "../../asset/images/upvc/Tubewell/2.jpeg";
+import tubewell3 from "../../asset/images/upvc/Tubewell/3.jpeg";
+import tubewell4 from "../../asset/images/upvc/Tubewell/4.jpeg";
+import tubewell5 from "../../asset/images/upvc/Tubewell/5.jpeg";
+import tubewell6 from "../../asset/images/upvc/Tubewell/6.jpeg";
+import tubewell7 from "../../asset/images/upvc/Tubewell/7.jpeg";
+import tubewell8 from "../../asset/images/upvc/Tubewell/8.jpeg";
 
 const portfolioItems = [
   {
@@ -5159,6 +5158,38 @@ const portfolioItems = [
       longColor: `Pink/Pink/Pink/Pest/Red/Gray/Gray/Off White/Off White/Pink/Off White/Pink`
     },
 
+    //                              upvc Fittings
+
+    {
+      id: 1021,
+      category: "upvc",
+      imgSrc: upvc3,
+      title: "uPvc Fabricated Tee",
+      button: "Details",
+      longCode: "",
+      longSize: ``,
+      longThickness: ``,
+      longLength: ``,
+      longColor: ``
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
@@ -5420,81 +5451,80 @@ const portfolioItems = [
   //   button: "Details"
   // },
   
-  //                        UPVC Tubewell
+  //                        UPVC Tubewell -> 1080
   {
-    id: 316,
+    id: 1080,
     category: "upvc",
-    imgSrc: upvc4,
+    imgSrc: tubewell1,
     title: "BRDB Tubewell",
     longCode: "83125",
-    longSize: `  `,
+    // longSize: `  `,
     button: "Details"
   },
   {
-    id: 317,
+    id: 1081,
     category: "upvc",
-    imgSrc: tubewell1,
+    imgSrc: tubewell2,
     title: `Unicef/DPHE/Hyswa Tubewell`,
     longCode: "83101",
     // longSize: `/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
   {
-    id: 318,
+    id: 1082,
     category: "upvc",
-    imgSrc: tubewell2,
+    imgSrc: tubewell3,
     title: "Samrat Tubewell",
     longCode: "83102",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
   {
-    id: 319,
+    id: 1083,
     category: "upvc",
-    imgSrc: tubewell3,
+    imgSrc: tubewell4,
     title: "Standard Tubewell",
     longCode: "83107",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
   {
-    id: 320,
+    id: 1084,
     category: "upvc",
-    imgSrc: tubewell4,
+    imgSrc: tubewell5,
     title: "Mini Tubewell",
     longCode: "83141",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
   {
-    id: 321,
+    id: 1085,
     category: "upvc",
-    imgSrc: tubewell5,
+    imgSrc: tubewell6,
     title: "Heavy Tubewell",
     longCode: "83115",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
   {
-    id: 322,
+    id: 1086,
     category: "upvc",
-    imgSrc: tubewell6,
+    imgSrc: tubewell7,
     title: "Super Tubewell",
     longCode: "83109",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
   {
-    id: 323,
+    id: 1087,
     category: "upvc",
-    imgSrc: tubewell7,
+    imgSrc: tubewell8,
     title: "Super Medium Tubewell",
     longCode: "83107",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
- 
-  //      Toys (4001-4100)
+                                         //      Toys (4001-4100)
   {
     id: 4001,
     category: "PLASTIC TOY",

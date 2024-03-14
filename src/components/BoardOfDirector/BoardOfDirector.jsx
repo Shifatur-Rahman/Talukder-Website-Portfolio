@@ -188,7 +188,7 @@ const BoardOfDirector = () => {
                       Sales Department
                     </p>                    
                   </div>
-
+                        
                   <div className="socials" style={{ fontSize: "25px" }}>
                     <BsFacebook style={{ marginRight: "5px" }} />
                     <AiFillTwitterCircle style={{ marginRight: "5px" }} />
