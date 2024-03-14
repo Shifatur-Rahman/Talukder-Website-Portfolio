@@ -5159,39 +5159,304 @@ const portfolioItems = [
     },
 
     //                              upvc Fittings
-
+//      color2 not initialized
     {
-      id: 1021,
+      id: 1101,
       category: "upvc",
-      imgSrc: upvc3,
+      imgSrc: fittings1,
       title: "uPvc Fabricated Tee",
       button: "Details",
-      longCode: "",
-      longSize: ``,
-      longThickness: ``,
-      longLength: ``,
-      longColor: ``
+      code: "",
+      size: `Customize`,
+      color2: `white/gray`
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    {
+      id: 1102,
+      category: "upvc",
+      imgSrc: fittings2,
+      title: "uPvc Fabricated Bend",
+      button: "Details",
+      code: "",
+      size: `Customize`,
+      color2: `white/gray`
+    },
+    {
+      id: 1103,
+      category: "upvc",
+      imgSrc: fittings3,
+      title: "uPvc Fabricated End Cap",
+      button: "Details",
+      code: "",
+      size: `Customize`,
+      color2: `white/gray`
+    },
+    {
+      id: 1104,
+      category: "upvc",
+      imgSrc: fittings4,
+      title: "uPvc Riser Valve",
+      button: "Details",
+      code: "",
+      size: `Customize`,
+      color2: `white/gray`
+    },
+    // ok
+    {
+      id: 1105,
+      category: "upvc",
+      imgSrc: fittings5,
+      title: `4" Plain Bend 90° FF`,
+      button: "Details",
+      code: "33490",
+    },
+    {
+      id: 1106,
+      category: "upvc",
+      imgSrc: fittings6,
+      title: `4" Plain Bend 45° FF`,
+      button: "Details",
+      code: "33450",
+    },
+    {
+      id: 1107,
+      category: "upvc",
+      imgSrc: fittings7,
+      title: `4" Plain Bend 45° MF`,
+      button: "Details",
+      code: "33451",
+    },
+    {
+      id: 1108,
+      category: "upvc",
+      imgSrc: fittings8,
+      title: `4" Back Door Bend 90°`,
+      button: "Details",
+      code: "33491",
+    },
+    {
+      id: 1109,
+      category: "upvc",
+      imgSrc: fittings9,
+      title: `4" Left Door Bend 90°`,
+      button: "Details",
+      code: "33492",
+    },
+    {
+      id: 1110,
+      category: "upvc",
+      imgSrc: fittings10,
+      title: `4" Right Door Bend 90°`,
+      button: "Details",
+      code: "33493",
+    },
+    {
+      id: 1111,
+      category: "upvc",
+      imgSrc: fittings11,
+      title: `4" Plain Tee`,
+      button: "Details",
+      code: "33400",
+    },
+    {
+      id: 1112,
+      category: "upvc",
+      imgSrc: fittings12,
+      title: `4" Back Door Tee`,
+      button: "Details",
+      code: "33401",
+    },
+    {
+      id: 1113,
+      category: "upvc",
+      imgSrc: fittings13,
+      title: `4" Left Door Tee`,
+      button: "Details",
+      code: "33402",
+    },
+    {
+      id: 1114,
+      category: "upvc",
+      imgSrc: fittings14,
+      title: `4" Right Door Tee`,
+      button: "Details",
+      code: "33403",
+    },
+    {
+      id: 1115,
+      category: "upvc",
+      imgSrc: fittings15,
+      title: `4" Cross Tee`,
+      button: "Details",
+      code: "33450",
+    },
+    {
+      id: 1116,
+      category: "upvc",
+      imgSrc: fittings16,
+      title: `4" Cross Door Tee`,
+      button: "Details",
+      code: "33406",
+    },
+    {
+      id: 1117,
+      category: "upvc",
+      imgSrc: fittings17,
+      title: `4" U Trap`,
+      button: "Details",
+      code: "33408",
+    },
+    {
+      id: 1118,
+      category: "upvc",
+      imgSrc: fittings18,
+      title: `4" Long Trap`,
+      button: "Details",
+      code: "33409",
+    },
+    {
+      id: 1119,
+      category: "upvc",
+      imgSrc: fittings19,
+      title: `4" Off set`,
+      button: "Details",
+      code: "33411",
+    },
+    {
+      id: 1120,
+      category: "upvc",
+      imgSrc: fittings20,
+      title: `4" Pipe Clamp/Clip`,
+      button: "Details",
+      code: "33412",
+    },
+    {
+      id: 1121,
+      category: "upvc",
+      imgSrc: fittings21,
+      title: `4" socket`,
+      button: "Details",
+      code: "33413",
+    },
+    {
+      id: 1122,
+      category: "upvc",
+      imgSrc: fittings22,
+      title: `4"X2" Reducing Bush`,
+      button: "Details",
+      code: "33414",
+    },
+    {
+      id: 1123,
+      category: "upvc",
+      imgSrc: fittings23,
+      title: `160mm Plain Tee With Door`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1124,
+      category: "upvc",
+      imgSrc: fittings24,
+      title: `160mm Plain Tee Without Door`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1125,
+      category: "upvc",
+      imgSrc: fittings25,
+      title: `160mmX110mm Plain Reduced Tee`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1126,
+      category: "upvc",
+      imgSrc: fittings26,
+      title: `160mm Plain Bend With Door`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1127,
+      category: "upvc",
+      imgSrc: fittings27,
+      title: `160mm Plain Bend Without Door`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1128,
+      category: "upvc",
+      imgSrc: fittings28,
+      title: `160mmX110mm Reducer`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1129,
+      category: "upvc",
+      imgSrc: fittings29,
+      title: `32mm Elbow 90°`,
+      button: "Details",
+      code: "33400",
+    },
+    {
+      id: 1130,
+      category: "upvc",
+      imgSrc: fittings30,
+      title: `40mm Elbow 90°`,
+      button: "Details",
+      code: "33401",
+    },
+    {
+      id: 1131,
+      category: "upvc",
+      imgSrc: fittings31,
+      title: `50mm Elbow 90°`,
+      button: "Details",
+      code: "33402",
+    },
+    {
+      id: 1132,
+      category: "upvc",
+      imgSrc: fittings32,
+      title: `1/2" Elbow 90°`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1133,
+      category: "upvc",
+      imgSrc: fittings33,
+      title: `3/4" Elbow 90°`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1134,
+      category: "upvc",
+      imgSrc: fittings34,
+      title: `1" Elbow 90°`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1135,
+      category: "upvc",
+      imgSrc: fittings35,
+      title: `1-1/2" Elbow 90°`,
+      button: "Details",
+      code: "",
+    },
+    {
+      id: 1136,
+      category: "upvc",
+      imgSrc: fittings36,
+      title: `2" Elbow 90°`,
+      button: "Details",
+      code: "",
+    },
   
   // { 
   //   //   aita 12 no. (dlt koro nah)
