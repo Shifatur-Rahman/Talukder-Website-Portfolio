@@ -3741,94 +3741,6 @@ const portfolioItems = [
   color: "pink/red/blue/green",
   button: "Details"
  },
- 
- 
-
- 
-//                               plastic household
- {
-  id: 1700,
-  category: "PLASTIC HOUSEHOLD",
-  imgSrc: kitchenalmirah1,
-  title: "Kitchen Almirah",
-  code: "30101/30102/30103/30104/30105/30106",
-  color: "blue/blue/blue/pink/pink/pink",
-  button: "Details"
- },
-
-  //      kitchen rack 
-  {
-    id: 1701,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: kitchenrack2,
-    title: "Kitchen Rack (3 side Barrier)",
-    code: "26101/26102/26103/26104",
-    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
-    button: "Details"
-  },
-  {
-    id: 1702,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: kitchenrack1,
-    title: "Kitchen Rack (without tray)",
-    code: "26115/26116/26117/26118",
-    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
-    button: "Details"
-  },
-  {
-    id: 1703,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: kitchenrack3,
-    title: "Kitchen Rack (3 side Barrier)",
-    code: "26101/26102/26103/26104",
-    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
-    button: "Details"
-  },
-  {
-    id: 1704,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: kitchenrack4,
-    title: "Kitchen Rack (with tray)",
-    code: "26110/26111/26112/26113",
-    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
-    button: "Details"
-  },
-  {
-    id: 1705,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: kitchenrack5,
-    title: "Kitchen Rack (3 side Barrier)",
-    code: "26101/26102/26103/26104",
-    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
-    button: "Details"
-  },
-  {
-    id: 1706,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: kitchenrack6,
-    title: "Kitchen Rack (with tray)",
-    code: "26110/26111/26112/26113",
-    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
-    button: "Details"
-  },
-  {
-    id: 1707,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: kitchenrack7,
-    title: "Kitchen Rack (3 side Barrier)",
-    code: "26120/26121/26122/26123/26124",
-    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91/#656AB1",
-    button: "Details"
-  },
-  {
-    id: 1708,
-    category: "PLASTIC HOUSEHOLD",
-    imgSrc: kitchenrack8,
-    title: "Kitchen Rack (Book Shelf)",
-    code: "26125/26126/26127/26128/26129",
-    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91/#656AB1",
-    button: "Details"
-  },
 
   //                     Household items
 
@@ -4553,6 +4465,98 @@ const portfolioItems = [
     size: "High/Medium",
     button: "Details"
   },
+
+//                               plastic household
+ {
+  id: 1700,
+  category: "PLASTIC HOUSEHOLD",
+  imgSrc: kitchenalmirah1,
+  title: "Kitchen Almirah",
+  code: "30101/30102/30103/30104/30105/30106",
+  color: "blue/blue/blue/pink/pink/pink",
+  button: "Details"
+ },
+
+  //                                kitchen rack 
+  {
+    id: 1701,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack2,
+    title: "Kitchen Rack (3 side Barrier)",
+    code: "26101/26102/26103/26104",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1702,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack1,
+    title: "Kitchen Rack (without tray)",
+    code: "26115/26116/26117/26118",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1703,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack3,
+    title: "Kitchen Rack (3 side Barrier)",
+    code: "26101/26102/26103/26104",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1704,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack4,
+    title: "Kitchen Rack (with tray)",
+    code: "26110/26111/26112/26113",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1705,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack5,
+    title: "Kitchen Rack (3 side Barrier)",
+    code: "26101/26102/26103/26104",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1706,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack6,
+    title: "Kitchen Rack (with tray)",
+    code: "26110/26111/26112/26113",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91",
+    button: "Details"
+  },
+  {
+    id: 1707,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack7,
+    title: "Kitchen Rack (3 side Barrier)",
+    code: "26120/26121/26122/26123/26124",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91/#656AB1",
+    button: "Details"
+  },
+  {
+    id: 1708,
+    category: "PLASTIC HOUSEHOLD",
+    imgSrc: kitchenrack8,
+    title: "Kitchen Rack (Book Shelf)",
+    code: "26125/26126/26127/26128/26129",
+    color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91/#656AB1",
+    button: "Details"
+  },
+
+
+
+
+
+
+
 
   //                                    plastic table series
 
