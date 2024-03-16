@@ -487,10 +487,19 @@ import lged10 from "../../asset/images/lged/lged10.jpg";
 import lged11 from "../../asset/images/lged/lged11.jpg";
 
 //           upvc
-import upvc1 from "../../asset/images/upvc/upvc1.JPG";
-import upvc2 from "../../asset/images/upvc/upvc2.JPG";
-import upvc3 from "../../asset/images/upvc/upvc3.JPG";
-import upvc4 from "../../asset/images/upvc/upvc4.JPG";
+import upvc1 from "../../asset/images/upvc/upvc pipe/01.jpeg";
+import upvc2 from "../../asset/images/upvc/upvc pipe/02.jpeg";
+import upvc3 from "../../asset/images/upvc/upvc pipe/02.jpeg";
+import upvc6 from "../../asset/images/upvc/upvc pipe/06.jpeg";
+import upvc7 from "../../asset/images/upvc/upvc pipe/07.jpeg";
+import upvc8 from "../../asset/images/upvc/upvc pipe/08.jpeg";
+import upvc9 from "../../asset/images/upvc/upvc pipe/09.jpeg";
+import upvc10 from "../../asset/images/upvc/upvc pipe/10.jpeg";
+import upvc11 from "../../asset/images/upvc/upvc pipe/11.jpeg";
+import upvc12 from "../../asset/images/upvc/upvc pipe/12.jpeg";
+import upvc13 from "../../asset/images/upvc/upvc pipe/13.jpeg";
+import upvc14 from "../../asset/images/upvc/upvc pipe/14.jpeg";
+import upvc18 from "../../asset/images/upvc/upvc pipe/18.jpeg";
 
 //                            fittings(upvc) 
 
@@ -4953,7 +4962,7 @@ const portfolioItems = [
     id: 1001,
     category: "upvc",
     title: "Buried Pipe",
-    imgSrc: upvc3,
+    imgSrc: upvc1,
     button: "Details",
     longCode: "dummy/33450/33451/33491/33492/33493",
     longSize: '110mm/160mm/200mm/250mm/315mm/400mm',
@@ -4965,7 +4974,7 @@ const portfolioItems = [
     id: 1002,
     category: "upvc",
     title: "B Class Pipe",
-    imgSrc: upvc3,
+    imgSrc: upvc2,
     button: "Details",
     longCode: "31301/31305/31401/31501/31605/31801/32100/32120/32140/32160",
     longSize: `3"/3"/4"/5"/6"/8"/10"/12"/14"/16"`,
@@ -5012,7 +5021,7 @@ const portfolioItems = [
   {
     id: 1006,
     category: "upvc",
-    imgSrc: upvc3,
+    imgSrc: upvc6,
     title: "Gold Series Pipe",
     button: "Details",
     longCode: "36340/36341/36452/36453/36455/36456/36458/36459/36540/31425/31426/31542/36843",
@@ -5024,7 +5033,7 @@ const portfolioItems = [
   {
     id: 1007,
     category: "upvc",
-    imgSrc: upvc3,
+    imgSrc: upvc7,
     title: "Gold Series Filter Pipe",
     button: "Details",
     longCode: "37315/37316/37320/37432/37433/37434/37435/30424/30429/37509/37511",
@@ -5036,7 +5045,7 @@ const portfolioItems = [
   {
     id: 1008,
     category: "upvc",
-    imgSrc: upvc3,
+    imgSrc: upvc8,
     title: "Standard Pipe",
     button: "Details",
     longCode: "31156/31157/31160/31161/31165/31166/31175/36459/36540/31425/31426",
@@ -5048,7 +5057,7 @@ const portfolioItems = [
   {
     id: 1009,
     category: "upvc",
-    imgSrc: upvc3,
+    imgSrc: upvc9,
     title: "Sanitary Pipe",
     button: "Details",
     longCode: "34125/34126/34123/34124/34131/34132/34133/34184/34185/34211/34212",
@@ -5060,7 +5069,7 @@ const portfolioItems = [
   {
     id: 1010,
     category: "upvc",
-    imgSrc: upvc3,
+    imgSrc: upvc10,
     title: "Uttom Pipe",
     button: "Details",
     longCode: "31170/31171/31177/31176/31178",
@@ -5072,14 +5081,14 @@ const portfolioItems = [
   {
     id: 1011,
     category: "upvc",
-    imgSrc: upvc3,
+    imgSrc: upvc11,
     title: "Oring Pipe",
     button: "Details",
   },
   { 
       id: 1012,
       category: "upvc",
-      imgSrc: upvc3,
+      imgSrc: upvc12,
       title: "swr pipe",
       button: "Details",
       longCode: "34100/34101/34111/34112/34121/34122/34151/34152/34161/34162/34171/34172/34181/34182/34186/34187/34191/34192/34200/34201/34221/34222/34231/34232",
@@ -5091,7 +5100,7 @@ const portfolioItems = [
     {
       id: 1013,
       category: "upvc",
-      imgSrc: upvc3,
+      imgSrc: upvc13,
       title: "Thread Pipe",
       button: "Details",
       longCode: "31019/31020/31022/31023/31025/31026/31028/31029/31031/31032/31034/31035",
@@ -5103,7 +5112,7 @@ const portfolioItems = [
     {
       id: 1014,
       category: "upvc",
-      imgSrc: upvc3,
+      imgSrc: upvc14,
       title: "Class B Filter Pipe",
       button: "Details",
       longCode: "30310/30400/30500/30600/30800/30801/30100/30103/30120/30140",
@@ -5115,7 +5124,7 @@ const portfolioItems = [
     {
       id: 1015,
       category: "upvc",
-      imgSrc: upvc3,
+      imgSrc: upvc14,
       title: "Class C Filter Pipe",
       button: "Details",
       longCode: "30205/30315/30405/30505/30605/30805/30806/30105/30106/30125/30145",
@@ -5127,7 +5136,7 @@ const portfolioItems = [
     {
       id: 1016,
       category: "upvc",
-      imgSrc: upvc3,
+      imgSrc: upvc14,
       title: "Class D Filter Pipe",
       button: "Details",
       longCode: "30210/30320/30410/30411/30508/30610/30810",
@@ -5139,7 +5148,7 @@ const portfolioItems = [
     {
       id: 1017,
       category: "upvc",
-      imgSrc: upvc3,
+      imgSrc: upvc14,
       title: "Class E Filter Pipe",
       button: "Details",
       longCode: "30325/30415/30615/30815",
@@ -5151,7 +5160,7 @@ const portfolioItems = [
     {
       id: 1018,
       category: "upvc",
-      imgSrc: upvc3,
+      imgSrc: upvc18,
       title: "Small dia rib & robo filter Pipe",
       button: "Details",
       longCode: "30150/30155/30160/30165/30170/30175/30180/37150/37155/37156/37160/37160",
