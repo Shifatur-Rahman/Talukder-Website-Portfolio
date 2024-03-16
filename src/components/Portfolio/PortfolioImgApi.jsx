@@ -3030,13 +3030,11 @@ const portfolioItems = [
   id: 608,
   category: "PLASTIC FURNITURE",
   imgSrc: waredrobe8,
-  title: "TFL Double waredrobe",
-  title: "Organizer Wardrobe(5 Drawer)",
+  title: "Popular Wardrobe(5 Drawer)",
   code: "25108/25109",
   color: "#F3B016/#3E1B0C",
   button: "Details"
 },
-// done ||
 {
   id: 609,
   category: "PLASTIC FURNITURE",
@@ -4467,6 +4465,7 @@ const portfolioItems = [
   },
 
 //                               plastic household
+
  {
   id: 1700,
   category: "PLASTIC HOUSEHOLD",
@@ -4477,7 +4476,8 @@ const portfolioItems = [
   button: "Details"
  },
 
-  //                                kitchen rack 
+//                                kitchen rack 
+
   {
     id: 1701,
     category: "PLASTIC HOUSEHOLD",
@@ -5460,9 +5460,10 @@ const portfolioItems = [
       button: "Details",
       code: "",
     },
+
+  //                    upvc ager 
   
   // { 
-  //   //   aita 12 no. (dlt koro nah)
   //   id: 345,
   //   category: "upvc",
   //   imgSrc: upvc16,
