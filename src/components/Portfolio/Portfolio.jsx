@@ -220,20 +220,6 @@ const Portfolio = () => {
                     )}
                   </div>
 
-                    <div className="dropdown">
-                      <Form className="d-flex">
-                        <Form.Control
-                          type="search"
-                          placeholder="Search"
-                          className="me-2"
-                          style={{ width: '150px', height: '35px' }} // Adjust the width as needed
-                          aria-label="Search"
-                          onChange={handleChange}
-                        />
-                        <Button onClick={handleClickBtn} variant="outline-success">Search</Button>
-                      </Form>
-                    </div>
-
                 </div>
             </Col>
 
@@ -297,7 +283,7 @@ const Portfolio = () => {
                                         style={{
                                           fontSize: "10px",
                                           fontWeight: "800",
-                                          width: "20px",
+                                          width: "20px",                                  
                                         }}
                                         scope="row"
                                       >
@@ -342,15 +328,19 @@ const Portfolio = () => {
                                       ))} */}
 
                                       {item.color.split("/").map((color, index) => (                                                   
-                                        <td key={index}>
-                                          <td></td>
+                                        <td key={index} style={{ textAlign: 'center', textAlign: '-webkit-center' }}>
+                                          
                                           <td style={{
                                             backgroundColor: color,
                                             cursor: "pointer",
-                                            width: "15px",
-                                            height: "14px",
-                                            marginLeft: "40%"
-                                          }}></td>                                          
+                                            width: "16px",
+                                            height: "15px",                                            
+                                            display: "flex",
+                                            // justifyContent: "center",
+                                            // alignItems: "center",
+                                            
+                                          }}></td>  
+                                                                                  
                                         </td>                                        
                                       ))}
 
@@ -437,7 +427,7 @@ const Portfolio = () => {
                 <div style={{ marginBottom: "60px" }} className='pagination'>
                   <span onClick={() => { handlePage(pages - 1); window.scrollTo(0, 0); }}
                     className={pages > 1 ? "" : "Pagination_disable"}>
-                    <BsFillCaretLeftSquareFill style={{ color: "#1dc6ad" }} />
+                    <BsFillCaretLeftSquareFill style={{ color: "#2980B9" }} />
                   </span>
                   {
                     [...Array(Math.ceil(
@@ -452,7 +442,7 @@ const Portfolio = () => {
                   }        
                   <span onClick={() => { handlePage(pages + 1); window.scrollTo(0, 0); }}
                     className={pages < Math.ceil(portfolioItems.filter(item => item.category === category).length / 30) ? "" : "Pagination_disable"}>
-                    <BsFillCaretRightSquareFill style={{ color: "#1dc6ad" }} />
+                    <BsFillCaretRightSquareFill style={{ color: "#2980B9" }} />
                   </span>
                 </div>
               </Row>
