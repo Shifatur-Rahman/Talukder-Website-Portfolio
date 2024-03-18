@@ -29,19 +29,22 @@ background-color: red !important;
 
 .upvcBtn{
     /* background-color: #f2f2f2; */
-    background-color: #1dc6ad;
-    font-size: 13px;
+    background-color: #2980B9;
+    font-size: 11px;
     padding: 5px;
     color: #fff;
     font-family: "Barlow",sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     border: 1px solid #f2f2f2;
-    width: 90px;
+    width: 120px;
     height: 35px;
+    margin: 1rem 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   .upvcBtn:hover, .upvcBtn:focus {
-    background-color: #179b87;
+    background-color:  #2573a7;
     color: #fff; 
     border: 1px solid #f2f2f2;
   }

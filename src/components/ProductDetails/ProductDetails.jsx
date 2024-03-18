@@ -290,7 +290,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                       >
                                         Color
                                       </th>
-                                      {singleItem.color.split("/").map((color, index) => (
+                                      {/* {singleItem.color.split("/").map((color, index) => (
                                         <td
                                           style={{
                                             backgroundColor: color,
@@ -299,7 +299,21 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                           }}
                                           key={index}
                                         ></td>
+                                      ))} */}
+
+                                      {singleItem.color.split("/").map((color, index) => (
+                                        <td key={index}>
+                                        <td></td>
+                                        <td style={{
+                                          backgroundColor: color,
+                                          cursor: "pointer",
+                                          width: "15px",
+                                          height: "14px",
+                                          marginLeft: "40%"
+                                        }}></td>                                          
+                                      </td> 
                                       ))}
+
                                     </tr>
                                   </tbody>
                                 </table>

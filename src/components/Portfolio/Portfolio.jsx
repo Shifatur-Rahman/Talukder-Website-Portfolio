@@ -329,16 +329,31 @@ const Portfolio = () => {
                                       >
                                         Color
                                       </th>
-                                      {item.color.split("/").map((color, index) => (
+
+                                      {/* {item.color.split("/").map((color, index) => (
                                         <td
                                           style={{
                                             backgroundColor: color,
                                             cursor: "pointer",
-                                            width: "5px"
+                                            width: "5px",
                                           }}
                                           key={index}
                                         ></td>
+                                      ))} */}
+
+                                      {item.color.split("/").map((color, index) => (                                                   
+                                        <td key={index}>
+                                          <td></td>
+                                          <td style={{
+                                            backgroundColor: color,
+                                            cursor: "pointer",
+                                            width: "15px",
+                                            height: "14px",
+                                            marginLeft: "40%"
+                                          }}></td>                                          
+                                        </td>                                        
                                       ))}
+
                                     </tr>
                                   </tbody>
                                 </table>
@@ -381,7 +396,7 @@ const Portfolio = () => {
                                 {/* <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
                                 {/* <Link to={`/product/productDetailsPage/${item.id}`}> */}
                                 <Link to={`/product/${item.category}/${item.id}`}>
-                                  <Button style={{borderRadius:"3px"}} className="upvcBtn"> Details </Button>
+                                  <Button style={{borderRadius:"3px"}} className="upvcBtn"> view product </Button>
                                 </Link>
                               </div>
                             )}
