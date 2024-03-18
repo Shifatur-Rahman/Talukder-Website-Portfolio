@@ -34,6 +34,7 @@ const Portfolio = () => {
   const [selectedImage, setSelectedImage] = React.useState("");
   const [loading, setLoading] = useState(true);
   const [pages, setPages] = useState(1);
+  const [code, setCode] = useState("");
 
   const isActive = (category) => {
     return category === activeCategory ? "active" : "";
@@ -72,6 +73,15 @@ const Portfolio = () => {
     if (selectedPage >= 1 && selectedPage <= Math.ceil(portfolioItems.length / 30)) {
       setPages(selectedPage);
     }
+  }
+
+  let handleClickBtn = () =>{
+    
+    console.log(code);
+  }
+
+  let handleChange = (e) =>{
+    setCode(e.target.value)
   }
 
   return (
@@ -218,12 +228,11 @@ const Portfolio = () => {
                           className="me-2"
                           style={{ width: '150px', height: '35px' }} // Adjust the width as needed
                           aria-label="Search"
+                          onChange={handleChange}
                         />
-                        <Button variant="outline-success">Search</Button>
+                        <Button onClick={handleClickBtn} variant="outline-success">Search</Button>
                       </Form>
                     </div>
-
-
 
                 </div>
             </Col>
