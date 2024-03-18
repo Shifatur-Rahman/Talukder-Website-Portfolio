@@ -216,6 +216,10 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                               <span className='singleItemProductTitle'>Size : <span className='singleItemProductValue'> {singleItem.size2}</span> </span>
                             }
 
+                            {(singleItem.color2) &&
+                              <span className='singleItemProductTitle'>Color : <span className='singleItemProductValue'> {singleItem.color2} </span> <br /> </span>
+                            }
+
                             {                          
                               singleItem.longCode &&
                               <UpvcModal1 title={singleItem.title} category={singleItem.category} code={singleItem.longCode} size={singleItem.longSize} thickness={singleItem.longThickness} img={singleItem.imgSrc} longLength={singleItem.longLength} longColor={singleItem.longColor} />

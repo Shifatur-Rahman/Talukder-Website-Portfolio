@@ -19,6 +19,8 @@ import { Link } from 'react-router-dom';
 import HomePage from "../../pages/HomePage";
 import { VaccinesRounded } from "@mui/icons-material";
 import Accordion from 'react-bootstrap/Accordion';
+import Form from 'react-bootstrap/Form';
+
 
 // import { animateScroll } from "react-scroll";
 
@@ -207,6 +209,22 @@ const Portfolio = () => {
                       </div>
                     )}
                   </div>
+
+                    <div className="dropdown">
+                      <Form className="d-flex">
+                        <Form.Control
+                          type="search"
+                          placeholder="Search"
+                          className="me-2"
+                          style={{ width: '150px', height: '35px' }} // Adjust the width as needed
+                          aria-label="Search"
+                        />
+                        <Button variant="outline-success">Search</Button>
+                      </Form>
+                    </div>
+
+
+
                 </div>
             </Col>
 
@@ -260,7 +278,7 @@ const Portfolio = () => {
                                 </span>
                               </p>
                             )}
-
+  
                             {item.color && item.code ? (
                               <div style={{ margin: "0 5px" }} className="table-responsive">
                                 <table className="table table-bordered table-sm custom-table">

@@ -5170,7 +5170,7 @@ const portfolioItems = [
       longColor: `Pink/Pink/Pink/Pest/Red/Gray/Gray/Off White/Off White/Pink/Off White/Pink`
     },
 
-//                              upvc Fittings
+//                        upvc Fittings
 //   color2 not initialized
     {
       id: 1101,
