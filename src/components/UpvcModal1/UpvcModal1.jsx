@@ -226,12 +226,11 @@ const UpvcModal1 = (props) => {
                   <tr key={index}>
                     <td
                       style={{
-                        fontSize: "10px",
+                        fontSize: "11px",
                         textAlign: "center",
                         margin: "0",
                         padding: "5px 0 0 0",
                         width: "5px",
-
                       }}
                     >
                       {code}
@@ -240,12 +239,12 @@ const UpvcModal1 = (props) => {
                 ))}
               </th>
 
-              <th style={{textAlign: "-webkit-center", color:'green'}}>
+              <th style={{textAlign: "-webkit-center"}}>
                 {size.split("/").map((size, index) => (
-                  <tr key={index} className = {index%2 === 0 ? "table-primary" : ""}>
+                  <tr key={index} className = {index%2 === 0 ? "tablePrimary" : ""}>
                     <td                            
                       style={{
-                        fontSize: "10px",                    
+                        fontSize: "11px",                    
                         margin: "0",
                         padding: "5px 0 0 0",
                         width: "150px",                      
@@ -262,7 +261,7 @@ const UpvcModal1 = (props) => {
                   <tr key={index}>
                     <td
                       style={{
-                        fontSize: "10px",                        
+                        fontSize: "11px",                        
                         margin: "0",
                         padding: "5px 0 0 0",
                         width: "150px",                        
@@ -279,7 +278,7 @@ const UpvcModal1 = (props) => {
                   <tr key={index}>
                     <td
                       style={{
-                        fontSize: "10px",                        
+                        fontSize: "11px",                        
                         margin: "0",
                         padding: "5px 0 0 0",
                         width: "150px",                        
@@ -296,7 +295,7 @@ const UpvcModal1 = (props) => {
                   <tr key={index}>
                     <td
                       style={{
-                        fontSize: "10px",                        
+                        fontSize: "11px",                        
                         margin: "0",
                         padding: "5px 0 0 0",
                         width: "150px",                        

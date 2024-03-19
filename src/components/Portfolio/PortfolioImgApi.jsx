@@ -508,18 +508,18 @@ import fittings2 from "../../asset/images/upvc/fittings/02.png";
 import fittings3 from "../../asset/images/upvc/fittings/03.png";
 import fittings4 from "../../asset/images/upvc/fittings/04.png";
 import fittings5 from "../../asset/images/upvc/fittings/05.png";
-import fittings6 from "../../asset/images/upvc/fittings/06.png";
+import fittings6 from "../../asset/images/upvc/fittings/06.jpeg";
 import fittings7 from "../../asset/images/upvc/fittings/07.png";
 import fittings8 from "../../asset/images/upvc/fittings/08.png";
 import fittings9 from "../../asset/images/upvc/fittings/09.png";
 import fittings10 from "../../asset/images/upvc/fittings/10.png";
-import fittings11 from "../../asset/images/upvc/fittings/11.png";
+import fittings11 from "../../asset/images/upvc/fittings/11.jpeg";
 import fittings12 from "../../asset/images/upvc/fittings/12.png";
 import fittings13 from "../../asset/images/upvc/fittings/13.png";
 import fittings14 from "../../asset/images/upvc/fittings/14.png";
 import fittings15 from "../../asset/images/upvc/fittings/15.png";
 import fittings16 from "../../asset/images/upvc/fittings/16.png";
-import fittings17 from "../../asset/images/upvc/fittings/17.png";
+import fittings17 from "../../asset/images/upvc/fittings/17.jpeg";
 import fittings18 from "../../asset/images/upvc/fittings/18.png";
 import fittings19 from "../../asset/images/upvc/fittings/19.png";
 import fittings20 from "../../asset/images/upvc/fittings/20.png";
@@ -539,6 +539,10 @@ import fittings33 from "../../asset/images/upvc/fittings/33.png";
 import fittings34 from "../../asset/images/upvc/fittings/34.png";
 import fittings35 from "../../asset/images/upvc/fittings/35.png";
 import fittings36 from "../../asset/images/upvc/fittings/36.png";
+import fittings37 from "../../asset/images/upvc/fittings/37.jpg";
+import fittings38 from "../../asset/images/upvc/fittings/38.jpg";
+import fittings39 from "../../asset/images/upvc/fittings/39.jpg";
+import fittings40 from "../../asset/images/upvc/fittings/40.jpg";
 
 //         Tubewell
 import tubewell1 from "../../asset/images/upvc/Tubewell/1.jpeg";
@@ -5475,7 +5479,7 @@ const portfolioItems = [
     {
       id: 1137,
       category: "upvc",
-      imgSrc: fittings36,
+      imgSrc: fittings37,
       title: `110mm U Trap Mould`,
       button: "Details",
       code: "33429",
@@ -5483,7 +5487,7 @@ const portfolioItems = [
     {
       id: 1138,
       category: "upvc",
-      imgSrc: fittings36,
+      imgSrc: fittings38,
       title: `250mm Tee`,
       button: "Details",
       code: "33430",
@@ -5491,7 +5495,7 @@ const portfolioItems = [
     {
       id: 1139,
       category: "upvc",
-      imgSrc: fittings36,
+      imgSrc: fittings39,
       title: `250mm Bend`,
       button: "Details",
       code: "33431",
@@ -5499,12 +5503,11 @@ const portfolioItems = [
     {
       id: 1140,
       category: "upvc",
-      imgSrc: fittings36,
+      imgSrc: fittings40,
       title: `250mm End cap`,
       button: "Details",
       code: "33432",
     },
-
 
 
 //                    upvc ager 

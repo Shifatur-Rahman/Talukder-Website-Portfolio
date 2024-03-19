@@ -73,3 +73,12 @@ background-color: red !important;
     font-size: 9px;
   }
 }
+
+.tablePrimary{
+  background-color: #8491C9;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
