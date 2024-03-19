@@ -80,49 +80,20 @@ import tbl79 from "../../asset/images/office furniture/tbl79.jpg";
 import tbl80 from "../../asset/images/office furniture/tbl80.jpg";
 
 // Industrial rack
-import rack1 from "../../asset/images/Industrial rack/rack1.jpg";
-import rack2 from "../../asset/images/Industrial rack/rack2.jpeg";
-import rack3 from "../../asset/images/Industrial rack/rack3.jpg";
-import rack4 from "../../asset/images/Industrial rack/rack4.jpeg";
-import rack5 from "../../asset/images/Industrial rack/rack5.jpg";
-import rack6 from "../../asset/images/Industrial rack/rack6.jpg";
-// import rack7 from "../../asset/images/Industrial rack/rack7.jpg";
-import rack8 from "../../asset/images/Industrial rack/rack8.jpg";
-import rack9 from "../../asset/images/Industrial rack/rack9.jpg";
-import rack10 from "../../asset/images/Industrial rack/rack10.jpg";
-import rack11 from "../../asset/images/Industrial rack/rack11.jpg";
-// rack from sm strore
-import rack12 from "../../asset/images/Industrial rack/rack12.jpg";
-import rack13 from "../../asset/images/Industrial rack/rack13.jpg";
-import rack14 from "../../asset/images/Industrial rack/rack14.jpg";
-import rack15 from "../../asset/images/Industrial rack/rack15.png";
-import rack16 from "../../asset/images/Industrial rack/rack16.jpg";
-import rack17 from "../../asset/images/Industrial rack/rack17.jpg";
-import rack18 from "../../asset/images/Industrial rack/rack18.jpg";
-import rack19 from "../../asset/images/Industrial rack/rack19.jpg";
-import rack20 from "../../asset/images/Industrial rack/rack20.jpg";
-import rack21 from "../../asset/images/Industrial rack/rack21.png";
-import rack22 from "../../asset/images/Industrial rack/rack22.jpg";
-import rack23 from "../../asset/images/Industrial rack/rack23.jpg";
-import rack24 from "../../asset/images/Industrial rack/rack24.jpg";
-import rack25 from "../../asset/images/Industrial rack/rack25.jpg";
-import rack26 from "../../asset/images/Industrial rack/rack26.jpg";
-import rack27 from "../../asset/images/Industrial rack/rack27.jpg";
-import rack28 from "../../asset/images/Industrial rack/rack28.jpg";
-import rack29 from "../../asset/images/Industrial rack/rack29.jpg";
-import rack30 from "../../asset/images/Industrial rack/rack30.jpg";
-import rack31 from "../../asset/images/Industrial rack/rack31.jpg";
-import rack32 from "../../asset/images/Industrial rack/rack32.jpg";
-import rack33 from "../../asset/images/Industrial rack/rack33.jpg";
-import rack34 from "../../asset/images/Industrial rack/rack34.jpg";
-import rack35 from "../../asset/images/Industrial rack/rack35.jpg";
-import rack36 from "../../asset/images/Industrial rack/rack36.jpg";
-import rack37 from "../../asset/images/Industrial rack/rack37.jpg";
-import rack38 from "../../asset/images/Industrial rack/rack38.jpg";
-import rack39 from "../../asset/images/Industrial rack/rack39.jpg";
-import rack40 from "../../asset/images/Industrial rack/rack40.jpg";
-import rack41 from "../../asset/images/Industrial rack/rack41.jpg";
-import rack42 from "../../asset/images/Industrial rack/rack42.jpg";
+import rack1 from "../../asset/images/Industrial rack/01.jpg";
+import rack2 from "../../asset/images/Industrial rack/02.jpg";
+import rack3 from "../../asset/images/Industrial rack/03.jpg";
+import rack4 from "../../asset/images/Industrial rack/04.jpg";
+import rack5 from "../../asset/images/Industrial rack/05.jpg";
+import rack6 from "../../asset/images/Industrial rack/06.jpg";
+import rack7 from "../../asset/images/Industrial rack/07.jpg";
+import rack8 from "../../asset/images/Industrial rack/08.jpg";
+import rack9 from "../../asset/images/Industrial rack/09.jpg";
+import rack10 from "../../asset/images/Industrial rack/10.jpg";
+import rack11 from "../../asset/images/Industrial rack/11.jpg";
+import rack12 from "../../asset/images/Industrial rack/12.jpg";
+
+
 
 // conference table
 
@@ -1307,32 +1278,6 @@ const portfolioItems = [
     imgSrc: tbl67,
     button: "Details"
   },
-
-  // // INDUSTRIAL FURNITURE
-  {
-    id: 68,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-068",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl68,
-    button: "Details"
-  },
-
-  {
-    id: 69,
-    title: "SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-069",
-    size: "L900 X W300 X H1800mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl69,
-    button: "Details"
-  },
-
   // // WALL MOUNTED CABINET
   {
     id: 71,
@@ -1461,454 +1406,112 @@ const portfolioItems = [
   
   // // INDUSTRIAL FURNITURE (Rack)
   {
-    id: 700,
-    title: "SLOTTED ANGLE RACK",
+    id: 701,
+    title: "Industrial Storage Solution",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-071",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack1,
     button: "Details"
   },
   {
-    id: 701,
-    title: "SLOTTED ANGLE RACK",
+    id: 702,
+    title: "Industrial Storage Solution",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-072",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack2,
     button: "Details"
   },
   {
-    id: 702,
-    title: "SLOTTED ANGLE RACK",
+    id: 703,
+    title: "Industrial Storage Solution",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-073",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack3,
     button: "Details"
   },
   {
-    id: 703,
-    title: "SLOTTED ANGLE RACK",
+    id: 704,
+    title: "Industrial Storage Solution",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-074",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack4,
     button: "Details"
   },
   {
-    id: 704,
-    title: "SLOTTED ANGLE RACK",
+    id: 705,
+    title: "SLOTTED ANGLE/Light duty RACK",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-075",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack5,
     button: "Details"
   },
   {
-    id: 705,
-    title: "SLOTTED ANGLE RACK",
+    id: 706,
+    title: "Super shop display RACK(L Type)",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-076",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
+    size: `L3'-0" X W1'-6" X 5'-6"`,
+    size2: `L4'-0" X W1'-6" X 7'-0"`,
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack6,
     button: "Details"
   },
-  // {
-  //   id: 106,
-  //   title: "SLOTTED ANGLE RACK",
-  //   category: "INDUSTRIAL FURNITURE",
-  //   code: "TFSAR-068",
-  //   size: "L1200 X W400 X H1800mm",
-  //   imgSrc: rack7,
-  // },
   {
     id: 707,
-    title: "SLOTTED ANGLE RACK",
+    title: "Super shop display RACK(T Type)",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-077",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
+    size2: `L3'-0" X W3'-2" X 5'-6"`,
+    size2: `L4'-0" X W3'-2" X 7'-0"`,
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack7,
+    button: "Details"
+  },
+  {
+    id: 708,
+    title: "Super shop display RACK(L Type)",
+    category: "INDUSTRIAL FURNITURE",
+    size: `L3'-0" X W1'-6" X 5'-6"`,
+    size2: `L4'-0" X W1'-6" X 7'-0"`,
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack8,
     button: "Details"
   },
   {
-    id: 708,
-    title: "SLOTTED ANGLE RACK",
+    id: 709,
+    title: "Super shop display RACK(T Type)",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-078",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
+    size: `L3'-0" X W3'-2" X 5'-6"`,
+    size2: `L4'-0" X W3'-2" X 7'-0"`,
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack9,
     button: "Details"
   },
   {
-    id: 709,
-    title: "SLOTTED ANGLE RACK",
+    id: 710, 
+    title: "Heavy Duty Industrial RACK",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-079",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack10,
     button: "Details"
   },
   {
-    id: 710, 
-    title: "SLOTTED ANGLE RACK",
+    id: 711, 
+    title: "Heavy Duty Industrial RACK",
     category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-080",
-    size: "L1200 X W400 X H1800mm",
-    material: "Mild Steel",
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack11,
     button: "Details"
   },
-  {
-    id: 711, 
-    title: "INDUSTRIAL SLOTTED ANGLE RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-081",
-    size: "4’x2’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack12,
-    button: "Details"
-  },
-  {
-    id: 712, 
-    title: "Industrial’s Slotted Angle Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-082",
-    size: "4’x1.5’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack13,
-    button: "Details"
-  },
-  {
-    id: 713, 
-    title: "Industrial’s Slotted Angle Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-083",
-    size: "4’x1.5’x7′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack14,
-    button: "Details"
-  },
-  {
-    id: 714, 
-    title: "Heavy Slotted Angle Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-084",
-    size: "4’x1.5’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack15,
-    button: "Details"
-  },
-  {
-    id: 715, 
-    title: "Heavy Duty Slotted Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-085",
-    size: " 4’x1.5’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack16,
-    button: "Details"
-  },
-  {
-    id: 716, 
-    title: "Slotted Angle Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-086",
-    size: "4’x1.5’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack17,
-    button: "Details"
-  },
-  {
-    id: 717, 
-    title: "Slotted Angle Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-087",
-    size: "4’x1.5’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack18,
-    button: "Details"
-  },
-  {
-    id: 718, 
-    title: "industrial Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-088",
-    size: "8’x3’x12′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack19,
-    button: "Details"
-  },
-  {
-    id: 720, 
-    title: "Heavy Duty Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-089",
-    size: "8’x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack21,
-    button: "Details"
-  },
-  {
-    id: 721, 
-    title: "Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-090",
-    size: "8’x3’x6′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack22,
-    button: "Details"
-  },
-  {
-    id: 722, 
-    title: "Stacking Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-091",
-    size: "4’x5’x4′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack23,
-    button: "Details"
-  },
-  {
-    id: 723, 
-    title: "Stacking Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-092",
-    size: " 4’x3.5’x4′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack24,
-    button: "Details"
-  },
-  {
-    id: 724, 
-    title: "Mold Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-093",
-    size: "12’x3’x7′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack25,
-    button: "Details"
-  },
-  {
-    id: 725, 
-    title: "Mold Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-094",
-    size: "12’x2’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack26,
-    button: "Details"
-  },
-  {
-    id: 726, 
-    title: "Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-095",
-    size: "12’x2’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack27,
-    button: "Details"
-  },
-  {
-    id: 727, 
-    title: "MS Floor Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-096",
-    size: "10’x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack28,
-    button: "Details"
-  },
-  {
-    id: 728, 
-    title: "Mold Steel Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-097",
-    size: "10’x2’x7’ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack29,
-    button: "Details"
-  },
-  {
-    id: 729, 
-    title: "Mold Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-098",
-    size: "4’x3’x7’ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack30,
-    button: "Details"
-  },
-  {
-    id: 730, 
-    title: "Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-099",
-    size: "8’x3’x12′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack32,
-    button: "Details"
-  },
-  {
-    id: 731, 
-    title: "Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-100",
-    size: "8’x4’x10′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack33,
-    button: "Details"
-  },
-  {
-    id: 732, 
-    title: "Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-101",
-    size: "8’x3’x10′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack34,
-    button: "Details"
-  },
-  {
-    id: 733, 
-    title: "Metal Storage Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-102",
-    size: "8′x2’x10′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack36,
-    button: "Details"
-  },
-  {
-    id: 734, 
-    title: "Metal Storage Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-103",
-    size: "8′x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack37,
-    button: "Details"
-  },
-  {
-    id: 735, 
-    title: "Heavy Duty Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-104",
-    size: "8′x2’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack38,
-    button: "Details"
-  },
-  {
-    id: 736, 
-    title: "Heavy Duty Storage Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-105",
-    size: "8′x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack39,
-    button: "Details"
-  },
-  {
-    id: 737, 
-    title: "Industrial Storage Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-106",
-    size: "8′x2’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack40,
-    button: "Details"
-  },
-  {
-    id: 738, 
-    title: "Industrial Storage Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-107",
-    size: "7′x3’x8′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack41,
-    button: "Details"
-  },
-  {
-    id: 739, 
-    title: "Steel Slotted Angle Racks",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-108",
-    size: "5’x1.5’x7′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack42,
-    button: "Details"
-  },
-  {
-    id: 740, 
-    title: "Pallet Rack",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFSAR-109",
-    size: "8’x3’x7′ Feet",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack20,
-    button: "Details"
-  },
-  //   // HEAVY DUTY RACK
-  {
-    id: 741,
-    title: "HEAVY DUTY RACK",
-    category: "INDUSTRIAL FURNITURE",
-    code: "TFHDR-070",
-    size: "L2400 X W600 X H2400mm",
-    material: "Mild Steel",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: tbl70,
-    button: "Details"
-  },
+  // {
+  //   id: 712, 
+  //   title: "Industrial’s Slotted Angle Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-082",
+  //   size: "4’x1.5’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack12,
+  //   button: "Details"
+  // },
 
   ///                             OFFICE FURNITURE CHAIR -> (501 - )
 

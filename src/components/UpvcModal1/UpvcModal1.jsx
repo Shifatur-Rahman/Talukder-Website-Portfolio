@@ -159,24 +159,26 @@ const UpvcModal1 = (props) => {
         <table className="table table-bordered table-sm custom-table">
           <thead>
             <tr>
-
               <th
                 style={{
                   fontSize: "15px",
-                  fontWeight: "800",
-                  width: "20px",
-                 // textAlign: "center"
+                  fontWeight: "700",
+                  // width: "100%",
+                  backgroundColor: "#494949",
+                  color: "#fff"
                 }}
                 scope="row"
               >
                 Code
               </th>
 
-              <th className='table-primary'
+              <th
                 style={{
                   fontSize: "15px",
-                  fontWeight: "800",
-                  width: "20px",
+                  fontWeight: "700",
+                  // width: "20px",
+                  backgroundColor: "#3E3D91",
+                  color: "#fff"
                 }}
                 scope="row"
               >
@@ -186,8 +188,10 @@ const UpvcModal1 = (props) => {
               <th
                 style={{
                   fontSize: "15px",
-                  fontWeight: "800",
-                  width: "20px",
+                  fontWeight: "700",
+                  // width: "20px",
+                  backgroundColor: "#8491C9",
+                  color: "#fff"
                 }}
                 scope="row"
               >
@@ -197,8 +201,10 @@ const UpvcModal1 = (props) => {
               <th
                 style={{
                   fontSize: "15px",
-                  fontWeight: "800",
-                  width: "20px",
+                  fontWeight: "700",
+                  // width: "20px",
+                  backgroundColor: "#8491C9",
+                  color: "#fff"
                 }}
                 scope="row"
               >
@@ -208,8 +214,10 @@ const UpvcModal1 = (props) => {
               <th
                 style={{
                   fontSize: "15px",
-                  fontWeight: "800",
-                  width: "20px",
+                  fontWeight: "700",
+                  // width: "20px",
+                  backgroundColor: "#8491C9",
+                  color: "#fff"
                 }}
                 scope="row"
               >
@@ -220,17 +228,17 @@ const UpvcModal1 = (props) => {
 
           <tbody>
             <tr>
-
               <th style={{textAlign: "-webkit-center"}}>
                 {code.split("/").map((code, index) => (
-                  <tr key={index}>
+                  <tr key={index} className = {index%2 !== 0 ? "tableCode" : ""}>
                     <td
                       style={{
                         fontSize: "11px",
                         textAlign: "center",
                         margin: "0",
                         padding: "5px 0 0 0",
-                        width: "5px",
+                        //width: "100px",
+                        //background: 'red'
                       }}
                     >
                       {code}
@@ -241,13 +249,12 @@ const UpvcModal1 = (props) => {
 
               <th style={{textAlign: "-webkit-center"}}>
                 {size.split("/").map((size, index) => (
-                  <tr key={index} className = {index%2 === 0 ? "tablePrimary" : ""}>
+                  <tr key={index} className = {index%2 !== 0 ? "tablePrimary" : ""}>
                     <td                            
                       style={{
-                        fontSize: "11px",                    
-                        margin: "0",
+                        fontSize: "11px",                                            
                         padding: "5px 0 0 0",
-                        width: "150px",                      
+                      //  width: "150px",                    
                       }}
                     >
                       {size}
@@ -263,8 +270,9 @@ const UpvcModal1 = (props) => {
                       style={{
                         fontSize: "11px",                        
                         margin: "0",
-                        padding: "5px 0 0 0",
-                        width: "150px",                        
+                        padding: "5px 0 0 0",  
+                       // width: "100%",
+                        //backgroundColor: "green"                                       
                       }}
                     >
                       {thickness}
@@ -281,7 +289,7 @@ const UpvcModal1 = (props) => {
                         fontSize: "11px",                        
                         margin: "0",
                         padding: "5px 0 0 0",
-                        width: "150px",                        
+                        // width: "150px",                        
                       }}
                     >
                       {longLength}
@@ -298,7 +306,7 @@ const UpvcModal1 = (props) => {
                         fontSize: "11px",                        
                         margin: "0",
                         padding: "5px 0 0 0",
-                        width: "150px",                        
+                        // width: "150px",                        
                       }}
                     >
                       {longColor}
