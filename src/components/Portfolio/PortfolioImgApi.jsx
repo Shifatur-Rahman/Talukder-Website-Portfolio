@@ -4551,7 +4551,6 @@ const portfolioItems = [
     imgSrc: lged11,
     button: "Details"
   },
-
   
    //   //    //                                      upvc
 
@@ -5378,8 +5377,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: tubewell1,
     title: "BRDB Tubewell",
-    longCode: "83125",
-    // longSize: `  `,
+    code: "83125",
     button: "Details"
   },
   {
@@ -5387,7 +5385,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: tubewell2,
     title: `Unicef/DPHE/Hyswa Tubewell`,
-    longCode: "83101",
+    code: "83101",
     // longSize: `/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
@@ -5396,7 +5394,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: tubewell3,
     title: "Samrat Tubewell",
-    longCode: "83102",
+    code: "83102",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
@@ -5405,7 +5403,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: tubewell4,
     title: "Standard Tubewell",
-    longCode: "83107",
+    code: "83107",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
@@ -5414,7 +5412,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: tubewell5,
     title: "Mini Tubewell",
-    longCode: "83141",
+    code: "83141",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
@@ -5423,7 +5421,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: tubewell6,
     title: "Heavy Tubewell",
-    longCode: "83115",
+    code: "83115",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
@@ -5432,7 +5430,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: tubewell7,
     title: "Super Tubewell",
-    longCode: "83109",
+    code: "83109",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
@@ -5441,7 +5439,7 @@ const portfolioItems = [
     category: "upvc",
     imgSrc: tubewell8,
     title: "Super Medium Tubewell",
-    longCode: "83107",
+    code: "83107",
     // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
