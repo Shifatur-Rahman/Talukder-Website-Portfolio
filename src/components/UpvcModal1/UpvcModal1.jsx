@@ -155,7 +155,7 @@ const UpvcModal1 = (props) => {
         </table>
       </div> */}
 
-      <div style={{ marginTop: "10px" }} className="table-responsive">
+      <div style={{ marginTop: "10px", width: "600px", textAlign: "center" }} className="table-responsive">
         <table className="table table-bordered table-sm custom-table">
           <thead>
             <tr>
@@ -172,7 +172,7 @@ const UpvcModal1 = (props) => {
                 Code
               </th>
 
-              <th
+              <th className='table-primary'
                 style={{
                   fontSize: "15px",
                   fontWeight: "800",
@@ -221,7 +221,7 @@ const UpvcModal1 = (props) => {
           <tbody>
             <tr>
 
-              <th>
+              <th style={{textAlign: "-webkit-center"}}>
                 {code.split("/").map((code, index) => (
                   <tr key={index}>
                     <td
@@ -240,17 +240,15 @@ const UpvcModal1 = (props) => {
                 ))}
               </th>
 
-              <th>
+              <th style={{textAlign: "-webkit-center", color:'green'}}>
                 {size.split("/").map((size, index) => (
-                  <tr key={index}>
-                    <td
+                  <tr key={index} className = {index%2 === 0 ? "table-primary" : ""}>
+                    <td                            
                       style={{
-                        fontSize: "10px",
-                        textAlign: "center",
+                        fontSize: "10px",                    
                         margin: "0",
                         padding: "5px 0 0 0",
-                        width: "150px",
-                        textAlign: "left"
+                        width: "150px",                      
                       }}
                     >
                       {size}
@@ -259,17 +257,15 @@ const UpvcModal1 = (props) => {
                 ))}
               </th>
 
-              <th>
+              <th style={{textAlign: "-webkit-center"}}>
                 {thickness.split("/").map((thickness, index) => (
                   <tr key={index}>
                     <td
                       style={{
-                        fontSize: "10px",
-                        textAlign: "center",
+                        fontSize: "10px",                        
                         margin: "0",
                         padding: "5px 0 0 0",
-                        width: "150px",
-                        textAlign: "left"
+                        width: "150px",                        
                       }}
                     >
                       {thickness}
@@ -278,17 +274,15 @@ const UpvcModal1 = (props) => {
                 ))}
               </th>
 
-              <th>
+              <th style={{textAlign: "-webkit-center"}}>
                 {longLength.split("/").map((longLength, index) => (
                   <tr key={index}>
                     <td
                       style={{
-                        fontSize: "10px",
-                        textAlign: "center",
+                        fontSize: "10px",                        
                         margin: "0",
                         padding: "5px 0 0 0",
-                        width: "150px",
-                        textAlign: "left"
+                        width: "150px",                        
                       }}
                     >
                       {longLength}
@@ -297,17 +291,15 @@ const UpvcModal1 = (props) => {
                 ))}
               </th>
 
-              <th>
+              <th style={{textAlign: "-webkit-center"}}>
                 {longColor.split("/").map((longColor, index) => (
                   <tr key={index}>
                     <td
                       style={{
-                        fontSize: "10px",
-                        textAlign: "center",
+                        fontSize: "10px",                        
                         margin: "0",
                         padding: "5px 0 0 0",
-                        width: "150px",
-                        textAlign: "left"
+                        width: "150px",                        
                       }}
                     >
                       {longColor}
@@ -319,11 +311,8 @@ const UpvcModal1 = (props) => {
             </tr>
           </tbody>
 
-
         </table>
       </div>
-
-
 
     </>
   )

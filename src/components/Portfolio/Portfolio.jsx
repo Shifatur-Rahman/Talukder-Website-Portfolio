@@ -328,13 +328,13 @@ const Portfolio = () => {
                                       ))} */}
 
                                       {item.color.split("/").map((color, index) => (                                                   
-                                        <td key={index} style={{ textAlign: 'center', textAlign: '-webkit-center' }}>
+                                        <td key={index} style={{ textAlign: '-webkit-center' }}>
                                           
                                           <td style={{
                                             backgroundColor: color,
                                             cursor: "pointer",
-                                            width: "16px",
-                                            height: "15px",                                            
+                                            width: "15px",
+                                            height: "14px",                                            
                                             display: "flex",
                                             // justifyContent: "center",
                                             // alignItems: "center",

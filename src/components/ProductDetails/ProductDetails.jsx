@@ -302,16 +302,20 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                       ))} */}
 
                                       {singleItem.color.split("/").map((color, index) => (
-                                        <td key={index}>
-                                        <td></td>
+                                        <td key={index} style={{ textAlign: '-webkit-center' }}>
+                                          
                                         <td style={{
                                           backgroundColor: color,
                                           cursor: "pointer",
                                           width: "15px",
-                                          height: "14px",
-                                          marginLeft: "40%"
-                                        }}></td>                                          
-                                      </td> 
+                                          height: "14px",                                            
+                                          display: "flex",
+                                          // justifyContent: "center",
+                                          // alignItems: "center",
+                                          
+                                        }}></td>  
+                                                                                
+                                      </td>
                                       ))}
 
                                     </tr>
