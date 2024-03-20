@@ -4567,7 +4567,7 @@ const portfolioItems = [
   
   {
     id: 1001,
-    category: "upvc",
+    category: "NON PRESSURE PIPE",
     title: "Buried Pipe",
     imgSrc: upvc1,
     button: "Details",
@@ -4579,7 +4579,7 @@ const portfolioItems = [
   },
   {
     id: 1002,
-    category: "upvc",
+    category: "PRESSURE PIPE",
     title: "B Class Pipe",
     imgSrc: upvc2,
     button: "Details",
@@ -4591,7 +4591,7 @@ const portfolioItems = [
   },
   {
     id: 1003,
-    category: "upvc",
+    category: "PRESSURE PIPE",
     imgSrc: upvc3,
     title: "C Class Pipe",
     button: "Details",
@@ -4603,7 +4603,7 @@ const portfolioItems = [
   },
   {
     id: 1004,
-    category: "upvc",
+    category: "PRESSURE PIPE",
     imgSrc: upvc3,
     title: "D Class Pipe",
     button: "Details",
@@ -4615,7 +4615,7 @@ const portfolioItems = [
   },
   {
     id: 1005,
-    category: "upvc",
+    category: "PRESSURE PIPE",
     imgSrc: upvc3,
     title: "E Class Pipe",
     button: "Details",
@@ -4627,7 +4627,7 @@ const portfolioItems = [
   },
   {
     id: 1006,
-    category: "upvc",
+    category: "NON PRESSURE PIPE",
     imgSrc: upvc6,
     title: "Gold Series Pipe",
     button: "Details",
@@ -4639,7 +4639,7 @@ const portfolioItems = [
   },
   {
     id: 1007,
-    category: "upvc",
+    category: "NON PRESSURE PIPE",
     imgSrc: upvc7,
     title: "Gold Series Filter Pipe",
     button: "Details",
@@ -4651,7 +4651,7 @@ const portfolioItems = [
   },
   {
     id: 1008,
-    category: "upvc",
+    category: "NON PRESSURE PIPE",
     imgSrc: upvc8,
     title: "Standard Pipe",
     button: "Details",
@@ -4663,7 +4663,7 @@ const portfolioItems = [
   },
   {
     id: 1009,
-    category: "upvc",
+    category: "NON PRESSURE PIPE",
     imgSrc: upvc9,
     title: "Sanitary Pipe",
     button: "Details",
@@ -4675,7 +4675,7 @@ const portfolioItems = [
   },
   {
     id: 1010,
-    category: "upvc",
+    category: "NON PRESSURE PIPE",
     imgSrc: upvc10,
     title: "Uttom Pipe",
     button: "Details",
@@ -4694,7 +4694,7 @@ const portfolioItems = [
   },
   { 
       id: 1012,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: upvc12,
       title: "swr pipe",
       button: "Details",
@@ -4706,7 +4706,7 @@ const portfolioItems = [
     },
     {
       id: 1013,
-      category: "upvc",
+      category: "PLUMBING PIPE",
       imgSrc: upvc13,
       title: "Thread Pipe",
       button: "Details",
@@ -4718,7 +4718,7 @@ const portfolioItems = [
     },
     {
       id: 1014,
-      category: "upvc",
+      category: "PRESSURE PIPE",
       imgSrc: upvc14,
       title: "Class B Filter Pipe",
       button: "Details",
@@ -4730,7 +4730,7 @@ const portfolioItems = [
     },
     {
       id: 1015,
-      category: "upvc",
+      category: "PRESSURE PIPE",
       imgSrc: upvc14,
       title: "Class C Filter Pipe",
       button: "Details",
@@ -4742,7 +4742,7 @@ const portfolioItems = [
     },
     {
       id: 1016,
-      category: "upvc",
+      category: "PRESSURE PIPE",
       imgSrc: upvc14,
       title: "Class D Filter Pipe",
       button: "Details",
@@ -4754,7 +4754,7 @@ const portfolioItems = [
     },
     {
       id: 1017,
-      category: "upvc",
+      category: "PRESSURE PIPE",
       imgSrc: upvc14,
       title: "Class E Filter Pipe",
       button: "Details",
@@ -4766,7 +4766,7 @@ const portfolioItems = [
     },
     {
       id: 1018,
-      category: "upvc",
+      category: "PRESSURE PIPE",
       imgSrc: upvc18,
       title: "Small dia rib & robo filter Pipe",
       button: "Details",
@@ -4781,7 +4781,7 @@ const portfolioItems = [
 //   color2 not initialized
     {
       id: 1101,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings1,
       title: "uPvc Fabricated Tee",
       button: "Details",
@@ -4791,7 +4791,7 @@ const portfolioItems = [
     },
     {
       id: 1102,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings2,
       title: "uPvc Fabricated Bend",
       button: "Details",
@@ -4801,7 +4801,7 @@ const portfolioItems = [
     },
     {
       id: 1103,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings3,
       title: "uPvc Fabricated End Cap",
       button: "Details",
@@ -4811,7 +4811,7 @@ const portfolioItems = [
     },
     {
       id: 1104,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings4,
       title: "uPvc Riser Valve",
       button: "Details",
@@ -4822,7 +4822,7 @@ const portfolioItems = [
     // ok
     {
       id: 1105,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings5,
       title: `110mm Plain Bend 90° FF`,
       button: "Details",
@@ -4830,7 +4830,7 @@ const portfolioItems = [
     },
     {
       id: 1106,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings6,
       title: `110mm Plain Bend 45° FF`,
       button: "Details",
@@ -4838,7 +4838,7 @@ const portfolioItems = [
     },
     {
       id: 1107,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings7,
       title: `110mm Plain Bend 45° MF`,
       button: "Details",
@@ -4846,7 +4846,7 @@ const portfolioItems = [
     },
     {
       id: 1108,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings8,
       title: `110mm Back Door Bend 90°`,
       button: "Details",
@@ -4854,7 +4854,7 @@ const portfolioItems = [
     },
     {
       id: 1109,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings9,
       title: `110mm Left Door Bend 90°`,
       button: "Details",
@@ -4862,7 +4862,7 @@ const portfolioItems = [
     },
     {
       id: 1110,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings10,
       title: `110mm Right Door Bend 90°`,
       button: "Details",
@@ -4870,7 +4870,7 @@ const portfolioItems = [
     },
     {
       id: 1111,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings11,
       title: `110mm Plain Tee`,
       button: "Details",
@@ -4878,7 +4878,7 @@ const portfolioItems = [
     },
     {
       id: 1112,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings12,
       title: `110mm Back Door Tee`,
       button: "Details",
@@ -4886,7 +4886,7 @@ const portfolioItems = [
     },
     {
       id: 1113,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings13,
       title: `110mm Left Door Tee`,
       button: "Details",
@@ -4894,7 +4894,7 @@ const portfolioItems = [
     },
     {
       id: 1114,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings14,
       title: `110mm Right Door Tee`,
       button: "Details",
@@ -4902,7 +4902,7 @@ const portfolioItems = [
     },
     {
       id: 1115,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings15,
       title: `110mm Cross Tee`,
       button: "Details",
@@ -4910,7 +4910,7 @@ const portfolioItems = [
     },
     {
       id: 1116,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings16,
       title: `110mm Cross Door Tee`,
       button: "Details",
@@ -4918,7 +4918,7 @@ const portfolioItems = [
     },
     {
       id: 1117,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings17,
       title: `110mm U Trap`,
       button: "Details",
@@ -4926,7 +4926,7 @@ const portfolioItems = [
     },
     {
       id: 1118,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings18,
       title: `110mm Long Trap`,
       button: "Details",
@@ -4934,7 +4934,7 @@ const portfolioItems = [
     },
     {
       id: 1119,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings19,
       title: `110mm Off set`,
       button: "Details",
@@ -4942,7 +4942,7 @@ const portfolioItems = [
     },
     {
       id: 1120,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings20,
       title: `110mm Pipe Clamp/Clip`,
       button: "Details",
@@ -4950,7 +4950,7 @@ const portfolioItems = [
     },
     {
       id: 1121,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings21,
       title: `110mm socket`,
       button: "Details",
@@ -4958,7 +4958,7 @@ const portfolioItems = [
     },
     {
       id: 1122,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings22,
       title: `110mmX55mm Reducing Bush`,
       button: "Details",
@@ -4966,7 +4966,7 @@ const portfolioItems = [
     },
     {
       id: 1123,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings23,
       title: `160mm Plain Tee With Door`,
       button: "Details",
@@ -4974,7 +4974,7 @@ const portfolioItems = [
     },
     {
       id: 1124,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings24,
       title: `160mm Plain Tee Without Door`,
       button: "Details",
@@ -4982,7 +4982,7 @@ const portfolioItems = [
     },
     {
       id: 1125,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings25,
       title: `160mmX110mm Plain Reduced Tee`,
       button: "Details",
@@ -4990,7 +4990,7 @@ const portfolioItems = [
     },
     {
       id: 1126,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings26,
       title: `160mm Plain Bend With Door`,
       button: "Details",
@@ -4998,7 +4998,7 @@ const portfolioItems = [
     },
     {
       id: 1127,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings27,
       title: `160mm Plain Bend Without Door`,
       button: "Details",
@@ -5006,7 +5006,7 @@ const portfolioItems = [
     },
     {
       id: 1128,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings28,
       title: `160mmX110mm Reducer`,
       button: "Details",
@@ -5014,7 +5014,7 @@ const portfolioItems = [
     },
     {
       id: 1129,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings29,
       title: `32mm Elbow 90°`,
       button: "Details",
@@ -5022,7 +5022,7 @@ const portfolioItems = [
     },
     {
       id: 1130,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings30,
       title: `40mm Elbow 90°`,
       button: "Details",
@@ -5030,7 +5030,7 @@ const portfolioItems = [
     },
     {
       id: 1131,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings31,
       title: `50mm Elbow 90°`,
       button: "Details",
@@ -5038,7 +5038,7 @@ const portfolioItems = [
     },  
     {    
       id: 1132,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings32,
       title: `1/2" Elbow 90°`,
       button: "Details",
@@ -5046,7 +5046,7 @@ const portfolioItems = [
     },
     {
       id: 1133,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings33,
       title: `3/4" Elbow 90°`,
       button: "Details",
@@ -5054,7 +5054,7 @@ const portfolioItems = [
     },
     {
       id: 1134,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings34,
       title: `1" Elbow 90°`,
       button: "Details",
@@ -5062,7 +5062,7 @@ const portfolioItems = [
     },
     {
       id: 1135,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings35,
       title: `1-1/2" Elbow 90°`,
       button: "Details",
@@ -5070,7 +5070,7 @@ const portfolioItems = [
     },
     {
       id: 1136,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings36,
       title: `2" Elbow 90°`,
       button: "Details",
@@ -5081,7 +5081,7 @@ const portfolioItems = [
 
     {
       id: 1137,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings37,
       title: `110mm U Trap Mould`,
       button: "Details",
@@ -5089,7 +5089,7 @@ const portfolioItems = [
     },
     {
       id: 1138,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings38,
       title: `250mm Tee`,
       button: "Details",
@@ -5097,7 +5097,7 @@ const portfolioItems = [
     },
     {
       id: 1139,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings39,
       title: `250mm Bend`,
       button: "Details",
@@ -5105,7 +5105,7 @@ const portfolioItems = [
     },
     {
       id: 1140,
-      category: "upvc",
+      category: "SWR PIPE",
       imgSrc: fittings40,
       title: `250mm End cap`,
       button: "Details",
@@ -5375,7 +5375,7 @@ const portfolioItems = [
   //                        UPVC Tubewell -> 1080
   {
     id: 1080,
-    category: "upvc",
+    category: "TUBEWELL",
     imgSrc: tubewell1,
     title: "BRDB Tubewell",
     code: "83125",
@@ -5383,7 +5383,7 @@ const portfolioItems = [
   },
   {
     id: 1081,
-    category: "upvc",
+    category: "TUBEWELL",
     imgSrc: tubewell2,
     title: `Unicef/DPHE/Hyswa Tubewell`,
     code: "83101",
@@ -5392,7 +5392,7 @@ const portfolioItems = [
   },
   {
     id: 1082,
-    category: "upvc",
+    category: "TUBEWELL",
     imgSrc: tubewell3,
     title: "Samrat Tubewell",
     code: "83102",
@@ -5401,7 +5401,7 @@ const portfolioItems = [
   },
   {
     id: 1083,
-    category: "upvc",
+    category: "TUBEWELL",
     imgSrc: tubewell4,
     title: "Standard Tubewell",
     code: "83107",
@@ -5410,7 +5410,7 @@ const portfolioItems = [
   },
   {
     id: 1084,
-    category: "upvc",
+    category: "TUBEWELL",
     imgSrc: tubewell5,
     title: "Mini Tubewell",
     code: "83141",
@@ -5419,7 +5419,7 @@ const portfolioItems = [
   },
   {
     id: 1085,
-    category: "upvc",
+    category: "TUBEWELL",
     imgSrc: tubewell6,
     title: "Heavy Tubewell",
     code: "83115",
@@ -5428,7 +5428,7 @@ const portfolioItems = [
   },
   {
     id: 1086,
-    category: "upvc",
+    category: "TUBEWELL",
     imgSrc: tubewell7,
     title: "Super Tubewell",
     code: "83109",
@@ -5437,7 +5437,7 @@ const portfolioItems = [
   },
   {
     id: 1087,
-    category: "upvc",
+    category: "TUBEWELL",
     imgSrc: tubewell8,
     title: "Super Medium Tubewell",
     code: "83107",

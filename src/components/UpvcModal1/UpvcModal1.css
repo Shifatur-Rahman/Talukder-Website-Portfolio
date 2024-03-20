@@ -94,4 +94,14 @@ background-color: red !important;
 background-color: #C4CAE4;
 }
 
+@media (max-width: 767px) {
+  .upvcTable {
+    width: 500px;
+  }
+}
 
+@media (max-width: 550px) {
+  .upvcTable {
+    width: 450px;
+  }
+}

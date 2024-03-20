@@ -114,7 +114,7 @@ const Portfolio = () => {
 
                   {/* UPVC */}
 
-                  <div className="dropdown">
+                  {/* <div className="dropdown">
                     <button
                       value="upvc"
                       onClick={handleCategory}
@@ -122,7 +122,66 @@ const Portfolio = () => {
                     >
                       UPVC
                     </button>
-                  </div>
+                  </div> */}
+
+                    <div className="dropdown">
+                      <button
+                        className={isActive("plastic")}
+                        onClick={toggleDropdownPlastic}
+                      >
+                        UPVC
+                        <span className="dropdown-arrow">
+                          {isDropdown ? "▲" : "▼"}
+                        </span>
+                      </button>
+                      {isDropdown && (
+                        <div className="dropdown-content">
+                          <button
+                            value="PRESSURE PIPE"
+                            onClick={handleCategory}
+                            className={isActive("PRESSURE PIPE")}
+                            style={{ fontSize: "10px", marginTop: "10px" }}
+                          >
+                            PRESSURE PIPE
+                          </button>
+                          <button
+                            value="NON PRESSURE PIPE"
+                            onClick={handleCategory}
+                            className={isActive("PLASTIC HOUSEHOLD")}
+                            style={{ fontSize: "10px" }}
+                          >
+                            NON PRESSURE PIPE
+                          </button>
+
+                          <button
+                            value="SWR PIPE"
+                            onClick={handleCategory}
+                            className={isActive("SWR PIPE")}
+                            style={{ fontSize: "10px" }}
+                          >
+                            SWR PIPE & FITTINGS
+                          </button>
+
+                          <button
+                            value="PLUMBING PIPE"
+                            onClick={handleCategory}
+                            className={isActive("PLUMBING PIPE")}
+                            style={{ fontSize: "10px" }}
+                          >
+                            PLUMBING PIPE
+                          </button>
+
+                          <button
+                            value="TUBEWELL"
+                            onClick={handleCategory}
+                            className={isActive("TUBEWELL")}
+                            style={{ fontSize: "10px" }}
+                          >
+                            TUBEWELL
+                          </button>
+                        </div>
+                      )}
+                    </div>
 
                    {/* Plastic */}
 
