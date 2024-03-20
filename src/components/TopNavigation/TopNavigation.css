@@ -37,7 +37,9 @@
   margin-right: 1rem;
   /* color: #526D82; */
   letter-spacing: 0.3px;
-  color: #1dc6ad;
+  /* color: #1dc6ad; */
+  color: #2980B9;
+  /* 2980B9 */
 }
 
 .navItemScroll {
@@ -46,7 +48,7 @@
   font-size: 14px !important;
   font-weight: 700;
   margin-right: 1rem;
-  color: #1dc6ad;
+  color: #2980B9;
   /* letter-spacing: 0.3px; */
 }
 
@@ -117,14 +119,14 @@
 
 .dropdown-content a:hover {
   /* background-color: #45637d; */
-  background-color: #1dc6ad;
+  background-color: #2980B9;
   border-radius: 0px;
   color: #fff;
 }
 
 .active {
   text-decoration: underline;
-  border-bottom: 3px solid #1dc6ad;
+  border-bottom: 3px solid #2980B9;
   padding-bottom: 5px;
 }
 
@@ -220,7 +222,7 @@ header top area ends here
 
 @media (max-width: 991px) {
   button.navbar-toggler {
-    background-color: #17a2b8;
+    background-color: #2980B9;
     border: none;
     display: block;
     /* color: #fff !important; */
