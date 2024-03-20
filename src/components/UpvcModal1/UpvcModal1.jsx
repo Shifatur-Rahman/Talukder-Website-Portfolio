@@ -236,7 +236,8 @@ const UpvcModal1 = (props) => {
                         fontSize: "11px",
                         textAlign: "center",
                         margin: "0",
-                        padding: "5px 0 0 0",                  
+                        padding: "5px 0 0 0",   
+                                       
                       }}
                     >
                       {code}

@@ -1440,6 +1440,7 @@ const portfolioItems = [
   {
     id: 705,
     title: "SLOTTED ANGLE/Light duty RACK",
+    // code: "TFSAR-068/TFSAR-069",
     category: "INDUSTRIAL FURNITURE",
     Warranty:"One year free service warranty for any manufacturing fault",
     imgSrc: rack5,
