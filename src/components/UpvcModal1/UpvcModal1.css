@@ -74,7 +74,7 @@ background-color: red !important;
   }
 }
 
-.tablePrimary{
+.tableSize{
   background-color: #8491C9;
   width: 100%;
   padding: 0;
@@ -83,7 +83,15 @@ background-color: red !important;
 
 .tableCode{
   background-color: #BCBCBC;
-  width: 100%;
+  /* width: 80px; */
+}
+
+.upvcTable{
+  width: 600px;
+}
+
+.tableThickness{
+background-color: #C4CAE4;
 }
 
 
