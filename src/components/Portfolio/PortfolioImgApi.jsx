@@ -4687,7 +4687,7 @@ const portfolioItems = [
   },
   {
     id: 1011,
-    category: "upvc",
+    category: "NON PRESSURE PIPE",
     imgSrc: upvc11,
     title: "Oring Pipe",
     button: "Details",
