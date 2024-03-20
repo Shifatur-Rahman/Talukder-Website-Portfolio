@@ -1,11 +1,12 @@
 import React from 'react'
-import { useState } from 'react';
-import {Button, Table, Modal} from 'react-bootstrap';
+// import { useState } from 'react';
+// import {Button, Table, Modal} from 'react-bootstrap';
 import "./UpvcModal1.css"
 
 const UpvcModal1 = (props) => {
 
-     const { title, category, code, size, thickness, img, id, longLength, longColor } = props; 
+    //  const { title, category, code, size, thickness, img, id, longLength, longColor } = props; 
+    const { code, size, thickness, longLength, longColor } = props; 
     // const values = [true];
     // const [lgShow, setLgShow] = useState(true);
     // const [show, setShow] = useState(false);
@@ -236,8 +237,7 @@ const UpvcModal1 = (props) => {
                         fontSize: "11px",
                         textAlign: "center",
                         margin: "0",
-                        padding: "5px 0 0 0",   
-                                       
+                        padding: "5px 0 0 0",                                       
                       }}
                     >
                       {code}
