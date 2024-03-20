@@ -74,6 +74,11 @@ background-color: red !important;
   }
 }
 
+.upvcHeader{
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .tableSize{
   background-color: #8491C9;
   width: 100%;
@@ -103,5 +108,32 @@ background-color: #C4CAE4;
 @media (max-width: 550px) {
   .upvcTable {
     width: 450px;
+  }  
+.upvcHeader{
+  font-size: 12px;
+  font-weight: 600;
+}
+}
+
+@media (max-width: 500px) {
+  .upvcTable {
+    width: 400px;
   }
 }
+
+@media (max-width: 450px) {
+  .upvcTable {
+    width: 300px;
+  }
+  .upvcHeader{
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 350px) {
+  .upvcTable {
+    width: 250px;
+  }
+}
+

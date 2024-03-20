@@ -137,12 +137,30 @@ const Portfolio = () => {
                       {isDropdown && (
                         <div className="dropdown-content">
                           <button
+                            value="TUBEWELL"
+                            onClick={handleCategory}
+                            className={isActive("TUBEWELL")}
+                            style={{ fontSize: "10px", marginTop: "10px" }}
+                          >
+                            TUBEWELL
+                          </button>
+
+                          <button
                             value="PRESSURE PIPE"
                             onClick={handleCategory}
                             className={isActive("PRESSURE PIPE")}
-                            style={{ fontSize: "10px", marginTop: "10px" }}
+                            style={{ fontSize: "10px" }}
                           >
                             PRESSURE PIPE
+                          </button>
+                          
+                          <button
+                            value="PLUMBING PIPE"
+                            onClick={handleCategory}
+                            className={isActive("PLUMBING PIPE")}
+                            style={{ fontSize: "10px" }}
+                          >
+                            PLUMBING PIPE
                           </button>
                           <button
                             value="NON PRESSURE PIPE"
@@ -161,24 +179,7 @@ const Portfolio = () => {
                           >
                             SWR PIPE & FITTINGS
                           </button>
-
-                          <button
-                            value="PLUMBING PIPE"
-                            onClick={handleCategory}
-                            className={isActive("PLUMBING PIPE")}
-                            style={{ fontSize: "10px" }}
-                          >
-                            PLUMBING PIPE
-                          </button>
-
-                          <button
-                            value="TUBEWELL"
-                            onClick={handleCategory}
-                            className={isActive("TUBEWELL")}
-                            style={{ fontSize: "10px" }}
-                          >
-                            TUBEWELL
-                          </button>
+                          
                         </div>
                       )}
                     </div>

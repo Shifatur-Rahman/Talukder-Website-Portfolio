@@ -160,11 +160,8 @@ const UpvcModal1 = (props) => {
         <table className="table table-sm custom-table">
           <thead>
             <tr>
-              <th
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "700",
-                  // width: "100%",
+              <th className='upvcHeader'
+                style={{                
                   backgroundColor: "#494949",
                   color: "#fff"
                 }}
@@ -173,11 +170,8 @@ const UpvcModal1 = (props) => {
                 Code
               </th>
 
-              <th
+              <th className='upvcHeader'
                 style={{
-                  fontSize: "15px",
-                  fontWeight: "700",
-                  // width: "20px",
                   backgroundColor: "#3E3D91",
                   color: "#fff"
                 }}
@@ -186,11 +180,8 @@ const UpvcModal1 = (props) => {
                 Size
               </th>
 
-              <th
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "700",
-                  // width: "20px",
+              <th className='upvcHeader'
+                style={{                  
                   backgroundColor: "#8491C9",
                   color: "#fff"
                 }}
@@ -199,11 +190,8 @@ const UpvcModal1 = (props) => {
                 Thickness
               </th>
 
-              <th
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "700",
-                  // width: "20px",
+              <th className='upvcHeader'
+                style={{                  
                   backgroundColor: "#8491C9",
                   color: "#fff"
                 }}
@@ -212,11 +200,8 @@ const UpvcModal1 = (props) => {
                 Length
               </th>
 
-              <th
+              <th className='upvcHeader'
                 style={{
-                  fontSize: "15px",
-                  fontWeight: "700",
-                  // width: "20px",
                   backgroundColor: "#8491C9",
                   color: "#fff"
                 }}
@@ -227,7 +212,7 @@ const UpvcModal1 = (props) => {
             </tr>
           </thead>
 
-          <tbody>
+          <tbody style={{backgroundColor: "#D2D7E6"}}>
             <tr>
               <th style={{textAlign: "-webkit-center"}}>
                 {code.split("/").map((code, index) => (
