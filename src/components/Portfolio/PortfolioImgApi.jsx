@@ -2573,10 +2573,10 @@ const portfolioItems = [
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
   },
-  
+          
 //             plastic furniture 
 //                waredrobe 
-  
+     
 { 
   id: 601,
   category: "PLASTIC FURNITURE",
@@ -2587,7 +2587,7 @@ const portfolioItems = [
   // size:"L-88 x W-47.5 x H-137 cm",
   // size2:"L-66 x W-44 x H-127 cm",
   // material: "Polypropylene and ABS",
-  button: "Details"
+  button: "Details" 
 },
 {
   id: 602,
