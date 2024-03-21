@@ -10,7 +10,6 @@ const Error = () => {
     <div className='error'>
         <img src={Error2} alt="Error 1 Page" />
     </div>
-    
     </>
   )
 }

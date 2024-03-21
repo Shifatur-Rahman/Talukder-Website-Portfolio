@@ -2573,11 +2573,11 @@ const portfolioItems = [
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
   },
-
-//             plastic furniture
-//                waredrobe
   
-{
+//             plastic furniture 
+//                waredrobe 
+  
+{ 
   id: 601,
   category: "PLASTIC FURNITURE",
   imgSrc: waredrobe1,

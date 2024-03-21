@@ -21,11 +21,7 @@ import { VaccinesRounded } from "@mui/icons-material";
 import Accordion from 'react-bootstrap/Accordion';
 import Form from 'react-bootstrap/Form';
 
-
-// import { animateScroll } from "react-scroll";
-
 const Portfolio = () => {
-
 
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
@@ -75,10 +71,6 @@ const Portfolio = () => {
     }
   }
 
-  let handleClickBtn = () =>{
-    
-    console.log(code);
-  }
 
   let handleChange = (e) =>{
     setCode(e.target.value)
@@ -93,15 +85,10 @@ const Portfolio = () => {
         <Container fluid="md">
           <Row >
             <Col style={{marginTop:"30px", marginBottom:"10px", background: "#f2f2f2f"}}
-              // data-aos="fade-right"
-              // data-aos-anchor="#example-anchor"
-              // data-aos-offset="500"
-              // data-aos-duration="1000"
               xs={12}
               md={12}
               lg={12}
             >
-              {/* <div data-aos='fade-right' className="filter-buttons"> */}
                 <div className="filter-buttons">
                   <motion.div layout className="dropdown">
                     <button
