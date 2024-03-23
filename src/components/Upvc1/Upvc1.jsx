@@ -16,7 +16,7 @@ import Spinner from "../Spinner/Spinner.jsx";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Upvc1 = () => {
-  
+
 const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const [loading, setLoading] = useState(true);
                 </p>
               </Col>
               </Row>
-
+      
               <Row className="TgImageGallery" style={{ marginTop: "3rem" }}>
               {/* <Col style={{ marginTop: "3rem" }}> */}
               {itemData.map((item) => (
