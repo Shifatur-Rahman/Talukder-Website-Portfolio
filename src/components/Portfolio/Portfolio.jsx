@@ -149,6 +149,7 @@ const Portfolio = () => {
                           >
                             PLUMBING PIPE
                           </button>
+                          
                           <button
                             value="NON PRESSURE PIPE"
                             onClick={handleCategory}
@@ -225,7 +226,6 @@ const Portfolio = () => {
                   </div>
 
                   <div className="dropdown" style={{ flexDirection: "column" }}>
-
                     <button
                       className={isActive("WOODfURNITURE")}
                       onClick={toggleDropdown}
