@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2bbc01a5.css",
-    "main.js": "/static/js/main.0a63eed6.js",
+    "main.js": "/static/js/main.bb059958.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -137,6 +137,7 @@
     "static/media/26.jpg": "/static/media/26.18bd572149057a6b0535.jpg",
     "static/media/17.jpg": "/static/media/17.91eae5a86b24af354596.jpg",
     "static/media/18.jpg": "/static/media/18.a4967cb85d70b62aa219.jpg",
+    "static/media/6.jpg": "/static/media/6.3f0f3cc6ed3c154b3bcc.jpg",
     "static/media/12.png": "/static/media/12.6279c8e71ddc7efbd103.png",
     "static/media/16.jpg": "/static/media/16.585757cdcb6d3c3223ae.jpg",
     "static/media/25.jpg": "/static/media/25.943fee137324159db29a.jpg",
@@ -253,7 +254,6 @@
     "static/media/u1.jpg": "/static/media/u1.04f8be7a98d08203e1ca.jpg",
     "static/media/91.jpg": "/static/media/91.c32a0b0a1dd35cc83f96.jpg",
     "static/media/84.jpg": "/static/media/84.b7e7f34746b7f93085b3.jpg",
-    "static/media/6.jpg": "/static/media/6.7168c18045e77b33ce05.jpg",
     "static/media/tbl64.jpg": "/static/media/tbl64.07f168f38ce813c58ffb.jpg",
     "static/media/footer5.jpg": "/static/media/footer5.e88ca0994d8fffca8fb5.jpg",
     "static/media/tbl77.jpg": "/static/media/tbl77.b697a57287e062db7135.jpg",
@@ -368,10 +368,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.2bbc01a5.css.map": "/static/css/main.2bbc01a5.css.map",
-    "main.0a63eed6.js.map": "/static/js/main.0a63eed6.js.map"
+    "main.bb059958.js.map": "/static/js/main.bb059958.js.map"
   },
   "entrypoints": [
     "static/css/main.2bbc01a5.css",
-    "static/js/main.0a63eed6.js"
+    "static/js/main.bb059958.js"
   ]
 }
