@@ -154,7 +154,7 @@ const ManagementTeam = () => {
                   </div>
                 </Col>
 
-                <Col lg={3} md={6} sm={12}>
+                {/* <Col lg={3} md={6} sm={12}>
                   <div className="card">
                     <div className="img1">
                       <img src={profile1Img} alt="one img" />
@@ -185,7 +185,7 @@ const ManagementTeam = () => {
                       <AiFillGooglePlusCircle />
                     </div>
                   </div>
-                </Col>
+                </Col> */}
 
                 {/* <Col lg={3} md={6} sm={12}>
                   <div className="card">

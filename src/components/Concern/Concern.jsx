@@ -47,25 +47,25 @@ const Concern = () => {
                 Ind. Ltd.
               </span>
             </li>
-            <li>
+            {/* <li>
               <span>
                 {" "}
                 <BsArrowRight className="concernIcon" /> Talukder Distribution Co.
                 Ltd.
               </span>
-            </li>
+            </li> */}
             <li>
               <span>
                 {" "}
                 <BsArrowRight className="concernIcon" /> Talukder Furniture Ltd.
               </span>
             </li>
-            <li>
+            {/* <li>
               <span>
                 {" "}
                 <BsArrowRight className="concernIcon" /> J & J Enterprise Ltd.
               </span>
-            </li>
+            </li> */}
           </ul>
       </ul>
       </div>
