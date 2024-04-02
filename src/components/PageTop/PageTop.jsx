@@ -10,6 +10,7 @@ class PageTop extends Component {
   render() {
     return (
       <>
+
         {/* <Container fluid={true} className="topFixedPage p-0">
           <div className="topPageOverlay">
             <Container>
@@ -21,9 +22,9 @@ class PageTop extends Component {
             </Container>
           </div>
         </Container> */}
-
+      
   {/* new formula apply */}
-
+     
   <div className="pageTopBanner">
         <div className="vector">
             <img data-aos="fade-right" src={pic1} alt="pic1" />
