@@ -6,6 +6,7 @@ import pic2 from "../../asset/images/vector img/crossCyan .png"
 import pic3 from "../../asset/images/vector img/circleCoral2.png"
 import pic4 from "../../asset/images/vector img/TriangleCyan.png"
 import Slider from "../Slider/Slider";
+import PageSlider from "../PageSlider/PageSlider";
 
 class PageTop extends Component {
   render() {
@@ -37,7 +38,7 @@ class PageTop extends Component {
             </div>
         </div> */}
 
-        <Slider />
+        <PageSlider />
   </div>
                 
   </>
