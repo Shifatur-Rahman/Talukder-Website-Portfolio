@@ -319,7 +319,7 @@ const Portfolio = () => {
                                   {item.title}{" "}
                                 </span>
                               </p>
-                            )}
+                            )}                            
   
                             {item.color && item.code ? (
                               <div style={{ margin: "0 5px" }} className="table-responsive">

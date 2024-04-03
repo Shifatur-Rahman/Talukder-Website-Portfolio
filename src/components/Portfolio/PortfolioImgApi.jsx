@@ -3459,7 +3459,7 @@ const portfolioItems = [
     imgSrc: plastichousehold11,
     title: "Delux Bowl",
     code: "12165/12166/12168/12169/12178/12172/12175/12176/12180/12181/12185/12186/12188/12189/12191/12192/12195/12196",
-    color: "red/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue/red/blue",
+    color: "red/white/white/white/white/white/white/white/blue/white/white/white/white/white/white/white/white/white",
     size: "3 Ltr, 5 Ltr, 8Ltr, 10Ltr, 15Ltr, 20 Ltr, 25 Ltr, 30 Ltr, 35 Ltr",
     button: "Details"
   },
@@ -3469,7 +3469,7 @@ const portfolioItems = [
     imgSrc: plastichousehold12,
     title: "Design Bowl",
     code: "12118/12119/12131/12132/12141/12142/12151/12152/12161/12162",
-    color: "red/blue/red/blue/red/blue/red/blue/red/blue",
+    color: "red/white/white/white/white/white/white/white/blue/white",
     size: "3 Ltr, 8 Ltr, 15 Ltr, 20 Ltr, 25 Ltr",
     button: "Details"
   },
@@ -3479,7 +3479,7 @@ const portfolioItems = [
     imgSrc: plastichousehold13,
     title: "Design Bucket With Lid",
     code: "11106/11108/11111/11117/11121/11126/11131",
-    color: "blue/blue/blue/blue/blue/blue/blue",
+    color: "blue/white/white/white/white/white/white",
     size: "5 Ltr, 8 Ltr, 10 Ltr, 16 Ltr, 20 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
@@ -3489,7 +3489,7 @@ const portfolioItems = [
     imgSrc: plastichousehold14,
     title: "Design Bucket With Lid",
     code: "11105/11107/11110/11116/11120/11120/11130",
-    color: "red/red/red/red/red/red/red",
+    color: "red/white/white/white/white/white/white",
     size: "5 Ltr, 8 Ltr, 10 Ltr, 16 Ltr, 20 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
@@ -3499,7 +3499,7 @@ const portfolioItems = [
     imgSrc: plastichousehold15,
     title: "Design Bucket",
     code: "11306/11308/11311/11317/11321/11326/11331",
-    color: "blue/blue/blue/blue/blue/blue/blue",
+    color: "blue/white/white/white/white/white/white",
     size: "5 Ltr, 8 Ltr, 10 Ltr, 16 Ltr, 20 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
@@ -3509,7 +3509,7 @@ const portfolioItems = [
     imgSrc: plastichousehold16,
     title: "Design Bucket",
     code: "11305/11307/11310/11316/11320/11325/11330",
-    color: "red/red/red/red/red/red/red",
+    color: "red/white/white/white/white/white/white",
     size: "5 Ltr, 8 Ltr, 10 Ltr, 16 Ltr, 20 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
@@ -3519,7 +3519,7 @@ const portfolioItems = [
     imgSrc: plastichousehold17,
     title: "Delux Bucket",
     code: "11140/11146/11149/11152/11156/11161/11169",
-    color: "red/red/red/red/red/red/red",
+    color: "red/white/white/white/white/white/white",
     size: "5 Ltr, 8 Ltr, 10 Ltr, 16 Ltr, 20 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
