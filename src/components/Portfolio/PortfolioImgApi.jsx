@@ -3208,7 +3208,7 @@ const portfolioItems = [
   imgSrc: plasticUpcoming1,
   title: "Planter",
   code: "29010/29011/29012/29013/29014/29015/29016/29017/29018",
-  color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
+  color: "#BC4A3C/white/white/#A1662F/white/white/black/white/white",
   size: `16", 18", 21"`,
   button: "Details"
  }, 
@@ -3218,7 +3218,7 @@ const portfolioItems = [
   imgSrc: plasticUpcoming2,
   title: "Planter",
   code: "29019/29020/29021/29022/29023/29024/29025/29026/29027",
-  color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
+  color: "#BC4A3C/white/#white/#A1662F/white/white/black/white/white",
   size: `11", 12", 14"`,
   button: "Details"
  },
@@ -3228,7 +3228,7 @@ const portfolioItems = [
   imgSrc: plasticUpcoming3,
   title: "Planter",
   code: "29028/29029/29030/29031/29032/29033/29034/29035/29036",
-  color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
+  color: "#BC4A3C/white/white/#A1662F/#white/white/black/white/white",
   size: `7", 8", 10"`,
   button: "Details"
  },
@@ -3238,7 +3238,7 @@ const portfolioItems = [
   imgSrc: plasticUpcoming4,
   title: "Planter",
   code: "29037/29038/29039/29040/29041/29042/29043/29044/29045",
-  color: "#BC4A3C/#BC4A3C/#BC4A3C/#A1662F/#A1662F/#A1662F/black/black/black",
+  color: "#BC4A3C/white/white/#A1662F/white/white/black/white/white",
   size: `3", 4.5", 6.5"`,
   button: "Details"
  },
@@ -3529,7 +3529,7 @@ const portfolioItems = [
     imgSrc: plastichousehold18,
     title: "Delux Bucket",
     code: "11141/11147/11150/11153/11157/11162/11170",
-    color: "blue/blue/blue/blue/blue/blue/blue",
+    color: "blue/white/white/white/white/white/white",
     size: "8 Ltr, 12 Ltr, 15 Ltr, 20 Ltr, 22 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
@@ -3539,7 +3539,7 @@ const portfolioItems = [
     imgSrc: plastichousehold19,
     title: "Delux Bucket",
     code: "11171/11172/11173/11174/11175/11176/11177",
-    color: "black/black/black/black/black/black/black",
+    color: "black/#fff/#fff/#fff/#fff/#fff/#fff",
     size: "8 Ltr, 12 Ltr, 15 Ltr, 20 Ltr, 22 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
@@ -3549,7 +3549,7 @@ const portfolioItems = [
     imgSrc: plastichousehold20,
     title: "Delux Bucket",
     code: "11180/11181/11182/11183/11184/11185/11186",
-    color: "#446BAD/#446BAD/#446BAD/#446BAD/#446BAD/#446BAD/#446BAD",
+    color: "#446BAD/#fff/#fff/#fff/#fff/#fff/#fff",
     size: "8 Ltr, 12 Ltr, 15 Ltr, 20 Ltr, 22 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
@@ -3559,7 +3559,7 @@ const portfolioItems = [
     imgSrc: plastichousehold21,
     title: "Delux Bucket Transparent",
     code: "11190/11191/11192/11193/11194/11195/11196",
-    color: "#EAB8CA/#EAB8CA/#EAB8CA/#EAB8CA/#EAB8CA/#EAB8CA/#EAB8CA",
+    color: "#EAB8CA/#fff/#fff/#fff/#fff/#fff/#fff",
     size: "8 Ltr, 12 Ltr, 15 Ltr, 20 Ltr, 22 Ltr, 25 Ltr, 30 Ltr",
     button: "Details"
   },
@@ -3569,7 +3569,7 @@ const portfolioItems = [
     imgSrc: plastichousehold22,
     title: "Drum Bucket",
     code: "11445/11446/11460/11461",
-    color: "red/blue/red/blue",
+    color: "red/blue/white/white",
     size: "45 Ltr, 60 Ltr",
     button: "Details"
   },
@@ -3589,7 +3589,7 @@ const portfolioItems = [
     imgSrc: plastichousehold24,
     title: "Twist Bucket(Plastic Handle)",
     code: "11385/11386/11387/11391/11392/11393",
-    color: "red/blue/#4A7E8B/red/blue/#4A7E8B",
+    color: "red/blue/#4A7E8B/#fff/#fff/#fff",
     size: "16 Ltr, 20 Ltr",
     button: "Details"
   },
@@ -3599,7 +3599,7 @@ const portfolioItems = [
     imgSrc: plastichousehold25,
     title: "Spout Bucket(Steel & Plastic Handle)",
     code: "11350/11351/11356/11357",
-    color: "red/blue/red/blue",
+    color: "red/blue/white/white",
     size: "16 Ltr, 20 Ltr",
     button: "Details"
   },
@@ -3618,7 +3618,7 @@ const portfolioItems = [
     imgSrc: plastichousehold27,
     title: "Bathroom Pot",
     code: "17065/17070",
-    color: "blue/blue",
+    color: "blue/white",
     size: "2 Ltr, 2.25 Ltr",
     button: "Details"
   },
@@ -3628,7 +3628,7 @@ const portfolioItems = [
     imgSrc: plastichousehold28,
     title: "Design Mug",
     code: "14201/14202/14204/14205/14207/14208",
-    color: "red/blue/red/blue/red/blue",
+    color: "red/blue/white/white/white/white",
     size: "0.5 Ltr, 1.5 Ltr, 2 Ltr",
     button: "Details"
   },
@@ -3714,17 +3714,17 @@ const portfolioItems = [
     code: "15206/15207/15208",
     color: "red/blue/yellow",
     button: "Details"
-  },
-  {
+  },  
+  { 
     id: 1838,
     category: "PLASTIC HOUSEHOLD",
     imgSrc: plastichousehold38,
     title: "Shirt Hanger",
     code: "17022/17023/17024",
-    color: "#6a5c3c/red/blue",
+    color: "#6a5c3c/red/white",
     button: "Details"
-  },
-  {
+  }, 
+  { 
     id: 1839,
     category: "PLASTIC HOUSEHOLD",
     imgSrc: plastichousehold39,
@@ -3739,20 +3739,20 @@ const portfolioItems = [
     imgSrc: plastichousehold40,
     title: "Wall Hanger",
     code: "17003/17004",
-    color: "#6a5c3c/#6a5c3c",
+    color: "#6a5c3c/white",
     button: "Details"
-  },
+  }, 
   {
     id: 1841,
     category: "PLASTIC HOUSEHOLD",
     imgSrc: plastichousehold41,
     title: "Dish Cover",
     code: "17081/17082/17084/17085/17087/17088",
-    color: "red/red/red/red/red/red",
+    color: "red/white/white/white/white/white",
     size: "26 mm, 32 mm, 36 mm",
     button: "Details"
-  },
-  {
+  }, 
+  { 
     id: 1842,
     category: "PLASTIC HOUSEHOLD",
     imgSrc: plastichousehold42,
@@ -3873,7 +3873,7 @@ const portfolioItems = [
     imgSrc: plastichousehold55,
     title: "Design Jug(Open Handle)",
     code: "13101/13102/13105/13106",
-    color: "red/blue/red/blue",
+    color: "red/blue/white/white",
     size: "2.5 Ltr, 3Ltr",
     button: "Details"
   },
@@ -4089,7 +4089,7 @@ const portfolioItems = [
   imgSrc: kitchenalmirah1,
   title: "Kitchen Almirah",
   code: "30101/30102/30103/30104/30105/30106",
-  color: "blue/blue/blue/pink/pink/pink",
+  color: "blue/white/white/pink/white/white",
   button: "Details"
  },
 
@@ -4169,17 +4169,7 @@ const portfolioItems = [
   },
 
 
-
-
-
-
-
-
   //                                    plastic table series
-
-
-
-
 
 
 
