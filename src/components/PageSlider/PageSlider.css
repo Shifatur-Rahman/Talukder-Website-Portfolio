@@ -1,5 +1,6 @@
 .carousel-item-fixed-height{
-    margin-top: 75px;
+    margin-top: 85px;
+    min-width: 100%;
 }
 
 .carousel-item-fixed-height img {
