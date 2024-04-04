@@ -3373,8 +3373,8 @@ const portfolioItems = [
     category: "PLASTIC HOUSEHOLD",
     imgSrc: plastichousehold2,
     title: "Vegetable Washing Net",
-    code: "17095/17096/17101/17102",
-    color: "red/blue/red/blue",
+    code: "17095/17101/17096/17102",
+    color: "red/white/blue/white",
     size: "32cm, 36cm",
     button: "Details"
   },
