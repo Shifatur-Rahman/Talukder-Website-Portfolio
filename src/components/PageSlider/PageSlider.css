@@ -1,0 +1,8 @@
+.carousel-item-fixed-height{
+    margin-top: 75px;
+}
+
+.carousel-item-fixed-height img {
+    height: 300px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+  }
