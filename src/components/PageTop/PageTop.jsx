@@ -7,8 +7,6 @@ class PageTop extends Component {
   render() {
     return (
       <>
-      
-  {/* new formula apply */}
 
   <PageSlider />
 
