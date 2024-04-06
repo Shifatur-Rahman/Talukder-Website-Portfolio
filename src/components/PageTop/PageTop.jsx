@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import "./PageTop.css";
-import pic1 from "../../asset/images/vector img/ZigzagDiagonalCyan1.png"
-import pic2 from "../../asset/images/vector img/crossCyan .png"
-import pic3 from "../../asset/images/vector img/circleCoral2.png"
-import pic4 from "../../asset/images/vector img/TriangleCyan.png"
-import Slider from "../Slider/Slider";
+// import "./PageTop.css";
 import PageSlider from "../PageSlider/PageSlider";
 
 class PageTop extends Component {
