@@ -81,10 +81,10 @@ const Portfolio = () => {
       {loading ? (
         <Spinner />
       ) : (
-        <div style={{background: "#f2f2f2", marginTop:"0px"}}>
+        <div style={{background: "#f2f2f2"}}>
         <Container fluid="md">
           <Row >
-            <Col style={{marginTop:"0px", marginBottom:"10px", background: "#f2f2f2f"}}
+            <Col style={{marginBottom:"10px", background: "#f2f2f2f"}}
               xs={12}
               md={12}
               lg={12}
