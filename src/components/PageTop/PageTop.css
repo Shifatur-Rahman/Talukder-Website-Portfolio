@@ -1,4 +1,4 @@
-.pageTopBanner {
+/* .pageTopBanner {
   background-image: url(../../asset/images/Banner/solidImage.png);
   height: 350px;
   background-attachment: fixed;
@@ -6,14 +6,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* -webkit-box-shadow: -2px -3px 41px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -2px -3px 41px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -2px -3px 41px -1px rgba(0, 0, 0, 0.75); */
 }
 
-.pageTopBanner .vector
-{
-    /* background-attachment: fixed; */
+.pageTopBanner .vector{
     position: relative;
     height: 100%;
     width: 100%;
@@ -22,7 +17,6 @@
 }
 
 .pageContent {
-  /* width: 700px; */
   position: absolute;
   top: 58%;
   left: 50%;
@@ -48,22 +42,18 @@
 .pageTopBanner .vector img:nth-child(1){
   bottom: calc(13%);
   left: calc(80%);
-  /* position: fixed; */
  }
  .pageTopBanner .vector img:nth-child(2){
   top: calc(28%);
   left: calc(70%);
-  /* position: fixed; */
  }
  .pageTopBanner .vector img:nth-child(3){
   bottom: calc(18%);
   left: calc(20%);
-  /* position: fixed; */
  }
  .pageTopBanner .vector img:nth-child(4){
   top: calc(28%);
   left: calc(10%);
-  /* position: fixed; */
  }
 
 @media only screen and (max-width: 1000px){
@@ -138,4 +128,4 @@
   .pageCover{
     font-size: 14px;
   }
-}
+} */

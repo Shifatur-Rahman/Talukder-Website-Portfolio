@@ -8,7 +8,7 @@ const PageSlider = () => {
   return (
     <>
     
-    <div>
+    
     <Carousel data-bs-theme="dark">
       <Carousel.Item className="carousel-item-fixed-height">
         <img
@@ -32,8 +32,7 @@ const PageSlider = () => {
         />
       </Carousel.Item>
     </Carousel>
-    </div>
-    
+
     </>
   )
 }
