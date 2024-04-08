@@ -270,7 +270,7 @@ const Portfolio = () => {
                 </div>
             </Col>
 
-            {loading ? (
+            {loading ? ( 
               <PageLoader />
             ) : (    
                     <motion.div 
