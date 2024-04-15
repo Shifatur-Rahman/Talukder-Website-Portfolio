@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bbc01a5.css",
-    "main.js": "/static/js/main.a68bd95b.js",
+    "main.css": "/static/css/main.d020a4b3.css",
+    "main.js": "/static/js/main.d7d36bba.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -9,7 +9,7 @@
     "static/media/Household_Product1.mp4": "/static/media/Household_Product1.5102404650bf3a2efed0.mp4",
     "static/media/Lundry_Basket_Advertise.mp4": "/static/media/Lundry_Basket_Advertise.96ba1ef568bd58b42388.mp4",
     "static/media/Jug_Advertise.mp4": "/static/media/Jug_Advertise.2656d77c7f5b3f03605c.mp4",
-    "static/media/slider2.jpg": "/static/media/slider2.d2520956dfd9a9c3de38.jpg",
+    "static/media/slider2.jpg": "/static/media/slider2.36c07e2a7396764f194c.jpg",
     "static/media/Fittings_Advertise.mp4": "/static/media/Fittings_Advertise.20aebb0a4ba2e5475580.mp4",
     "static/media/Dining_Table_Advertise.mp4": "/static/media/Dining_Table_Advertise.11e989ddbdff72004cbe.mp4",
     "static/media/Rack_Advertise.mp4": "/static/media/Rack_Advertise.b5d3a00a18a32f5e0844.mp4",
@@ -21,12 +21,12 @@
     "static/media/lged7.jpg": "/static/media/lged7.d79190e5ba2d047478b5.jpg",
     "static/media/lged8.jpg": "/static/media/lged8.9f2b2970474245538a89.jpg",
     "static/media/gallery4.jpg": "/static/media/gallery4.ed3a2a9126e3577b84fd.jpg",
+    "static/media/slider1.jpg": "/static/media/slider1.0d4ad61e71d356489ab8.jpg",
     "static/media/gallery14.jpg": "/static/media/gallery14.70c3f2dab94dbeff9fb4.jpg",
     "static/media/gallery9.jpg": "/static/media/gallery9.4a74e0ba8e8e458a3396.jpg",
     "static/media/talukder.gif": "/static/media/talukder.7b976f403eed8135e0ba.gif",
     "static/media/awards21.jpg": "/static/media/awards21.266ded99fec698512e41.jpg",
     "static/media/profile.png": "/static/media/profile.330a36c38c437f992d6f.png",
-    "static/media/slider1.jpg": "/static/media/slider1.0d4ad61e71d356489ab8.jpg",
     "static/media/news6.jpg": "/static/media/news6.7a7c34313dc9d01fdd47.jpg",
     "static/media/news2.jpg": "/static/media/news2.55d69ef6797797940de1.jpg",
     "static/media/02.jpg": "/static/media/02.6ad7141e9c98369fc44e.jpg",
@@ -35,6 +35,7 @@
     "static/media/news5.jpg": "/static/media/news5.3cf688d0a272e74f6a68.jpg",
     "static/media/gallery12.jpg": "/static/media/gallery12.ed0e8d425b18752fb08e.jpg",
     "static/media/gallery7.jpg": "/static/media/gallery7.fc0318233c04a6c93252.jpg",
+    "static/media/slider3.jpg": "/static/media/slider3.34ee3ce09575d8a8b428.jpg",
     "static/media/gallery5.jpg": "/static/media/gallery5.1fe2644677064b8a0cca.jpg",
     "static/media/gallery8.jpg": "/static/media/gallery8.54092be02c2bc0bea703.jpg",
     "static/media/awards13.jpg": "/static/media/awards13.d60d801afdb8fc259261.jpg",
@@ -109,7 +110,6 @@
     "static/media/Rectangular Container.jpg": "/static/media/Rectangular Container.10405ed29d6dda41d3e1.jpg",
     "static/media/03.png": "/static/media/03.dea3b0810b06a0e8de15.png",
     "static/media/14.png": "/static/media/14.988ab6cd0517f4d9eafe.png",
-    "static/media/solidImage.png": "/static/media/solidImage.370c7bfb3a9e6f07f39f.png",
     "static/media/27.png": "/static/media/27.324f21e916caa3fc6c57.png",
     "static/media/07.png": "/static/media/07.6a1876f51a44812d814d.png",
     "static/media/footer6.jpg": "/static/media/footer6.0040b251640239f74328.jpg",
@@ -367,11 +367,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.2bbc01a5.css.map": "/static/css/main.2bbc01a5.css.map",
-    "main.a68bd95b.js.map": "/static/js/main.a68bd95b.js.map"
+    "main.d020a4b3.css.map": "/static/css/main.d020a4b3.css.map",
+    "main.d7d36bba.js.map": "/static/js/main.d7d36bba.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bbc01a5.css",
-    "static/js/main.a68bd95b.js"
+    "static/css/main.d020a4b3.css",
+    "static/js/main.d7d36bba.js"
   ]
 }
