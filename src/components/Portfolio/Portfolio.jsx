@@ -70,8 +70,7 @@ const Portfolio = () => {
       setPages(selectedPage);
     }
   }
-
-
+  
   let handleChange = (e) =>{
     setCode(e.target.value)
   }
