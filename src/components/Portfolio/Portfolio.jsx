@@ -70,7 +70,7 @@ const Portfolio = () => {
       setPages(selectedPage);
     }
   }
-  
+
   let handleChange = (e) =>{
     setCode(e.target.value)
   }
@@ -165,8 +165,7 @@ const Portfolio = () => {
                             style={{ fontSize: "10px" }}
                           >
                             SWR PIPE & FITTINGS
-                          </button>
-                          
+                          </button>                    
                         </div>
                       )}
                     </div>

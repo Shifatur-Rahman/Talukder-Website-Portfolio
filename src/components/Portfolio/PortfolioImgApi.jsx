@@ -5431,7 +5431,6 @@ const portfolioItems = [
     imgSrc: tubewell8,
     title: "Super Medium Tubewell",
     code: "83107",
-    // longSize: `Unicef | DPHE | Hyswa Tubwell/ Samrat TubeWell/Curve Popular Heavy TubeWell/Curve Popular Super TubeWell/Standard TubeWell/Super Straight TubeWell/Curve Popular Super TubeWell/ Mini Popular TubeWell/Mini Heavy TubeWell/ Mini Light TubeWell/Heavy TubeWell/Light Straight TubeWell/ BRDB | Talukder TubeWell (25.5-26kg)/BRDB | Talukder TubeWell (25.5-26kg) (Red)  `,
     button: "Details"
   },
                                          //      Toys (4001-4100)
@@ -5511,7 +5510,3 @@ const portfolioItems = [
 ];
 
 export default portfolioItems; 
-
-
-
-
