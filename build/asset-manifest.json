@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d020a4b3.css",
-    "main.js": "/static/js/main.d7d36bba.js",
+    "main.js": "/static/js/main.d8b87c73.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -9,7 +9,7 @@
     "static/media/Household_Product1.mp4": "/static/media/Household_Product1.5102404650bf3a2efed0.mp4",
     "static/media/Lundry_Basket_Advertise.mp4": "/static/media/Lundry_Basket_Advertise.96ba1ef568bd58b42388.mp4",
     "static/media/Jug_Advertise.mp4": "/static/media/Jug_Advertise.2656d77c7f5b3f03605c.mp4",
-    "static/media/slider2.jpg": "/static/media/slider2.36c07e2a7396764f194c.jpg",
+    "static/media/slider2.jpg": "/static/media/slider2.64c0c8779bbd2a941c3a.jpg",
     "static/media/Fittings_Advertise.mp4": "/static/media/Fittings_Advertise.20aebb0a4ba2e5475580.mp4",
     "static/media/Dining_Table_Advertise.mp4": "/static/media/Dining_Table_Advertise.11e989ddbdff72004cbe.mp4",
     "static/media/Rack_Advertise.mp4": "/static/media/Rack_Advertise.b5d3a00a18a32f5e0844.mp4",
@@ -368,10 +368,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.d020a4b3.css.map": "/static/css/main.d020a4b3.css.map",
-    "main.d7d36bba.js.map": "/static/js/main.d7d36bba.js.map"
+    "main.d8b87c73.js.map": "/static/js/main.d8b87c73.js.map"
   },
   "entrypoints": [
     "static/css/main.d020a4b3.css",
-    "static/js/main.d7d36bba.js"
+    "static/js/main.d8b87c73.js"
   ]
 }
