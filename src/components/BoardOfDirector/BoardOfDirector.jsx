@@ -57,7 +57,7 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-              {/* <Col lg={3} md={6} sm={12}>
+              <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
 
                   <div className="img1">
@@ -65,13 +65,13 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="img2">
-                    <img src={profile3Img} alt="two img" />
+                    <img src={profile2Img} alt="two img" />
                   </div>
 
                   <div className="main-text">
-                    <h2>Mrs. Ferdausi Akter</h2>
+                    <h2> Brig Gen (Retd) <br /> Md. Habibur Rahman</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                      Deputy Managing Director
+                      Executive Director
                     </p>
                     <p></p>
                   </div>
@@ -85,7 +85,7 @@ const BoardOfDirector = () => {
 
                 </div>
                 
-              </Col> */}
+              </Col>
 
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
@@ -143,7 +143,7 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
             
-              {/* <Col lg={3} md={6} sm={12}>
+              <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
@@ -154,10 +154,10 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="main-text">
-                    <h2>MD. Majharul Islam</h2>
+                    <h2>Md. Mizanur Rahman Mandal</h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Deputy General Manager <br />
-                    (VAT, TAX & Audit)
+                    General Manager <br />
+                    HR, Admin & Compliance
 
                     </p>
                   </div>
@@ -169,7 +169,7 @@ const BoardOfDirector = () => {
                     <AiFillGooglePlusCircle />
                   </div>
                 </div>
-              </Col> */}
+              </Col>
               
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
@@ -198,7 +198,7 @@ const BoardOfDirector = () => {
                 </div>
               </Col>
 
-              {/* <Col lg={3} md={6} sm={12}>
+              <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
                     <img src={profile1Img} alt="one img" />
@@ -209,10 +209,10 @@ const BoardOfDirector = () => {
                   </div>
 
                   <div className="main-text">
-                    <h2>Md. Al-Mamunur Rashid</h2>
+                    <h2>Firoz Mahmud Iqbal </h2>
                     <p style={{ fontSize: "12px" }} className="main-text-p">
-                    Asst. General Manager <br />
-                    Head of Production (Fabrication)
+                    DGM <br />
+                    
                     </p>                   
                   </div>
 
@@ -223,7 +223,7 @@ const BoardOfDirector = () => {
                     <AiFillGooglePlusCircle />
                   </div>
                 </div>
-              </Col> */}
+              </Col>
 
               {/* <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
