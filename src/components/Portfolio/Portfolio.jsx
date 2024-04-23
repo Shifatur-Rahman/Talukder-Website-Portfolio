@@ -182,8 +182,8 @@ const Portfolio = () => {
                         {isDropdown ? "▲" : "▼"}
                       </span>
                     </button>
-                    {isDropdown && (
-                      <div className="dropdown-content">
+                    {isDropdown && ( 
+                      <div className="dropdown-content"> 
                         <button
                           value="PLASTIC FURNITURE"
                           onClick={handleCategory}
@@ -317,7 +317,7 @@ const Portfolio = () => {
                                 </span>
                               </p>
                             )}                            
-  
+     
                             {item.color && item.code ? (
                               <div style={{ margin: "0 5px" }} className="table-responsive">
                                 <table className="table table-bordered table-sm custom-table">
