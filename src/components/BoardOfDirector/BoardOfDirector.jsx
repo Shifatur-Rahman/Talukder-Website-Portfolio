@@ -609,7 +609,6 @@ const BoardOfDirector = () => {
 
               {/* new add */}
 
-              
               <Col lg={3} md={6} sm={12}>
                 <div className="managementCard">
                   <div className="img1">
