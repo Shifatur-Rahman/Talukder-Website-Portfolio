@@ -360,7 +360,7 @@ const Portfolio = () => {
                                         Color
                                       </th>
 
-                                      {item.color.split("/").map((color, index) => (
+                                      {/* {item.color.split("/").map((color, index) => (
                                         <td
                                           style={{
                                             backgroundColor: color,
@@ -369,7 +369,7 @@ const Portfolio = () => {
                                           }}
                                           key={index}
                                         ></td>
-                                      ))}
+                                      ))} */}
 
                                       {item.color.split("/").map((color, index) => (                                                   
                                         <td key={index} style={{ textAlign: '-webkit-center' }}>
