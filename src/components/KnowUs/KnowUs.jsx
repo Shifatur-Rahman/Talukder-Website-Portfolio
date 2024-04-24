@@ -29,7 +29,7 @@ function KnowUs(props, ref) {
               Arafin, Talukder Group of Industries becomes the largest partner of
               LGED, JICA, PEDP and dedicated dealership and various govt. project in
               furnishing Primary Schools all over the Country.
-            </p>
+            </p> 
             <div className="text-center">
               <NavLink className="knowMore" to="/about">
                 {/* data-aos='flip-up'  */}
