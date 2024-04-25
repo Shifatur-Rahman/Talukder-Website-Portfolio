@@ -381,8 +381,7 @@ const Portfolio = () => {
                                             height: "14px",                                            
                                             display: "flex",
                                             // justifyContent: "center",
-                                            // alignItems: "center",
-                                            
+                                            // alignItems: "center",                                            
                                           }}></td>  
                                                                                   
                                         </td>                                        
