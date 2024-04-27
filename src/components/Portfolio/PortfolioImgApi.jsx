@@ -1851,7 +1851,7 @@ const portfolioItems = [
     imgSrc: chair27,
     button: "Details",
     material: "cold mild steel. All surface of mild steel zinc phosphate coated oven backed powder paint finish which will ensure durable anti peel off. foam cushioning covered with best quality imported nylon fabrics on wood & back which increase strength. High quality revolving chair back tilt facilities and strong PVC arms. Hydraulically height adjustable mechanism facility helps to regulate with table.PVC legs with 5nos castors which ensure no rust"
-  },
+  }, 
   {
     id: 528,
     title: "SWIVEL CHAIR",
@@ -2564,7 +2564,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 601,
+    id: 641,
     title: "SOLID WOODEN DOOR",
     category: "office furniture",
     code: "TFFDD-096",
@@ -5246,6 +5246,14 @@ const portfolioItems = [
     color: "#497774",
     button: "Details"
   },
+
+//  HouseHold Products
+
+
+
+
+
+
 
 ];
 
