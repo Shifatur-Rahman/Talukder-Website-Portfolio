@@ -5247,14 +5247,6 @@ const portfolioItems = [
     button: "Details"
   },
 
-//  HouseHold Products
-
-
-
-
-
-
-
 ];
 
 export default portfolioItems; 
