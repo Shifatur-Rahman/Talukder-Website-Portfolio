@@ -82,8 +82,7 @@ class TopNavigation extends Component {
               data-aos="fade-right"
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
-              data-aos-duration="1500"
-            >
+              data-aos-duration="1500">
               
               {/* Home */}
 
