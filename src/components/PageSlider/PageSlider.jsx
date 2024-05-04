@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import slider1 from "../../asset/images/PageTop Slider/slider1.jpg";
 import slider2 from "../../asset/images/PageTop Slider/slider2.jpg";
 import slider3 from "../../asset/images/PageTop Slider/slider3.jpg";
+import slider4 from "../../asset/images/PageTop Slider/slider4.jpg";
 import "./PageSlider.css"
 
 const PageSlider = () => {
@@ -28,6 +29,13 @@ const PageSlider = () => {
           className="d-block w-100"
           src={slider3}
           alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item className="carousel-item-fixed-height">
+        <img
+          className="d-block w-100"
+          src={slider4}
+          alt="Four slide"
         />
       </Carousel.Item>
     </Carousel>
