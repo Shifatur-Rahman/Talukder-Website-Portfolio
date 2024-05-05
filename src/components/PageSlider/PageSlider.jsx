@@ -11,6 +11,7 @@ import "./PageSlider.css"
 const PageSlider = () => {
   return (
     <>
+
     <Carousel data-bs-theme="dark" style={{backgroundColor:"#f2f2f2"}}>
       <Carousel.Item className="carousel-item-fixed-height">
         <img
@@ -58,6 +59,7 @@ const PageSlider = () => {
       </Carousel.Item>
 
     </Carousel>
+    
     </>
   )
 }
