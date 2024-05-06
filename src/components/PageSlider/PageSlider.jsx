@@ -46,7 +46,7 @@ const PageSlider = () => {
         <img
           className="d-block w-100"
           src={slider5}
-          alt="Four slide"
+          alt="Five slide"
         />
       </Carousel.Item>
 
@@ -54,7 +54,7 @@ const PageSlider = () => {
         <img
           className="d-block w-100"
           src={slider6}
-          alt="Four slide"
+          alt="Six slide"
         />
       </Carousel.Item>
 
