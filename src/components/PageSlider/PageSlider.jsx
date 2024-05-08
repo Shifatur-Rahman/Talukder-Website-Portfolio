@@ -6,6 +6,8 @@ import slider3 from "../../asset/images/PageTop Slider/slider3.jpg";
 import slider4 from "../../asset/images/PageTop Slider/slider4.jpg";
 import slider5 from "../../asset/images/PageTop Slider/slider5.jpg";
 import slider6 from "../../asset/images/PageTop Slider/slider6.jpg";
+import slider7 from "../../asset/images/PageTop Slider/slider7.jpg";
+import slider8 from "../../asset/images/PageTop Slider/slider8.jpg";
 import "./PageSlider.css"
 
 const PageSlider = () => {
@@ -54,6 +56,22 @@ const PageSlider = () => {
         <img
           className="d-block w-100"
           src={slider6}
+          alt="Six slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className="carousel-item-fixed-height">
+        <img
+          className="d-block w-100"
+          src={slider7}
+          alt="Six slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className="carousel-item-fixed-height">
+        <img
+          className="d-block w-100"
+          src={slider8}
           alt="Six slide"
         />
       </Carousel.Item>
