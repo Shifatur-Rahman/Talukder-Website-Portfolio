@@ -4,6 +4,6 @@
 }
 
 .carousel-item-fixed-height img {
-    height: 330px; /* Fixed height */
+    height: 350px; /* Fixed height */
     object-fit: cover; /* Ensure the image covers the entire area */
-  }
+}
