@@ -84,7 +84,7 @@ class TopNavigation extends Component {
               data-aos-offset="500"
               data-aos-duration="1500">
               
-              {/* Home */}
+              {/* Home */} 
 
               <Nav.Link>
                 <NavLink
