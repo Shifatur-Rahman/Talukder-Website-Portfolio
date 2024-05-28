@@ -108,6 +108,7 @@ body {
   margin-top: 5.625rem;
 }
 .product .product-container {
+  /* margin-left: 5rem; */
   grid-template-columns: repeat(2, 1fr);
   gap: 7.8125rem;
 }
