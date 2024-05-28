@@ -58,7 +58,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                 return (
                   <main style={{ marginTop: "4rem" }} className="product">
                     <div className="container-md grid product-container">
-
+      
                       <div style={{ marginTop: "3rem" }} className="flex product-image">
                         <div id="imageMagnifier">
 

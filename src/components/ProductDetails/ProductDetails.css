@@ -261,11 +261,12 @@ body {
       background-color: #fff;
       /* background-color: red; */
       height: 400px;
+      width: 500px;
       border-radius: 5px;
     }
   
     #imageMagnifier img {
-      height: 400px !important;
+       height: 400px !important; 
     }
     
     /* Tg Logo */
