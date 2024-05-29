@@ -61,7 +61,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
       
                       <div style={{ marginTop: "3rem" }} className="flex product-image">
                         <div id="imageMagnifier">
-
+      
                           <ReactImageMagnify {...{
                             smallImage: {
                               alt: 'TGI Image',
@@ -133,7 +133,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                       </div>
 
                       <div className="product-description flow">
-                        <p className="text-uppercase Orange">
+                        <p className="text-uppercase Orange">     
                           {/* Talukder Group of Industries */}
                           <img src={tgLogo} className='tgLogo' alt='altLogo' />
                         </p>

@@ -269,7 +269,7 @@ body {
     #imageMagnifier img {
        height: 500px !important; 
     }
-    
+
     /* Tg Logo */
     .productDetailsTitle {
       color: #4d4d4d;
@@ -281,7 +281,7 @@ body {
     .productDetailsList{
       list-style-type: circle;
     }
-  
+
     @media(max-width:500px) {
       .productDetailsTitle {
         font-size: 18px;
