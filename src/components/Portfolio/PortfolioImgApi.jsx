@@ -525,6 +525,21 @@ import tubewell6 from "../../asset/images/upvc/Tubewell/6.jpeg";
 import tubewell7 from "../../asset/images/upvc/Tubewell/7.jpeg";
 import tubewell8 from "../../asset/images/upvc/Tubewell/8.jpeg";
 
+//              Home Furniture
+import bed1 from "../../asset/images/Home Furniture/Bed/bed1.jpg";
+import bed2 from "../../asset/images/Home Furniture/Bed/bed2.jpg";
+import bed3 from "../../asset/images/Home Furniture/Bed/bed3.jpg";
+import bed4 from "../../asset/images/Home Furniture/Bed/bed4.jpg";
+import bed5 from "../../asset/images/Home Furniture/Bed/05.jpg";
+import bed6 from "../../asset/images/Home Furniture/Bed/06.jpg";
+import bed7 from "../../asset/images/Home Furniture/Bed/07.jpg";
+import bed8 from "../../asset/images/Home Furniture/Bed/08.jpg";
+import bed9 from "../../asset/images/Home Furniture/Bed/09.jpg";
+import bed10 from "../../asset/images/Home Furniture/Bed/10.jpg";
+import bed11 from "../../asset/images/Home Furniture/Bed/11.jpg";
+import bed12 from "../../asset/images/Home Furniture/Bed/12.jpg";
+import bed13 from "../../asset/images/Home Furniture/Bed/13.png";
+
 const portfolioItems = [
   {
     id: 1,
@@ -2569,6 +2584,20 @@ const portfolioItems = [
     category: "office furniture",
     code: "TFFDD-096",
     imgSrc: chair96,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+
+
+  //                Home furniture
+
+  {
+    id: 5001,
+    title: "Bed 1",
+    category: "home furniture",
+    code: "TFFDD-096",
+    imgSrc: bed1,
     size: "L600~1050 X H2080MM",
     button: "Details",
     material: "Mahogany & Veneered engineering wood"

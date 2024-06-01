@@ -237,7 +237,7 @@ const Portfolio = () => {
                     {isDropdownOpen && (
                       <div className="dropdown-content">
                         <button
-                          value="HOME FURNITURE"
+                          value="home furniture"
                           onClick={handleCategory}
                           className={isActive("HOME FURNITURE")}
                           style={{ fontSize: "10px", marginTop: "10px" }}
