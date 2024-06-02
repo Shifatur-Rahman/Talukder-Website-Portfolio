@@ -526,6 +526,8 @@ import tubewell7 from "../../asset/images/upvc/Tubewell/7.jpeg";
 import tubewell8 from "../../asset/images/upvc/Tubewell/8.jpeg";
 
 //              Home Furniture
+
+//               Bed
 import bed1 from "../../asset/images/Home Furniture/Bed/bed01.jpg";
 import bed2 from "../../asset/images/Home Furniture/Bed/bed02.jpg";
 import bed3 from "../../asset/images/Home Furniture/Bed/bed03.jpg";
@@ -539,6 +541,22 @@ import bed10 from "../../asset/images/Home Furniture/Bed/bed10.jpg";
 import bed11 from "../../asset/images/Home Furniture/Bed/bed11.jpg";
 import bed12 from "../../asset/images/Home Furniture/Bed/bed12.jpg";
 import bed13 from "../../asset/images/Home Furniture/Bed/bed13.jpg";
+
+//                Sofa
+import sofa1 from "../../asset/images/Home Furniture/sofa/sofa01.jpg";
+import sofa2 from "../../asset/images/Home Furniture/sofa/sofa02.jpg";
+import sofa3 from "../../asset/images/Home Furniture/sofa/sofa03.jpg";
+import sofa4 from "../../asset/images/Home Furniture/sofa/sofa04.jpg";
+import sofa5 from "../../asset/images/Home Furniture/sofa/sofa05.jpg";
+import sofa6 from "../../asset/images/Home Furniture/sofa/sofa06.png";
+import sofa7 from "../../asset/images/Home Furniture/sofa/sofa07.jpg";
+import sofa8 from "../../asset/images/Home Furniture/sofa/sofa08.jpg";
+import sofa9 from "../../asset/images/Home Furniture/sofa/sofa09.jpg";
+import sofa10 from "../../asset/images/Home Furniture/sofa/sofa10.jpg";
+import sofa11 from "../../asset/images/Home Furniture/sofa/sofa11.jpg";
+import sofa12 from "../../asset/images/Home Furniture/sofa/sofa12.jpg";
+
+
 
 const portfolioItems = [
   {
@@ -2592,6 +2610,7 @@ const portfolioItems = [
 
   //                Home furniture
 
+  //                            Bed
   {
     id: 5001,
     title: "Bed 1",
@@ -2676,7 +2695,7 @@ const portfolioItems = [
     id: 5009,
     title: "Bed 9",
     category: "home furniture",
-    code: "TfBED-009", 
+    code: "TfBED-009",
     imgSrc: bed9,
     size: "L600~1050 X H2080MM",
     button: "Details",
@@ -2718,6 +2737,59 @@ const portfolioItems = [
     category: "home furniture",
     code: "TfBED-013", 
     imgSrc: bed13,  
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+
+  //       sofa
+
+  {
+    id: 6001,
+    title: "Sofa 01",
+    category: "home furniture",
+    code: "Sofa-01", 
+    imgSrc: sofa1,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6002,
+    title: "Sofa 02",
+    category: "home furniture",
+    code: "Sofa-02", 
+    imgSrc: sofa2,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6003,
+    title: "Sofa 03",
+    category: "home furniture",
+    code: "Sofa-03", 
+    imgSrc: sofa3,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6004,
+    title: "Sofa 04",
+    category: "home furniture",
+    code: "Sofa-04", 
+    imgSrc: sofa4,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6005,
+    title: "Sofa 05",
+    category: "home furniture",
+    code: "Sofa-05", 
+    imgSrc: sofa5,
     size: "L600~1050 X H2080MM",
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
