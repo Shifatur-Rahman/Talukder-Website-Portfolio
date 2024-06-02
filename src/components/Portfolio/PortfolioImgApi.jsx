@@ -539,6 +539,7 @@ import bed10 from "../../asset/images/Home Furniture/Bed/10.jpg";
 import bed11 from "../../asset/images/Home Furniture/Bed/11.jpg";
 import bed12 from "../../asset/images/Home Furniture/Bed/12.jpg";
 import bed13 from "../../asset/images/Home Furniture/Bed/13.png";
+import home5 from "../../asset/images/Home Furniture/Bed/home5.jpg";
 
 const portfolioItems = [
   {
@@ -2602,7 +2603,56 @@ const portfolioItems = [
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
   },
-          
+  {
+    id: 5002,
+    title: "Bed 2",
+    category: "home furniture",
+    code: "TFFDD-096",
+    imgSrc: bed2,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5003,
+    title: "Bed 3",
+    category: "home furniture",
+    code: "TFFDD-096",
+    imgSrc: bed3,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5004,
+    title: "Bed 4",
+    category: "home furniture",
+    code: "TFFDD-096",
+    imgSrc: bed4,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5005,
+    title: "Bed 5",
+    category: "home furniture",
+    code: "TFFDD-096",
+    imgSrc: home5,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5006,
+    title: "Bed 5",
+    category: "home furniture",
+    code: "TFFDD-096",
+    imgSrc: home5,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },          
 //             plastic furniture 
 //                waredrobe 
      
