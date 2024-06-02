@@ -526,20 +526,19 @@ import tubewell7 from "../../asset/images/upvc/Tubewell/7.jpeg";
 import tubewell8 from "../../asset/images/upvc/Tubewell/8.jpeg";
 
 //              Home Furniture
-import bed1 from "../../asset/images/Home Furniture/Bed/bed1.jpg";
-import bed2 from "../../asset/images/Home Furniture/Bed/bed2.jpg";
-import bed3 from "../../asset/images/Home Furniture/Bed/bed3.jpg";
-import bed4 from "../../asset/images/Home Furniture/Bed/bed4.jpg";
-import bed5 from "../../asset/images/Home Furniture/Bed/05.jpg";
-import bed6 from "../../asset/images/Home Furniture/Bed/06.jpg";
-import bed7 from "../../asset/images/Home Furniture/Bed/07.jpg";
-import bed8 from "../../asset/images/Home Furniture/Bed/08.jpg";
-import bed9 from "../../asset/images/Home Furniture/Bed/09.jpg";
-import bed10 from "../../asset/images/Home Furniture/Bed/10.jpg";
-import bed11 from "../../asset/images/Home Furniture/Bed/11.jpg";
-import bed12 from "../../asset/images/Home Furniture/Bed/12.jpg";
-import bed13 from "../../asset/images/Home Furniture/Bed/13.png";
-import home5 from "../../asset/images/Home Furniture/Bed/home5.jpg";
+import bed1 from "../../asset/images/Home Furniture/Bed/bed01.jpg";
+import bed2 from "../../asset/images/Home Furniture/Bed/bed02.jpg";
+import bed3 from "../../asset/images/Home Furniture/Bed/bed03.jpg";
+import bed4 from "../../asset/images/Home Furniture/Bed/bed04.jpg";
+import bed5 from "../../asset/images/Home Furniture/Bed/bed05.jpg";
+import bed6 from "../../asset/images/Home Furniture/Bed/bed06.jpg";
+import bed7 from "../../asset/images/Home Furniture/Bed/bed07.jpg";
+import bed8 from "../../asset/images/Home Furniture/Bed/bed08.jpg";
+import bed9 from "../../asset/images/Home Furniture/Bed/bed09.jpg";
+import bed10 from "../../asset/images/Home Furniture/Bed/bed10.jpg";
+import bed11 from "../../asset/images/Home Furniture/Bed/bed11.jpg";
+import bed12 from "../../asset/images/Home Furniture/Bed/bed12.jpg";
+import bed13 from "../../asset/images/Home Furniture/Bed/bed13.jpg";
 
 const portfolioItems = [
   {
@@ -2638,7 +2637,7 @@ const portfolioItems = [
     title: "Bed 5",
     category: "home furniture",
     code: "TfBED-005",
-    imgSrc: home5,
+    imgSrc: bed5,
     size: "L600~1050 X H2080MM",
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
@@ -2647,22 +2646,84 @@ const portfolioItems = [
     id: 5006,
     title: "Bed 6",
     category: "home furniture",
-    code: "TfBED-006",
-    imgSrc: home5,
+    code: "TfBED-006", 
+    imgSrc: bed6,    
     size: "L600~1050 X H2080MM",
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
-  }, 
+  },
   {
     id: 5007,
     title: "Bed 7",
     category: "home furniture",
-    code: "TFFDD-096",
-    imgSrc: home5,
+    code: "TfBED-007", 
+    imgSrc: bed7,    
     size: "L600~1050 X H2080MM",
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
-  },          
+  },
+  {
+    id: 5008,
+    title: "Bed 8",
+    category: "home furniture",
+    code: "TfBED-008", 
+    imgSrc: bed8,  
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5009,
+    title: "Bed 9",
+    category: "home furniture",
+    code: "TfBED-009", 
+    imgSrc: bed9,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5010,
+    title: "Bed 10",
+    category: "home furniture",
+    code: "TfBED-010", 
+    imgSrc: bed10,  
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5011,
+    title: "Bed 11",
+    category: "home furniture",
+    code: "TfBED-011", 
+    imgSrc: bed11,  
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5012,
+    title: "Bed 12",
+    category: "home furniture",
+    code: "TfBED-012", 
+    imgSrc: bed12,  
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5013,
+    title: "Bed 13",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed13,  
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+
+
 
 //             plastic furniture 
 //                waredrobe 
