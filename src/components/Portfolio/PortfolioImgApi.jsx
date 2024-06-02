@@ -2794,8 +2794,76 @@ const portfolioItems = [
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
   },
-
-
+  {
+    id: 6006,
+    title: "Sofa 06",
+    category: "home furniture",
+    code: "Sofa-06", 
+    imgSrc: sofa6,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6007,
+    title: "Sofa 07",
+    category: "home furniture",
+    code: "Sofa-07", 
+    imgSrc: sofa7,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6008,
+    title: "Sofa 08",
+    category: "home furniture",
+    code: "Sofa-08", 
+    imgSrc: sofa8,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6009,
+    title: "Sofa 09",
+    category: "home furniture",
+    code: "Sofa-09", 
+    imgSrc: sofa9,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6010,
+    title: "Sofa 10",
+    category: "home furniture",
+    code: "Sofa-10", 
+    imgSrc: sofa10,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6011,
+    title: "Sofa 11",
+    category: "home furniture",
+    code: "Sofa-11", 
+    imgSrc: sofa11,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 6012,
+    title: "Sofa 12",
+    category: "home furniture",
+    code: "Sofa-12", 
+    imgSrc: sofa12,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
 
 //             plastic furniture 
 //                waredrobe 
