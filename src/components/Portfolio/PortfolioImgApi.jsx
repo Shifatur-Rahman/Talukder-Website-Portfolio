@@ -2597,7 +2597,7 @@ const portfolioItems = [
     id: 5001,
     title: "Bed 1",
     category: "home furniture",
-    code: "TFFDD-096",
+    code: "TfBED-001",
     imgSrc: bed1,
     size: "L600~1050 X H2080MM",
     button: "Details",
@@ -2607,7 +2607,7 @@ const portfolioItems = [
     id: 5002,
     title: "Bed 2",
     category: "home furniture",
-    code: "TFFDD-096",
+    code: "TfBED-002",
     imgSrc: bed2,
     size: "L600~1050 X H2080MM",
     button: "Details",
@@ -2617,7 +2617,7 @@ const portfolioItems = [
     id: 5003,
     title: "Bed 3",
     category: "home furniture",
-    code: "TFFDD-096",
+    code: "TfBED-003",
     imgSrc: bed3,
     size: "L600~1050 X H2080MM",
     button: "Details",
@@ -2627,7 +2627,7 @@ const portfolioItems = [
     id: 5004,
     title: "Bed 4",
     category: "home furniture",
-    code: "TFFDD-096",
+    code: "TfBED-004",
     imgSrc: bed4,
     size: "L600~1050 X H2080MM",
     button: "Details",
@@ -2637,7 +2637,7 @@ const portfolioItems = [
     id: 5005,
     title: "Bed 5",
     category: "home furniture",
-    code: "TFFDD-096",
+    code: "TfBED-005",
     imgSrc: home5,
     size: "L600~1050 X H2080MM",
     button: "Details",
@@ -2645,7 +2645,17 @@ const portfolioItems = [
   },
   {
     id: 5006,
-    title: "Bed 5",
+    title: "Bed 6",
+    category: "home furniture",
+    code: "TfBED-006",
+    imgSrc: home5,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  }, 
+  {
+    id: 5007,
+    title: "Bed 7",
     category: "home furniture",
     code: "TFFDD-096",
     imgSrc: home5,
@@ -2653,6 +2663,7 @@ const portfolioItems = [
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
   },          
+
 //             plastic furniture 
 //                waredrobe 
      
