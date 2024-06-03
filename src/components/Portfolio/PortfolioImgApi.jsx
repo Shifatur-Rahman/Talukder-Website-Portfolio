@@ -561,13 +561,13 @@ import sofa12 from "../../asset/images/Home Furniture/sofa/sofa12.jpg";
 import dinning01 from "../../asset/images/Home Furniture/dinning/dinning01.jpg";
 import dinning02 from "../../asset/images/Home Furniture/dinning/dinning02.jpg";
 import dinning03 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
-import dinning04 from "../../asset/images/Home Furniture/dinning/dinning01.jpg";
-import dinning05 from "../../asset/images/Home Furniture/dinning/dinning02.jpg";
-import dinning06 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
-import dinning07 from "../../asset/images/Home Furniture/dinning/dinning01.jpg";
-import dinning08 from "../../asset/images/Home Furniture/dinning/dinning02.jpg";
-import dinning09 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
-import dinning10 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
+import dinning04 from "../../asset/images/Home Furniture/dinning/dinning04.jpg";
+import dinning05 from "../../asset/images/Home Furniture/dinning/dinning05.jpg";
+import dinning06 from "../../asset/images/Home Furniture/dinning/dinning06.jpg";
+import dinning07 from "../../asset/images/Home Furniture/dinning/dinning07.jpg";
+import dinning08 from "../../asset/images/Home Furniture/dinning/dinning08.jpg";
+import dinning09 from "../../asset/images/Home Furniture/dinning/dinning09.jpg";
+import dinning10 from "../../asset/images/Home Furniture/dinning/dinning10.jpg";
 
 
 
@@ -2758,7 +2758,7 @@ const portfolioItems = [
   //       sofa
 
   {
-    id: 6001,
+    id: 5101,
     title: "Sofa 01",
     category: "home furniture",
     code: "Sofa-01", 
@@ -2768,7 +2768,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6002,
+    id: 5102,
     title: "Sofa 02",
     category: "home furniture",
     code: "Sofa-02", 
@@ -2778,7 +2778,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6003,
+    id: 5103,
     title: "Sofa 03",
     category: "home furniture",
     code: "Sofa-03", 
@@ -2788,7 +2788,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6004,
+    id: 5104,
     title: "Sofa 04",
     category: "home furniture",
     code: "Sofa-04", 
@@ -2798,7 +2798,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6005,
+    id: 5105,
     title: "Sofa 05",
     category: "home furniture",
     code: "Sofa-05", 
@@ -2808,7 +2808,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6006,
+    id: 5106,
     title: "Sofa 06",
     category: "home furniture",
     code: "Sofa-06", 
@@ -2818,7 +2818,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6007,
+    id: 5107,
     title: "Sofa 07",
     category: "home furniture",
     code: "Sofa-07", 
@@ -2828,7 +2828,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6008,
+    id: 5108,
     title: "Sofa 08",
     category: "home furniture",
     code: "Sofa-08", 
@@ -2838,7 +2838,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6009,
+    id: 5109,
     title: "Sofa 09",
     category: "home furniture",
     code: "Sofa-09", 
@@ -2848,7 +2848,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6010,
+    id: 5110,
     title: "Sofa 10",
     category: "home furniture",
     code: "Sofa-10", 
@@ -2858,7 +2858,7 @@ const portfolioItems = [
     material: "Mahogany & Veneered engineering wood"
   },
   {
-    id: 6011,
+    id: 5111,
     title: "Sofa 11",
     category: "home furniture",
     code: "Sofa-11", 
@@ -2884,7 +2884,7 @@ const portfolioItems = [
 //               dinning table
 
 {
-  id: 7001,
+  id: 5201,
   title: "Dinning 01",
   category: "home furniture",
   code: "Dinning-01", 
@@ -2894,7 +2894,7 @@ const portfolioItems = [
   material: "Mahogany & Veneered engineering wood"
 },
 {
-  id: 7002,
+  id: 5202,
   title: "Dinning 02",
   category: "home furniture",
   code: "Dinning-02", 
@@ -2904,7 +2904,7 @@ const portfolioItems = [
   material: "Mahogany & Veneered engineering wood"
 },
 {
-  id: 7003,
+  id: 5203,
   title: "Dinning 03",
   category: "home furniture",
   code: "Dinning-03", 
@@ -2913,7 +2913,36 @@ const portfolioItems = [
   button: "Details",
   material: "Mahogany & Veneered engineering wood"
 },
-
+{
+  id: 5204,
+  title: "Dinning 04",
+  category: "home furniture",
+  code: "Dinning-04", 
+  imgSrc: dinning04,
+  size: "L600~1050 X H2080MM",
+  button: "Details",
+  material: "Mahogany & Veneered engineering wood"
+},
+{
+  id: 5205,
+  title: "Dinning 05",
+  category: "home furniture",
+  code: "Dinning-05", 
+  imgSrc: dinning05,
+  size: "L600~1050 X H2080MM",
+  button: "Details",
+  material: "Mahogany & Veneered engineering wood"
+},
+{
+  id: 5206,
+  title: "Dinning 06",
+  category: "home furniture",
+  code: "Dinning-06", 
+  imgSrc: dinning06,
+  size: "L600~1050 X H2080MM",
+  button: "Details",
+  material: "Mahogany & Veneered engineering wood"
+},
 
 
 
