@@ -556,6 +556,19 @@ import sofa10 from "../../asset/images/Home Furniture/sofa/sofa10.jpg";
 import sofa11 from "../../asset/images/Home Furniture/sofa/sofa11.jpg";
 import sofa12 from "../../asset/images/Home Furniture/sofa/sofa12.jpg";
 
+//         Dinning table
+
+import dinning01 from "../../asset/images/Home Furniture/dinning/dinning01.jpg";
+import dinning02 from "../../asset/images/Home Furniture/dinning/dinning02.jpg";
+import dinning03 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
+import dinning04 from "../../asset/images/Home Furniture/dinning/dinning01.jpg";
+import dinning05 from "../../asset/images/Home Furniture/dinning/dinning02.jpg";
+import dinning06 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
+import dinning07 from "../../asset/images/Home Furniture/dinning/dinning01.jpg";
+import dinning08 from "../../asset/images/Home Furniture/dinning/dinning02.jpg";
+import dinning09 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
+import dinning10 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
+
 
 
 const portfolioItems = [
@@ -2854,16 +2867,58 @@ const portfolioItems = [
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
   },
-  {
-    id: 6012,
-    title: "Sofa 12",
-    category: "home furniture",
-    code: "Sofa-12", 
-    imgSrc: sofa12,
-    size: "L600~1050 X H2080MM",
-    button: "Details",
-    material: "Mahogany & Veneered engineering wood"
-  },
+  // {
+  //   id: 6012,
+  //   title: "Sofa 12",
+  //   category: "home furniture",
+  //   code: "Sofa-12", 
+  //   imgSrc: sofa12,
+  //   size: "L600~1050 X H2080MM",
+  //   button: "Details",
+  //   material: "Mahogany & Veneered engineering wood"
+  // },
+
+
+
+
+//               dinning table
+
+{
+  id: 7001,
+  title: "Dinning 01",
+  category: "home furniture",
+  code: "Dinning-01", 
+  imgSrc: dinning01,
+  size: "L600~1050 X H2080MM",
+  button: "Details",
+  material: "Mahogany & Veneered engineering wood"
+},
+{
+  id: 7002,
+  title: "Dinning 02",
+  category: "home furniture",
+  code: "Dinning-02", 
+  imgSrc: dinning02,
+  size: "L600~1050 X H2080MM",
+  button: "Details",
+  material: "Mahogany & Veneered engineering wood"
+},
+{
+  id: 7003,
+  title: "Dinning 03",
+  category: "home furniture",
+  code: "Dinning-03", 
+  imgSrc: dinning03,
+  size: "L600~1050 X H2080MM",
+  button: "Details",
+  material: "Mahogany & Veneered engineering wood"
+},
+
+
+
+
+
+
 
 //             plastic furniture 
 //                waredrobe 
