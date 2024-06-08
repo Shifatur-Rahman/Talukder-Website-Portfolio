@@ -2947,8 +2947,6 @@ const portfolioItems = [
 //                        bed
 
 
-
-
 //             plastic furniture 
 //                waredrobe 
      

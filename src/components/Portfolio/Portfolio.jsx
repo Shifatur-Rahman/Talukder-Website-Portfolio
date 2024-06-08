@@ -228,11 +228,11 @@ const Portfolio = () => {
                       className={isActive("WOODfURNITURE")}
                       onClick={toggleDropdown}
                     >
-                      WOOD AND METAL FURNITURE
+                      WOOD AND METAL FURNITURE 
                       <span className="dropdown-arrow">
                         {isDropdownOpen ? "▲" : "▼"}
                       </span>
-                    </button>
+                    </button> 
 
                     {isDropdownOpen && (
                       <div className="dropdown-content">
