@@ -3024,7 +3024,7 @@ const portfolioItems = [
   code: "25108/25109",
   color: "#F3B016/#3E1B0C",
   button: "Details"
-},
+}, 
 {
   id: 609,
   category: "PLASTIC FURNITURE",

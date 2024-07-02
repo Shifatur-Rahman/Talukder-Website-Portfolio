@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Portfolio.css";
-import portfolioItems from "./PortfolioImgApi";
+// import portfolioItems from "./PortfolioImgApi";
+import portfolioItems from "./ProductApi";
 import { Container } from "@mui/material";
 import { Row, Col, Button } from "react-bootstrap";
 import Dialog from "@mui/material/Dialog";
@@ -424,7 +425,7 @@ const Portfolio = () => {
                             )}
 
                             {
-                            item.button && (
+                           item.button && (
                               <div style={{ marginLeft: "10px" }}>
                                 {/* <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
                                 {/* <Link to={`/product/productDetailsPage/${item.id}`}> */}
