@@ -1199,6 +1199,321 @@ const ProductItems = [
     color: "red/#003d99/#9C1C1E/#F3B016/#00cc99",
     button: "Details"
   },
+
+  
+  
+    //                          plastic  chair
+    {
+        id: 1301,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair1,
+        title: "King Chair Flower",
+        code: "21141/21142/21143/21144/21145/21146",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1302,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair2,
+        title: "King Chair Garden",
+        code: "21401/21402/21403/21404/21405/21406",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1303,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair3,
+        title: "King Chair Baton",
+        code: "21410/21411/21412/21413/21414/21415",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1304,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair4,
+        title: "Relax Chair Design",
+        code: "21171/21172/21173/21174/21175/21176",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1305,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair5,
+        title: "Relax Chair Design",
+        code: "21171/21172/21173/21174/21175/21176",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1306,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair6,
+        title: "Relax Chair Baton",
+        code: "21161/21162/21163/21164/21165/21166",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1307,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair7,
+        title: "Crown Chair Baton",
+        code: "21251/21252/21253/21254/21255/21256",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1308,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair8,
+        title: "Crown Chair Design",
+        code: "21231/21232/21233/21234/21235/21236",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1309,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair9,
+        title: "Garden Chair Flower",
+        code: "21301/21302/21303/21304/21305/21306",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1310,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair10,
+        title: "Garden Chair Stick",
+        code: "21321/21322/21323/21324/21325/21326",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1311,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair11,
+        title: "Garden Chair E-mat",
+        code: "21331/21332/21333/21334/21335/21336",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"   
+      },                       
+      {      
+        id: 1312,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair12,
+        title: "Garden Chair Mat Flower",
+        code: "21341/21342/21343/21344/21345/21346",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1313,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair13,
+        title: "Baby Chair Design",
+        code: "22101/22102",
+        color: "#EF4443/#2B60AD",
+        button: "Details"
+      },
+      {
+        id: 1314,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair14,
+        title: "Baby Chair Flower",
+        code: "22105/22106",
+        color: "#EF4443/#2B60AD",
+        button: "Details"   
+      },                       
+      {      
+        id: 1315,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair15,
+        title: "Baby Chair Stick",
+        code: "22111/22112",
+        color: "#EF4443/#2B60AD",
+        button: "Details"
+      },
+      
+      {
+        id: 1316,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair16,
+        title: "Baby Chair Solid",
+        code: "22115/22116",
+        color: "#EF4443/#2B60AD",
+        button: "Details"
+      },
+      {
+        id: 1317,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair17,
+        title: "Deco Chair Flower",
+        code: "21401/21402/21403/21404/21405/21406",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"   
+      },                       
+      {      
+        id: 1318,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair18,
+        title: "Deco Chair Ring",
+        code: "21411/21412/21413/21414/21415/21416",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {      
+        id: 1319,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair19,
+        title: "Deco Chair Stick",
+        code: "21421/21422/21423/21424/21425/21426",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {
+        id: 1320,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair20,
+        title: "Deco Chair E-mat",
+        code: "21431/21432/21433/21434/21435/21436",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"   
+      },   
+                        
+      {      
+        id: 1321,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair21,
+        title: "Dining Chair Design",
+        code: "21201/21202/21203/21204/21205/21206",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+      {      
+        id: 1322,
+        category: "PLASTIC FURNITURE",
+        imgSrc: pchair22,
+        title: "Dining Chair Stick",
+        code: "21211/21212/21213/21214/21215/21216",
+        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+        button: "Details"
+      },
+        {
+          id: 1323,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair23,
+          title: "Dining Chair E-mat",
+          code: "21221/21222/21223/21224/21225/21226",
+          color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+          button: "Details"   
+        },   
+                          
+        {      
+          id: 1324,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair24,
+          title: "Dining Chair Design",
+          code: "21231/21232/21233/21234/21235/21236",
+          color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+          button: "Details"
+        },
+        {      
+          id: 1325,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair25,
+          title: "President Chair Super",
+          code: "21151/21152/21153/21154/21155/21156",
+          color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+          button: "Details"
+        },
+        {
+          id: 1326,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair26,
+          title: "President Chair Classic",
+          code: "21161/21162/21163/21164/21165/21166",
+          color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
+          button: "Details"   
+        },                  
+        {      
+          id: 1327,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair27,
+          title: "Teachers Chair",
+          code: "21191/21192/21193/21194",
+          color: "#EF4443/#2B60AD/#000/#F9A156",
+          button: "Details"
+        },
+        {      
+          id: 1328,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair28,
+          title: "Teachers Chair",
+          code: "21191/21192/21193/21194",
+          color: "#EF4443/#2B60AD/#000/#F9A156",
+          button: "Details"
+        },
+        {
+          id: 1329,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair29,
+          title: "Waiting Chair 2 Seated",
+          code: "27101",
+          color: "Any Color",
+          button: "Details"   
+        },   
+                          
+        {      
+          id: 1330,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair30,
+          title: "Waiting Chair 3 Seated",
+          code: "27102",
+          color: "Any Color",
+          button: "Details"
+        },
+        {      
+          id: 1331,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair31,
+          title: "Waiting Chair 3 Seated (with arm)",
+          code: "27103",
+          color: "Any Color",
+          button: "Details"
+        },
+        {
+          id: 1332,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair32,
+          title: "Waiting Chair 3 Seated",
+          code: "27104",
+          color: 'Any Color',
+          button: "Details"   
+        },   
+                          
+        {      
+          id: 1333,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair33,
+          title: "Class Room Chair",
+          code: "27110",
+          color: "#000",
+          button: "Details"
+        },
+        {      
+          id: 1334,
+          category: "PLASTIC FURNITURE",
+          imgSrc: pchair34,
+          title: "Visitor Chair",
+          code: "27111/27112/27113",
+          color: "#000/#2B60AD/#EF4443",
+          button: "Details"
+        },
   
    //           plastic household    
    //                   upcoming products
@@ -2173,321 +2488,6 @@ const ProductItems = [
     //                                    plastic table series
   
   
-  
-    //                          plastic  chair
-    {
-      id: 1301,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair1,
-      title: "King Chair Flower",
-      code: "21141/21142/21143/21144/21145/21146",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1302,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair2,
-      title: "King Chair Garden",
-      code: "21401/21402/21403/21404/21405/21406",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1303,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair3,
-      title: "King Chair Baton",
-      code: "21410/21411/21412/21413/21414/21415",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1304,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair4,
-      title: "Relax Chair Design",
-      code: "21171/21172/21173/21174/21175/21176",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1305,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair5,
-      title: "Relax Chair Design",
-      code: "21171/21172/21173/21174/21175/21176",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1306,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair6,
-      title: "Relax Chair Baton",
-      code: "21161/21162/21163/21164/21165/21166",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1307,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair7,
-      title: "Crown Chair Baton",
-      code: "21251/21252/21253/21254/21255/21256",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1308,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair8,
-      title: "Crown Chair Design",
-      code: "21231/21232/21233/21234/21235/21236",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1309,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair9,
-      title: "Garden Chair Flower",
-      code: "21301/21302/21303/21304/21305/21306",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1310,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair10,
-      title: "Garden Chair Stick",
-      code: "21321/21322/21323/21324/21325/21326",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1311,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair11,
-      title: "Garden Chair E-mat",
-      code: "21331/21332/21333/21334/21335/21336",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"   
-    },                       
-    {      
-      id: 1312,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair12,
-      title: "Garden Chair Mat Flower",
-      code: "21341/21342/21343/21344/21345/21346",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1313,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair13,
-      title: "Baby Chair Design",
-      code: "22101/22102",
-      color: "#EF4443/#2B60AD",
-      button: "Details"
-    },
-    {
-      id: 1314,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair14,
-      title: "Baby Chair Flower",
-      code: "22105/22106",
-      color: "#EF4443/#2B60AD",
-      button: "Details"   
-    },                       
-    {      
-      id: 1315,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair15,
-      title: "Baby Chair Stick",
-      code: "22111/22112",
-      color: "#EF4443/#2B60AD",
-      button: "Details"
-    },
-    
-    {
-      id: 1316,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair16,
-      title: "Baby Chair Solid",
-      code: "22115/22116",
-      color: "#EF4443/#2B60AD",
-      button: "Details"
-    },
-    {
-      id: 1317,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair17,
-      title: "Deco Chair Flower",
-      code: "21401/21402/21403/21404/21405/21406",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"   
-    },                       
-    {      
-      id: 1318,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair18,
-      title: "Deco Chair Ring",
-      code: "21411/21412/21413/21414/21415/21416",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {      
-      id: 1319,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair19,
-      title: "Deco Chair Stick",
-      code: "21421/21422/21423/21424/21425/21426",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {
-      id: 1320,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair20,
-      title: "Deco Chair E-mat",
-      code: "21431/21432/21433/21434/21435/21436",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"   
-    },   
-                      
-    {      
-      id: 1321,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair21,
-      title: "Dining Chair Design",
-      code: "21201/21202/21203/21204/21205/21206",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-    {      
-      id: 1322,
-      category: "PLASTIC FURNITURE",
-      imgSrc: pchair22,
-      title: "Dining Chair Stick",
-      code: "21211/21212/21213/21214/21215/21216",
-      color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-      button: "Details"
-    },
-      {
-        id: 1323,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair23,
-        title: "Dining Chair E-mat",
-        code: "21221/21222/21223/21224/21225/21226",
-        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-        button: "Details"   
-      },   
-                        
-      {      
-        id: 1324,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair24,
-        title: "Dining Chair Design",
-        code: "21231/21232/21233/21234/21235/21236",
-        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-        button: "Details"
-      },
-      {      
-        id: 1325,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair25,
-        title: "President Chair Super",
-        code: "21151/21152/21153/21154/21155/21156",
-        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-        button: "Details"
-      },
-      {
-        id: 1326,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair26,
-        title: "President Chair Classic",
-        code: "21161/21162/21163/21164/21165/21166",
-        color: "#EF4443/#2B60AD/#0C8862/#6A3A3A/#F9A156/#0F7079",
-        button: "Details"   
-      },                  
-      {      
-        id: 1327,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair27,
-        title: "Teachers Chair",
-        code: "21191/21192/21193/21194",
-        color: "#EF4443/#2B60AD/#000/#F9A156",
-        button: "Details"
-      },
-      {      
-        id: 1328,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair28,
-        title: "Teachers Chair",
-        code: "21191/21192/21193/21194",
-        color: "#EF4443/#2B60AD/#000/#F9A156",
-        button: "Details"
-      },
-      {
-        id: 1329,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair29,
-        title: "Waiting Chair 2 Seated",
-        code: "27101",
-        color: "Any Color",
-        button: "Details"   
-      },   
-                        
-      {      
-        id: 1330,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair30,
-        title: "Waiting Chair 3 Seated",
-        code: "27102",
-        color: "Any Color",
-        button: "Details"
-      },
-      {      
-        id: 1331,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair31,
-        title: "Waiting Chair 3 Seated (with arm)",
-        code: "27103",
-        color: "Any Color",
-        button: "Details"
-      },
-      {
-        id: 1332,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair32,
-        title: "Waiting Chair 3 Seated",
-        code: "27104",
-        color: 'Any Color',
-        button: "Details"   
-      },   
-                        
-      {      
-        id: 1333,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair33,
-        title: "Class Room Chair",
-        code: "27110",
-        color: "#000",
-        button: "Details"
-      },
-      {      
-        id: 1334,
-        category: "PLASTIC FURNITURE",
-        imgSrc: pchair34,
-        title: "Visitor Chair",
-        code: "27111/27112/27113",
-        color: "#000/#2B60AD/#EF4443",
-        button: "Details"
-      },
-
-
       ///                upvc
 
       
@@ -3111,6 +3111,121 @@ const ProductItems = [
     code: "83107",
     button: "Details"
   },
+  
+  //                       INDUSTRIAL FURNITURE (Rack)
+
+
+  {
+    id: 701,
+    title: "Industrial Storage Solution",
+    category: "INDUSTRIAL FURNITURE",
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack1,
+    button: "Details"
+  },
+  {
+    id: 702,
+    title: "Industrial Storage Solution",
+    category: "INDUSTRIAL FURNITURE",
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack2,
+    button: "Details"
+  },
+  {
+    id: 703,
+    title: "Industrial Storage Solution",
+    category: "INDUSTRIAL FURNITURE",
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack3,
+    button: "Details"
+  },
+  {
+    id: 704,
+    title: "Industrial Storage Solution",
+    category: "INDUSTRIAL FURNITURE",
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack4,
+    button: "Details"
+  },
+  {
+    id: 705,
+    title: "SLOTTED ANGLE/Light duty RACK",
+    // code: "TFSAR-068/TFSAR-069",
+    category: "INDUSTRIAL FURNITURE",
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack5,
+    button: "Details"
+  },
+  {
+    id: 706,
+    title: "Super shop display RACK(L Type)",
+    category: "INDUSTRIAL FURNITURE",
+    size: `L3'-0" X W1'-6" X 5'-6"`,
+    size2: `L4'-0" X W1'-6" X 7'-0"`,
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack6,
+    button: "Details"
+  },
+  {
+    id: 707,
+    title: "Super shop display RACK(T Type)",
+    category: "INDUSTRIAL FURNITURE",
+    size2: `L3'-0" X W3'-2" X 5'-6"`,
+    size2: `L4'-0" X W3'-2" X 7'-0"`,
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack7,
+    button: "Details"
+  },
+  {
+    id: 708,
+    title: "Super shop display RACK(L Type)",
+    category: "INDUSTRIAL FURNITURE",
+    size: `L3'-0" X W1'-6" X 5'-6"`,
+    size2: `L4'-0" X W1'-6" X 7'-0"`,
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack8,
+    button: "Details"
+  },
+  {
+    id: 709,
+    title: "Super shop display RACK(T Type)",
+    category: "INDUSTRIAL FURNITURE",
+    size: `L3'-0" X W3'-2" X 5'-6"`,
+    size2: `L4'-0" X W3'-2" X 7'-0"`,
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack9,
+    button: "Details"
+  },
+  {
+    id: 710, 
+    title: "Heavy Duty Industrial RACK",
+    category: "INDUSTRIAL FURNITURE",
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack10,
+    button: "Details"
+  },
+  {
+    id: 711, 
+    title: "Heavy Duty Industrial RACK",
+    category: "INDUSTRIAL FURNITURE",
+    Warranty:"One year free service warranty for any manufacturing fault",
+    imgSrc: rack11,
+    button: "Details"
+  },
+  // {
+  //   id: 712, 
+  //   title: "Industrial’s Slotted Angle Rack",
+  //   category: "INDUSTRIAL FURNITURE",
+  //   code: "TFSAR-082",
+  //   size: "4’x1.5’x8′ Feet",
+  //   material: "Mild Steel",
+  //   Warranty:"One year free service warranty for any manufacturing fault",
+  //   imgSrc: rack12,
+  //   button: "Details"
+  // },
+
+
+
 
 
     // office purniture
@@ -3992,116 +4107,6 @@ const ProductItems = [
   },
 
   
-  // // INDUSTRIAL FURNITURE (Rack)
-  {
-    id: 701,
-    title: "Industrial Storage Solution",
-    category: "INDUSTRIAL FURNITURE",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack1,
-    button: "Details"
-  },
-  {
-    id: 702,
-    title: "Industrial Storage Solution",
-    category: "INDUSTRIAL FURNITURE",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack2,
-    button: "Details"
-  },
-  {
-    id: 703,
-    title: "Industrial Storage Solution",
-    category: "INDUSTRIAL FURNITURE",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack3,
-    button: "Details"
-  },
-  {
-    id: 704,
-    title: "Industrial Storage Solution",
-    category: "INDUSTRIAL FURNITURE",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack4,
-    button: "Details"
-  },
-  {
-    id: 705,
-    title: "SLOTTED ANGLE/Light duty RACK",
-    // code: "TFSAR-068/TFSAR-069",
-    category: "INDUSTRIAL FURNITURE",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack5,
-    button: "Details"
-  },
-  {
-    id: 706,
-    title: "Super shop display RACK(L Type)",
-    category: "INDUSTRIAL FURNITURE",
-    size: `L3'-0" X W1'-6" X 5'-6"`,
-    size2: `L4'-0" X W1'-6" X 7'-0"`,
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack6,
-    button: "Details"
-  },
-  {
-    id: 707,
-    title: "Super shop display RACK(T Type)",
-    category: "INDUSTRIAL FURNITURE",
-    size2: `L3'-0" X W3'-2" X 5'-6"`,
-    size2: `L4'-0" X W3'-2" X 7'-0"`,
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack7,
-    button: "Details"
-  },
-  {
-    id: 708,
-    title: "Super shop display RACK(L Type)",
-    category: "INDUSTRIAL FURNITURE",
-    size: `L3'-0" X W1'-6" X 5'-6"`,
-    size2: `L4'-0" X W1'-6" X 7'-0"`,
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack8,
-    button: "Details"
-  },
-  {
-    id: 709,
-    title: "Super shop display RACK(T Type)",
-    category: "INDUSTRIAL FURNITURE",
-    size: `L3'-0" X W3'-2" X 5'-6"`,
-    size2: `L4'-0" X W3'-2" X 7'-0"`,
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack9,
-    button: "Details"
-  },
-  {
-    id: 710, 
-    title: "Heavy Duty Industrial RACK",
-    category: "INDUSTRIAL FURNITURE",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack10,
-    button: "Details"
-  },
-  {
-    id: 711, 
-    title: "Heavy Duty Industrial RACK",
-    category: "INDUSTRIAL FURNITURE",
-    Warranty:"One year free service warranty for any manufacturing fault",
-    imgSrc: rack11,
-    button: "Details"
-  },
-  // {
-  //   id: 712, 
-  //   title: "Industrial’s Slotted Angle Rack",
-  //   category: "INDUSTRIAL FURNITURE",
-  //   code: "TFSAR-082",
-  //   size: "4’x1.5’x8′ Feet",
-  //   material: "Mild Steel",
-  //   Warranty:"One year free service warranty for any manufacturing fault",
-  //   imgSrc: rack12,
-  //   button: "Details"
-  // },
-
   ///                             OFFICE FURNITURE CHAIR -> (501 - )
 
   ///                         conference table(401-408)
@@ -5168,7 +5173,7 @@ const ProductItems = [
   //                            Bed
   {
     id: 5001,
-    title: "Bed 1",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-001",
     imgSrc: bed1,
@@ -5178,7 +5183,7 @@ const ProductItems = [
   },
   {
     id: 5002,
-    title: "Bed 2",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-002",
     imgSrc: bed2,
@@ -5188,7 +5193,7 @@ const ProductItems = [
   },
   {
     id: 5003,
-    title: "Bed 3",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-003",
     imgSrc: bed3,
@@ -5198,7 +5203,7 @@ const ProductItems = [
   },
   {
     id: 5004,
-    title: "Bed 4",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-004",
     imgSrc: bed4,
@@ -5208,7 +5213,7 @@ const ProductItems = [
   },
   {
     id: 5005,
-    title: "Bed 5",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-005",
     imgSrc: bed5,
@@ -5218,7 +5223,7 @@ const ProductItems = [
   },
   {
     id: 5006,
-    title: "Bed 6",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-006", 
     imgSrc: bed6,    
@@ -5228,7 +5233,7 @@ const ProductItems = [
   },
   {
     id: 5007,
-    title: "Bed 7",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-007", 
     imgSrc: bed7,    
@@ -5238,7 +5243,7 @@ const ProductItems = [
   },
   {
     id: 5008,
-    title: "Bed 8",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-008", 
     imgSrc: bed8,  
@@ -5248,7 +5253,7 @@ const ProductItems = [
   },
   {
     id: 5009,
-    title: "Bed 9",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-009",
     imgSrc: bed9,
@@ -5258,7 +5263,7 @@ const ProductItems = [
   },
   {
     id: 5010,
-    title: "Bed 10",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-010", 
     imgSrc: bed10,  
@@ -5268,7 +5273,7 @@ const ProductItems = [
   },
   {
     id: 5011,
-    title: "Bed 11",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-011", 
     imgSrc: bed11,  
@@ -5278,17 +5283,17 @@ const ProductItems = [
   },
   {
     id: 5012,
-    title: "Bed 12",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-012", 
     imgSrc: bed12,  
     size: "L600~1050 X H2080MM",
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
-  },
-  {
+  },  
+  { 
     id: 5013,
-    title: "Bed 13",
+    title: "Bedroom Set",
     category: "home furniture",
     code: "TfBED-013", 
     imgSrc: bed13,  
