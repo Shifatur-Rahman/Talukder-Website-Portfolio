@@ -271,48 +271,48 @@ const itemData = [
   {
     id: 26,
     img: gallery28,
-    title: "Our Benches",
+    title: "Machinery & equipment",
   },
   {
     id: 27,
     img: gallery29,
-    title: "Our Benches",
+    title: "Plastic Section",
   },
   {
     id: 28,
     img: gallery30,
-    title: "Our Benches",
+    title: "Plastic Section",
   },
 
   {
     id: 29,
     img: gallery31,
-    title: "Our Benches",
+    title: "Machinery & equipment",
   },
   {
     id: 30,
     img: gallery32,
-    title: "Our Benches",
+    title: "Machinery & equipment",
   },
   {
     id: 31,
     img: gallery33,
-    title: "Our Benches",
+    title: "Machinery & equipment",
   },
   {
     id: 32,
     img: gallery34,
-    title: "Our Benches",
+    title: "Machinery & equipment",
   },
   {
     id: 33,
     img: gallery35,
-    title: "Our Benches",
+    title: "Machinery & equipment",
   },
   {
     id: 34,
     img: gallery36,
-    title: "Our Benches",
+    title: "Machinery & equipment",
   },
   {
     id: 35,
@@ -327,42 +327,42 @@ const itemData = [
   {
     id: 37,
     img: gallery39,
-    title: "Our Benches",
+    title: "uPVC unit",
   },
   {
     id: 38,
     img: gallery40,
-    title: "Our Benches",
+    title: "Moulding Machine",
   },
   {
     id: 39,
     img: gallery41,
-    title: "Our Benches",
+    title: "Moulding Machine",
   },
   {
     id: 40,
     img: gallery42,
-    title: "Our Benches",
+    title: "uPVC Pipe",
   },
   {
     id: 41,
     img: gallery43,
-    title: "Our Benches",
+    title: "Assembly Unit",
   },
   {
     id: 42,
     img: gallery44,
-    title: "Our Benches",
+    title: "Color Unit",
   },
   {
     id: 43,
     img: gallery45,
-    title: "Our Benches",
+    title: "Machinery & equipment",
   },
   {
     id: 44,
     img: gallery46,
-    title: "Our Benches",
+    title: "Our Prodction Capacity",
   },
 ];
 
