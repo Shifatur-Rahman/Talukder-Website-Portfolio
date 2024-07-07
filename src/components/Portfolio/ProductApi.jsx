@@ -2483,6 +2483,82 @@ const ProductItems = [
       color: "#C29B2E/#E1352A/#8FD7ED/#dd2C91/#656AB1",
       button: "Details"
     },
+
+    
+                                               //      Toys (4001-4100)
+  {
+    id: 4001,
+    category: "PLASTIC TOY",
+    imgSrc: toy1,
+    title: "Master Bike",
+    code: "28201/28202/28203/28204/28205/28206",
+    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
+    button: "Details"
+  },
+  {
+    id: 4002,
+    category: "PLASTIC TOY",
+    imgSrc: toy2,
+    title: "Master Bike with Barrier",
+    code: "28207/28208/28209/28210/28211/28212",
+    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
+    button: "Details"
+  },
+  {
+    id: 4003,
+    category: "PLASTIC TOY",
+    imgSrc: toy3,
+    title: "Master Bike with Trolly",
+    code: "28213/28214/28215/28216/28217/28218",
+    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
+    button: "Details"
+  },
+  {
+    id: 4004,
+    category: "PLASTIC TOY",
+    imgSrc: toy4,
+    title: "Master Bike with Umbrella",
+    code: "28219/28220/28221/28222/28223/28224",
+    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
+    button: "Details"
+  },
+  {
+    id: 4005,
+    category: "PLASTIC TOY",
+    imgSrc: toy5,
+    title: "Master Bike with Trolly",
+    code: "28210",
+    color: "#CA9E2C",
+    button: "Details"
+  },
+  {
+    id: 4006,
+    category: "PLASTIC TOY",
+    imgSrc: toy6,
+    title: "Master Bike",
+    code: "28211",
+    color: "#59A3B8",
+    button: "Details"
+  },
+  {
+    id: 4007,
+    category: "PLASTIC TOY",
+    imgSrc: toy7,
+    title: "Master Bike with Trolly",
+    code: "28130",
+    color: "#C2D065",
+    button: "Details"
+  },
+  {
+    id: 4008,
+    category: "PLASTIC TOY",
+    imgSrc: toy8,
+    title: "Master Bike with Trolly",
+    code: "28131",
+    color: "#497774",
+    button: "Details"
+  },
+
   
   
     //                                    plastic table series
@@ -5346,13 +5422,13 @@ const ProductItems = [
   },
   {
     id: 5105,
-    title: "Sofa 05",
-    category: "home furniture",
-    code: "Sofa-05", 
-    imgSrc: sofa5,
-    size: "L600~1050 X H2080MM",
-    button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    title: "Sofa 05",    
+    category: "home furniture",    
+    code: "Sofa-05",   
+    imgSrc: sofa5, 
+    size: "L600~1050 X H2080MM", 
+    button: "Details", 
+    material: "Mahogany & Veneered engineering wood" 
   },
   {
     id: 5106,
@@ -5552,80 +5628,6 @@ const ProductItems = [
   },
   
   
-                                               //      Toys (4001-4100)
-  {
-    id: 4001,
-    category: "PLASTIC TOY",
-    imgSrc: toy1,
-    title: "Master Bike",
-    code: "28201/28202/28203/28204/28205/28206",
-    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
-    button: "Details"
-  },
-  {
-    id: 4002,
-    category: "PLASTIC TOY",
-    imgSrc: toy2,
-    title: "Master Bike with Barrier",
-    code: "28207/28208/28209/28210/28211/28212",
-    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
-    button: "Details"
-  },
-  {
-    id: 4003,
-    category: "PLASTIC TOY",
-    imgSrc: toy3,
-    title: "Master Bike with Trolly",
-    code: "28213/28214/28215/28216/28217/28218",
-    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
-    button: "Details"
-  },
-  {
-    id: 4004,
-    category: "PLASTIC TOY",
-    imgSrc: toy4,
-    title: "Master Bike with Umbrella",
-    code: "28219/28220/28221/28222/28223/28224",
-    color: "#B62371/#D67B50/#37499E/#CA9E2C/#59A3B8/#D62128",
-    button: "Details"
-  },
-  {
-    id: 4005,
-    category: "PLASTIC TOY",
-    imgSrc: toy5,
-    title: "Master Bike with Trolly",
-    code: "28210",
-    color: "#CA9E2C",
-    button: "Details"
-  },
-  {
-    id: 4006,
-    category: "PLASTIC TOY",
-    imgSrc: toy6,
-    title: "Master Bike",
-    code: "28211",
-    color: "#59A3B8",
-    button: "Details"
-  },
-  {
-    id: 4007,
-    category: "PLASTIC TOY",
-    imgSrc: toy7,
-    title: "Master Bike with Trolly",
-    code: "28130",
-    color: "#C2D065",
-    button: "Details"
-  },
-  {
-    id: 4008,
-    category: "PLASTIC TOY",
-    imgSrc: toy8,
-    title: "Master Bike with Trolly",
-    code: "28131",
-    color: "#497774",
-    button: "Details"
-  },
-
 ];
 
 export default ProductItems; 

@@ -22,6 +22,36 @@ import gallery15 from "../../asset/images/gallery/gallery15.jpg";
 import gallery16 from "../../asset/images/gallery/gallery16.jpg";
 import gallery17 from "../../asset/images/gallery/gallery17.jpg";
 import gallery18 from "../../asset/images/gallery/gallery18.jpg";
+import gallery19 from "../../asset/images/gallery/gallery19.jpg";
+import gallery20 from "../../asset/images/gallery/gallery20.jpg";
+import gallery21 from "../../asset/images/gallery/gallery21.jpg";
+import gallery22 from "../../asset/images/gallery/gallery22.jpg";
+import gallery23 from "../../asset/images/gallery/gallery23.jpg";
+import gallery24 from "../../asset/images/gallery/gallery24.jpg";
+import gallery25 from "../../asset/images/gallery/gallery25.jpg";
+import gallery26 from "../../asset/images/gallery/gallery26.jpg";
+import gallery27 from "../../asset/images/gallery/gallery27.jpg";
+import gallery28 from "../../asset/images/gallery/gallery28.jpg";
+import gallery29 from "../../asset/images/gallery/gallery29.jpg";
+import gallery30 from "../../asset/images/gallery/gallery30.jpg";
+import gallery31 from "../../asset/images/gallery/gallery31.jpg";
+import gallery32 from "../../asset/images/gallery/gallery32.jpg";
+import gallery33 from "../../asset/images/gallery/gallery33.jpg";
+import gallery34 from "../../asset/images/gallery/gallery34.jpg";
+import gallery35 from "../../asset/images/gallery/gallery35.jpg";
+import gallery36 from "../../asset/images/gallery/gallery36.jpg";
+import gallery37 from "../../asset/images/gallery/gallery37.jpg";
+import gallery38 from "../../asset/images/gallery/gallery38.jpg";
+import gallery39 from "../../asset/images/gallery/gallery39.jpg";
+import gallery40 from "../../asset/images/gallery/gallery40.jpg";
+import gallery41 from "../../asset/images/gallery/gallery41.jpg";
+import gallery42 from "../../asset/images/gallery/gallery42.jpg";
+import gallery43 from "../../asset/images/gallery/gallery43.jpg";
+import gallery44 from "../../asset/images/gallery/gallery44.jpg";
+import gallery45 from "../../asset/images/gallery/gallery45.jpg";
+import gallery46 from "../../asset/images/gallery/gallery46.jpg";
+// import gallery47 from "../../asset/images/gallery/gallery47.jpg";
+
 import "./ImgGallery.css";
 import Spinner from "../Spinner/Spinner.jsx";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -189,6 +219,149 @@ const itemData = [
   {
     id: 16,
     img: gallery18,
+    title: "Our Benches",
+  },
+
+  //  additional image
+  {
+    id: 17,
+    img: gallery19,
+    title: "Machinery & equipment",
+  },
+  {
+    id: 18,
+    img: gallery20,
+    title: "Our Factory",
+  },
+  {
+    id: 19,
+    img: gallery21,
+    title: "Plastic & uPVC Building",
+  },
+  {
+    id: 20,
+    img: gallery22,
+    title: "Machinery & equipment",
+  },
+  {
+    id: 21,
+    img: gallery23,
+    title: "Machinery & equipment",
+  },
+  {
+    id: 22,
+    img: gallery24,
+    title: "uPVC unit",
+  },
+  {
+    id: 23,
+    img: gallery25,
+    title: "Furniture unit",
+  },
+  {
+    id: 24,
+    img: gallery26,
+    title: "uPVC unit",
+  },
+  {
+    id: 25,
+    img: gallery27,
+    title: "Our Benches",
+  },
+  {
+    id: 26,
+    img: gallery28,
+    title: "Our Benches",
+  },
+  {
+    id: 27,
+    img: gallery29,
+    title: "Our Benches",
+  },
+  {
+    id: 28,
+    img: gallery30,
+    title: "Our Benches",
+  },
+
+  {
+    id: 29,
+    img: gallery31,
+    title: "Our Benches",
+  },
+  {
+    id: 30,
+    img: gallery32,
+    title: "Our Benches",
+  },
+  {
+    id: 31,
+    img: gallery33,
+    title: "Our Benches",
+  },
+  {
+    id: 32,
+    img: gallery34,
+    title: "Our Benches",
+  },
+  {
+    id: 33,
+    img: gallery35,
+    title: "Our Benches",
+  },
+  {
+    id: 34,
+    img: gallery36,
+    title: "Our Benches",
+  },
+  {
+    id: 35,
+    img: gallery37,
+    title: "Our Benches",
+  },
+  {
+    id: 36,
+    img: gallery38,
+    title: "Our Benches",
+  },
+  {
+    id: 37,
+    img: gallery39,
+    title: "Our Benches",
+  },
+  {
+    id: 38,
+    img: gallery40,
+    title: "Our Benches",
+  },
+  {
+    id: 39,
+    img: gallery41,
+    title: "Our Benches",
+  },
+  {
+    id: 40,
+    img: gallery42,
+    title: "Our Benches",
+  },
+  {
+    id: 41,
+    img: gallery43,
+    title: "Our Benches",
+  },
+  {
+    id: 42,
+    img: gallery44,
+    title: "Our Benches",
+  },
+  {
+    id: 43,
+    img: gallery45,
+    title: "Our Benches",
+  },
+  {
+    id: 44,
+    img: gallery46,
     title: "Our Benches",
   },
 ];

@@ -27,18 +27,7 @@ const PageLoader = () => {
   return (
     <>
 
-{/* {
-  loading ?  */}
-
-      {/* : ""
-} */}
-
-      {/* <div className="page-loader">
-  <img src={pageLoaderImg} alt ="pre-loader" /> 
-      </div> */}
-
       <div key={refreshKey} className="component-wrapper">
-        {/* Content of your component */}
         <div className="page-loader">
           <img src={pageLoaderImg} alt="pre-loader" />
         </div>

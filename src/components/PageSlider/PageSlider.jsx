@@ -19,28 +19,28 @@ const PageSlider = () => {
         <img
           className="d-block w-100"
           src={slider1}
-          alt="First slide"
+          alt="First slider"
         />
       </Carousel.Item>
       <Carousel.Item className="carousel-item-fixed-height">
         <img
           className="d-block w-100"
           src={slider2}
-          alt="Second slide"
+          alt="Second slider"
         />
       </Carousel.Item>
       <Carousel.Item className="carousel-item-fixed-height">
         <img
           className="d-block w-100"
           src={slider3}
-          alt="Third slide"
+          alt="Third slider"
         />
       </Carousel.Item>
       <Carousel.Item className="carousel-item-fixed-height">
         <img
           className="d-block w-100"
           src={slider4}
-          alt="Four slide"
+          alt="Four slider"
         />
       </Carousel.Item>
 
@@ -48,7 +48,7 @@ const PageSlider = () => {
         <img
           className="d-block w-100"
           src={slider5}
-          alt="Five slide"
+          alt="Five slider"
         />
       </Carousel.Item>
 
@@ -56,7 +56,7 @@ const PageSlider = () => {
         <img
           className="d-block w-100"
           src={slider6}
-          alt="Six slide"
+          alt="Six slider"
         />
       </Carousel.Item>
 
@@ -64,7 +64,7 @@ const PageSlider = () => {
         <img
           className="d-block w-100"
           src={slider7}
-          alt="Six slide"
+          alt="Seven slider"
         />
       </Carousel.Item>
 
@@ -72,7 +72,7 @@ const PageSlider = () => {
         <img
           className="d-block w-100"
           src={slider8}
-          alt="Six slide"
+          alt="Eight slider"
         />
       </Carousel.Item>
 
