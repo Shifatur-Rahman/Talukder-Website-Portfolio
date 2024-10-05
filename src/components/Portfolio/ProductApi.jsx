@@ -557,6 +557,21 @@ import bed26 from "../../asset/images/Home Furniture/Bed/bed26.jpg";
 import bed27 from "../../asset/images/Home Furniture/Bed/bed27.jpg";
 import bed28 from "../../asset/images/Home Furniture/Bed/bed28.jpg";
 import bed29 from "../../asset/images/Home Furniture/Bed/bed29.jpg";
+import bed30 from "../../asset/images/Home Furniture/Bed/bed30.jpg";
+import bed31 from "../../asset/images/Home Furniture/Bed/bed31.jpg";
+import bed32 from "../../asset/images/Home Furniture/Bed/bed32.jpg";
+import bed33 from "../../asset/images/Home Furniture/Bed/bed33.jpg";
+import bed34 from "../../asset/images/Home Furniture/Bed/bed34.jpg";
+import bed35 from "../../asset/images/Home Furniture/Bed/bed35.jpg";
+import bed36 from "../../asset/images/Home Furniture/Bed/bed36.jpg";
+import bed37 from "../../asset/images/Home Furniture/Bed/bed37.jpg";
+import bed38 from "../../asset/images/Home Furniture/Bed/bed38.jpg";
+import bed39 from "../../asset/images/Home Furniture/Bed/bed39.jpg";
+import bed40 from "../../asset/images/Home Furniture/Bed/bed40.jpg";
+import bed41 from "../../asset/images/Home Furniture/Bed/bed41.jpg";
+import bed42 from "../../asset/images/Home Furniture/Bed/bed42.jpg";
+import bed43 from "../../asset/images/Home Furniture/Bed/bed43.jpg";
+import bed44 from "../../asset/images/Home Furniture/Bed/bed44.jpg";
 
 //                Sofa
 import sofa1 from "../../asset/images/Home Furniture/sofa/sofa01.jpg";
@@ -5553,6 +5568,47 @@ const ProductItems = [
     code: "TfBED-013", 
     imgSrc: bed29,
     size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5030,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 001 WD", 
+    imgSrc: bed30,
+    size: "L 2100 X W 1800 X H 1055",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5031,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 002 WD", 
+    imgSrc: bed31,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5032,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 003 WD", 
+    imgSrc: bed32,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+
+  { 
+    id: 5033,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 004 WD", 
+    imgSrc: bed33,
+    size: "L 2100 X W 1800 X H 1200",
     button: "Details",
     material: ""
   },

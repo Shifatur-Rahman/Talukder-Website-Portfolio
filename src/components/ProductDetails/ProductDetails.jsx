@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import "./ProductDetails.css"
 import { useParams } from 'react-router-dom';
-import totalProduct from "../Portfolio/PortfolioImgApi.jsx";
+// import totalProduct from "../Portfolio/PortfolioImgApi.jsx";
+import totalProduct from "../Portfolio/ProductApi.jsx";
 import tgLogo from "../../asset/images/Logo/talukderLogo.png"
 import ReactImageMagnify from 'react-image-magnify';
 import Box from '@mui/material/Box';
