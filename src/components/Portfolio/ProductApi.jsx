@@ -5575,7 +5575,7 @@ const ProductItems = [
     id: 5030,
     title: "Wooden Bed",
     category: "home furniture",
-    code: "TKBD 001 WD", 
+    code: "TEBD 001 WD", 
     imgSrc: bed30,
     size: "L 2100 X W 1800 X H 1055",
     button: "Details",
@@ -5585,7 +5585,7 @@ const ProductItems = [
     id: 5031,
     title: "Wooden Bed",
     category: "home furniture",
-    code: "TKBD 002 WD", 
+    code: "TEBD 002 WD", 
     imgSrc: bed31,
     size: "L 2100 X W 1800 X H 1200",
     button: "Details",
@@ -5595,7 +5595,7 @@ const ProductItems = [
     id: 5032,
     title: "Wooden Bed",
     category: "home furniture",
-    code: "TKBD 003 WD", 
+    code: "TEBD 003 WD", 
     imgSrc: bed32,
     size: "L 2100 X W 1800 X H 1200",
     button: "Details",
@@ -5606,12 +5606,124 @@ const ProductItems = [
     id: 5033,
     title: "Wooden Bed",
     category: "home furniture",
-    code: "TKBD 004 WD", 
+    code: "TEBD 004 WD", 
     imgSrc: bed33,
     size: "L 2100 X W 1800 X H 1200",
     button: "Details",
     material: ""
   },
+  { 
+    id: 5034,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TEBD 005 WD", 
+    imgSrc: bed34,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5035,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TEBD 006 WD", 
+    imgSrc: bed35,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5036,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 001 WD", 
+    imgSrc: bed36,
+    size: "L 2100 X W 1800 X H 1050",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5037,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 002 WD", 
+    imgSrc: bed37,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5038,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 003 WD", 
+    imgSrc: bed38,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5039,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 004 WD", 
+    imgSrc: bed39,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5040,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 005 WD", 
+    imgSrc: bed40,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5041,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 006 WD", 
+    imgSrc: bed41,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5042,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 007 WD", 
+    imgSrc: bed42,
+    size: "L 2100 X W 1800 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5043,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 008 WD", 
+    imgSrc: bed43,
+    size: "L 2100 X W 1800 X H 1050",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5044,
+    title: "Wooden Bed",
+    category: "home furniture",
+    code: "TKBD 009 WD", 
+    imgSrc: bed44,
+    size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+
+  //                     BED SIDE TABLE
 
   //       sofa
 
