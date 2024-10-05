@@ -541,6 +541,22 @@ import bed10 from "../../asset/images/Home Furniture/Bed/bed10.jpg";
 import bed11 from "../../asset/images/Home Furniture/Bed/bed11.jpg";
 import bed12 from "../../asset/images/Home Furniture/Bed/bed12.jpg";
 import bed13 from "../../asset/images/Home Furniture/Bed/bed13.jpg";
+import bed14 from "../../asset/images/Home Furniture/Bed/bed14.jpg";
+import bed15 from "../../asset/images/Home Furniture/Bed/bed15.jpg";
+import bed16 from "../../asset/images/Home Furniture/Bed/bed16.jpg";
+import bed17 from "../../asset/images/Home Furniture/Bed/bed17.jpg";
+import bed18 from "../../asset/images/Home Furniture/Bed/bed18.jpg";
+import bed19 from "../../asset/images/Home Furniture/Bed/bed19.jpg";
+import bed20 from "../../asset/images/Home Furniture/Bed/bed20.jpg";
+import bed21 from "../../asset/images/Home Furniture/Bed/bed21.jpg";
+import bed22 from "../../asset/images/Home Furniture/Bed/bed22.jpg";
+import bed23 from "../../asset/images/Home Furniture/Bed/bed23.jpg";
+import bed24 from "../../asset/images/Home Furniture/Bed/bed24.jpg";
+import bed25 from "../../asset/images/Home Furniture/Bed/bed25.jpg";
+import bed26 from "../../asset/images/Home Furniture/Bed/bed26.jpg";
+import bed27 from "../../asset/images/Home Furniture/Bed/bed27.jpg";
+import bed28 from "../../asset/images/Home Furniture/Bed/bed28.jpg";
+import bed29 from "../../asset/images/Home Furniture/Bed/bed29.jpg";
 
 //                Sofa
 import sofa1 from "../../asset/images/Home Furniture/sofa/sofa01.jpg";
@@ -5376,6 +5392,169 @@ const ProductItems = [
     size: "L600~1050 X H2080MM",
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
+  },
+
+  // new
+
+  { 
+    id: 5014,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed14,  
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5015,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed15,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5016,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed16,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5017,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed17,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5018,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed18,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5019,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed19,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5020,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed20,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5021,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed21,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5022,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed22,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5023,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed23,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5024,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed24,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5025,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed25,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5026,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed26,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5027,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed27,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5028,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed28,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5029,
+    title: "Bedroom Set",
+    category: "home furniture",
+    code: "TfBED-013", 
+    imgSrc: bed29,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: ""
   },
 
   //       sofa
