@@ -3,12 +3,12 @@ import "./JEnterprise.css";
 import { Container, Col, Row } from "react-bootstrap";
 import Spinner from "../Spinner/Spinner.jsx";
 
-const JEnterprise = () => {
+const JEnterprise = () => { 
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false);
+      setLoading(false); 
     }, 3200);
   }, []);
 
@@ -21,7 +21,7 @@ const JEnterprise = () => {
             md={12}
             lg={12}
             style={{ textAlign: "justify" }}
-          >
+          > 
             <p className='plasticText'>
               J & J Enterprise Ltd. is a prominent concern within the esteemed Talukder Group of Industries. This dynamic enterprise plays a pivotal role in various sectors, including manufacturing, trading, and services. With a commitment to excellence and a customer-centric approach, J & J Enterprise has established itself as a reputable entity in the corporate landscape. The company encompasses a diverse portfolio of products and services, catering to the evolving needs of different industries and market segments. J & J Enterprise is known for its dedication to quality, innovation, and customer satisfaction, which are integral to its success.
               The benefits of Talukder Foundry are given below:
