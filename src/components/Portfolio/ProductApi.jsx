@@ -6024,6 +6024,16 @@ const ProductItems = [
     button: "Details",
     material: ""
   },
+  { 
+    id: 5509,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: dressingTable9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
 
 
 
