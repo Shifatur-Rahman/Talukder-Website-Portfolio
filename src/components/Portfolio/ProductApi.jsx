@@ -573,6 +573,39 @@ import bed42 from "../../asset/images/Home Furniture/Bed/bed42.jpg";
 import bed43 from "../../asset/images/Home Furniture/Bed/bed43.jpg";
 import bed44 from "../../asset/images/Home Furniture/Bed/bed44.jpg";
 
+//                Bed Side Table
+import bedSideTable1 from "../../asset/images/Home Furniture/Bed side table/1.jpg";
+import bedSideTable2 from "../../asset/images/Home Furniture/Bed side table/2.jpg";
+import bedSideTable3 from "../../asset/images/Home Furniture/Bed side table/3.jpg";
+import bedSideTable4 from "../../asset/images/Home Furniture/Bed side table/4.jpg";
+import bedSideTable5 from "../../asset/images/Home Furniture/Bed side table/5.jpg";
+import bedSideTable6 from "../../asset/images/Home Furniture/Bed side table/6.jpg";
+import bedSideTable7 from "../../asset/images/Home Furniture/Bed side table/7.jpg";
+import bedSideTable8 from "../../asset/images/Home Furniture/Bed side table/8.jpg";
+import bedSideTable9 from "../../asset/images/Home Furniture/Bed side table/9.jpg";
+
+//                CupBoard
+import cupboard1 from "../../asset/images/Home Furniture/cupboard/1.jpg";
+import cupboard2 from "../../asset/images/Home Furniture/cupboard/2.jpg";
+import cupboard3 from "../../asset/images/Home Furniture/cupboard/3.jpg";
+import cupboard4 from "../../asset/images/Home Furniture/cupboard/4.jpg";
+import cupboard5 from "../../asset/images/Home Furniture/cupboard/5.jpg";
+import cupboard6 from "../../asset/images/Home Furniture/cupboard/6.jpg";
+import cupboard7 from "../../asset/images/Home Furniture/cupboard/7.jpg";
+import cupboard8 from "../../asset/images/Home Furniture/cupboard/8.jpg";
+import cupboard9 from "../../asset/images/Home Furniture/cupboard/9.jpg";
+
+//               Dressing Table
+import dressingTable1 from "../../asset/images/Home Furniture/dressing table/1.jpg";
+import dressingTable2 from "../../asset/images/Home Furniture/dressing table/2.jpg";
+import dressingTable3 from "../../asset/images/Home Furniture/dressing table/3.jpg";
+import dressingTable4 from "../../asset/images/Home Furniture/dressing table/4.jpg";
+import dressingTable5 from "../../asset/images/Home Furniture/dressing table/5.jpg";
+import dressingTable6 from "../../asset/images/Home Furniture/dressing table/6.jpg";
+import dressingTable7 from "../../asset/images/Home Furniture/dressing table/7.jpg";
+import dressingTable8 from "../../asset/images/Home Furniture/dressing table/8.jpg";
+import dressingTable9 from "../../asset/images/Home Furniture/dressing table/9.jpg";
+
 //                Sofa
 import sofa1 from "../../asset/images/Home Furniture/sofa/sofa01.jpg";
 import sofa2 from "../../asset/images/Home Furniture/sofa/sofa02.jpg";
@@ -5724,6 +5757,275 @@ const ProductItems = [
   },
 
   //                     BED SIDE TABLE
+
+  { 
+    id: 5301,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 001 WD", 
+    imgSrc: bedSideTable1,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5302,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 002 WD", 
+    imgSrc: bedSideTable2,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5303,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 003 WD", 
+    imgSrc: bedSideTable3,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5304,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 004 WD", 
+    imgSrc: bedSideTable4,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5305,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 005 WD", 
+    imgSrc: bedSideTable5,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5306,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 006 WD", 
+    imgSrc: bedSideTable6,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5307,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 007 WD", 
+    imgSrc: bedSideTable7,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5308,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 008 WD", 
+    imgSrc: bedSideTable8,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5309,
+    title: "Bed Side Table",
+    category: "home furniture",
+    code: "TKBD 009 WD", 
+    imgSrc: bedSideTable9,
+    // size: "L 2100 X W 1800 X H 1100",
+    button: "Details",
+    material: ""
+  },
+
+  //                      Cupboard
+
+  { 
+    id: 5401,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: cupboard1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5402,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: cupboard2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5403,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: cupboard3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5404,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: cupboard4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5405,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: cupboard5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5406,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: cupboard6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5407,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: cupboard7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5408,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: cupboard8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5409,
+    title: "Cupboard",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: cupboard9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+
+  //                     Dressing table dressingTable1
+
+  { 
+    id: 5501,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: dressingTable1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5502,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: dressingTable2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5503,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: dressingTable3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5504,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: dressingTable4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5505,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: dressingTable5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5506,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: dressingTable6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5507,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: dressingTable7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5508,
+    title: "Dressing Table",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: dressingTable8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+
+
 
   //       sofa
 

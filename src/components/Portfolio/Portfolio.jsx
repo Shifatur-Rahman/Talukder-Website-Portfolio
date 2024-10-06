@@ -191,7 +191,7 @@ const Portfolio = () => {
                           className={isActive("PLASTIC FURNITURE")}
                           style={{ fontSize: "10px", marginTop: "10px" }}
                         >
-                          PLASTIC FURNITURE
+                          PLASTIC FURNITURE  
                         </button>
                         <button
                           value="PLASTIC HOUSEHOLD"
@@ -265,6 +265,7 @@ const Portfolio = () => {
                       </div>
                     )}
                   </div>
+
                 </div>
             </Col>
 
