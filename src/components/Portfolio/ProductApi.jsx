@@ -622,22 +622,19 @@ import sofa12 from "../../asset/images/Home Furniture/sofa/sofa12.jpg";
 
 //         Dinning table
 
-import dinning01 from "../../asset/images/Home Furniture/dinning/dinning01.jpg";
-import dinning02 from "../../asset/images/Home Furniture/dinning/dinning02.jpg";
-import dinning03 from "../../asset/images/Home Furniture/dinning/dinning03.jpg";
-import dinning04 from "../../asset/images/Home Furniture/dinning/dinning04.jpg";
-import dinning05 from "../../asset/images/Home Furniture/dinning/dinning05.jpg";
-import dinning06 from "../../asset/images/Home Furniture/dinning/dinning06.jpg";
-import dinning07 from "../../asset/images/Home Furniture/dinning/dinning07.jpg";
-import dinning08 from "../../asset/images/Home Furniture/dinning/dinning08.jpg";
-import dinning09 from "../../asset/images/Home Furniture/dinning/dinning09.jpg";
-import dinning10 from "../../asset/images/Home Furniture/dinning/dinning10.jpg";
-
+// import dining1 from "../../asset/images/Home Furniture/dining/dining1.jpg";
+// import dining2 from "../../asset/images/Home Furniture/dining/dining2.jpg";
+// import dining3 from "../../asset/images/Home Furniture/dining/dining3.jpg";
+// import dining4 from "../../asset/images/Home Furniture/dining/dining4.jpg";
+// import dining5 from "../../asset/images/Home Furniture/dining/dining5.jpg";
+// import dining6 from "../../asset/images/Home Furniture/dining/dining6.jpg";
+// import dining7 from "../../asset/images/Home Furniture/dining/dining7.jpg";
+// import dining8 from "../../asset/images/Home Furniture/dining/dining8.jpg";
+// import dining9 from "../../asset/images/Home Furniture/dining/dining9.jpg";
+// import dining10 from "../../asset/images/Home Furniture/dining/dining10.jpg";
 
 
 const ProductItems = [
-
-    //                              Plastic
     
 //             plastic furniture 
 //                waredrobe 
@@ -6165,66 +6162,66 @@ const ProductItems = [
 
 //               dinning table
 
-{
-  id: 5201,
-  title: "Dinning 01",
-  category: "home furniture",
-  code: "Dinning-01", 
-  imgSrc: dinning01,
-  size: "L600~1050 X H2080MM",
-  button: "Details",
-  material: "Mahogany & Veneered engineering wood"
-},
-{
-  id: 5202,
-  title: "Dinning 02",
-  category: "home furniture",
-  code: "Dinning-02", 
-  imgSrc: dinning02,
-  size: "L600~1050 X H2080MM",
-  button: "Details",
-  material: "Mahogany & Veneered engineering wood"
-},
-{
-  id: 5203,
-  title: "Dinning 03",
-  category: "home furniture",
-  code: "Dinning-03", 
-  imgSrc: dinning03,
-  size: "L600~1050 X H2080MM",
-  button: "Details",
-  material: "Mahogany & Veneered engineering wood"
-},
-{
-  id: 5204,
-  title: "Dinning 04",
-  category: "home furniture",
-  code: "Dinning-04", 
-  imgSrc: dinning04,
-  size: "L600~1050 X H2080MM",
-  button: "Details",
-  material: "Mahogany & Veneered engineering wood"
-},
-{
-  id: 5205,
-  title: "Dinning 05",
-  category: "home furniture",
-  code: "Dinning-05", 
-  imgSrc: dinning05,
-  size: "L600~1050 X H2080MM",
-  button: "Details",
-  material: "Mahogany & Veneered engineering wood"
-},
-{
-  id: 5206,
-  title: "Dinning 06",
-  category: "home furniture",
-  code: "Dinning-06", 
-  imgSrc: dinning06,
-  size: "L600~1050 X H2080MM",
-  button: "Details",
-  material: "Mahogany & Veneered engineering wood"
-},
+// {
+//   id: 5201,
+//   title: "Dinning 01",
+//   category: "home furniture",
+//   code: "Dinning-01", 
+//   imgSrc: dining1,
+//   size: "L600~1050 X H2080MM",
+//   button: "Details",
+//   material: "Mahogany & Veneered engineering wood"
+// },
+// {
+//   id: 5202,
+//   title: "Dinning 02",
+//   category: "home furniture",
+//   code: "Dinning-02", 
+//   imgSrc: dinning02,
+//   size: "L600~1050 X H2080MM",
+//   button: "Details",
+//   material: "Mahogany & Veneered engineering wood"
+// },
+// {
+//   id: 5203,
+//   title: "Dinning 03",
+//   category: "home furniture",
+//   code: "Dinning-03", 
+//   imgSrc: dinning03,
+//   size: "L600~1050 X H2080MM",
+//   button: "Details",
+//   material: "Mahogany & Veneered engineering wood"
+// },
+// {
+//   id: 5204,
+//   title: "Dinning 04",
+//   category: "home furniture",
+//   code: "Dinning-04", 
+//   imgSrc: dinning04,
+//   size: "L600~1050 X H2080MM",
+//   button: "Details",
+//   material: "Mahogany & Veneered engineering wood"
+// },
+// {
+//   id: 5205,
+//   title: "Dinning 05",
+//   category: "home furniture",
+//   code: "Dinning-05", 
+//   imgSrc: dinning05,
+//   size: "L600~1050 X H2080MM",
+//   button: "Details",
+//   material: "Mahogany & Veneered engineering wood"
+// },
+// {
+//   id: 5206,
+//   title: "Dinning 06",
+//   category: "home furniture",
+//   code: "Dinning-06", 
+//   imgSrc: dinning06,
+//   size: "L600~1050 X H2080MM",
+//   button: "Details",
+//   material: "Mahogany & Veneered engineering wood"
+// },
 
 //                        bed
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import productList from "../Portfolio/PortfolioImgApi.jsx";
+import productList from "../Portfolio/ProductApi.jsx";
 import { Link } from 'react-router-dom';
 import { Button } from "react-bootstrap";
 import "./ProductDetails.css"
