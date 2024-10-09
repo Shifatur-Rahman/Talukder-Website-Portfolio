@@ -607,18 +607,30 @@ import dressingTable8 from "../../asset/images/Home Furniture/dressing table/8.j
 import dressingTable9 from "../../asset/images/Home Furniture/dressing table/9.jpg";
 
 //                Sofa
-import sofa1 from "../../asset/images/Home Furniture/sofa/sofa01.jpg";
-import sofa2 from "../../asset/images/Home Furniture/sofa/sofa02.jpg";
-import sofa3 from "../../asset/images/Home Furniture/sofa/sofa03.jpg";
-import sofa4 from "../../asset/images/Home Furniture/sofa/sofa04.jpg";
-import sofa5 from "../../asset/images/Home Furniture/sofa/sofa05.jpg";
-import sofa6 from "../../asset/images/Home Furniture/sofa/sofa06.png";
-import sofa7 from "../../asset/images/Home Furniture/sofa/sofa07.jpg";
-import sofa8 from "../../asset/images/Home Furniture/sofa/sofa08.jpg";
-import sofa9 from "../../asset/images/Home Furniture/sofa/sofa09.jpg";
-import sofa10 from "../../asset/images/Home Furniture/sofa/sofa10.jpg";
-import sofa11 from "../../asset/images/Home Furniture/sofa/sofa11.jpg";
-import sofa12 from "../../asset/images/Home Furniture/sofa/sofa12.jpg";
+import sofa1 from "../../asset/images/Home Furniture/sofa/1.jpg";
+import sofa2 from "../../asset/images/Home Furniture/sofa/2.jpg";
+import sofa3 from "../../asset/images/Home Furniture/sofa/3.jpg";
+import sofa4 from "../../asset/images/Home Furniture/sofa/4.jpg";
+import sofa5 from "../../asset/images/Home Furniture/sofa/5.jpg";
+import sofa6 from "../../asset/images/Home Furniture/sofa/6.jpg";
+import sofa7 from "../../asset/images/Home Furniture/sofa/7.jpg";
+import sofa8 from "../../asset/images/Home Furniture/sofa/8.jpg";
+import sofa9 from "../../asset/images/Home Furniture/sofa/9.jpg";
+import sofa10 from "../../asset/images/Home Furniture/sofa/10.jpg";
+// import sofa11 from "../../asset/images/Home Furniture/sofa/sofa11.jpg";
+import sofa12 from "../../asset/images/Home Furniture/sofa/12.jpg";
+import sofa13 from "../../asset/images/Home Furniture/sofa/13.jpg";
+import sofa14 from "../../asset/images/Home Furniture/sofa/14.jpg";
+import sofa15 from "../../asset/images/Home Furniture/sofa/15.jpg";
+import sofa16 from "../../asset/images/Home Furniture/sofa/16.jpg";
+import sofa17 from "../../asset/images/Home Furniture/sofa/17.jpg";
+import sofa18 from "../../asset/images/Home Furniture/sofa/18.jpg";
+import sofa19 from "../../asset/images/Home Furniture/sofa/19.jpg";
+import sofa20 from "../../asset/images/Home Furniture/sofa/20.jpg";
+import sofa21 from "../../asset/images/Home Furniture/sofa/21.jpg";
+import sofa22 from "../../asset/images/Home Furniture/sofa/22.jpg";
+import sofa23 from "../../asset/images/Home Furniture/sofa/23.jpg";
+import sofa24 from "../../asset/images/Home Furniture/sofa/24.jpg";
 
 //         Dinning table
 
@@ -652,6 +664,17 @@ import diningwagon6 from "../../asset/images/Home Furniture/dining/wagon/6.jpg";
 import diningwagon7 from "../../asset/images/Home Furniture/dining/wagon/7.jpg";
 import diningwagon8 from "../../asset/images/Home Furniture/dining/wagon/8.jpg";
 import diningwagon9 from "../../asset/images/Home Furniture/dining/wagon/9.jpg";
+
+//                TV cabinet
+import tvCabinet1 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet2 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet3 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet4 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet5 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet6 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet7 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet8 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet9 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
 
 //          modern dining table
 
@@ -6341,6 +6364,99 @@ const ProductItems = [
     material: ""
   },
 
+  //     TV cabinet
+
+  { 
+    id: 5701,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: tvCabinet1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5702,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: tvCabinet2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5703,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: tvCabinet3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5704,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: tvCabinet4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5705,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: tvCabinet5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5706,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: tvCabinet6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5707,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: tvCabinet7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5708,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: tvCabinet8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5709,
+    title: "TV Cabinet",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: tvCabinet9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+
   //       sofa
 
   {
@@ -6443,26 +6559,151 @@ const ProductItems = [
     button: "Details",
     material: "Mahogany & Veneered engineering wood"
   },
+  // {
+  //   id: 5111,
+  //   title: "Sofa 11",
+  //   category: "home furniture",
+  //   code: "Sofa-11", 
+  //   imgSrc: sofa11,
+  //   size: "L600~1050 X H2080MM",
+  //   button: "Details",
+  //   material: "Mahogany & Veneered engineering wood"
+  // },
+
   {
-    id: 5111,
-    title: "Sofa 11",
+    id: 5112,
+    title: "Four Seater Sofa",
     category: "home furniture",
-    code: "Sofa-11", 
-    imgSrc: sofa11,
-    size: "L600~1050 X H2080MM",
+    code: "Sofa-12", 
+    imgSrc: sofa12,
+    size: "L 600 X W 1050 X H 2080MM",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
+  {
+    id: 5113,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-13", 
+    imgSrc: sofa13,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  //
+  {
+    id: 5114,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-14", 
+    imgSrc: sofa14,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5115,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-15", 
+    imgSrc: sofa15,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5116,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-16", 
+    imgSrc: sofa16,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5117,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-17", 
+    imgSrc: sofa17,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5118,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-18", 
+    imgSrc: sofa18,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5119,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-19", 
+    imgSrc: sofa19,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5120,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-20", 
+    imgSrc: sofa20,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5121,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-21", 
+    imgSrc: sofa21,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5122,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-22", 
+    imgSrc: sofa22,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  }, 
+  {
+    id: 5123,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-23", 
+    imgSrc: sofa23,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5124,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-24", 
+    imgSrc: sofa24,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  }, 
 
 
-//                        bed
-
-
-
-  //      
-
-
-  //                                 --------   lged(200)  --------
+  //                          lged(200)  
   
   {
     id: 251,
