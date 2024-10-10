@@ -667,16 +667,92 @@ import diningwagon9 from "../../asset/images/Home Furniture/dining/wagon/9.jpg";
 
 //                TV cabinet
 import tvCabinet1 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
-import tvCabinet2 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
-import tvCabinet3 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
-import tvCabinet4 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
-import tvCabinet5 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
-import tvCabinet6 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
-import tvCabinet7 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
-import tvCabinet8 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
-import tvCabinet9 from "../../asset/images/Home Furniture/Tv cabinet/1.jpg";
+import tvCabinet2 from "../../asset/images/Home Furniture/Tv cabinet/2.jpg";
+import tvCabinet3 from "../../asset/images/Home Furniture/Tv cabinet/3.jpg";
+import tvCabinet4 from "../../asset/images/Home Furniture/Tv cabinet/4.jpg";
+import tvCabinet5 from "../../asset/images/Home Furniture/Tv cabinet/5.jpg";
+import tvCabinet6 from "../../asset/images/Home Furniture/Tv cabinet/6.jpg";
+import tvCabinet7 from "../../asset/images/Home Furniture/Tv cabinet/7.jpg";
+import tvCabinet8 from "../../asset/images/Home Furniture/Tv cabinet/8.jpg";
+import tvCabinet9 from "../../asset/images/Home Furniture/Tv cabinet/9.jpg";
 
-//          modern dining table
+//       Book Shelf
+import bookShelf1 from "../../asset/images/Home Furniture/book shelf/1.jpg";
+import bookShelf2 from "../../asset/images/Home Furniture/book shelf/2.jpg";
+import bookShelf3 from "../../asset/images/Home Furniture/book shelf/3.jpg";
+import bookShelf4 from "../../asset/images/Home Furniture/book shelf/4.jpg";
+import bookShelf5 from "../../asset/images/Home Furniture/book shelf/5.jpg";
+import bookShelf6 from "../../asset/images/Home Furniture/book shelf/6.jpg";
+import bookShelf7 from "../../asset/images/Home Furniture/book shelf/7.jpg";
+import bookShelf8 from "../../asset/images/Home Furniture/book shelf/8.jpg";
+import bookShelf9 from "../../asset/images/Home Furniture/book shelf/9.jpg";
+
+//          shoe rack
+import shoeRack1 from "../../asset/images/Home Furniture/shoe rack/1.jpg";
+import shoeRack2 from "../../asset/images/Home Furniture/shoe rack/2.jpg";
+import shoeRack3 from "../../asset/images/Home Furniture/shoe rack/3.jpg";
+import shoeRack4 from "../../asset/images/Home Furniture/shoe rack/4.jpg";
+import shoeRack5 from "../../asset/images/Home Furniture/shoe rack/5.jpg";
+import shoeRack6 from "../../asset/images/Home Furniture/shoe rack/6.jpg";
+import shoeRack7 from "../../asset/images/Home Furniture/shoe rack/7.jpg";
+import shoeRack8 from "../../asset/images/Home Furniture/shoe rack/8.jpg";
+import shoeRack9 from "../../asset/images/Home Furniture/shoe rack/9.jpg";
+
+//             showcase
+import showcase1 from "../../asset/images/Home Furniture/showcase/1.jpg";
+import showcase2 from "../../asset/images/Home Furniture/showcase/2.jpg";
+import showcase3 from "../../asset/images/Home Furniture/showcase/3.jpg";
+import showcase4 from "../../asset/images/Home Furniture/showcase/4.jpg";
+import showcase5 from "../../asset/images/Home Furniture/showcase/5.jpg";
+import showcase6 from "../../asset/images/Home Furniture/showcase/6.jpg";
+import showcase7 from "../../asset/images/Home Furniture/showcase/7.jpg";
+import showcase8 from "../../asset/images/Home Furniture/showcase/8.jpg";
+import showcase9 from "../../asset/images/Home Furniture/showcase/9.jpg";
+
+//             computer table
+import computerTable1 from "../../asset/images/Home Furniture/computer table/1.jpg";
+import computerTable2 from "../../asset/images/Home Furniture/computer table/2.jpg";
+import computerTable3 from "../../asset/images/Home Furniture/computer table/3.jpg";
+import computerTable4 from "../../asset/images/Home Furniture/computer table/4.jpg";
+import computerTable5 from "../../asset/images/Home Furniture/computer table/5.jpg";
+import computerTable6 from "../../asset/images/Home Furniture/computer table/6.jpg";
+import computerTable7 from "../../asset/images/Home Furniture/computer table/7.jpg";
+import computerTable8 from "../../asset/images/Home Furniture/computer table/8.jpg";
+import computerTable9 from "../../asset/images/Home Furniture/computer table/9.jpg";
+
+//              Tea Table
+import teaTable1 from "../../asset/images/Home Furniture/Tea Table/1.jpg";
+import teaTable2 from "../../asset/images/Home Furniture/Tea Table/2.jpg";
+import teaTable3 from "../../asset/images/Home Furniture/Tea Table/3.jpg";
+import teaTable4 from "../../asset/images/Home Furniture/Tea Table/4.jpg";
+import teaTable5 from "../../asset/images/Home Furniture/Tea Table/5.jpg";
+import teaTable6 from "../../asset/images/Home Furniture/Tea Table/6.jpg";
+import teaTable7 from "../../asset/images/Home Furniture/Tea Table/7.jpg";
+import teaTable8 from "../../asset/images/Home Furniture/Tea Table/8.jpg";
+import teaTable9 from "../../asset/images/Home Furniture/Tea Table/9.jpg";
+
+//             center table
+import centerTable1 from "../../asset/images/Home Furniture/center table/1.jpg";
+import centerTable2 from "../../asset/images/Home Furniture/center table/2.jpg";
+import centerTable3 from "../../asset/images/Home Furniture/center table/3.jpg";
+import centerTable4 from "../../asset/images/Home Furniture/center table/4.jpg";
+import centerTable5 from "../../asset/images/Home Furniture/center table/5.jpg";
+import centerTable6 from "../../asset/images/Home Furniture/center table/6.jpg";
+import centerTable7 from "../../asset/images/Home Furniture/center table/7.jpg";
+import centerTable8 from "../../asset/images/Home Furniture/center table/8.jpg";
+import centerTable9 from "../../asset/images/Home Furniture/center table/9.jpg";
+
+//          Rocking Chair
+import rockingChair1 from "../../asset/images/Home Furniture/Rocking Chair/1.jpg";
+import rockingChair2 from "../../asset/images/Home Furniture/Rocking Chair/2.jpg";
+import rockingChair3 from "../../asset/images/Home Furniture/Rocking Chair/3.jpg";
+import rockingChair4 from "../../asset/images/Home Furniture/Rocking Chair/4.jpg";
+import rockingChair5 from "../../asset/images/Home Furniture/Rocking Chair/5.jpg";
+import rockingChair6 from "../../asset/images/Home Furniture/Rocking Chair/6.jpg";
+import rockingChair7 from "../../asset/images/Home Furniture/Rocking Chair/7.jpg";
+import rockingChair8 from "../../asset/images/Home Furniture/Rocking Chair/8.jpg";
+import rockingChair9 from "../../asset/images/Home Furniture/Rocking Chair/9.jpg";
+
 
 
 
@@ -5799,6 +5875,253 @@ const ProductItems = [
     material: ""
   },
 
+  
+  //       sofa
+
+  {
+    id: 5101,
+    title: "Sofa 01",
+    category: "home furniture",
+    code: "Sofa-01", 
+    imgSrc: sofa1,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5102,
+    title: "Sofa 02",
+    category: "home furniture",
+    code: "Sofa-02", 
+    imgSrc: sofa2,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5103,
+    title: "Sofa 03",
+    category: "home furniture",
+    code: "Sofa-03", 
+    imgSrc: sofa3,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5104,
+    title: "Sofa 04",
+    category: "home furniture",
+    code: "Sofa-04", 
+    imgSrc: sofa4,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5105,
+    title: "Sofa 05",    
+    category: "home furniture",    
+    code: "Sofa-05",   
+    imgSrc: sofa5, 
+    size: "L600~1050 X H2080MM", 
+    button: "Details", 
+    material: "Mahogany & Veneered engineering wood" 
+  },
+  {
+    id: 5106,
+    title: "Sofa 06",
+    category: "home furniture",
+    code: "Sofa-06", 
+    imgSrc: sofa6,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5107,
+    title: "Sofa 07",
+    category: "home furniture",
+    code: "Sofa-07", 
+    imgSrc: sofa7,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5108,
+    title: "Sofa 08",
+    category: "home furniture",
+    code: "Sofa-08", 
+    imgSrc: sofa8,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5109,
+    title: "Sofa 09",
+    category: "home furniture",
+    code: "Sofa-09", 
+    imgSrc: sofa9,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  {
+    id: 5110,
+    title: "Sofa 10",
+    category: "home furniture",
+    code: "Sofa-10", 
+    imgSrc: sofa10,
+    size: "L600~1050 X H2080MM",
+    button: "Details",
+    material: "Mahogany & Veneered engineering wood"
+  },
+  // {
+  //   id: 5111,
+  //   title: "Sofa 11",
+  //   category: "home furniture",
+  //   code: "Sofa-11", 
+  //   imgSrc: sofa11,
+  //   size: "L600~1050 X H2080MM",
+  //   button: "Details",
+  //   material: "Mahogany & Veneered engineering wood"
+  // },
+
+  {
+    id: 5112,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-12", 
+    imgSrc: sofa12,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5113,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-13", 
+    imgSrc: sofa13,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  //
+  {
+    id: 5114,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-14", 
+    imgSrc: sofa14,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5115,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-15", 
+    imgSrc: sofa15,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5116,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-16", 
+    imgSrc: sofa16,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5117,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-17", 
+    imgSrc: sofa17,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5118,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-18", 
+    imgSrc: sofa18,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5119,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-19", 
+    imgSrc: sofa19,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5120,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-20", 
+    imgSrc: sofa20,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5121,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-21", 
+    imgSrc: sofa21,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5122,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-22", 
+    imgSrc: sofa22,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  }, 
+  {
+    id: 5123,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-23", 
+    imgSrc: sofa23,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  },
+  {
+    id: 5124,
+    title: "Four Seater Sofa",
+    category: "home furniture",
+    code: "Sofa-24", 
+    imgSrc: sofa24,
+    size: "L 600 X W 1050 X H 2080MM",
+    button: "Details",
+    material: ""
+  }, 
+
+
   //                     BED SIDE TABLE
 
   { 
@@ -6457,251 +6780,653 @@ const ProductItems = [
     material: ""
   },
 
-  //       sofa
+  //                  Book shelf   bookShelf1
 
-  {
-    id: 5101,
-    title: "Sofa 01",
+  { 
+    id: 5801,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-01", 
-    imgSrc: sofa1,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 001 WD", 
+    imgSrc: bookShelf1,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  {
-    id: 5102,
-    title: "Sofa 02",
+  { 
+    id: 5802,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-02", 
-    imgSrc: sofa2,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 002 WD", 
+    imgSrc: bookShelf2,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  {
-    id: 5103,
-    title: "Sofa 03",
+  { 
+    id: 5803,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-03", 
-    imgSrc: sofa3,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 003 WD", 
+    imgSrc: bookShelf3,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  {
-    id: 5104,
-    title: "Sofa 04",
+  { 
+    id: 5804,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-04", 
-    imgSrc: sofa4,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 004 WD", 
+    imgSrc: bookShelf4,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  {
-    id: 5105,
-    title: "Sofa 05",    
-    category: "home furniture",    
-    code: "Sofa-05",   
-    imgSrc: sofa5, 
-    size: "L600~1050 X H2080MM", 
-    button: "Details", 
-    material: "Mahogany & Veneered engineering wood" 
-  },
-  {
-    id: 5106,
-    title: "Sofa 06",
+  { 
+    id: 5805,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-06", 
-    imgSrc: sofa6,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 005 WD", 
+    imgSrc: bookShelf5,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  {
-    id: 5107,
-    title: "Sofa 07",
+  { 
+    id: 5806,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-07", 
-    imgSrc: sofa7,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 006 WD", 
+    imgSrc: bookShelf6,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  {
-    id: 5108,
-    title: "Sofa 08",
+  { 
+    id: 5807,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-08", 
-    imgSrc: sofa8,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 007 WD", 
+    imgSrc: bookShelf7,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  {
-    id: 5109,
-    title: "Sofa 09",
+  { 
+    id: 5808,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-09", 
-    imgSrc: sofa9,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 008 WD", 
+    imgSrc: bookShelf8,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  {
-    id: 5110,
-    title: "Sofa 10",
+  { 
+    id: 5809,
+    title: "Book Shelf",
     category: "home furniture",
-    code: "Sofa-10", 
-    imgSrc: sofa10,
-    size: "L600~1050 X H2080MM",
+    code: "THCB 009 WD", 
+    imgSrc: bookShelf9,
+    size: "L 1650 X W 550 X H 1800",
     button: "Details",
-    material: "Mahogany & Veneered engineering wood"
+    material: ""
   },
-  // {
-  //   id: 5111,
-  //   title: "Sofa 11",
-  //   category: "home furniture",
-  //   code: "Sofa-11", 
-  //   imgSrc: sofa11,
-  //   size: "L600~1050 X H2080MM",
-  //   button: "Details",
-  //   material: "Mahogany & Veneered engineering wood"
-  // },
 
-  {
-    id: 5112,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-12", 
-    imgSrc: sofa12,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5113,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-13", 
-    imgSrc: sofa13,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  //
-  {
-    id: 5114,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-14", 
-    imgSrc: sofa14,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5115,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-15", 
-    imgSrc: sofa15,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5116,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-16", 
-    imgSrc: sofa16,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5117,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-17", 
-    imgSrc: sofa17,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5118,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-18", 
-    imgSrc: sofa18,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5119,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-19", 
-    imgSrc: sofa19,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5120,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-20", 
-    imgSrc: sofa20,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5121,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-21", 
-    imgSrc: sofa21,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5122,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-22", 
-    imgSrc: sofa22,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  }, 
-  {
-    id: 5123,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-23", 
-    imgSrc: sofa23,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  },
-  {
-    id: 5124,
-    title: "Four Seater Sofa",
-    category: "home furniture",
-    code: "Sofa-24", 
-    imgSrc: sofa24,
-    size: "L 600 X W 1050 X H 2080MM",
-    button: "Details",
-    material: ""
-  }, 
 
+  //                 Shoe rack
+
+  { 
+    id: 5901,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: shoeRack1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5902,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: shoeRack2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5903,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: shoeRack3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5904,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: shoeRack4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5905,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: shoeRack5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5906,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: shoeRack6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5907,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: shoeRack7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5908,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: shoeRack8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 5909,
+    title: "Shoe Rack",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: shoeRack9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+
+  //             showcase
+  { 
+    id: 6001,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: showcase1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6002,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: showcase2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6003,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: showcase3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6004,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: showcase4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6005,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: showcase5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6006,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: showcase6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6007,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: showcase7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6008,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: showcase8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6009,
+    title: "Show Case",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: showcase9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+
+  //            computer table  computerTable1
+  { 
+    id: 6101,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: computerTable1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6102,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: computerTable2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6103,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: computerTable3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6104,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: computerTable4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6105,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: computerTable5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6106,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: computerTable6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6107,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: computerTable7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6108,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: computerTable8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6109,
+    title: "Reading Table",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: computerTable9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+
+  //          Tea Table  
+  { 
+    id: 6201,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: teaTable1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6202,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: teaTable2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6203,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: teaTable3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6204,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: teaTable4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6205,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: teaTable5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6206,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: teaTable6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6207,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: teaTable7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6208,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: teaTable8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6209,
+    title: "Tea Table",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: teaTable9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+
+  //                    center table  centerTable1
+  { 
+    id: 6301,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: centerTable1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6302,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: centerTable2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6303,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: centerTable3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6304,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: centerTable4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6305,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: centerTable5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6306,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: centerTable6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6307,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: centerTable7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6308,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: centerTable8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6309,
+    title: "Center Table",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: centerTable9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+
+  //             Rocking Chair     rockingChair1
+
+  { 
+    id: 6401,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 001 WD", 
+    imgSrc: rockingChair1,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6402,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 002 WD", 
+    imgSrc: rockingChair2,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6403,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 003 WD", 
+    imgSrc: rockingChair3,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6404,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 004 WD", 
+    imgSrc: rockingChair4,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6405,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 005 WD", 
+    imgSrc: rockingChair5,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6406,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 006 WD", 
+    imgSrc: rockingChair6,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6407,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 007 WD", 
+    imgSrc: rockingChair7,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6408,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 008 WD", 
+    imgSrc: rockingChair8,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6409,
+    title: "Loop Easy Chair",
+    category: "home furniture",
+    code: "THCB 009 WD", 
+    imgSrc: rockingChair9,
+    size: "L 1650 X W 550 X H 1800",
+    button: "Details",
+    material: ""
+  },
 
   //                          lged(200)  
   
