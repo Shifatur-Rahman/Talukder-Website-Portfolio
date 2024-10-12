@@ -4314,7 +4314,7 @@ const ProductItems = [
     button: "Details"
   },
 
-  // //FULL HEIGHT FILE CABINET
+  // FULL HEIGHT FILE CABINET
 
   {
     id: 76,
@@ -4339,7 +4339,7 @@ const ProductItems = [
     button: "Details"
   },
 
-  // //GARDEN FURNITURE
+  //         GARDEN FURNITURE
   {
     id: 78,
     title: "GARDEN FURNITURE",
@@ -7453,91 +7453,91 @@ const ProductItems = [
     material: ""
   },
   { 
-    id: 6501,
+    id: 6502,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 002 WD", 
+    imgSrc: directorTable2,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
   },
   { 
-    id: 6501,
+    id: 6503,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 003 WD", 
+    imgSrc: directorTable3,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
   },
   { 
-    id: 6501,
+    id: 6504,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 004 WD", 
+    imgSrc: directorTable4,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
   },
   { 
-    id: 6501,
+    id: 6505,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 005 WD", 
+    imgSrc: directorTable5,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
   },
   { 
-    id: 6501,
+    id: 6506,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 006 WD", 
+    imgSrc: directorTable6,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
   },
   { 
-    id: 6501,
+    id: 6507,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 007 WD", 
+    imgSrc: directorTable7,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
   },
   { 
-    id: 6501,
+    id: 6508,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 008 WD", 
+    imgSrc: directorTable8,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
   },
   { 
-    id: 6501,
+    id: 6509,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 009 WD", 
+    imgSrc: directorTable9,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
   },
   { 
-    id: 6501,
+    id: 6511,
     title: "MD/Director Table",
     category: "office furniture",
-    code: "THCB 001 WD", 
-    imgSrc: directorTable1,
+    code: "THCB 011 WD", 
+    imgSrc: directorTable11,
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
