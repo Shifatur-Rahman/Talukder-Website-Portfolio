@@ -79,6 +79,18 @@ import tbl78 from "../../asset/images/office furniture/tbl78.jpg";
 import tbl79 from "../../asset/images/office furniture/tbl79.jpg";
 import tbl80 from "../../asset/images/office furniture/tbl80.jpg";
 
+//   director table
+import directorTable1 from "../../asset/images/office furniture/new director table/1.jpg";
+import directorTable2 from "../../asset/images/office furniture/new director table/2.jpg";
+import directorTable3 from "../../asset/images/office furniture/new director table/3.jpg";
+import directorTable4 from "../../asset/images/office furniture/new director table/4.jpg";
+import directorTable5 from "../../asset/images/office furniture/new director table/5.jpg";
+import directorTable6 from "../../asset/images/office furniture/new director table/6.jpg";
+import directorTable7 from "../../asset/images/office furniture/new director table/7.jpg";
+import directorTable8 from "../../asset/images/office furniture/new director table/8.jpg";
+import directorTable9 from "../../asset/images/office furniture/new director table/9.jpg";
+import directorTable11 from "../../asset/images/office furniture/new director table/11.jpg";
+
 // Industrial rack
 import rack1 from "../../asset/images/Industrial rack/01.jpg";
 import rack2 from "../../asset/images/Industrial rack/02.jpg";
@@ -7428,6 +7440,109 @@ const ProductItems = [
     material: ""
   },
 
+  //                      Director Table
+
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+  { 
+    id: 6501,
+    title: "MD/Director Table",
+    category: "office furniture",
+    code: "THCB 001 WD", 
+    imgSrc: directorTable1,
+    size: "L 2100 X W 1650 X H 1200",
+    button: "Details",
+    material: ""
+  },
+
   //                          lged(200)  
   
   {
@@ -7480,7 +7595,6 @@ const ProductItems = [
     imgSrc: lged11,
     button: "Details"
   },
-  
   
 ];
 
