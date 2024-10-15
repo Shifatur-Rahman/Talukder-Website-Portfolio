@@ -79,6 +79,28 @@ import tbl78 from "../../asset/images/office furniture/tbl78.jpg";
 import tbl79 from "../../asset/images/office furniture/tbl79.jpg";
 import tbl80 from "../../asset/images/office furniture/tbl80.jpg";
 
+//                File Cabinet
+import fileCabinet1 from "../../asset/images/office furniture/file cabinet/1.jpg";
+import fileCabinet2 from "../../asset/images/office furniture/file cabinet/2.jpg";
+import fileCabinet3 from "../../asset/images/office furniture/file cabinet/3.jpg";
+// import fileCabinet4 from "../../asset/images/office furniture/file cabinet/4.jpg";
+import fileCabinet5 from "../../asset/images/office furniture/file cabinet/5.jpg";
+import fileCabinet6 from "../../asset/images/office furniture/file cabinet/6.jpg";
+import fileCabinet7 from "../../asset/images/office furniture/file cabinet/7.jpg";
+import fileCabinet8 from "../../asset/images/office furniture/file cabinet/8.jpg";
+import fileCabinet9 from "../../asset/images/office furniture/file cabinet/9.jpg";
+
+//           Low height Cabinet
+import lowCabinet1 from "../../asset/images/office furniture/low cabinet/1.jpg";
+import lowCabinet2 from "../../asset/images/office furniture/low cabinet/2.jpg";
+import lowCabinet3 from "../../asset/images/office furniture/low cabinet/3.jpg";
+import lowCabinet4 from "../../asset/images/office furniture/low cabinet/4.jpg";
+import lowCabinet5 from "../../asset/images/office furniture/low cabinet/5.jpg";
+import lowCabinet6 from "../../asset/images/office furniture/low cabinet/6.jpg";
+import lowCabinet7 from "../../asset/images/office furniture/low cabinet/7.jpg";
+import lowCabinet8 from "../../asset/images/office furniture/low cabinet/8.jpg";
+import lowCabinet9 from "../../asset/images/office furniture/low cabinet/9.jpg";
+
 //   director table
 import directorTable1 from "../../asset/images/office furniture/new director table/1.jpg";
 import directorTable2 from "../../asset/images/office furniture/new director table/2.jpg";
@@ -4339,6 +4361,90 @@ const ProductItems = [
     button: "Details"
   },
 
+  // fileCabinet1
+
+  {
+    id: 81,
+    title: "FILE CABINET",
+    category: "office furniture",
+    code: "THCB 001 WD",
+    size: "L2400 X W400 X H1800mm",
+    imgSrc: fileCabinet1,
+    button: "Details"
+  },
+  {
+    id: 82,
+    title: "FILE CABINET",
+    category: "office furniture",
+    code: "THCB 002 WD",
+    size: "L2400 X W400 X H1800mm",
+    imgSrc: fileCabinet2,
+    button: "Details"
+  },
+  {
+    id: 83,
+    title: "FILE CABINET",
+    category: "office furniture",
+    code: "THCB 003 WD",
+    size: "L2400 X W400 X H1800mm",
+    imgSrc: fileCabinet3,
+    button: "Details"
+  },
+  // {
+  //   id: 84,
+  //   title: "FILE CABINET",
+  //   category: "office furniture",
+  //   code: "THCB 004 WD",
+  //   size: "L2400 X W400 X H1800mm",
+  //   imgSrc: fileCabinet4,
+  //   button: "Details"
+  // },
+  {
+    id: 85,
+    title: "FILE CABINET",
+    category: "office furniture",
+    code: "THCB 005 WD",
+    size: "L2400 X W400 X H1800mm",
+    imgSrc: fileCabinet5,
+    button: "Details"
+  },
+  {
+    id: 86,
+    title: "FILE CABINET",
+    category: "office furniture",
+    code: "THCB 006 WD",
+    size: "L2400 X W400 X H1800mm",
+    imgSrc: fileCabinet6,
+    button: "Details"
+  },
+  {
+    id: 87,
+    title: "FILE CABINET",
+    category: "office furniture",
+    code: "THCB 007 WD",
+    size: "L2400 X W400 X H1800mm",
+    imgSrc: fileCabinet7,
+    button: "Details"
+  },
+  {
+    id: 88,
+    title: "FILE CABINET",
+    category: "office furniture",
+    code: "THCB 008 WD",
+    size: "L2400 X W400 X H1800mm",
+    imgSrc: fileCabinet8,
+    button: "Details"
+  },
+  {
+    id: 89,
+    title: "FILE CABINET",
+    category: "office furniture",
+    code: "THCB 009 WD",
+    size: "L2400 X W400 X H1800mm",
+    imgSrc: fileCabinet9,
+    button: "Details"
+  },
+
   //         GARDEN FURNITURE
   {
     id: 78,
@@ -7481,7 +7587,7 @@ const ProductItems = [
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
-  },
+  },     
   { 
     id: 6505,
     title: "MD/Director Table",
