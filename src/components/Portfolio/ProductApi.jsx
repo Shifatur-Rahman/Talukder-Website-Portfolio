@@ -4336,6 +4336,89 @@ const ProductItems = [
     button: "Details"
   },
 
+  //        low height Cabinet
+  {
+    id: 91,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 001 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet1,
+    button: "Details"
+  },
+  {
+    id: 92,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 002 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet2,
+    button: "Details"
+  },
+  {
+    id: 93,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 003 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet3,
+    button: "Details"
+  },
+  {
+    id: 94,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 004 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet4,
+    button: "Details"
+  },
+  {
+    id: 95,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 005 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet5,
+    button: "Details"
+  },
+  {
+    id: 96,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 006 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet6,
+    button: "Details"
+  },
+  {
+    id: 97,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 007 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet7,
+    button: "Details"
+  },
+  {
+    id: 98,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 008 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet8,
+    button: "Details"
+  },
+  {
+    id: 99,
+    title: "Side Table",
+    category: "office furniture",
+    code: "THCB 009 WD",
+    size: "L1200 X W400 X H750mm",
+    imgSrc: lowCabinet9,
+    button: "Details"
+  },
+
   // FULL HEIGHT FILE CABINET
 
   {
