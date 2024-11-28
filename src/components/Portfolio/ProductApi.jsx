@@ -4418,7 +4418,7 @@ const ProductItems = [
     imgSrc: lowCabinet9,
     button: "Details"
   },
-
+  
   // FULL HEIGHT FILE CABINET
 
   {

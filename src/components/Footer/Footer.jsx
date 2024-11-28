@@ -251,7 +251,7 @@ const Footer = () => {
             <FaFacebookF className="socialFontFacebook" />
             <a style={{lineHeight:"30px"}}
               className="socialLink"
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/TalukderGroupofIndustries/"
               target="_blank"
             >
               Facebook

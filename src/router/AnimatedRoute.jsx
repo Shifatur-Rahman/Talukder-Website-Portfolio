@@ -27,6 +27,7 @@ import JEnterprisePage from "../pages/JEnterprisePage";
 import ProductDetailsPage from '../pages/ProductDetailsPage'
 import ErrorPage from "../pages/ErrorPage";
 import DownloadFile from "../components/DownloadFile/DownloadFile";
+import DisplayOrder from "../components/ProductDetails/DisplayOrder";
 
 function AnimatedRoute() {
   const location = useLocation();
@@ -106,6 +107,13 @@ function AnimatedRoute() {
          <Route path="/downloadFile" element={<DownloadFile />}  />
 
          {/* <Route path="**" element={<NotFound />} /> */} 
+
+
+             {/* UPVC add */}
+         <Route path="/tubewell" element={<ConcernPage />} />
+
+         {/* order display only management */}
+         <Route path="/management/order" element={<DisplayOrder />} />
 
         </Routes> 
       </AnimatePresence>

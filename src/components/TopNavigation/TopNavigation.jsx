@@ -84,7 +84,7 @@ class TopNavigation extends Component {
               data-aos-offset="500"
               data-aos-duration="1500">
               
-              {/* Home */} 
+              {/* Home */}              
 
               <Nav.Link>
                 <NavLink
@@ -93,7 +93,7 @@ class TopNavigation extends Component {
                   activeClassName="active to-empty"
                 >
                   {" "}
-                  Home
+                  Home 
                 </NavLink>
               </Nav.Link>
 
@@ -104,7 +104,7 @@ class TopNavigation extends Component {
                   <button style={{ border: "none", background: "none" }}
                     className={this.state.navbarItem}
                     to="#"
-                    activeClassName="active to-empty"
+                    activeClassName="active to-empty" 
                     onClick={() =>
                       this.setState((prevState) => ({
                         portfolioDropdownOpen: !prevState.portfolioDropdownOpen,

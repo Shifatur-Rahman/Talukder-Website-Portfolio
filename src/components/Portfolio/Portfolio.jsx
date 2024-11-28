@@ -16,11 +16,14 @@ import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 import { BsFillCaretLeftSquareFill, BsFillCaretRightSquareFill } from 'react-icons/bs';
 import {motion, AnimatePresence} from 'framer-motion'
 import ProductDetails from "../ProductDetails/ProductDetails";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import HomePage from "../../pages/HomePage";
 import { VaccinesRounded } from "@mui/icons-material";
 import Accordion from 'react-bootstrap/Accordion';
 import Form from 'react-bootstrap/Form';
+import { Nav, Navbar } from "react-bootstrap";
+
+
 
 const Portfolio = () => {
 
@@ -99,18 +102,25 @@ const Portfolio = () => {
                     </button>
                   </motion.div>
 
+
+
+
+
                   {/* UPVC */}
 
-                  {/* <div className="dropdown">
-                    <button
-                      value="upvc"
-                      onClick={handleCategory}
-                      className={isActive("upvc")}
-                    >
-                      UPVC
-                    </button>
-                  </div> */}
 
+                  {/* <Nav.Link>
+                <NavLink
+                  className={this.state.navbarItem}
+                  to="/"
+                  activeClassName="active to-empty"
+                >
+                  {" "}
+                  Home 
+                </NavLink>
+              </Nav.Link> */}
+
+<Nav.Link>
                     <div className="dropdown">
                       <button
                         className={isActive("plastic")}
@@ -123,14 +133,22 @@ const Portfolio = () => {
                       </button>
                       {isDropdown && (
                         <div className="dropdown-content">
+
+                          
+            <NavLink
+                  // className={this.state.navbarItem}
+                  to="/tubewell"
+                  activeClassName="active to-empty">
                           <button
                             value="TUBEWELL"
                             onClick={handleCategory}
                             className={isActive("TUBEWELL")}
-                            style={{ fontSize: "10px", marginTop: "10px" }}
-                          >
+                            style={{ fontSize: "10px", marginTop: "10px" }}>
+
                             TUBEWELL
+                        
                           </button>
+                          </NavLink>
 
                           <button
                             value="PRESSURE PIPE"
@@ -170,6 +188,9 @@ const Portfolio = () => {
                         </div>
                       )}
                     </div>
+
+
+                    </Nav.Link>
 
                    {/* Plastic */}
 
@@ -295,16 +316,13 @@ const Portfolio = () => {
                         initial={{ opacity: 0 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 2 }}
-                        layout className="portfolio-item"
-                          //  style={{ height: "360px" }}
+                        layout className="portfolio-item"                         
                           key={item.id}>
                           <img
                             className="portfolio-item-img"
-                            src={`${item.imgSrc}`}
-                            // src={`${item.imgSrc[0]}`}
+                            src={`${item.imgSrc}`}                            
                             alt={item.title}
-                            style={{ cursor: "pointer" }}
-                            // onClick={() => handleImageClick(item.imgSrc)}
+                            style={{ cursor: "pointer" }}                            
                               onClick={() => handleImageClick(item.imgSrc[0])}
                           />
 
@@ -362,17 +380,6 @@ const Portfolio = () => {
                                         Color
                                       </th>
 
-                                      {/*  {item.color.split("/").map((color, index) => (
-                                        <td
-                                          style={{
-                                            backgroundColor: color,
-                                            cursor: "pointer",
-                                            width: "5px",
-                                          }}
-                                          key={index}
-                                        ></td>
-                                      ))}  */} 
-
                                       {item.color.split("/").map((color, index) => (                                                   
                                         <td key={index} style={{ textAlign: '-webkit-center' }}>
                                           
@@ -381,9 +388,7 @@ const Portfolio = () => {
                                             cursor: "pointer",
                                             width: "15px",
                                             height: "14px",                                            
-                                            display: "flex",
-                                            // justifyContent: "center",
-                                            // alignItems: "center",                                            
+                                            display: "flex",                                          
                                           }}></td>  
                                                                                   
                                         </td>                                        
@@ -402,20 +407,6 @@ const Portfolio = () => {
                                 ""
                               )}
 
-                            {/* {item.size && (
-                              <p style={{ marginLeft: "10px", marginTop: "0px" }} className="itemTitle">
-                                <strong>Size : </strong>
-                                <span className="itemSize"> {item.size} </span>
-                              </p>
-                            )}
-      
-                            {item.size2 && (
-                              <p style={{ marginLeft: "10px" }} className="itemTitle">
-                                <strong>Size : </strong>
-                                <span className="itemSize"> {item.size2} </span>
-                              </p>
-                            )} */}
-
                             {item.product && (
                               <p style={{ marginLeft: "10px" }} className="itemTitle">
                                 <span style={{ fontSize: "8px" }}>
@@ -428,8 +419,6 @@ const Portfolio = () => {
                             {
                            item.button && (
                               <div style={{ marginLeft: "10px" }}>
-                                {/* <UpvcModal1 title={item.title} category={item.category} code={item.longCode} size={item.longSize} thickness={item.longThickness} img={item.imgSrc} /> */}
-                                {/* <Link to={`/product/productDetailsPage/${item.id}`}> */}
                                 <Link to={`/product/${item.category}/${item.id}`}>
                                   <Button style={{borderRadius:"3px"}} className="upvcBtn"> view product </Button>
                                 </Link>
@@ -451,7 +440,7 @@ const Portfolio = () => {
                     onClick={handleDialogClose}
                   >
                     <CloseIcon className="closeIcon" />
-                    </IconButton>
+                    </IconButton> 
                   <img
                     className="zoomImage"
                     alt="product-img"
@@ -501,3 +490,71 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
+
+
+
+
+
+ {/* UPVC */}
+
+//  <div className="dropdown">
+//  <button
+//    className={isActive("plastic")}
+//    onClick={toggleDropdownPlastic}
+//  >
+//    UPVC
+//    <span className="dropdown-arrow">
+//      {isDropdown ? "▲" : "▼"}
+//    </span>
+//  </button>
+//  {isDropdown && (
+//    <div className="dropdown-content">
+//      <button
+//        value="TUBEWELL"
+//        onClick={handleCategory}
+//        className={isActive("TUBEWELL")}
+//        style={{ fontSize: "10px", marginTop: "10px" }}
+//      >
+//        TUBEWELL
+//      </button>
+
+//      <button
+//        value="PRESSURE PIPE"
+//        onClick={handleCategory}
+//        className={isActive("PRESSURE PIPE")}
+//        style={{ fontSize: "10px" }}
+//      >
+//        PRESSURE PIPE
+//      </button>
+     
+//      <button
+//        value="PLUMBING PIPE"
+//        onClick={handleCategory}
+//        className={isActive("PLUMBING PIPE")}
+//        style={{ fontSize: "10px" }}
+//      >
+//        PLUMBING PIPE
+//      </button>
+     
+//      <button
+//        value="NON PRESSURE PIPE"
+//        onClick={handleCategory}
+//        className={isActive("PLASTIC HOUSEHOLD")}
+//        style={{ fontSize: "10px" }}
+//      >
+//        NON PRESSURE PIPE
+//      </button>
+
+//      <button
+//        value="SWR PIPE"
+//        onClick={handleCategory}
+//        className={isActive("SWR PIPE")}
+//        style={{ fontSize: "10px" }}
+//      >
+//        SWR PIPE & FITTINGS
+//      </button>                    
+//    </div>
+//  )}
+// </div>

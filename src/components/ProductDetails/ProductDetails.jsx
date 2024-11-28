@@ -18,10 +18,26 @@ import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
 import Spinner from "../Spinner/Spinner.jsx";
 
+ //   modal for order address
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { useNavigate } from 'react-router-dom';
+
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
 
   const [currentProductImage, setCurrentProductImage] = useState(0);
   const [loading, setLoading] = useState(true);
+
+  //   modal for order address
+  // const [show, setShow] = useState(false);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+
+  //const [smShow, setSmShow] = useState(false);
+  const [lgShow, setLgShow] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
@@ -39,6 +55,30 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+  };
+
+  //    form
+
+  const [formData, setFormData] = useState({
+    phoneNumber: '',
+    email: '',
+    firstName: '',
+    country: 'Bangladesh',
+    division: '',
+    state: '',
+    area: '',
+    zipCode: '',
+    address: '',
+  });
+    
+  const handleForm = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+  const navigate = useNavigate();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Navigate to /display and pass formData as state
+    navigate('/management/order', { state: { formData } });
   };
 
   return (
@@ -162,7 +202,9 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         <div className="action-wrapper flex">
 
                           <button
-                            onClick={handleAddToCart}
+                            // onClick={handleAddToCart}
+                            // onClick={handleShow}
+                            onClick={() => setLgShow(true)}
                             className="btnCart flex2"
                           >
                             <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
@@ -177,6 +219,151 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                         </div>
                       </div>
                     </div>
+
+                    {/* Modal */}
+      
+    
+       <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton>
+            <p style={{fontFamily:"sans-serif", fontSize:"17px",textAlign:"center", color:"#3399ff" }}> Checkout &gt; Your Order</p>
+        </Modal.Header>
+        <Modal.Body>
+        <Container>
+        <Row>
+          <Col lg={9}>
+        <div className="form-container">
+      <form onSubmit={handleSubmit}>
+
+        <div className="address-form">
+
+        <label>
+          Name:
+          <input
+            type="text"
+            name="firstName"
+            value={formData.firstName}
+            onChange={handleForm}
+            required
+          />
+        </label>
+
+        <div style={{display:"flex", gap:"5px"}}>
+
+        <label>
+          Email:
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleForm}
+          />
+        </label>
+
+        <label>
+          Phone Number:
+          <input
+            type="text"
+            name="phoneNumber"
+            value={formData.phoneNumber}
+            onChange={handleForm}
+            required
+          />
+        </label>
+
+        </div>
+
+{/*         
+        <label>
+          Country:
+          <input type="text" value="Bangladesh" disabled />
+        </label>
+
+        <div style={{display:"flex", gap:"5px"}}>
+        <label>
+          Division:
+          <input
+            type="text"
+            name="division"
+            value={formData.division}
+            onChange={handleForm}
+            required
+          />
+        </label>
+     
+      
+        <label>
+          State/Province:
+          <input
+            type="text"
+            name="state"
+            value={formData.state}
+            onChange={handleForm}
+            required
+          />
+        </label>
+        </div>
+
+       
+        <div style={{display:"flex", gap:"5px"}}>
+        <label>
+          Area/Upazila:
+          <input
+            type="text"
+            name="area"
+            value={formData.area}
+            onChange={handleForm}
+          />
+        </label>
+      
+
+       
+        <label>
+          Zip/Postal Code:
+          <input
+            type="text"
+            name="zipCode"
+            value={formData.zipCode}
+            onChange={handleForm}
+          />
+        </label>
+        </div> */}
+  
+        <label>
+          Address:
+          <textarea
+            name="address"
+            value={formData.address}
+            onChange={handleForm}
+            required
+          ></textarea>
+        </label>
+
+        <button type="submit">Save</button>
+        </div>
+        
+
+        
+      </form>
+    </div>
+    </Col>
+
+       <Col lg={3}>
+        <h5> Your Order </h5>
+        <p style={{fontSize:"10px"}}>Your purchase will be delivered in 1 shipment(s)</p>
+        <img src={singleItem.imgSrc} style={{border:"1px solid black"}} />
+        </Col>
+        </Row>
+      </Container>
+
+        </Modal.Body>
+      </Modal>
+
+
 
                     {/* Product description */}
                     <Container>
