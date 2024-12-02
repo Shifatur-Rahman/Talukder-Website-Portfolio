@@ -768,4 +768,21 @@ padding: 10px;
         flex-direction: column;
       }
     }
+
+    .productHeader {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 20px;
+      background-color: #f8f8f8; 
+    }
     
+    .left {
+      flex: 1; /* Adjust width of the left section */
+      text-align: left;
+    }
+    
+    .right {
+      flex: 1; /* Adjust width of the right section */
+      text-align: right;
+    }

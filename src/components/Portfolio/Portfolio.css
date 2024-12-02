@@ -241,3 +241,17 @@
               }
             }
             
+
+                   /* new css */
+
+                        /* .dropdown-content a {
+                          padding: 0;
+                        }
+            
+                        .dropdown-content:hover {
+                          background-color: none !important;
+                        } */
+
+                        .active {                      
+                          border-bottom: 0;
+                        }

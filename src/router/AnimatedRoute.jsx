@@ -37,10 +37,11 @@ function AnimatedRoute() {
 
       <AnimatePresence>
           <Routes location={location} key={location.pathname}>
+
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/about" element={<AboutPage />} /> 
           <Route path="/concern" element={<ConcernPage />} />
           <Route path="/career" element={<CareerPage />} />
           <Route path="/portfolio/gallery" element={<Gallery />} />
@@ -108,9 +109,14 @@ function AnimatedRoute() {
 
          {/* <Route path="**" element={<NotFound />} /> */} 
 
-
              {/* UPVC add */}
-         <Route path="/tubewell" element={<ConcernPage />} />
+
+             {/* <Route path="/PLASTIC TOY" element={<FurniturePage />} /> */}
+             
+             
+         {/* <Route path="/upvc/tubewell" element={<PortfolioPage />} /> */}
+
+        
 
          {/* order display only management */}
          <Route path="/management/order" element={<DisplayOrder />} />

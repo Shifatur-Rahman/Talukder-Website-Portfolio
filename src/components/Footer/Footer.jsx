@@ -15,9 +15,9 @@ import Alert from "@mui/material/Alert";
 import { useState } from "react";
 import { FaFax, FaInstagramSquare } from "react-icons/fa";
 import GoogleMap from "../GoogleMap/GoogleMap";
-import axios from "axios";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import axios from "axios"; 
+import AOS from "aos"; 
+import "aos/dist/aos.css"; 
 import logo from "../../asset/images/Logo/talukderLogo.png"
 import logoName from "../../asset/images/Logo/talukderName.png"
 import property1 from "../../asset/images/Footer/footer1.jpg"
@@ -217,7 +217,6 @@ const Footer = () => {
             justifyContent: "center",
             marginTop: "1rem",
             textAlign: "center",
-            
           }}
         >
           <Col style={{paddingLeft:"50px"}} sm={12} md={6} lg={3} className="footerTextAlign">
