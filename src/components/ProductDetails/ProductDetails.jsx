@@ -27,6 +27,7 @@ import Col from 'react-bootstrap/Col';
 import { useNavigate } from 'react-router-dom';
 import DisplayOrder from './DisplayOrder.jsx';
 import Swal from 'sweetalert2'
+import axios from 'axios';
 
 const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQuantity, }) => {
 
@@ -34,6 +35,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
   const [showAlert, setShowAlert] = useState(false);
+  const [productName, setProductName] = useState("");
+  const [productPrice, setProductPrice] = useState();
 
   const [quantityCount, setQuantityCount] = useState(1);
 
@@ -71,6 +74,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
     firstName: '',
     address: '',
     quantity: '',
+    productName: '',
+    productPrice: ''
   });
 
   const [submittedData, setSubmittedData] = useState([]); 
@@ -85,23 +90,47 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
     //  navigate('/management/order', { state: { formData } });
 
     setFormData({
-      firstName: '',
-      email: '',
-      phoneNumber: '',
-      address: ''
+      firstName: "",
+      email: "",
+      phoneNumber: "",
+      address: "",
+      quantity: "",
+      productName: "",
+      productPrice: ""
     });
-    console.log(formData);
 
-    // setShowAlert(true); 
+    const data = {
+      Name: formData.firstName,
+      Email: formData.email,
+      Phone: formData.phoneNumber,
+      Address: formData.address,
+      Quantity: quantityCount,
+      Product: productName,
+      Price: productPrice * quantityCount
+    }
+       
+    axios.post('https://api.sheetbest.com/sheets/d7828f31-2de4-4f8e-b69f-e26a657e5171',data).then((res)=>{
+
+      console.log(res);
+     // console.log(res.email);
+      setFormData({
+        firstName: "",
+        email: "",
+        phoneNumber: '', 
+        address: "",
+        quantityCount: '',
+        productName: "",
+        productPrice: ""
+      });
+
+    })
+
+    
     setLgShow(false);
     Swal.fire({
       title: " Order Add Successfully ",
-      // text: "That thing is still around?",
-      icon: "success"
-    });
-
-    // Hide the alert after 4 seconds
-   // setTimeout(() => setShowAlert(false), 4000); 
+      icon: "success",
+    }); 
 
   };
 
@@ -125,9 +154,13 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
         <div style={{ backgroundColor: "#e6e6e6" }}>         
           {
             totalProduct.map((singleItem) => {
+           //   setProductName(singleItem.title) 
               if (singleItem.id == id) {
                 return (
-                  <main style={{ marginTop: "4rem" }} className="product">
+                  <main style={{ marginTop: "4rem" }} className="product" onFocus={() => {
+                    setProductName(singleItem.title);
+                    setProductPrice(singleItem.price);
+                  }}>
                     <div className="container-md grid product-container">
                       <div
                         style={{ marginTop: "3rem" }}
@@ -220,7 +253,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           style={{ textTransform: "uppercase" }}
                           className="productDetailsTitle"
                         >
-                          {singleItem.title}
+                          {singleItem.title}                       
                         </h1>
                         <p
                           style={{ textAlign: "justify", fontSize: "14px" }}
@@ -231,17 +264,17 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           products, including specifications, features, and any
                           other relevant details. Here's a sample description of
                           what the product details page might include:
-                        </p>
-
-                        <div className="product-price">
-                          <div className="discounted-price flex">
-                            <span className="productPrice">
+                        </p> 
+      
+                        <div className="product-price">   
+                          <div className="discounted-price flex">  
+                            <span className="productPrice">   
                               BDT{" "}
                               {singleItem.price
-                                ? singleItem.price - singleItem.price * 0.15
+                                ? singleItem.price - singleItem.price * 0.15 
                                 : "0.0"}{" "}
                             </span>
-                            <span className="offer fw-700 fs-400 Orange">
+                            <span className="offer fw-700 fs-400 Orange">     
                               15%
                             </span>
                           </div>
@@ -414,7 +447,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                   </div>
                                 </form>                               
                               </div> 
-                            </Col> 
+                            </Col>  
       
                             <Col lg={5}> 
                               <h5> Your Order </h5>

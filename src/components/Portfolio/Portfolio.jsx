@@ -218,7 +218,7 @@ const Portfolio = () => {
                           PLASTIC HOUSEHOLD
                         </button>              
 
-                        {/* <Link to="/product/PLASTIC TOY"> */}
+                        <Link to="/toys">
                         <button
                            value="PLASTIC TOY"
                            onClick={handleCategory}
@@ -227,7 +227,7 @@ const Portfolio = () => {
                         > 
                           TOY 
                         </button>
-                        {/* </Link> */}
+                        </Link>
                   
 
 {/* 

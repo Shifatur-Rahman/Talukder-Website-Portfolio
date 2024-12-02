@@ -103,15 +103,15 @@ function AnimatedRoute() {
           <Route
             path="*"
             element={<ErrorPage />}
-          />
+          /> 
 
-         <Route path="/downloadFile" element={<DownloadFile />}  />
+         <Route path="/downloadFile" element={<DownloadFile />}  /> 
 
          {/* <Route path="**" element={<NotFound />} /> */} 
 
-             {/* UPVC add */}
+         {/* UPVC add */} 
 
-             {/* <Route path="/PLASTIC TOY" element={<FurniturePage />} /> */}
+            <Route path="/toys" element={<PortfolioPage />} />
              
              
          {/* <Route path="/upvc/tubewell" element={<PortfolioPage />} /> */}
@@ -119,7 +119,7 @@ function AnimatedRoute() {
         
 
          {/* order display only management */}
-         <Route path="/management/order" element={<DisplayOrder />} />
+         {/* <Route path="/management/order" element={<DisplayOrder />} /> */}
 
         </Routes> 
       </AnimatePresence>
