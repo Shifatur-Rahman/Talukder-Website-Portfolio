@@ -79,13 +79,29 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
   });
 
   const [submittedData, setSubmittedData] = useState([]); 
+  const [error, setError] = useState("");
     
   const handleForm = (e) => {
+
+    // const { name, value } = e.target;
+    // if (name === "phoneNumber" && (value.length > 11 || !/^\d*$/.test(value))) {
+    //   setError("Phone number must be numeric and no longer than 11 digits.");
+    // } else {
+    //   setError("");
+    // }
+
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (formData.phoneNumber.length !== 11) {
+      setError("Phone must be 11 digits");
+      return;
+    }
+    setError("");
+
      setSubmittedData([...submittedData, formData]);
     //  navigate('/management/order', { state: { formData } });
 
@@ -102,13 +118,13 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
     const data = {
       Name: formData.firstName,
       Email: formData.email,
-      Phone: formData.phoneNumber,
-      Address: formData.address,
+      Phone: formData.phoneNumber,    
+      Address: formData.address,    
       Quantity: quantityCount,
       Product: productName,
       Price: productPrice * quantityCount
     }
-       
+                    
     axios.post('https://api.sheetbest.com/sheets/d7828f31-2de4-4f8e-b69f-e26a657e5171',data).then((res)=>{
 
       console.log(res);
@@ -421,16 +437,18 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
 
                                       <label>
                                         Phone:{" "}
-                                        <span style={{ color: "red" }}>*</span>
-                                        <input
+                                        <span style={{ color: "red" }}>* </span>
+                                        <span style={{color:"red", fontSize:"9px"}}>{error}</span>                                        
+                                        <input 
                                           type="text"
                                           name="phoneNumber"
                                           value={formData.phoneNumber}
                                           onChange={handleForm}
                                           required
                                         />
-                                      </label>
+                                      </label>                                       
                                     </div>
+                                   
 
                                     <label>
                                       Address:{" "}
