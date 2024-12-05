@@ -160,12 +160,12 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
   return (
     <>
 
-      {loading ? (
+      {/* {loading ? (
         <div style={{ marginTop: "7rem" }}>
           <Spinner />
         </div>
 
-      ) : (
+      ) : ( */}
 
         <div style={{ backgroundColor: "#e6e6e6" }}>         
           {
@@ -898,7 +898,7 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
           }
         </div>
 
-      )}
+      // )}
 
     </>
   )

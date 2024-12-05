@@ -198,9 +198,9 @@ header top area ends here
 ========================= */
 
 @media (max-width: 1300px) {
-  .navigation {
+  /* .navigation {
     padding: 10px 2rem !important;
-  }
+  } */
   .navItem {
     margin-right: 5px;
     font-size: 12px;
@@ -269,9 +269,9 @@ header top area ends here
 }
 
 @media (max-width: 768px) {
-  .navigation {
+  /* .navigation {
     height: 55px !important;
-  }
+  } */
   .navItem {
     font-size: 12px;
   }
@@ -298,7 +298,7 @@ header top area ends here
 @media (max-width: 450px) {
   .navigation {
     /* padding: 1rem 2rem; */
-    height: 35px;
+    /* height: 35px; */ 
   }
   .logo {
     width: 70px;

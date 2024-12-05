@@ -81,7 +81,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <>
+    <> 
       <Carousel
         activeIndex={activeIndex}
         onSelect={handleSelect}

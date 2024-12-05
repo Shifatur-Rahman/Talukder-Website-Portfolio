@@ -79,9 +79,9 @@ const Portfolio = () => {
 
   return (
     <>
-      {loading ? (
+      {/* {loading ? (
         <Spinner />
-      ) : (
+      ) : ( */}
         <div style={{ background: "#f2f2f2" }}>
           <Container fluid="md">
             <Row>
@@ -535,7 +535,7 @@ const Portfolio = () => {
             </Row>
           </Container>
         </div>
-      )}
+      {/* )} */}
     </>
   );
 };
