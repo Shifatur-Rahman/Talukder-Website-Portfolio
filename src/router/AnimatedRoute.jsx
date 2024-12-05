@@ -34,14 +34,12 @@ function AnimatedRoute() {
 
   return (
     <>
-
       <AnimatePresence>
-          <Routes location={location} key={location.pathname}>
-
+        <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about" element={<AboutPage />} /> 
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/concern" element={<ConcernPage />} />
           <Route path="/career" element={<CareerPage />} />
           <Route path="/portfolio/gallery" element={<Gallery />} />
@@ -67,63 +65,38 @@ function AnimatedRoute() {
             path="/about/Message/Details"
             element={<TeamMemberMessagePage />}
           />
-          <Route
-            path="/concern/plasticItem"
-            element={<PlasticPage />}
-          />
-          <Route
-            path="/concern/foundry"
-            element={<FoundryPage />}
-          />
+          <Route path="/concern/plasticItem" element={<PlasticPage />} />
+          <Route path="/concern/foundry" element={<FoundryPage />} />
 
-          <Route
-            path="/concern/upvc"
-            element={<Upvc1Page />}
-          />
+          <Route path="/concern/upvc" element={<Upvc1Page />} />
 
-          <Route
-            path="/concern/distribution"
-            element={<DistributionPage />}
-          />
-          
-          <Route
-            path="/concern/furniture"
-            element={<FurniturePage />}
-          />
+          <Route path="/concern/distribution" element={<DistributionPage />} />
 
-          <Route
-            path="/concern/j&j"
-            element={<JEnterprisePage />}
-          />
+          <Route path="/concern/furniture" element={<FurniturePage />} />
+
+          <Route path="/concern/j&j" element={<JEnterprisePage />} />
           <Route
             path="/product/:category/:id"
             element={<ProductDetailsPage />}
           />
 
-          <Route
-            path="*"
-            element={<ErrorPage />}
-          /> 
+          <Route path="*" element={<ErrorPage />} />
 
-         <Route path="/downloadFile" element={<DownloadFile />}  /> 
+          <Route path="/downloadFile" element={<DownloadFile />} /> 
 
-         {/* <Route path="**" element={<NotFound />} /> */} 
+          {/* <Route path="/school" element={<FurniturePage />} />  */}
 
-         {/* UPVC add */} 
+          {/* <Route path="**" element={<NotFound />} /> */} 
 
-            <Route path="/toys" element={<PortfolioPage />} />
-             
-             
-         {/* <Route path="/upvc/tubewell" element={<PortfolioPage />} /> */}
+          {/* UPVC add */} 
+         
+          {/* <Route path="/products/plastic-toy" element={<PortfolioPage />} /> 
+          <Route path="/upvc/tubewell" element={<PortfolioPage />} />  */}
 
-        
-
-         {/* order display only management */}
-         {/* <Route path="/management/order" element={<DisplayOrder />} /> */}
-
-        </Routes> 
+          {/* order display only management */}
+          {/* <Route path="/management/order" element={<DisplayOrder />} /> */}
+        </Routes>
       </AnimatePresence>
-
     </>
   );
 }

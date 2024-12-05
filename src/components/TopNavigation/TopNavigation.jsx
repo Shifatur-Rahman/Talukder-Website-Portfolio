@@ -152,7 +152,7 @@ class TopNavigation extends Component {
                     </NavLink>
                     <NavLink className="navDropdown" to="/products">
                       Product Gallery
-                    </NavLink>
+                    </NavLink> 
                   </div>
                 </div>
               </Nav.Link>

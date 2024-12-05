@@ -23,10 +23,8 @@ import Accordion from 'react-bootstrap/Accordion';
 import Form from 'react-bootstrap/Form';
 import { Nav, Navbar } from "react-bootstrap";
 
-
-
 const Portfolio = () => {
-
+ 
   const [category, setCategory] = useState("all");
   const [activeCategory, setActiveCategory] = useState("all");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -74,10 +72,10 @@ const Portfolio = () => {
       setPages(selectedPage);
     }
   }
-
+ 
   let handleChange = (e) =>{
     setCode(e.target.value)
-  }
+  } 
 
   return (
     <>
@@ -95,55 +93,55 @@ const Portfolio = () => {
               >
                 <div className="filter-buttons">
                   <motion.div layout className="dropdown">
-                    <button
+                    {/* <button
                       value="all"
                       onClick={handleCategory}
                       className={isActive("all")}
                     >
                       ALL
-                    </button>
+                    </button> */}
+
+                      <Button 
+                          value="PLASTIC TOY"
+                          onClick={handleCategory}
+                          className={isActive("PLASTIC TOY")}
+                          style={{ fontSize: "10px" }}
+                        >
+                          TOY
+                        </Button>
                   </motion.div>
 
-                  {/* UPVC */}
+                  
 
-                  {/* <Nav.Link>
-                <NavLink
-                  className={this.state.navbarItem}
-                  to="/"
-                  activeClassName="active to-empty"
-                >
-                  {" "}
-                  Home 
-                </NavLink>
-              </Nav.Link> */}
-                     
+                  {/* UPVC */}
+   
                   <Navbar>
                     <Nav.Link>
                       <div className="dropdown">
                         <button
-                          className={isActive("plastic")}
+                          className={isActive("upvc")}
                           onClick={toggleDropdownPlastic}
                         >
-                          UPVC 
+                          UPVC
                           <span className="dropdown-arrow">
                             {isDropdown ? "▲" : "▼"}
                           </span>
-                        </button> 
+                        </button>
                         {isDropdown && (
                           <div className="dropdown-content">
-                            {/* <NavLink
+                            {/* <Link
                               to="/upvc/tubewell"
-                              activeClassName="active to-empty"
+                              value="TUBEWELL"
                             >    */}
-                              <button
-                                className={isActive("TUBEWELL")}
-                                onClick={handleCategory}
-                                value="TUBEWELL"
-                                style={{ fontSize: "10px", marginTop: "10px" }}
-                              >
-                                TUBEWELL
-                              </button> 
-                            {/* </NavLink> */}
+                            <button
+                              className={isActive("TUBEWELL")}
+                              onClick={handleCategory}                              
+                              style={{ fontSize: "10px", marginTop: "10px" }}
+                              value="TUBEWELL"
+                            >
+                              TUBEWELL
+                            </button>
+                            {/* </Link> */}
 
                             <button
                               value="PRESSURE PIPE"
@@ -153,7 +151,7 @@ const Portfolio = () => {
                             >
                               PRESSURE PIPE
                             </button>
-       
+
                             <button
                               value="PLUMBING PIPE"
                               onClick={handleCategory}
@@ -186,7 +184,6 @@ const Portfolio = () => {
                     </Nav.Link>
                   </Navbar>
 
-
                   {/* Plastic */}
 
                   <div className="dropdown">
@@ -216,47 +213,30 @@ const Portfolio = () => {
                           style={{ fontSize: "10px" }}
                         >
                           PLASTIC HOUSEHOLD
-                        </button>              
-
-                        <Link to="/toys">
-                        <button
-                           value="PLASTIC TOY"
-                           onClick={handleCategory}
-                           className={isActive("PLASTIC TOY")}
-                           style={{ fontSize: "10px" }}
-                        > 
-                          TOY 
                         </button>
-                        </Link>
-                  
 
-{/* 
-                        <NavLink to="/upvc/tubewell"
-                              activeClassName="active to-empty"
-                            >   
-                              <button
-                                className={isActive("TUBEWELL")}
-                                onClick={handleCategory}
-                                value="TUBEWELL"
-                                style={{ fontSize: "10px", marginTop: "10px" }}
-                              >
-                                TUBEWELL
-                              </button>
-                            </NavLink> */}
-
-
+                        {/* <Link to="/products/plastic-toy"> */}
+                        {/* <Button 
+                          value="PLASTIC TOY"
+                          onClick={handleCategory}
+                          className={isActive("PLASTIC TOY")}
+                          style={{ fontSize: "10px" }}
+                        >
+                          TOY
+                        </Button> */}
+                        {/* </Link> */}
                       </div>
                     )}
                   </div>
-
-                  <div className="dropdown">
+    
+                  <div className="dropdown">                    
                     <button
                       value="School Furniture"
                       onClick={handleCategory}
                       className={isActive("School Furniture")}
                     >
                       SCHOOL FURNITURE
-                    </button>
+                    </button>                 
                   </div>
 
                   <div className="dropdown" style={{ flexDirection: "column" }}>
@@ -532,7 +512,7 @@ const Portfolio = () => {
                       {i + 1}
                     </span>
                   );
-                })}
+                })} 
                 <span
                   onClick={() => {
                     handlePage(pages + 1);

@@ -287,24 +287,25 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                             <span className="productPrice">   
                               BDT{" "}
                               {singleItem.price
-                                ? singleItem.price - singleItem.price * 0.15 
+                                ? singleItem.price 
                                 : "0.0"}{" "}
                             </span>
                             <span className="offer fw-700 fs-400 Orange">     
-                              15%
+                              0%
                             </span>
                           </div>
-                          <div className="original-price">
+                          {/* <div className="original-price">
                             <span
                               style={{
                                 textDecoration: "line-through",
                                 fontSize: "16px",
                               }}
+
                               className="fw-700 fs-400 line-height-500 GrayishBlue"
                             >
                               BDT {singleItem.price ? singleItem.price : "0.0"}
                             </span>
-                          </div>
+                          </div> */}
                         </div>
 
                         <div className="cart-plus-minus">
@@ -361,7 +362,21 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                           <button
                             // onClick={handleAddToCart}
                             // onClick={handleShow}
-                            onClick={() => setLgShow(true)}
+
+                            onClick={() => {
+                              if (singleItem.category === "PLASTIC TOY") {
+                                setLgShow(true); // Open modal if the category is PLASTIC TOY
+                              } else {
+                                //alert("This product is not available."); // Show an alert for unavailable products
+                                Swal.fire({
+                                  icon: 'error',
+                                  title: 'Oops...',
+                                  text: 'This product is not available!',
+                                });
+                              }
+                            }}
+
+                            //onClick={() => setLgShow(true)}
                             className="btnCart flex2"
                           >
                             <svg
