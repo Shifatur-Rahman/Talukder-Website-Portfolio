@@ -1,6 +1,6 @@
-.carousel-item-fixed-height{
+/* .carousel-item-fixed-height{
     margin-top: 86px;
-    min-width: 100%;
+    width: 100%;
 }
 
 .carousel-item-fixed-height img {
@@ -11,5 +11,14 @@
 .carousel-item-fixed-height{
     margin-top: 50px;
     min-width: 100%;
+} */
+ 
+@media screen and (max-width: 1300px) {
+   .carousel-item-fixed-height{
+    margin-top: 5rem;
+    height: 200px;
+   }
+   .carousel-item-fixed-height img{
+    height: 200px;
+   }
 }
-
