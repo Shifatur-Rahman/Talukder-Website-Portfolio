@@ -856,8 +856,8 @@ const ProductDetails = ({ productQuantity, setProductQuantity, setCartProductQua
                                 fontWeight: "600",
                                 marginLeft: "5px",
                               }}
-                            >
-                              4.5 out of 5 (5 Review)
+                            > 
+                              4.5 out of 5 (5 Review) 
                             </p>
                             <Stack spacing={1}>
                               <Rating

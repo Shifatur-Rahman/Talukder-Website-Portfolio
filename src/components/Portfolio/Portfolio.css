@@ -33,7 +33,8 @@
 }
 
 .portfolio-item {
-  width: calc(25% - 10px);
+  /* width: calc(25% - 10px);  */
+  width: 400px;
   /* height: 320px; */
   margin-bottom: 7px !important;
   /* margin-right: 2px !important; */
