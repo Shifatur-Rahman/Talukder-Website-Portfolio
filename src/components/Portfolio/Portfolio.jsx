@@ -82,8 +82,8 @@ const Portfolio = () => {
       {/* {loading ? (
         <Spinner />
       ) : ( */}
-      <div style={{ background: "#f2f2f2" }}>
-        <Container fluid="md">
+      <div style={{ background: "#f2f2f2" }}> 
+        <div style={{margin:"0 3rem"}}>
           <Row>
             <Col
               style={{ marginBottom: "10px", background: "#f2f2f2f" }}
@@ -315,7 +315,7 @@ const Portfolio = () => {
                         className="portfolio-item-img"
                         src={`${item.imgSrc}`}
                         alt={item.title}
-                        style={{ cursor: "pointer", }}
+                        style={{ cursor: "pointer" }}
                         onClick={() => handleImageClick(item.imgSrc[0])} 
                       /> 
    
@@ -528,7 +528,7 @@ const Portfolio = () => {
               </span>
             </div>
           </Row>
-        </Container>
+        </div>
       </div>
       {/* )} */}
     </>
