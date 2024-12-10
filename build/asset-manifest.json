@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ac45d49.css",
-    "main.js": "/static/js/main.97a8595a.js",
+    "main.css": "/static/css/main.a0050e48.css",
+    "main.js": "/static/js/main.2e6ca2c6.js",
     "static/media/Household_Product2.mp4": "/static/media/Household_Product2.54786f1d2abace9a0218.mp4",
     "static/media/King_Chair_Advertise.mp4": "/static/media/King_Chair_Advertise.d63164557070a4733aa7.mp4",
     "static/media/Pipe_Advertise_2.mp4": "/static/media/Pipe_Advertise_2.0bd6befbdcdd65c40bc3.mp4",
@@ -110,6 +110,7 @@
     "static/media/dining15.jpg": "/static/media/dining15.3643f3966e7a74846ba9.jpg",
     "static/media/gallery35.jpg": "/static/media/gallery35.fc0b6f87d4711ae76912.jpg",
     "static/media/bed23.jpg": "/static/media/bed23.6563c7635f702f81deb5.jpg",
+    "static/media/06.jpg": "/static/media/06.c62e6fad400c5252411c.jpg",
     "static/media/gallery34.jpg": "/static/media/gallery34.03034993ee7862e94a16.jpg",
     "static/media/bed28.jpg": "/static/media/bed28.3fc1c3d0b4a0832117be.jpg",
     "static/media/awards4.jpg": "/static/media/awards4.8d827445ac912c4e6d3a.jpg",
@@ -123,7 +124,6 @@
     "static/media/gallery43.jpg": "/static/media/gallery43.22c7aac369000f9c1db3.jpg",
     "static/media/8.jpg": "/static/media/8.f08d0bb2d9c259425085.jpg",
     "static/media/dining2.jpg": "/static/media/dining2.e9cd8fde375391bf1b83.jpg",
-    "static/media/06.jpg": "/static/media/06.c62e6fad400c5252411c.jpg",
     "static/media/gallery29.jpg": "/static/media/gallery29.0ecf26f5187950765866.jpg",
     "static/media/5.jpg": "/static/media/5.d36cbc53955afc9c8751.jpg",
     "static/media/04.jpg": "/static/media/04.45f2c53f82661dd22569.jpg",
@@ -462,11 +462,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.4ac45d49.css.map": "/static/css/main.4ac45d49.css.map",
-    "main.97a8595a.js.map": "/static/js/main.97a8595a.js.map"
+    "main.a0050e48.css.map": "/static/css/main.a0050e48.css.map",
+    "main.2e6ca2c6.js.map": "/static/js/main.2e6ca2c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac45d49.css",
-    "static/js/main.97a8595a.js"
+    "static/css/main.a0050e48.css",
+    "static/js/main.2e6ca2c6.js"
   ]
 }

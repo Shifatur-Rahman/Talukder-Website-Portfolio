@@ -428,9 +428,9 @@ const Portfolio = () => {
                               {item.product}{" "}
                             </span>
                           </p>
-                        )}
-
-                        {item.button && (
+                        )} 
+  
+                        {item.button && ( 
                           <div style={{ marginLeft: "10px" }}>
                             <Link to={`/product/${item.category}/${item.id}`}>
                               <Button

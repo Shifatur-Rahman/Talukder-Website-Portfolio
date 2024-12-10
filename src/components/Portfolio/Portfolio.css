@@ -176,13 +176,13 @@
 
             @media only screen and (min-width: 1900px) {
               .portfolio-item {
-                width: calc(20% - 10px);
+                width: calc(20% - 15px);
               }
             }
       
             @media only screen and (max-width: 1500px) {
               .portfolio-item {
-                width: calc(25% - 10px);
+                width: calc(25% - 15px);
               }
             }
       

@@ -7773,16 +7773,16 @@ const ProductItems = [
     imgSrc: lged1,
     button: "Details"
   },
-  {
-    id: 254,
-    title: "Teacher Table",
-    code: "40106/40107/40010/40004",
-    color: "#ba5645/#05014a/orange/#000",
-    size: "Normal/ Extra Hieght/ Special Extra Height",
-    category: "School Furniture",
-    imgSrc: lged10,
-    button: "Details"
-  },
+  // {
+  //   id: 254,
+  //   title: "Teacher Table",
+  //   code: "40106/40107/40010/40004",
+  //   color: "#ba5645/#05014a/orange/#000",
+  //   size: "Normal/ Extra Hieght/ Special Extra Height",
+  //   category: "School Furniture",
+  //   imgSrc: lged10,
+  //   button: "Details"
+  // },
   {
     id: 255,
     title: "Teacher Chair",
