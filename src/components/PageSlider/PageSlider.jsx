@@ -8,7 +8,7 @@ import slider5 from "../../asset/images/PageTop Slider/slider5.jpg";
 import slider6 from "../../asset/images/PageTop Slider/slider6.jpg";
 import slider7 from "../../asset/images/PageTop Slider/slider7.jpg";
 import slider8 from "../../asset/images/PageTop Slider/slider8.jpg";
-import "./PageSlider.css"
+import "./PageSlider.css" 
 
 const PageSlider = () => {
   return (

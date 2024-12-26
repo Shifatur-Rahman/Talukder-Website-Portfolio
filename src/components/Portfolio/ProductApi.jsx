@@ -2302,7 +2302,7 @@ const ProductItems = [
       code: "14226/14227/14228",
       color: "red/#12279e/#4A7E8B",
       button: "Details"
-    },
+    },  
     {
       id: 1844,
       category: "PLASTIC HOUSEHOLD",
@@ -2318,18 +2318,18 @@ const ProductItems = [
       imgSrc: plastichousehold45,
       title: "Drinking Glass",
       code: "14222/14223/14224",
-      color: "#90EE90/pink/#fff",
-      button: "Details"
+      color: "#90EE90/pink/#fff", 
+      button: "Details" 
     },
-    {
-      id: 1846,
-      category: "PLASTIC HOUSEHOLD",
-      imgSrc: plastichousehold46,
-      title: "Dispossible Plate",
-      code: "17150/17151/17152",
-      color: "#90EE90/#4A7E8B/#FFFEF7",
-      button: "Details"
-    },
+    // {
+    //   id: 1846,
+    //   category: "PLASTIC HOUSEHOLD",
+    //   imgSrc: plastichousehold46,
+    //   title: "Dispossible Plate",
+    //   code: "17150/17151/17152",
+    //   color: "#90EE90/#4A7E8B/#FFFEF7",
+    //   button: "Details"
+    // },
     {
       id: 1847,
       category: "PLASTIC HOUSEHOLD",
@@ -7719,7 +7719,7 @@ const ProductItems = [
     size: "L 2100 X W 1650 X H 1200",
     button: "Details",
     material: ""
-  },
+  }, 
   { 
     id: 6509,
     title: "MD/Director Table",

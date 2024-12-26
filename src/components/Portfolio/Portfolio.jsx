@@ -7,9 +7,9 @@ import { Row, Col, Button } from "react-bootstrap";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import IconButton from "@mui/material/IconButton";
-import CloseIcon from "@mui/icons-material/Close";
-import "aos/dist/aos.css";
-import PageLoader from "../PageLoader/PageLoader";
+import CloseIcon from "@mui/icons-material/Close"; 
+import "aos/dist/aos.css"; 
+import PageLoader from "../PageLoader/PageLoader"; 
 import Spinner from "../Spinner/Spinner";
 import UpvcModal1 from "../UpvcModal1/UpvcModal1";
 // import { Blurhash } from "react-blurhash";
@@ -288,9 +288,9 @@ const Portfolio = () => {
                 animate={{ opacity: 1 }}
                 initial={{ opacity: 0 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 2 }}
+                transition={{ duration: 2 }} 
                 layout
-                className="portfolio-grid" 
+                className="portfolio-grid"  
               >
                 {portfolioItems
                   .filter((item) => {
@@ -299,7 +299,7 @@ const Portfolio = () => {
                     } else {
                       return item.category === category;
                     }
-                  })
+                  }) 
                   .slice(pages * 30 - 30, pages * 30)
                   .map((item) => (
                     <motion.div
@@ -317,6 +317,7 @@ const Portfolio = () => {
                         alt={item.title}
                         style={{ cursor: "pointer" }}
                         onClick={() => handleImageClick(item.imgSrc[0])} 
+                        loading="lazy" 
                       /> 
    
                       <div 
